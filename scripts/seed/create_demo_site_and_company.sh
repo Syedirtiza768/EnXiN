@@ -84,6 +84,10 @@ bench_dir = "/home/frappe/frappe-bench"
 sites_dir = f"{bench_dir}/sites"
 os.chdir(bench_dir)
 
+# Ensure expected log paths exist for frappe logger initialization.
+os.makedirs("/home/frappe/logs", exist_ok=True)
+os.makedirs(f"{sites_dir}/{site}/logs", exist_ok=True)
+
 frappe.init(site=site, sites_path=sites_dir)
 frappe.connect()
 
