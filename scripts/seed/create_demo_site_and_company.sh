@@ -79,7 +79,12 @@ abbr = os.environ["DEMO_COMPANY_ABBR"]
 country = os.environ["DEMO_COUNTRY"]
 currency = os.environ["DEMO_CURRENCY"]
 
-frappe.init(site=site)
+# Ensure frappe resolves site from bench runtime paths inside container.
+bench_dir = "/home/frappe/frappe-bench"
+sites_dir = f"{bench_dir}/sites"
+os.chdir(bench_dir)
+
+frappe.init(site=site, sites_path=sites_dir)
 frappe.connect()
 
 from erpnext.seed.demo_setup import ensure_company
