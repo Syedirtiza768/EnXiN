@@ -16,9 +16,40 @@ def _read_csv(path: Path):
 def _ensure_exists(doctype: str, value: str):
 	if not value:
 		return
+
+	# Handle key setup doctypes with explicit naming fields.
+	if doctype == "Customer Group":
+		if frappe.db.exists("Customer Group", {"customer_group_name": value}):
+			return
+		doc = frappe.new_doc("Customer Group")
+		doc.customer_group_name = value
+		doc.parent_customer_group = "All Customer Groups"
+		doc.is_group = 0
+		doc.insert(ignore_permissions=True)
+		return
+
+	if doctype == "Supplier Group":
+		if frappe.db.exists("Supplier Group", {"supplier_group_name": value}):
+			return
+		doc = frappe.new_doc("Supplier Group")
+		doc.supplier_group_name = value
+		doc.parent_supplier_group = "All Supplier Groups"
+		doc.is_group = 0
+		doc.insert(ignore_permissions=True)
+		return
+
+	if doctype == "Territory":
+		if frappe.db.exists("Territory", {"territory_name": value}):
+			return
+		doc = frappe.new_doc("Territory")
+		doc.territory_name = value
+		doc.parent_territory = "All Territories"
+		doc.is_group = 0
+		doc.insert(ignore_permissions=True)
+		return
+
 	if not frappe.db.exists(doctype, value):
 		doc = frappe.new_doc(doctype)
-		# Works for simple setup doctypes where name follows title field.
 		if "name" in doc.meta.get_valid_columns():
 			doc.name = value
 		doc.insert(ignore_permissions=True)
