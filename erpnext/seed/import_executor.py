@@ -221,10 +221,27 @@ def _import_item_prices(rows):
 	return {"inserted": inserted, "skipped": skipped, "errors": errors}
 
 
-def _resolve_company(seed_company: str, company_override: str | None):
+def _auto_create_company(name: str, country: str = "Pakistan", currency: str = "PKR"):
+	"""Create a minimal Company record so the seed import can proceed."""
+	if frappe.db.exists("Company", name):
+		return
+	abbr = "".join(w[0] for w in name.split() if w).upper()[:4]
+	doc = frappe.get_doc({
+		"doctype": "Company",
+		"company_name": name,
+		"abbr": abbr,
+		"country": country,
+		"default_currency": currency,
+	})
+	doc.insert(ignore_permissions=True)
+	frappe.db.commit()
+
+
+def _resolve_company(seed_company: str, company_override: str | None,
+                     country: str = "Pakistan", currency: str = "PKR"):
 	if company_override:
 		if not frappe.db.exists("Company", company_override):
-			frappe.throw(f"company_override not found: {company_override}")
+			_auto_create_company(company_override, country, currency)
 		return company_override
 
 	if frappe.db.exists("Company", seed_company):
@@ -274,7 +291,9 @@ def import_seed(seed_dir: str = "seed_output", company_override: str | None = No
 	address_rows = _read_csv(base / "Address.csv")
 
 	seed_company = company_rows[0].get("name") if company_rows else ""
-	target_company = _resolve_company(seed_company, company_override)
+	seed_country = company_rows[0].get("country", "Pakistan") if company_rows else "Pakistan"
+	seed_currency = company_rows[0].get("default_currency", "PKR") if company_rows else "PKR"
+	target_company = _resolve_company(seed_company, company_override, seed_country, seed_currency)
 
 	for row in warehouse_rows:
 		if row.get("company") == seed_company:
