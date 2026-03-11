@@ -7,7 +7,7 @@ if [ "$#" -lt 2 ]; then
   exit 1
 fi
 
-SITE_NAME="$1"
+SITE_NAME_INPUT="$1"
 COMPANY_NAME="$2"
 COMPANY_ABBR="${3:-GBC}"
 COUNTRY="${4:-Pakistan}"
@@ -23,6 +23,9 @@ fi
 
 # shellcheck disable=SC1091
 source .env
+
+# Preserve CLI-provided site name; .env may also define SITE_NAME.
+SITE_NAME="$SITE_NAME_INPUT"
 
 if ! docker compose ps backend >/dev/null 2>&1; then
   echo "ERROR: backend service not available. Start stack with docker compose up -d"
@@ -59,8 +62,38 @@ echo "Setting default site"
 docker compose exec -T backend bench use "$SITE_NAME"
 
 echo "Ensuring company: $COMPANY_NAME"
-KWARGS="{'company_name':'$COMPANY_NAME','abbr':'$COMPANY_ABBR','country':'$COUNTRY','currency':'$CURRENCY','set_global_defaults':1}"
-docker compose exec -T backend \
-  bench --site "$SITE_NAME" execute erpnext.seed.demo_setup.ensure_company --kwargs "$KWARGS"
+docker compose exec -T \
+  -e DEMO_SITE_NAME="$SITE_NAME" \
+  -e DEMO_COMPANY_NAME="$COMPANY_NAME" \
+  -e DEMO_COMPANY_ABBR="$COMPANY_ABBR" \
+  -e DEMO_COUNTRY="$COUNTRY" \
+  -e DEMO_CURRENCY="$CURRENCY" \
+  backend \
+  python - <<'PY'
+import os
+import frappe
+
+site = os.environ["DEMO_SITE_NAME"]
+company_name = os.environ["DEMO_COMPANY_NAME"]
+abbr = os.environ["DEMO_COMPANY_ABBR"]
+country = os.environ["DEMO_COUNTRY"]
+currency = os.environ["DEMO_CURRENCY"]
+
+frappe.init(site=site)
+frappe.connect()
+
+from erpnext.seed.demo_setup import ensure_company
+
+result = ensure_company(
+    company_name=company_name,
+    abbr=abbr,
+    country=country,
+    currency=currency,
+    set_global_defaults=True,
+)
+print(result)
+
+frappe.destroy()
+PY
 
 echo "Done. Site '$SITE_NAME' and company '$COMPANY_NAME' are ready for demo seed import."
