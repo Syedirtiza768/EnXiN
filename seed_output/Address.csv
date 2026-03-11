@@ -1,0 +1,72 @@
+name,address_title,address_type,address_line1,city,country,links
+ADDR-CUST-0001,Services Diagnostic Lab 01,Billing,Block 3 DHA,Lahore,Pakistan,Customer::Services Diagnostic Lab 01
+ADDR-CUST-0002,Jinnah Medical College 02,Billing,Block 11 Shadman,Lahore,Pakistan,Customer::Jinnah Medical College 02
+ADDR-CUST-0003,Jinnah Diagnostic Lab 03,Billing,Block 1 Johar Town,Lahore,Pakistan,Customer::Jinnah Diagnostic Lab 03
+ADDR-CUST-0004,Prime Hospital 04,Billing,Block 5 Iqbal Town,Lahore,Pakistan,Customer::Prime Hospital 04
+ADDR-CUST-0005,Lahore Diagnostic Hospital 05,Billing,Block 3 DHA,Lahore,Pakistan,Customer::Lahore Diagnostic Hospital 05
+ADDR-CUST-0006,Noor Diagnostic Lab 06,Billing,Block 5 Shadman,Lahore,Pakistan,Customer::Noor Diagnostic Lab 06
+ADDR-CUST-0007,Medix Diagnostic Lab 07,Billing,Block 13 Johar Town,Lahore,Pakistan,Customer::Medix Diagnostic Lab 07
+ADDR-CUST-0008,Prime Hospital 08,Billing,Block 5 Shadman,Lahore,Pakistan,Customer::Prime Hospital 08
+ADDR-CUST-0009,Mayo Diagnostic Lab 09,Billing,Block 10 Johar Town,Lahore,Pakistan,Customer::Mayo Diagnostic Lab 09
+ADDR-CUST-0010,Jinnah Hospital 10,Billing,Block 4 Shadman,Lahore,Pakistan,Customer::Jinnah Hospital 10
+ADDR-CUST-0011,Noor Medical College 11,Billing,Block 19 Johar Town,Lahore,Pakistan,Customer::Noor Medical College 11
+ADDR-CUST-0012,Medix Clinic 12,Billing,Block 2 DHA,Lahore,Pakistan,Customer::Medix Clinic 12
+ADDR-CUST-0013,City Care Clinic 13,Billing,Block 10 Cantt,Lahore,Pakistan,Customer::City Care Clinic 13
+ADDR-CUST-0014,Medix Hospital 14,Billing,Block 10 Shadman,Lahore,Pakistan,Customer::Medix Hospital 14
+ADDR-CUST-0015,Prime Clinic 15,Billing,Block 7 Wapda Town,Lahore,Pakistan,Customer::Prime Clinic 15
+ADDR-CUST-0016,Services Medical College 16,Billing,Block 12 Shadman,Lahore,Pakistan,Customer::Services Medical College 16
+ADDR-CUST-0017,Central Clinic 17,Billing,Block 16 Wapda Town,Lahore,Pakistan,Customer::Central Clinic 17
+ADDR-CUST-0018,Medix Hospital 18,Billing,Block 15 Township,Lahore,Pakistan,Customer::Medix Hospital 18
+ADDR-CUST-0019,Shalimar Diagnostic Lab 19,Billing,Block 19 DHA,Lahore,Pakistan,Customer::Shalimar Diagnostic Lab 19
+ADDR-CUST-0020,Noor Hospital 20,Billing,Block 5 Shadman,Lahore,Pakistan,Customer::Noor Hospital 20
+ADDR-CUST-0021,Shalimar Diagnostic Lab 21,Billing,Block 11 Iqbal Town,Lahore,Pakistan,Customer::Shalimar Diagnostic Lab 21
+ADDR-CUST-0022,Shalimar Medical College 22,Billing,Block 8 Cantt,Lahore,Pakistan,Customer::Shalimar Medical College 22
+ADDR-CUST-0023,Medix Clinic 23,Billing,Block 4 Shadman,Lahore,Pakistan,Customer::Medix Clinic 23
+ADDR-CUST-0024,Central Clinic 24,Billing,Block 3 Cantt,Lahore,Pakistan,Customer::Central Clinic 24
+ADDR-CUST-0025,Lahore Diagnostic Diagnostic Lab 25,Billing,Block 6 Shadman,Lahore,Pakistan,Customer::Lahore Diagnostic Diagnostic Lab 25
+ADDR-CUST-0026,Lahore Diagnostic Medical College 26,Billing,Block 5 Wapda Town,Lahore,Pakistan,Customer::Lahore Diagnostic Medical College 26
+ADDR-CUST-0027,Prime Diagnostic Lab 27,Billing,Block 17 DHA,Lahore,Pakistan,Customer::Prime Diagnostic Lab 27
+ADDR-CUST-0028,Shalimar Medical College 28,Billing,Block 14 Model Town,Lahore,Pakistan,Customer::Shalimar Medical College 28
+ADDR-CUST-0029,Jinnah Hospital 29,Billing,Block 5 Iqbal Town,Lahore,Pakistan,Customer::Jinnah Hospital 29
+ADDR-CUST-0030,Services Medical College 30,Billing,Block 12 Township,Lahore,Pakistan,Customer::Services Medical College 30
+ADDR-CUST-0031,Prime Medical College 31,Billing,Block 17 Gulberg,Lahore,Pakistan,Customer::Prime Medical College 31
+ADDR-CUST-0032,Noor Medical College 32,Billing,Block 6 Cantt,Lahore,Pakistan,Customer::Noor Medical College 32
+ADDR-CUST-0033,LifeLine Hospital 33,Billing,Block 12 Cantt,Lahore,Pakistan,Customer::LifeLine Hospital 33
+ADDR-CUST-0034,Medix Diagnostic Lab 34,Billing,Block 14 Wapda Town,Lahore,Pakistan,Customer::Medix Diagnostic Lab 34
+ADDR-CUST-0035,Medix Hospital 35,Billing,Block 17 Shadman,Lahore,Pakistan,Customer::Medix Hospital 35
+ADDR-CUST-0036,Central Clinic 36,Billing,Block 11 Gulberg,Lahore,Pakistan,Customer::Central Clinic 36
+ADDR-CUST-0037,Al-Rehman Diagnostic Lab 37,Billing,Block 19 Cantt,Lahore,Pakistan,Customer::Al-Rehman Diagnostic Lab 37
+ADDR-CUST-0038,LifeLine Hospital 38,Billing,Block 8 Johar Town,Lahore,Pakistan,Customer::LifeLine Hospital 38
+ADDR-CUST-0039,Medix Clinic 39,Billing,Block 17 Johar Town,Lahore,Pakistan,Customer::Medix Clinic 39
+ADDR-CUST-0040,Services Clinic 40,Billing,Block 19 Gulberg,Lahore,Pakistan,Customer::Services Clinic 40
+ADDR-SUP-0041,BioMed Supplier 001,Office,Block 20 Garden Town,Lahore,Pakistan,Supplier::BioMed Supplier 001
+ADDR-SUP-0042,BioMed Supplier 002,Office,Block 10 Cantt,Lahore,Pakistan,Supplier::BioMed Supplier 002
+ADDR-SUP-0043,BioMed Supplier 003,Office,Block 17 Iqbal Town,Lahore,Pakistan,Supplier::BioMed Supplier 003
+ADDR-SUP-0044,BioMed Supplier 004,Office,Block 13 Wapda Town,Lahore,Pakistan,Supplier::BioMed Supplier 004
+ADDR-SUP-0045,BioMed Supplier 005,Office,Block 11 Gulberg,Lahore,Pakistan,Supplier::BioMed Supplier 005
+ADDR-SUP-0046,BioMed Supplier 006,Office,Block 10 Johar Town,Lahore,Pakistan,Supplier::BioMed Supplier 006
+ADDR-SUP-0047,BioMed Supplier 007,Office,Block 18 Shadman,Lahore,Pakistan,Supplier::BioMed Supplier 007
+ADDR-SUP-0048,BioMed Supplier 008,Office,Block 19 Iqbal Town,Lahore,Pakistan,Supplier::BioMed Supplier 008
+ADDR-SUP-0049,BioMed Supplier 009,Office,Block 11 Gulberg,Lahore,Pakistan,Supplier::BioMed Supplier 009
+ADDR-SUP-0050,BioMed Supplier 010,Office,Block 17 Johar Town,Lahore,Pakistan,Supplier::BioMed Supplier 010
+ADDR-SUP-0051,BioMed Supplier 011,Office,Block 5 Township,Lahore,Pakistan,Supplier::BioMed Supplier 011
+ADDR-SUP-0052,BioMed Supplier 012,Office,Block 10 Iqbal Town,Lahore,Pakistan,Supplier::BioMed Supplier 012
+ADDR-SUP-0053,BioMed Supplier 013,Office,Block 10 Garden Town,Lahore,Pakistan,Supplier::BioMed Supplier 013
+ADDR-SUP-0054,BioMed Supplier 014,Office,Block 8 Johar Town,Lahore,Pakistan,Supplier::BioMed Supplier 014
+ADDR-SUP-0055,BioMed Supplier 015,Office,Block 1 Cantt,Lahore,Pakistan,Supplier::BioMed Supplier 015
+ADDR-SUP-0056,BioMed Supplier 016,Office,Block 14 Wapda Town,Lahore,Pakistan,Supplier::BioMed Supplier 016
+ADDR-SUP-0057,BioMed Supplier 017,Office,Block 12 Township,Lahore,Pakistan,Supplier::BioMed Supplier 017
+ADDR-SUP-0058,BioMed Supplier 018,Office,Block 12 Cantt,Lahore,Pakistan,Supplier::BioMed Supplier 018
+ADDR-SUP-0059,BioMed Supplier 019,Office,Block 7 Township,Lahore,Pakistan,Supplier::BioMed Supplier 019
+ADDR-SUP-0060,BioMed Supplier 020,Office,Block 11 Cantt,Lahore,Pakistan,Supplier::BioMed Supplier 020
+ADDR-SUP-0061,BioMed Supplier 021,Office,Block 17 Shadman,Lahore,Pakistan,Supplier::BioMed Supplier 021
+ADDR-SUP-0062,BioMed Supplier 022,Office,Block 2 Gulberg,Lahore,Pakistan,Supplier::BioMed Supplier 022
+ADDR-SUP-0063,BioMed Supplier 023,Office,Block 5 Shadman,Lahore,Pakistan,Supplier::BioMed Supplier 023
+ADDR-SUP-0064,BioMed Supplier 024,Office,Block 15 Model Town,Lahore,Pakistan,Supplier::BioMed Supplier 024
+ADDR-SUP-0065,BioMed Supplier 025,Office,Block 11 Wapda Town,Lahore,Pakistan,Supplier::BioMed Supplier 025
+ADDR-SUP-0066,Waste Disposal Partner 001,Office,Block 15 Iqbal Town,Lahore,Pakistan,Supplier::Waste Disposal Partner 001
+ADDR-SUP-0067,Waste Disposal Partner 002,Office,Block 16 Wapda Town,Lahore,Pakistan,Supplier::Waste Disposal Partner 002
+ADDR-SUP-0068,Waste Disposal Partner 003,Office,Block 9 Wapda Town,Lahore,Pakistan,Supplier::Waste Disposal Partner 003
+ADDR-SUP-0069,Waste Disposal Partner 004,Office,Block 19 Cantt,Lahore,Pakistan,Supplier::Waste Disposal Partner 004
+ADDR-SUP-0070,Waste Disposal Partner 005,Office,Block 12 Model Town,Lahore,Pakistan,Supplier::Waste Disposal Partner 005
+ADDR-SUP-0071,Waste Disposal Partner 006,Office,Block 4 Iqbal Town,Lahore,Pakistan,Supplier::Waste Disposal Partner 006

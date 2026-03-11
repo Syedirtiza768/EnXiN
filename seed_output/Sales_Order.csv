@@ -1,0 +1,1201 @@
+name,naming_series,customer,transaction_date,delivery_date,company,status
+SO-DEMO-000001,SO-.YYYY.-,Medix Clinic 23,2025-01-26,2025-02-06,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000002,SO-.YYYY.-,Al-Rehman Diagnostic Lab 37,2025-05-09,2025-05-13,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000003,SO-.YYYY.-,Prime Hospital 04,2024-04-27,2024-05-02,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000004,SO-.YYYY.-,Mayo Diagnostic Lab 09,2025-10-09,2025-10-16,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000005,SO-.YYYY.-,Prime Hospital 08,2024-10-24,2024-11-03,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000006,SO-.YYYY.-,Lahore Diagnostic Medical College 26,2024-08-08,2024-08-19,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000007,SO-.YYYY.-,Noor Medical College 32,2024-03-28,2024-04-09,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000008,SO-.YYYY.-,LifeLine Hospital 38,2024-12-04,2024-12-08,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000009,SO-.YYYY.-,Al-Rehman Diagnostic Lab 37,2025-09-29,2025-10-07,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000010,SO-.YYYY.-,Al-Rehman Diagnostic Lab 37,2025-10-31,2025-11-03,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000011,SO-.YYYY.-,Noor Diagnostic Lab 06,2025-10-26,2025-11-07,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000012,SO-.YYYY.-,Lahore Diagnostic Hospital 05,2025-05-13,2025-05-20,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000013,SO-.YYYY.-,Prime Diagnostic Lab 27,2025-01-08,2025-01-17,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000014,SO-.YYYY.-,Jinnah Hospital 29,2024-08-15,2024-08-18,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000015,SO-.YYYY.-,Noor Medical College 11,2024-09-28,2024-10-06,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000016,SO-.YYYY.-,Noor Diagnostic Lab 06,2025-02-12,2025-02-19,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000017,SO-.YYYY.-,Shalimar Medical College 28,2024-11-02,2024-11-06,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000018,SO-.YYYY.-,Prime Diagnostic Lab 27,2025-04-04,2025-04-14,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000019,SO-.YYYY.-,Prime Hospital 04,2025-10-16,2025-10-24,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000020,SO-.YYYY.-,Shalimar Diagnostic Lab 19,2024-11-18,2024-11-30,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000021,SO-.YYYY.-,Shalimar Diagnostic Lab 19,2025-08-05,2025-08-08,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000022,SO-.YYYY.-,Medix Hospital 35,2025-09-26,2025-10-04,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000023,SO-.YYYY.-,Services Medical College 30,2026-01-11,2026-01-17,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000024,SO-.YYYY.-,Medix Clinic 23,2026-02-11,2026-02-21,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000025,SO-.YYYY.-,Medix Hospital 35,2025-02-20,2025-03-04,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000026,SO-.YYYY.-,Al-Rehman Diagnostic Lab 37,2024-11-30,2024-12-10,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000027,SO-.YYYY.-,Medix Hospital 14,2025-07-25,2025-07-30,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000028,SO-.YYYY.-,Shalimar Medical College 28,2025-12-29,2026-01-03,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000029,SO-.YYYY.-,Lahore Diagnostic Diagnostic Lab 25,2025-07-27,2025-08-06,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000030,SO-.YYYY.-,Prime Diagnostic Lab 27,2025-06-26,2025-06-29,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000031,SO-.YYYY.-,Medix Diagnostic Lab 07,2024-08-31,2024-09-06,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000032,SO-.YYYY.-,Medix Clinic 12,2025-03-07,2025-03-13,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000033,SO-.YYYY.-,Shalimar Medical College 22,2024-09-01,2024-09-06,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000034,SO-.YYYY.-,Noor Medical College 32,2024-08-02,2024-08-14,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000035,SO-.YYYY.-,Jinnah Hospital 29,2025-09-22,2025-09-29,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000036,SO-.YYYY.-,Prime Diagnostic Lab 27,2025-07-25,2025-08-03,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000037,SO-.YYYY.-,Lahore Diagnostic Hospital 05,2024-09-16,2024-09-22,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000038,SO-.YYYY.-,Medix Diagnostic Lab 34,2025-09-18,2025-09-29,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000039,SO-.YYYY.-,Services Medical College 16,2025-12-29,2025-12-31,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000040,SO-.YYYY.-,Lahore Diagnostic Medical College 26,2024-05-11,2024-05-23,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000041,SO-.YYYY.-,Prime Medical College 31,2025-08-30,2025-09-10,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000042,SO-.YYYY.-,Central Clinic 17,2024-04-15,2024-04-18,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000043,SO-.YYYY.-,Prime Clinic 15,2024-05-27,2024-06-08,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000044,SO-.YYYY.-,Services Diagnostic Lab 01,2026-01-25,2026-02-03,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000045,SO-.YYYY.-,Prime Clinic 15,2024-04-30,2024-05-06,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000046,SO-.YYYY.-,Medix Clinic 23,2024-03-18,2024-03-27,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000047,SO-.YYYY.-,Medix Diagnostic Lab 07,2025-05-08,2025-05-10,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000048,SO-.YYYY.-,Medix Diagnostic Lab 07,2024-07-30,2024-08-08,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000049,SO-.YYYY.-,Noor Hospital 20,2025-12-17,2025-12-22,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000050,SO-.YYYY.-,Medix Clinic 39,2024-11-03,2024-11-11,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000051,SO-.YYYY.-,Central Clinic 17,2024-05-20,2024-05-28,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000052,SO-.YYYY.-,Prime Clinic 15,2026-03-06,2026-03-18,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000053,SO-.YYYY.-,Central Clinic 36,2024-08-13,2024-08-17,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000054,SO-.YYYY.-,Shalimar Medical College 22,2024-03-21,2024-04-02,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000055,SO-.YYYY.-,Shalimar Medical College 22,2024-10-21,2024-10-28,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000056,SO-.YYYY.-,Prime Medical College 31,2025-08-11,2025-08-13,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000057,SO-.YYYY.-,Lahore Diagnostic Diagnostic Lab 25,2025-06-21,2025-07-01,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000058,SO-.YYYY.-,Al-Rehman Diagnostic Lab 37,2025-03-29,2025-04-07,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000059,SO-.YYYY.-,Noor Medical College 32,2024-05-12,2024-05-19,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000060,SO-.YYYY.-,Noor Medical College 11,2025-12-04,2025-12-15,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000061,SO-.YYYY.-,Shalimar Medical College 28,2025-12-25,2026-01-03,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000062,SO-.YYYY.-,Shalimar Diagnostic Lab 21,2026-01-23,2026-02-02,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000063,SO-.YYYY.-,Medix Clinic 23,2025-12-03,2025-12-09,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000064,SO-.YYYY.-,Jinnah Diagnostic Lab 03,2025-07-19,2025-07-25,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000065,SO-.YYYY.-,Mayo Diagnostic Lab 09,2026-01-16,2026-01-23,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000066,SO-.YYYY.-,Lahore Diagnostic Medical College 26,2025-07-24,2025-07-26,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000067,SO-.YYYY.-,Prime Hospital 08,2024-03-28,2024-04-04,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000068,SO-.YYYY.-,Central Clinic 17,2024-03-18,2024-03-28,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000069,SO-.YYYY.-,Prime Hospital 08,2025-09-07,2025-09-15,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000070,SO-.YYYY.-,Services Diagnostic Lab 01,2025-09-27,2025-10-03,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000071,SO-.YYYY.-,Medix Diagnostic Lab 07,2025-05-07,2025-05-17,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000072,SO-.YYYY.-,Medix Clinic 39,2024-03-24,2024-03-29,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000073,SO-.YYYY.-,Central Clinic 36,2024-03-29,2024-04-07,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000074,SO-.YYYY.-,Prime Hospital 08,2025-09-05,2025-09-16,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000075,SO-.YYYY.-,Lahore Diagnostic Hospital 05,2024-12-18,2024-12-21,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000076,SO-.YYYY.-,Shalimar Diagnostic Lab 19,2025-09-11,2025-09-17,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000077,SO-.YYYY.-,Shalimar Diagnostic Lab 21,2024-12-30,2025-01-07,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000078,SO-.YYYY.-,Services Diagnostic Lab 01,2024-03-29,2024-04-02,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000079,SO-.YYYY.-,Noor Diagnostic Lab 06,2025-08-08,2025-08-15,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000080,SO-.YYYY.-,Lahore Diagnostic Diagnostic Lab 25,2026-02-24,2026-03-05,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000081,SO-.YYYY.-,Noor Medical College 11,2026-01-31,2026-02-03,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000082,SO-.YYYY.-,Lahore Diagnostic Diagnostic Lab 25,2025-05-26,2025-06-02,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000083,SO-.YYYY.-,Mayo Diagnostic Lab 09,2024-09-11,2024-09-20,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000084,SO-.YYYY.-,Medix Diagnostic Lab 34,2024-06-29,2024-07-10,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000085,SO-.YYYY.-,Medix Diagnostic Lab 34,2024-06-18,2024-06-28,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000086,SO-.YYYY.-,Medix Clinic 23,2025-08-30,2025-09-11,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000087,SO-.YYYY.-,Central Clinic 36,2024-08-11,2024-08-22,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000088,SO-.YYYY.-,Noor Medical College 11,2024-11-13,2024-11-16,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000089,SO-.YYYY.-,Prime Hospital 04,2024-09-24,2024-10-04,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000090,SO-.YYYY.-,Jinnah Hospital 29,2025-12-06,2025-12-17,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000091,SO-.YYYY.-,Lahore Diagnostic Medical College 26,2025-09-02,2025-09-10,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000092,SO-.YYYY.-,Medix Clinic 39,2024-11-25,2024-12-06,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000093,SO-.YYYY.-,Central Clinic 24,2025-03-09,2025-03-11,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000094,SO-.YYYY.-,Medix Clinic 39,2024-12-10,2024-12-19,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000095,SO-.YYYY.-,Shalimar Medical College 22,2025-04-22,2025-04-29,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000096,SO-.YYYY.-,Noor Medical College 11,2024-05-31,2024-06-09,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000097,SO-.YYYY.-,Prime Hospital 08,2025-03-29,2025-04-06,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000098,SO-.YYYY.-,LifeLine Hospital 38,2025-05-01,2025-05-04,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000099,SO-.YYYY.-,Mayo Diagnostic Lab 09,2025-06-25,2025-07-04,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000100,SO-.YYYY.-,Medix Clinic 12,2025-10-11,2025-10-22,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000101,SO-.YYYY.-,Lahore Diagnostic Diagnostic Lab 25,2024-11-16,2024-11-24,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000102,SO-.YYYY.-,Mayo Diagnostic Lab 09,2026-02-23,2026-02-27,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000103,SO-.YYYY.-,Central Clinic 36,2024-10-29,2024-11-10,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000104,SO-.YYYY.-,Mayo Diagnostic Lab 09,2025-01-13,2025-01-25,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000105,SO-.YYYY.-,Medix Clinic 23,2026-02-10,2026-02-20,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000106,SO-.YYYY.-,Shalimar Medical College 28,2024-06-02,2024-06-04,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000107,SO-.YYYY.-,Medix Hospital 18,2026-01-10,2026-01-14,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000108,SO-.YYYY.-,Shalimar Diagnostic Lab 19,2026-01-06,2026-01-11,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000109,SO-.YYYY.-,Central Clinic 36,2024-04-13,2024-04-21,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000110,SO-.YYYY.-,Prime Diagnostic Lab 27,2024-06-15,2024-06-27,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000111,SO-.YYYY.-,Prime Clinic 15,2025-05-01,2025-05-13,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000112,SO-.YYYY.-,Medix Hospital 35,2025-04-04,2025-04-15,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000113,SO-.YYYY.-,Medix Clinic 12,2025-04-02,2025-04-12,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000114,SO-.YYYY.-,LifeLine Hospital 38,2025-09-28,2025-10-04,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000115,SO-.YYYY.-,Jinnah Diagnostic Lab 03,2025-07-12,2025-07-16,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000116,SO-.YYYY.-,Services Clinic 40,2024-05-08,2024-05-20,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000117,SO-.YYYY.-,Prime Clinic 15,2025-12-24,2025-12-28,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000118,SO-.YYYY.-,Medix Clinic 23,2024-03-21,2024-03-26,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000119,SO-.YYYY.-,Services Diagnostic Lab 01,2026-03-01,2026-03-04,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000120,SO-.YYYY.-,Services Clinic 40,2024-09-03,2024-09-14,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000121,SO-.YYYY.-,Medix Hospital 35,2024-06-04,2024-06-10,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000122,SO-.YYYY.-,Jinnah Hospital 29,2025-08-05,2025-08-14,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000123,SO-.YYYY.-,Medix Hospital 35,2025-05-30,2025-06-09,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000124,SO-.YYYY.-,Medix Diagnostic Lab 07,2026-01-01,2026-01-06,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000125,SO-.YYYY.-,Services Medical College 30,2025-02-14,2025-02-21,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000126,SO-.YYYY.-,Prime Clinic 15,2025-10-12,2025-10-18,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000127,SO-.YYYY.-,Prime Hospital 08,2024-06-17,2024-06-27,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000128,SO-.YYYY.-,Lahore Diagnostic Hospital 05,2025-09-03,2025-09-10,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000129,SO-.YYYY.-,Jinnah Hospital 29,2024-04-24,2024-05-02,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000130,SO-.YYYY.-,Lahore Diagnostic Medical College 26,2024-11-02,2024-11-12,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000131,SO-.YYYY.-,Central Clinic 36,2024-10-14,2024-10-24,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000132,SO-.YYYY.-,Medix Hospital 14,2026-02-18,2026-02-25,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000133,SO-.YYYY.-,Central Clinic 17,2025-10-13,2025-10-18,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000134,SO-.YYYY.-,Central Clinic 36,2025-07-11,2025-07-14,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000135,SO-.YYYY.-,Medix Clinic 23,2024-12-14,2024-12-18,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000136,SO-.YYYY.-,Noor Medical College 32,2024-04-28,2024-05-07,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000137,SO-.YYYY.-,Shalimar Diagnostic Lab 21,2024-05-27,2024-06-04,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000138,SO-.YYYY.-,Shalimar Medical College 28,2026-02-10,2026-02-16,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000139,SO-.YYYY.-,Medix Clinic 23,2024-12-24,2024-12-30,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000140,SO-.YYYY.-,Mayo Diagnostic Lab 09,2025-09-19,2025-09-29,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000141,SO-.YYYY.-,LifeLine Hospital 33,2025-10-10,2025-10-22,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000142,SO-.YYYY.-,Medix Hospital 14,2026-01-14,2026-01-16,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000143,SO-.YYYY.-,Prime Clinic 15,2024-04-14,2024-04-25,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000144,SO-.YYYY.-,LifeLine Hospital 33,2024-09-11,2024-09-13,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000145,SO-.YYYY.-,Noor Medical College 11,2025-01-28,2025-02-01,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000146,SO-.YYYY.-,Prime Clinic 15,2024-03-28,2024-04-06,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000147,SO-.YYYY.-,Central Clinic 24,2024-10-10,2024-10-18,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000148,SO-.YYYY.-,Shalimar Diagnostic Lab 21,2025-11-03,2025-11-06,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000149,SO-.YYYY.-,Central Clinic 17,2024-08-06,2024-08-17,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000150,SO-.YYYY.-,Central Clinic 17,2026-03-11,2026-03-19,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000151,SO-.YYYY.-,Medix Clinic 23,2025-04-23,2025-05-02,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000152,SO-.YYYY.-,Jinnah Hospital 29,2024-05-29,2024-06-02,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000153,SO-.YYYY.-,Central Clinic 24,2025-01-12,2025-01-23,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000154,SO-.YYYY.-,Prime Medical College 31,2024-08-25,2024-09-03,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000155,SO-.YYYY.-,Jinnah Medical College 02,2025-10-10,2025-10-15,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000156,SO-.YYYY.-,Al-Rehman Diagnostic Lab 37,2024-11-13,2024-11-17,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000157,SO-.YYYY.-,Shalimar Diagnostic Lab 19,2025-10-13,2025-10-16,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000158,SO-.YYYY.-,Noor Medical College 11,2025-04-14,2025-04-19,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000159,SO-.YYYY.-,Noor Medical College 11,2026-02-03,2026-02-15,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000160,SO-.YYYY.-,Medix Diagnostic Lab 07,2025-09-16,2025-09-18,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000161,SO-.YYYY.-,Prime Medical College 31,2025-02-14,2025-02-25,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000162,SO-.YYYY.-,Noor Diagnostic Lab 06,2025-04-09,2025-04-18,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000163,SO-.YYYY.-,Shalimar Medical College 28,2024-08-02,2024-08-12,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000164,SO-.YYYY.-,Lahore Diagnostic Diagnostic Lab 25,2026-02-15,2026-02-22,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000165,SO-.YYYY.-,Prime Clinic 15,2024-05-31,2024-06-03,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000166,SO-.YYYY.-,Medix Diagnostic Lab 34,2025-08-06,2025-08-09,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000167,SO-.YYYY.-,Medix Diagnostic Lab 07,2025-03-01,2025-03-05,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000168,SO-.YYYY.-,Central Clinic 24,2024-05-05,2024-05-16,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000169,SO-.YYYY.-,Central Clinic 24,2024-06-20,2024-06-30,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000170,SO-.YYYY.-,Mayo Diagnostic Lab 09,2025-06-02,2025-06-14,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000171,SO-.YYYY.-,LifeLine Hospital 33,2024-11-04,2024-11-12,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000172,SO-.YYYY.-,Services Diagnostic Lab 01,2024-05-28,2024-05-31,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000173,SO-.YYYY.-,Noor Diagnostic Lab 06,2025-02-23,2025-03-06,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000174,SO-.YYYY.-,Medix Clinic 39,2025-11-21,2025-11-23,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000175,SO-.YYYY.-,City Care Clinic 13,2025-11-30,2025-12-02,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000176,SO-.YYYY.-,Services Medical College 16,2025-11-11,2025-11-23,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000177,SO-.YYYY.-,Medix Clinic 23,2025-04-22,2025-05-04,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000178,SO-.YYYY.-,Noor Diagnostic Lab 06,2025-02-09,2025-02-19,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000179,SO-.YYYY.-,City Care Clinic 13,2024-04-11,2024-04-20,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000180,SO-.YYYY.-,Lahore Diagnostic Hospital 05,2025-12-21,2025-12-31,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000181,SO-.YYYY.-,Jinnah Hospital 29,2024-12-16,2024-12-24,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000182,SO-.YYYY.-,LifeLine Hospital 38,2025-06-16,2025-06-18,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000183,SO-.YYYY.-,Shalimar Diagnostic Lab 21,2025-07-27,2025-08-04,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000184,SO-.YYYY.-,Noor Diagnostic Lab 06,2024-10-31,2024-11-08,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000185,SO-.YYYY.-,Prime Medical College 31,2025-03-11,2025-03-18,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000186,SO-.YYYY.-,City Care Clinic 13,2025-09-29,2025-10-04,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000187,SO-.YYYY.-,Medix Diagnostic Lab 07,2025-03-31,2025-04-03,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000188,SO-.YYYY.-,Prime Medical College 31,2025-05-28,2025-06-04,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000189,SO-.YYYY.-,Noor Medical College 32,2024-09-18,2024-09-22,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000190,SO-.YYYY.-,Mayo Diagnostic Lab 09,2026-02-06,2026-02-08,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000191,SO-.YYYY.-,Medix Clinic 12,2025-11-01,2025-11-10,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000192,SO-.YYYY.-,Medix Hospital 14,2026-01-17,2026-01-25,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000193,SO-.YYYY.-,Central Clinic 17,2025-04-05,2025-04-10,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000194,SO-.YYYY.-,Prime Diagnostic Lab 27,2024-06-07,2024-06-14,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000195,SO-.YYYY.-,Medix Diagnostic Lab 07,2025-12-05,2025-12-11,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000196,SO-.YYYY.-,Services Diagnostic Lab 01,2025-01-08,2025-01-12,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000197,SO-.YYYY.-,Noor Medical College 32,2024-11-19,2024-11-25,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000198,SO-.YYYY.-,Medix Hospital 14,2026-03-12,2026-03-18,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000199,SO-.YYYY.-,Central Clinic 36,2024-05-26,2024-06-05,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000200,SO-.YYYY.-,Al-Rehman Diagnostic Lab 37,2024-06-04,2024-06-16,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000201,SO-.YYYY.-,Jinnah Hospital 29,2024-12-11,2024-12-14,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000202,SO-.YYYY.-,Shalimar Medical College 22,2024-08-16,2024-08-24,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000203,SO-.YYYY.-,Lahore Diagnostic Hospital 05,2025-04-05,2025-04-08,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000204,SO-.YYYY.-,Lahore Diagnostic Medical College 26,2026-03-10,2026-03-16,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000205,SO-.YYYY.-,Medix Clinic 12,2025-12-21,2025-12-23,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000206,SO-.YYYY.-,Noor Medical College 11,2024-08-16,2024-08-24,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000207,SO-.YYYY.-,Noor Diagnostic Lab 06,2025-04-14,2025-04-17,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000208,SO-.YYYY.-,Services Medical College 16,2025-01-30,2025-02-05,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000209,SO-.YYYY.-,Medix Clinic 23,2025-03-16,2025-03-23,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000210,SO-.YYYY.-,Medix Clinic 39,2024-06-29,2024-07-08,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000211,SO-.YYYY.-,Medix Clinic 23,2024-06-13,2024-06-22,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000212,SO-.YYYY.-,Noor Hospital 20,2024-03-17,2024-03-19,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000213,SO-.YYYY.-,Noor Medical College 32,2025-01-21,2025-01-30,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000214,SO-.YYYY.-,Central Clinic 24,2025-06-10,2025-06-15,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000215,SO-.YYYY.-,Lahore Diagnostic Diagnostic Lab 25,2025-03-15,2025-03-20,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000216,SO-.YYYY.-,Medix Hospital 35,2024-12-13,2024-12-19,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000217,SO-.YYYY.-,Jinnah Hospital 29,2024-06-24,2024-06-30,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000218,SO-.YYYY.-,Jinnah Medical College 02,2024-07-25,2024-07-29,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000219,SO-.YYYY.-,Noor Diagnostic Lab 06,2024-06-09,2024-06-13,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000220,SO-.YYYY.-,Jinnah Diagnostic Lab 03,2024-09-19,2024-09-26,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000221,SO-.YYYY.-,Lahore Diagnostic Hospital 05,2025-05-27,2025-06-06,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000222,SO-.YYYY.-,Services Diagnostic Lab 01,2025-06-14,2025-06-17,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000223,SO-.YYYY.-,Services Medical College 16,2025-10-03,2025-10-05,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000224,SO-.YYYY.-,Lahore Diagnostic Diagnostic Lab 25,2025-10-01,2025-10-13,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000225,SO-.YYYY.-,Central Clinic 17,2025-08-18,2025-08-27,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000226,SO-.YYYY.-,Medix Hospital 14,2025-05-03,2025-05-06,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000227,SO-.YYYY.-,Services Medical College 16,2024-06-25,2024-06-27,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000228,SO-.YYYY.-,Noor Diagnostic Lab 06,2024-04-07,2024-04-12,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000229,SO-.YYYY.-,Medix Clinic 23,2024-06-11,2024-06-23,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000230,SO-.YYYY.-,Central Clinic 36,2025-03-09,2025-03-21,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000231,SO-.YYYY.-,Mayo Diagnostic Lab 09,2025-09-30,2025-10-06,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000232,SO-.YYYY.-,Al-Rehman Diagnostic Lab 37,2024-06-15,2024-06-19,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000233,SO-.YYYY.-,Medix Diagnostic Lab 34,2025-11-13,2025-11-17,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000234,SO-.YYYY.-,Medix Clinic 12,2025-11-14,2025-11-16,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000235,SO-.YYYY.-,Medix Diagnostic Lab 34,2025-02-07,2025-02-19,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000236,SO-.YYYY.-,Medix Diagnostic Lab 07,2025-04-10,2025-04-20,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000237,SO-.YYYY.-,Noor Medical College 32,2024-03-24,2024-03-29,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000238,SO-.YYYY.-,Noor Medical College 32,2025-01-04,2025-01-14,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000239,SO-.YYYY.-,Medix Hospital 14,2025-05-09,2025-05-21,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000240,SO-.YYYY.-,Central Clinic 24,2025-04-13,2025-04-15,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000241,SO-.YYYY.-,Medix Diagnostic Lab 34,2024-06-06,2024-06-09,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000242,SO-.YYYY.-,Services Medical College 16,2025-10-05,2025-10-16,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000243,SO-.YYYY.-,Al-Rehman Diagnostic Lab 37,2024-11-15,2024-11-22,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000244,SO-.YYYY.-,Medix Clinic 12,2025-10-18,2025-10-28,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000245,SO-.YYYY.-,Shalimar Diagnostic Lab 21,2025-08-27,2025-09-06,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000246,SO-.YYYY.-,Services Medical College 16,2024-09-01,2024-09-12,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000247,SO-.YYYY.-,Jinnah Hospital 29,2026-02-11,2026-02-20,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000248,SO-.YYYY.-,Medix Clinic 39,2025-04-05,2025-04-07,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000249,SO-.YYYY.-,Shalimar Diagnostic Lab 21,2024-09-01,2024-09-03,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000250,SO-.YYYY.-,Jinnah Diagnostic Lab 03,2024-08-01,2024-08-10,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000251,SO-.YYYY.-,Central Clinic 17,2024-12-12,2024-12-18,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000252,SO-.YYYY.-,Lahore Diagnostic Hospital 05,2025-01-14,2025-01-21,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000253,SO-.YYYY.-,Al-Rehman Diagnostic Lab 37,2024-12-11,2024-12-19,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000254,SO-.YYYY.-,Shalimar Medical College 28,2025-07-29,2025-08-06,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000255,SO-.YYYY.-,Services Diagnostic Lab 01,2024-08-08,2024-08-20,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000256,SO-.YYYY.-,LifeLine Hospital 33,2024-05-15,2024-05-20,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000257,SO-.YYYY.-,Jinnah Hospital 29,2024-08-30,2024-09-10,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000258,SO-.YYYY.-,Shalimar Medical College 22,2025-05-31,2025-06-03,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000259,SO-.YYYY.-,LifeLine Hospital 33,2024-12-19,2024-12-27,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000260,SO-.YYYY.-,Al-Rehman Diagnostic Lab 37,2025-05-17,2025-05-22,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000261,SO-.YYYY.-,Shalimar Medical College 28,2025-01-12,2025-01-19,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000262,SO-.YYYY.-,City Care Clinic 13,2025-07-20,2025-07-27,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000263,SO-.YYYY.-,Noor Medical College 11,2024-05-29,2024-06-05,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000264,SO-.YYYY.-,Central Clinic 24,2025-03-16,2025-03-20,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000265,SO-.YYYY.-,Shalimar Diagnostic Lab 19,2024-11-24,2024-11-26,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000266,SO-.YYYY.-,Medix Hospital 35,2024-11-19,2024-11-24,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000267,SO-.YYYY.-,Jinnah Medical College 02,2025-12-12,2025-12-20,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000268,SO-.YYYY.-,Services Clinic 40,2025-08-01,2025-08-07,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000269,SO-.YYYY.-,Central Clinic 24,2025-11-10,2025-11-13,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000270,SO-.YYYY.-,Medix Diagnostic Lab 07,2025-12-03,2025-12-10,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000271,SO-.YYYY.-,Jinnah Medical College 02,2024-09-28,2024-09-30,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000272,SO-.YYYY.-,Medix Clinic 23,2025-06-23,2025-07-05,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000273,SO-.YYYY.-,Prime Hospital 04,2024-06-29,2024-07-11,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000274,SO-.YYYY.-,Prime Clinic 15,2024-07-28,2024-08-01,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000275,SO-.YYYY.-,Services Clinic 40,2025-01-17,2025-01-29,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000276,SO-.YYYY.-,Medix Clinic 39,2024-03-18,2024-03-25,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000277,SO-.YYYY.-,Mayo Diagnostic Lab 09,2025-04-21,2025-04-27,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000278,SO-.YYYY.-,Lahore Diagnostic Hospital 05,2025-02-15,2025-02-25,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000279,SO-.YYYY.-,Shalimar Diagnostic Lab 21,2025-12-07,2025-12-15,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000280,SO-.YYYY.-,Medix Hospital 18,2025-04-05,2025-04-09,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000281,SO-.YYYY.-,Al-Rehman Diagnostic Lab 37,2025-02-12,2025-02-23,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000282,SO-.YYYY.-,Prime Medical College 31,2025-06-05,2025-06-09,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000283,SO-.YYYY.-,Prime Medical College 31,2025-02-17,2025-02-21,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000284,SO-.YYYY.-,Prime Clinic 15,2025-05-26,2025-06-07,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000285,SO-.YYYY.-,Jinnah Hospital 29,2026-01-07,2026-01-18,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000286,SO-.YYYY.-,Shalimar Medical College 28,2025-11-10,2025-11-18,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000287,SO-.YYYY.-,Jinnah Diagnostic Lab 03,2024-07-29,2024-08-08,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000288,SO-.YYYY.-,Services Medical College 16,2025-01-13,2025-01-23,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000289,SO-.YYYY.-,Shalimar Diagnostic Lab 19,2025-02-03,2025-02-12,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000290,SO-.YYYY.-,Medix Diagnostic Lab 34,2025-11-19,2025-11-23,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000291,SO-.YYYY.-,LifeLine Hospital 38,2026-02-21,2026-03-03,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000292,SO-.YYYY.-,City Care Clinic 13,2024-10-03,2024-10-12,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000293,SO-.YYYY.-,Prime Hospital 08,2025-07-15,2025-07-18,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000294,SO-.YYYY.-,LifeLine Hospital 33,2025-01-27,2025-02-07,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000295,SO-.YYYY.-,Jinnah Hospital 10,2024-09-09,2024-09-13,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000296,SO-.YYYY.-,Medix Clinic 12,2025-04-23,2025-04-26,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000297,SO-.YYYY.-,Services Diagnostic Lab 01,2025-02-01,2025-02-10,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000298,SO-.YYYY.-,LifeLine Hospital 38,2025-01-04,2025-01-16,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000299,SO-.YYYY.-,Central Clinic 36,2026-02-21,2026-02-27,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000300,SO-.YYYY.-,Medix Clinic 23,2025-12-20,2025-12-22,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000301,SO-.YYYY.-,Noor Hospital 20,2025-07-27,2025-08-03,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000302,SO-.YYYY.-,Noor Medical College 11,2025-10-22,2025-11-03,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000303,SO-.YYYY.-,LifeLine Hospital 38,2024-11-15,2024-11-22,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000304,SO-.YYYY.-,Shalimar Medical College 28,2025-02-08,2025-02-18,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000305,SO-.YYYY.-,Prime Diagnostic Lab 27,2025-04-01,2025-04-11,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000306,SO-.YYYY.-,Medix Clinic 39,2024-12-24,2024-12-30,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000307,SO-.YYYY.-,Services Clinic 40,2025-04-18,2025-04-29,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000308,SO-.YYYY.-,Shalimar Diagnostic Lab 19,2025-03-20,2025-03-25,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000309,SO-.YYYY.-,Services Clinic 40,2024-07-06,2024-07-14,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000310,SO-.YYYY.-,City Care Clinic 13,2025-10-10,2025-10-16,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000311,SO-.YYYY.-,Shalimar Medical College 22,2024-10-02,2024-10-09,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000312,SO-.YYYY.-,Medix Clinic 12,2025-11-08,2025-11-13,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000313,SO-.YYYY.-,Jinnah Diagnostic Lab 03,2025-09-21,2025-10-03,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000314,SO-.YYYY.-,Prime Diagnostic Lab 27,2024-09-12,2024-09-14,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000315,SO-.YYYY.-,Al-Rehman Diagnostic Lab 37,2026-02-08,2026-02-20,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000316,SO-.YYYY.-,Medix Hospital 35,2025-09-26,2025-09-30,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000317,SO-.YYYY.-,Jinnah Diagnostic Lab 03,2024-04-08,2024-04-14,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000318,SO-.YYYY.-,Noor Hospital 20,2025-06-27,2025-07-01,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000319,SO-.YYYY.-,Jinnah Medical College 02,2026-03-07,2026-03-16,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000320,SO-.YYYY.-,Medix Diagnostic Lab 34,2024-10-12,2024-10-18,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000321,SO-.YYYY.-,Jinnah Diagnostic Lab 03,2025-06-03,2025-06-12,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000322,SO-.YYYY.-,Services Medical College 30,2025-01-04,2025-01-06,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000323,SO-.YYYY.-,Medix Hospital 14,2026-02-19,2026-02-26,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000324,SO-.YYYY.-,Jinnah Hospital 10,2024-05-21,2024-05-25,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000325,SO-.YYYY.-,Medix Clinic 23,2025-05-04,2025-05-14,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000326,SO-.YYYY.-,Al-Rehman Diagnostic Lab 37,2026-01-30,2026-02-04,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000327,SO-.YYYY.-,Medix Hospital 35,2025-08-05,2025-08-14,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000328,SO-.YYYY.-,Prime Hospital 04,2024-08-01,2024-08-04,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000329,SO-.YYYY.-,Medix Clinic 23,2025-12-20,2025-12-26,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000330,SO-.YYYY.-,Services Medical College 30,2025-01-16,2025-01-27,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000331,SO-.YYYY.-,Prime Clinic 15,2024-11-14,2024-11-19,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000332,SO-.YYYY.-,Shalimar Diagnostic Lab 21,2024-11-25,2024-12-04,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000333,SO-.YYYY.-,Noor Medical College 11,2026-01-15,2026-01-21,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000334,SO-.YYYY.-,Central Clinic 36,2024-08-16,2024-08-28,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000335,SO-.YYYY.-,Services Medical College 16,2025-05-19,2025-05-29,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000336,SO-.YYYY.-,Shalimar Medical College 28,2025-04-02,2025-04-13,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000337,SO-.YYYY.-,Al-Rehman Diagnostic Lab 37,2024-05-26,2024-06-04,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000338,SO-.YYYY.-,Noor Hospital 20,2025-06-14,2025-06-22,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000339,SO-.YYYY.-,Lahore Diagnostic Diagnostic Lab 25,2025-11-14,2025-11-21,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000340,SO-.YYYY.-,Jinnah Hospital 10,2025-07-15,2025-07-27,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000341,SO-.YYYY.-,Medix Hospital 14,2025-10-29,2025-11-10,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000342,SO-.YYYY.-,Noor Hospital 20,2025-04-26,2025-05-04,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000343,SO-.YYYY.-,Mayo Diagnostic Lab 09,2025-09-10,2025-09-16,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000344,SO-.YYYY.-,Shalimar Diagnostic Lab 19,2025-08-12,2025-08-14,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000345,SO-.YYYY.-,Lahore Diagnostic Diagnostic Lab 25,2026-02-18,2026-02-26,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000346,SO-.YYYY.-,Central Clinic 24,2025-05-14,2025-05-22,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000347,SO-.YYYY.-,Noor Medical College 32,2025-09-19,2025-10-01,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000348,SO-.YYYY.-,Medix Clinic 39,2024-04-18,2024-04-26,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000349,SO-.YYYY.-,Prime Clinic 15,2025-03-15,2025-03-19,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000350,SO-.YYYY.-,LifeLine Hospital 33,2026-02-28,2026-03-06,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000351,SO-.YYYY.-,Central Clinic 24,2025-09-12,2025-09-15,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000352,SO-.YYYY.-,Medix Hospital 18,2025-11-10,2025-11-19,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000353,SO-.YYYY.-,Medix Hospital 35,2025-12-25,2026-01-05,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000354,SO-.YYYY.-,LifeLine Hospital 33,2024-06-07,2024-06-16,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000355,SO-.YYYY.-,Jinnah Diagnostic Lab 03,2024-07-01,2024-07-12,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000356,SO-.YYYY.-,Noor Medical College 11,2024-11-21,2024-12-02,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000357,SO-.YYYY.-,Noor Diagnostic Lab 06,2026-01-14,2026-01-18,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000358,SO-.YYYY.-,Central Clinic 17,2026-01-21,2026-01-23,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000359,SO-.YYYY.-,Jinnah Hospital 10,2025-03-10,2025-03-22,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000360,SO-.YYYY.-,Services Medical College 16,2024-08-29,2024-09-07,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000361,SO-.YYYY.-,Jinnah Hospital 10,2026-01-03,2026-01-14,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000362,SO-.YYYY.-,Noor Medical College 11,2025-11-29,2025-12-04,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000363,SO-.YYYY.-,Services Medical College 30,2024-04-26,2024-05-04,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000364,SO-.YYYY.-,Medix Hospital 35,2025-10-09,2025-10-14,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000365,SO-.YYYY.-,Shalimar Diagnostic Lab 19,2026-01-01,2026-01-10,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000366,SO-.YYYY.-,Medix Hospital 35,2026-02-03,2026-02-15,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000367,SO-.YYYY.-,Shalimar Medical College 22,2026-01-03,2026-01-09,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000368,SO-.YYYY.-,LifeLine Hospital 38,2025-04-25,2025-04-30,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000369,SO-.YYYY.-,Shalimar Diagnostic Lab 21,2025-02-14,2025-02-24,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000370,SO-.YYYY.-,Jinnah Hospital 29,2025-05-26,2025-06-02,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000371,SO-.YYYY.-,Medix Clinic 39,2024-06-28,2024-07-10,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000372,SO-.YYYY.-,Medix Clinic 39,2024-03-22,2024-03-26,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000373,SO-.YYYY.-,Medix Clinic 12,2024-06-20,2024-06-23,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000374,SO-.YYYY.-,Shalimar Medical College 28,2024-12-01,2024-12-13,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000375,SO-.YYYY.-,Shalimar Medical College 22,2024-10-25,2024-10-27,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000376,SO-.YYYY.-,Noor Medical College 32,2025-08-16,2025-08-19,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000377,SO-.YYYY.-,Central Clinic 17,2025-08-25,2025-08-28,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000378,SO-.YYYY.-,Noor Medical College 32,2025-10-04,2025-10-08,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000379,SO-.YYYY.-,Shalimar Medical College 22,2025-10-27,2025-11-04,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000380,SO-.YYYY.-,Noor Medical College 32,2026-02-14,2026-02-23,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000381,SO-.YYYY.-,Lahore Diagnostic Hospital 05,2025-10-22,2025-11-01,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000382,SO-.YYYY.-,Prime Medical College 31,2024-10-24,2024-10-27,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000383,SO-.YYYY.-,Noor Diagnostic Lab 06,2025-06-11,2025-06-18,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000384,SO-.YYYY.-,Shalimar Diagnostic Lab 19,2025-03-30,2025-04-11,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000385,SO-.YYYY.-,City Care Clinic 13,2025-04-16,2025-04-22,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000386,SO-.YYYY.-,Jinnah Hospital 29,2025-06-29,2025-07-04,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000387,SO-.YYYY.-,Lahore Diagnostic Diagnostic Lab 25,2026-02-05,2026-02-08,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000388,SO-.YYYY.-,Shalimar Medical College 22,2025-11-04,2025-11-06,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000389,SO-.YYYY.-,Medix Hospital 35,2026-02-17,2026-02-21,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000390,SO-.YYYY.-,Jinnah Medical College 02,2025-08-06,2025-08-15,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000391,SO-.YYYY.-,Prime Hospital 04,2024-08-13,2024-08-19,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000392,SO-.YYYY.-,Lahore Diagnostic Hospital 05,2025-02-28,2025-03-03,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000393,SO-.YYYY.-,Shalimar Medical College 22,2024-04-06,2024-04-18,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000394,SO-.YYYY.-,Medix Hospital 14,2025-07-19,2025-07-21,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000395,SO-.YYYY.-,Central Clinic 24,2024-06-27,2024-07-07,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000396,SO-.YYYY.-,Noor Medical College 11,2025-01-08,2025-01-10,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000397,SO-.YYYY.-,Prime Medical College 31,2025-05-11,2025-05-15,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000398,SO-.YYYY.-,Services Clinic 40,2024-06-07,2024-06-09,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000399,SO-.YYYY.-,Prime Diagnostic Lab 27,2024-07-08,2024-07-10,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000400,SO-.YYYY.-,Medix Diagnostic Lab 07,2024-08-04,2024-08-15,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000401,SO-.YYYY.-,Prime Hospital 04,2025-03-03,2025-03-08,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000402,SO-.YYYY.-,Central Clinic 24,2025-01-25,2025-01-31,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000403,SO-.YYYY.-,Prime Hospital 04,2025-02-26,2025-03-08,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000404,SO-.YYYY.-,Jinnah Hospital 29,2025-06-21,2025-07-02,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000405,SO-.YYYY.-,Prime Hospital 08,2024-10-09,2024-10-16,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000406,SO-.YYYY.-,Prime Clinic 15,2025-08-27,2025-08-30,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000407,SO-.YYYY.-,Jinnah Hospital 10,2025-07-19,2025-07-24,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000408,SO-.YYYY.-,Medix Clinic 23,2025-03-03,2025-03-09,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000409,SO-.YYYY.-,Prime Hospital 08,2025-07-12,2025-07-21,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000410,SO-.YYYY.-,Services Clinic 40,2024-06-19,2024-06-23,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000411,SO-.YYYY.-,Medix Hospital 14,2025-06-03,2025-06-14,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000412,SO-.YYYY.-,Shalimar Diagnostic Lab 21,2026-02-23,2026-03-03,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000413,SO-.YYYY.-,Services Diagnostic Lab 01,2025-06-18,2025-06-26,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000414,SO-.YYYY.-,Jinnah Diagnostic Lab 03,2025-02-01,2025-02-09,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000415,SO-.YYYY.-,Medix Diagnostic Lab 07,2024-05-19,2024-05-28,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000416,SO-.YYYY.-,Prime Diagnostic Lab 27,2025-01-13,2025-01-18,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000417,SO-.YYYY.-,Noor Hospital 20,2024-04-26,2024-04-30,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000418,SO-.YYYY.-,Mayo Diagnostic Lab 09,2026-03-09,2026-03-17,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000419,SO-.YYYY.-,Shalimar Medical College 22,2024-07-07,2024-07-17,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000420,SO-.YYYY.-,Noor Diagnostic Lab 06,2024-04-04,2024-04-15,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000421,SO-.YYYY.-,Central Clinic 24,2025-02-26,2025-02-28,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000422,SO-.YYYY.-,Central Clinic 36,2026-01-04,2026-01-07,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000423,SO-.YYYY.-,Services Medical College 16,2024-07-01,2024-07-11,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000424,SO-.YYYY.-,LifeLine Hospital 38,2026-02-03,2026-02-08,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000425,SO-.YYYY.-,LifeLine Hospital 33,2024-08-27,2024-09-08,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000426,SO-.YYYY.-,Medix Diagnostic Lab 34,2024-11-16,2024-11-19,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000427,SO-.YYYY.-,Shalimar Diagnostic Lab 19,2025-08-22,2025-08-31,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000428,SO-.YYYY.-,Lahore Diagnostic Hospital 05,2024-09-06,2024-09-11,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000429,SO-.YYYY.-,Shalimar Diagnostic Lab 19,2025-09-28,2025-10-01,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000430,SO-.YYYY.-,Medix Hospital 14,2024-08-22,2024-09-01,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000431,SO-.YYYY.-,Medix Hospital 35,2025-02-13,2025-02-17,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000432,SO-.YYYY.-,Lahore Diagnostic Hospital 05,2025-10-06,2025-10-08,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000433,SO-.YYYY.-,LifeLine Hospital 38,2025-05-22,2025-06-03,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000434,SO-.YYYY.-,Noor Hospital 20,2025-06-28,2025-07-02,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000435,SO-.YYYY.-,Prime Hospital 04,2024-11-04,2024-11-08,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000436,SO-.YYYY.-,Medix Clinic 12,2025-04-30,2025-05-12,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000437,SO-.YYYY.-,Central Clinic 17,2025-12-16,2025-12-23,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000438,SO-.YYYY.-,Central Clinic 24,2024-09-16,2024-09-25,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000439,SO-.YYYY.-,Jinnah Hospital 10,2024-09-18,2024-09-27,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000440,SO-.YYYY.-,Shalimar Diagnostic Lab 19,2025-12-27,2026-01-05,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000441,SO-.YYYY.-,Jinnah Hospital 29,2026-01-14,2026-01-21,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000442,SO-.YYYY.-,Mayo Diagnostic Lab 09,2025-05-28,2025-06-09,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000443,SO-.YYYY.-,Noor Diagnostic Lab 06,2025-04-21,2025-04-28,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000444,SO-.YYYY.-,Jinnah Medical College 02,2024-04-10,2024-04-13,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000445,SO-.YYYY.-,LifeLine Hospital 33,2025-11-30,2025-12-08,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000446,SO-.YYYY.-,Jinnah Hospital 10,2024-09-30,2024-10-08,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000447,SO-.YYYY.-,Central Clinic 36,2025-06-15,2025-06-18,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000448,SO-.YYYY.-,Jinnah Hospital 29,2025-11-08,2025-11-14,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000449,SO-.YYYY.-,Mayo Diagnostic Lab 09,2025-05-25,2025-06-05,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000450,SO-.YYYY.-,LifeLine Hospital 38,2025-04-14,2025-04-22,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000451,SO-.YYYY.-,Prime Diagnostic Lab 27,2024-03-16,2024-03-20,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000452,SO-.YYYY.-,Mayo Diagnostic Lab 09,2026-03-03,2026-03-08,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000453,SO-.YYYY.-,Central Clinic 36,2024-10-17,2024-10-26,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000454,SO-.YYYY.-,Shalimar Diagnostic Lab 19,2024-10-08,2024-10-16,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000455,SO-.YYYY.-,Lahore Diagnostic Hospital 05,2024-12-22,2025-01-02,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000456,SO-.YYYY.-,Prime Hospital 08,2026-03-02,2026-03-09,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000457,SO-.YYYY.-,Noor Medical College 11,2024-05-15,2024-05-26,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000458,SO-.YYYY.-,Mayo Diagnostic Lab 09,2025-10-24,2025-10-31,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000459,SO-.YYYY.-,Shalimar Diagnostic Lab 19,2024-06-24,2024-07-04,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000460,SO-.YYYY.-,Medix Clinic 12,2025-09-12,2025-09-15,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000461,SO-.YYYY.-,Noor Hospital 20,2024-09-19,2024-09-25,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000462,SO-.YYYY.-,Jinnah Hospital 10,2025-03-21,2025-03-23,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000463,SO-.YYYY.-,Prime Diagnostic Lab 27,2025-02-08,2025-02-15,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000464,SO-.YYYY.-,Medix Hospital 35,2024-09-29,2024-10-09,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000465,SO-.YYYY.-,Prime Hospital 08,2025-06-23,2025-06-27,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000466,SO-.YYYY.-,Medix Clinic 39,2024-07-06,2024-07-16,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000467,SO-.YYYY.-,Jinnah Hospital 10,2024-12-05,2024-12-10,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000468,SO-.YYYY.-,Shalimar Medical College 28,2026-01-27,2026-01-30,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000469,SO-.YYYY.-,LifeLine Hospital 33,2025-07-26,2025-08-06,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000470,SO-.YYYY.-,Medix Diagnostic Lab 07,2025-09-03,2025-09-06,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000471,SO-.YYYY.-,Jinnah Hospital 10,2025-12-26,2026-01-01,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000472,SO-.YYYY.-,Services Clinic 40,2025-01-26,2025-01-31,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000473,SO-.YYYY.-,Services Diagnostic Lab 01,2025-11-13,2025-11-23,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000474,SO-.YYYY.-,Medix Diagnostic Lab 07,2025-04-13,2025-04-18,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000475,SO-.YYYY.-,Medix Diagnostic Lab 07,2025-11-27,2025-12-01,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000476,SO-.YYYY.-,Shalimar Diagnostic Lab 21,2025-04-17,2025-04-20,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000477,SO-.YYYY.-,Jinnah Diagnostic Lab 03,2025-11-03,2025-11-06,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000478,SO-.YYYY.-,Jinnah Hospital 29,2024-07-06,2024-07-11,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000479,SO-.YYYY.-,Central Clinic 24,2025-03-03,2025-03-07,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000480,SO-.YYYY.-,Noor Diagnostic Lab 06,2025-03-07,2025-03-10,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000481,SO-.YYYY.-,Central Clinic 24,2025-06-23,2025-06-28,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000482,SO-.YYYY.-,LifeLine Hospital 38,2025-12-04,2025-12-15,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000483,SO-.YYYY.-,LifeLine Hospital 33,2024-09-04,2024-09-10,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000484,SO-.YYYY.-,Mayo Diagnostic Lab 09,2026-01-30,2026-02-01,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000485,SO-.YYYY.-,Medix Clinic 39,2026-03-04,2026-03-16,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000486,SO-.YYYY.-,Noor Medical College 32,2025-01-10,2025-01-19,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000487,SO-.YYYY.-,Medix Hospital 35,2025-12-01,2025-12-11,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000488,SO-.YYYY.-,Services Medical College 30,2025-11-06,2025-11-08,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000489,SO-.YYYY.-,Noor Hospital 20,2024-06-06,2024-06-10,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000490,SO-.YYYY.-,Noor Medical College 32,2026-01-29,2026-02-10,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000491,SO-.YYYY.-,Prime Hospital 04,2024-07-27,2024-08-04,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000492,SO-.YYYY.-,Prime Hospital 04,2025-01-26,2025-01-28,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000493,SO-.YYYY.-,Shalimar Medical College 22,2024-07-10,2024-07-18,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000494,SO-.YYYY.-,Services Medical College 16,2024-11-11,2024-11-23,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000495,SO-.YYYY.-,Noor Medical College 11,2025-01-18,2025-01-20,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000496,SO-.YYYY.-,Prime Diagnostic Lab 27,2024-07-09,2024-07-15,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000497,SO-.YYYY.-,Lahore Diagnostic Diagnostic Lab 25,2024-09-15,2024-09-22,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000498,SO-.YYYY.-,LifeLine Hospital 33,2025-03-29,2025-04-10,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000499,SO-.YYYY.-,Lahore Diagnostic Hospital 05,2026-02-20,2026-03-02,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000500,SO-.YYYY.-,Prime Clinic 15,2024-08-03,2024-08-14,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000501,SO-.YYYY.-,Al-Rehman Diagnostic Lab 37,2025-08-17,2025-08-27,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000502,SO-.YYYY.-,Noor Hospital 20,2025-04-13,2025-04-23,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000503,SO-.YYYY.-,Services Clinic 40,2025-05-14,2025-05-24,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000504,SO-.YYYY.-,Medix Diagnostic Lab 34,2025-11-12,2025-11-16,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000505,SO-.YYYY.-,Services Medical College 30,2024-07-31,2024-08-06,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000506,SO-.YYYY.-,Al-Rehman Diagnostic Lab 37,2025-10-21,2025-11-02,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000507,SO-.YYYY.-,Noor Hospital 20,2025-04-08,2025-04-16,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000508,SO-.YYYY.-,Shalimar Diagnostic Lab 19,2025-05-19,2025-05-31,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000509,SO-.YYYY.-,City Care Clinic 13,2024-09-18,2024-09-20,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000510,SO-.YYYY.-,Jinnah Diagnostic Lab 03,2025-07-23,2025-07-28,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000511,SO-.YYYY.-,Jinnah Diagnostic Lab 03,2025-12-22,2025-12-31,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000512,SO-.YYYY.-,Central Clinic 24,2025-09-13,2025-09-25,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000513,SO-.YYYY.-,Services Medical College 16,2026-02-20,2026-02-23,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000514,SO-.YYYY.-,Noor Medical College 32,2026-01-01,2026-01-04,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000515,SO-.YYYY.-,Shalimar Medical College 22,2024-09-05,2024-09-16,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000516,SO-.YYYY.-,Medix Diagnostic Lab 07,2025-10-01,2025-10-05,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000517,SO-.YYYY.-,Medix Hospital 35,2024-08-29,2024-09-05,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000518,SO-.YYYY.-,Jinnah Hospital 10,2025-07-26,2025-08-02,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000519,SO-.YYYY.-,Prime Hospital 04,2025-01-01,2025-01-13,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000520,SO-.YYYY.-,Prime Hospital 08,2024-08-02,2024-08-12,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000521,SO-.YYYY.-,Lahore Diagnostic Medical College 26,2024-09-19,2024-09-25,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000522,SO-.YYYY.-,Shalimar Diagnostic Lab 21,2025-01-28,2025-02-09,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000523,SO-.YYYY.-,Noor Medical College 32,2025-06-16,2025-06-25,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000524,SO-.YYYY.-,Central Clinic 17,2025-12-06,2025-12-16,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000525,SO-.YYYY.-,Jinnah Medical College 02,2024-05-05,2024-05-07,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000526,SO-.YYYY.-,Lahore Diagnostic Medical College 26,2025-03-14,2025-03-19,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000527,SO-.YYYY.-,Mayo Diagnostic Lab 09,2024-03-21,2024-04-01,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000528,SO-.YYYY.-,Medix Clinic 12,2025-07-21,2025-08-02,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000529,SO-.YYYY.-,Lahore Diagnostic Diagnostic Lab 25,2024-07-29,2024-08-09,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000530,SO-.YYYY.-,Noor Diagnostic Lab 06,2024-09-27,2024-10-06,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000531,SO-.YYYY.-,Central Clinic 17,2025-04-09,2025-04-13,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000532,SO-.YYYY.-,Services Medical College 30,2025-10-08,2025-10-20,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000533,SO-.YYYY.-,Noor Medical College 32,2025-08-11,2025-08-19,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000534,SO-.YYYY.-,Medix Clinic 12,2026-01-09,2026-01-17,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000535,SO-.YYYY.-,LifeLine Hospital 38,2025-07-31,2025-08-12,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000536,SO-.YYYY.-,Medix Hospital 14,2025-05-04,2025-05-12,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000537,SO-.YYYY.-,Shalimar Medical College 22,2026-02-11,2026-02-16,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000538,SO-.YYYY.-,Medix Clinic 39,2025-07-28,2025-07-30,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000539,SO-.YYYY.-,Central Clinic 36,2025-05-11,2025-05-13,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000540,SO-.YYYY.-,Noor Diagnostic Lab 06,2026-03-09,2026-03-16,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000541,SO-.YYYY.-,Noor Medical College 32,2025-06-09,2025-06-15,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000542,SO-.YYYY.-,Central Clinic 17,2025-07-25,2025-08-05,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000543,SO-.YYYY.-,Shalimar Diagnostic Lab 21,2024-08-30,2024-09-08,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000544,SO-.YYYY.-,Prime Hospital 04,2024-06-04,2024-06-09,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000545,SO-.YYYY.-,Services Medical College 30,2025-10-11,2025-10-19,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000546,SO-.YYYY.-,Noor Medical College 32,2024-04-12,2024-04-15,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000547,SO-.YYYY.-,Noor Medical College 11,2024-10-23,2024-11-02,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000548,SO-.YYYY.-,Al-Rehman Diagnostic Lab 37,2025-01-05,2025-01-09,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000549,SO-.YYYY.-,Shalimar Diagnostic Lab 19,2024-04-14,2024-04-26,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000550,SO-.YYYY.-,Jinnah Medical College 02,2024-12-18,2024-12-21,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000551,SO-.YYYY.-,Jinnah Diagnostic Lab 03,2024-10-28,2024-11-09,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000552,SO-.YYYY.-,Al-Rehman Diagnostic Lab 37,2025-09-13,2025-09-17,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000553,SO-.YYYY.-,Medix Clinic 39,2025-01-01,2025-01-09,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000554,SO-.YYYY.-,Medix Hospital 14,2024-08-31,2024-09-04,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000555,SO-.YYYY.-,Jinnah Hospital 10,2025-06-23,2025-06-26,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000556,SO-.YYYY.-,Noor Hospital 20,2025-10-12,2025-10-24,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000557,SO-.YYYY.-,Noor Medical College 32,2025-08-01,2025-08-10,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000558,SO-.YYYY.-,Central Clinic 24,2025-09-25,2025-10-06,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000559,SO-.YYYY.-,Prime Clinic 15,2025-08-17,2025-08-29,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000560,SO-.YYYY.-,Shalimar Diagnostic Lab 19,2024-07-05,2024-07-14,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000561,SO-.YYYY.-,Services Medical College 16,2025-10-19,2025-10-29,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000562,SO-.YYYY.-,LifeLine Hospital 33,2024-07-06,2024-07-14,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000563,SO-.YYYY.-,LifeLine Hospital 38,2024-12-11,2024-12-14,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000564,SO-.YYYY.-,Lahore Diagnostic Medical College 26,2025-09-19,2025-09-21,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000565,SO-.YYYY.-,Jinnah Hospital 29,2025-03-22,2025-04-02,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000566,SO-.YYYY.-,Medix Diagnostic Lab 07,2025-09-18,2025-09-26,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000567,SO-.YYYY.-,Lahore Diagnostic Medical College 26,2024-04-23,2024-05-05,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000568,SO-.YYYY.-,Lahore Diagnostic Medical College 26,2025-06-06,2025-06-12,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000569,SO-.YYYY.-,Jinnah Medical College 02,2025-09-22,2025-09-27,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000570,SO-.YYYY.-,Noor Hospital 20,2024-10-21,2024-10-30,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000571,SO-.YYYY.-,Prime Medical College 31,2025-05-21,2025-05-23,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000572,SO-.YYYY.-,Services Diagnostic Lab 01,2024-06-24,2024-06-27,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000573,SO-.YYYY.-,LifeLine Hospital 38,2026-01-10,2026-01-21,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000574,SO-.YYYY.-,Services Clinic 40,2024-11-20,2024-12-02,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000575,SO-.YYYY.-,Lahore Diagnostic Hospital 05,2025-01-10,2025-01-16,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000576,SO-.YYYY.-,Shalimar Medical College 28,2024-04-14,2024-04-16,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000577,SO-.YYYY.-,Prime Clinic 15,2025-06-15,2025-06-26,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000578,SO-.YYYY.-,Lahore Diagnostic Diagnostic Lab 25,2024-12-06,2024-12-14,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000579,SO-.YYYY.-,Noor Medical College 11,2025-03-03,2025-03-14,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000580,SO-.YYYY.-,City Care Clinic 13,2024-06-09,2024-06-13,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000581,SO-.YYYY.-,Medix Hospital 14,2025-06-04,2025-06-14,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000582,SO-.YYYY.-,LifeLine Hospital 33,2024-07-10,2024-07-12,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000583,SO-.YYYY.-,Central Clinic 17,2024-11-09,2024-11-16,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000584,SO-.YYYY.-,LifeLine Hospital 33,2024-10-12,2024-10-23,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000585,SO-.YYYY.-,Jinnah Hospital 29,2025-11-04,2025-11-13,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000586,SO-.YYYY.-,Medix Diagnostic Lab 07,2026-02-15,2026-02-25,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000587,SO-.YYYY.-,Shalimar Diagnostic Lab 19,2025-03-06,2025-03-15,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000588,SO-.YYYY.-,Mayo Diagnostic Lab 09,2026-03-09,2026-03-12,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000589,SO-.YYYY.-,Services Medical College 16,2025-11-26,2025-12-05,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000590,SO-.YYYY.-,Services Medical College 16,2025-12-19,2025-12-23,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000591,SO-.YYYY.-,Prime Diagnostic Lab 27,2025-05-24,2025-06-01,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000592,SO-.YYYY.-,Jinnah Hospital 29,2024-08-28,2024-09-01,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000593,SO-.YYYY.-,Noor Medical College 11,2025-12-02,2025-12-10,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000594,SO-.YYYY.-,Jinnah Hospital 10,2024-08-01,2024-08-12,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000595,SO-.YYYY.-,Lahore Diagnostic Medical College 26,2024-10-09,2024-10-21,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000596,SO-.YYYY.-,Medix Hospital 18,2024-10-09,2024-10-19,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000597,SO-.YYYY.-,Medix Clinic 23,2024-05-11,2024-05-23,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000598,SO-.YYYY.-,Mayo Diagnostic Lab 09,2025-10-16,2025-10-26,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000599,SO-.YYYY.-,Noor Medical College 11,2025-03-06,2025-03-08,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000600,SO-.YYYY.-,Prime Hospital 08,2025-09-08,2025-09-10,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000601,SO-.YYYY.-,Noor Hospital 20,2024-12-24,2025-01-04,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000602,SO-.YYYY.-,LifeLine Hospital 38,2025-11-13,2025-11-24,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000603,SO-.YYYY.-,Prime Clinic 15,2025-09-14,2025-09-21,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000604,SO-.YYYY.-,Al-Rehman Diagnostic Lab 37,2024-08-31,2024-09-12,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000605,SO-.YYYY.-,LifeLine Hospital 38,2025-02-06,2025-02-11,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000606,SO-.YYYY.-,Prime Hospital 04,2026-03-02,2026-03-10,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000607,SO-.YYYY.-,LifeLine Hospital 38,2025-01-05,2025-01-15,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000608,SO-.YYYY.-,Noor Medical College 32,2025-01-02,2025-01-10,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000609,SO-.YYYY.-,LifeLine Hospital 33,2025-10-19,2025-10-29,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000610,SO-.YYYY.-,Central Clinic 24,2024-12-10,2024-12-13,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000611,SO-.YYYY.-,Jinnah Hospital 10,2025-08-20,2025-08-23,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000612,SO-.YYYY.-,LifeLine Hospital 38,2026-02-05,2026-02-13,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000613,SO-.YYYY.-,Prime Hospital 08,2024-06-17,2024-06-27,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000614,SO-.YYYY.-,Shalimar Medical College 22,2024-07-28,2024-08-05,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000615,SO-.YYYY.-,LifeLine Hospital 33,2025-05-07,2025-05-19,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000616,SO-.YYYY.-,Services Clinic 40,2024-05-11,2024-05-23,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000617,SO-.YYYY.-,Shalimar Medical College 22,2024-12-20,2024-12-30,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000618,SO-.YYYY.-,Jinnah Medical College 02,2026-01-12,2026-01-23,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000619,SO-.YYYY.-,Services Clinic 40,2024-07-19,2024-07-29,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000620,SO-.YYYY.-,Jinnah Medical College 02,2026-02-28,2026-03-03,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000621,SO-.YYYY.-,LifeLine Hospital 38,2024-07-25,2024-08-03,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000622,SO-.YYYY.-,Jinnah Medical College 02,2024-11-22,2024-11-29,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000623,SO-.YYYY.-,Shalimar Diagnostic Lab 21,2024-08-08,2024-08-16,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000624,SO-.YYYY.-,Central Clinic 17,2026-03-10,2026-03-13,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000625,SO-.YYYY.-,Jinnah Medical College 02,2025-02-04,2025-02-06,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000626,SO-.YYYY.-,Prime Hospital 08,2024-11-20,2024-11-22,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000627,SO-.YYYY.-,Prime Hospital 08,2026-02-02,2026-02-08,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000628,SO-.YYYY.-,Prime Clinic 15,2025-04-18,2025-04-20,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000629,SO-.YYYY.-,Al-Rehman Diagnostic Lab 37,2025-07-26,2025-08-03,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000630,SO-.YYYY.-,Noor Medical College 11,2024-08-04,2024-08-09,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000631,SO-.YYYY.-,Noor Medical College 11,2025-10-24,2025-10-26,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000632,SO-.YYYY.-,Medix Hospital 14,2025-12-19,2025-12-30,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000633,SO-.YYYY.-,Noor Diagnostic Lab 06,2024-12-12,2024-12-20,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000634,SO-.YYYY.-,Services Clinic 40,2025-12-14,2025-12-24,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000635,SO-.YYYY.-,Services Medical College 16,2025-05-10,2025-05-22,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000636,SO-.YYYY.-,Shalimar Medical College 22,2025-03-31,2025-04-02,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000637,SO-.YYYY.-,Medix Clinic 12,2025-06-17,2025-06-25,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000638,SO-.YYYY.-,Medix Hospital 35,2024-05-28,2024-05-31,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000639,SO-.YYYY.-,Prime Hospital 08,2025-12-20,2025-12-27,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000640,SO-.YYYY.-,Services Medical College 30,2024-06-15,2024-06-22,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000641,SO-.YYYY.-,Noor Diagnostic Lab 06,2025-04-28,2025-05-09,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000642,SO-.YYYY.-,Medix Hospital 18,2025-08-21,2025-08-30,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000643,SO-.YYYY.-,Medix Hospital 18,2024-12-21,2025-01-01,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000644,SO-.YYYY.-,LifeLine Hospital 38,2026-02-21,2026-02-25,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000645,SO-.YYYY.-,Prime Clinic 15,2025-03-24,2025-04-03,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000646,SO-.YYYY.-,Central Clinic 36,2025-06-20,2025-06-29,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000647,SO-.YYYY.-,Prime Hospital 04,2025-07-24,2025-07-31,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000648,SO-.YYYY.-,Medix Diagnostic Lab 34,2025-02-10,2025-02-12,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000649,SO-.YYYY.-,Medix Hospital 35,2025-10-28,2025-11-06,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000650,SO-.YYYY.-,Prime Clinic 15,2024-03-14,2024-03-22,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000651,SO-.YYYY.-,Prime Medical College 31,2024-06-15,2024-06-23,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000652,SO-.YYYY.-,Services Medical College 16,2025-06-24,2025-06-27,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000653,SO-.YYYY.-,Medix Diagnostic Lab 34,2025-12-22,2025-12-27,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000654,SO-.YYYY.-,Jinnah Hospital 29,2026-01-21,2026-02-01,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000655,SO-.YYYY.-,Mayo Diagnostic Lab 09,2026-02-24,2026-02-26,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000656,SO-.YYYY.-,Prime Hospital 04,2025-03-13,2025-03-23,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000657,SO-.YYYY.-,Medix Clinic 39,2024-05-15,2024-05-27,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000658,SO-.YYYY.-,Jinnah Medical College 02,2025-09-10,2025-09-19,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000659,SO-.YYYY.-,City Care Clinic 13,2025-04-23,2025-05-04,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000660,SO-.YYYY.-,Services Medical College 16,2024-10-21,2024-10-25,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000661,SO-.YYYY.-,LifeLine Hospital 38,2025-05-25,2025-06-04,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000662,SO-.YYYY.-,Medix Diagnostic Lab 34,2024-10-14,2024-10-25,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000663,SO-.YYYY.-,Medix Clinic 23,2025-07-31,2025-08-05,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000664,SO-.YYYY.-,Services Medical College 30,2024-12-11,2024-12-22,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000665,SO-.YYYY.-,Services Clinic 40,2025-02-05,2025-02-11,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000666,SO-.YYYY.-,Services Diagnostic Lab 01,2024-12-27,2025-01-08,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000667,SO-.YYYY.-,Shalimar Medical College 22,2025-02-20,2025-02-28,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000668,SO-.YYYY.-,Central Clinic 36,2025-09-23,2025-09-26,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000669,SO-.YYYY.-,City Care Clinic 13,2025-10-24,2025-10-29,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000670,SO-.YYYY.-,City Care Clinic 13,2024-07-23,2024-07-25,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000671,SO-.YYYY.-,Mayo Diagnostic Lab 09,2025-10-12,2025-10-20,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000672,SO-.YYYY.-,Central Clinic 24,2025-07-21,2025-08-02,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000673,SO-.YYYY.-,Lahore Diagnostic Hospital 05,2025-02-26,2025-03-01,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000674,SO-.YYYY.-,Medix Clinic 39,2026-02-08,2026-02-16,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000675,SO-.YYYY.-,Jinnah Hospital 10,2024-04-30,2024-05-07,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000676,SO-.YYYY.-,Noor Medical College 32,2024-04-28,2024-05-03,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000677,SO-.YYYY.-,Lahore Diagnostic Diagnostic Lab 25,2024-06-21,2024-07-03,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000678,SO-.YYYY.-,Prime Medical College 31,2025-12-13,2025-12-22,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000679,SO-.YYYY.-,Prime Clinic 15,2025-06-25,2025-06-30,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000680,SO-.YYYY.-,Central Clinic 24,2024-03-28,2024-04-03,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000681,SO-.YYYY.-,Prime Clinic 15,2024-07-17,2024-07-28,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000682,SO-.YYYY.-,Prime Diagnostic Lab 27,2024-08-20,2024-08-27,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000683,SO-.YYYY.-,Lahore Diagnostic Hospital 05,2025-06-06,2025-06-13,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000684,SO-.YYYY.-,Medix Diagnostic Lab 07,2025-06-22,2025-06-25,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000685,SO-.YYYY.-,Noor Hospital 20,2024-03-12,2024-03-24,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000686,SO-.YYYY.-,Medix Hospital 35,2025-05-24,2025-05-30,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000687,SO-.YYYY.-,Lahore Diagnostic Medical College 26,2024-10-05,2024-10-13,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000688,SO-.YYYY.-,Prime Clinic 15,2026-02-15,2026-02-20,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000689,SO-.YYYY.-,Services Medical College 30,2024-07-25,2024-08-03,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000690,SO-.YYYY.-,Jinnah Hospital 29,2026-01-06,2026-01-15,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000691,SO-.YYYY.-,Services Diagnostic Lab 01,2025-01-15,2025-01-24,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000692,SO-.YYYY.-,Medix Hospital 35,2024-08-21,2024-08-27,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000693,SO-.YYYY.-,Mayo Diagnostic Lab 09,2024-12-17,2024-12-21,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000694,SO-.YYYY.-,Medix Hospital 14,2024-06-15,2024-06-23,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000695,SO-.YYYY.-,Noor Hospital 20,2026-01-11,2026-01-14,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000696,SO-.YYYY.-,Medix Clinic 12,2025-03-16,2025-03-21,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000697,SO-.YYYY.-,Services Medical College 30,2024-11-23,2024-11-25,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000698,SO-.YYYY.-,Prime Hospital 08,2024-06-04,2024-06-08,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000699,SO-.YYYY.-,Medix Hospital 14,2025-03-27,2025-04-02,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000700,SO-.YYYY.-,City Care Clinic 13,2026-01-21,2026-01-31,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000701,SO-.YYYY.-,Lahore Diagnostic Medical College 26,2026-01-05,2026-01-16,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000702,SO-.YYYY.-,Services Medical College 30,2024-08-28,2024-09-06,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000703,SO-.YYYY.-,Noor Hospital 20,2024-05-04,2024-05-12,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000704,SO-.YYYY.-,Lahore Diagnostic Diagnostic Lab 25,2025-04-21,2025-05-03,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000705,SO-.YYYY.-,Noor Medical College 11,2025-12-12,2025-12-18,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000706,SO-.YYYY.-,Medix Hospital 14,2025-01-18,2025-01-27,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000707,SO-.YYYY.-,Shalimar Diagnostic Lab 21,2026-02-26,2026-03-06,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000708,SO-.YYYY.-,Services Medical College 30,2024-11-06,2024-11-14,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000709,SO-.YYYY.-,Mayo Diagnostic Lab 09,2025-05-25,2025-06-01,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000710,SO-.YYYY.-,Jinnah Hospital 29,2026-01-12,2026-01-16,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000711,SO-.YYYY.-,Medix Clinic 39,2024-06-13,2024-06-16,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000712,SO-.YYYY.-,Services Diagnostic Lab 01,2026-03-02,2026-03-14,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000713,SO-.YYYY.-,Medix Hospital 35,2024-06-17,2024-06-22,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000714,SO-.YYYY.-,Medix Diagnostic Lab 07,2024-03-13,2024-03-21,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000715,SO-.YYYY.-,City Care Clinic 13,2024-10-16,2024-10-21,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000716,SO-.YYYY.-,City Care Clinic 13,2025-07-13,2025-07-25,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000717,SO-.YYYY.-,Noor Medical College 11,2024-05-30,2024-06-03,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000718,SO-.YYYY.-,Shalimar Diagnostic Lab 21,2024-07-25,2024-08-04,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000719,SO-.YYYY.-,Lahore Diagnostic Medical College 26,2025-11-09,2025-11-17,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000720,SO-.YYYY.-,Shalimar Diagnostic Lab 21,2024-10-29,2024-10-31,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000721,SO-.YYYY.-,Lahore Diagnostic Hospital 05,2025-08-25,2025-08-30,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000722,SO-.YYYY.-,Medix Diagnostic Lab 07,2026-02-06,2026-02-16,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000723,SO-.YYYY.-,Mayo Diagnostic Lab 09,2025-06-10,2025-06-17,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000724,SO-.YYYY.-,Prime Medical College 31,2024-03-21,2024-03-24,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000725,SO-.YYYY.-,LifeLine Hospital 38,2024-03-20,2024-03-22,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000726,SO-.YYYY.-,Noor Hospital 20,2026-02-22,2026-02-27,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000727,SO-.YYYY.-,Shalimar Diagnostic Lab 19,2025-02-26,2025-03-03,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000728,SO-.YYYY.-,Shalimar Medical College 22,2024-07-13,2024-07-17,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000729,SO-.YYYY.-,Medix Diagnostic Lab 34,2025-05-18,2025-05-26,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000730,SO-.YYYY.-,Shalimar Medical College 22,2026-02-20,2026-02-27,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000731,SO-.YYYY.-,Services Medical College 16,2024-07-25,2024-08-06,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000732,SO-.YYYY.-,Medix Diagnostic Lab 34,2025-07-14,2025-07-21,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000733,SO-.YYYY.-,Prime Hospital 04,2024-05-23,2024-06-04,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000734,SO-.YYYY.-,LifeLine Hospital 33,2024-11-01,2024-11-04,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000735,SO-.YYYY.-,Medix Clinic 12,2025-04-08,2025-04-19,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000736,SO-.YYYY.-,Prime Medical College 31,2024-06-11,2024-06-14,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000737,SO-.YYYY.-,Shalimar Medical College 28,2024-06-24,2024-06-28,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000738,SO-.YYYY.-,Noor Hospital 20,2024-06-25,2024-07-06,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000739,SO-.YYYY.-,Services Medical College 30,2025-01-26,2025-02-01,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000740,SO-.YYYY.-,Jinnah Hospital 10,2025-03-23,2025-03-28,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000741,SO-.YYYY.-,Lahore Diagnostic Medical College 26,2025-01-12,2025-01-19,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000742,SO-.YYYY.-,Lahore Diagnostic Hospital 05,2024-07-30,2024-08-07,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000743,SO-.YYYY.-,Medix Clinic 23,2025-04-07,2025-04-17,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000744,SO-.YYYY.-,Services Medical College 16,2024-07-26,2024-07-31,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000745,SO-.YYYY.-,Medix Clinic 39,2025-12-28,2026-01-06,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000746,SO-.YYYY.-,Prime Hospital 08,2026-02-03,2026-02-06,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000747,SO-.YYYY.-,City Care Clinic 13,2024-08-05,2024-08-13,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000748,SO-.YYYY.-,Noor Hospital 20,2024-05-21,2024-05-29,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000749,SO-.YYYY.-,Medix Hospital 14,2025-09-06,2025-09-14,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000750,SO-.YYYY.-,Services Diagnostic Lab 01,2025-10-09,2025-10-12,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000751,SO-.YYYY.-,Medix Clinic 12,2024-03-20,2024-03-27,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000752,SO-.YYYY.-,Al-Rehman Diagnostic Lab 37,2025-11-26,2025-12-01,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000753,SO-.YYYY.-,Prime Diagnostic Lab 27,2026-01-06,2026-01-15,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000754,SO-.YYYY.-,Prime Hospital 08,2024-08-27,2024-09-02,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000755,SO-.YYYY.-,Prime Hospital 04,2025-06-05,2025-06-11,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000756,SO-.YYYY.-,Medix Diagnostic Lab 07,2025-03-06,2025-03-11,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000757,SO-.YYYY.-,Shalimar Medical College 22,2024-10-16,2024-10-27,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000758,SO-.YYYY.-,Shalimar Diagnostic Lab 21,2025-12-15,2025-12-20,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000759,SO-.YYYY.-,Medix Diagnostic Lab 07,2024-08-14,2024-08-16,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000760,SO-.YYYY.-,Mayo Diagnostic Lab 09,2025-05-07,2025-05-09,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000761,SO-.YYYY.-,Services Medical College 16,2025-12-02,2025-12-09,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000762,SO-.YYYY.-,LifeLine Hospital 33,2026-02-13,2026-02-21,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000763,SO-.YYYY.-,Shalimar Diagnostic Lab 21,2025-06-08,2025-06-10,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000764,SO-.YYYY.-,Medix Clinic 39,2024-10-20,2024-10-29,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000765,SO-.YYYY.-,Medix Diagnostic Lab 07,2024-06-08,2024-06-16,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000766,SO-.YYYY.-,Mayo Diagnostic Lab 09,2024-06-22,2024-07-01,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000767,SO-.YYYY.-,Services Medical College 30,2024-08-02,2024-08-06,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000768,SO-.YYYY.-,Noor Diagnostic Lab 06,2024-07-16,2024-07-19,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000769,SO-.YYYY.-,Shalimar Diagnostic Lab 21,2025-11-05,2025-11-13,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000770,SO-.YYYY.-,Mayo Diagnostic Lab 09,2025-04-09,2025-04-19,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000771,SO-.YYYY.-,Shalimar Medical College 22,2025-03-06,2025-03-11,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000772,SO-.YYYY.-,Central Clinic 36,2025-05-25,2025-06-02,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000773,SO-.YYYY.-,LifeLine Hospital 38,2025-01-28,2025-02-02,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000774,SO-.YYYY.-,Services Diagnostic Lab 01,2024-08-02,2024-08-08,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000775,SO-.YYYY.-,Shalimar Medical College 28,2024-11-20,2024-11-27,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000776,SO-.YYYY.-,Lahore Diagnostic Medical College 26,2024-12-20,2024-12-22,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000777,SO-.YYYY.-,Shalimar Diagnostic Lab 19,2026-01-01,2026-01-06,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000778,SO-.YYYY.-,Shalimar Diagnostic Lab 21,2024-06-06,2024-06-12,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000779,SO-.YYYY.-,Al-Rehman Diagnostic Lab 37,2024-11-21,2024-11-30,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000780,SO-.YYYY.-,Shalimar Medical College 22,2025-09-29,2025-10-03,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000781,SO-.YYYY.-,Medix Clinic 12,2025-11-17,2025-11-26,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000782,SO-.YYYY.-,Lahore Diagnostic Medical College 26,2025-11-16,2025-11-23,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000783,SO-.YYYY.-,Lahore Diagnostic Medical College 26,2025-11-24,2025-11-27,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000784,SO-.YYYY.-,Mayo Diagnostic Lab 09,2024-12-28,2025-01-04,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000785,SO-.YYYY.-,Prime Medical College 31,2026-02-17,2026-02-23,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000786,SO-.YYYY.-,Al-Rehman Diagnostic Lab 37,2024-04-08,2024-04-11,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000787,SO-.YYYY.-,Medix Clinic 23,2026-01-15,2026-01-24,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000788,SO-.YYYY.-,Lahore Diagnostic Medical College 26,2025-01-14,2025-01-19,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000789,SO-.YYYY.-,Lahore Diagnostic Diagnostic Lab 25,2024-10-08,2024-10-20,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000790,SO-.YYYY.-,Services Diagnostic Lab 01,2025-08-24,2025-08-27,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000791,SO-.YYYY.-,LifeLine Hospital 38,2025-11-23,2025-12-04,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000792,SO-.YYYY.-,Prime Medical College 31,2025-08-15,2025-08-27,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000793,SO-.YYYY.-,Medix Hospital 35,2024-09-21,2024-09-25,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000794,SO-.YYYY.-,Medix Diagnostic Lab 34,2025-04-17,2025-04-28,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000795,SO-.YYYY.-,Medix Hospital 14,2025-01-08,2025-01-20,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000796,SO-.YYYY.-,Shalimar Diagnostic Lab 21,2026-01-02,2026-01-05,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000797,SO-.YYYY.-,Jinnah Diagnostic Lab 03,2024-05-06,2024-05-09,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000798,SO-.YYYY.-,Noor Medical College 11,2024-11-12,2024-11-20,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000799,SO-.YYYY.-,Medix Hospital 35,2025-07-31,2025-08-09,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000800,SO-.YYYY.-,Medix Diagnostic Lab 07,2025-04-11,2025-04-23,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000801,SO-.YYYY.-,Central Clinic 36,2024-07-05,2024-07-10,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000802,SO-.YYYY.-,Central Clinic 17,2024-11-13,2024-11-19,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000803,SO-.YYYY.-,Jinnah Hospital 10,2025-08-05,2025-08-15,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000804,SO-.YYYY.-,Central Clinic 24,2025-12-25,2026-01-05,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000805,SO-.YYYY.-,Shalimar Medical College 28,2025-11-10,2025-11-18,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000806,SO-.YYYY.-,Central Clinic 36,2024-05-23,2024-05-31,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000807,SO-.YYYY.-,Prime Clinic 15,2025-09-03,2025-09-09,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000808,SO-.YYYY.-,Medix Diagnostic Lab 34,2024-03-24,2024-03-30,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000809,SO-.YYYY.-,Medix Hospital 18,2025-03-16,2025-03-27,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000810,SO-.YYYY.-,Lahore Diagnostic Diagnostic Lab 25,2025-01-30,2025-02-03,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000811,SO-.YYYY.-,LifeLine Hospital 38,2024-07-25,2024-07-29,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000812,SO-.YYYY.-,Lahore Diagnostic Diagnostic Lab 25,2025-04-12,2025-04-23,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000813,SO-.YYYY.-,Medix Clinic 39,2025-10-15,2025-10-23,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000814,SO-.YYYY.-,Services Medical College 30,2025-05-16,2025-05-26,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000815,SO-.YYYY.-,Prime Clinic 15,2025-03-21,2025-03-27,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000816,SO-.YYYY.-,Noor Diagnostic Lab 06,2025-09-22,2025-10-04,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000817,SO-.YYYY.-,Noor Medical College 11,2026-02-09,2026-02-20,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000818,SO-.YYYY.-,LifeLine Hospital 33,2024-09-04,2024-09-08,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000819,SO-.YYYY.-,Medix Hospital 35,2025-07-07,2025-07-10,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000820,SO-.YYYY.-,Services Diagnostic Lab 01,2024-05-25,2024-06-02,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000821,SO-.YYYY.-,Jinnah Hospital 29,2024-03-29,2024-04-02,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000822,SO-.YYYY.-,Prime Hospital 04,2025-11-03,2025-11-11,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000823,SO-.YYYY.-,Shalimar Medical College 22,2024-05-20,2024-06-01,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000824,SO-.YYYY.-,Services Diagnostic Lab 01,2024-03-26,2024-04-07,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000825,SO-.YYYY.-,LifeLine Hospital 33,2024-12-05,2024-12-07,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000826,SO-.YYYY.-,Noor Hospital 20,2024-10-18,2024-10-25,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000827,SO-.YYYY.-,Shalimar Medical College 28,2024-04-21,2024-04-30,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000828,SO-.YYYY.-,Prime Diagnostic Lab 27,2024-05-12,2024-05-15,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000829,SO-.YYYY.-,Central Clinic 24,2025-04-23,2025-04-29,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000830,SO-.YYYY.-,Medix Diagnostic Lab 07,2025-08-12,2025-08-21,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000831,SO-.YYYY.-,City Care Clinic 13,2024-12-30,2025-01-02,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000832,SO-.YYYY.-,Jinnah Diagnostic Lab 03,2025-12-15,2025-12-19,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000833,SO-.YYYY.-,Prime Hospital 08,2026-03-11,2026-03-19,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000834,SO-.YYYY.-,Lahore Diagnostic Medical College 26,2025-08-07,2025-08-17,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000835,SO-.YYYY.-,Jinnah Hospital 10,2025-05-11,2025-05-18,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000836,SO-.YYYY.-,Services Diagnostic Lab 01,2025-05-19,2025-05-27,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000837,SO-.YYYY.-,Jinnah Hospital 10,2026-02-28,2026-03-10,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000838,SO-.YYYY.-,Shalimar Medical College 28,2025-04-27,2025-05-02,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000839,SO-.YYYY.-,LifeLine Hospital 38,2024-06-04,2024-06-16,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000840,SO-.YYYY.-,Jinnah Hospital 10,2025-12-27,2026-01-04,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000841,SO-.YYYY.-,Lahore Diagnostic Diagnostic Lab 25,2025-09-12,2025-09-20,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000842,SO-.YYYY.-,Prime Clinic 15,2025-09-13,2025-09-20,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000843,SO-.YYYY.-,Medix Hospital 18,2025-12-02,2025-12-09,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000844,SO-.YYYY.-,Services Diagnostic Lab 01,2024-08-15,2024-08-17,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000845,SO-.YYYY.-,Medix Clinic 12,2024-12-21,2024-12-27,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000846,SO-.YYYY.-,Central Clinic 36,2024-06-05,2024-06-09,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000847,SO-.YYYY.-,Medix Hospital 18,2025-01-23,2025-01-28,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000848,SO-.YYYY.-,LifeLine Hospital 38,2024-05-31,2024-06-12,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000849,SO-.YYYY.-,Lahore Diagnostic Hospital 05,2025-08-17,2025-08-27,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000850,SO-.YYYY.-,Mayo Diagnostic Lab 09,2024-10-06,2024-10-11,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000851,SO-.YYYY.-,Central Clinic 36,2024-08-18,2024-08-25,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000852,SO-.YYYY.-,Prime Diagnostic Lab 27,2025-09-12,2025-09-22,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000853,SO-.YYYY.-,Al-Rehman Diagnostic Lab 37,2025-02-09,2025-02-11,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000854,SO-.YYYY.-,Noor Medical College 11,2025-04-16,2025-04-25,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000855,SO-.YYYY.-,Medix Clinic 12,2025-11-02,2025-11-04,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000856,SO-.YYYY.-,Medix Diagnostic Lab 34,2025-12-21,2025-12-27,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000857,SO-.YYYY.-,Jinnah Diagnostic Lab 03,2026-01-06,2026-01-16,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000858,SO-.YYYY.-,Prime Hospital 04,2026-02-07,2026-02-19,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000859,SO-.YYYY.-,Noor Diagnostic Lab 06,2025-12-30,2026-01-09,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000860,SO-.YYYY.-,Shalimar Diagnostic Lab 19,2024-05-18,2024-05-25,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000861,SO-.YYYY.-,Jinnah Medical College 02,2025-01-23,2025-02-02,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000862,SO-.YYYY.-,Medix Clinic 39,2026-02-25,2026-03-07,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000863,SO-.YYYY.-,Jinnah Hospital 29,2025-06-02,2025-06-07,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000864,SO-.YYYY.-,Medix Clinic 12,2024-11-11,2024-11-20,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000865,SO-.YYYY.-,Shalimar Diagnostic Lab 19,2024-05-10,2024-05-12,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000866,SO-.YYYY.-,Lahore Diagnostic Hospital 05,2024-11-17,2024-11-25,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000867,SO-.YYYY.-,Services Diagnostic Lab 01,2024-06-08,2024-06-19,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000868,SO-.YYYY.-,Services Medical College 16,2025-05-30,2025-06-02,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000869,SO-.YYYY.-,Shalimar Medical College 22,2024-07-08,2024-07-11,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000870,SO-.YYYY.-,Shalimar Medical College 22,2025-06-19,2025-06-28,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000871,SO-.YYYY.-,Jinnah Diagnostic Lab 03,2025-11-28,2025-12-01,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000872,SO-.YYYY.-,Prime Diagnostic Lab 27,2025-11-25,2025-11-29,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000873,SO-.YYYY.-,Shalimar Diagnostic Lab 19,2024-05-07,2024-05-12,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000874,SO-.YYYY.-,Prime Hospital 08,2025-01-22,2025-01-31,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000875,SO-.YYYY.-,Shalimar Diagnostic Lab 19,2026-01-23,2026-01-30,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000876,SO-.YYYY.-,Jinnah Hospital 10,2026-01-14,2026-01-18,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000877,SO-.YYYY.-,Noor Hospital 20,2024-09-07,2024-09-18,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000878,SO-.YYYY.-,Central Clinic 24,2024-07-12,2024-07-18,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000879,SO-.YYYY.-,Jinnah Hospital 10,2024-03-24,2024-03-31,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000880,SO-.YYYY.-,Prime Medical College 31,2026-03-06,2026-03-09,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000881,SO-.YYYY.-,Medix Clinic 12,2024-07-30,2024-08-07,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000882,SO-.YYYY.-,Services Medical College 16,2026-02-28,2026-03-08,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000883,SO-.YYYY.-,Noor Diagnostic Lab 06,2024-03-23,2024-04-03,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000884,SO-.YYYY.-,Prime Clinic 15,2024-08-26,2024-08-29,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000885,SO-.YYYY.-,Jinnah Medical College 02,2025-08-02,2025-08-09,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000886,SO-.YYYY.-,Mayo Diagnostic Lab 09,2025-03-02,2025-03-08,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000887,SO-.YYYY.-,Mayo Diagnostic Lab 09,2025-08-29,2025-09-01,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000888,SO-.YYYY.-,Prime Hospital 04,2025-08-23,2025-08-26,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000889,SO-.YYYY.-,Noor Medical College 11,2024-12-02,2024-12-04,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000890,SO-.YYYY.-,Medix Clinic 12,2024-08-29,2024-09-07,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000891,SO-.YYYY.-,Shalimar Medical College 22,2025-03-27,2025-04-05,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000892,SO-.YYYY.-,Medix Clinic 12,2024-07-19,2024-07-29,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000893,SO-.YYYY.-,Al-Rehman Diagnostic Lab 37,2024-12-12,2024-12-22,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000894,SO-.YYYY.-,Medix Hospital 18,2024-07-10,2024-07-13,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000895,SO-.YYYY.-,Lahore Diagnostic Medical College 26,2024-04-11,2024-04-15,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000896,SO-.YYYY.-,Services Medical College 30,2025-02-18,2025-02-27,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000897,SO-.YYYY.-,Noor Medical College 11,2025-05-25,2025-05-27,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000898,SO-.YYYY.-,Medix Clinic 39,2024-12-15,2024-12-22,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000899,SO-.YYYY.-,Services Diagnostic Lab 01,2025-08-30,2025-09-05,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000900,SO-.YYYY.-,Services Medical College 16,2024-05-16,2024-05-22,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000901,SO-.YYYY.-,Shalimar Diagnostic Lab 21,2024-12-06,2024-12-09,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000902,SO-.YYYY.-,Shalimar Diagnostic Lab 21,2026-03-11,2026-03-19,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000903,SO-.YYYY.-,LifeLine Hospital 33,2025-10-23,2025-10-26,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000904,SO-.YYYY.-,Prime Medical College 31,2025-12-14,2025-12-25,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000905,SO-.YYYY.-,Prime Clinic 15,2024-05-29,2024-06-03,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000906,SO-.YYYY.-,Medix Clinic 39,2025-08-02,2025-08-14,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000907,SO-.YYYY.-,Shalimar Medical College 28,2025-06-21,2025-06-23,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000908,SO-.YYYY.-,Al-Rehman Diagnostic Lab 37,2025-08-17,2025-08-29,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000909,SO-.YYYY.-,Noor Hospital 20,2025-03-15,2025-03-25,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000910,SO-.YYYY.-,Medix Hospital 18,2024-05-07,2024-05-18,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000911,SO-.YYYY.-,Central Clinic 17,2025-08-05,2025-08-14,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000912,SO-.YYYY.-,Prime Diagnostic Lab 27,2025-10-13,2025-10-24,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000913,SO-.YYYY.-,Noor Diagnostic Lab 06,2024-08-29,2024-09-10,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000914,SO-.YYYY.-,Jinnah Diagnostic Lab 03,2025-03-23,2025-04-03,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000915,SO-.YYYY.-,Medix Diagnostic Lab 07,2024-08-20,2024-08-26,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000916,SO-.YYYY.-,Prime Clinic 15,2024-11-28,2024-12-06,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000917,SO-.YYYY.-,Noor Diagnostic Lab 06,2024-06-25,2024-06-29,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000918,SO-.YYYY.-,Shalimar Diagnostic Lab 21,2025-10-20,2025-10-27,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000919,SO-.YYYY.-,Jinnah Diagnostic Lab 03,2026-01-31,2026-02-10,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000920,SO-.YYYY.-,Lahore Diagnostic Diagnostic Lab 25,2024-07-08,2024-07-10,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000921,SO-.YYYY.-,Central Clinic 17,2024-10-31,2024-11-12,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000922,SO-.YYYY.-,Jinnah Hospital 29,2025-08-15,2025-08-23,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000923,SO-.YYYY.-,Shalimar Medical College 28,2024-03-14,2024-03-21,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000924,SO-.YYYY.-,Prime Medical College 31,2024-04-26,2024-05-05,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000925,SO-.YYYY.-,Services Diagnostic Lab 01,2024-03-24,2024-04-03,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000926,SO-.YYYY.-,Shalimar Diagnostic Lab 21,2024-11-17,2024-11-19,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000927,SO-.YYYY.-,Prime Hospital 08,2024-04-28,2024-05-10,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000928,SO-.YYYY.-,Jinnah Hospital 29,2025-07-08,2025-07-20,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000929,SO-.YYYY.-,Medix Hospital 35,2025-03-19,2025-03-23,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000930,SO-.YYYY.-,Central Clinic 24,2025-04-08,2025-04-10,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000931,SO-.YYYY.-,Prime Diagnostic Lab 27,2024-08-12,2024-08-19,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000932,SO-.YYYY.-,Shalimar Medical College 22,2024-09-11,2024-09-14,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000933,SO-.YYYY.-,Shalimar Medical College 28,2024-04-17,2024-04-25,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000934,SO-.YYYY.-,Medix Diagnostic Lab 07,2025-09-29,2025-10-02,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000935,SO-.YYYY.-,Jinnah Hospital 29,2026-01-12,2026-01-22,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000936,SO-.YYYY.-,Medix Hospital 14,2025-05-15,2025-05-20,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000937,SO-.YYYY.-,Services Medical College 30,2024-10-27,2024-11-04,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000938,SO-.YYYY.-,Shalimar Diagnostic Lab 19,2025-02-04,2025-02-10,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000939,SO-.YYYY.-,Services Medical College 16,2024-11-21,2024-11-23,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000940,SO-.YYYY.-,Medix Clinic 39,2025-05-12,2025-05-19,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000941,SO-.YYYY.-,Lahore Diagnostic Medical College 26,2025-02-02,2025-02-04,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000942,SO-.YYYY.-,Shalimar Diagnostic Lab 21,2024-12-14,2024-12-24,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000943,SO-.YYYY.-,Al-Rehman Diagnostic Lab 37,2024-05-30,2024-06-07,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000944,SO-.YYYY.-,Medix Hospital 14,2025-10-18,2025-10-21,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000945,SO-.YYYY.-,Services Clinic 40,2025-03-28,2025-04-07,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000946,SO-.YYYY.-,Medix Clinic 23,2024-07-12,2024-07-16,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000947,SO-.YYYY.-,Central Clinic 17,2025-08-08,2025-08-20,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000948,SO-.YYYY.-,Services Medical College 30,2026-01-30,2026-02-10,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000949,SO-.YYYY.-,Noor Medical College 32,2024-05-04,2024-05-11,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000950,SO-.YYYY.-,Prime Diagnostic Lab 27,2024-09-11,2024-09-14,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000951,SO-.YYYY.-,Jinnah Hospital 29,2024-10-26,2024-10-30,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000952,SO-.YYYY.-,Shalimar Medical College 22,2025-08-22,2025-08-29,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000953,SO-.YYYY.-,City Care Clinic 13,2024-04-28,2024-05-09,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000954,SO-.YYYY.-,Central Clinic 24,2025-04-26,2025-04-29,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000955,SO-.YYYY.-,Medix Hospital 18,2024-05-21,2024-05-30,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000956,SO-.YYYY.-,Noor Medical College 32,2025-07-01,2025-07-09,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000957,SO-.YYYY.-,Medix Diagnostic Lab 07,2024-12-26,2025-01-06,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000958,SO-.YYYY.-,Jinnah Hospital 29,2025-01-24,2025-02-01,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000959,SO-.YYYY.-,Al-Rehman Diagnostic Lab 37,2025-02-10,2025-02-17,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000960,SO-.YYYY.-,LifeLine Hospital 38,2024-06-08,2024-06-16,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000961,SO-.YYYY.-,Shalimar Diagnostic Lab 21,2025-09-29,2025-10-07,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000962,SO-.YYYY.-,Shalimar Diagnostic Lab 21,2025-06-22,2025-06-25,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000963,SO-.YYYY.-,Shalimar Diagnostic Lab 21,2024-03-20,2024-03-25,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000964,SO-.YYYY.-,Central Clinic 36,2025-03-24,2025-03-30,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000965,SO-.YYYY.-,Shalimar Medical College 28,2024-10-03,2024-10-10,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000966,SO-.YYYY.-,Noor Medical College 32,2025-01-04,2025-01-06,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000967,SO-.YYYY.-,Lahore Diagnostic Diagnostic Lab 25,2025-10-10,2025-10-15,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000968,SO-.YYYY.-,Services Medical College 30,2025-01-17,2025-01-23,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000969,SO-.YYYY.-,Jinnah Diagnostic Lab 03,2025-12-09,2025-12-16,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000970,SO-.YYYY.-,Shalimar Diagnostic Lab 21,2024-11-15,2024-11-22,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000971,SO-.YYYY.-,Noor Hospital 20,2025-06-30,2025-07-09,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000972,SO-.YYYY.-,Medix Diagnostic Lab 07,2025-03-24,2025-03-26,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000973,SO-.YYYY.-,Noor Medical College 11,2025-11-07,2025-11-10,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000974,SO-.YYYY.-,Prime Hospital 04,2025-07-30,2025-08-05,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000975,SO-.YYYY.-,Noor Medical College 11,2024-09-28,2024-10-02,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000976,SO-.YYYY.-,Jinnah Hospital 29,2025-09-22,2025-10-04,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000977,SO-.YYYY.-,Shalimar Diagnostic Lab 21,2024-11-18,2024-11-27,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000978,SO-.YYYY.-,Services Medical College 16,2024-08-13,2024-08-25,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000979,SO-.YYYY.-,Services Diagnostic Lab 01,2024-03-18,2024-03-30,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000980,SO-.YYYY.-,LifeLine Hospital 38,2025-05-05,2025-05-15,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000981,SO-.YYYY.-,Mayo Diagnostic Lab 09,2024-04-05,2024-04-10,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000982,SO-.YYYY.-,Medix Hospital 18,2024-11-05,2024-11-13,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000983,SO-.YYYY.-,Medix Diagnostic Lab 07,2025-09-17,2025-09-20,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000984,SO-.YYYY.-,Central Clinic 17,2025-03-01,2025-03-04,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000985,SO-.YYYY.-,LifeLine Hospital 33,2025-12-23,2025-12-30,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000986,SO-.YYYY.-,Shalimar Medical College 28,2026-02-20,2026-02-25,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000987,SO-.YYYY.-,Shalimar Medical College 28,2024-03-21,2024-03-24,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000988,SO-.YYYY.-,Prime Clinic 15,2025-02-18,2025-02-21,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000989,SO-.YYYY.-,Prime Clinic 15,2024-03-13,2024-03-24,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000990,SO-.YYYY.-,Medix Hospital 14,2026-01-14,2026-01-18,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000991,SO-.YYYY.-,Medix Clinic 12,2025-04-01,2025-04-11,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000992,SO-.YYYY.-,Shalimar Diagnostic Lab 21,2025-01-20,2025-02-01,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000993,SO-.YYYY.-,Jinnah Hospital 10,2024-06-26,2024-06-28,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000994,SO-.YYYY.-,Services Diagnostic Lab 01,2024-10-08,2024-10-19,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000995,SO-.YYYY.-,Jinnah Diagnostic Lab 03,2025-09-05,2025-09-07,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-000996,SO-.YYYY.-,Medix Diagnostic Lab 07,2024-11-10,2024-11-13,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000997,SO-.YYYY.-,Noor Medical College 32,2025-05-15,2025-05-21,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-000998,SO-.YYYY.-,Medix Clinic 39,2025-07-28,2025-08-06,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-000999,SO-.YYYY.-,Prime Clinic 15,2024-05-12,2024-05-24,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-001000,SO-.YYYY.-,Medix Hospital 14,2024-08-04,2024-08-07,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-001001,SO-.YYYY.-,Medix Hospital 35,2026-03-10,2026-03-19,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-001002,SO-.YYYY.-,Prime Diagnostic Lab 27,2024-12-23,2024-12-29,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-001003,SO-.YYYY.-,Services Medical College 30,2024-06-15,2024-06-26,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-001004,SO-.YYYY.-,Jinnah Hospital 10,2024-04-25,2024-05-05,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-001005,SO-.YYYY.-,Shalimar Diagnostic Lab 19,2024-11-04,2024-11-06,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-001006,SO-.YYYY.-,Prime Hospital 08,2025-08-26,2025-08-28,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-001007,SO-.YYYY.-,Mayo Diagnostic Lab 09,2025-05-08,2025-05-15,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-001008,SO-.YYYY.-,City Care Clinic 13,2026-02-27,2026-03-07,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-001009,SO-.YYYY.-,Lahore Diagnostic Diagnostic Lab 25,2025-03-28,2025-04-05,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-001010,SO-.YYYY.-,Shalimar Diagnostic Lab 21,2025-06-24,2025-07-05,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-001011,SO-.YYYY.-,Noor Hospital 20,2024-06-06,2024-06-09,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-001012,SO-.YYYY.-,Mayo Diagnostic Lab 09,2025-10-27,2025-11-06,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-001013,SO-.YYYY.-,Medix Clinic 23,2024-06-17,2024-06-26,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-001014,SO-.YYYY.-,Services Medical College 30,2025-08-11,2025-08-13,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-001015,SO-.YYYY.-,Services Clinic 40,2024-07-26,2024-08-01,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-001016,SO-.YYYY.-,Lahore Diagnostic Medical College 26,2025-12-24,2025-12-28,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-001017,SO-.YYYY.-,Medix Diagnostic Lab 34,2025-04-19,2025-04-28,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-001018,SO-.YYYY.-,Medix Diagnostic Lab 07,2024-05-27,2024-06-03,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-001019,SO-.YYYY.-,LifeLine Hospital 38,2025-11-08,2025-11-20,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-001020,SO-.YYYY.-,Noor Medical College 32,2025-10-14,2025-10-18,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-001021,SO-.YYYY.-,Noor Medical College 32,2024-05-14,2024-05-25,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-001022,SO-.YYYY.-,Medix Diagnostic Lab 07,2025-05-31,2025-06-05,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-001023,SO-.YYYY.-,Jinnah Hospital 29,2026-01-19,2026-01-27,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-001024,SO-.YYYY.-,Medix Hospital 35,2024-07-23,2024-07-29,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-001025,SO-.YYYY.-,Jinnah Medical College 02,2024-11-09,2024-11-13,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-001026,SO-.YYYY.-,Prime Medical College 31,2025-01-04,2025-01-10,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-001027,SO-.YYYY.-,Lahore Diagnostic Diagnostic Lab 25,2024-12-04,2024-12-07,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-001028,SO-.YYYY.-,Lahore Diagnostic Diagnostic Lab 25,2025-01-28,2025-01-30,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-001029,SO-.YYYY.-,Medix Clinic 23,2025-04-18,2025-04-22,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-001030,SO-.YYYY.-,LifeLine Hospital 33,2026-02-27,2026-03-04,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-001031,SO-.YYYY.-,Al-Rehman Diagnostic Lab 37,2025-02-09,2025-02-16,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-001032,SO-.YYYY.-,Noor Hospital 20,2025-01-31,2025-02-08,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-001033,SO-.YYYY.-,Medix Clinic 39,2025-06-18,2025-06-30,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-001034,SO-.YYYY.-,Medix Diagnostic Lab 34,2024-12-15,2024-12-21,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-001035,SO-.YYYY.-,Medix Clinic 23,2024-11-06,2024-11-17,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-001036,SO-.YYYY.-,Medix Diagnostic Lab 07,2024-05-27,2024-06-08,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-001037,SO-.YYYY.-,Medix Clinic 12,2024-10-05,2024-10-13,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-001038,SO-.YYYY.-,Central Clinic 24,2024-07-29,2024-08-09,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-001039,SO-.YYYY.-,Al-Rehman Diagnostic Lab 37,2025-10-31,2025-11-10,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-001040,SO-.YYYY.-,Noor Medical College 11,2024-07-01,2024-07-09,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-001041,SO-.YYYY.-,Jinnah Diagnostic Lab 03,2024-08-18,2024-08-22,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-001042,SO-.YYYY.-,Medix Diagnostic Lab 34,2024-06-28,2024-07-07,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-001043,SO-.YYYY.-,Lahore Diagnostic Hospital 05,2024-08-27,2024-09-05,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-001044,SO-.YYYY.-,Medix Diagnostic Lab 07,2025-06-15,2025-06-18,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-001045,SO-.YYYY.-,Shalimar Diagnostic Lab 19,2025-07-02,2025-07-08,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-001046,SO-.YYYY.-,Noor Medical College 11,2025-01-27,2025-02-02,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-001047,SO-.YYYY.-,Services Clinic 40,2025-05-02,2025-05-12,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-001048,SO-.YYYY.-,Central Clinic 17,2024-07-13,2024-07-25,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-001049,SO-.YYYY.-,Medix Hospital 14,2025-09-11,2025-09-21,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-001050,SO-.YYYY.-,Lahore Diagnostic Hospital 05,2025-03-13,2025-03-21,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-001051,SO-.YYYY.-,Prime Medical College 31,2024-10-10,2024-10-14,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-001052,SO-.YYYY.-,Medix Clinic 23,2025-06-17,2025-06-25,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-001053,SO-.YYYY.-,Jinnah Medical College 02,2025-01-21,2025-01-26,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-001054,SO-.YYYY.-,Lahore Diagnostic Diagnostic Lab 25,2025-06-29,2025-07-07,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-001055,SO-.YYYY.-,Prime Hospital 08,2024-12-08,2024-12-19,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-001056,SO-.YYYY.-,Noor Diagnostic Lab 06,2024-07-12,2024-07-23,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-001057,SO-.YYYY.-,Medix Hospital 35,2024-06-12,2024-06-23,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-001058,SO-.YYYY.-,Lahore Diagnostic Hospital 05,2024-08-20,2024-08-22,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-001059,SO-.YYYY.-,Mayo Diagnostic Lab 09,2026-02-12,2026-02-23,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-001060,SO-.YYYY.-,Medix Hospital 14,2025-01-17,2025-01-26,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-001061,SO-.YYYY.-,Central Clinic 36,2026-03-03,2026-03-09,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-001062,SO-.YYYY.-,Prime Hospital 04,2026-02-23,2026-03-02,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-001063,SO-.YYYY.-,Medix Diagnostic Lab 34,2025-11-19,2025-11-24,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-001064,SO-.YYYY.-,Services Medical College 16,2024-04-22,2024-05-01,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-001065,SO-.YYYY.-,LifeLine Hospital 38,2024-10-18,2024-10-26,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-001066,SO-.YYYY.-,Lahore Diagnostic Diagnostic Lab 25,2025-02-10,2025-02-19,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-001067,SO-.YYYY.-,Shalimar Medical College 28,2024-08-10,2024-08-20,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-001068,SO-.YYYY.-,Medix Clinic 39,2024-06-13,2024-06-20,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-001069,SO-.YYYY.-,Shalimar Medical College 28,2026-03-10,2026-03-12,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-001070,SO-.YYYY.-,Shalimar Diagnostic Lab 19,2024-11-21,2024-12-01,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-001071,SO-.YYYY.-,Lahore Diagnostic Diagnostic Lab 25,2025-03-11,2025-03-20,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-001072,SO-.YYYY.-,Services Medical College 16,2025-04-21,2025-05-01,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-001073,SO-.YYYY.-,Central Clinic 17,2025-08-19,2025-08-31,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-001074,SO-.YYYY.-,Medix Clinic 12,2024-05-01,2024-05-10,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-001075,SO-.YYYY.-,Central Clinic 36,2026-02-03,2026-02-08,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-001076,SO-.YYYY.-,Jinnah Hospital 29,2025-01-12,2025-01-16,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-001077,SO-.YYYY.-,Services Clinic 40,2024-12-03,2024-12-15,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-001078,SO-.YYYY.-,Jinnah Hospital 29,2024-09-06,2024-09-17,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-001079,SO-.YYYY.-,Jinnah Medical College 02,2024-04-12,2024-04-24,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-001080,SO-.YYYY.-,LifeLine Hospital 33,2025-04-30,2025-05-09,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-001081,SO-.YYYY.-,Prime Diagnostic Lab 27,2025-06-18,2025-06-21,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-001082,SO-.YYYY.-,Prime Diagnostic Lab 27,2025-10-02,2025-10-14,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-001083,SO-.YYYY.-,Jinnah Hospital 10,2025-09-26,2025-10-07,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-001084,SO-.YYYY.-,LifeLine Hospital 33,2024-11-22,2024-12-02,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-001085,SO-.YYYY.-,Jinnah Hospital 10,2024-06-16,2024-06-24,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-001086,SO-.YYYY.-,Prime Hospital 08,2025-06-28,2025-07-08,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-001087,SO-.YYYY.-,City Care Clinic 13,2024-06-24,2024-07-05,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-001088,SO-.YYYY.-,Central Clinic 24,2024-08-02,2024-08-07,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-001089,SO-.YYYY.-,Noor Diagnostic Lab 06,2024-07-14,2024-07-21,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-001090,SO-.YYYY.-,Prime Diagnostic Lab 27,2024-03-24,2024-03-29,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-001091,SO-.YYYY.-,Prime Diagnostic Lab 27,2024-05-14,2024-05-26,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-001092,SO-.YYYY.-,Prime Hospital 08,2024-10-25,2024-10-28,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-001093,SO-.YYYY.-,Medix Clinic 12,2024-07-23,2024-08-01,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-001094,SO-.YYYY.-,Medix Diagnostic Lab 07,2024-09-30,2024-10-04,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-001095,SO-.YYYY.-,Medix Diagnostic Lab 34,2025-04-26,2025-05-04,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-001096,SO-.YYYY.-,Shalimar Medical College 22,2025-03-28,2025-04-04,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-001097,SO-.YYYY.-,Jinnah Diagnostic Lab 03,2026-02-12,2026-02-15,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-001098,SO-.YYYY.-,Prime Medical College 31,2025-12-17,2025-12-21,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-001099,SO-.YYYY.-,Services Diagnostic Lab 01,2026-01-01,2026-01-12,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-001100,SO-.YYYY.-,LifeLine Hospital 33,2024-06-06,2024-06-17,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-001101,SO-.YYYY.-,Medix Diagnostic Lab 34,2025-10-29,2025-11-09,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-001102,SO-.YYYY.-,Medix Hospital 14,2025-11-02,2025-11-10,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-001103,SO-.YYYY.-,Prime Hospital 08,2024-12-02,2024-12-08,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-001104,SO-.YYYY.-,Shalimar Diagnostic Lab 19,2024-05-27,2024-06-02,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-001105,SO-.YYYY.-,LifeLine Hospital 33,2024-04-03,2024-04-07,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-001106,SO-.YYYY.-,Jinnah Medical College 02,2024-05-17,2024-05-24,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-001107,SO-.YYYY.-,Services Medical College 30,2024-09-30,2024-10-06,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-001108,SO-.YYYY.-,Noor Diagnostic Lab 06,2026-01-02,2026-01-06,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-001109,SO-.YYYY.-,Noor Diagnostic Lab 06,2025-06-09,2025-06-14,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-001110,SO-.YYYY.-,LifeLine Hospital 33,2024-07-21,2024-08-02,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-001111,SO-.YYYY.-,Jinnah Diagnostic Lab 03,2024-06-14,2024-06-22,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-001112,SO-.YYYY.-,Services Diagnostic Lab 01,2025-02-14,2025-02-19,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-001113,SO-.YYYY.-,Noor Medical College 32,2024-07-15,2024-07-19,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-001114,SO-.YYYY.-,Medix Hospital 14,2024-04-24,2024-04-26,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-001115,SO-.YYYY.-,Prime Diagnostic Lab 27,2025-06-27,2025-07-03,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-001116,SO-.YYYY.-,Medix Clinic 12,2024-05-02,2024-05-08,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-001117,SO-.YYYY.-,Medix Clinic 23,2024-08-31,2024-09-10,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-001118,SO-.YYYY.-,Shalimar Diagnostic Lab 21,2025-10-20,2025-10-25,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-001119,SO-.YYYY.-,Lahore Diagnostic Medical College 26,2025-05-29,2025-06-02,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-001120,SO-.YYYY.-,LifeLine Hospital 33,2025-04-20,2025-04-25,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-001121,SO-.YYYY.-,Lahore Diagnostic Medical College 26,2025-08-02,2025-08-11,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-001122,SO-.YYYY.-,Jinnah Diagnostic Lab 03,2024-04-11,2024-04-17,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-001123,SO-.YYYY.-,Medix Hospital 35,2025-04-07,2025-04-12,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-001124,SO-.YYYY.-,Jinnah Medical College 02,2026-02-09,2026-02-17,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-001125,SO-.YYYY.-,Central Clinic 36,2025-05-22,2025-05-25,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-001126,SO-.YYYY.-,Medix Hospital 35,2024-09-04,2024-09-12,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-001127,SO-.YYYY.-,Medix Hospital 14,2025-03-09,2025-03-19,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-001128,SO-.YYYY.-,Medix Diagnostic Lab 34,2024-10-17,2024-10-20,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-001129,SO-.YYYY.-,Services Medical College 16,2024-09-19,2024-09-21,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-001130,SO-.YYYY.-,Noor Diagnostic Lab 06,2024-12-18,2024-12-21,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-001131,SO-.YYYY.-,Prime Diagnostic Lab 27,2024-12-23,2024-12-25,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-001132,SO-.YYYY.-,Medix Clinic 39,2025-06-11,2025-06-17,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-001133,SO-.YYYY.-,Medix Diagnostic Lab 07,2024-08-11,2024-08-17,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-001134,SO-.YYYY.-,Central Clinic 36,2024-04-16,2024-04-22,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-001135,SO-.YYYY.-,Lahore Diagnostic Medical College 26,2025-11-30,2025-12-07,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-001136,SO-.YYYY.-,Prime Clinic 15,2025-12-06,2025-12-15,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-001137,SO-.YYYY.-,Noor Diagnostic Lab 06,2025-12-03,2025-12-06,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-001138,SO-.YYYY.-,Services Clinic 40,2024-11-18,2024-11-27,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-001139,SO-.YYYY.-,Noor Hospital 20,2026-01-03,2026-01-10,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-001140,SO-.YYYY.-,Medix Hospital 14,2025-01-08,2025-01-18,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-001141,SO-.YYYY.-,Services Medical College 16,2025-08-04,2025-08-11,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-001142,SO-.YYYY.-,Shalimar Medical College 28,2025-05-07,2025-05-10,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-001143,SO-.YYYY.-,Jinnah Hospital 29,2025-09-26,2025-09-29,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-001144,SO-.YYYY.-,Central Clinic 36,2025-07-15,2025-07-23,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-001145,SO-.YYYY.-,Shalimar Diagnostic Lab 21,2024-05-13,2024-05-24,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-001146,SO-.YYYY.-,Services Clinic 40,2024-06-09,2024-06-16,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-001147,SO-.YYYY.-,Medix Diagnostic Lab 34,2024-12-23,2025-01-01,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-001148,SO-.YYYY.-,City Care Clinic 13,2025-04-08,2025-04-13,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-001149,SO-.YYYY.-,Noor Medical College 11,2024-07-30,2024-08-02,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-001150,SO-.YYYY.-,Shalimar Diagnostic Lab 19,2025-05-15,2025-05-23,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-001151,SO-.YYYY.-,Medix Hospital 35,2024-10-02,2024-10-14,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-001152,SO-.YYYY.-,Medix Clinic 12,2025-12-30,2026-01-05,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-001153,SO-.YYYY.-,Al-Rehman Diagnostic Lab 37,2025-09-01,2025-09-12,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-001154,SO-.YYYY.-,Services Diagnostic Lab 01,2024-11-22,2024-11-27,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-001155,SO-.YYYY.-,Lahore Diagnostic Hospital 05,2025-12-17,2025-12-19,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-001156,SO-.YYYY.-,Prime Hospital 08,2025-09-19,2025-09-24,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-001157,SO-.YYYY.-,Medix Diagnostic Lab 34,2024-03-31,2024-04-07,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-001158,SO-.YYYY.-,Medix Hospital 18,2025-04-07,2025-04-11,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-001159,SO-.YYYY.-,Shalimar Medical College 28,2026-03-12,2026-03-24,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-001160,SO-.YYYY.-,Medix Clinic 23,2025-03-14,2025-03-22,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-001161,SO-.YYYY.-,Jinnah Hospital 29,2025-07-16,2025-07-23,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-001162,SO-.YYYY.-,Central Clinic 17,2025-09-20,2025-09-30,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-001163,SO-.YYYY.-,Jinnah Diagnostic Lab 03,2025-07-21,2025-07-27,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-001164,SO-.YYYY.-,Prime Medical College 31,2025-02-27,2025-03-10,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-001165,SO-.YYYY.-,Central Clinic 24,2025-10-12,2025-10-14,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-001166,SO-.YYYY.-,Prime Hospital 08,2025-08-08,2025-08-10,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-001167,SO-.YYYY.-,City Care Clinic 13,2025-02-04,2025-02-16,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-001168,SO-.YYYY.-,Shalimar Diagnostic Lab 21,2025-04-13,2025-04-17,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-001169,SO-.YYYY.-,Prime Hospital 04,2024-12-13,2024-12-16,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-001170,SO-.YYYY.-,Medix Hospital 18,2024-09-12,2024-09-23,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-001171,SO-.YYYY.-,Medix Hospital 18,2024-04-07,2024-04-17,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-001172,SO-.YYYY.-,Services Medical College 30,2025-02-01,2025-02-04,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-001173,SO-.YYYY.-,Noor Medical College 11,2025-11-13,2025-11-15,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-001174,SO-.YYYY.-,City Care Clinic 13,2024-10-22,2024-10-26,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-001175,SO-.YYYY.-,Shalimar Diagnostic Lab 21,2024-04-11,2024-04-19,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-001176,SO-.YYYY.-,Jinnah Hospital 29,2024-12-24,2024-12-30,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-001177,SO-.YYYY.-,Noor Medical College 11,2024-05-10,2024-05-12,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-001178,SO-.YYYY.-,Shalimar Diagnostic Lab 19,2025-07-08,2025-07-13,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-001179,SO-.YYYY.-,Medix Hospital 18,2025-09-05,2025-09-08,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-001180,SO-.YYYY.-,Medix Clinic 12,2025-03-13,2025-03-22,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-001181,SO-.YYYY.-,Medix Diagnostic Lab 07,2025-10-31,2025-11-12,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-001182,SO-.YYYY.-,Medix Clinic 23,2024-11-05,2024-11-11,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-001183,SO-.YYYY.-,Jinnah Hospital 29,2024-08-22,2024-09-02,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-001184,SO-.YYYY.-,Services Medical College 16,2024-06-22,2024-06-28,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-001185,SO-.YYYY.-,Prime Clinic 15,2024-11-20,2024-11-30,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-001186,SO-.YYYY.-,Jinnah Medical College 02,2026-01-13,2026-01-17,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-001187,SO-.YYYY.-,Medix Diagnostic Lab 34,2024-11-13,2024-11-18,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-001188,SO-.YYYY.-,Jinnah Hospital 10,2024-12-09,2024-12-16,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-001189,SO-.YYYY.-,Medix Clinic 12,2025-09-09,2025-09-15,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-001190,SO-.YYYY.-,Shalimar Medical College 28,2024-05-08,2024-05-11,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-001191,SO-.YYYY.-,Noor Medical College 11,2024-10-22,2024-10-29,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-001192,SO-.YYYY.-,Lahore Diagnostic Diagnostic Lab 25,2025-10-22,2025-10-31,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-001193,SO-.YYYY.-,Shalimar Diagnostic Lab 21,2025-04-13,2025-04-19,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-001194,SO-.YYYY.-,LifeLine Hospital 38,2025-03-10,2025-03-12,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-001195,SO-.YYYY.-,Services Diagnostic Lab 01,2024-09-05,2024-09-16,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-001196,SO-.YYYY.-,Medix Hospital 14,2024-09-08,2024-09-14,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-001197,SO-.YYYY.-,Noor Hospital 20,2024-11-09,2024-11-17,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed
+SO-DEMO-001198,SO-.YYYY.-,Prime Diagnostic Lab 27,2025-11-08,2025-11-12,EnXi Biomedical & Waste Management (Pvt) Ltd,To Deliver and Bill
+SO-DEMO-001199,SO-.YYYY.-,Services Medical College 30,2025-01-31,2025-02-03,EnXi Biomedical & Waste Management (Pvt) Ltd,To Bill
+SO-DEMO-001200,SO-.YYYY.-,Shalimar Diagnostic Lab 21,2026-02-24,2026-02-28,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed

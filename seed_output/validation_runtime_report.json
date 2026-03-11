@@ -1,0 +1,18 @@
+{
+  "valid": true,
+  "counts": {
+    "customers": 40,
+    "items": 386,
+    "sales_orders": 1200,
+    "sales_order_items": 2115,
+    "issues": 260,
+    "waste_events": 3200
+  },
+  "errors": {
+    "sales_orders_missing_customer": [],
+    "sales_order_items_missing_parent": [],
+    "sales_order_items_missing_item": [],
+    "issues_missing_customer": [],
+    "waste_events_missing_customer": []
+  }
+}

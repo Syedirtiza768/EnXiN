@@ -1,0 +1,2116 @@
+parent,parenttype,parentfield,item_code,qty,uom,warehouse,rate
+SO-DEMO-000001,Sales Order,items,BIO-00361,6,Nos,Central Warehouse - ENXI,1655061
+SO-DEMO-000002,Sales Order,items,BIO-00097,4,Nos,Central Warehouse - ENXI,2453835
+SO-DEMO-000002,Sales Order,items,WASTE-PHARMACEUTICAL,197,Kg,,226
+SO-DEMO-000003,Sales Order,items,BIO-00113,1,Nos,Central Warehouse - ENXI,2388085
+SO-DEMO-000003,Sales Order,items,WASTE-SHARPS,532,Kg,,592
+SO-DEMO-000004,Sales Order,items,BIO-00091,3,Nos,Central Warehouse - ENXI,429795
+SO-DEMO-000004,Sales Order,items,WASTE-CHEMICAL,410,Kg,,576
+SO-DEMO-000005,Sales Order,items,BIO-00038,3,Nos,Central Warehouse - ENXI,3135046
+SO-DEMO-000006,Sales Order,items,BIO-00173,3,Nos,Central Warehouse - ENXI,1533095
+SO-DEMO-000006,Sales Order,items,WASTE-PATHOLOGICAL,1014,Kg,,585
+SO-DEMO-000007,Sales Order,items,BIO-00090,6,Nos,Central Warehouse - ENXI,2537103
+SO-DEMO-000007,Sales Order,items,WASTE-CHEMICAL,850,Kg,,294
+SO-DEMO-000008,Sales Order,items,BIO-00158,6,Nos,Central Warehouse - ENXI,3067771
+SO-DEMO-000008,Sales Order,items,WASTE-PATHOLOGICAL,123,Kg,,539
+SO-DEMO-000009,Sales Order,items,BIO-00017,2,Nos,Central Warehouse - ENXI,2706601
+SO-DEMO-000009,Sales Order,items,WASTE-CHEMICAL,572,Kg,,507
+SO-DEMO-000010,Sales Order,items,BIO-00073,3,Nos,Central Warehouse - ENXI,3306196
+SO-DEMO-000010,Sales Order,items,WASTE-SHARPS,774,Kg,,265
+SO-DEMO-000011,Sales Order,items,BIO-00374,3,Nos,Central Warehouse - ENXI,2053301
+SO-DEMO-000011,Sales Order,items,WASTE-PATHOLOGICAL,631,Kg,,534
+SO-DEMO-000012,Sales Order,items,BIO-00056,6,Nos,Central Warehouse - ENXI,185373
+SO-DEMO-000012,Sales Order,items,WASTE-PHARMACEUTICAL,979,Kg,,265
+SO-DEMO-000013,Sales Order,items,BIO-00180,5,Nos,Central Warehouse - ENXI,1754321
+SO-DEMO-000013,Sales Order,items,WASTE-PHARMACEUTICAL,581,Kg,,263
+SO-DEMO-000014,Sales Order,items,BIO-00151,1,Nos,Central Warehouse - ENXI,1516795
+SO-DEMO-000014,Sales Order,items,WASTE-INFECTIOUS,271,Kg,,355
+SO-DEMO-000015,Sales Order,items,BIO-00375,1,Nos,Central Warehouse - ENXI,2474478
+SO-DEMO-000016,Sales Order,items,BIO-00315,4,Nos,Central Warehouse - ENXI,3134906
+SO-DEMO-000016,Sales Order,items,WASTE-GENERAL,457,Kg,,490
+SO-DEMO-000017,Sales Order,items,BIO-00052,3,Nos,Central Warehouse - ENXI,1042141
+SO-DEMO-000018,Sales Order,items,BIO-00374,5,Nos,Central Warehouse - ENXI,1292601
+SO-DEMO-000018,Sales Order,items,WASTE-SHARPS,606,Kg,,229
+SO-DEMO-000019,Sales Order,items,BIO-00282,4,Nos,Central Warehouse - ENXI,824202
+SO-DEMO-000019,Sales Order,items,WASTE-INFECTIOUS,995,Kg,,224
+SO-DEMO-000020,Sales Order,items,BIO-00308,4,Nos,Central Warehouse - ENXI,1017496
+SO-DEMO-000020,Sales Order,items,WASTE-PATHOLOGICAL,469,Kg,,506
+SO-DEMO-000021,Sales Order,items,BIO-00060,3,Nos,Central Warehouse - ENXI,3472010
+SO-DEMO-000021,Sales Order,items,WASTE-PHARMACEUTICAL,662,Kg,,226
+SO-DEMO-000022,Sales Order,items,BIO-00190,4,Nos,Central Warehouse - ENXI,1729382
+SO-DEMO-000022,Sales Order,items,WASTE-INFECTIOUS,659,Kg,,405
+SO-DEMO-000023,Sales Order,items,BIO-00138,5,Nos,Central Warehouse - ENXI,438534
+SO-DEMO-000023,Sales Order,items,WASTE-GENERAL,318,Kg,,223
+SO-DEMO-000024,Sales Order,items,BIO-00302,2,Nos,Central Warehouse - ENXI,2501974
+SO-DEMO-000024,Sales Order,items,WASTE-PHARMACEUTICAL,1190,Kg,,394
+SO-DEMO-000025,Sales Order,items,BIO-00294,2,Nos,Central Warehouse - ENXI,2177588
+SO-DEMO-000025,Sales Order,items,WASTE-PHARMACEUTICAL,191,Kg,,437
+SO-DEMO-000026,Sales Order,items,BIO-00347,5,Nos,Central Warehouse - ENXI,798440
+SO-DEMO-000026,Sales Order,items,WASTE-PHARMACEUTICAL,474,Kg,,265
+SO-DEMO-000027,Sales Order,items,BIO-00022,4,Nos,Central Warehouse - ENXI,508701
+SO-DEMO-000028,Sales Order,items,BIO-00076,5,Nos,Central Warehouse - ENXI,1261653
+SO-DEMO-000028,Sales Order,items,WASTE-GENERAL,257,Kg,,224
+SO-DEMO-000029,Sales Order,items,BIO-00283,3,Nos,Central Warehouse - ENXI,1338470
+SO-DEMO-000029,Sales Order,items,WASTE-INFECTIOUS,1190,Kg,,580
+SO-DEMO-000030,Sales Order,items,BIO-00077,2,Nos,Central Warehouse - ENXI,2556467
+SO-DEMO-000030,Sales Order,items,WASTE-INFECTIOUS,336,Kg,,468
+SO-DEMO-000031,Sales Order,items,BIO-00177,4,Nos,Central Warehouse - ENXI,1287869
+SO-DEMO-000031,Sales Order,items,WASTE-PHARMACEUTICAL,1088,Kg,,199
+SO-DEMO-000032,Sales Order,items,BIO-00074,5,Nos,Central Warehouse - ENXI,2732885
+SO-DEMO-000032,Sales Order,items,WASTE-PHARMACEUTICAL,199,Kg,,382
+SO-DEMO-000033,Sales Order,items,BIO-00244,3,Nos,Central Warehouse - ENXI,1742129
+SO-DEMO-000033,Sales Order,items,WASTE-SHARPS,756,Kg,,323
+SO-DEMO-000034,Sales Order,items,BIO-00117,2,Nos,Central Warehouse - ENXI,1440306
+SO-DEMO-000035,Sales Order,items,BIO-00374,4,Nos,Central Warehouse - ENXI,2717466
+SO-DEMO-000035,Sales Order,items,WASTE-PATHOLOGICAL,1024,Kg,,288
+SO-DEMO-000036,Sales Order,items,BIO-00192,1,Nos,Central Warehouse - ENXI,2341197
+SO-DEMO-000037,Sales Order,items,BIO-00260,4,Nos,Central Warehouse - ENXI,748956
+SO-DEMO-000038,Sales Order,items,BIO-00089,2,Nos,Central Warehouse - ENXI,1021909
+SO-DEMO-000039,Sales Order,items,BIO-00026,3,Nos,Central Warehouse - ENXI,3135448
+SO-DEMO-000039,Sales Order,items,WASTE-SHARPS,1070,Kg,,438
+SO-DEMO-000040,Sales Order,items,BIO-00349,1,Nos,Central Warehouse - ENXI,1194761
+SO-DEMO-000040,Sales Order,items,WASTE-CHEMICAL,1033,Kg,,270
+SO-DEMO-000041,Sales Order,items,BIO-00180,3,Nos,Central Warehouse - ENXI,865825
+SO-DEMO-000042,Sales Order,items,BIO-00015,4,Nos,Central Warehouse - ENXI,388251
+SO-DEMO-000042,Sales Order,items,WASTE-CHEMICAL,558,Kg,,618
+SO-DEMO-000043,Sales Order,items,BIO-00347,2,Nos,Central Warehouse - ENXI,1308618
+SO-DEMO-000043,Sales Order,items,WASTE-CHEMICAL,161,Kg,,622
+SO-DEMO-000044,Sales Order,items,BIO-00332,2,Nos,Central Warehouse - ENXI,2701372
+SO-DEMO-000045,Sales Order,items,BIO-00157,6,Nos,Central Warehouse - ENXI,3155305
+SO-DEMO-000045,Sales Order,items,WASTE-PHARMACEUTICAL,891,Kg,,616
+SO-DEMO-000046,Sales Order,items,BIO-00112,4,Nos,Central Warehouse - ENXI,1447288
+SO-DEMO-000046,Sales Order,items,WASTE-CHEMICAL,933,Kg,,479
+SO-DEMO-000047,Sales Order,items,BIO-00340,3,Nos,Central Warehouse - ENXI,2534921
+SO-DEMO-000047,Sales Order,items,WASTE-CHEMICAL,698,Kg,,332
+SO-DEMO-000048,Sales Order,items,BIO-00173,3,Nos,Central Warehouse - ENXI,2866849
+SO-DEMO-000048,Sales Order,items,WASTE-SHARPS,654,Kg,,515
+SO-DEMO-000049,Sales Order,items,BIO-00265,2,Nos,Central Warehouse - ENXI,418130
+SO-DEMO-000050,Sales Order,items,BIO-00164,6,Nos,Central Warehouse - ENXI,766906
+SO-DEMO-000050,Sales Order,items,WASTE-GENERAL,1138,Kg,,331
+SO-DEMO-000051,Sales Order,items,BIO-00199,6,Nos,Central Warehouse - ENXI,328138
+SO-DEMO-000051,Sales Order,items,WASTE-CHEMICAL,508,Kg,,355
+SO-DEMO-000052,Sales Order,items,BIO-00327,4,Nos,Central Warehouse - ENXI,2998020
+SO-DEMO-000052,Sales Order,items,WASTE-SHARPS,468,Kg,,610
+SO-DEMO-000053,Sales Order,items,BIO-00050,4,Nos,Central Warehouse - ENXI,716636
+SO-DEMO-000053,Sales Order,items,WASTE-GENERAL,494,Kg,,528
+SO-DEMO-000054,Sales Order,items,BIO-00114,3,Nos,Central Warehouse - ENXI,1116705
+SO-DEMO-000054,Sales Order,items,WASTE-SHARPS,981,Kg,,583
+SO-DEMO-000055,Sales Order,items,BIO-00300,3,Nos,Central Warehouse - ENXI,2125153
+SO-DEMO-000056,Sales Order,items,BIO-00299,5,Nos,Central Warehouse - ENXI,2783214
+SO-DEMO-000056,Sales Order,items,WASTE-PATHOLOGICAL,1144,Kg,,241
+SO-DEMO-000057,Sales Order,items,BIO-00212,1,Nos,Central Warehouse - ENXI,812410
+SO-DEMO-000057,Sales Order,items,WASTE-PATHOLOGICAL,821,Kg,,389
+SO-DEMO-000058,Sales Order,items,BIO-00162,6,Nos,Central Warehouse - ENXI,936471
+SO-DEMO-000059,Sales Order,items,BIO-00091,3,Nos,Central Warehouse - ENXI,2841281
+SO-DEMO-000059,Sales Order,items,WASTE-PHARMACEUTICAL,680,Kg,,287
+SO-DEMO-000060,Sales Order,items,BIO-00251,1,Nos,Central Warehouse - ENXI,722767
+SO-DEMO-000060,Sales Order,items,WASTE-GENERAL,999,Kg,,386
+SO-DEMO-000061,Sales Order,items,BIO-00003,1,Nos,Central Warehouse - ENXI,2418846
+SO-DEMO-000061,Sales Order,items,WASTE-SHARPS,148,Kg,,636
+SO-DEMO-000062,Sales Order,items,BIO-00010,6,Nos,Central Warehouse - ENXI,197296
+SO-DEMO-000062,Sales Order,items,WASTE-PATHOLOGICAL,583,Kg,,535
+SO-DEMO-000063,Sales Order,items,BIO-00053,4,Nos,Central Warehouse - ENXI,2291146
+SO-DEMO-000063,Sales Order,items,WASTE-PATHOLOGICAL,253,Kg,,601
+SO-DEMO-000064,Sales Order,items,BIO-00234,6,Nos,Central Warehouse - ENXI,2362247
+SO-DEMO-000064,Sales Order,items,WASTE-SHARPS,1008,Kg,,634
+SO-DEMO-000065,Sales Order,items,BIO-00184,2,Nos,Central Warehouse - ENXI,871571
+SO-DEMO-000066,Sales Order,items,BIO-00115,6,Nos,Central Warehouse - ENXI,730316
+SO-DEMO-000066,Sales Order,items,WASTE-INFECTIOUS,1153,Kg,,266
+SO-DEMO-000067,Sales Order,items,BIO-00334,1,Nos,Central Warehouse - ENXI,1753671
+SO-DEMO-000068,Sales Order,items,BIO-00025,5,Nos,Central Warehouse - ENXI,381160
+SO-DEMO-000068,Sales Order,items,WASTE-GENERAL,160,Kg,,204
+SO-DEMO-000069,Sales Order,items,BIO-00195,1,Nos,Central Warehouse - ENXI,2475468
+SO-DEMO-000069,Sales Order,items,WASTE-GENERAL,433,Kg,,285
+SO-DEMO-000070,Sales Order,items,BIO-00339,1,Nos,Central Warehouse - ENXI,2958654
+SO-DEMO-000070,Sales Order,items,WASTE-CHEMICAL,400,Kg,,394
+SO-DEMO-000071,Sales Order,items,BIO-00317,1,Nos,Central Warehouse - ENXI,1365758
+SO-DEMO-000071,Sales Order,items,WASTE-INFECTIOUS,1139,Kg,,281
+SO-DEMO-000072,Sales Order,items,BIO-00268,2,Nos,Central Warehouse - ENXI,1681232
+SO-DEMO-000072,Sales Order,items,WASTE-SHARPS,448,Kg,,200
+SO-DEMO-000073,Sales Order,items,BIO-00353,4,Nos,Central Warehouse - ENXI,1566652
+SO-DEMO-000073,Sales Order,items,WASTE-INFECTIOUS,302,Kg,,644
+SO-DEMO-000074,Sales Order,items,BIO-00253,2,Nos,Central Warehouse - ENXI,557834
+SO-DEMO-000075,Sales Order,items,BIO-00330,2,Nos,Central Warehouse - ENXI,2095753
+SO-DEMO-000076,Sales Order,items,BIO-00026,1,Nos,Central Warehouse - ENXI,3590717
+SO-DEMO-000076,Sales Order,items,WASTE-INFECTIOUS,715,Kg,,364
+SO-DEMO-000077,Sales Order,items,BIO-00060,1,Nos,Central Warehouse - ENXI,3360138
+SO-DEMO-000078,Sales Order,items,BIO-00332,2,Nos,Central Warehouse - ENXI,1558503
+SO-DEMO-000078,Sales Order,items,WASTE-PHARMACEUTICAL,669,Kg,,629
+SO-DEMO-000079,Sales Order,items,BIO-00094,1,Nos,Central Warehouse - ENXI,1860982
+SO-DEMO-000079,Sales Order,items,WASTE-PHARMACEUTICAL,676,Kg,,607
+SO-DEMO-000080,Sales Order,items,BIO-00333,2,Nos,Central Warehouse - ENXI,654193
+SO-DEMO-000080,Sales Order,items,WASTE-GENERAL,240,Kg,,612
+SO-DEMO-000081,Sales Order,items,BIO-00303,4,Nos,Central Warehouse - ENXI,3544942
+SO-DEMO-000081,Sales Order,items,WASTE-PHARMACEUTICAL,491,Kg,,492
+SO-DEMO-000082,Sales Order,items,BIO-00015,6,Nos,Central Warehouse - ENXI,3230427
+SO-DEMO-000083,Sales Order,items,BIO-00058,4,Nos,Central Warehouse - ENXI,2028378
+SO-DEMO-000083,Sales Order,items,WASTE-SHARPS,763,Kg,,186
+SO-DEMO-000084,Sales Order,items,BIO-00290,2,Nos,Central Warehouse - ENXI,2989530
+SO-DEMO-000085,Sales Order,items,BIO-00359,5,Nos,Central Warehouse - ENXI,579474
+SO-DEMO-000085,Sales Order,items,WASTE-GENERAL,629,Kg,,426
+SO-DEMO-000086,Sales Order,items,BIO-00329,4,Nos,Central Warehouse - ENXI,803501
+SO-DEMO-000087,Sales Order,items,BIO-00006,6,Nos,Central Warehouse - ENXI,838201
+SO-DEMO-000087,Sales Order,items,WASTE-PHARMACEUTICAL,1135,Kg,,625
+SO-DEMO-000088,Sales Order,items,BIO-00165,2,Nos,Central Warehouse - ENXI,1567873
+SO-DEMO-000089,Sales Order,items,BIO-00282,6,Nos,Central Warehouse - ENXI,1768121
+SO-DEMO-000089,Sales Order,items,WASTE-PATHOLOGICAL,281,Kg,,415
+SO-DEMO-000090,Sales Order,items,BIO-00046,4,Nos,Central Warehouse - ENXI,2055139
+SO-DEMO-000090,Sales Order,items,WASTE-PHARMACEUTICAL,156,Kg,,232
+SO-DEMO-000091,Sales Order,items,BIO-00286,5,Nos,Central Warehouse - ENXI,180711
+SO-DEMO-000092,Sales Order,items,BIO-00156,5,Nos,Central Warehouse - ENXI,2538593
+SO-DEMO-000092,Sales Order,items,WASTE-GENERAL,1054,Kg,,354
+SO-DEMO-000093,Sales Order,items,BIO-00233,3,Nos,Central Warehouse - ENXI,2529442
+SO-DEMO-000094,Sales Order,items,BIO-00337,3,Nos,Central Warehouse - ENXI,3182758
+SO-DEMO-000094,Sales Order,items,WASTE-INFECTIOUS,574,Kg,,181
+SO-DEMO-000095,Sales Order,items,BIO-00150,5,Nos,Central Warehouse - ENXI,2369364
+SO-DEMO-000095,Sales Order,items,WASTE-INFECTIOUS,213,Kg,,639
+SO-DEMO-000096,Sales Order,items,BIO-00368,6,Nos,Central Warehouse - ENXI,3206438
+SO-DEMO-000096,Sales Order,items,WASTE-SHARPS,521,Kg,,276
+SO-DEMO-000097,Sales Order,items,BIO-00235,2,Nos,Central Warehouse - ENXI,3186426
+SO-DEMO-000097,Sales Order,items,WASTE-PHARMACEUTICAL,215,Kg,,504
+SO-DEMO-000098,Sales Order,items,BIO-00235,6,Nos,Central Warehouse - ENXI,2651771
+SO-DEMO-000099,Sales Order,items,BIO-00272,6,Nos,Central Warehouse - ENXI,383724
+SO-DEMO-000099,Sales Order,items,WASTE-PHARMACEUTICAL,1109,Kg,,440
+SO-DEMO-000100,Sales Order,items,BIO-00375,2,Nos,Central Warehouse - ENXI,614336
+SO-DEMO-000100,Sales Order,items,WASTE-CHEMICAL,779,Kg,,438
+SO-DEMO-000101,Sales Order,items,BIO-00355,2,Nos,Central Warehouse - ENXI,1327544
+SO-DEMO-000101,Sales Order,items,WASTE-SHARPS,722,Kg,,411
+SO-DEMO-000102,Sales Order,items,BIO-00309,6,Nos,Central Warehouse - ENXI,3319129
+SO-DEMO-000102,Sales Order,items,WASTE-GENERAL,762,Kg,,544
+SO-DEMO-000103,Sales Order,items,BIO-00103,2,Nos,Central Warehouse - ENXI,2797948
+SO-DEMO-000103,Sales Order,items,WASTE-GENERAL,827,Kg,,524
+SO-DEMO-000104,Sales Order,items,BIO-00258,5,Nos,Central Warehouse - ENXI,3092155
+SO-DEMO-000104,Sales Order,items,WASTE-GENERAL,356,Kg,,569
+SO-DEMO-000105,Sales Order,items,BIO-00299,5,Nos,Central Warehouse - ENXI,2978260
+SO-DEMO-000105,Sales Order,items,WASTE-GENERAL,705,Kg,,629
+SO-DEMO-000106,Sales Order,items,BIO-00055,1,Nos,Central Warehouse - ENXI,1777485
+SO-DEMO-000106,Sales Order,items,WASTE-GENERAL,235,Kg,,282
+SO-DEMO-000107,Sales Order,items,BIO-00350,3,Nos,Central Warehouse - ENXI,794165
+SO-DEMO-000108,Sales Order,items,BIO-00017,3,Nos,Central Warehouse - ENXI,3594273
+SO-DEMO-000108,Sales Order,items,WASTE-CHEMICAL,579,Kg,,560
+SO-DEMO-000109,Sales Order,items,BIO-00262,6,Nos,Central Warehouse - ENXI,1386443
+SO-DEMO-000109,Sales Order,items,WASTE-INFECTIOUS,901,Kg,,378
+SO-DEMO-000110,Sales Order,items,BIO-00283,1,Nos,Central Warehouse - ENXI,234380
+SO-DEMO-000110,Sales Order,items,WASTE-PATHOLOGICAL,1027,Kg,,604
+SO-DEMO-000111,Sales Order,items,BIO-00364,6,Nos,Central Warehouse - ENXI,1722418
+SO-DEMO-000112,Sales Order,items,BIO-00372,2,Nos,Central Warehouse - ENXI,1413870
+SO-DEMO-000112,Sales Order,items,WASTE-GENERAL,272,Kg,,275
+SO-DEMO-000113,Sales Order,items,BIO-00194,1,Nos,Central Warehouse - ENXI,1977292
+SO-DEMO-000113,Sales Order,items,WASTE-SHARPS,386,Kg,,262
+SO-DEMO-000114,Sales Order,items,BIO-00170,4,Nos,Central Warehouse - ENXI,3156652
+SO-DEMO-000115,Sales Order,items,BIO-00306,1,Nos,Central Warehouse - ENXI,3424969
+SO-DEMO-000116,Sales Order,items,BIO-00252,5,Nos,Central Warehouse - ENXI,2487539
+SO-DEMO-000116,Sales Order,items,WASTE-GENERAL,770,Kg,,449
+SO-DEMO-000117,Sales Order,items,BIO-00035,5,Nos,Central Warehouse - ENXI,848448
+SO-DEMO-000117,Sales Order,items,WASTE-CHEMICAL,946,Kg,,227
+SO-DEMO-000118,Sales Order,items,BIO-00340,3,Nos,Central Warehouse - ENXI,1568593
+SO-DEMO-000118,Sales Order,items,WASTE-PATHOLOGICAL,1092,Kg,,467
+SO-DEMO-000119,Sales Order,items,BIO-00178,4,Nos,Central Warehouse - ENXI,1188092
+SO-DEMO-000120,Sales Order,items,BIO-00021,6,Nos,Central Warehouse - ENXI,1526107
+SO-DEMO-000120,Sales Order,items,WASTE-INFECTIOUS,910,Kg,,311
+SO-DEMO-000121,Sales Order,items,BIO-00265,3,Nos,Central Warehouse - ENXI,2337168
+SO-DEMO-000122,Sales Order,items,BIO-00152,6,Nos,Central Warehouse - ENXI,987455
+SO-DEMO-000122,Sales Order,items,WASTE-INFECTIOUS,316,Kg,,265
+SO-DEMO-000123,Sales Order,items,BIO-00321,1,Nos,Central Warehouse - ENXI,1064081
+SO-DEMO-000123,Sales Order,items,WASTE-PATHOLOGICAL,988,Kg,,607
+SO-DEMO-000124,Sales Order,items,BIO-00360,6,Nos,Central Warehouse - ENXI,3431452
+SO-DEMO-000124,Sales Order,items,WASTE-INFECTIOUS,434,Kg,,192
+SO-DEMO-000125,Sales Order,items,BIO-00045,1,Nos,Central Warehouse - ENXI,407616
+SO-DEMO-000125,Sales Order,items,WASTE-SHARPS,264,Kg,,474
+SO-DEMO-000126,Sales Order,items,BIO-00199,4,Nos,Central Warehouse - ENXI,2823322
+SO-DEMO-000126,Sales Order,items,WASTE-SHARPS,154,Kg,,379
+SO-DEMO-000127,Sales Order,items,BIO-00329,6,Nos,Central Warehouse - ENXI,2773545
+SO-DEMO-000127,Sales Order,items,WASTE-GENERAL,213,Kg,,538
+SO-DEMO-000128,Sales Order,items,BIO-00055,3,Nos,Central Warehouse - ENXI,3480463
+SO-DEMO-000128,Sales Order,items,WASTE-CHEMICAL,297,Kg,,324
+SO-DEMO-000129,Sales Order,items,BIO-00339,1,Nos,Central Warehouse - ENXI,2168048
+SO-DEMO-000129,Sales Order,items,WASTE-PATHOLOGICAL,399,Kg,,562
+SO-DEMO-000130,Sales Order,items,BIO-00325,2,Nos,Central Warehouse - ENXI,1430139
+SO-DEMO-000130,Sales Order,items,WASTE-GENERAL,884,Kg,,185
+SO-DEMO-000131,Sales Order,items,BIO-00064,1,Nos,Central Warehouse - ENXI,201096
+SO-DEMO-000131,Sales Order,items,WASTE-PHARMACEUTICAL,294,Kg,,336
+SO-DEMO-000132,Sales Order,items,BIO-00212,6,Nos,Central Warehouse - ENXI,2329801
+SO-DEMO-000132,Sales Order,items,WASTE-PATHOLOGICAL,572,Kg,,495
+SO-DEMO-000133,Sales Order,items,BIO-00093,6,Nos,Central Warehouse - ENXI,3534017
+SO-DEMO-000133,Sales Order,items,WASTE-INFECTIOUS,1064,Kg,,510
+SO-DEMO-000134,Sales Order,items,BIO-00344,1,Nos,Central Warehouse - ENXI,1231460
+SO-DEMO-000134,Sales Order,items,WASTE-GENERAL,1117,Kg,,349
+SO-DEMO-000135,Sales Order,items,BIO-00336,2,Nos,Central Warehouse - ENXI,599619
+SO-DEMO-000135,Sales Order,items,WASTE-INFECTIOUS,516,Kg,,342
+SO-DEMO-000136,Sales Order,items,BIO-00316,6,Nos,Central Warehouse - ENXI,1462095
+SO-DEMO-000136,Sales Order,items,WASTE-PATHOLOGICAL,866,Kg,,593
+SO-DEMO-000137,Sales Order,items,BIO-00003,3,Nos,Central Warehouse - ENXI,1212533
+SO-DEMO-000138,Sales Order,items,BIO-00069,6,Nos,Central Warehouse - ENXI,3254310
+SO-DEMO-000138,Sales Order,items,WASTE-PHARMACEUTICAL,1067,Kg,,408
+SO-DEMO-000139,Sales Order,items,BIO-00283,1,Nos,Central Warehouse - ENXI,917233
+SO-DEMO-000139,Sales Order,items,WASTE-INFECTIOUS,694,Kg,,619
+SO-DEMO-000140,Sales Order,items,BIO-00135,6,Nos,Central Warehouse - ENXI,2808230
+SO-DEMO-000140,Sales Order,items,WASTE-INFECTIOUS,158,Kg,,614
+SO-DEMO-000141,Sales Order,items,BIO-00298,5,Nos,Central Warehouse - ENXI,1879257
+SO-DEMO-000142,Sales Order,items,BIO-00134,5,Nos,Central Warehouse - ENXI,2443569
+SO-DEMO-000142,Sales Order,items,WASTE-PATHOLOGICAL,869,Kg,,380
+SO-DEMO-000143,Sales Order,items,BIO-00149,2,Nos,Central Warehouse - ENXI,2129097
+SO-DEMO-000143,Sales Order,items,WASTE-INFECTIOUS,932,Kg,,366
+SO-DEMO-000144,Sales Order,items,BIO-00123,5,Nos,Central Warehouse - ENXI,3049581
+SO-DEMO-000144,Sales Order,items,WASTE-CHEMICAL,407,Kg,,408
+SO-DEMO-000145,Sales Order,items,BIO-00290,6,Nos,Central Warehouse - ENXI,793203
+SO-DEMO-000145,Sales Order,items,WASTE-PHARMACEUTICAL,854,Kg,,200
+SO-DEMO-000146,Sales Order,items,BIO-00033,3,Nos,Central Warehouse - ENXI,1729523
+SO-DEMO-000146,Sales Order,items,WASTE-GENERAL,543,Kg,,445
+SO-DEMO-000147,Sales Order,items,BIO-00233,1,Nos,Central Warehouse - ENXI,347372
+SO-DEMO-000148,Sales Order,items,BIO-00267,6,Nos,Central Warehouse - ENXI,1327122
+SO-DEMO-000149,Sales Order,items,BIO-00292,2,Nos,Central Warehouse - ENXI,1759824
+SO-DEMO-000149,Sales Order,items,WASTE-SHARPS,279,Kg,,444
+SO-DEMO-000150,Sales Order,items,BIO-00265,4,Nos,Central Warehouse - ENXI,1660161
+SO-DEMO-000151,Sales Order,items,BIO-00310,1,Nos,Central Warehouse - ENXI,2284856
+SO-DEMO-000152,Sales Order,items,BIO-00040,5,Nos,Central Warehouse - ENXI,2878938
+SO-DEMO-000152,Sales Order,items,WASTE-PATHOLOGICAL,502,Kg,,260
+SO-DEMO-000153,Sales Order,items,BIO-00061,6,Nos,Central Warehouse - ENXI,1146142
+SO-DEMO-000153,Sales Order,items,WASTE-SHARPS,352,Kg,,426
+SO-DEMO-000154,Sales Order,items,BIO-00303,2,Nos,Central Warehouse - ENXI,2894801
+SO-DEMO-000155,Sales Order,items,BIO-00066,5,Nos,Central Warehouse - ENXI,2664486
+SO-DEMO-000155,Sales Order,items,WASTE-GENERAL,1169,Kg,,200
+SO-DEMO-000156,Sales Order,items,BIO-00086,3,Nos,Central Warehouse - ENXI,935132
+SO-DEMO-000156,Sales Order,items,WASTE-PHARMACEUTICAL,158,Kg,,629
+SO-DEMO-000157,Sales Order,items,BIO-00230,5,Nos,Central Warehouse - ENXI,2157251
+SO-DEMO-000158,Sales Order,items,BIO-00308,2,Nos,Central Warehouse - ENXI,3512861
+SO-DEMO-000158,Sales Order,items,WASTE-PATHOLOGICAL,1166,Kg,,315
+SO-DEMO-000159,Sales Order,items,BIO-00233,5,Nos,Central Warehouse - ENXI,2657139
+SO-DEMO-000159,Sales Order,items,WASTE-PHARMACEUTICAL,909,Kg,,247
+SO-DEMO-000160,Sales Order,items,BIO-00268,5,Nos,Central Warehouse - ENXI,3050446
+SO-DEMO-000160,Sales Order,items,WASTE-PATHOLOGICAL,317,Kg,,270
+SO-DEMO-000161,Sales Order,items,BIO-00020,5,Nos,Central Warehouse - ENXI,2291115
+SO-DEMO-000162,Sales Order,items,BIO-00067,5,Nos,Central Warehouse - ENXI,2441929
+SO-DEMO-000163,Sales Order,items,BIO-00190,1,Nos,Central Warehouse - ENXI,3106126
+SO-DEMO-000163,Sales Order,items,WASTE-PATHOLOGICAL,1107,Kg,,584
+SO-DEMO-000164,Sales Order,items,BIO-00380,6,Nos,Central Warehouse - ENXI,2596425
+SO-DEMO-000164,Sales Order,items,WASTE-PATHOLOGICAL,641,Kg,,424
+SO-DEMO-000165,Sales Order,items,BIO-00307,5,Nos,Central Warehouse - ENXI,1893988
+SO-DEMO-000165,Sales Order,items,WASTE-INFECTIOUS,134,Kg,,475
+SO-DEMO-000166,Sales Order,items,BIO-00004,4,Nos,Central Warehouse - ENXI,2925365
+SO-DEMO-000166,Sales Order,items,WASTE-SHARPS,957,Kg,,365
+SO-DEMO-000167,Sales Order,items,BIO-00334,5,Nos,Central Warehouse - ENXI,1243812
+SO-DEMO-000167,Sales Order,items,WASTE-CHEMICAL,987,Kg,,469
+SO-DEMO-000168,Sales Order,items,BIO-00349,4,Nos,Central Warehouse - ENXI,3346581
+SO-DEMO-000168,Sales Order,items,WASTE-CHEMICAL,1108,Kg,,271
+SO-DEMO-000169,Sales Order,items,BIO-00248,3,Nos,Central Warehouse - ENXI,1466196
+SO-DEMO-000169,Sales Order,items,WASTE-GENERAL,935,Kg,,556
+SO-DEMO-000170,Sales Order,items,BIO-00118,4,Nos,Central Warehouse - ENXI,3464598
+SO-DEMO-000170,Sales Order,items,WASTE-PATHOLOGICAL,325,Kg,,289
+SO-DEMO-000171,Sales Order,items,BIO-00282,5,Nos,Central Warehouse - ENXI,3103670
+SO-DEMO-000171,Sales Order,items,WASTE-INFECTIOUS,449,Kg,,379
+SO-DEMO-000172,Sales Order,items,BIO-00242,5,Nos,Central Warehouse - ENXI,2006105
+SO-DEMO-000172,Sales Order,items,WASTE-SHARPS,574,Kg,,369
+SO-DEMO-000173,Sales Order,items,BIO-00371,4,Nos,Central Warehouse - ENXI,1860426
+SO-DEMO-000173,Sales Order,items,WASTE-CHEMICAL,706,Kg,,544
+SO-DEMO-000174,Sales Order,items,BIO-00328,4,Nos,Central Warehouse - ENXI,2021182
+SO-DEMO-000174,Sales Order,items,WASTE-GENERAL,1181,Kg,,326
+SO-DEMO-000175,Sales Order,items,BIO-00262,5,Nos,Central Warehouse - ENXI,3109510
+SO-DEMO-000175,Sales Order,items,WASTE-PATHOLOGICAL,193,Kg,,364
+SO-DEMO-000176,Sales Order,items,BIO-00081,1,Nos,Central Warehouse - ENXI,1337363
+SO-DEMO-000177,Sales Order,items,BIO-00208,5,Nos,Central Warehouse - ENXI,1020162
+SO-DEMO-000177,Sales Order,items,WASTE-GENERAL,260,Kg,,650
+SO-DEMO-000178,Sales Order,items,BIO-00372,5,Nos,Central Warehouse - ENXI,2624995
+SO-DEMO-000178,Sales Order,items,WASTE-SHARPS,583,Kg,,490
+SO-DEMO-000179,Sales Order,items,BIO-00295,1,Nos,Central Warehouse - ENXI,1275164
+SO-DEMO-000179,Sales Order,items,WASTE-CHEMICAL,338,Kg,,466
+SO-DEMO-000180,Sales Order,items,BIO-00175,1,Nos,Central Warehouse - ENXI,3547783
+SO-DEMO-000180,Sales Order,items,WASTE-SHARPS,632,Kg,,535
+SO-DEMO-000181,Sales Order,items,BIO-00248,2,Nos,Central Warehouse - ENXI,3357073
+SO-DEMO-000181,Sales Order,items,WASTE-PHARMACEUTICAL,1063,Kg,,639
+SO-DEMO-000182,Sales Order,items,BIO-00060,3,Nos,Central Warehouse - ENXI,463343
+SO-DEMO-000182,Sales Order,items,WASTE-PATHOLOGICAL,590,Kg,,589
+SO-DEMO-000183,Sales Order,items,BIO-00265,5,Nos,Central Warehouse - ENXI,220782
+SO-DEMO-000183,Sales Order,items,WASTE-SHARPS,628,Kg,,327
+SO-DEMO-000184,Sales Order,items,BIO-00176,1,Nos,Central Warehouse - ENXI,2505957
+SO-DEMO-000185,Sales Order,items,BIO-00112,5,Nos,Central Warehouse - ENXI,1308585
+SO-DEMO-000185,Sales Order,items,WASTE-GENERAL,509,Kg,,435
+SO-DEMO-000186,Sales Order,items,BIO-00124,3,Nos,Central Warehouse - ENXI,1047292
+SO-DEMO-000186,Sales Order,items,WASTE-PATHOLOGICAL,849,Kg,,259
+SO-DEMO-000187,Sales Order,items,BIO-00347,6,Nos,Central Warehouse - ENXI,2246386
+SO-DEMO-000187,Sales Order,items,WASTE-CHEMICAL,206,Kg,,614
+SO-DEMO-000188,Sales Order,items,BIO-00162,4,Nos,Central Warehouse - ENXI,2589708
+SO-DEMO-000189,Sales Order,items,BIO-00144,4,Nos,Central Warehouse - ENXI,1111524
+SO-DEMO-000190,Sales Order,items,BIO-00217,4,Nos,Central Warehouse - ENXI,2448145
+SO-DEMO-000190,Sales Order,items,WASTE-SHARPS,926,Kg,,620
+SO-DEMO-000191,Sales Order,items,BIO-00358,5,Nos,Central Warehouse - ENXI,2109675
+SO-DEMO-000191,Sales Order,items,WASTE-INFECTIOUS,144,Kg,,525
+SO-DEMO-000192,Sales Order,items,BIO-00052,3,Nos,Central Warehouse - ENXI,1696670
+SO-DEMO-000192,Sales Order,items,WASTE-SHARPS,503,Kg,,460
+SO-DEMO-000193,Sales Order,items,BIO-00242,5,Nos,Central Warehouse - ENXI,1619050
+SO-DEMO-000193,Sales Order,items,WASTE-PHARMACEUTICAL,988,Kg,,287
+SO-DEMO-000194,Sales Order,items,BIO-00206,3,Nos,Central Warehouse - ENXI,2070494
+SO-DEMO-000194,Sales Order,items,WASTE-PATHOLOGICAL,588,Kg,,596
+SO-DEMO-000195,Sales Order,items,BIO-00285,4,Nos,Central Warehouse - ENXI,1777540
+SO-DEMO-000195,Sales Order,items,WASTE-GENERAL,426,Kg,,422
+SO-DEMO-000196,Sales Order,items,BIO-00256,2,Nos,Central Warehouse - ENXI,2825146
+SO-DEMO-000196,Sales Order,items,WASTE-GENERAL,766,Kg,,582
+SO-DEMO-000197,Sales Order,items,BIO-00288,5,Nos,Central Warehouse - ENXI,380107
+SO-DEMO-000197,Sales Order,items,WASTE-GENERAL,454,Kg,,210
+SO-DEMO-000198,Sales Order,items,BIO-00323,1,Nos,Central Warehouse - ENXI,2066827
+SO-DEMO-000198,Sales Order,items,WASTE-SHARPS,859,Kg,,364
+SO-DEMO-000199,Sales Order,items,BIO-00177,1,Nos,Central Warehouse - ENXI,1907050
+SO-DEMO-000199,Sales Order,items,WASTE-GENERAL,527,Kg,,475
+SO-DEMO-000200,Sales Order,items,BIO-00276,2,Nos,Central Warehouse - ENXI,3452853
+SO-DEMO-000200,Sales Order,items,WASTE-SHARPS,1165,Kg,,429
+SO-DEMO-000201,Sales Order,items,BIO-00315,3,Nos,Central Warehouse - ENXI,2125117
+SO-DEMO-000201,Sales Order,items,WASTE-PATHOLOGICAL,463,Kg,,507
+SO-DEMO-000202,Sales Order,items,BIO-00314,5,Nos,Central Warehouse - ENXI,1877739
+SO-DEMO-000203,Sales Order,items,BIO-00176,2,Nos,Central Warehouse - ENXI,1494839
+SO-DEMO-000203,Sales Order,items,WASTE-SHARPS,667,Kg,,489
+SO-DEMO-000204,Sales Order,items,BIO-00186,6,Nos,Central Warehouse - ENXI,2641719
+SO-DEMO-000204,Sales Order,items,WASTE-PHARMACEUTICAL,967,Kg,,265
+SO-DEMO-000205,Sales Order,items,BIO-00373,2,Nos,Central Warehouse - ENXI,2956723
+SO-DEMO-000205,Sales Order,items,WASTE-GENERAL,283,Kg,,287
+SO-DEMO-000206,Sales Order,items,BIO-00049,1,Nos,Central Warehouse - ENXI,2164685
+SO-DEMO-000206,Sales Order,items,WASTE-INFECTIOUS,933,Kg,,448
+SO-DEMO-000207,Sales Order,items,BIO-00317,2,Nos,Central Warehouse - ENXI,533627
+SO-DEMO-000207,Sales Order,items,WASTE-PHARMACEUTICAL,753,Kg,,297
+SO-DEMO-000208,Sales Order,items,BIO-00321,2,Nos,Central Warehouse - ENXI,730616
+SO-DEMO-000208,Sales Order,items,WASTE-PATHOLOGICAL,178,Kg,,197
+SO-DEMO-000209,Sales Order,items,BIO-00240,5,Nos,Central Warehouse - ENXI,1322588
+SO-DEMO-000209,Sales Order,items,WASTE-PATHOLOGICAL,482,Kg,,482
+SO-DEMO-000210,Sales Order,items,BIO-00326,5,Nos,Central Warehouse - ENXI,2004427
+SO-DEMO-000210,Sales Order,items,WASTE-GENERAL,754,Kg,,645
+SO-DEMO-000211,Sales Order,items,BIO-00117,1,Nos,Central Warehouse - ENXI,2033296
+SO-DEMO-000211,Sales Order,items,WASTE-PHARMACEUTICAL,652,Kg,,259
+SO-DEMO-000212,Sales Order,items,BIO-00268,2,Nos,Central Warehouse - ENXI,1622357
+SO-DEMO-000212,Sales Order,items,WASTE-CHEMICAL,137,Kg,,532
+SO-DEMO-000213,Sales Order,items,BIO-00005,4,Nos,Central Warehouse - ENXI,3526906
+SO-DEMO-000213,Sales Order,items,WASTE-PATHOLOGICAL,134,Kg,,460
+SO-DEMO-000214,Sales Order,items,BIO-00288,4,Nos,Central Warehouse - ENXI,1835710
+SO-DEMO-000214,Sales Order,items,WASTE-GENERAL,918,Kg,,604
+SO-DEMO-000215,Sales Order,items,BIO-00041,4,Nos,Central Warehouse - ENXI,2802794
+SO-DEMO-000215,Sales Order,items,WASTE-CHEMICAL,676,Kg,,325
+SO-DEMO-000216,Sales Order,items,BIO-00097,1,Nos,Central Warehouse - ENXI,945071
+SO-DEMO-000216,Sales Order,items,WASTE-INFECTIOUS,1052,Kg,,496
+SO-DEMO-000217,Sales Order,items,BIO-00319,4,Nos,Central Warehouse - ENXI,967646
+SO-DEMO-000217,Sales Order,items,WASTE-PATHOLOGICAL,221,Kg,,453
+SO-DEMO-000218,Sales Order,items,BIO-00145,3,Nos,Central Warehouse - ENXI,704452
+SO-DEMO-000218,Sales Order,items,WASTE-GENERAL,136,Kg,,299
+SO-DEMO-000219,Sales Order,items,BIO-00253,2,Nos,Central Warehouse - ENXI,1614086
+SO-DEMO-000219,Sales Order,items,WASTE-PHARMACEUTICAL,880,Kg,,417
+SO-DEMO-000220,Sales Order,items,BIO-00075,1,Nos,Central Warehouse - ENXI,1297797
+SO-DEMO-000221,Sales Order,items,BIO-00093,2,Nos,Central Warehouse - ENXI,1228909
+SO-DEMO-000222,Sales Order,items,BIO-00128,4,Nos,Central Warehouse - ENXI,3414753
+SO-DEMO-000223,Sales Order,items,BIO-00236,6,Nos,Central Warehouse - ENXI,3413791
+SO-DEMO-000223,Sales Order,items,WASTE-GENERAL,546,Kg,,422
+SO-DEMO-000224,Sales Order,items,BIO-00166,2,Nos,Central Warehouse - ENXI,2818906
+SO-DEMO-000224,Sales Order,items,WASTE-GENERAL,1186,Kg,,242
+SO-DEMO-000225,Sales Order,items,BIO-00153,2,Nos,Central Warehouse - ENXI,1691738
+SO-DEMO-000226,Sales Order,items,BIO-00325,4,Nos,Central Warehouse - ENXI,1541108
+SO-DEMO-000226,Sales Order,items,WASTE-SHARPS,365,Kg,,382
+SO-DEMO-000227,Sales Order,items,BIO-00298,6,Nos,Central Warehouse - ENXI,2173429
+SO-DEMO-000227,Sales Order,items,WASTE-PATHOLOGICAL,880,Kg,,574
+SO-DEMO-000228,Sales Order,items,BIO-00256,1,Nos,Central Warehouse - ENXI,3057060
+SO-DEMO-000228,Sales Order,items,WASTE-GENERAL,242,Kg,,210
+SO-DEMO-000229,Sales Order,items,BIO-00360,5,Nos,Central Warehouse - ENXI,3499650
+SO-DEMO-000229,Sales Order,items,WASTE-PHARMACEUTICAL,596,Kg,,342
+SO-DEMO-000230,Sales Order,items,BIO-00225,6,Nos,Central Warehouse - ENXI,989355
+SO-DEMO-000230,Sales Order,items,WASTE-PHARMACEUTICAL,853,Kg,,550
+SO-DEMO-000231,Sales Order,items,BIO-00249,6,Nos,Central Warehouse - ENXI,2015008
+SO-DEMO-000231,Sales Order,items,WASTE-CHEMICAL,1123,Kg,,277
+SO-DEMO-000232,Sales Order,items,BIO-00179,3,Nos,Central Warehouse - ENXI,3251918
+SO-DEMO-000232,Sales Order,items,WASTE-CHEMICAL,448,Kg,,215
+SO-DEMO-000233,Sales Order,items,BIO-00152,3,Nos,Central Warehouse - ENXI,2451660
+SO-DEMO-000233,Sales Order,items,WASTE-INFECTIOUS,1156,Kg,,374
+SO-DEMO-000234,Sales Order,items,BIO-00187,5,Nos,Central Warehouse - ENXI,1181543
+SO-DEMO-000234,Sales Order,items,WASTE-INFECTIOUS,913,Kg,,277
+SO-DEMO-000235,Sales Order,items,BIO-00283,2,Nos,Central Warehouse - ENXI,2751272
+SO-DEMO-000235,Sales Order,items,WASTE-PHARMACEUTICAL,779,Kg,,236
+SO-DEMO-000236,Sales Order,items,BIO-00035,1,Nos,Central Warehouse - ENXI,724312
+SO-DEMO-000236,Sales Order,items,WASTE-INFECTIOUS,533,Kg,,234
+SO-DEMO-000237,Sales Order,items,BIO-00017,5,Nos,Central Warehouse - ENXI,2871701
+SO-DEMO-000238,Sales Order,items,BIO-00360,5,Nos,Central Warehouse - ENXI,1253484
+SO-DEMO-000238,Sales Order,items,WASTE-PATHOLOGICAL,265,Kg,,186
+SO-DEMO-000239,Sales Order,items,BIO-00041,4,Nos,Central Warehouse - ENXI,3539721
+SO-DEMO-000239,Sales Order,items,WASTE-SHARPS,971,Kg,,600
+SO-DEMO-000240,Sales Order,items,BIO-00137,5,Nos,Central Warehouse - ENXI,350511
+SO-DEMO-000240,Sales Order,items,WASTE-SHARPS,279,Kg,,290
+SO-DEMO-000241,Sales Order,items,BIO-00372,2,Nos,Central Warehouse - ENXI,2409948
+SO-DEMO-000241,Sales Order,items,WASTE-PATHOLOGICAL,1197,Kg,,516
+SO-DEMO-000242,Sales Order,items,BIO-00092,5,Nos,Central Warehouse - ENXI,3322348
+SO-DEMO-000242,Sales Order,items,WASTE-GENERAL,336,Kg,,572
+SO-DEMO-000243,Sales Order,items,BIO-00235,6,Nos,Central Warehouse - ENXI,2970228
+SO-DEMO-000243,Sales Order,items,WASTE-INFECTIOUS,461,Kg,,585
+SO-DEMO-000244,Sales Order,items,BIO-00259,3,Nos,Central Warehouse - ENXI,2937888
+SO-DEMO-000244,Sales Order,items,WASTE-CHEMICAL,1027,Kg,,360
+SO-DEMO-000245,Sales Order,items,BIO-00191,4,Nos,Central Warehouse - ENXI,3385221
+SO-DEMO-000245,Sales Order,items,WASTE-GENERAL,782,Kg,,491
+SO-DEMO-000246,Sales Order,items,BIO-00110,4,Nos,Central Warehouse - ENXI,3391613
+SO-DEMO-000246,Sales Order,items,WASTE-GENERAL,640,Kg,,364
+SO-DEMO-000247,Sales Order,items,BIO-00001,6,Nos,Central Warehouse - ENXI,325386
+SO-DEMO-000248,Sales Order,items,BIO-00070,3,Nos,Central Warehouse - ENXI,207551
+SO-DEMO-000248,Sales Order,items,WASTE-PATHOLOGICAL,559,Kg,,618
+SO-DEMO-000249,Sales Order,items,BIO-00142,5,Nos,Central Warehouse - ENXI,2324428
+SO-DEMO-000249,Sales Order,items,WASTE-CHEMICAL,436,Kg,,228
+SO-DEMO-000250,Sales Order,items,BIO-00080,2,Nos,Central Warehouse - ENXI,1291440
+SO-DEMO-000250,Sales Order,items,WASTE-CHEMICAL,631,Kg,,299
+SO-DEMO-000251,Sales Order,items,BIO-00293,4,Nos,Central Warehouse - ENXI,2566831
+SO-DEMO-000252,Sales Order,items,BIO-00089,4,Nos,Central Warehouse - ENXI,3072371
+SO-DEMO-000252,Sales Order,items,WASTE-INFECTIOUS,735,Kg,,199
+SO-DEMO-000253,Sales Order,items,BIO-00029,3,Nos,Central Warehouse - ENXI,1639325
+SO-DEMO-000254,Sales Order,items,BIO-00117,6,Nos,Central Warehouse - ENXI,2917954
+SO-DEMO-000255,Sales Order,items,BIO-00196,1,Nos,Central Warehouse - ENXI,1458354
+SO-DEMO-000255,Sales Order,items,WASTE-SHARPS,426,Kg,,347
+SO-DEMO-000256,Sales Order,items,BIO-00026,6,Nos,Central Warehouse - ENXI,3248462
+SO-DEMO-000257,Sales Order,items,BIO-00259,1,Nos,Central Warehouse - ENXI,1111494
+SO-DEMO-000257,Sales Order,items,WASTE-PHARMACEUTICAL,423,Kg,,247
+SO-DEMO-000258,Sales Order,items,BIO-00293,6,Nos,Central Warehouse - ENXI,386825
+SO-DEMO-000258,Sales Order,items,WASTE-SHARPS,294,Kg,,384
+SO-DEMO-000259,Sales Order,items,BIO-00067,2,Nos,Central Warehouse - ENXI,2197135
+SO-DEMO-000259,Sales Order,items,WASTE-PHARMACEUTICAL,929,Kg,,513
+SO-DEMO-000260,Sales Order,items,BIO-00316,6,Nos,Central Warehouse - ENXI,2378854
+SO-DEMO-000260,Sales Order,items,WASTE-INFECTIOUS,665,Kg,,577
+SO-DEMO-000261,Sales Order,items,BIO-00295,1,Nos,Central Warehouse - ENXI,651984
+SO-DEMO-000261,Sales Order,items,WASTE-PHARMACEUTICAL,868,Kg,,358
+SO-DEMO-000262,Sales Order,items,BIO-00305,6,Nos,Central Warehouse - ENXI,281530
+SO-DEMO-000263,Sales Order,items,BIO-00227,5,Nos,Central Warehouse - ENXI,791607
+SO-DEMO-000263,Sales Order,items,WASTE-PATHOLOGICAL,528,Kg,,530
+SO-DEMO-000264,Sales Order,items,BIO-00044,1,Nos,Central Warehouse - ENXI,3282030
+SO-DEMO-000264,Sales Order,items,WASTE-CHEMICAL,422,Kg,,624
+SO-DEMO-000265,Sales Order,items,BIO-00356,1,Nos,Central Warehouse - ENXI,1459757
+SO-DEMO-000265,Sales Order,items,WASTE-INFECTIOUS,799,Kg,,287
+SO-DEMO-000266,Sales Order,items,BIO-00280,5,Nos,Central Warehouse - ENXI,3327217
+SO-DEMO-000266,Sales Order,items,WASTE-PHARMACEUTICAL,409,Kg,,535
+SO-DEMO-000267,Sales Order,items,BIO-00340,5,Nos,Central Warehouse - ENXI,362376
+SO-DEMO-000267,Sales Order,items,WASTE-INFECTIOUS,701,Kg,,282
+SO-DEMO-000268,Sales Order,items,BIO-00239,6,Nos,Central Warehouse - ENXI,214956
+SO-DEMO-000268,Sales Order,items,WASTE-GENERAL,675,Kg,,519
+SO-DEMO-000269,Sales Order,items,BIO-00150,6,Nos,Central Warehouse - ENXI,1801195
+SO-DEMO-000269,Sales Order,items,WASTE-PHARMACEUTICAL,1161,Kg,,543
+SO-DEMO-000270,Sales Order,items,BIO-00306,5,Nos,Central Warehouse - ENXI,549185
+SO-DEMO-000270,Sales Order,items,WASTE-CHEMICAL,1057,Kg,,467
+SO-DEMO-000271,Sales Order,items,BIO-00272,3,Nos,Central Warehouse - ENXI,1579092
+SO-DEMO-000271,Sales Order,items,WASTE-GENERAL,441,Kg,,189
+SO-DEMO-000272,Sales Order,items,BIO-00182,6,Nos,Central Warehouse - ENXI,1448048
+SO-DEMO-000272,Sales Order,items,WASTE-CHEMICAL,684,Kg,,595
+SO-DEMO-000273,Sales Order,items,BIO-00199,1,Nos,Central Warehouse - ENXI,2507584
+SO-DEMO-000274,Sales Order,items,BIO-00202,6,Nos,Central Warehouse - ENXI,755713
+SO-DEMO-000274,Sales Order,items,WASTE-PHARMACEUTICAL,1186,Kg,,527
+SO-DEMO-000275,Sales Order,items,BIO-00117,4,Nos,Central Warehouse - ENXI,1188146
+SO-DEMO-000275,Sales Order,items,WASTE-PHARMACEUTICAL,759,Kg,,645
+SO-DEMO-000276,Sales Order,items,BIO-00278,2,Nos,Central Warehouse - ENXI,1047202
+SO-DEMO-000276,Sales Order,items,WASTE-CHEMICAL,534,Kg,,621
+SO-DEMO-000277,Sales Order,items,BIO-00362,5,Nos,Central Warehouse - ENXI,747290
+SO-DEMO-000277,Sales Order,items,WASTE-PATHOLOGICAL,443,Kg,,342
+SO-DEMO-000278,Sales Order,items,BIO-00369,1,Nos,Central Warehouse - ENXI,952319
+SO-DEMO-000278,Sales Order,items,WASTE-PATHOLOGICAL,180,Kg,,571
+SO-DEMO-000279,Sales Order,items,BIO-00156,4,Nos,Central Warehouse - ENXI,3307313
+SO-DEMO-000280,Sales Order,items,BIO-00055,2,Nos,Central Warehouse - ENXI,954882
+SO-DEMO-000280,Sales Order,items,WASTE-CHEMICAL,666,Kg,,490
+SO-DEMO-000281,Sales Order,items,BIO-00306,2,Nos,Central Warehouse - ENXI,1148516
+SO-DEMO-000281,Sales Order,items,WASTE-SHARPS,282,Kg,,532
+SO-DEMO-000282,Sales Order,items,BIO-00310,4,Nos,Central Warehouse - ENXI,3166424
+SO-DEMO-000282,Sales Order,items,WASTE-PATHOLOGICAL,913,Kg,,431
+SO-DEMO-000283,Sales Order,items,BIO-00099,2,Nos,Central Warehouse - ENXI,315180
+SO-DEMO-000283,Sales Order,items,WASTE-INFECTIOUS,672,Kg,,391
+SO-DEMO-000284,Sales Order,items,BIO-00105,1,Nos,Central Warehouse - ENXI,922719
+SO-DEMO-000285,Sales Order,items,BIO-00353,3,Nos,Central Warehouse - ENXI,2099082
+SO-DEMO-000286,Sales Order,items,BIO-00312,6,Nos,Central Warehouse - ENXI,1775404
+SO-DEMO-000286,Sales Order,items,WASTE-PHARMACEUTICAL,1195,Kg,,508
+SO-DEMO-000287,Sales Order,items,BIO-00232,4,Nos,Central Warehouse - ENXI,357905
+SO-DEMO-000288,Sales Order,items,BIO-00203,6,Nos,Central Warehouse - ENXI,344633
+SO-DEMO-000288,Sales Order,items,WASTE-CHEMICAL,220,Kg,,277
+SO-DEMO-000289,Sales Order,items,BIO-00156,3,Nos,Central Warehouse - ENXI,2115030
+SO-DEMO-000289,Sales Order,items,WASTE-SHARPS,231,Kg,,533
+SO-DEMO-000290,Sales Order,items,BIO-00331,4,Nos,Central Warehouse - ENXI,559336
+SO-DEMO-000290,Sales Order,items,WASTE-INFECTIOUS,488,Kg,,578
+SO-DEMO-000291,Sales Order,items,BIO-00202,4,Nos,Central Warehouse - ENXI,1536693
+SO-DEMO-000291,Sales Order,items,WASTE-PATHOLOGICAL,1049,Kg,,482
+SO-DEMO-000292,Sales Order,items,BIO-00129,3,Nos,Central Warehouse - ENXI,3081273
+SO-DEMO-000292,Sales Order,items,WASTE-GENERAL,455,Kg,,547
+SO-DEMO-000293,Sales Order,items,BIO-00362,4,Nos,Central Warehouse - ENXI,2839492
+SO-DEMO-000293,Sales Order,items,WASTE-CHEMICAL,906,Kg,,552
+SO-DEMO-000294,Sales Order,items,BIO-00194,5,Nos,Central Warehouse - ENXI,1776381
+SO-DEMO-000294,Sales Order,items,WASTE-PATHOLOGICAL,806,Kg,,469
+SO-DEMO-000295,Sales Order,items,BIO-00092,6,Nos,Central Warehouse - ENXI,395211
+SO-DEMO-000295,Sales Order,items,WASTE-SHARPS,1033,Kg,,327
+SO-DEMO-000296,Sales Order,items,BIO-00104,1,Nos,Central Warehouse - ENXI,2791207
+SO-DEMO-000297,Sales Order,items,BIO-00256,5,Nos,Central Warehouse - ENXI,3566709
+SO-DEMO-000297,Sales Order,items,WASTE-PHARMACEUTICAL,607,Kg,,291
+SO-DEMO-000298,Sales Order,items,BIO-00233,4,Nos,Central Warehouse - ENXI,2033359
+SO-DEMO-000298,Sales Order,items,WASTE-CHEMICAL,133,Kg,,305
+SO-DEMO-000299,Sales Order,items,BIO-00322,5,Nos,Central Warehouse - ENXI,1050895
+SO-DEMO-000299,Sales Order,items,WASTE-PATHOLOGICAL,232,Kg,,514
+SO-DEMO-000300,Sales Order,items,BIO-00017,6,Nos,Central Warehouse - ENXI,2604696
+SO-DEMO-000301,Sales Order,items,BIO-00026,1,Nos,Central Warehouse - ENXI,1928844
+SO-DEMO-000302,Sales Order,items,BIO-00313,6,Nos,Central Warehouse - ENXI,3080418
+SO-DEMO-000302,Sales Order,items,WASTE-CHEMICAL,483,Kg,,413
+SO-DEMO-000303,Sales Order,items,BIO-00048,3,Nos,Central Warehouse - ENXI,1534012
+SO-DEMO-000303,Sales Order,items,WASTE-PHARMACEUTICAL,258,Kg,,568
+SO-DEMO-000304,Sales Order,items,BIO-00150,4,Nos,Central Warehouse - ENXI,744325
+SO-DEMO-000304,Sales Order,items,WASTE-SHARPS,794,Kg,,449
+SO-DEMO-000305,Sales Order,items,BIO-00357,2,Nos,Central Warehouse - ENXI,2747139
+SO-DEMO-000305,Sales Order,items,WASTE-CHEMICAL,299,Kg,,427
+SO-DEMO-000306,Sales Order,items,BIO-00312,3,Nos,Central Warehouse - ENXI,1269093
+SO-DEMO-000306,Sales Order,items,WASTE-CHEMICAL,844,Kg,,246
+SO-DEMO-000307,Sales Order,items,BIO-00267,6,Nos,Central Warehouse - ENXI,2830202
+SO-DEMO-000307,Sales Order,items,WASTE-PATHOLOGICAL,596,Kg,,542
+SO-DEMO-000308,Sales Order,items,BIO-00061,1,Nos,Central Warehouse - ENXI,2129871
+SO-DEMO-000308,Sales Order,items,WASTE-INFECTIOUS,544,Kg,,589
+SO-DEMO-000309,Sales Order,items,BIO-00024,3,Nos,Central Warehouse - ENXI,1646538
+SO-DEMO-000309,Sales Order,items,WASTE-GENERAL,554,Kg,,185
+SO-DEMO-000310,Sales Order,items,BIO-00035,3,Nos,Central Warehouse - ENXI,1439482
+SO-DEMO-000310,Sales Order,items,WASTE-SHARPS,132,Kg,,238
+SO-DEMO-000311,Sales Order,items,BIO-00371,5,Nos,Central Warehouse - ENXI,2763663
+SO-DEMO-000312,Sales Order,items,BIO-00174,6,Nos,Central Warehouse - ENXI,2189525
+SO-DEMO-000313,Sales Order,items,BIO-00247,2,Nos,Central Warehouse - ENXI,2810669
+SO-DEMO-000313,Sales Order,items,WASTE-CHEMICAL,806,Kg,,416
+SO-DEMO-000314,Sales Order,items,BIO-00154,5,Nos,Central Warehouse - ENXI,3220720
+SO-DEMO-000314,Sales Order,items,WASTE-CHEMICAL,158,Kg,,286
+SO-DEMO-000315,Sales Order,items,BIO-00182,1,Nos,Central Warehouse - ENXI,806230
+SO-DEMO-000315,Sales Order,items,WASTE-INFECTIOUS,814,Kg,,372
+SO-DEMO-000316,Sales Order,items,BIO-00311,4,Nos,Central Warehouse - ENXI,965924
+SO-DEMO-000316,Sales Order,items,WASTE-SHARPS,764,Kg,,543
+SO-DEMO-000317,Sales Order,items,BIO-00045,4,Nos,Central Warehouse - ENXI,1176743
+SO-DEMO-000317,Sales Order,items,WASTE-SHARPS,562,Kg,,448
+SO-DEMO-000318,Sales Order,items,BIO-00192,1,Nos,Central Warehouse - ENXI,3442289
+SO-DEMO-000318,Sales Order,items,WASTE-INFECTIOUS,1028,Kg,,439
+SO-DEMO-000319,Sales Order,items,BIO-00079,2,Nos,Central Warehouse - ENXI,1606549
+SO-DEMO-000320,Sales Order,items,BIO-00074,1,Nos,Central Warehouse - ENXI,2344875
+SO-DEMO-000320,Sales Order,items,WASTE-PATHOLOGICAL,540,Kg,,550
+SO-DEMO-000321,Sales Order,items,BIO-00366,5,Nos,Central Warehouse - ENXI,665851
+SO-DEMO-000321,Sales Order,items,WASTE-INFECTIOUS,298,Kg,,350
+SO-DEMO-000322,Sales Order,items,BIO-00267,6,Nos,Central Warehouse - ENXI,3307083
+SO-DEMO-000322,Sales Order,items,WASTE-CHEMICAL,759,Kg,,507
+SO-DEMO-000323,Sales Order,items,BIO-00099,3,Nos,Central Warehouse - ENXI,1340352
+SO-DEMO-000323,Sales Order,items,WASTE-PHARMACEUTICAL,360,Kg,,319
+SO-DEMO-000324,Sales Order,items,BIO-00059,1,Nos,Central Warehouse - ENXI,2792820
+SO-DEMO-000324,Sales Order,items,WASTE-INFECTIOUS,543,Kg,,457
+SO-DEMO-000325,Sales Order,items,BIO-00139,2,Nos,Central Warehouse - ENXI,3134273
+SO-DEMO-000326,Sales Order,items,BIO-00037,3,Nos,Central Warehouse - ENXI,2752210
+SO-DEMO-000327,Sales Order,items,BIO-00067,1,Nos,Central Warehouse - ENXI,2154408
+SO-DEMO-000328,Sales Order,items,BIO-00028,1,Nos,Central Warehouse - ENXI,1968726
+SO-DEMO-000328,Sales Order,items,WASTE-GENERAL,1033,Kg,,495
+SO-DEMO-000329,Sales Order,items,BIO-00102,6,Nos,Central Warehouse - ENXI,3360970
+SO-DEMO-000329,Sales Order,items,WASTE-CHEMICAL,280,Kg,,566
+SO-DEMO-000330,Sales Order,items,BIO-00048,6,Nos,Central Warehouse - ENXI,2144091
+SO-DEMO-000330,Sales Order,items,WASTE-SHARPS,1073,Kg,,420
+SO-DEMO-000331,Sales Order,items,BIO-00316,3,Nos,Central Warehouse - ENXI,1704417
+SO-DEMO-000331,Sales Order,items,WASTE-GENERAL,796,Kg,,583
+SO-DEMO-000332,Sales Order,items,BIO-00016,1,Nos,Central Warehouse - ENXI,2173696
+SO-DEMO-000332,Sales Order,items,WASTE-PHARMACEUTICAL,1064,Kg,,613
+SO-DEMO-000333,Sales Order,items,BIO-00310,5,Nos,Central Warehouse - ENXI,714329
+SO-DEMO-000333,Sales Order,items,WASTE-PHARMACEUTICAL,339,Kg,,346
+SO-DEMO-000334,Sales Order,items,BIO-00155,5,Nos,Central Warehouse - ENXI,2113468
+SO-DEMO-000334,Sales Order,items,WASTE-PHARMACEUTICAL,608,Kg,,497
+SO-DEMO-000335,Sales Order,items,BIO-00247,4,Nos,Central Warehouse - ENXI,457075
+SO-DEMO-000335,Sales Order,items,WASTE-GENERAL,1002,Kg,,581
+SO-DEMO-000336,Sales Order,items,BIO-00279,6,Nos,Central Warehouse - ENXI,1170503
+SO-DEMO-000336,Sales Order,items,WASTE-GENERAL,279,Kg,,558
+SO-DEMO-000337,Sales Order,items,BIO-00304,5,Nos,Central Warehouse - ENXI,2121578
+SO-DEMO-000337,Sales Order,items,WASTE-INFECTIOUS,1031,Kg,,270
+SO-DEMO-000338,Sales Order,items,BIO-00307,1,Nos,Central Warehouse - ENXI,3055231
+SO-DEMO-000339,Sales Order,items,BIO-00331,6,Nos,Central Warehouse - ENXI,437875
+SO-DEMO-000339,Sales Order,items,WASTE-PATHOLOGICAL,120,Kg,,567
+SO-DEMO-000340,Sales Order,items,BIO-00232,5,Nos,Central Warehouse - ENXI,1402653
+SO-DEMO-000340,Sales Order,items,WASTE-CHEMICAL,1035,Kg,,280
+SO-DEMO-000341,Sales Order,items,BIO-00154,5,Nos,Central Warehouse - ENXI,3511731
+SO-DEMO-000342,Sales Order,items,BIO-00177,1,Nos,Central Warehouse - ENXI,2624134
+SO-DEMO-000342,Sales Order,items,WASTE-CHEMICAL,947,Kg,,613
+SO-DEMO-000343,Sales Order,items,BIO-00190,5,Nos,Central Warehouse - ENXI,402832
+SO-DEMO-000343,Sales Order,items,WASTE-CHEMICAL,855,Kg,,236
+SO-DEMO-000344,Sales Order,items,BIO-00222,6,Nos,Central Warehouse - ENXI,2655326
+SO-DEMO-000344,Sales Order,items,WASTE-SHARPS,903,Kg,,387
+SO-DEMO-000345,Sales Order,items,BIO-00109,6,Nos,Central Warehouse - ENXI,907334
+SO-DEMO-000345,Sales Order,items,WASTE-PATHOLOGICAL,907,Kg,,611
+SO-DEMO-000346,Sales Order,items,BIO-00148,6,Nos,Central Warehouse - ENXI,706591
+SO-DEMO-000346,Sales Order,items,WASTE-INFECTIOUS,152,Kg,,253
+SO-DEMO-000347,Sales Order,items,BIO-00070,1,Nos,Central Warehouse - ENXI,755543
+SO-DEMO-000347,Sales Order,items,WASTE-PHARMACEUTICAL,1053,Kg,,637
+SO-DEMO-000348,Sales Order,items,BIO-00093,4,Nos,Central Warehouse - ENXI,2316641
+SO-DEMO-000348,Sales Order,items,WASTE-PHARMACEUTICAL,907,Kg,,361
+SO-DEMO-000349,Sales Order,items,BIO-00310,1,Nos,Central Warehouse - ENXI,2604049
+SO-DEMO-000349,Sales Order,items,WASTE-GENERAL,604,Kg,,544
+SO-DEMO-000350,Sales Order,items,BIO-00280,5,Nos,Central Warehouse - ENXI,1719183
+SO-DEMO-000350,Sales Order,items,WASTE-INFECTIOUS,1109,Kg,,540
+SO-DEMO-000351,Sales Order,items,BIO-00247,6,Nos,Central Warehouse - ENXI,515809
+SO-DEMO-000351,Sales Order,items,WASTE-GENERAL,1198,Kg,,619
+SO-DEMO-000352,Sales Order,items,BIO-00041,5,Nos,Central Warehouse - ENXI,2738821
+SO-DEMO-000352,Sales Order,items,WASTE-PHARMACEUTICAL,279,Kg,,530
+SO-DEMO-000353,Sales Order,items,BIO-00314,1,Nos,Central Warehouse - ENXI,1620937
+SO-DEMO-000353,Sales Order,items,WASTE-INFECTIOUS,1080,Kg,,412
+SO-DEMO-000354,Sales Order,items,BIO-00376,3,Nos,Central Warehouse - ENXI,1945869
+SO-DEMO-000354,Sales Order,items,WASTE-SHARPS,712,Kg,,265
+SO-DEMO-000355,Sales Order,items,BIO-00156,6,Nos,Central Warehouse - ENXI,3472619
+SO-DEMO-000355,Sales Order,items,WASTE-INFECTIOUS,1089,Kg,,476
+SO-DEMO-000356,Sales Order,items,BIO-00337,3,Nos,Central Warehouse - ENXI,3572754
+SO-DEMO-000356,Sales Order,items,WASTE-INFECTIOUS,707,Kg,,428
+SO-DEMO-000357,Sales Order,items,BIO-00040,3,Nos,Central Warehouse - ENXI,1237178
+SO-DEMO-000357,Sales Order,items,WASTE-SHARPS,683,Kg,,619
+SO-DEMO-000358,Sales Order,items,BIO-00058,5,Nos,Central Warehouse - ENXI,912383
+SO-DEMO-000359,Sales Order,items,BIO-00190,2,Nos,Central Warehouse - ENXI,1275772
+SO-DEMO-000360,Sales Order,items,BIO-00271,1,Nos,Central Warehouse - ENXI,1618008
+SO-DEMO-000361,Sales Order,items,BIO-00254,4,Nos,Central Warehouse - ENXI,3411156
+SO-DEMO-000361,Sales Order,items,WASTE-GENERAL,1021,Kg,,551
+SO-DEMO-000362,Sales Order,items,BIO-00376,3,Nos,Central Warehouse - ENXI,407858
+SO-DEMO-000362,Sales Order,items,WASTE-INFECTIOUS,227,Kg,,265
+SO-DEMO-000363,Sales Order,items,BIO-00155,4,Nos,Central Warehouse - ENXI,3309582
+SO-DEMO-000364,Sales Order,items,BIO-00350,6,Nos,Central Warehouse - ENXI,1816074
+SO-DEMO-000364,Sales Order,items,WASTE-PATHOLOGICAL,1010,Kg,,186
+SO-DEMO-000365,Sales Order,items,BIO-00348,3,Nos,Central Warehouse - ENXI,2404044
+SO-DEMO-000365,Sales Order,items,WASTE-INFECTIOUS,319,Kg,,649
+SO-DEMO-000366,Sales Order,items,BIO-00222,5,Nos,Central Warehouse - ENXI,2914962
+SO-DEMO-000367,Sales Order,items,BIO-00051,3,Nos,Central Warehouse - ENXI,2924514
+SO-DEMO-000367,Sales Order,items,WASTE-PHARMACEUTICAL,615,Kg,,555
+SO-DEMO-000368,Sales Order,items,BIO-00173,6,Nos,Central Warehouse - ENXI,3075237
+SO-DEMO-000369,Sales Order,items,BIO-00345,1,Nos,Central Warehouse - ENXI,465011
+SO-DEMO-000369,Sales Order,items,WASTE-INFECTIOUS,1195,Kg,,233
+SO-DEMO-000370,Sales Order,items,BIO-00372,3,Nos,Central Warehouse - ENXI,1236528
+SO-DEMO-000370,Sales Order,items,WASTE-INFECTIOUS,308,Kg,,209
+SO-DEMO-000371,Sales Order,items,BIO-00307,6,Nos,Central Warehouse - ENXI,690824
+SO-DEMO-000371,Sales Order,items,WASTE-INFECTIOUS,296,Kg,,618
+SO-DEMO-000372,Sales Order,items,BIO-00337,6,Nos,Central Warehouse - ENXI,2554264
+SO-DEMO-000373,Sales Order,items,BIO-00095,3,Nos,Central Warehouse - ENXI,1415510
+SO-DEMO-000373,Sales Order,items,WASTE-INFECTIOUS,1048,Kg,,321
+SO-DEMO-000374,Sales Order,items,BIO-00132,2,Nos,Central Warehouse - ENXI,3454624
+SO-DEMO-000374,Sales Order,items,WASTE-INFECTIOUS,903,Kg,,378
+SO-DEMO-000375,Sales Order,items,BIO-00136,2,Nos,Central Warehouse - ENXI,2027904
+SO-DEMO-000375,Sales Order,items,WASTE-PATHOLOGICAL,924,Kg,,271
+SO-DEMO-000376,Sales Order,items,BIO-00277,4,Nos,Central Warehouse - ENXI,1095979
+SO-DEMO-000376,Sales Order,items,WASTE-INFECTIOUS,1024,Kg,,546
+SO-DEMO-000377,Sales Order,items,BIO-00038,1,Nos,Central Warehouse - ENXI,2576392
+SO-DEMO-000377,Sales Order,items,WASTE-PHARMACEUTICAL,158,Kg,,639
+SO-DEMO-000378,Sales Order,items,BIO-00328,1,Nos,Central Warehouse - ENXI,338694
+SO-DEMO-000378,Sales Order,items,WASTE-SHARPS,430,Kg,,538
+SO-DEMO-000379,Sales Order,items,BIO-00002,5,Nos,Central Warehouse - ENXI,3147913
+SO-DEMO-000380,Sales Order,items,BIO-00207,6,Nos,Central Warehouse - ENXI,3455487
+SO-DEMO-000381,Sales Order,items,BIO-00002,4,Nos,Central Warehouse - ENXI,3070971
+SO-DEMO-000382,Sales Order,items,BIO-00275,3,Nos,Central Warehouse - ENXI,1578547
+SO-DEMO-000382,Sales Order,items,WASTE-PHARMACEUTICAL,233,Kg,,503
+SO-DEMO-000383,Sales Order,items,BIO-00175,1,Nos,Central Warehouse - ENXI,2107867
+SO-DEMO-000384,Sales Order,items,BIO-00091,5,Nos,Central Warehouse - ENXI,344966
+SO-DEMO-000385,Sales Order,items,BIO-00200,1,Nos,Central Warehouse - ENXI,2824999
+SO-DEMO-000385,Sales Order,items,WASTE-PHARMACEUTICAL,293,Kg,,633
+SO-DEMO-000386,Sales Order,items,BIO-00019,2,Nos,Central Warehouse - ENXI,286386
+SO-DEMO-000386,Sales Order,items,WASTE-CHEMICAL,608,Kg,,430
+SO-DEMO-000387,Sales Order,items,BIO-00330,3,Nos,Central Warehouse - ENXI,2275827
+SO-DEMO-000387,Sales Order,items,WASTE-PHARMACEUTICAL,153,Kg,,198
+SO-DEMO-000388,Sales Order,items,BIO-00370,1,Nos,Central Warehouse - ENXI,1880823
+SO-DEMO-000388,Sales Order,items,WASTE-GENERAL,1191,Kg,,414
+SO-DEMO-000389,Sales Order,items,BIO-00297,2,Nos,Central Warehouse - ENXI,482130
+SO-DEMO-000389,Sales Order,items,WASTE-PATHOLOGICAL,1121,Kg,,514
+SO-DEMO-000390,Sales Order,items,BIO-00024,2,Nos,Central Warehouse - ENXI,3121452
+SO-DEMO-000390,Sales Order,items,WASTE-INFECTIOUS,472,Kg,,503
+SO-DEMO-000391,Sales Order,items,BIO-00234,5,Nos,Central Warehouse - ENXI,895923
+SO-DEMO-000392,Sales Order,items,BIO-00255,5,Nos,Central Warehouse - ENXI,3531983
+SO-DEMO-000392,Sales Order,items,WASTE-INFECTIOUS,535,Kg,,398
+SO-DEMO-000393,Sales Order,items,BIO-00167,1,Nos,Central Warehouse - ENXI,3049274
+SO-DEMO-000393,Sales Order,items,WASTE-PATHOLOGICAL,778,Kg,,608
+SO-DEMO-000394,Sales Order,items,BIO-00089,3,Nos,Central Warehouse - ENXI,445171
+SO-DEMO-000394,Sales Order,items,WASTE-PATHOLOGICAL,970,Kg,,266
+SO-DEMO-000395,Sales Order,items,BIO-00225,2,Nos,Central Warehouse - ENXI,2621025
+SO-DEMO-000395,Sales Order,items,WASTE-INFECTIOUS,890,Kg,,578
+SO-DEMO-000396,Sales Order,items,BIO-00042,1,Nos,Central Warehouse - ENXI,210299
+SO-DEMO-000396,Sales Order,items,WASTE-INFECTIOUS,701,Kg,,393
+SO-DEMO-000397,Sales Order,items,BIO-00074,6,Nos,Central Warehouse - ENXI,1316445
+SO-DEMO-000397,Sales Order,items,WASTE-PHARMACEUTICAL,609,Kg,,269
+SO-DEMO-000398,Sales Order,items,BIO-00093,6,Nos,Central Warehouse - ENXI,2276680
+SO-DEMO-000398,Sales Order,items,WASTE-INFECTIOUS,736,Kg,,358
+SO-DEMO-000399,Sales Order,items,BIO-00121,2,Nos,Central Warehouse - ENXI,672863
+SO-DEMO-000400,Sales Order,items,BIO-00277,5,Nos,Central Warehouse - ENXI,1099710
+SO-DEMO-000400,Sales Order,items,WASTE-GENERAL,546,Kg,,321
+SO-DEMO-000401,Sales Order,items,BIO-00077,6,Nos,Central Warehouse - ENXI,2169831
+SO-DEMO-000401,Sales Order,items,WASTE-PATHOLOGICAL,208,Kg,,207
+SO-DEMO-000402,Sales Order,items,BIO-00223,3,Nos,Central Warehouse - ENXI,1582133
+SO-DEMO-000402,Sales Order,items,WASTE-PHARMACEUTICAL,208,Kg,,233
+SO-DEMO-000403,Sales Order,items,BIO-00081,1,Nos,Central Warehouse - ENXI,2214494
+SO-DEMO-000403,Sales Order,items,WASTE-INFECTIOUS,601,Kg,,549
+SO-DEMO-000404,Sales Order,items,BIO-00167,4,Nos,Central Warehouse - ENXI,1013623
+SO-DEMO-000404,Sales Order,items,WASTE-SHARPS,591,Kg,,578
+SO-DEMO-000405,Sales Order,items,BIO-00051,2,Nos,Central Warehouse - ENXI,3274338
+SO-DEMO-000405,Sales Order,items,WASTE-PATHOLOGICAL,889,Kg,,636
+SO-DEMO-000406,Sales Order,items,BIO-00300,4,Nos,Central Warehouse - ENXI,407915
+SO-DEMO-000407,Sales Order,items,BIO-00233,2,Nos,Central Warehouse - ENXI,1804581
+SO-DEMO-000407,Sales Order,items,WASTE-PHARMACEUTICAL,517,Kg,,503
+SO-DEMO-000408,Sales Order,items,BIO-00172,2,Nos,Central Warehouse - ENXI,314614
+SO-DEMO-000408,Sales Order,items,WASTE-INFECTIOUS,694,Kg,,249
+SO-DEMO-000409,Sales Order,items,BIO-00215,2,Nos,Central Warehouse - ENXI,3369095
+SO-DEMO-000409,Sales Order,items,WASTE-SHARPS,441,Kg,,584
+SO-DEMO-000410,Sales Order,items,BIO-00284,2,Nos,Central Warehouse - ENXI,542699
+SO-DEMO-000410,Sales Order,items,WASTE-CHEMICAL,1121,Kg,,621
+SO-DEMO-000411,Sales Order,items,BIO-00237,3,Nos,Central Warehouse - ENXI,240833
+SO-DEMO-000411,Sales Order,items,WASTE-GENERAL,625,Kg,,306
+SO-DEMO-000412,Sales Order,items,BIO-00114,5,Nos,Central Warehouse - ENXI,804824
+SO-DEMO-000413,Sales Order,items,BIO-00021,4,Nos,Central Warehouse - ENXI,3256422
+SO-DEMO-000414,Sales Order,items,BIO-00202,4,Nos,Central Warehouse - ENXI,3576197
+SO-DEMO-000415,Sales Order,items,BIO-00124,1,Nos,Central Warehouse - ENXI,2522464
+SO-DEMO-000416,Sales Order,items,BIO-00184,3,Nos,Central Warehouse - ENXI,1182700
+SO-DEMO-000416,Sales Order,items,WASTE-INFECTIOUS,152,Kg,,425
+SO-DEMO-000417,Sales Order,items,BIO-00236,5,Nos,Central Warehouse - ENXI,3314347
+SO-DEMO-000417,Sales Order,items,WASTE-PHARMACEUTICAL,1069,Kg,,575
+SO-DEMO-000418,Sales Order,items,BIO-00190,6,Nos,Central Warehouse - ENXI,2127397
+SO-DEMO-000418,Sales Order,items,WASTE-INFECTIOUS,264,Kg,,377
+SO-DEMO-000419,Sales Order,items,BIO-00152,4,Nos,Central Warehouse - ENXI,3337841
+SO-DEMO-000419,Sales Order,items,WASTE-CHEMICAL,544,Kg,,583
+SO-DEMO-000420,Sales Order,items,BIO-00377,1,Nos,Central Warehouse - ENXI,2338961
+SO-DEMO-000421,Sales Order,items,BIO-00197,3,Nos,Central Warehouse - ENXI,2131831
+SO-DEMO-000421,Sales Order,items,WASTE-SHARPS,870,Kg,,269
+SO-DEMO-000422,Sales Order,items,BIO-00364,2,Nos,Central Warehouse - ENXI,760516
+SO-DEMO-000423,Sales Order,items,BIO-00333,4,Nos,Central Warehouse - ENXI,3272796
+SO-DEMO-000424,Sales Order,items,BIO-00116,3,Nos,Central Warehouse - ENXI,1659379
+SO-DEMO-000425,Sales Order,items,BIO-00142,1,Nos,Central Warehouse - ENXI,445789
+SO-DEMO-000425,Sales Order,items,WASTE-PHARMACEUTICAL,1115,Kg,,436
+SO-DEMO-000426,Sales Order,items,BIO-00364,5,Nos,Central Warehouse - ENXI,3025031
+SO-DEMO-000427,Sales Order,items,BIO-00189,6,Nos,Central Warehouse - ENXI,3087588
+SO-DEMO-000428,Sales Order,items,BIO-00045,1,Nos,Central Warehouse - ENXI,1818641
+SO-DEMO-000429,Sales Order,items,BIO-00085,3,Nos,Central Warehouse - ENXI,649865
+SO-DEMO-000429,Sales Order,items,WASTE-PHARMACEUTICAL,428,Kg,,627
+SO-DEMO-000430,Sales Order,items,BIO-00012,3,Nos,Central Warehouse - ENXI,1927081
+SO-DEMO-000431,Sales Order,items,BIO-00178,4,Nos,Central Warehouse - ENXI,2041683
+SO-DEMO-000431,Sales Order,items,WASTE-INFECTIOUS,717,Kg,,276
+SO-DEMO-000432,Sales Order,items,BIO-00267,6,Nos,Central Warehouse - ENXI,1588771
+SO-DEMO-000432,Sales Order,items,WASTE-SHARPS,788,Kg,,428
+SO-DEMO-000433,Sales Order,items,BIO-00272,5,Nos,Central Warehouse - ENXI,2047540
+SO-DEMO-000433,Sales Order,items,WASTE-CHEMICAL,390,Kg,,639
+SO-DEMO-000434,Sales Order,items,BIO-00117,4,Nos,Central Warehouse - ENXI,1739871
+SO-DEMO-000435,Sales Order,items,BIO-00146,4,Nos,Central Warehouse - ENXI,877777
+SO-DEMO-000435,Sales Order,items,WASTE-PATHOLOGICAL,704,Kg,,273
+SO-DEMO-000436,Sales Order,items,BIO-00083,2,Nos,Central Warehouse - ENXI,670386
+SO-DEMO-000436,Sales Order,items,WASTE-SHARPS,379,Kg,,405
+SO-DEMO-000437,Sales Order,items,BIO-00106,5,Nos,Central Warehouse - ENXI,3145936
+SO-DEMO-000437,Sales Order,items,WASTE-SHARPS,824,Kg,,255
+SO-DEMO-000438,Sales Order,items,BIO-00084,5,Nos,Central Warehouse - ENXI,1444833
+SO-DEMO-000438,Sales Order,items,WASTE-INFECTIOUS,948,Kg,,435
+SO-DEMO-000439,Sales Order,items,BIO-00080,1,Nos,Central Warehouse - ENXI,3277472
+SO-DEMO-000439,Sales Order,items,WASTE-CHEMICAL,798,Kg,,511
+SO-DEMO-000440,Sales Order,items,BIO-00294,6,Nos,Central Warehouse - ENXI,796912
+SO-DEMO-000441,Sales Order,items,BIO-00058,6,Nos,Central Warehouse - ENXI,2188992
+SO-DEMO-000442,Sales Order,items,BIO-00060,3,Nos,Central Warehouse - ENXI,284000
+SO-DEMO-000442,Sales Order,items,WASTE-PATHOLOGICAL,1033,Kg,,362
+SO-DEMO-000443,Sales Order,items,BIO-00312,6,Nos,Central Warehouse - ENXI,998517
+SO-DEMO-000443,Sales Order,items,WASTE-PATHOLOGICAL,689,Kg,,280
+SO-DEMO-000444,Sales Order,items,BIO-00229,6,Nos,Central Warehouse - ENXI,2996717
+SO-DEMO-000445,Sales Order,items,BIO-00252,3,Nos,Central Warehouse - ENXI,2709886
+SO-DEMO-000445,Sales Order,items,WASTE-INFECTIOUS,859,Kg,,383
+SO-DEMO-000446,Sales Order,items,BIO-00198,3,Nos,Central Warehouse - ENXI,231131
+SO-DEMO-000446,Sales Order,items,WASTE-SHARPS,750,Kg,,408
+SO-DEMO-000447,Sales Order,items,BIO-00373,4,Nos,Central Warehouse - ENXI,3290192
+SO-DEMO-000448,Sales Order,items,BIO-00373,4,Nos,Central Warehouse - ENXI,3235993
+SO-DEMO-000449,Sales Order,items,BIO-00045,2,Nos,Central Warehouse - ENXI,1051508
+SO-DEMO-000449,Sales Order,items,WASTE-CHEMICAL,806,Kg,,213
+SO-DEMO-000450,Sales Order,items,BIO-00004,4,Nos,Central Warehouse - ENXI,2859346
+SO-DEMO-000451,Sales Order,items,BIO-00237,6,Nos,Central Warehouse - ENXI,2562013
+SO-DEMO-000452,Sales Order,items,BIO-00196,3,Nos,Central Warehouse - ENXI,2503086
+SO-DEMO-000452,Sales Order,items,WASTE-SHARPS,742,Kg,,432
+SO-DEMO-000453,Sales Order,items,BIO-00014,1,Nos,Central Warehouse - ENXI,826023
+SO-DEMO-000453,Sales Order,items,WASTE-GENERAL,1087,Kg,,243
+SO-DEMO-000454,Sales Order,items,BIO-00252,6,Nos,Central Warehouse - ENXI,2884427
+SO-DEMO-000454,Sales Order,items,WASTE-INFECTIOUS,687,Kg,,432
+SO-DEMO-000455,Sales Order,items,BIO-00186,5,Nos,Central Warehouse - ENXI,2195303
+SO-DEMO-000455,Sales Order,items,WASTE-SHARPS,1094,Kg,,535
+SO-DEMO-000456,Sales Order,items,BIO-00376,5,Nos,Central Warehouse - ENXI,253589
+SO-DEMO-000457,Sales Order,items,BIO-00075,3,Nos,Central Warehouse - ENXI,2113758
+SO-DEMO-000458,Sales Order,items,BIO-00028,3,Nos,Central Warehouse - ENXI,1694829
+SO-DEMO-000458,Sales Order,items,WASTE-SHARPS,219,Kg,,328
+SO-DEMO-000459,Sales Order,items,BIO-00040,5,Nos,Central Warehouse - ENXI,992918
+SO-DEMO-000460,Sales Order,items,BIO-00086,5,Nos,Central Warehouse - ENXI,1533111
+SO-DEMO-000461,Sales Order,items,BIO-00358,6,Nos,Central Warehouse - ENXI,1700530
+SO-DEMO-000461,Sales Order,items,WASTE-CHEMICAL,840,Kg,,601
+SO-DEMO-000462,Sales Order,items,BIO-00266,3,Nos,Central Warehouse - ENXI,1744534
+SO-DEMO-000463,Sales Order,items,BIO-00053,2,Nos,Central Warehouse - ENXI,828250
+SO-DEMO-000463,Sales Order,items,WASTE-PATHOLOGICAL,1196,Kg,,613
+SO-DEMO-000464,Sales Order,items,BIO-00059,4,Nos,Central Warehouse - ENXI,2111440
+SO-DEMO-000465,Sales Order,items,BIO-00246,3,Nos,Central Warehouse - ENXI,1486833
+SO-DEMO-000465,Sales Order,items,WASTE-PATHOLOGICAL,1025,Kg,,635
+SO-DEMO-000466,Sales Order,items,BIO-00089,6,Nos,Central Warehouse - ENXI,1457938
+SO-DEMO-000466,Sales Order,items,WASTE-INFECTIOUS,575,Kg,,245
+SO-DEMO-000467,Sales Order,items,BIO-00065,2,Nos,Central Warehouse - ENXI,726174
+SO-DEMO-000468,Sales Order,items,BIO-00010,4,Nos,Central Warehouse - ENXI,3356489
+SO-DEMO-000468,Sales Order,items,WASTE-PATHOLOGICAL,340,Kg,,196
+SO-DEMO-000469,Sales Order,items,BIO-00241,1,Nos,Central Warehouse - ENXI,1241211
+SO-DEMO-000469,Sales Order,items,WASTE-SHARPS,141,Kg,,566
+SO-DEMO-000470,Sales Order,items,BIO-00106,5,Nos,Central Warehouse - ENXI,1018963
+SO-DEMO-000470,Sales Order,items,WASTE-SHARPS,179,Kg,,226
+SO-DEMO-000471,Sales Order,items,BIO-00179,3,Nos,Central Warehouse - ENXI,853426
+SO-DEMO-000472,Sales Order,items,BIO-00292,1,Nos,Central Warehouse - ENXI,595679
+SO-DEMO-000473,Sales Order,items,BIO-00367,2,Nos,Central Warehouse - ENXI,1362193
+SO-DEMO-000473,Sales Order,items,WASTE-CHEMICAL,128,Kg,,551
+SO-DEMO-000474,Sales Order,items,BIO-00363,4,Nos,Central Warehouse - ENXI,1717057
+SO-DEMO-000474,Sales Order,items,WASTE-PATHOLOGICAL,1020,Kg,,524
+SO-DEMO-000475,Sales Order,items,BIO-00195,4,Nos,Central Warehouse - ENXI,1078730
+SO-DEMO-000475,Sales Order,items,WASTE-PHARMACEUTICAL,351,Kg,,569
+SO-DEMO-000476,Sales Order,items,BIO-00057,5,Nos,Central Warehouse - ENXI,750057
+SO-DEMO-000476,Sales Order,items,WASTE-SHARPS,710,Kg,,465
+SO-DEMO-000477,Sales Order,items,BIO-00253,1,Nos,Central Warehouse - ENXI,1793888
+SO-DEMO-000477,Sales Order,items,WASTE-CHEMICAL,758,Kg,,531
+SO-DEMO-000478,Sales Order,items,BIO-00209,3,Nos,Central Warehouse - ENXI,1975001
+SO-DEMO-000478,Sales Order,items,WASTE-INFECTIOUS,1094,Kg,,527
+SO-DEMO-000479,Sales Order,items,BIO-00346,4,Nos,Central Warehouse - ENXI,2998972
+SO-DEMO-000479,Sales Order,items,WASTE-PHARMACEUTICAL,1190,Kg,,517
+SO-DEMO-000480,Sales Order,items,BIO-00203,4,Nos,Central Warehouse - ENXI,3095196
+SO-DEMO-000480,Sales Order,items,WASTE-INFECTIOUS,465,Kg,,213
+SO-DEMO-000481,Sales Order,items,BIO-00103,5,Nos,Central Warehouse - ENXI,1875711
+SO-DEMO-000481,Sales Order,items,WASTE-PHARMACEUTICAL,1142,Kg,,322
+SO-DEMO-000482,Sales Order,items,BIO-00330,4,Nos,Central Warehouse - ENXI,1673580
+SO-DEMO-000482,Sales Order,items,WASTE-CHEMICAL,948,Kg,,428
+SO-DEMO-000483,Sales Order,items,BIO-00233,1,Nos,Central Warehouse - ENXI,692502
+SO-DEMO-000483,Sales Order,items,WASTE-PHARMACEUTICAL,592,Kg,,501
+SO-DEMO-000484,Sales Order,items,BIO-00378,1,Nos,Central Warehouse - ENXI,466171
+SO-DEMO-000484,Sales Order,items,WASTE-INFECTIOUS,486,Kg,,375
+SO-DEMO-000485,Sales Order,items,BIO-00079,3,Nos,Central Warehouse - ENXI,2788717
+SO-DEMO-000485,Sales Order,items,WASTE-INFECTIOUS,1184,Kg,,572
+SO-DEMO-000486,Sales Order,items,BIO-00151,6,Nos,Central Warehouse - ENXI,2268339
+SO-DEMO-000486,Sales Order,items,WASTE-SHARPS,823,Kg,,594
+SO-DEMO-000487,Sales Order,items,BIO-00017,4,Nos,Central Warehouse - ENXI,679684
+SO-DEMO-000487,Sales Order,items,WASTE-SHARPS,890,Kg,,406
+SO-DEMO-000488,Sales Order,items,BIO-00091,5,Nos,Central Warehouse - ENXI,2945770
+SO-DEMO-000489,Sales Order,items,BIO-00221,2,Nos,Central Warehouse - ENXI,1490550
+SO-DEMO-000489,Sales Order,items,WASTE-PHARMACEUTICAL,344,Kg,,471
+SO-DEMO-000490,Sales Order,items,BIO-00351,5,Nos,Central Warehouse - ENXI,2580023
+SO-DEMO-000490,Sales Order,items,WASTE-CHEMICAL,440,Kg,,439
+SO-DEMO-000491,Sales Order,items,BIO-00254,5,Nos,Central Warehouse - ENXI,1764598
+SO-DEMO-000491,Sales Order,items,WASTE-SHARPS,702,Kg,,344
+SO-DEMO-000492,Sales Order,items,BIO-00024,2,Nos,Central Warehouse - ENXI,1716835
+SO-DEMO-000492,Sales Order,items,WASTE-GENERAL,175,Kg,,571
+SO-DEMO-000493,Sales Order,items,BIO-00220,3,Nos,Central Warehouse - ENXI,1678901
+SO-DEMO-000493,Sales Order,items,WASTE-INFECTIOUS,620,Kg,,306
+SO-DEMO-000494,Sales Order,items,BIO-00304,1,Nos,Central Warehouse - ENXI,3065644
+SO-DEMO-000494,Sales Order,items,WASTE-SHARPS,354,Kg,,352
+SO-DEMO-000495,Sales Order,items,BIO-00167,1,Nos,Central Warehouse - ENXI,2113194
+SO-DEMO-000495,Sales Order,items,WASTE-PHARMACEUTICAL,1174,Kg,,641
+SO-DEMO-000496,Sales Order,items,BIO-00357,4,Nos,Central Warehouse - ENXI,2646205
+SO-DEMO-000496,Sales Order,items,WASTE-SHARPS,893,Kg,,472
+SO-DEMO-000497,Sales Order,items,BIO-00051,4,Nos,Central Warehouse - ENXI,599668
+SO-DEMO-000497,Sales Order,items,WASTE-PATHOLOGICAL,808,Kg,,434
+SO-DEMO-000498,Sales Order,items,BIO-00086,5,Nos,Central Warehouse - ENXI,1436281
+SO-DEMO-000498,Sales Order,items,WASTE-PHARMACEUTICAL,533,Kg,,434
+SO-DEMO-000499,Sales Order,items,BIO-00148,3,Nos,Central Warehouse - ENXI,379360
+SO-DEMO-000499,Sales Order,items,WASTE-CHEMICAL,943,Kg,,591
+SO-DEMO-000500,Sales Order,items,BIO-00048,6,Nos,Central Warehouse - ENXI,2605118
+SO-DEMO-000500,Sales Order,items,WASTE-SHARPS,679,Kg,,214
+SO-DEMO-000501,Sales Order,items,BIO-00219,2,Nos,Central Warehouse - ENXI,1636750
+SO-DEMO-000502,Sales Order,items,BIO-00222,6,Nos,Central Warehouse - ENXI,2444704
+SO-DEMO-000502,Sales Order,items,WASTE-PHARMACEUTICAL,943,Kg,,308
+SO-DEMO-000503,Sales Order,items,BIO-00344,5,Nos,Central Warehouse - ENXI,937494
+SO-DEMO-000504,Sales Order,items,BIO-00256,2,Nos,Central Warehouse - ENXI,2951622
+SO-DEMO-000505,Sales Order,items,BIO-00273,5,Nos,Central Warehouse - ENXI,3405919
+SO-DEMO-000506,Sales Order,items,BIO-00268,2,Nos,Central Warehouse - ENXI,1707878
+SO-DEMO-000506,Sales Order,items,WASTE-PATHOLOGICAL,428,Kg,,562
+SO-DEMO-000507,Sales Order,items,BIO-00164,1,Nos,Central Warehouse - ENXI,2838884
+SO-DEMO-000507,Sales Order,items,WASTE-PHARMACEUTICAL,666,Kg,,601
+SO-DEMO-000508,Sales Order,items,BIO-00132,6,Nos,Central Warehouse - ENXI,2701750
+SO-DEMO-000508,Sales Order,items,WASTE-PATHOLOGICAL,352,Kg,,256
+SO-DEMO-000509,Sales Order,items,BIO-00159,4,Nos,Central Warehouse - ENXI,2215841
+SO-DEMO-000509,Sales Order,items,WASTE-PHARMACEUTICAL,984,Kg,,511
+SO-DEMO-000510,Sales Order,items,BIO-00140,2,Nos,Central Warehouse - ENXI,302229
+SO-DEMO-000510,Sales Order,items,WASTE-SHARPS,480,Kg,,509
+SO-DEMO-000511,Sales Order,items,BIO-00029,1,Nos,Central Warehouse - ENXI,1496612
+SO-DEMO-000511,Sales Order,items,WASTE-INFECTIOUS,953,Kg,,639
+SO-DEMO-000512,Sales Order,items,BIO-00047,4,Nos,Central Warehouse - ENXI,3217659
+SO-DEMO-000513,Sales Order,items,BIO-00377,5,Nos,Central Warehouse - ENXI,686011
+SO-DEMO-000513,Sales Order,items,WASTE-CHEMICAL,1195,Kg,,308
+SO-DEMO-000514,Sales Order,items,BIO-00308,1,Nos,Central Warehouse - ENXI,3422997
+SO-DEMO-000515,Sales Order,items,BIO-00200,6,Nos,Central Warehouse - ENXI,3300390
+SO-DEMO-000515,Sales Order,items,WASTE-PHARMACEUTICAL,566,Kg,,253
+SO-DEMO-000516,Sales Order,items,BIO-00141,4,Nos,Central Warehouse - ENXI,1892851
+SO-DEMO-000516,Sales Order,items,WASTE-CHEMICAL,234,Kg,,431
+SO-DEMO-000517,Sales Order,items,BIO-00058,3,Nos,Central Warehouse - ENXI,2469020
+SO-DEMO-000517,Sales Order,items,WASTE-GENERAL,624,Kg,,322
+SO-DEMO-000518,Sales Order,items,BIO-00367,3,Nos,Central Warehouse - ENXI,1472564
+SO-DEMO-000518,Sales Order,items,WASTE-CHEMICAL,191,Kg,,610
+SO-DEMO-000519,Sales Order,items,BIO-00130,5,Nos,Central Warehouse - ENXI,1793507
+SO-DEMO-000519,Sales Order,items,WASTE-GENERAL,863,Kg,,642
+SO-DEMO-000520,Sales Order,items,BIO-00227,4,Nos,Central Warehouse - ENXI,212992
+SO-DEMO-000521,Sales Order,items,BIO-00047,2,Nos,Central Warehouse - ENXI,1427482
+SO-DEMO-000521,Sales Order,items,WASTE-PATHOLOGICAL,1018,Kg,,503
+SO-DEMO-000522,Sales Order,items,BIO-00018,3,Nos,Central Warehouse - ENXI,515940
+SO-DEMO-000523,Sales Order,items,BIO-00212,3,Nos,Central Warehouse - ENXI,3188935
+SO-DEMO-000523,Sales Order,items,WASTE-INFECTIOUS,448,Kg,,537
+SO-DEMO-000524,Sales Order,items,BIO-00181,4,Nos,Central Warehouse - ENXI,2705457
+SO-DEMO-000524,Sales Order,items,WASTE-CHEMICAL,789,Kg,,412
+SO-DEMO-000525,Sales Order,items,BIO-00329,2,Nos,Central Warehouse - ENXI,2823067
+SO-DEMO-000525,Sales Order,items,WASTE-GENERAL,398,Kg,,181
+SO-DEMO-000526,Sales Order,items,BIO-00157,3,Nos,Central Warehouse - ENXI,2595119
+SO-DEMO-000526,Sales Order,items,WASTE-PATHOLOGICAL,631,Kg,,444
+SO-DEMO-000527,Sales Order,items,BIO-00211,3,Nos,Central Warehouse - ENXI,2073685
+SO-DEMO-000527,Sales Order,items,WASTE-GENERAL,393,Kg,,313
+SO-DEMO-000528,Sales Order,items,BIO-00168,3,Nos,Central Warehouse - ENXI,1013256
+SO-DEMO-000528,Sales Order,items,WASTE-SHARPS,492,Kg,,381
+SO-DEMO-000529,Sales Order,items,BIO-00011,1,Nos,Central Warehouse - ENXI,2522644
+SO-DEMO-000529,Sales Order,items,WASTE-GENERAL,588,Kg,,644
+SO-DEMO-000530,Sales Order,items,BIO-00135,6,Nos,Central Warehouse - ENXI,887813
+SO-DEMO-000530,Sales Order,items,WASTE-CHEMICAL,998,Kg,,487
+SO-DEMO-000531,Sales Order,items,BIO-00189,2,Nos,Central Warehouse - ENXI,2559189
+SO-DEMO-000531,Sales Order,items,WASTE-GENERAL,1196,Kg,,402
+SO-DEMO-000532,Sales Order,items,BIO-00061,2,Nos,Central Warehouse - ENXI,3172903
+SO-DEMO-000532,Sales Order,items,WASTE-SHARPS,709,Kg,,562
+SO-DEMO-000533,Sales Order,items,BIO-00221,2,Nos,Central Warehouse - ENXI,2696929
+SO-DEMO-000533,Sales Order,items,WASTE-SHARPS,507,Kg,,394
+SO-DEMO-000534,Sales Order,items,BIO-00015,3,Nos,Central Warehouse - ENXI,1278066
+SO-DEMO-000534,Sales Order,items,WASTE-PHARMACEUTICAL,628,Kg,,369
+SO-DEMO-000535,Sales Order,items,BIO-00235,1,Nos,Central Warehouse - ENXI,223286
+SO-DEMO-000535,Sales Order,items,WASTE-SHARPS,934,Kg,,531
+SO-DEMO-000536,Sales Order,items,BIO-00217,6,Nos,Central Warehouse - ENXI,2684821
+SO-DEMO-000536,Sales Order,items,WASTE-INFECTIOUS,240,Kg,,206
+SO-DEMO-000537,Sales Order,items,BIO-00182,5,Nos,Central Warehouse - ENXI,2993503
+SO-DEMO-000538,Sales Order,items,BIO-00130,5,Nos,Central Warehouse - ENXI,2779033
+SO-DEMO-000538,Sales Order,items,WASTE-PHARMACEUTICAL,879,Kg,,247
+SO-DEMO-000539,Sales Order,items,BIO-00092,3,Nos,Central Warehouse - ENXI,892471
+SO-DEMO-000539,Sales Order,items,WASTE-SHARPS,1078,Kg,,247
+SO-DEMO-000540,Sales Order,items,BIO-00272,4,Nos,Central Warehouse - ENXI,774734
+SO-DEMO-000540,Sales Order,items,WASTE-SHARPS,210,Kg,,245
+SO-DEMO-000541,Sales Order,items,BIO-00185,4,Nos,Central Warehouse - ENXI,1366675
+SO-DEMO-000542,Sales Order,items,BIO-00265,3,Nos,Central Warehouse - ENXI,2007774
+SO-DEMO-000543,Sales Order,items,BIO-00285,6,Nos,Central Warehouse - ENXI,2850312
+SO-DEMO-000544,Sales Order,items,BIO-00028,2,Nos,Central Warehouse - ENXI,948150
+SO-DEMO-000544,Sales Order,items,WASTE-SHARPS,454,Kg,,541
+SO-DEMO-000545,Sales Order,items,BIO-00254,1,Nos,Central Warehouse - ENXI,2031867
+SO-DEMO-000545,Sales Order,items,WASTE-GENERAL,1113,Kg,,414
+SO-DEMO-000546,Sales Order,items,BIO-00076,1,Nos,Central Warehouse - ENXI,1646346
+SO-DEMO-000546,Sales Order,items,WASTE-SHARPS,489,Kg,,607
+SO-DEMO-000547,Sales Order,items,BIO-00289,6,Nos,Central Warehouse - ENXI,2636509
+SO-DEMO-000547,Sales Order,items,WASTE-INFECTIOUS,1197,Kg,,572
+SO-DEMO-000548,Sales Order,items,BIO-00040,2,Nos,Central Warehouse - ENXI,3402288
+SO-DEMO-000548,Sales Order,items,WASTE-INFECTIOUS,793,Kg,,193
+SO-DEMO-000549,Sales Order,items,BIO-00063,4,Nos,Central Warehouse - ENXI,1746817
+SO-DEMO-000549,Sales Order,items,WASTE-INFECTIOUS,782,Kg,,258
+SO-DEMO-000550,Sales Order,items,BIO-00363,6,Nos,Central Warehouse - ENXI,2192658
+SO-DEMO-000550,Sales Order,items,WASTE-SHARPS,131,Kg,,348
+SO-DEMO-000551,Sales Order,items,BIO-00232,3,Nos,Central Warehouse - ENXI,3248323
+SO-DEMO-000552,Sales Order,items,BIO-00025,6,Nos,Central Warehouse - ENXI,1366795
+SO-DEMO-000552,Sales Order,items,WASTE-INFECTIOUS,264,Kg,,460
+SO-DEMO-000553,Sales Order,items,BIO-00205,3,Nos,Central Warehouse - ENXI,926631
+SO-DEMO-000553,Sales Order,items,WASTE-PHARMACEUTICAL,302,Kg,,190
+SO-DEMO-000554,Sales Order,items,BIO-00207,3,Nos,Central Warehouse - ENXI,2894419
+SO-DEMO-000555,Sales Order,items,BIO-00252,4,Nos,Central Warehouse - ENXI,3266543
+SO-DEMO-000556,Sales Order,items,BIO-00068,3,Nos,Central Warehouse - ENXI,2971394
+SO-DEMO-000556,Sales Order,items,WASTE-SHARPS,1169,Kg,,282
+SO-DEMO-000557,Sales Order,items,BIO-00244,3,Nos,Central Warehouse - ENXI,2541632
+SO-DEMO-000557,Sales Order,items,WASTE-INFECTIOUS,985,Kg,,595
+SO-DEMO-000558,Sales Order,items,BIO-00223,6,Nos,Central Warehouse - ENXI,1966845
+SO-DEMO-000558,Sales Order,items,WASTE-CHEMICAL,819,Kg,,417
+SO-DEMO-000559,Sales Order,items,BIO-00366,2,Nos,Central Warehouse - ENXI,2257532
+SO-DEMO-000559,Sales Order,items,WASTE-GENERAL,1194,Kg,,222
+SO-DEMO-000560,Sales Order,items,BIO-00041,4,Nos,Central Warehouse - ENXI,1439940
+SO-DEMO-000560,Sales Order,items,WASTE-PATHOLOGICAL,735,Kg,,610
+SO-DEMO-000561,Sales Order,items,BIO-00152,5,Nos,Central Warehouse - ENXI,380186
+SO-DEMO-000561,Sales Order,items,WASTE-INFECTIOUS,1171,Kg,,235
+SO-DEMO-000562,Sales Order,items,BIO-00049,4,Nos,Central Warehouse - ENXI,2951827
+SO-DEMO-000562,Sales Order,items,WASTE-SHARPS,847,Kg,,310
+SO-DEMO-000563,Sales Order,items,BIO-00009,1,Nos,Central Warehouse - ENXI,3285949
+SO-DEMO-000563,Sales Order,items,WASTE-PATHOLOGICAL,493,Kg,,611
+SO-DEMO-000564,Sales Order,items,BIO-00214,6,Nos,Central Warehouse - ENXI,1428424
+SO-DEMO-000564,Sales Order,items,WASTE-GENERAL,1051,Kg,,567
+SO-DEMO-000565,Sales Order,items,BIO-00175,2,Nos,Central Warehouse - ENXI,1065284
+SO-DEMO-000565,Sales Order,items,WASTE-GENERAL,651,Kg,,626
+SO-DEMO-000566,Sales Order,items,BIO-00010,1,Nos,Central Warehouse - ENXI,1836472
+SO-DEMO-000566,Sales Order,items,WASTE-PATHOLOGICAL,1097,Kg,,415
+SO-DEMO-000567,Sales Order,items,BIO-00309,6,Nos,Central Warehouse - ENXI,2221462
+SO-DEMO-000567,Sales Order,items,WASTE-CHEMICAL,858,Kg,,533
+SO-DEMO-000568,Sales Order,items,BIO-00065,2,Nos,Central Warehouse - ENXI,238199
+SO-DEMO-000568,Sales Order,items,WASTE-INFECTIOUS,505,Kg,,619
+SO-DEMO-000569,Sales Order,items,BIO-00333,2,Nos,Central Warehouse - ENXI,2905206
+SO-DEMO-000569,Sales Order,items,WASTE-GENERAL,510,Kg,,224
+SO-DEMO-000570,Sales Order,items,BIO-00243,4,Nos,Central Warehouse - ENXI,271506
+SO-DEMO-000570,Sales Order,items,WASTE-PATHOLOGICAL,1031,Kg,,428
+SO-DEMO-000571,Sales Order,items,BIO-00300,2,Nos,Central Warehouse - ENXI,1024474
+SO-DEMO-000571,Sales Order,items,WASTE-PHARMACEUTICAL,224,Kg,,350
+SO-DEMO-000572,Sales Order,items,BIO-00366,4,Nos,Central Warehouse - ENXI,1923513
+SO-DEMO-000573,Sales Order,items,BIO-00284,3,Nos,Central Warehouse - ENXI,335261
+SO-DEMO-000573,Sales Order,items,WASTE-PHARMACEUTICAL,1171,Kg,,482
+SO-DEMO-000574,Sales Order,items,BIO-00119,6,Nos,Central Warehouse - ENXI,434613
+SO-DEMO-000574,Sales Order,items,WASTE-PHARMACEUTICAL,766,Kg,,463
+SO-DEMO-000575,Sales Order,items,BIO-00214,4,Nos,Central Warehouse - ENXI,670485
+SO-DEMO-000575,Sales Order,items,WASTE-GENERAL,830,Kg,,409
+SO-DEMO-000576,Sales Order,items,BIO-00148,6,Nos,Central Warehouse - ENXI,986150
+SO-DEMO-000576,Sales Order,items,WASTE-PHARMACEUTICAL,595,Kg,,439
+SO-DEMO-000577,Sales Order,items,BIO-00174,5,Nos,Central Warehouse - ENXI,3179762
+SO-DEMO-000577,Sales Order,items,WASTE-PATHOLOGICAL,720,Kg,,550
+SO-DEMO-000578,Sales Order,items,BIO-00335,6,Nos,Central Warehouse - ENXI,1691021
+SO-DEMO-000579,Sales Order,items,BIO-00145,6,Nos,Central Warehouse - ENXI,3322600
+SO-DEMO-000579,Sales Order,items,WASTE-PHARMACEUTICAL,384,Kg,,268
+SO-DEMO-000580,Sales Order,items,BIO-00252,1,Nos,Central Warehouse - ENXI,3508106
+SO-DEMO-000580,Sales Order,items,WASTE-PHARMACEUTICAL,741,Kg,,300
+SO-DEMO-000581,Sales Order,items,BIO-00010,3,Nos,Central Warehouse - ENXI,1273908
+SO-DEMO-000581,Sales Order,items,WASTE-PATHOLOGICAL,477,Kg,,603
+SO-DEMO-000582,Sales Order,items,BIO-00173,4,Nos,Central Warehouse - ENXI,658021
+SO-DEMO-000582,Sales Order,items,WASTE-INFECTIOUS,578,Kg,,429
+SO-DEMO-000583,Sales Order,items,BIO-00024,5,Nos,Central Warehouse - ENXI,1301939
+SO-DEMO-000584,Sales Order,items,BIO-00054,6,Nos,Central Warehouse - ENXI,391485
+SO-DEMO-000585,Sales Order,items,BIO-00055,5,Nos,Central Warehouse - ENXI,2737081
+SO-DEMO-000586,Sales Order,items,BIO-00260,1,Nos,Central Warehouse - ENXI,880642
+SO-DEMO-000586,Sales Order,items,WASTE-PATHOLOGICAL,860,Kg,,260
+SO-DEMO-000587,Sales Order,items,BIO-00256,6,Nos,Central Warehouse - ENXI,596470
+SO-DEMO-000587,Sales Order,items,WASTE-SHARPS,805,Kg,,599
+SO-DEMO-000588,Sales Order,items,BIO-00225,4,Nos,Central Warehouse - ENXI,3406339
+SO-DEMO-000589,Sales Order,items,BIO-00147,5,Nos,Central Warehouse - ENXI,898324
+SO-DEMO-000589,Sales Order,items,WASTE-SHARPS,969,Kg,,364
+SO-DEMO-000590,Sales Order,items,BIO-00216,2,Nos,Central Warehouse - ENXI,758790
+SO-DEMO-000591,Sales Order,items,BIO-00265,6,Nos,Central Warehouse - ENXI,1697391
+SO-DEMO-000592,Sales Order,items,BIO-00368,5,Nos,Central Warehouse - ENXI,471844
+SO-DEMO-000592,Sales Order,items,WASTE-SHARPS,942,Kg,,575
+SO-DEMO-000593,Sales Order,items,BIO-00202,1,Nos,Central Warehouse - ENXI,2948979
+SO-DEMO-000594,Sales Order,items,BIO-00324,6,Nos,Central Warehouse - ENXI,3531545
+SO-DEMO-000594,Sales Order,items,WASTE-CHEMICAL,725,Kg,,394
+SO-DEMO-000595,Sales Order,items,BIO-00284,3,Nos,Central Warehouse - ENXI,3206404
+SO-DEMO-000595,Sales Order,items,WASTE-SHARPS,136,Kg,,603
+SO-DEMO-000596,Sales Order,items,BIO-00076,6,Nos,Central Warehouse - ENXI,1874239
+SO-DEMO-000596,Sales Order,items,WASTE-PATHOLOGICAL,1025,Kg,,537
+SO-DEMO-000597,Sales Order,items,BIO-00102,3,Nos,Central Warehouse - ENXI,533499
+SO-DEMO-000597,Sales Order,items,WASTE-SHARPS,918,Kg,,551
+SO-DEMO-000598,Sales Order,items,BIO-00146,2,Nos,Central Warehouse - ENXI,569313
+SO-DEMO-000598,Sales Order,items,WASTE-SHARPS,1187,Kg,,354
+SO-DEMO-000599,Sales Order,items,BIO-00277,5,Nos,Central Warehouse - ENXI,1265025
+SO-DEMO-000599,Sales Order,items,WASTE-SHARPS,985,Kg,,438
+SO-DEMO-000600,Sales Order,items,BIO-00133,6,Nos,Central Warehouse - ENXI,2308606
+SO-DEMO-000600,Sales Order,items,WASTE-INFECTIOUS,375,Kg,,409
+SO-DEMO-000601,Sales Order,items,BIO-00003,4,Nos,Central Warehouse - ENXI,1601786
+SO-DEMO-000602,Sales Order,items,BIO-00322,6,Nos,Central Warehouse - ENXI,2416774
+SO-DEMO-000603,Sales Order,items,BIO-00146,6,Nos,Central Warehouse - ENXI,3471644
+SO-DEMO-000604,Sales Order,items,BIO-00366,4,Nos,Central Warehouse - ENXI,2359639
+SO-DEMO-000604,Sales Order,items,WASTE-INFECTIOUS,791,Kg,,444
+SO-DEMO-000605,Sales Order,items,BIO-00233,1,Nos,Central Warehouse - ENXI,794688
+SO-DEMO-000605,Sales Order,items,WASTE-PHARMACEUTICAL,287,Kg,,227
+SO-DEMO-000606,Sales Order,items,BIO-00244,2,Nos,Central Warehouse - ENXI,2051347
+SO-DEMO-000606,Sales Order,items,WASTE-GENERAL,1197,Kg,,386
+SO-DEMO-000607,Sales Order,items,BIO-00203,3,Nos,Central Warehouse - ENXI,2630747
+SO-DEMO-000607,Sales Order,items,WASTE-PHARMACEUTICAL,1021,Kg,,532
+SO-DEMO-000608,Sales Order,items,BIO-00074,5,Nos,Central Warehouse - ENXI,713196
+SO-DEMO-000608,Sales Order,items,WASTE-PHARMACEUTICAL,384,Kg,,540
+SO-DEMO-000609,Sales Order,items,BIO-00356,2,Nos,Central Warehouse - ENXI,2090221
+SO-DEMO-000609,Sales Order,items,WASTE-GENERAL,441,Kg,,466
+SO-DEMO-000610,Sales Order,items,BIO-00210,1,Nos,Central Warehouse - ENXI,686950
+SO-DEMO-000610,Sales Order,items,WASTE-SHARPS,202,Kg,,447
+SO-DEMO-000611,Sales Order,items,BIO-00157,3,Nos,Central Warehouse - ENXI,1451964
+SO-DEMO-000611,Sales Order,items,WASTE-INFECTIOUS,412,Kg,,252
+SO-DEMO-000612,Sales Order,items,BIO-00157,3,Nos,Central Warehouse - ENXI,1084214
+SO-DEMO-000612,Sales Order,items,WASTE-GENERAL,1121,Kg,,181
+SO-DEMO-000613,Sales Order,items,BIO-00035,1,Nos,Central Warehouse - ENXI,1931437
+SO-DEMO-000613,Sales Order,items,WASTE-SHARPS,1046,Kg,,640
+SO-DEMO-000614,Sales Order,items,BIO-00369,5,Nos,Central Warehouse - ENXI,737043
+SO-DEMO-000615,Sales Order,items,BIO-00231,6,Nos,Central Warehouse - ENXI,2063555
+SO-DEMO-000615,Sales Order,items,WASTE-GENERAL,786,Kg,,225
+SO-DEMO-000616,Sales Order,items,BIO-00210,4,Nos,Central Warehouse - ENXI,1156527
+SO-DEMO-000617,Sales Order,items,BIO-00344,4,Nos,Central Warehouse - ENXI,3266641
+SO-DEMO-000617,Sales Order,items,WASTE-INFECTIOUS,459,Kg,,542
+SO-DEMO-000618,Sales Order,items,BIO-00363,3,Nos,Central Warehouse - ENXI,2533190
+SO-DEMO-000618,Sales Order,items,WASTE-GENERAL,294,Kg,,278
+SO-DEMO-000619,Sales Order,items,BIO-00028,5,Nos,Central Warehouse - ENXI,2368394
+SO-DEMO-000619,Sales Order,items,WASTE-PHARMACEUTICAL,1149,Kg,,639
+SO-DEMO-000620,Sales Order,items,BIO-00273,2,Nos,Central Warehouse - ENXI,259580
+SO-DEMO-000620,Sales Order,items,WASTE-PATHOLOGICAL,622,Kg,,604
+SO-DEMO-000621,Sales Order,items,BIO-00274,5,Nos,Central Warehouse - ENXI,1523985
+SO-DEMO-000621,Sales Order,items,WASTE-INFECTIOUS,1126,Kg,,621
+SO-DEMO-000622,Sales Order,items,BIO-00093,4,Nos,Central Warehouse - ENXI,280902
+SO-DEMO-000623,Sales Order,items,BIO-00047,1,Nos,Central Warehouse - ENXI,596635
+SO-DEMO-000623,Sales Order,items,WASTE-SHARPS,414,Kg,,273
+SO-DEMO-000624,Sales Order,items,BIO-00158,4,Nos,Central Warehouse - ENXI,3026290
+SO-DEMO-000624,Sales Order,items,WASTE-CHEMICAL,786,Kg,,272
+SO-DEMO-000625,Sales Order,items,BIO-00200,1,Nos,Central Warehouse - ENXI,1522351
+SO-DEMO-000625,Sales Order,items,WASTE-SHARPS,648,Kg,,372
+SO-DEMO-000626,Sales Order,items,BIO-00123,5,Nos,Central Warehouse - ENXI,2637984
+SO-DEMO-000626,Sales Order,items,WASTE-CHEMICAL,1153,Kg,,377
+SO-DEMO-000627,Sales Order,items,BIO-00163,4,Nos,Central Warehouse - ENXI,2499957
+SO-DEMO-000627,Sales Order,items,WASTE-PHARMACEUTICAL,179,Kg,,388
+SO-DEMO-000628,Sales Order,items,BIO-00284,5,Nos,Central Warehouse - ENXI,3011563
+SO-DEMO-000628,Sales Order,items,WASTE-CHEMICAL,377,Kg,,335
+SO-DEMO-000629,Sales Order,items,BIO-00043,6,Nos,Central Warehouse - ENXI,2278965
+SO-DEMO-000629,Sales Order,items,WASTE-PATHOLOGICAL,884,Kg,,456
+SO-DEMO-000630,Sales Order,items,BIO-00217,5,Nos,Central Warehouse - ENXI,2074743
+SO-DEMO-000630,Sales Order,items,WASTE-PHARMACEUTICAL,712,Kg,,514
+SO-DEMO-000631,Sales Order,items,BIO-00247,3,Nos,Central Warehouse - ENXI,2687639
+SO-DEMO-000631,Sales Order,items,WASTE-GENERAL,898,Kg,,359
+SO-DEMO-000632,Sales Order,items,BIO-00145,1,Nos,Central Warehouse - ENXI,857029
+SO-DEMO-000632,Sales Order,items,WASTE-CHEMICAL,263,Kg,,333
+SO-DEMO-000633,Sales Order,items,BIO-00063,2,Nos,Central Warehouse - ENXI,3221179
+SO-DEMO-000633,Sales Order,items,WASTE-SHARPS,1004,Kg,,287
+SO-DEMO-000634,Sales Order,items,BIO-00350,3,Nos,Central Warehouse - ENXI,2844095
+SO-DEMO-000634,Sales Order,items,WASTE-GENERAL,1047,Kg,,319
+SO-DEMO-000635,Sales Order,items,BIO-00175,2,Nos,Central Warehouse - ENXI,2108538
+SO-DEMO-000636,Sales Order,items,BIO-00069,6,Nos,Central Warehouse - ENXI,188587
+SO-DEMO-000636,Sales Order,items,WASTE-INFECTIOUS,139,Kg,,524
+SO-DEMO-000637,Sales Order,items,BIO-00357,6,Nos,Central Warehouse - ENXI,2230916
+SO-DEMO-000638,Sales Order,items,BIO-00334,1,Nos,Central Warehouse - ENXI,2439259
+SO-DEMO-000638,Sales Order,items,WASTE-GENERAL,1031,Kg,,524
+SO-DEMO-000639,Sales Order,items,BIO-00308,3,Nos,Central Warehouse - ENXI,1802151
+SO-DEMO-000639,Sales Order,items,WASTE-GENERAL,137,Kg,,243
+SO-DEMO-000640,Sales Order,items,BIO-00228,1,Nos,Central Warehouse - ENXI,1109125
+SO-DEMO-000640,Sales Order,items,WASTE-SHARPS,852,Kg,,278
+SO-DEMO-000641,Sales Order,items,BIO-00156,6,Nos,Central Warehouse - ENXI,1107560
+SO-DEMO-000641,Sales Order,items,WASTE-PHARMACEUTICAL,863,Kg,,198
+SO-DEMO-000642,Sales Order,items,BIO-00362,5,Nos,Central Warehouse - ENXI,1056971
+SO-DEMO-000642,Sales Order,items,WASTE-GENERAL,931,Kg,,236
+SO-DEMO-000643,Sales Order,items,BIO-00253,2,Nos,Central Warehouse - ENXI,2494354
+SO-DEMO-000643,Sales Order,items,WASTE-GENERAL,479,Kg,,213
+SO-DEMO-000644,Sales Order,items,BIO-00034,2,Nos,Central Warehouse - ENXI,1268943
+SO-DEMO-000645,Sales Order,items,BIO-00141,2,Nos,Central Warehouse - ENXI,3023648
+SO-DEMO-000645,Sales Order,items,WASTE-GENERAL,637,Kg,,528
+SO-DEMO-000646,Sales Order,items,BIO-00219,6,Nos,Central Warehouse - ENXI,3003185
+SO-DEMO-000647,Sales Order,items,BIO-00209,3,Nos,Central Warehouse - ENXI,690521
+SO-DEMO-000647,Sales Order,items,WASTE-PHARMACEUTICAL,1134,Kg,,365
+SO-DEMO-000648,Sales Order,items,BIO-00115,1,Nos,Central Warehouse - ENXI,1345735
+SO-DEMO-000649,Sales Order,items,BIO-00003,4,Nos,Central Warehouse - ENXI,996245
+SO-DEMO-000649,Sales Order,items,WASTE-CHEMICAL,171,Kg,,557
+SO-DEMO-000650,Sales Order,items,BIO-00128,2,Nos,Central Warehouse - ENXI,869885
+SO-DEMO-000650,Sales Order,items,WASTE-INFECTIOUS,318,Kg,,194
+SO-DEMO-000651,Sales Order,items,BIO-00304,6,Nos,Central Warehouse - ENXI,1582166
+SO-DEMO-000652,Sales Order,items,BIO-00123,3,Nos,Central Warehouse - ENXI,408307
+SO-DEMO-000653,Sales Order,items,BIO-00308,5,Nos,Central Warehouse - ENXI,2019325
+SO-DEMO-000654,Sales Order,items,BIO-00044,1,Nos,Central Warehouse - ENXI,319853
+SO-DEMO-000654,Sales Order,items,WASTE-GENERAL,253,Kg,,580
+SO-DEMO-000655,Sales Order,items,BIO-00029,3,Nos,Central Warehouse - ENXI,2741623
+SO-DEMO-000655,Sales Order,items,WASTE-INFECTIOUS,328,Kg,,526
+SO-DEMO-000656,Sales Order,items,BIO-00151,4,Nos,Central Warehouse - ENXI,1864780
+SO-DEMO-000656,Sales Order,items,WASTE-PHARMACEUTICAL,597,Kg,,622
+SO-DEMO-000657,Sales Order,items,BIO-00006,4,Nos,Central Warehouse - ENXI,1790277
+SO-DEMO-000657,Sales Order,items,WASTE-PHARMACEUTICAL,327,Kg,,353
+SO-DEMO-000658,Sales Order,items,BIO-00169,5,Nos,Central Warehouse - ENXI,987325
+SO-DEMO-000658,Sales Order,items,WASTE-INFECTIOUS,258,Kg,,483
+SO-DEMO-000659,Sales Order,items,BIO-00327,5,Nos,Central Warehouse - ENXI,1254941
+SO-DEMO-000659,Sales Order,items,WASTE-PHARMACEUTICAL,1030,Kg,,275
+SO-DEMO-000660,Sales Order,items,BIO-00031,2,Nos,Central Warehouse - ENXI,1487225
+SO-DEMO-000660,Sales Order,items,WASTE-CHEMICAL,852,Kg,,339
+SO-DEMO-000661,Sales Order,items,BIO-00076,4,Nos,Central Warehouse - ENXI,1474674
+SO-DEMO-000661,Sales Order,items,WASTE-SHARPS,875,Kg,,184
+SO-DEMO-000662,Sales Order,items,BIO-00348,2,Nos,Central Warehouse - ENXI,420407
+SO-DEMO-000662,Sales Order,items,WASTE-CHEMICAL,231,Kg,,396
+SO-DEMO-000663,Sales Order,items,BIO-00328,2,Nos,Central Warehouse - ENXI,3473635
+SO-DEMO-000663,Sales Order,items,WASTE-PATHOLOGICAL,1094,Kg,,535
+SO-DEMO-000664,Sales Order,items,BIO-00170,5,Nos,Central Warehouse - ENXI,2554382
+SO-DEMO-000665,Sales Order,items,BIO-00169,2,Nos,Central Warehouse - ENXI,619763
+SO-DEMO-000665,Sales Order,items,WASTE-INFECTIOUS,1135,Kg,,292
+SO-DEMO-000666,Sales Order,items,BIO-00355,2,Nos,Central Warehouse - ENXI,2136796
+SO-DEMO-000666,Sales Order,items,WASTE-PATHOLOGICAL,1104,Kg,,556
+SO-DEMO-000667,Sales Order,items,BIO-00205,2,Nos,Central Warehouse - ENXI,208208
+SO-DEMO-000667,Sales Order,items,WASTE-INFECTIOUS,852,Kg,,195
+SO-DEMO-000668,Sales Order,items,BIO-00149,4,Nos,Central Warehouse - ENXI,995387
+SO-DEMO-000668,Sales Order,items,WASTE-SHARPS,209,Kg,,195
+SO-DEMO-000669,Sales Order,items,BIO-00090,2,Nos,Central Warehouse - ENXI,1278902
+SO-DEMO-000669,Sales Order,items,WASTE-SHARPS,623,Kg,,271
+SO-DEMO-000670,Sales Order,items,BIO-00135,1,Nos,Central Warehouse - ENXI,268054
+SO-DEMO-000671,Sales Order,items,BIO-00057,3,Nos,Central Warehouse - ENXI,1061799
+SO-DEMO-000671,Sales Order,items,WASTE-PATHOLOGICAL,877,Kg,,594
+SO-DEMO-000672,Sales Order,items,BIO-00270,5,Nos,Central Warehouse - ENXI,1999145
+SO-DEMO-000673,Sales Order,items,BIO-00067,2,Nos,Central Warehouse - ENXI,983969
+SO-DEMO-000673,Sales Order,items,WASTE-GENERAL,886,Kg,,342
+SO-DEMO-000674,Sales Order,items,BIO-00126,1,Nos,Central Warehouse - ENXI,3380599
+SO-DEMO-000674,Sales Order,items,WASTE-PATHOLOGICAL,722,Kg,,584
+SO-DEMO-000675,Sales Order,items,BIO-00028,6,Nos,Central Warehouse - ENXI,3517038
+SO-DEMO-000675,Sales Order,items,WASTE-PATHOLOGICAL,1160,Kg,,479
+SO-DEMO-000676,Sales Order,items,BIO-00042,4,Nos,Central Warehouse - ENXI,3497682
+SO-DEMO-000676,Sales Order,items,WASTE-INFECTIOUS,462,Kg,,440
+SO-DEMO-000677,Sales Order,items,BIO-00192,4,Nos,Central Warehouse - ENXI,2356392
+SO-DEMO-000677,Sales Order,items,WASTE-SHARPS,885,Kg,,449
+SO-DEMO-000678,Sales Order,items,BIO-00138,5,Nos,Central Warehouse - ENXI,1861689
+SO-DEMO-000678,Sales Order,items,WASTE-CHEMICAL,194,Kg,,286
+SO-DEMO-000679,Sales Order,items,BIO-00121,4,Nos,Central Warehouse - ENXI,1096848
+SO-DEMO-000679,Sales Order,items,WASTE-PHARMACEUTICAL,441,Kg,,611
+SO-DEMO-000680,Sales Order,items,BIO-00044,2,Nos,Central Warehouse - ENXI,3332534
+SO-DEMO-000680,Sales Order,items,WASTE-PHARMACEUTICAL,1182,Kg,,360
+SO-DEMO-000681,Sales Order,items,BIO-00239,5,Nos,Central Warehouse - ENXI,2785190
+SO-DEMO-000681,Sales Order,items,WASTE-PHARMACEUTICAL,1077,Kg,,401
+SO-DEMO-000682,Sales Order,items,BIO-00163,3,Nos,Central Warehouse - ENXI,1783779
+SO-DEMO-000682,Sales Order,items,WASTE-PHARMACEUTICAL,598,Kg,,315
+SO-DEMO-000683,Sales Order,items,BIO-00151,5,Nos,Central Warehouse - ENXI,2330801
+SO-DEMO-000683,Sales Order,items,WASTE-INFECTIOUS,686,Kg,,296
+SO-DEMO-000684,Sales Order,items,BIO-00185,1,Nos,Central Warehouse - ENXI,2470199
+SO-DEMO-000684,Sales Order,items,WASTE-PATHOLOGICAL,794,Kg,,308
+SO-DEMO-000685,Sales Order,items,BIO-00098,6,Nos,Central Warehouse - ENXI,2713502
+SO-DEMO-000686,Sales Order,items,BIO-00154,3,Nos,Central Warehouse - ENXI,1633881
+SO-DEMO-000687,Sales Order,items,BIO-00336,1,Nos,Central Warehouse - ENXI,2159728
+SO-DEMO-000687,Sales Order,items,WASTE-PATHOLOGICAL,934,Kg,,296
+SO-DEMO-000688,Sales Order,items,BIO-00120,5,Nos,Central Warehouse - ENXI,2642071
+SO-DEMO-000689,Sales Order,items,BIO-00044,3,Nos,Central Warehouse - ENXI,967885
+SO-DEMO-000689,Sales Order,items,WASTE-GENERAL,975,Kg,,287
+SO-DEMO-000690,Sales Order,items,BIO-00016,3,Nos,Central Warehouse - ENXI,762799
+SO-DEMO-000690,Sales Order,items,WASTE-PATHOLOGICAL,745,Kg,,557
+SO-DEMO-000691,Sales Order,items,BIO-00182,3,Nos,Central Warehouse - ENXI,1125776
+SO-DEMO-000691,Sales Order,items,WASTE-GENERAL,946,Kg,,570
+SO-DEMO-000692,Sales Order,items,BIO-00301,1,Nos,Central Warehouse - ENXI,2560592
+SO-DEMO-000693,Sales Order,items,BIO-00291,6,Nos,Central Warehouse - ENXI,3531860
+SO-DEMO-000693,Sales Order,items,WASTE-CHEMICAL,920,Kg,,375
+SO-DEMO-000694,Sales Order,items,BIO-00274,4,Nos,Central Warehouse - ENXI,969949
+SO-DEMO-000694,Sales Order,items,WASTE-SHARPS,1044,Kg,,507
+SO-DEMO-000695,Sales Order,items,BIO-00054,6,Nos,Central Warehouse - ENXI,2499059
+SO-DEMO-000695,Sales Order,items,WASTE-GENERAL,1120,Kg,,193
+SO-DEMO-000696,Sales Order,items,BIO-00198,3,Nos,Central Warehouse - ENXI,1043574
+SO-DEMO-000696,Sales Order,items,WASTE-GENERAL,1193,Kg,,215
+SO-DEMO-000697,Sales Order,items,BIO-00266,1,Nos,Central Warehouse - ENXI,900689
+SO-DEMO-000697,Sales Order,items,WASTE-PHARMACEUTICAL,920,Kg,,260
+SO-DEMO-000698,Sales Order,items,BIO-00215,4,Nos,Central Warehouse - ENXI,3296966
+SO-DEMO-000698,Sales Order,items,WASTE-PATHOLOGICAL,386,Kg,,625
+SO-DEMO-000699,Sales Order,items,BIO-00364,6,Nos,Central Warehouse - ENXI,2171371
+SO-DEMO-000699,Sales Order,items,WASTE-CHEMICAL,755,Kg,,480
+SO-DEMO-000700,Sales Order,items,BIO-00351,4,Nos,Central Warehouse - ENXI,1335283
+SO-DEMO-000700,Sales Order,items,WASTE-PATHOLOGICAL,1032,Kg,,212
+SO-DEMO-000701,Sales Order,items,BIO-00270,3,Nos,Central Warehouse - ENXI,2567519
+SO-DEMO-000702,Sales Order,items,BIO-00021,6,Nos,Central Warehouse - ENXI,562112
+SO-DEMO-000702,Sales Order,items,WASTE-PHARMACEUTICAL,830,Kg,,538
+SO-DEMO-000703,Sales Order,items,BIO-00090,4,Nos,Central Warehouse - ENXI,1224947
+SO-DEMO-000703,Sales Order,items,WASTE-CHEMICAL,1004,Kg,,414
+SO-DEMO-000704,Sales Order,items,BIO-00358,5,Nos,Central Warehouse - ENXI,580699
+SO-DEMO-000704,Sales Order,items,WASTE-INFECTIOUS,610,Kg,,633
+SO-DEMO-000705,Sales Order,items,BIO-00276,3,Nos,Central Warehouse - ENXI,2976161
+SO-DEMO-000706,Sales Order,items,BIO-00284,1,Nos,Central Warehouse - ENXI,1726574
+SO-DEMO-000706,Sales Order,items,WASTE-INFECTIOUS,1153,Kg,,572
+SO-DEMO-000707,Sales Order,items,BIO-00085,3,Nos,Central Warehouse - ENXI,1049781
+SO-DEMO-000707,Sales Order,items,WASTE-PHARMACEUTICAL,174,Kg,,217
+SO-DEMO-000708,Sales Order,items,BIO-00205,2,Nos,Central Warehouse - ENXI,1843772
+SO-DEMO-000708,Sales Order,items,WASTE-SHARPS,354,Kg,,543
+SO-DEMO-000709,Sales Order,items,BIO-00238,4,Nos,Central Warehouse - ENXI,2115071
+SO-DEMO-000709,Sales Order,items,WASTE-CHEMICAL,616,Kg,,545
+SO-DEMO-000710,Sales Order,items,BIO-00143,2,Nos,Central Warehouse - ENXI,895502
+SO-DEMO-000711,Sales Order,items,BIO-00151,1,Nos,Central Warehouse - ENXI,2422500
+SO-DEMO-000711,Sales Order,items,WASTE-PATHOLOGICAL,278,Kg,,523
+SO-DEMO-000712,Sales Order,items,BIO-00079,4,Nos,Central Warehouse - ENXI,1681925
+SO-DEMO-000712,Sales Order,items,WASTE-GENERAL,190,Kg,,637
+SO-DEMO-000713,Sales Order,items,BIO-00357,1,Nos,Central Warehouse - ENXI,2842503
+SO-DEMO-000714,Sales Order,items,BIO-00158,4,Nos,Central Warehouse - ENXI,399845
+SO-DEMO-000714,Sales Order,items,WASTE-INFECTIOUS,892,Kg,,572
+SO-DEMO-000715,Sales Order,items,BIO-00123,2,Nos,Central Warehouse - ENXI,563302
+SO-DEMO-000715,Sales Order,items,WASTE-INFECTIOUS,149,Kg,,352
+SO-DEMO-000716,Sales Order,items,BIO-00033,2,Nos,Central Warehouse - ENXI,585183
+SO-DEMO-000717,Sales Order,items,BIO-00213,5,Nos,Central Warehouse - ENXI,631658
+SO-DEMO-000718,Sales Order,items,BIO-00098,5,Nos,Central Warehouse - ENXI,1048721
+SO-DEMO-000719,Sales Order,items,BIO-00119,2,Nos,Central Warehouse - ENXI,624115
+SO-DEMO-000719,Sales Order,items,WASTE-PATHOLOGICAL,150,Kg,,385
+SO-DEMO-000720,Sales Order,items,BIO-00109,4,Nos,Central Warehouse - ENXI,1103150
+SO-DEMO-000720,Sales Order,items,WASTE-SHARPS,875,Kg,,202
+SO-DEMO-000721,Sales Order,items,BIO-00155,5,Nos,Central Warehouse - ENXI,2275373
+SO-DEMO-000722,Sales Order,items,BIO-00088,3,Nos,Central Warehouse - ENXI,577387
+SO-DEMO-000722,Sales Order,items,WASTE-GENERAL,915,Kg,,527
+SO-DEMO-000723,Sales Order,items,BIO-00326,6,Nos,Central Warehouse - ENXI,1513650
+SO-DEMO-000724,Sales Order,items,BIO-00010,5,Nos,Central Warehouse - ENXI,2633822
+SO-DEMO-000724,Sales Order,items,WASTE-CHEMICAL,596,Kg,,437
+SO-DEMO-000725,Sales Order,items,BIO-00011,5,Nos,Central Warehouse - ENXI,3363229
+SO-DEMO-000726,Sales Order,items,BIO-00220,2,Nos,Central Warehouse - ENXI,2779487
+SO-DEMO-000726,Sales Order,items,WASTE-PATHOLOGICAL,887,Kg,,435
+SO-DEMO-000727,Sales Order,items,BIO-00193,2,Nos,Central Warehouse - ENXI,2872906
+SO-DEMO-000727,Sales Order,items,WASTE-GENERAL,1028,Kg,,558
+SO-DEMO-000728,Sales Order,items,BIO-00163,6,Nos,Central Warehouse - ENXI,3480795
+SO-DEMO-000729,Sales Order,items,BIO-00148,1,Nos,Central Warehouse - ENXI,1140537
+SO-DEMO-000730,Sales Order,items,BIO-00106,5,Nos,Central Warehouse - ENXI,406802
+SO-DEMO-000731,Sales Order,items,BIO-00369,2,Nos,Central Warehouse - ENXI,2730401
+SO-DEMO-000732,Sales Order,items,BIO-00227,6,Nos,Central Warehouse - ENXI,205344
+SO-DEMO-000732,Sales Order,items,WASTE-PHARMACEUTICAL,263,Kg,,278
+SO-DEMO-000733,Sales Order,items,BIO-00105,2,Nos,Central Warehouse - ENXI,564866
+SO-DEMO-000733,Sales Order,items,WASTE-CHEMICAL,538,Kg,,300
+SO-DEMO-000734,Sales Order,items,BIO-00372,4,Nos,Central Warehouse - ENXI,1486370
+SO-DEMO-000734,Sales Order,items,WASTE-PATHOLOGICAL,621,Kg,,397
+SO-DEMO-000735,Sales Order,items,BIO-00156,3,Nos,Central Warehouse - ENXI,2597688
+SO-DEMO-000735,Sales Order,items,WASTE-GENERAL,532,Kg,,319
+SO-DEMO-000736,Sales Order,items,BIO-00204,4,Nos,Central Warehouse - ENXI,883661
+SO-DEMO-000736,Sales Order,items,WASTE-PHARMACEUTICAL,1154,Kg,,492
+SO-DEMO-000737,Sales Order,items,BIO-00011,4,Nos,Central Warehouse - ENXI,1972634
+SO-DEMO-000738,Sales Order,items,BIO-00079,5,Nos,Central Warehouse - ENXI,3227783
+SO-DEMO-000738,Sales Order,items,WASTE-PHARMACEUTICAL,1069,Kg,,336
+SO-DEMO-000739,Sales Order,items,BIO-00288,5,Nos,Central Warehouse - ENXI,2196807
+SO-DEMO-000739,Sales Order,items,WASTE-PATHOLOGICAL,1081,Kg,,280
+SO-DEMO-000740,Sales Order,items,BIO-00007,5,Nos,Central Warehouse - ENXI,3243388
+SO-DEMO-000740,Sales Order,items,WASTE-PHARMACEUTICAL,948,Kg,,392
+SO-DEMO-000741,Sales Order,items,BIO-00251,3,Nos,Central Warehouse - ENXI,2868753
+SO-DEMO-000742,Sales Order,items,BIO-00064,4,Nos,Central Warehouse - ENXI,2552334
+SO-DEMO-000742,Sales Order,items,WASTE-PHARMACEUTICAL,642,Kg,,574
+SO-DEMO-000743,Sales Order,items,BIO-00251,6,Nos,Central Warehouse - ENXI,3067733
+SO-DEMO-000743,Sales Order,items,WASTE-INFECTIOUS,909,Kg,,397
+SO-DEMO-000744,Sales Order,items,BIO-00018,3,Nos,Central Warehouse - ENXI,2826407
+SO-DEMO-000744,Sales Order,items,WASTE-INFECTIOUS,422,Kg,,313
+SO-DEMO-000745,Sales Order,items,BIO-00076,3,Nos,Central Warehouse - ENXI,1217732
+SO-DEMO-000745,Sales Order,items,WASTE-GENERAL,450,Kg,,186
+SO-DEMO-000746,Sales Order,items,BIO-00365,4,Nos,Central Warehouse - ENXI,1847935
+SO-DEMO-000746,Sales Order,items,WASTE-INFECTIOUS,1181,Kg,,645
+SO-DEMO-000747,Sales Order,items,BIO-00219,3,Nos,Central Warehouse - ENXI,3081773
+SO-DEMO-000747,Sales Order,items,WASTE-CHEMICAL,903,Kg,,480
+SO-DEMO-000748,Sales Order,items,BIO-00046,1,Nos,Central Warehouse - ENXI,2848333
+SO-DEMO-000748,Sales Order,items,WASTE-SHARPS,412,Kg,,317
+SO-DEMO-000749,Sales Order,items,BIO-00158,1,Nos,Central Warehouse - ENXI,886315
+SO-DEMO-000750,Sales Order,items,BIO-00357,4,Nos,Central Warehouse - ENXI,2381850
+SO-DEMO-000750,Sales Order,items,WASTE-SHARPS,1002,Kg,,267
+SO-DEMO-000751,Sales Order,items,BIO-00361,2,Nos,Central Warehouse - ENXI,1010558
+SO-DEMO-000751,Sales Order,items,WASTE-CHEMICAL,345,Kg,,410
+SO-DEMO-000752,Sales Order,items,BIO-00103,1,Nos,Central Warehouse - ENXI,3325374
+SO-DEMO-000752,Sales Order,items,WASTE-PATHOLOGICAL,651,Kg,,641
+SO-DEMO-000753,Sales Order,items,BIO-00320,1,Nos,Central Warehouse - ENXI,2849396
+SO-DEMO-000753,Sales Order,items,WASTE-SHARPS,295,Kg,,373
+SO-DEMO-000754,Sales Order,items,BIO-00176,1,Nos,Central Warehouse - ENXI,2636379
+SO-DEMO-000754,Sales Order,items,WASTE-PHARMACEUTICAL,326,Kg,,184
+SO-DEMO-000755,Sales Order,items,BIO-00341,5,Nos,Central Warehouse - ENXI,3490174
+SO-DEMO-000756,Sales Order,items,BIO-00004,4,Nos,Central Warehouse - ENXI,2709101
+SO-DEMO-000756,Sales Order,items,WASTE-SHARPS,1115,Kg,,422
+SO-DEMO-000757,Sales Order,items,BIO-00173,3,Nos,Central Warehouse - ENXI,3039928
+SO-DEMO-000758,Sales Order,items,BIO-00341,4,Nos,Central Warehouse - ENXI,1767274
+SO-DEMO-000758,Sales Order,items,WASTE-SHARPS,796,Kg,,592
+SO-DEMO-000759,Sales Order,items,BIO-00358,4,Nos,Central Warehouse - ENXI,3221793
+SO-DEMO-000760,Sales Order,items,BIO-00063,5,Nos,Central Warehouse - ENXI,1352171
+SO-DEMO-000761,Sales Order,items,BIO-00317,6,Nos,Central Warehouse - ENXI,2943526
+SO-DEMO-000762,Sales Order,items,BIO-00097,1,Nos,Central Warehouse - ENXI,2856273
+SO-DEMO-000763,Sales Order,items,BIO-00185,1,Nos,Central Warehouse - ENXI,3567142
+SO-DEMO-000763,Sales Order,items,WASTE-GENERAL,1029,Kg,,299
+SO-DEMO-000764,Sales Order,items,BIO-00379,5,Nos,Central Warehouse - ENXI,3510111
+SO-DEMO-000764,Sales Order,items,WASTE-PHARMACEUTICAL,1095,Kg,,517
+SO-DEMO-000765,Sales Order,items,BIO-00311,2,Nos,Central Warehouse - ENXI,3166101
+SO-DEMO-000765,Sales Order,items,WASTE-CHEMICAL,1153,Kg,,196
+SO-DEMO-000766,Sales Order,items,BIO-00155,6,Nos,Central Warehouse - ENXI,2481610
+SO-DEMO-000767,Sales Order,items,BIO-00060,4,Nos,Central Warehouse - ENXI,2959322
+SO-DEMO-000767,Sales Order,items,WASTE-PATHOLOGICAL,553,Kg,,267
+SO-DEMO-000768,Sales Order,items,BIO-00367,1,Nos,Central Warehouse - ENXI,852075
+SO-DEMO-000769,Sales Order,items,BIO-00113,6,Nos,Central Warehouse - ENXI,1260572
+SO-DEMO-000769,Sales Order,items,WASTE-GENERAL,372,Kg,,520
+SO-DEMO-000770,Sales Order,items,BIO-00372,4,Nos,Central Warehouse - ENXI,559340
+SO-DEMO-000771,Sales Order,items,BIO-00308,1,Nos,Central Warehouse - ENXI,2881075
+SO-DEMO-000771,Sales Order,items,WASTE-GENERAL,901,Kg,,514
+SO-DEMO-000772,Sales Order,items,BIO-00115,3,Nos,Central Warehouse - ENXI,665238
+SO-DEMO-000772,Sales Order,items,WASTE-INFECTIOUS,302,Kg,,354
+SO-DEMO-000773,Sales Order,items,BIO-00060,5,Nos,Central Warehouse - ENXI,1722400
+SO-DEMO-000773,Sales Order,items,WASTE-SHARPS,898,Kg,,475
+SO-DEMO-000774,Sales Order,items,BIO-00303,5,Nos,Central Warehouse - ENXI,976320
+SO-DEMO-000775,Sales Order,items,BIO-00348,2,Nos,Central Warehouse - ENXI,2359995
+SO-DEMO-000775,Sales Order,items,WASTE-CHEMICAL,574,Kg,,234
+SO-DEMO-000776,Sales Order,items,BIO-00236,3,Nos,Central Warehouse - ENXI,786919
+SO-DEMO-000777,Sales Order,items,BIO-00349,4,Nos,Central Warehouse - ENXI,798346
+SO-DEMO-000777,Sales Order,items,WASTE-PATHOLOGICAL,190,Kg,,486
+SO-DEMO-000778,Sales Order,items,BIO-00353,1,Nos,Central Warehouse - ENXI,1326943
+SO-DEMO-000779,Sales Order,items,BIO-00111,4,Nos,Central Warehouse - ENXI,1402619
+SO-DEMO-000779,Sales Order,items,WASTE-PHARMACEUTICAL,240,Kg,,594
+SO-DEMO-000780,Sales Order,items,BIO-00108,6,Nos,Central Warehouse - ENXI,3579142
+SO-DEMO-000780,Sales Order,items,WASTE-GENERAL,227,Kg,,623
+SO-DEMO-000781,Sales Order,items,BIO-00201,3,Nos,Central Warehouse - ENXI,3598408
+SO-DEMO-000781,Sales Order,items,WASTE-PATHOLOGICAL,164,Kg,,460
+SO-DEMO-000782,Sales Order,items,BIO-00348,4,Nos,Central Warehouse - ENXI,1640906
+SO-DEMO-000783,Sales Order,items,BIO-00373,3,Nos,Central Warehouse - ENXI,1364320
+SO-DEMO-000783,Sales Order,items,WASTE-PATHOLOGICAL,926,Kg,,229
+SO-DEMO-000784,Sales Order,items,BIO-00028,6,Nos,Central Warehouse - ENXI,1455378
+SO-DEMO-000784,Sales Order,items,WASTE-PATHOLOGICAL,401,Kg,,406
+SO-DEMO-000785,Sales Order,items,BIO-00108,2,Nos,Central Warehouse - ENXI,3553723
+SO-DEMO-000785,Sales Order,items,WASTE-GENERAL,138,Kg,,365
+SO-DEMO-000786,Sales Order,items,BIO-00076,4,Nos,Central Warehouse - ENXI,1971433
+SO-DEMO-000786,Sales Order,items,WASTE-PATHOLOGICAL,235,Kg,,229
+SO-DEMO-000787,Sales Order,items,BIO-00027,1,Nos,Central Warehouse - ENXI,2341891
+SO-DEMO-000787,Sales Order,items,WASTE-CHEMICAL,1008,Kg,,256
+SO-DEMO-000788,Sales Order,items,BIO-00061,2,Nos,Central Warehouse - ENXI,1843648
+SO-DEMO-000788,Sales Order,items,WASTE-GENERAL,473,Kg,,514
+SO-DEMO-000789,Sales Order,items,BIO-00046,4,Nos,Central Warehouse - ENXI,2907601
+SO-DEMO-000789,Sales Order,items,WASTE-GENERAL,1031,Kg,,368
+SO-DEMO-000790,Sales Order,items,BIO-00043,1,Nos,Central Warehouse - ENXI,2231930
+SO-DEMO-000790,Sales Order,items,WASTE-CHEMICAL,580,Kg,,191
+SO-DEMO-000791,Sales Order,items,BIO-00246,3,Nos,Central Warehouse - ENXI,3089697
+SO-DEMO-000791,Sales Order,items,WASTE-CHEMICAL,490,Kg,,376
+SO-DEMO-000792,Sales Order,items,BIO-00223,3,Nos,Central Warehouse - ENXI,2576722
+SO-DEMO-000792,Sales Order,items,WASTE-SHARPS,250,Kg,,545
+SO-DEMO-000793,Sales Order,items,BIO-00359,1,Nos,Central Warehouse - ENXI,1831702
+SO-DEMO-000793,Sales Order,items,WASTE-CHEMICAL,1120,Kg,,212
+SO-DEMO-000794,Sales Order,items,BIO-00366,6,Nos,Central Warehouse - ENXI,700468
+SO-DEMO-000795,Sales Order,items,BIO-00093,5,Nos,Central Warehouse - ENXI,3095946
+SO-DEMO-000795,Sales Order,items,WASTE-CHEMICAL,1035,Kg,,589
+SO-DEMO-000796,Sales Order,items,BIO-00066,5,Nos,Central Warehouse - ENXI,1044990
+SO-DEMO-000796,Sales Order,items,WASTE-INFECTIOUS,645,Kg,,615
+SO-DEMO-000797,Sales Order,items,BIO-00260,3,Nos,Central Warehouse - ENXI,1704879
+SO-DEMO-000798,Sales Order,items,BIO-00001,2,Nos,Central Warehouse - ENXI,1440807
+SO-DEMO-000798,Sales Order,items,WASTE-CHEMICAL,720,Kg,,517
+SO-DEMO-000799,Sales Order,items,BIO-00296,4,Nos,Central Warehouse - ENXI,3095466
+SO-DEMO-000799,Sales Order,items,WASTE-SHARPS,1165,Kg,,287
+SO-DEMO-000800,Sales Order,items,BIO-00122,1,Nos,Central Warehouse - ENXI,968838
+SO-DEMO-000800,Sales Order,items,WASTE-PATHOLOGICAL,394,Kg,,488
+SO-DEMO-000801,Sales Order,items,BIO-00184,3,Nos,Central Warehouse - ENXI,718934
+SO-DEMO-000801,Sales Order,items,WASTE-PHARMACEUTICAL,272,Kg,,461
+SO-DEMO-000802,Sales Order,items,BIO-00333,2,Nos,Central Warehouse - ENXI,1857970
+SO-DEMO-000802,Sales Order,items,WASTE-SHARPS,991,Kg,,535
+SO-DEMO-000803,Sales Order,items,BIO-00037,6,Nos,Central Warehouse - ENXI,3253061
+SO-DEMO-000803,Sales Order,items,WASTE-GENERAL,514,Kg,,545
+SO-DEMO-000804,Sales Order,items,BIO-00332,5,Nos,Central Warehouse - ENXI,2717321
+SO-DEMO-000804,Sales Order,items,WASTE-PATHOLOGICAL,767,Kg,,583
+SO-DEMO-000805,Sales Order,items,BIO-00310,2,Nos,Central Warehouse - ENXI,505161
+SO-DEMO-000805,Sales Order,items,WASTE-CHEMICAL,345,Kg,,530
+SO-DEMO-000806,Sales Order,items,BIO-00169,6,Nos,Central Warehouse - ENXI,553184
+SO-DEMO-000806,Sales Order,items,WASTE-SHARPS,679,Kg,,254
+SO-DEMO-000807,Sales Order,items,BIO-00051,4,Nos,Central Warehouse - ENXI,1112081
+SO-DEMO-000807,Sales Order,items,WASTE-INFECTIOUS,372,Kg,,269
+SO-DEMO-000808,Sales Order,items,BIO-00251,1,Nos,Central Warehouse - ENXI,2398619
+SO-DEMO-000808,Sales Order,items,WASTE-CHEMICAL,697,Kg,,462
+SO-DEMO-000809,Sales Order,items,BIO-00025,2,Nos,Central Warehouse - ENXI,1513773
+SO-DEMO-000810,Sales Order,items,BIO-00380,6,Nos,Central Warehouse - ENXI,3488246
+SO-DEMO-000810,Sales Order,items,WASTE-CHEMICAL,944,Kg,,424
+SO-DEMO-000811,Sales Order,items,BIO-00005,6,Nos,Central Warehouse - ENXI,2334049
+SO-DEMO-000811,Sales Order,items,WASTE-GENERAL,378,Kg,,253
+SO-DEMO-000812,Sales Order,items,BIO-00137,1,Nos,Central Warehouse - ENXI,3222628
+SO-DEMO-000812,Sales Order,items,WASTE-SHARPS,630,Kg,,527
+SO-DEMO-000813,Sales Order,items,BIO-00235,2,Nos,Central Warehouse - ENXI,2021131
+SO-DEMO-000814,Sales Order,items,BIO-00142,4,Nos,Central Warehouse - ENXI,2363532
+SO-DEMO-000815,Sales Order,items,BIO-00045,3,Nos,Central Warehouse - ENXI,1885046
+SO-DEMO-000816,Sales Order,items,BIO-00040,6,Nos,Central Warehouse - ENXI,1186787
+SO-DEMO-000817,Sales Order,items,BIO-00044,6,Nos,Central Warehouse - ENXI,1378945
+SO-DEMO-000817,Sales Order,items,WASTE-PHARMACEUTICAL,141,Kg,,397
+SO-DEMO-000818,Sales Order,items,BIO-00255,5,Nos,Central Warehouse - ENXI,3053609
+SO-DEMO-000819,Sales Order,items,BIO-00008,5,Nos,Central Warehouse - ENXI,977689
+SO-DEMO-000820,Sales Order,items,BIO-00274,6,Nos,Central Warehouse - ENXI,1627289
+SO-DEMO-000820,Sales Order,items,WASTE-GENERAL,206,Kg,,490
+SO-DEMO-000821,Sales Order,items,BIO-00269,2,Nos,Central Warehouse - ENXI,913223
+SO-DEMO-000821,Sales Order,items,WASTE-PATHOLOGICAL,1172,Kg,,360
+SO-DEMO-000822,Sales Order,items,BIO-00195,2,Nos,Central Warehouse - ENXI,1745665
+SO-DEMO-000823,Sales Order,items,BIO-00277,1,Nos,Central Warehouse - ENXI,1396619
+SO-DEMO-000823,Sales Order,items,WASTE-SHARPS,662,Kg,,289
+SO-DEMO-000824,Sales Order,items,BIO-00202,2,Nos,Central Warehouse - ENXI,1458506
+SO-DEMO-000825,Sales Order,items,BIO-00317,4,Nos,Central Warehouse - ENXI,421158
+SO-DEMO-000825,Sales Order,items,WASTE-CHEMICAL,1062,Kg,,348
+SO-DEMO-000826,Sales Order,items,BIO-00003,3,Nos,Central Warehouse - ENXI,3210106
+SO-DEMO-000826,Sales Order,items,WASTE-SHARPS,138,Kg,,231
+SO-DEMO-000827,Sales Order,items,BIO-00044,5,Nos,Central Warehouse - ENXI,2337208
+SO-DEMO-000828,Sales Order,items,BIO-00004,2,Nos,Central Warehouse - ENXI,3407297
+SO-DEMO-000828,Sales Order,items,WASTE-PATHOLOGICAL,1083,Kg,,382
+SO-DEMO-000829,Sales Order,items,BIO-00220,2,Nos,Central Warehouse - ENXI,2429939
+SO-DEMO-000830,Sales Order,items,BIO-00225,2,Nos,Central Warehouse - ENXI,766675
+SO-DEMO-000830,Sales Order,items,WASTE-PHARMACEUTICAL,131,Kg,,363
+SO-DEMO-000831,Sales Order,items,BIO-00146,1,Nos,Central Warehouse - ENXI,740695
+SO-DEMO-000831,Sales Order,items,WASTE-GENERAL,798,Kg,,641
+SO-DEMO-000832,Sales Order,items,BIO-00102,4,Nos,Central Warehouse - ENXI,2970230
+SO-DEMO-000833,Sales Order,items,BIO-00282,4,Nos,Central Warehouse - ENXI,3534688
+SO-DEMO-000833,Sales Order,items,WASTE-PATHOLOGICAL,785,Kg,,564
+SO-DEMO-000834,Sales Order,items,BIO-00380,4,Nos,Central Warehouse - ENXI,731205
+SO-DEMO-000834,Sales Order,items,WASTE-INFECTIOUS,163,Kg,,244
+SO-DEMO-000835,Sales Order,items,BIO-00007,6,Nos,Central Warehouse - ENXI,1171973
+SO-DEMO-000835,Sales Order,items,WASTE-SHARPS,999,Kg,,485
+SO-DEMO-000836,Sales Order,items,BIO-00149,3,Nos,Central Warehouse - ENXI,2218134
+SO-DEMO-000836,Sales Order,items,WASTE-PHARMACEUTICAL,627,Kg,,496
+SO-DEMO-000837,Sales Order,items,BIO-00128,3,Nos,Central Warehouse - ENXI,3395888
+SO-DEMO-000837,Sales Order,items,WASTE-SHARPS,626,Kg,,521
+SO-DEMO-000838,Sales Order,items,BIO-00362,1,Nos,Central Warehouse - ENXI,3120815
+SO-DEMO-000838,Sales Order,items,WASTE-CHEMICAL,491,Kg,,276
+SO-DEMO-000839,Sales Order,items,BIO-00077,2,Nos,Central Warehouse - ENXI,685250
+SO-DEMO-000839,Sales Order,items,WASTE-INFECTIOUS,680,Kg,,278
+SO-DEMO-000840,Sales Order,items,BIO-00316,2,Nos,Central Warehouse - ENXI,561410
+SO-DEMO-000841,Sales Order,items,BIO-00157,6,Nos,Central Warehouse - ENXI,2836294
+SO-DEMO-000842,Sales Order,items,BIO-00246,1,Nos,Central Warehouse - ENXI,2318523
+SO-DEMO-000842,Sales Order,items,WASTE-INFECTIOUS,743,Kg,,236
+SO-DEMO-000843,Sales Order,items,BIO-00180,6,Nos,Central Warehouse - ENXI,1933530
+SO-DEMO-000843,Sales Order,items,WASTE-INFECTIOUS,492,Kg,,200
+SO-DEMO-000844,Sales Order,items,BIO-00165,2,Nos,Central Warehouse - ENXI,1376706
+SO-DEMO-000844,Sales Order,items,WASTE-CHEMICAL,326,Kg,,400
+SO-DEMO-000845,Sales Order,items,BIO-00187,3,Nos,Central Warehouse - ENXI,1456564
+SO-DEMO-000845,Sales Order,items,WASTE-GENERAL,147,Kg,,529
+SO-DEMO-000846,Sales Order,items,BIO-00185,6,Nos,Central Warehouse - ENXI,3577534
+SO-DEMO-000846,Sales Order,items,WASTE-CHEMICAL,881,Kg,,301
+SO-DEMO-000847,Sales Order,items,BIO-00197,1,Nos,Central Warehouse - ENXI,626129
+SO-DEMO-000847,Sales Order,items,WASTE-GENERAL,366,Kg,,201
+SO-DEMO-000848,Sales Order,items,BIO-00099,6,Nos,Central Warehouse - ENXI,2049694
+SO-DEMO-000849,Sales Order,items,BIO-00176,3,Nos,Central Warehouse - ENXI,3222341
+SO-DEMO-000849,Sales Order,items,WASTE-PATHOLOGICAL,434,Kg,,202
+SO-DEMO-000850,Sales Order,items,BIO-00282,6,Nos,Central Warehouse - ENXI,1239168
+SO-DEMO-000851,Sales Order,items,BIO-00230,6,Nos,Central Warehouse - ENXI,3188682
+SO-DEMO-000851,Sales Order,items,WASTE-PHARMACEUTICAL,258,Kg,,427
+SO-DEMO-000852,Sales Order,items,BIO-00012,2,Nos,Central Warehouse - ENXI,2693032
+SO-DEMO-000852,Sales Order,items,WASTE-PATHOLOGICAL,713,Kg,,203
+SO-DEMO-000853,Sales Order,items,BIO-00098,6,Nos,Central Warehouse - ENXI,3596401
+SO-DEMO-000853,Sales Order,items,WASTE-GENERAL,1171,Kg,,218
+SO-DEMO-000854,Sales Order,items,BIO-00197,5,Nos,Central Warehouse - ENXI,3448923
+SO-DEMO-000854,Sales Order,items,WASTE-CHEMICAL,676,Kg,,285
+SO-DEMO-000855,Sales Order,items,BIO-00293,2,Nos,Central Warehouse - ENXI,2663500
+SO-DEMO-000855,Sales Order,items,WASTE-CHEMICAL,1052,Kg,,437
+SO-DEMO-000856,Sales Order,items,BIO-00113,3,Nos,Central Warehouse - ENXI,3150635
+SO-DEMO-000856,Sales Order,items,WASTE-INFECTIOUS,470,Kg,,294
+SO-DEMO-000857,Sales Order,items,BIO-00150,1,Nos,Central Warehouse - ENXI,2862741
+SO-DEMO-000857,Sales Order,items,WASTE-SHARPS,392,Kg,,318
+SO-DEMO-000858,Sales Order,items,BIO-00108,5,Nos,Central Warehouse - ENXI,667314
+SO-DEMO-000858,Sales Order,items,WASTE-SHARPS,875,Kg,,346
+SO-DEMO-000859,Sales Order,items,BIO-00370,2,Nos,Central Warehouse - ENXI,1892714
+SO-DEMO-000860,Sales Order,items,BIO-00321,1,Nos,Central Warehouse - ENXI,1671004
+SO-DEMO-000860,Sales Order,items,WASTE-SHARPS,481,Kg,,311
+SO-DEMO-000861,Sales Order,items,BIO-00299,1,Nos,Central Warehouse - ENXI,3210813
+SO-DEMO-000861,Sales Order,items,WASTE-PHARMACEUTICAL,647,Kg,,625
+SO-DEMO-000862,Sales Order,items,BIO-00227,2,Nos,Central Warehouse - ENXI,1540057
+SO-DEMO-000862,Sales Order,items,WASTE-CHEMICAL,929,Kg,,259
+SO-DEMO-000863,Sales Order,items,BIO-00372,4,Nos,Central Warehouse - ENXI,1726188
+SO-DEMO-000863,Sales Order,items,WASTE-PHARMACEUTICAL,311,Kg,,433
+SO-DEMO-000864,Sales Order,items,BIO-00091,2,Nos,Central Warehouse - ENXI,2569318
+SO-DEMO-000864,Sales Order,items,WASTE-GENERAL,489,Kg,,511
+SO-DEMO-000865,Sales Order,items,BIO-00084,2,Nos,Central Warehouse - ENXI,1833383
+SO-DEMO-000865,Sales Order,items,WASTE-PATHOLOGICAL,262,Kg,,253
+SO-DEMO-000866,Sales Order,items,BIO-00233,6,Nos,Central Warehouse - ENXI,1868225
+SO-DEMO-000866,Sales Order,items,WASTE-CHEMICAL,401,Kg,,552
+SO-DEMO-000867,Sales Order,items,BIO-00194,4,Nos,Central Warehouse - ENXI,266888
+SO-DEMO-000867,Sales Order,items,WASTE-INFECTIOUS,209,Kg,,247
+SO-DEMO-000868,Sales Order,items,BIO-00074,6,Nos,Central Warehouse - ENXI,2695060
+SO-DEMO-000868,Sales Order,items,WASTE-INFECTIOUS,337,Kg,,457
+SO-DEMO-000869,Sales Order,items,BIO-00072,4,Nos,Central Warehouse - ENXI,3366294
+SO-DEMO-000869,Sales Order,items,WASTE-PHARMACEUTICAL,454,Kg,,337
+SO-DEMO-000870,Sales Order,items,BIO-00125,1,Nos,Central Warehouse - ENXI,2459715
+SO-DEMO-000870,Sales Order,items,WASTE-GENERAL,372,Kg,,190
+SO-DEMO-000871,Sales Order,items,BIO-00152,1,Nos,Central Warehouse - ENXI,2325564
+SO-DEMO-000872,Sales Order,items,BIO-00115,1,Nos,Central Warehouse - ENXI,1130744
+SO-DEMO-000872,Sales Order,items,WASTE-PATHOLOGICAL,843,Kg,,515
+SO-DEMO-000873,Sales Order,items,BIO-00197,6,Nos,Central Warehouse - ENXI,3178303
+SO-DEMO-000874,Sales Order,items,BIO-00057,2,Nos,Central Warehouse - ENXI,606712
+SO-DEMO-000875,Sales Order,items,BIO-00316,3,Nos,Central Warehouse - ENXI,676399
+SO-DEMO-000875,Sales Order,items,WASTE-INFECTIOUS,208,Kg,,489
+SO-DEMO-000876,Sales Order,items,BIO-00272,3,Nos,Central Warehouse - ENXI,2694952
+SO-DEMO-000876,Sales Order,items,WASTE-PHARMACEUTICAL,427,Kg,,637
+SO-DEMO-000877,Sales Order,items,BIO-00179,1,Nos,Central Warehouse - ENXI,1317047
+SO-DEMO-000878,Sales Order,items,BIO-00040,1,Nos,Central Warehouse - ENXI,803453
+SO-DEMO-000879,Sales Order,items,BIO-00200,4,Nos,Central Warehouse - ENXI,3205533
+SO-DEMO-000880,Sales Order,items,BIO-00296,4,Nos,Central Warehouse - ENXI,3228033
+SO-DEMO-000880,Sales Order,items,WASTE-INFECTIOUS,781,Kg,,245
+SO-DEMO-000881,Sales Order,items,BIO-00164,4,Nos,Central Warehouse - ENXI,1957680
+SO-DEMO-000881,Sales Order,items,WASTE-PHARMACEUTICAL,802,Kg,,250
+SO-DEMO-000882,Sales Order,items,BIO-00282,4,Nos,Central Warehouse - ENXI,2439669
+SO-DEMO-000882,Sales Order,items,WASTE-CHEMICAL,591,Kg,,376
+SO-DEMO-000883,Sales Order,items,BIO-00216,5,Nos,Central Warehouse - ENXI,2603789
+SO-DEMO-000884,Sales Order,items,BIO-00186,1,Nos,Central Warehouse - ENXI,1032616
+SO-DEMO-000885,Sales Order,items,BIO-00243,2,Nos,Central Warehouse - ENXI,642029
+SO-DEMO-000885,Sales Order,items,WASTE-SHARPS,859,Kg,,614
+SO-DEMO-000886,Sales Order,items,BIO-00074,5,Nos,Central Warehouse - ENXI,1946124
+SO-DEMO-000886,Sales Order,items,WASTE-PATHOLOGICAL,234,Kg,,562
+SO-DEMO-000887,Sales Order,items,BIO-00361,2,Nos,Central Warehouse - ENXI,1763185
+SO-DEMO-000887,Sales Order,items,WASTE-GENERAL,989,Kg,,370
+SO-DEMO-000888,Sales Order,items,BIO-00298,1,Nos,Central Warehouse - ENXI,2179955
+SO-DEMO-000889,Sales Order,items,BIO-00188,2,Nos,Central Warehouse - ENXI,511321
+SO-DEMO-000889,Sales Order,items,WASTE-INFECTIOUS,972,Kg,,256
+SO-DEMO-000890,Sales Order,items,BIO-00072,6,Nos,Central Warehouse - ENXI,2392285
+SO-DEMO-000890,Sales Order,items,WASTE-SHARPS,1082,Kg,,390
+SO-DEMO-000891,Sales Order,items,BIO-00356,1,Nos,Central Warehouse - ENXI,1382796
+SO-DEMO-000891,Sales Order,items,WASTE-INFECTIOUS,185,Kg,,489
+SO-DEMO-000892,Sales Order,items,BIO-00006,4,Nos,Central Warehouse - ENXI,1956794
+SO-DEMO-000892,Sales Order,items,WASTE-PHARMACEUTICAL,648,Kg,,650
+SO-DEMO-000893,Sales Order,items,BIO-00364,2,Nos,Central Warehouse - ENXI,1957001
+SO-DEMO-000894,Sales Order,items,BIO-00194,2,Nos,Central Warehouse - ENXI,3296933
+SO-DEMO-000894,Sales Order,items,WASTE-CHEMICAL,234,Kg,,292
+SO-DEMO-000895,Sales Order,items,BIO-00287,5,Nos,Central Warehouse - ENXI,503839
+SO-DEMO-000896,Sales Order,items,BIO-00335,6,Nos,Central Warehouse - ENXI,1879112
+SO-DEMO-000897,Sales Order,items,BIO-00332,4,Nos,Central Warehouse - ENXI,996759
+SO-DEMO-000897,Sales Order,items,WASTE-INFECTIOUS,279,Kg,,365
+SO-DEMO-000898,Sales Order,items,BIO-00123,3,Nos,Central Warehouse - ENXI,862666
+SO-DEMO-000898,Sales Order,items,WASTE-INFECTIOUS,553,Kg,,485
+SO-DEMO-000899,Sales Order,items,BIO-00283,2,Nos,Central Warehouse - ENXI,2857597
+SO-DEMO-000900,Sales Order,items,BIO-00292,5,Nos,Central Warehouse - ENXI,368217
+SO-DEMO-000900,Sales Order,items,WASTE-PHARMACEUTICAL,213,Kg,,204
+SO-DEMO-000901,Sales Order,items,BIO-00005,3,Nos,Central Warehouse - ENXI,3332772
+SO-DEMO-000901,Sales Order,items,WASTE-PHARMACEUTICAL,1144,Kg,,279
+SO-DEMO-000902,Sales Order,items,BIO-00183,2,Nos,Central Warehouse - ENXI,3127156
+SO-DEMO-000902,Sales Order,items,WASTE-SHARPS,954,Kg,,639
+SO-DEMO-000903,Sales Order,items,BIO-00077,1,Nos,Central Warehouse - ENXI,2642792
+SO-DEMO-000904,Sales Order,items,BIO-00149,2,Nos,Central Warehouse - ENXI,815595
+SO-DEMO-000904,Sales Order,items,WASTE-INFECTIOUS,311,Kg,,547
+SO-DEMO-000905,Sales Order,items,BIO-00335,2,Nos,Central Warehouse - ENXI,3404688
+SO-DEMO-000905,Sales Order,items,WASTE-CHEMICAL,1177,Kg,,553
+SO-DEMO-000906,Sales Order,items,BIO-00175,4,Nos,Central Warehouse - ENXI,3474004
+SO-DEMO-000906,Sales Order,items,WASTE-SHARPS,857,Kg,,499
+SO-DEMO-000907,Sales Order,items,BIO-00350,4,Nos,Central Warehouse - ENXI,1182902
+SO-DEMO-000907,Sales Order,items,WASTE-CHEMICAL,273,Kg,,258
+SO-DEMO-000908,Sales Order,items,BIO-00050,1,Nos,Central Warehouse - ENXI,778202
+SO-DEMO-000909,Sales Order,items,BIO-00256,1,Nos,Central Warehouse - ENXI,2087602
+SO-DEMO-000909,Sales Order,items,WASTE-SHARPS,450,Kg,,214
+SO-DEMO-000910,Sales Order,items,BIO-00181,1,Nos,Central Warehouse - ENXI,478357
+SO-DEMO-000910,Sales Order,items,WASTE-PHARMACEUTICAL,648,Kg,,422
+SO-DEMO-000911,Sales Order,items,BIO-00072,1,Nos,Central Warehouse - ENXI,2565440
+SO-DEMO-000911,Sales Order,items,WASTE-SHARPS,707,Kg,,385
+SO-DEMO-000912,Sales Order,items,BIO-00067,4,Nos,Central Warehouse - ENXI,1718186
+SO-DEMO-000912,Sales Order,items,WASTE-CHEMICAL,762,Kg,,371
+SO-DEMO-000913,Sales Order,items,BIO-00260,4,Nos,Central Warehouse - ENXI,1282378
+SO-DEMO-000914,Sales Order,items,BIO-00030,6,Nos,Central Warehouse - ENXI,3495977
+SO-DEMO-000914,Sales Order,items,WASTE-CHEMICAL,136,Kg,,259
+SO-DEMO-000915,Sales Order,items,BIO-00082,5,Nos,Central Warehouse - ENXI,1854703
+SO-DEMO-000916,Sales Order,items,BIO-00343,1,Nos,Central Warehouse - ENXI,1643551
+SO-DEMO-000916,Sales Order,items,WASTE-GENERAL,1072,Kg,,235
+SO-DEMO-000917,Sales Order,items,BIO-00056,4,Nos,Central Warehouse - ENXI,3402134
+SO-DEMO-000917,Sales Order,items,WASTE-PHARMACEUTICAL,793,Kg,,213
+SO-DEMO-000918,Sales Order,items,BIO-00249,2,Nos,Central Warehouse - ENXI,3125621
+SO-DEMO-000918,Sales Order,items,WASTE-INFECTIOUS,690,Kg,,412
+SO-DEMO-000919,Sales Order,items,BIO-00241,2,Nos,Central Warehouse - ENXI,2865262
+SO-DEMO-000919,Sales Order,items,WASTE-CHEMICAL,184,Kg,,487
+SO-DEMO-000920,Sales Order,items,BIO-00221,4,Nos,Central Warehouse - ENXI,1075151
+SO-DEMO-000920,Sales Order,items,WASTE-INFECTIOUS,986,Kg,,318
+SO-DEMO-000921,Sales Order,items,BIO-00043,2,Nos,Central Warehouse - ENXI,470493
+SO-DEMO-000921,Sales Order,items,WASTE-INFECTIOUS,730,Kg,,627
+SO-DEMO-000922,Sales Order,items,BIO-00110,6,Nos,Central Warehouse - ENXI,1268200
+SO-DEMO-000922,Sales Order,items,WASTE-INFECTIOUS,309,Kg,,638
+SO-DEMO-000923,Sales Order,items,BIO-00085,2,Nos,Central Warehouse - ENXI,1644970
+SO-DEMO-000924,Sales Order,items,BIO-00353,2,Nos,Central Warehouse - ENXI,3102130
+SO-DEMO-000924,Sales Order,items,WASTE-GENERAL,916,Kg,,601
+SO-DEMO-000925,Sales Order,items,BIO-00102,1,Nos,Central Warehouse - ENXI,3211322
+SO-DEMO-000925,Sales Order,items,WASTE-CHEMICAL,416,Kg,,345
+SO-DEMO-000926,Sales Order,items,BIO-00235,2,Nos,Central Warehouse - ENXI,2274826
+SO-DEMO-000927,Sales Order,items,BIO-00135,5,Nos,Central Warehouse - ENXI,3209487
+SO-DEMO-000927,Sales Order,items,WASTE-PHARMACEUTICAL,377,Kg,,504
+SO-DEMO-000928,Sales Order,items,BIO-00050,1,Nos,Central Warehouse - ENXI,1096970
+SO-DEMO-000928,Sales Order,items,WASTE-PATHOLOGICAL,980,Kg,,536
+SO-DEMO-000929,Sales Order,items,BIO-00194,2,Nos,Central Warehouse - ENXI,1639976
+SO-DEMO-000929,Sales Order,items,WASTE-PATHOLOGICAL,149,Kg,,369
+SO-DEMO-000930,Sales Order,items,BIO-00158,5,Nos,Central Warehouse - ENXI,703219
+SO-DEMO-000930,Sales Order,items,WASTE-GENERAL,1053,Kg,,391
+SO-DEMO-000931,Sales Order,items,BIO-00278,4,Nos,Central Warehouse - ENXI,2374333
+SO-DEMO-000932,Sales Order,items,BIO-00235,4,Nos,Central Warehouse - ENXI,1744984
+SO-DEMO-000932,Sales Order,items,WASTE-CHEMICAL,453,Kg,,457
+SO-DEMO-000933,Sales Order,items,BIO-00338,6,Nos,Central Warehouse - ENXI,3033308
+SO-DEMO-000933,Sales Order,items,WASTE-SHARPS,323,Kg,,224
+SO-DEMO-000934,Sales Order,items,BIO-00009,5,Nos,Central Warehouse - ENXI,1905031
+SO-DEMO-000934,Sales Order,items,WASTE-GENERAL,324,Kg,,504
+SO-DEMO-000935,Sales Order,items,BIO-00017,6,Nos,Central Warehouse - ENXI,1395947
+SO-DEMO-000936,Sales Order,items,BIO-00283,4,Nos,Central Warehouse - ENXI,660252
+SO-DEMO-000936,Sales Order,items,WASTE-PHARMACEUTICAL,374,Kg,,359
+SO-DEMO-000937,Sales Order,items,BIO-00361,6,Nos,Central Warehouse - ENXI,1840141
+SO-DEMO-000937,Sales Order,items,WASTE-SHARPS,578,Kg,,439
+SO-DEMO-000938,Sales Order,items,BIO-00136,3,Nos,Central Warehouse - ENXI,3515051
+SO-DEMO-000939,Sales Order,items,BIO-00017,1,Nos,Central Warehouse - ENXI,290087
+SO-DEMO-000939,Sales Order,items,WASTE-SHARPS,1182,Kg,,599
+SO-DEMO-000940,Sales Order,items,BIO-00088,5,Nos,Central Warehouse - ENXI,1983633
+SO-DEMO-000940,Sales Order,items,WASTE-PHARMACEUTICAL,514,Kg,,495
+SO-DEMO-000941,Sales Order,items,BIO-00220,2,Nos,Central Warehouse - ENXI,2848724
+SO-DEMO-000941,Sales Order,items,WASTE-GENERAL,475,Kg,,386
+SO-DEMO-000942,Sales Order,items,BIO-00224,2,Nos,Central Warehouse - ENXI,597660
+SO-DEMO-000942,Sales Order,items,WASTE-PATHOLOGICAL,1152,Kg,,240
+SO-DEMO-000943,Sales Order,items,BIO-00134,5,Nos,Central Warehouse - ENXI,847117
+SO-DEMO-000944,Sales Order,items,BIO-00014,4,Nos,Central Warehouse - ENXI,228394
+SO-DEMO-000944,Sales Order,items,WASTE-CHEMICAL,433,Kg,,194
+SO-DEMO-000945,Sales Order,items,BIO-00293,4,Nos,Central Warehouse - ENXI,286073
+SO-DEMO-000945,Sales Order,items,WASTE-PATHOLOGICAL,1049,Kg,,504
+SO-DEMO-000946,Sales Order,items,BIO-00335,2,Nos,Central Warehouse - ENXI,1425383
+SO-DEMO-000946,Sales Order,items,WASTE-PATHOLOGICAL,894,Kg,,574
+SO-DEMO-000947,Sales Order,items,BIO-00141,1,Nos,Central Warehouse - ENXI,783013
+SO-DEMO-000947,Sales Order,items,WASTE-GENERAL,331,Kg,,236
+SO-DEMO-000948,Sales Order,items,BIO-00055,2,Nos,Central Warehouse - ENXI,1364735
+SO-DEMO-000948,Sales Order,items,WASTE-PATHOLOGICAL,310,Kg,,219
+SO-DEMO-000949,Sales Order,items,BIO-00201,1,Nos,Central Warehouse - ENXI,2239558
+SO-DEMO-000950,Sales Order,items,BIO-00321,1,Nos,Central Warehouse - ENXI,1062045
+SO-DEMO-000950,Sales Order,items,WASTE-PHARMACEUTICAL,762,Kg,,504
+SO-DEMO-000951,Sales Order,items,BIO-00153,1,Nos,Central Warehouse - ENXI,929425
+SO-DEMO-000951,Sales Order,items,WASTE-GENERAL,184,Kg,,240
+SO-DEMO-000952,Sales Order,items,BIO-00315,5,Nos,Central Warehouse - ENXI,2472114
+SO-DEMO-000952,Sales Order,items,WASTE-CHEMICAL,641,Kg,,242
+SO-DEMO-000953,Sales Order,items,BIO-00275,1,Nos,Central Warehouse - ENXI,2352628
+SO-DEMO-000953,Sales Order,items,WASTE-PATHOLOGICAL,562,Kg,,623
+SO-DEMO-000954,Sales Order,items,BIO-00016,3,Nos,Central Warehouse - ENXI,761183
+SO-DEMO-000954,Sales Order,items,WASTE-GENERAL,379,Kg,,317
+SO-DEMO-000955,Sales Order,items,BIO-00048,3,Nos,Central Warehouse - ENXI,3149917
+SO-DEMO-000955,Sales Order,items,WASTE-SHARPS,1076,Kg,,561
+SO-DEMO-000956,Sales Order,items,BIO-00205,2,Nos,Central Warehouse - ENXI,1228966
+SO-DEMO-000956,Sales Order,items,WASTE-GENERAL,695,Kg,,381
+SO-DEMO-000957,Sales Order,items,BIO-00160,2,Nos,Central Warehouse - ENXI,3510694
+SO-DEMO-000957,Sales Order,items,WASTE-GENERAL,1119,Kg,,401
+SO-DEMO-000958,Sales Order,items,BIO-00140,3,Nos,Central Warehouse - ENXI,2792677
+SO-DEMO-000958,Sales Order,items,WASTE-PHARMACEUTICAL,999,Kg,,282
+SO-DEMO-000959,Sales Order,items,BIO-00324,1,Nos,Central Warehouse - ENXI,2064934
+SO-DEMO-000959,Sales Order,items,WASTE-INFECTIOUS,1167,Kg,,309
+SO-DEMO-000960,Sales Order,items,BIO-00310,6,Nos,Central Warehouse - ENXI,2405070
+SO-DEMO-000960,Sales Order,items,WASTE-INFECTIOUS,354,Kg,,272
+SO-DEMO-000961,Sales Order,items,BIO-00184,2,Nos,Central Warehouse - ENXI,484675
+SO-DEMO-000961,Sales Order,items,WASTE-SHARPS,881,Kg,,254
+SO-DEMO-000962,Sales Order,items,BIO-00164,6,Nos,Central Warehouse - ENXI,225722
+SO-DEMO-000962,Sales Order,items,WASTE-PATHOLOGICAL,1073,Kg,,470
+SO-DEMO-000963,Sales Order,items,BIO-00034,4,Nos,Central Warehouse - ENXI,1369564
+SO-DEMO-000963,Sales Order,items,WASTE-CHEMICAL,565,Kg,,232
+SO-DEMO-000964,Sales Order,items,BIO-00312,6,Nos,Central Warehouse - ENXI,493835
+SO-DEMO-000964,Sales Order,items,WASTE-GENERAL,983,Kg,,529
+SO-DEMO-000965,Sales Order,items,BIO-00102,2,Nos,Central Warehouse - ENXI,388288
+SO-DEMO-000966,Sales Order,items,BIO-00216,1,Nos,Central Warehouse - ENXI,700482
+SO-DEMO-000966,Sales Order,items,WASTE-CHEMICAL,789,Kg,,482
+SO-DEMO-000967,Sales Order,items,BIO-00011,3,Nos,Central Warehouse - ENXI,254810
+SO-DEMO-000967,Sales Order,items,WASTE-CHEMICAL,129,Kg,,646
+SO-DEMO-000968,Sales Order,items,BIO-00207,1,Nos,Central Warehouse - ENXI,2417522
+SO-DEMO-000969,Sales Order,items,BIO-00009,1,Nos,Central Warehouse - ENXI,2150875
+SO-DEMO-000969,Sales Order,items,WASTE-PHARMACEUTICAL,736,Kg,,320
+SO-DEMO-000970,Sales Order,items,BIO-00041,5,Nos,Central Warehouse - ENXI,3428964
+SO-DEMO-000970,Sales Order,items,WASTE-CHEMICAL,216,Kg,,381
+SO-DEMO-000971,Sales Order,items,BIO-00329,1,Nos,Central Warehouse - ENXI,1748275
+SO-DEMO-000972,Sales Order,items,BIO-00025,1,Nos,Central Warehouse - ENXI,761894
+SO-DEMO-000972,Sales Order,items,WASTE-SHARPS,1012,Kg,,295
+SO-DEMO-000973,Sales Order,items,BIO-00371,3,Nos,Central Warehouse - ENXI,2434683
+SO-DEMO-000974,Sales Order,items,BIO-00057,1,Nos,Central Warehouse - ENXI,1456285
+SO-DEMO-000974,Sales Order,items,WASTE-SHARPS,897,Kg,,318
+SO-DEMO-000975,Sales Order,items,BIO-00236,1,Nos,Central Warehouse - ENXI,709693
+SO-DEMO-000975,Sales Order,items,WASTE-PATHOLOGICAL,966,Kg,,506
+SO-DEMO-000976,Sales Order,items,BIO-00268,5,Nos,Central Warehouse - ENXI,1188828
+SO-DEMO-000976,Sales Order,items,WASTE-GENERAL,1123,Kg,,323
+SO-DEMO-000977,Sales Order,items,BIO-00048,3,Nos,Central Warehouse - ENXI,3393684
+SO-DEMO-000977,Sales Order,items,WASTE-INFECTIOUS,842,Kg,,465
+SO-DEMO-000978,Sales Order,items,BIO-00377,2,Nos,Central Warehouse - ENXI,3094894
+SO-DEMO-000978,Sales Order,items,WASTE-PHARMACEUTICAL,243,Kg,,288
+SO-DEMO-000979,Sales Order,items,BIO-00240,4,Nos,Central Warehouse - ENXI,968182
+SO-DEMO-000979,Sales Order,items,WASTE-SHARPS,547,Kg,,596
+SO-DEMO-000980,Sales Order,items,BIO-00161,3,Nos,Central Warehouse - ENXI,3151716
+SO-DEMO-000980,Sales Order,items,WASTE-PATHOLOGICAL,1153,Kg,,234
+SO-DEMO-000981,Sales Order,items,BIO-00198,4,Nos,Central Warehouse - ENXI,2782473
+SO-DEMO-000981,Sales Order,items,WASTE-PHARMACEUTICAL,504,Kg,,215
+SO-DEMO-000982,Sales Order,items,BIO-00352,3,Nos,Central Warehouse - ENXI,2601129
+SO-DEMO-000982,Sales Order,items,WASTE-PATHOLOGICAL,1064,Kg,,628
+SO-DEMO-000983,Sales Order,items,BIO-00009,4,Nos,Central Warehouse - ENXI,964459
+SO-DEMO-000983,Sales Order,items,WASTE-PHARMACEUTICAL,1047,Kg,,360
+SO-DEMO-000984,Sales Order,items,BIO-00044,3,Nos,Central Warehouse - ENXI,1989731
+SO-DEMO-000984,Sales Order,items,WASTE-PHARMACEUTICAL,1148,Kg,,400
+SO-DEMO-000985,Sales Order,items,BIO-00226,3,Nos,Central Warehouse - ENXI,1730972
+SO-DEMO-000985,Sales Order,items,WASTE-GENERAL,903,Kg,,554
+SO-DEMO-000986,Sales Order,items,BIO-00097,4,Nos,Central Warehouse - ENXI,920903
+SO-DEMO-000986,Sales Order,items,WASTE-CHEMICAL,1130,Kg,,445
+SO-DEMO-000987,Sales Order,items,BIO-00026,6,Nos,Central Warehouse - ENXI,1224147
+SO-DEMO-000988,Sales Order,items,BIO-00019,5,Nos,Central Warehouse - ENXI,1296432
+SO-DEMO-000988,Sales Order,items,WASTE-CHEMICAL,326,Kg,,321
+SO-DEMO-000989,Sales Order,items,BIO-00367,4,Nos,Central Warehouse - ENXI,1823781
+SO-DEMO-000989,Sales Order,items,WASTE-PATHOLOGICAL,669,Kg,,433
+SO-DEMO-000990,Sales Order,items,BIO-00178,6,Nos,Central Warehouse - ENXI,1387928
+SO-DEMO-000990,Sales Order,items,WASTE-SHARPS,126,Kg,,228
+SO-DEMO-000991,Sales Order,items,BIO-00319,4,Nos,Central Warehouse - ENXI,3279971
+SO-DEMO-000991,Sales Order,items,WASTE-GENERAL,608,Kg,,267
+SO-DEMO-000992,Sales Order,items,BIO-00086,2,Nos,Central Warehouse - ENXI,1573160
+SO-DEMO-000993,Sales Order,items,BIO-00243,4,Nos,Central Warehouse - ENXI,1581124
+SO-DEMO-000993,Sales Order,items,WASTE-SHARPS,277,Kg,,267
+SO-DEMO-000994,Sales Order,items,BIO-00243,5,Nos,Central Warehouse - ENXI,184221
+SO-DEMO-000994,Sales Order,items,WASTE-PATHOLOGICAL,1087,Kg,,236
+SO-DEMO-000995,Sales Order,items,BIO-00349,3,Nos,Central Warehouse - ENXI,1137507
+SO-DEMO-000995,Sales Order,items,WASTE-PATHOLOGICAL,420,Kg,,576
+SO-DEMO-000996,Sales Order,items,BIO-00377,3,Nos,Central Warehouse - ENXI,2078410
+SO-DEMO-000996,Sales Order,items,WASTE-SHARPS,647,Kg,,519
+SO-DEMO-000997,Sales Order,items,BIO-00235,1,Nos,Central Warehouse - ENXI,1659022
+SO-DEMO-000997,Sales Order,items,WASTE-SHARPS,1180,Kg,,576
+SO-DEMO-000998,Sales Order,items,BIO-00139,6,Nos,Central Warehouse - ENXI,2358139
+SO-DEMO-000998,Sales Order,items,WASTE-INFECTIOUS,422,Kg,,390
+SO-DEMO-000999,Sales Order,items,BIO-00183,4,Nos,Central Warehouse - ENXI,309623
+SO-DEMO-000999,Sales Order,items,WASTE-GENERAL,1002,Kg,,364
+SO-DEMO-001000,Sales Order,items,BIO-00194,6,Nos,Central Warehouse - ENXI,632698
+SO-DEMO-001001,Sales Order,items,BIO-00090,3,Nos,Central Warehouse - ENXI,3028210
+SO-DEMO-001001,Sales Order,items,WASTE-SHARPS,920,Kg,,481
+SO-DEMO-001002,Sales Order,items,BIO-00098,1,Nos,Central Warehouse - ENXI,2610669
+SO-DEMO-001002,Sales Order,items,WASTE-SHARPS,371,Kg,,401
+SO-DEMO-001003,Sales Order,items,BIO-00148,1,Nos,Central Warehouse - ENXI,214959
+SO-DEMO-001003,Sales Order,items,WASTE-GENERAL,421,Kg,,418
+SO-DEMO-001004,Sales Order,items,BIO-00320,5,Nos,Central Warehouse - ENXI,2966361
+SO-DEMO-001004,Sales Order,items,WASTE-PHARMACEUTICAL,710,Kg,,213
+SO-DEMO-001005,Sales Order,items,BIO-00021,2,Nos,Central Warehouse - ENXI,1367060
+SO-DEMO-001006,Sales Order,items,BIO-00157,1,Nos,Central Warehouse - ENXI,1984904
+SO-DEMO-001006,Sales Order,items,WASTE-INFECTIOUS,222,Kg,,308
+SO-DEMO-001007,Sales Order,items,BIO-00258,6,Nos,Central Warehouse - ENXI,3404939
+SO-DEMO-001007,Sales Order,items,WASTE-INFECTIOUS,674,Kg,,253
+SO-DEMO-001008,Sales Order,items,BIO-00042,3,Nos,Central Warehouse - ENXI,1097956
+SO-DEMO-001008,Sales Order,items,WASTE-SHARPS,629,Kg,,595
+SO-DEMO-001009,Sales Order,items,BIO-00051,3,Nos,Central Warehouse - ENXI,1446774
+SO-DEMO-001009,Sales Order,items,WASTE-PATHOLOGICAL,1012,Kg,,527
+SO-DEMO-001010,Sales Order,items,BIO-00350,2,Nos,Central Warehouse - ENXI,1228661
+SO-DEMO-001010,Sales Order,items,WASTE-CHEMICAL,528,Kg,,334
+SO-DEMO-001011,Sales Order,items,BIO-00291,6,Nos,Central Warehouse - ENXI,2114221
+SO-DEMO-001011,Sales Order,items,WASTE-PHARMACEUTICAL,1014,Kg,,229
+SO-DEMO-001012,Sales Order,items,BIO-00356,3,Nos,Central Warehouse - ENXI,2293153
+SO-DEMO-001013,Sales Order,items,BIO-00219,4,Nos,Central Warehouse - ENXI,1943728
+SO-DEMO-001014,Sales Order,items,BIO-00014,4,Nos,Central Warehouse - ENXI,550898
+SO-DEMO-001015,Sales Order,items,BIO-00298,5,Nos,Central Warehouse - ENXI,1744941
+SO-DEMO-001015,Sales Order,items,WASTE-CHEMICAL,720,Kg,,207
+SO-DEMO-001016,Sales Order,items,BIO-00344,1,Nos,Central Warehouse - ENXI,2121156
+SO-DEMO-001017,Sales Order,items,BIO-00044,1,Nos,Central Warehouse - ENXI,1313195
+SO-DEMO-001018,Sales Order,items,BIO-00050,3,Nos,Central Warehouse - ENXI,2551641
+SO-DEMO-001018,Sales Order,items,WASTE-SHARPS,244,Kg,,242
+SO-DEMO-001019,Sales Order,items,BIO-00379,6,Nos,Central Warehouse - ENXI,402383
+SO-DEMO-001019,Sales Order,items,WASTE-CHEMICAL,415,Kg,,467
+SO-DEMO-001020,Sales Order,items,BIO-00346,6,Nos,Central Warehouse - ENXI,829175
+SO-DEMO-001020,Sales Order,items,WASTE-SHARPS,133,Kg,,592
+SO-DEMO-001021,Sales Order,items,BIO-00103,1,Nos,Central Warehouse - ENXI,461614
+SO-DEMO-001021,Sales Order,items,WASTE-CHEMICAL,367,Kg,,446
+SO-DEMO-001022,Sales Order,items,BIO-00054,4,Nos,Central Warehouse - ENXI,283416
+SO-DEMO-001023,Sales Order,items,BIO-00063,3,Nos,Central Warehouse - ENXI,1876836
+SO-DEMO-001023,Sales Order,items,WASTE-PATHOLOGICAL,601,Kg,,610
+SO-DEMO-001024,Sales Order,items,BIO-00349,4,Nos,Central Warehouse - ENXI,2940520
+SO-DEMO-001024,Sales Order,items,WASTE-PHARMACEUTICAL,419,Kg,,505
+SO-DEMO-001025,Sales Order,items,BIO-00337,2,Nos,Central Warehouse - ENXI,896284
+SO-DEMO-001025,Sales Order,items,WASTE-GENERAL,530,Kg,,423
+SO-DEMO-001026,Sales Order,items,BIO-00342,1,Nos,Central Warehouse - ENXI,2649454
+SO-DEMO-001026,Sales Order,items,WASTE-GENERAL,683,Kg,,380
+SO-DEMO-001027,Sales Order,items,BIO-00214,4,Nos,Central Warehouse - ENXI,801455
+SO-DEMO-001027,Sales Order,items,WASTE-PHARMACEUTICAL,366,Kg,,468
+SO-DEMO-001028,Sales Order,items,BIO-00156,1,Nos,Central Warehouse - ENXI,2885783
+SO-DEMO-001028,Sales Order,items,WASTE-GENERAL,1030,Kg,,201
+SO-DEMO-001029,Sales Order,items,BIO-00371,4,Nos,Central Warehouse - ENXI,1341419
+SO-DEMO-001029,Sales Order,items,WASTE-PATHOLOGICAL,852,Kg,,436
+SO-DEMO-001030,Sales Order,items,BIO-00362,5,Nos,Central Warehouse - ENXI,1818397
+SO-DEMO-001030,Sales Order,items,WASTE-PATHOLOGICAL,430,Kg,,360
+SO-DEMO-001031,Sales Order,items,BIO-00367,2,Nos,Central Warehouse - ENXI,1347443
+SO-DEMO-001032,Sales Order,items,BIO-00331,4,Nos,Central Warehouse - ENXI,1759250
+SO-DEMO-001033,Sales Order,items,BIO-00295,6,Nos,Central Warehouse - ENXI,2306429
+SO-DEMO-001034,Sales Order,items,BIO-00358,3,Nos,Central Warehouse - ENXI,2649824
+SO-DEMO-001035,Sales Order,items,BIO-00207,1,Nos,Central Warehouse - ENXI,368446
+SO-DEMO-001035,Sales Order,items,WASTE-GENERAL,445,Kg,,298
+SO-DEMO-001036,Sales Order,items,BIO-00256,6,Nos,Central Warehouse - ENXI,2178220
+SO-DEMO-001036,Sales Order,items,WASTE-PATHOLOGICAL,604,Kg,,233
+SO-DEMO-001037,Sales Order,items,BIO-00033,1,Nos,Central Warehouse - ENXI,2746509
+SO-DEMO-001037,Sales Order,items,WASTE-INFECTIOUS,269,Kg,,406
+SO-DEMO-001038,Sales Order,items,BIO-00016,2,Nos,Central Warehouse - ENXI,1527039
+SO-DEMO-001038,Sales Order,items,WASTE-PHARMACEUTICAL,893,Kg,,248
+SO-DEMO-001039,Sales Order,items,BIO-00101,3,Nos,Central Warehouse - ENXI,2239835
+SO-DEMO-001039,Sales Order,items,WASTE-SHARPS,581,Kg,,283
+SO-DEMO-001040,Sales Order,items,BIO-00099,1,Nos,Central Warehouse - ENXI,2621537
+SO-DEMO-001040,Sales Order,items,WASTE-GENERAL,317,Kg,,284
+SO-DEMO-001041,Sales Order,items,BIO-00185,4,Nos,Central Warehouse - ENXI,2563602
+SO-DEMO-001041,Sales Order,items,WASTE-INFECTIOUS,817,Kg,,274
+SO-DEMO-001042,Sales Order,items,BIO-00107,5,Nos,Central Warehouse - ENXI,2166979
+SO-DEMO-001042,Sales Order,items,WASTE-SHARPS,402,Kg,,590
+SO-DEMO-001043,Sales Order,items,BIO-00321,4,Nos,Central Warehouse - ENXI,477240
+SO-DEMO-001043,Sales Order,items,WASTE-PATHOLOGICAL,1179,Kg,,332
+SO-DEMO-001044,Sales Order,items,BIO-00119,1,Nos,Central Warehouse - ENXI,2702830
+SO-DEMO-001044,Sales Order,items,WASTE-INFECTIOUS,578,Kg,,600
+SO-DEMO-001045,Sales Order,items,BIO-00361,3,Nos,Central Warehouse - ENXI,465014
+SO-DEMO-001046,Sales Order,items,BIO-00274,5,Nos,Central Warehouse - ENXI,1192498
+SO-DEMO-001047,Sales Order,items,BIO-00205,5,Nos,Central Warehouse - ENXI,417599
+SO-DEMO-001047,Sales Order,items,WASTE-INFECTIOUS,1084,Kg,,649
+SO-DEMO-001048,Sales Order,items,BIO-00017,3,Nos,Central Warehouse - ENXI,1947503
+SO-DEMO-001048,Sales Order,items,WASTE-SHARPS,241,Kg,,251
+SO-DEMO-001049,Sales Order,items,BIO-00169,6,Nos,Central Warehouse - ENXI,441424
+SO-DEMO-001049,Sales Order,items,WASTE-INFECTIOUS,192,Kg,,357
+SO-DEMO-001050,Sales Order,items,BIO-00379,5,Nos,Central Warehouse - ENXI,518033
+SO-DEMO-001051,Sales Order,items,BIO-00371,1,Nos,Central Warehouse - ENXI,616464
+SO-DEMO-001051,Sales Order,items,WASTE-CHEMICAL,581,Kg,,512
+SO-DEMO-001052,Sales Order,items,BIO-00156,2,Nos,Central Warehouse - ENXI,269939
+SO-DEMO-001053,Sales Order,items,BIO-00312,4,Nos,Central Warehouse - ENXI,3040268
+SO-DEMO-001053,Sales Order,items,WASTE-INFECTIOUS,1107,Kg,,206
+SO-DEMO-001054,Sales Order,items,BIO-00065,4,Nos,Central Warehouse - ENXI,3121623
+SO-DEMO-001054,Sales Order,items,WASTE-PATHOLOGICAL,356,Kg,,404
+SO-DEMO-001055,Sales Order,items,BIO-00181,2,Nos,Central Warehouse - ENXI,1619173
+SO-DEMO-001055,Sales Order,items,WASTE-INFECTIOUS,607,Kg,,298
+SO-DEMO-001056,Sales Order,items,BIO-00117,4,Nos,Central Warehouse - ENXI,3315140
+SO-DEMO-001057,Sales Order,items,BIO-00008,6,Nos,Central Warehouse - ENXI,1228250
+SO-DEMO-001058,Sales Order,items,BIO-00225,2,Nos,Central Warehouse - ENXI,1365293
+SO-DEMO-001058,Sales Order,items,WASTE-SHARPS,620,Kg,,329
+SO-DEMO-001059,Sales Order,items,BIO-00246,6,Nos,Central Warehouse - ENXI,693283
+SO-DEMO-001059,Sales Order,items,WASTE-INFECTIOUS,632,Kg,,458
+SO-DEMO-001060,Sales Order,items,BIO-00377,3,Nos,Central Warehouse - ENXI,1103951
+SO-DEMO-001060,Sales Order,items,WASTE-SHARPS,871,Kg,,579
+SO-DEMO-001061,Sales Order,items,BIO-00126,5,Nos,Central Warehouse - ENXI,1302124
+SO-DEMO-001061,Sales Order,items,WASTE-CHEMICAL,1151,Kg,,233
+SO-DEMO-001062,Sales Order,items,BIO-00362,5,Nos,Central Warehouse - ENXI,2219302
+SO-DEMO-001062,Sales Order,items,WASTE-PATHOLOGICAL,400,Kg,,610
+SO-DEMO-001063,Sales Order,items,BIO-00380,5,Nos,Central Warehouse - ENXI,1064031
+SO-DEMO-001063,Sales Order,items,WASTE-GENERAL,410,Kg,,198
+SO-DEMO-001064,Sales Order,items,BIO-00233,1,Nos,Central Warehouse - ENXI,269295
+SO-DEMO-001064,Sales Order,items,WASTE-INFECTIOUS,673,Kg,,322
+SO-DEMO-001065,Sales Order,items,BIO-00044,1,Nos,Central Warehouse - ENXI,1350598
+SO-DEMO-001066,Sales Order,items,BIO-00196,4,Nos,Central Warehouse - ENXI,2042353
+SO-DEMO-001066,Sales Order,items,WASTE-PATHOLOGICAL,896,Kg,,274
+SO-DEMO-001067,Sales Order,items,BIO-00339,3,Nos,Central Warehouse - ENXI,311307
+SO-DEMO-001067,Sales Order,items,WASTE-SHARPS,173,Kg,,645
+SO-DEMO-001068,Sales Order,items,BIO-00303,2,Nos,Central Warehouse - ENXI,3356146
+SO-DEMO-001068,Sales Order,items,WASTE-GENERAL,1008,Kg,,623
+SO-DEMO-001069,Sales Order,items,BIO-00284,4,Nos,Central Warehouse - ENXI,3205338
+SO-DEMO-001070,Sales Order,items,BIO-00218,5,Nos,Central Warehouse - ENXI,3196628
+SO-DEMO-001070,Sales Order,items,WASTE-CHEMICAL,652,Kg,,263
+SO-DEMO-001071,Sales Order,items,BIO-00122,2,Nos,Central Warehouse - ENXI,243683
+SO-DEMO-001071,Sales Order,items,WASTE-GENERAL,681,Kg,,223
+SO-DEMO-001072,Sales Order,items,BIO-00173,5,Nos,Central Warehouse - ENXI,1835077
+SO-DEMO-001072,Sales Order,items,WASTE-SHARPS,860,Kg,,317
+SO-DEMO-001073,Sales Order,items,BIO-00007,1,Nos,Central Warehouse - ENXI,1467211
+SO-DEMO-001073,Sales Order,items,WASTE-SHARPS,661,Kg,,613
+SO-DEMO-001074,Sales Order,items,BIO-00009,4,Nos,Central Warehouse - ENXI,217206
+SO-DEMO-001074,Sales Order,items,WASTE-SHARPS,1103,Kg,,506
+SO-DEMO-001075,Sales Order,items,BIO-00030,5,Nos,Central Warehouse - ENXI,513643
+SO-DEMO-001075,Sales Order,items,WASTE-CHEMICAL,763,Kg,,212
+SO-DEMO-001076,Sales Order,items,BIO-00142,3,Nos,Central Warehouse - ENXI,2255882
+SO-DEMO-001076,Sales Order,items,WASTE-GENERAL,477,Kg,,255
+SO-DEMO-001077,Sales Order,items,BIO-00120,1,Nos,Central Warehouse - ENXI,2925594
+SO-DEMO-001077,Sales Order,items,WASTE-GENERAL,1157,Kg,,620
+SO-DEMO-001078,Sales Order,items,BIO-00022,5,Nos,Central Warehouse - ENXI,3188816
+SO-DEMO-001078,Sales Order,items,WASTE-GENERAL,650,Kg,,311
+SO-DEMO-001079,Sales Order,items,BIO-00277,6,Nos,Central Warehouse - ENXI,367624
+SO-DEMO-001079,Sales Order,items,WASTE-SHARPS,343,Kg,,219
+SO-DEMO-001080,Sales Order,items,BIO-00262,1,Nos,Central Warehouse - ENXI,1173960
+SO-DEMO-001080,Sales Order,items,WASTE-CHEMICAL,880,Kg,,604
+SO-DEMO-001081,Sales Order,items,BIO-00219,3,Nos,Central Warehouse - ENXI,780118
+SO-DEMO-001081,Sales Order,items,WASTE-CHEMICAL,857,Kg,,351
+SO-DEMO-001082,Sales Order,items,BIO-00241,3,Nos,Central Warehouse - ENXI,2788506
+SO-DEMO-001082,Sales Order,items,WASTE-SHARPS,211,Kg,,328
+SO-DEMO-001083,Sales Order,items,BIO-00055,5,Nos,Central Warehouse - ENXI,1067009
+SO-DEMO-001084,Sales Order,items,BIO-00365,3,Nos,Central Warehouse - ENXI,1081224
+SO-DEMO-001084,Sales Order,items,WASTE-CHEMICAL,186,Kg,,516
+SO-DEMO-001085,Sales Order,items,BIO-00041,1,Nos,Central Warehouse - ENXI,1121961
+SO-DEMO-001085,Sales Order,items,WASTE-CHEMICAL,976,Kg,,455
+SO-DEMO-001086,Sales Order,items,BIO-00311,4,Nos,Central Warehouse - ENXI,2944875
+SO-DEMO-001086,Sales Order,items,WASTE-PHARMACEUTICAL,769,Kg,,317
+SO-DEMO-001087,Sales Order,items,BIO-00125,3,Nos,Central Warehouse - ENXI,1199523
+SO-DEMO-001088,Sales Order,items,BIO-00162,6,Nos,Central Warehouse - ENXI,664093
+SO-DEMO-001088,Sales Order,items,WASTE-PHARMACEUTICAL,959,Kg,,365
+SO-DEMO-001089,Sales Order,items,BIO-00259,1,Nos,Central Warehouse - ENXI,1699583
+SO-DEMO-001089,Sales Order,items,WASTE-CHEMICAL,591,Kg,,409
+SO-DEMO-001090,Sales Order,items,BIO-00065,5,Nos,Central Warehouse - ENXI,1207369
+SO-DEMO-001091,Sales Order,items,BIO-00341,2,Nos,Central Warehouse - ENXI,2719842
+SO-DEMO-001091,Sales Order,items,WASTE-SHARPS,819,Kg,,340
+SO-DEMO-001092,Sales Order,items,BIO-00216,5,Nos,Central Warehouse - ENXI,802428
+SO-DEMO-001092,Sales Order,items,WASTE-GENERAL,525,Kg,,640
+SO-DEMO-001093,Sales Order,items,BIO-00086,1,Nos,Central Warehouse - ENXI,1935843
+SO-DEMO-001093,Sales Order,items,WASTE-CHEMICAL,1082,Kg,,560
+SO-DEMO-001094,Sales Order,items,BIO-00221,1,Nos,Central Warehouse - ENXI,3074265
+SO-DEMO-001094,Sales Order,items,WASTE-INFECTIOUS,391,Kg,,443
+SO-DEMO-001095,Sales Order,items,BIO-00182,2,Nos,Central Warehouse - ENXI,1867441
+SO-DEMO-001095,Sales Order,items,WASTE-PATHOLOGICAL,720,Kg,,240
+SO-DEMO-001096,Sales Order,items,BIO-00312,5,Nos,Central Warehouse - ENXI,632027
+SO-DEMO-001097,Sales Order,items,BIO-00182,4,Nos,Central Warehouse - ENXI,1894944
+SO-DEMO-001097,Sales Order,items,WASTE-GENERAL,1012,Kg,,328
+SO-DEMO-001098,Sales Order,items,BIO-00094,6,Nos,Central Warehouse - ENXI,3392651
+SO-DEMO-001098,Sales Order,items,WASTE-CHEMICAL,291,Kg,,257
+SO-DEMO-001099,Sales Order,items,BIO-00190,6,Nos,Central Warehouse - ENXI,2903800
+SO-DEMO-001099,Sales Order,items,WASTE-SHARPS,1018,Kg,,270
+SO-DEMO-001100,Sales Order,items,BIO-00050,2,Nos,Central Warehouse - ENXI,1427170
+SO-DEMO-001100,Sales Order,items,WASTE-INFECTIOUS,1180,Kg,,639
+SO-DEMO-001101,Sales Order,items,BIO-00219,3,Nos,Central Warehouse - ENXI,1533921
+SO-DEMO-001101,Sales Order,items,WASTE-PATHOLOGICAL,413,Kg,,201
+SO-DEMO-001102,Sales Order,items,BIO-00143,5,Nos,Central Warehouse - ENXI,2761499
+SO-DEMO-001102,Sales Order,items,WASTE-SHARPS,703,Kg,,264
+SO-DEMO-001103,Sales Order,items,BIO-00250,4,Nos,Central Warehouse - ENXI,1117986
+SO-DEMO-001104,Sales Order,items,BIO-00055,2,Nos,Central Warehouse - ENXI,2975225
+SO-DEMO-001104,Sales Order,items,WASTE-INFECTIOUS,543,Kg,,462
+SO-DEMO-001105,Sales Order,items,BIO-00307,1,Nos,Central Warehouse - ENXI,2444210
+SO-DEMO-001105,Sales Order,items,WASTE-PATHOLOGICAL,133,Kg,,430
+SO-DEMO-001106,Sales Order,items,BIO-00145,5,Nos,Central Warehouse - ENXI,1968881
+SO-DEMO-001106,Sales Order,items,WASTE-CHEMICAL,378,Kg,,605
+SO-DEMO-001107,Sales Order,items,BIO-00367,6,Nos,Central Warehouse - ENXI,683067
+SO-DEMO-001107,Sales Order,items,WASTE-PHARMACEUTICAL,1130,Kg,,314
+SO-DEMO-001108,Sales Order,items,BIO-00375,6,Nos,Central Warehouse - ENXI,668479
+SO-DEMO-001109,Sales Order,items,BIO-00039,3,Nos,Central Warehouse - ENXI,837361
+SO-DEMO-001109,Sales Order,items,WASTE-SHARPS,1048,Kg,,502
+SO-DEMO-001110,Sales Order,items,BIO-00362,6,Nos,Central Warehouse - ENXI,1500408
+SO-DEMO-001111,Sales Order,items,BIO-00362,5,Nos,Central Warehouse - ENXI,1511805
+SO-DEMO-001111,Sales Order,items,WASTE-CHEMICAL,192,Kg,,504
+SO-DEMO-001112,Sales Order,items,BIO-00301,4,Nos,Central Warehouse - ENXI,1103625
+SO-DEMO-001112,Sales Order,items,WASTE-SHARPS,1082,Kg,,257
+SO-DEMO-001113,Sales Order,items,BIO-00255,3,Nos,Central Warehouse - ENXI,732775
+SO-DEMO-001113,Sales Order,items,WASTE-INFECTIOUS,1177,Kg,,618
+SO-DEMO-001114,Sales Order,items,BIO-00035,4,Nos,Central Warehouse - ENXI,2519319
+SO-DEMO-001114,Sales Order,items,WASTE-GENERAL,484,Kg,,199
+SO-DEMO-001115,Sales Order,items,BIO-00195,6,Nos,Central Warehouse - ENXI,2629049
+SO-DEMO-001115,Sales Order,items,WASTE-SHARPS,1111,Kg,,451
+SO-DEMO-001116,Sales Order,items,BIO-00150,6,Nos,Central Warehouse - ENXI,2214488
+SO-DEMO-001116,Sales Order,items,WASTE-GENERAL,923,Kg,,486
+SO-DEMO-001117,Sales Order,items,BIO-00152,1,Nos,Central Warehouse - ENXI,1098261
+SO-DEMO-001117,Sales Order,items,WASTE-SHARPS,979,Kg,,408
+SO-DEMO-001118,Sales Order,items,BIO-00218,1,Nos,Central Warehouse - ENXI,919013
+SO-DEMO-001118,Sales Order,items,WASTE-SHARPS,352,Kg,,357
+SO-DEMO-001119,Sales Order,items,BIO-00251,5,Nos,Central Warehouse - ENXI,1908065
+SO-DEMO-001119,Sales Order,items,WASTE-INFECTIOUS,715,Kg,,317
+SO-DEMO-001120,Sales Order,items,BIO-00032,5,Nos,Central Warehouse - ENXI,3417158
+SO-DEMO-001120,Sales Order,items,WASTE-GENERAL,770,Kg,,390
+SO-DEMO-001121,Sales Order,items,BIO-00205,3,Nos,Central Warehouse - ENXI,409148
+SO-DEMO-001121,Sales Order,items,WASTE-GENERAL,568,Kg,,353
+SO-DEMO-001122,Sales Order,items,BIO-00210,2,Nos,Central Warehouse - ENXI,2581262
+SO-DEMO-001123,Sales Order,items,BIO-00057,5,Nos,Central Warehouse - ENXI,2741677
+SO-DEMO-001123,Sales Order,items,WASTE-CHEMICAL,160,Kg,,549
+SO-DEMO-001124,Sales Order,items,BIO-00361,3,Nos,Central Warehouse - ENXI,1659333
+SO-DEMO-001125,Sales Order,items,BIO-00026,5,Nos,Central Warehouse - ENXI,1062747
+SO-DEMO-001125,Sales Order,items,WASTE-PATHOLOGICAL,441,Kg,,609
+SO-DEMO-001126,Sales Order,items,BIO-00118,3,Nos,Central Warehouse - ENXI,3540834
+SO-DEMO-001126,Sales Order,items,WASTE-SHARPS,798,Kg,,391
+SO-DEMO-001127,Sales Order,items,BIO-00128,1,Nos,Central Warehouse - ENXI,331309
+SO-DEMO-001128,Sales Order,items,BIO-00204,4,Nos,Central Warehouse - ENXI,357356
+SO-DEMO-001128,Sales Order,items,WASTE-SHARPS,169,Kg,,297
+SO-DEMO-001129,Sales Order,items,BIO-00064,4,Nos,Central Warehouse - ENXI,2928426
+SO-DEMO-001129,Sales Order,items,WASTE-GENERAL,672,Kg,,621
+SO-DEMO-001130,Sales Order,items,BIO-00259,6,Nos,Central Warehouse - ENXI,3130647
+SO-DEMO-001131,Sales Order,items,BIO-00278,5,Nos,Central Warehouse - ENXI,816894
+SO-DEMO-001131,Sales Order,items,WASTE-CHEMICAL,921,Kg,,279
+SO-DEMO-001132,Sales Order,items,BIO-00218,5,Nos,Central Warehouse - ENXI,3298395
+SO-DEMO-001132,Sales Order,items,WASTE-SHARPS,1059,Kg,,283
+SO-DEMO-001133,Sales Order,items,BIO-00296,4,Nos,Central Warehouse - ENXI,1759494
+SO-DEMO-001133,Sales Order,items,WASTE-INFECTIOUS,575,Kg,,388
+SO-DEMO-001134,Sales Order,items,BIO-00146,6,Nos,Central Warehouse - ENXI,2416419
+SO-DEMO-001134,Sales Order,items,WASTE-PHARMACEUTICAL,155,Kg,,434
+SO-DEMO-001135,Sales Order,items,BIO-00366,1,Nos,Central Warehouse - ENXI,2076959
+SO-DEMO-001135,Sales Order,items,WASTE-INFECTIOUS,933,Kg,,574
+SO-DEMO-001136,Sales Order,items,BIO-00245,5,Nos,Central Warehouse - ENXI,636962
+SO-DEMO-001136,Sales Order,items,WASTE-SHARPS,414,Kg,,594
+SO-DEMO-001137,Sales Order,items,BIO-00087,2,Nos,Central Warehouse - ENXI,2234418
+SO-DEMO-001137,Sales Order,items,WASTE-INFECTIOUS,409,Kg,,386
+SO-DEMO-001138,Sales Order,items,BIO-00371,5,Nos,Central Warehouse - ENXI,3370110
+SO-DEMO-001138,Sales Order,items,WASTE-PHARMACEUTICAL,636,Kg,,390
+SO-DEMO-001139,Sales Order,items,BIO-00019,3,Nos,Central Warehouse - ENXI,3069865
+SO-DEMO-001139,Sales Order,items,WASTE-PHARMACEUTICAL,131,Kg,,317
+SO-DEMO-001140,Sales Order,items,BIO-00280,4,Nos,Central Warehouse - ENXI,1492884
+SO-DEMO-001141,Sales Order,items,BIO-00363,4,Nos,Central Warehouse - ENXI,2337680
+SO-DEMO-001141,Sales Order,items,WASTE-GENERAL,286,Kg,,233
+SO-DEMO-001142,Sales Order,items,BIO-00066,1,Nos,Central Warehouse - ENXI,859867
+SO-DEMO-001142,Sales Order,items,WASTE-INFECTIOUS,460,Kg,,281
+SO-DEMO-001143,Sales Order,items,BIO-00218,4,Nos,Central Warehouse - ENXI,896060
+SO-DEMO-001143,Sales Order,items,WASTE-CHEMICAL,1117,Kg,,251
+SO-DEMO-001144,Sales Order,items,BIO-00005,3,Nos,Central Warehouse - ENXI,673180
+SO-DEMO-001144,Sales Order,items,WASTE-SHARPS,675,Kg,,447
+SO-DEMO-001145,Sales Order,items,BIO-00289,6,Nos,Central Warehouse - ENXI,876026
+SO-DEMO-001145,Sales Order,items,WASTE-CHEMICAL,538,Kg,,591
+SO-DEMO-001146,Sales Order,items,BIO-00310,3,Nos,Central Warehouse - ENXI,2160173
+SO-DEMO-001146,Sales Order,items,WASTE-SHARPS,397,Kg,,264
+SO-DEMO-001147,Sales Order,items,BIO-00163,4,Nos,Central Warehouse - ENXI,931727
+SO-DEMO-001147,Sales Order,items,WASTE-INFECTIOUS,131,Kg,,339
+SO-DEMO-001148,Sales Order,items,BIO-00049,5,Nos,Central Warehouse - ENXI,2103480
+SO-DEMO-001148,Sales Order,items,WASTE-INFECTIOUS,1079,Kg,,484
+SO-DEMO-001149,Sales Order,items,BIO-00326,5,Nos,Central Warehouse - ENXI,1128036
+SO-DEMO-001149,Sales Order,items,WASTE-INFECTIOUS,514,Kg,,320
+SO-DEMO-001150,Sales Order,items,BIO-00374,3,Nos,Central Warehouse - ENXI,1720462
+SO-DEMO-001150,Sales Order,items,WASTE-PHARMACEUTICAL,641,Kg,,467
+SO-DEMO-001151,Sales Order,items,BIO-00104,1,Nos,Central Warehouse - ENXI,2665708
+SO-DEMO-001151,Sales Order,items,WASTE-GENERAL,563,Kg,,323
+SO-DEMO-001152,Sales Order,items,BIO-00053,2,Nos,Central Warehouse - ENXI,3522375
+SO-DEMO-001152,Sales Order,items,WASTE-GENERAL,904,Kg,,349
+SO-DEMO-001153,Sales Order,items,BIO-00142,6,Nos,Central Warehouse - ENXI,2763218
+SO-DEMO-001153,Sales Order,items,WASTE-PHARMACEUTICAL,548,Kg,,266
+SO-DEMO-001154,Sales Order,items,BIO-00047,5,Nos,Central Warehouse - ENXI,794430
+SO-DEMO-001154,Sales Order,items,WASTE-PHARMACEUTICAL,120,Kg,,345
+SO-DEMO-001155,Sales Order,items,BIO-00262,4,Nos,Central Warehouse - ENXI,1964280
+SO-DEMO-001155,Sales Order,items,WASTE-SHARPS,739,Kg,,436
+SO-DEMO-001156,Sales Order,items,BIO-00202,4,Nos,Central Warehouse - ENXI,3426054
+SO-DEMO-001156,Sales Order,items,WASTE-PHARMACEUTICAL,847,Kg,,339
+SO-DEMO-001157,Sales Order,items,BIO-00041,5,Nos,Central Warehouse - ENXI,1077158
+SO-DEMO-001158,Sales Order,items,BIO-00287,4,Nos,Central Warehouse - ENXI,2235601
+SO-DEMO-001158,Sales Order,items,WASTE-SHARPS,366,Kg,,465
+SO-DEMO-001159,Sales Order,items,BIO-00092,1,Nos,Central Warehouse - ENXI,1713803
+SO-DEMO-001160,Sales Order,items,BIO-00316,5,Nos,Central Warehouse - ENXI,981045
+SO-DEMO-001160,Sales Order,items,WASTE-PATHOLOGICAL,141,Kg,,280
+SO-DEMO-001161,Sales Order,items,BIO-00100,1,Nos,Central Warehouse - ENXI,2638652
+SO-DEMO-001161,Sales Order,items,WASTE-INFECTIOUS,875,Kg,,648
+SO-DEMO-001162,Sales Order,items,BIO-00311,3,Nos,Central Warehouse - ENXI,320627
+SO-DEMO-001162,Sales Order,items,WASTE-GENERAL,1100,Kg,,383
+SO-DEMO-001163,Sales Order,items,BIO-00321,1,Nos,Central Warehouse - ENXI,2579900
+SO-DEMO-001164,Sales Order,items,BIO-00233,4,Nos,Central Warehouse - ENXI,908848
+SO-DEMO-001164,Sales Order,items,WASTE-GENERAL,332,Kg,,199
+SO-DEMO-001165,Sales Order,items,BIO-00366,2,Nos,Central Warehouse - ENXI,3139666
+SO-DEMO-001165,Sales Order,items,WASTE-PATHOLOGICAL,289,Kg,,394
+SO-DEMO-001166,Sales Order,items,BIO-00327,6,Nos,Central Warehouse - ENXI,441411
+SO-DEMO-001166,Sales Order,items,WASTE-CHEMICAL,688,Kg,,616
+SO-DEMO-001167,Sales Order,items,BIO-00378,1,Nos,Central Warehouse - ENXI,1575298
+SO-DEMO-001168,Sales Order,items,BIO-00370,3,Nos,Central Warehouse - ENXI,2345688
+SO-DEMO-001168,Sales Order,items,WASTE-GENERAL,945,Kg,,393
+SO-DEMO-001169,Sales Order,items,BIO-00257,2,Nos,Central Warehouse - ENXI,3237467
+SO-DEMO-001169,Sales Order,items,WASTE-PATHOLOGICAL,1028,Kg,,202
+SO-DEMO-001170,Sales Order,items,BIO-00353,5,Nos,Central Warehouse - ENXI,1896525
+SO-DEMO-001170,Sales Order,items,WASTE-GENERAL,126,Kg,,339
+SO-DEMO-001171,Sales Order,items,BIO-00061,3,Nos,Central Warehouse - ENXI,2135603
+SO-DEMO-001171,Sales Order,items,WASTE-GENERAL,296,Kg,,469
+SO-DEMO-001172,Sales Order,items,BIO-00047,2,Nos,Central Warehouse - ENXI,3239956
+SO-DEMO-001172,Sales Order,items,WASTE-SHARPS,161,Kg,,572
+SO-DEMO-001173,Sales Order,items,BIO-00327,3,Nos,Central Warehouse - ENXI,2110844
+SO-DEMO-001173,Sales Order,items,WASTE-GENERAL,625,Kg,,337
+SO-DEMO-001174,Sales Order,items,BIO-00028,4,Nos,Central Warehouse - ENXI,3140817
+SO-DEMO-001174,Sales Order,items,WASTE-SHARPS,407,Kg,,469
+SO-DEMO-001175,Sales Order,items,BIO-00097,3,Nos,Central Warehouse - ENXI,1015608
+SO-DEMO-001175,Sales Order,items,WASTE-SHARPS,651,Kg,,537
+SO-DEMO-001176,Sales Order,items,BIO-00251,3,Nos,Central Warehouse - ENXI,2607227
+SO-DEMO-001176,Sales Order,items,WASTE-GENERAL,1191,Kg,,410
+SO-DEMO-001177,Sales Order,items,BIO-00198,2,Nos,Central Warehouse - ENXI,2436320
+SO-DEMO-001177,Sales Order,items,WASTE-GENERAL,1008,Kg,,357
+SO-DEMO-001178,Sales Order,items,BIO-00359,5,Nos,Central Warehouse - ENXI,2493625
+SO-DEMO-001179,Sales Order,items,BIO-00108,3,Nos,Central Warehouse - ENXI,1095427
+SO-DEMO-001179,Sales Order,items,WASTE-INFECTIOUS,356,Kg,,444
+SO-DEMO-001180,Sales Order,items,BIO-00240,5,Nos,Central Warehouse - ENXI,1534722
+SO-DEMO-001180,Sales Order,items,WASTE-PHARMACEUTICAL,189,Kg,,345
+SO-DEMO-001181,Sales Order,items,BIO-00005,2,Nos,Central Warehouse - ENXI,1947512
+SO-DEMO-001181,Sales Order,items,WASTE-SHARPS,325,Kg,,275
+SO-DEMO-001182,Sales Order,items,BIO-00240,5,Nos,Central Warehouse - ENXI,960814
+SO-DEMO-001183,Sales Order,items,BIO-00304,5,Nos,Central Warehouse - ENXI,3092937
+SO-DEMO-001183,Sales Order,items,WASTE-PHARMACEUTICAL,1089,Kg,,607
+SO-DEMO-001184,Sales Order,items,BIO-00192,5,Nos,Central Warehouse - ENXI,1597164
+SO-DEMO-001184,Sales Order,items,WASTE-PHARMACEUTICAL,734,Kg,,200
+SO-DEMO-001185,Sales Order,items,BIO-00216,4,Nos,Central Warehouse - ENXI,3426695
+SO-DEMO-001185,Sales Order,items,WASTE-CHEMICAL,940,Kg,,483
+SO-DEMO-001186,Sales Order,items,BIO-00086,3,Nos,Central Warehouse - ENXI,2683375
+SO-DEMO-001187,Sales Order,items,BIO-00072,2,Nos,Central Warehouse - ENXI,2962528
+SO-DEMO-001187,Sales Order,items,WASTE-INFECTIOUS,305,Kg,,338
+SO-DEMO-001188,Sales Order,items,BIO-00203,2,Nos,Central Warehouse - ENXI,2111844
+SO-DEMO-001188,Sales Order,items,WASTE-PATHOLOGICAL,530,Kg,,632
+SO-DEMO-001189,Sales Order,items,BIO-00042,2,Nos,Central Warehouse - ENXI,1170625
+SO-DEMO-001190,Sales Order,items,BIO-00126,2,Nos,Central Warehouse - ENXI,3051896
+SO-DEMO-001190,Sales Order,items,WASTE-SHARPS,130,Kg,,424
+SO-DEMO-001191,Sales Order,items,BIO-00242,5,Nos,Central Warehouse - ENXI,3060591
+SO-DEMO-001191,Sales Order,items,WASTE-PATHOLOGICAL,1087,Kg,,522
+SO-DEMO-001192,Sales Order,items,BIO-00125,1,Nos,Central Warehouse - ENXI,1805602
+SO-DEMO-001192,Sales Order,items,WASTE-PATHOLOGICAL,938,Kg,,575
+SO-DEMO-001193,Sales Order,items,BIO-00374,4,Nos,Central Warehouse - ENXI,2683743
+SO-DEMO-001193,Sales Order,items,WASTE-INFECTIOUS,830,Kg,,430
+SO-DEMO-001194,Sales Order,items,BIO-00312,2,Nos,Central Warehouse - ENXI,3400570
+SO-DEMO-001194,Sales Order,items,WASTE-SHARPS,816,Kg,,436
+SO-DEMO-001195,Sales Order,items,BIO-00204,1,Nos,Central Warehouse - ENXI,2887747
+SO-DEMO-001195,Sales Order,items,WASTE-PHARMACEUTICAL,504,Kg,,202
+SO-DEMO-001196,Sales Order,items,BIO-00048,3,Nos,Central Warehouse - ENXI,1790891
+SO-DEMO-001196,Sales Order,items,WASTE-PHARMACEUTICAL,428,Kg,,325
+SO-DEMO-001197,Sales Order,items,BIO-00247,1,Nos,Central Warehouse - ENXI,1274795
+SO-DEMO-001198,Sales Order,items,BIO-00204,6,Nos,Central Warehouse - ENXI,2349917
+SO-DEMO-001199,Sales Order,items,BIO-00352,6,Nos,Central Warehouse - ENXI,605323
+SO-DEMO-001199,Sales Order,items,WASTE-PHARMACEUTICAL,145,Kg,,262
+SO-DEMO-001200,Sales Order,items,BIO-00260,4,Nos,Central Warehouse - ENXI,3058545
+SO-DEMO-001200,Sales Order,items,WASTE-PHARMACEUTICAL,942,Kg,,396

@@ -1,0 +1,261 @@
+subject,customer,raised_by,status,priority,opening_date
+Biomedical Service Ticket 00001,Lahore Diagnostic Medical College 26,ops0001@enxi.pk,Replied,Medium,2024-05-06
+Biomedical Service Ticket 00002,Noor Medical College 32,ops0002@enxi.pk,Closed,Medium,2025-01-16
+Biomedical Service Ticket 00003,Jinnah Hospital 29,ops0003@enxi.pk,Replied,Low,2025-05-21
+Biomedical Service Ticket 00004,Lahore Diagnostic Medical College 26,ops0004@enxi.pk,Resolved,Low,2024-12-01
+Biomedical Service Ticket 00005,Medix Hospital 35,ops0005@enxi.pk,Resolved,Medium,2025-12-21
+Biomedical Service Ticket 00006,Medix Clinic 12,ops0006@enxi.pk,Open,Medium,2024-07-08
+Biomedical Service Ticket 00007,LifeLine Hospital 38,ops0007@enxi.pk,Closed,Medium,2025-11-20
+Biomedical Service Ticket 00008,Prime Diagnostic Lab 27,ops0008@enxi.pk,Replied,High,2025-06-16
+Biomedical Service Ticket 00009,Jinnah Medical College 02,ops0009@enxi.pk,Replied,Low,2025-08-08
+Biomedical Service Ticket 00010,Services Clinic 40,ops0010@enxi.pk,Open,High,2025-03-28
+Biomedical Service Ticket 00011,Al-Rehman Diagnostic Lab 37,ops0011@enxi.pk,Closed,Low,2025-07-09
+Biomedical Service Ticket 00012,Shalimar Diagnostic Lab 21,ops0012@enxi.pk,Replied,Low,2026-03-11
+Biomedical Service Ticket 00013,Al-Rehman Diagnostic Lab 37,ops0013@enxi.pk,Closed,High,2025-02-18
+Biomedical Service Ticket 00014,Noor Diagnostic Lab 06,ops0014@enxi.pk,Resolved,Low,2025-09-10
+Biomedical Service Ticket 00015,Medix Clinic 39,ops0015@enxi.pk,Closed,High,2025-03-20
+Biomedical Service Ticket 00016,LifeLine Hospital 33,ops0016@enxi.pk,Replied,Low,2024-07-04
+Biomedical Service Ticket 00017,Services Medical College 30,ops0017@enxi.pk,Resolved,High,2024-09-11
+Biomedical Service Ticket 00018,Services Medical College 16,ops0018@enxi.pk,Replied,Medium,2025-05-20
+Biomedical Service Ticket 00019,City Care Clinic 13,ops0019@enxi.pk,Resolved,Low,2025-09-07
+Biomedical Service Ticket 00020,Shalimar Diagnostic Lab 19,ops0020@enxi.pk,Open,Low,2025-04-08
+Biomedical Service Ticket 00021,Medix Hospital 14,ops0021@enxi.pk,Closed,Medium,2026-01-31
+Biomedical Service Ticket 00022,Services Medical College 16,ops0022@enxi.pk,Closed,Low,2024-06-01
+Biomedical Service Ticket 00023,Medix Clinic 12,ops0023@enxi.pk,Closed,High,2024-08-12
+Biomedical Service Ticket 00024,Prime Hospital 08,ops0024@enxi.pk,Resolved,Low,2024-03-19
+Biomedical Service Ticket 00025,Services Medical College 16,ops0025@enxi.pk,Closed,High,2025-02-20
+Biomedical Service Ticket 00026,Lahore Diagnostic Hospital 05,ops0026@enxi.pk,Open,High,2026-03-06
+Biomedical Service Ticket 00027,Jinnah Diagnostic Lab 03,ops0027@enxi.pk,Closed,High,2025-11-06
+Biomedical Service Ticket 00028,Prime Medical College 31,ops0028@enxi.pk,Closed,Low,2024-12-01
+Biomedical Service Ticket 00029,Prime Diagnostic Lab 27,ops0029@enxi.pk,Resolved,High,2024-09-30
+Biomedical Service Ticket 00030,Medix Hospital 35,ops0030@enxi.pk,Open,High,2025-08-21
+Biomedical Service Ticket 00031,Medix Clinic 39,ops0031@enxi.pk,Open,Medium,2025-12-01
+Biomedical Service Ticket 00032,Prime Medical College 31,ops0032@enxi.pk,Open,Medium,2025-06-20
+Biomedical Service Ticket 00033,Lahore Diagnostic Medical College 26,ops0033@enxi.pk,Open,Medium,2025-05-31
+Biomedical Service Ticket 00034,Lahore Diagnostic Medical College 26,ops0034@enxi.pk,Closed,Medium,2024-04-30
+Biomedical Service Ticket 00035,Prime Hospital 08,ops0035@enxi.pk,Open,Low,2025-06-30
+Biomedical Service Ticket 00036,Central Clinic 17,ops0036@enxi.pk,Open,High,2024-12-25
+Biomedical Service Ticket 00037,Noor Medical College 11,ops0037@enxi.pk,Resolved,Medium,2024-04-21
+Biomedical Service Ticket 00038,Shalimar Medical College 22,ops0038@enxi.pk,Replied,Low,2024-07-14
+Biomedical Service Ticket 00039,Prime Medical College 31,ops0039@enxi.pk,Replied,Medium,2025-07-26
+Biomedical Service Ticket 00040,Medix Diagnostic Lab 07,ops0040@enxi.pk,Resolved,High,2025-06-26
+Biomedical Service Ticket 00041,Lahore Diagnostic Hospital 05,ops0041@enxi.pk,Closed,High,2025-03-22
+Biomedical Service Ticket 00042,Noor Medical College 32,ops0042@enxi.pk,Replied,Medium,2024-05-02
+Biomedical Service Ticket 00043,Shalimar Medical College 22,ops0043@enxi.pk,Resolved,High,2025-11-15
+Biomedical Service Ticket 00044,Jinnah Hospital 29,ops0044@enxi.pk,Resolved,Medium,2026-02-12
+Biomedical Service Ticket 00045,Central Clinic 17,ops0045@enxi.pk,Resolved,High,2025-03-25
+Biomedical Service Ticket 00046,Jinnah Diagnostic Lab 03,ops0046@enxi.pk,Replied,Low,2024-11-25
+Biomedical Service Ticket 00047,Medix Diagnostic Lab 34,ops0047@enxi.pk,Resolved,Low,2025-05-21
+Biomedical Service Ticket 00048,Prime Clinic 15,ops0048@enxi.pk,Resolved,High,2025-02-20
+Biomedical Service Ticket 00049,Central Clinic 24,ops0049@enxi.pk,Resolved,Medium,2026-02-01
+Biomedical Service Ticket 00050,Noor Medical College 11,ops0050@enxi.pk,Resolved,Medium,2025-01-09
+Biomedical Service Ticket 00051,Jinnah Hospital 29,ops0051@enxi.pk,Resolved,Low,2024-04-05
+Biomedical Service Ticket 00052,Mayo Diagnostic Lab 09,ops0052@enxi.pk,Replied,High,2025-09-18
+Biomedical Service Ticket 00053,Shalimar Diagnostic Lab 19,ops0053@enxi.pk,Closed,Medium,2024-12-10
+Biomedical Service Ticket 00054,Prime Clinic 15,ops0054@enxi.pk,Open,Low,2024-09-11
+Biomedical Service Ticket 00055,LifeLine Hospital 38,ops0055@enxi.pk,Resolved,Low,2025-01-06
+Biomedical Service Ticket 00056,LifeLine Hospital 38,ops0056@enxi.pk,Open,Medium,2025-03-12
+Biomedical Service Ticket 00057,Central Clinic 24,ops0057@enxi.pk,Closed,Medium,2025-05-13
+Biomedical Service Ticket 00058,Services Clinic 40,ops0058@enxi.pk,Replied,Medium,2024-03-29
+Biomedical Service Ticket 00059,Jinnah Hospital 10,ops0059@enxi.pk,Resolved,High,2025-06-12
+Biomedical Service Ticket 00060,Central Clinic 24,ops0060@enxi.pk,Closed,Medium,2025-02-07
+Biomedical Service Ticket 00061,Noor Medical College 11,ops0061@enxi.pk,Closed,Low,2025-01-10
+Biomedical Service Ticket 00062,Prime Medical College 31,ops0062@enxi.pk,Closed,Low,2025-12-23
+Biomedical Service Ticket 00063,Lahore Diagnostic Hospital 05,ops0063@enxi.pk,Resolved,Low,2024-04-17
+Biomedical Service Ticket 00064,Noor Hospital 20,ops0064@enxi.pk,Replied,Low,2025-11-12
+Biomedical Service Ticket 00065,Jinnah Hospital 10,ops0065@enxi.pk,Resolved,High,2024-07-04
+Biomedical Service Ticket 00066,Prime Hospital 08,ops0066@enxi.pk,Replied,Medium,2025-03-12
+Biomedical Service Ticket 00067,Noor Medical College 32,ops0067@enxi.pk,Closed,High,2024-04-18
+Biomedical Service Ticket 00068,Services Diagnostic Lab 01,ops0068@enxi.pk,Replied,High,2025-09-07
+Biomedical Service Ticket 00069,City Care Clinic 13,ops0069@enxi.pk,Resolved,High,2025-04-21
+Biomedical Service Ticket 00070,Jinnah Diagnostic Lab 03,ops0070@enxi.pk,Closed,High,2024-11-21
+Biomedical Service Ticket 00071,Medix Diagnostic Lab 07,ops0071@enxi.pk,Resolved,High,2024-09-07
+Biomedical Service Ticket 00072,Lahore Diagnostic Hospital 05,ops0072@enxi.pk,Resolved,High,2024-06-06
+Biomedical Service Ticket 00073,Medix Hospital 35,ops0073@enxi.pk,Open,Low,2025-09-10
+Biomedical Service Ticket 00074,Jinnah Hospital 29,ops0074@enxi.pk,Replied,Low,2024-06-16
+Biomedical Service Ticket 00075,Central Clinic 17,ops0075@enxi.pk,Replied,High,2024-07-19
+Biomedical Service Ticket 00076,Services Medical College 16,ops0076@enxi.pk,Replied,High,2024-08-07
+Biomedical Service Ticket 00077,Services Medical College 30,ops0077@enxi.pk,Replied,Low,2025-12-20
+Biomedical Service Ticket 00078,Medix Clinic 39,ops0078@enxi.pk,Resolved,High,2025-07-30
+Biomedical Service Ticket 00079,Medix Hospital 18,ops0079@enxi.pk,Open,High,2025-05-27
+Biomedical Service Ticket 00080,City Care Clinic 13,ops0080@enxi.pk,Open,Low,2024-12-18
+Biomedical Service Ticket 00081,Medix Diagnostic Lab 34,ops0081@enxi.pk,Resolved,Low,2025-02-28
+Biomedical Service Ticket 00082,Medix Hospital 14,ops0082@enxi.pk,Replied,Low,2025-06-24
+Biomedical Service Ticket 00083,LifeLine Hospital 38,ops0083@enxi.pk,Closed,Medium,2026-02-15
+Biomedical Service Ticket 00084,Medix Diagnostic Lab 07,ops0084@enxi.pk,Open,Medium,2025-12-04
+Biomedical Service Ticket 00085,Lahore Diagnostic Hospital 05,ops0085@enxi.pk,Replied,Medium,2024-11-16
+Biomedical Service Ticket 00086,Prime Hospital 08,ops0086@enxi.pk,Closed,Low,2025-08-30
+Biomedical Service Ticket 00087,Prime Medical College 31,ops0087@enxi.pk,Replied,Low,2025-10-15
+Biomedical Service Ticket 00088,Medix Hospital 35,ops0088@enxi.pk,Replied,High,2025-06-24
+Biomedical Service Ticket 00089,Noor Medical College 32,ops0089@enxi.pk,Resolved,High,2024-04-22
+Biomedical Service Ticket 00090,Services Diagnostic Lab 01,ops0090@enxi.pk,Closed,Low,2024-05-29
+Biomedical Service Ticket 00091,Jinnah Hospital 29,ops0091@enxi.pk,Replied,High,2025-02-09
+Biomedical Service Ticket 00092,Services Clinic 40,ops0092@enxi.pk,Closed,Low,2025-03-28
+Biomedical Service Ticket 00093,Central Clinic 17,ops0093@enxi.pk,Closed,High,2024-04-20
+Biomedical Service Ticket 00094,Medix Hospital 18,ops0094@enxi.pk,Closed,High,2024-08-09
+Biomedical Service Ticket 00095,Medix Clinic 12,ops0095@enxi.pk,Resolved,High,2025-11-25
+Biomedical Service Ticket 00096,Prime Medical College 31,ops0096@enxi.pk,Resolved,High,2025-12-25
+Biomedical Service Ticket 00097,Noor Hospital 20,ops0097@enxi.pk,Resolved,High,2024-06-23
+Biomedical Service Ticket 00098,Services Medical College 16,ops0098@enxi.pk,Resolved,Medium,2025-04-07
+Biomedical Service Ticket 00099,Central Clinic 36,ops0099@enxi.pk,Resolved,High,2025-08-18
+Biomedical Service Ticket 00100,Jinnah Hospital 29,ops0100@enxi.pk,Open,Low,2024-05-31
+Biomedical Service Ticket 00101,Noor Medical College 32,ops0101@enxi.pk,Open,Medium,2025-02-20
+Biomedical Service Ticket 00102,LifeLine Hospital 33,ops0102@enxi.pk,Closed,Medium,2025-12-24
+Biomedical Service Ticket 00103,Noor Medical College 11,ops0103@enxi.pk,Replied,Low,2025-01-15
+Biomedical Service Ticket 00104,Shalimar Medical College 28,ops0104@enxi.pk,Resolved,Low,2025-05-18
+Biomedical Service Ticket 00105,Jinnah Hospital 29,ops0105@enxi.pk,Resolved,High,2025-04-26
+Biomedical Service Ticket 00106,Medix Hospital 35,ops0106@enxi.pk,Replied,Low,2024-04-03
+Biomedical Service Ticket 00107,Medix Diagnostic Lab 07,ops0107@enxi.pk,Replied,Low,2024-09-16
+Biomedical Service Ticket 00108,Noor Hospital 20,ops0108@enxi.pk,Resolved,Medium,2024-11-30
+Biomedical Service Ticket 00109,Medix Diagnostic Lab 34,ops0109@enxi.pk,Closed,Low,2026-01-09
+Biomedical Service Ticket 00110,Noor Hospital 20,ops0110@enxi.pk,Replied,High,2024-06-01
+Biomedical Service Ticket 00111,Jinnah Hospital 10,ops0111@enxi.pk,Resolved,Low,2025-05-29
+Biomedical Service Ticket 00112,City Care Clinic 13,ops0112@enxi.pk,Closed,Low,2024-07-09
+Biomedical Service Ticket 00113,Noor Medical College 11,ops0113@enxi.pk,Replied,Medium,2024-09-24
+Biomedical Service Ticket 00114,Medix Diagnostic Lab 34,ops0114@enxi.pk,Closed,High,2025-10-17
+Biomedical Service Ticket 00115,Medix Clinic 39,ops0115@enxi.pk,Closed,High,2024-12-04
+Biomedical Service Ticket 00116,Medix Hospital 18,ops0116@enxi.pk,Replied,Medium,2025-01-16
+Biomedical Service Ticket 00117,Prime Medical College 31,ops0117@enxi.pk,Resolved,Medium,2025-12-02
+Biomedical Service Ticket 00118,Jinnah Hospital 10,ops0118@enxi.pk,Resolved,Medium,2025-08-20
+Biomedical Service Ticket 00119,Medix Clinic 23,ops0119@enxi.pk,Resolved,Medium,2025-09-15
+Biomedical Service Ticket 00120,Noor Hospital 20,ops0120@enxi.pk,Closed,High,2024-11-16
+Biomedical Service Ticket 00121,Lahore Diagnostic Medical College 26,ops0121@enxi.pk,Closed,Low,2026-02-20
+Biomedical Service Ticket 00122,Lahore Diagnostic Medical College 26,ops0122@enxi.pk,Open,Medium,2024-05-01
+Biomedical Service Ticket 00123,Medix Clinic 23,ops0123@enxi.pk,Replied,Medium,2025-03-30
+Biomedical Service Ticket 00124,Medix Hospital 18,ops0124@enxi.pk,Open,High,2025-10-20
+Biomedical Service Ticket 00125,City Care Clinic 13,ops0125@enxi.pk,Replied,High,2025-07-09
+Biomedical Service Ticket 00126,Central Clinic 17,ops0126@enxi.pk,Resolved,Medium,2024-10-18
+Biomedical Service Ticket 00127,Jinnah Medical College 02,ops0127@enxi.pk,Resolved,Medium,2025-06-02
+Biomedical Service Ticket 00128,Lahore Diagnostic Diagnostic Lab 25,ops0128@enxi.pk,Resolved,High,2024-12-18
+Biomedical Service Ticket 00129,Central Clinic 36,ops0129@enxi.pk,Replied,Low,2026-02-15
+Biomedical Service Ticket 00130,Services Clinic 40,ops0130@enxi.pk,Closed,Medium,2024-09-18
+Biomedical Service Ticket 00131,Medix Diagnostic Lab 07,ops0131@enxi.pk,Open,Low,2024-12-20
+Biomedical Service Ticket 00132,Noor Medical College 11,ops0132@enxi.pk,Resolved,High,2025-08-07
+Biomedical Service Ticket 00133,Prime Medical College 31,ops0133@enxi.pk,Closed,Low,2026-01-28
+Biomedical Service Ticket 00134,Lahore Diagnostic Diagnostic Lab 25,ops0134@enxi.pk,Closed,Low,2024-04-27
+Biomedical Service Ticket 00135,Medix Hospital 18,ops0135@enxi.pk,Closed,Low,2025-11-21
+Biomedical Service Ticket 00136,Medix Diagnostic Lab 07,ops0136@enxi.pk,Open,High,2025-04-24
+Biomedical Service Ticket 00137,Shalimar Medical College 22,ops0137@enxi.pk,Resolved,High,2024-09-13
+Biomedical Service Ticket 00138,Central Clinic 24,ops0138@enxi.pk,Closed,Medium,2026-02-04
+Biomedical Service Ticket 00139,Prime Hospital 08,ops0139@enxi.pk,Closed,Low,2024-12-28
+Biomedical Service Ticket 00140,Lahore Diagnostic Hospital 05,ops0140@enxi.pk,Resolved,High,2024-12-16
+Biomedical Service Ticket 00141,Prime Diagnostic Lab 27,ops0141@enxi.pk,Replied,Low,2024-03-17
+Biomedical Service Ticket 00142,LifeLine Hospital 38,ops0142@enxi.pk,Resolved,High,2025-05-02
+Biomedical Service Ticket 00143,City Care Clinic 13,ops0143@enxi.pk,Open,Medium,2024-10-10
+Biomedical Service Ticket 00144,Services Medical College 16,ops0144@enxi.pk,Resolved,High,2024-03-31
+Biomedical Service Ticket 00145,Medix Hospital 35,ops0145@enxi.pk,Resolved,High,2025-05-10
+Biomedical Service Ticket 00146,Medix Diagnostic Lab 34,ops0146@enxi.pk,Resolved,High,2026-01-13
+Biomedical Service Ticket 00147,Jinnah Medical College 02,ops0147@enxi.pk,Replied,Low,2024-07-22
+Biomedical Service Ticket 00148,Shalimar Diagnostic Lab 21,ops0148@enxi.pk,Resolved,Medium,2024-12-18
+Biomedical Service Ticket 00149,Medix Hospital 14,ops0149@enxi.pk,Replied,Medium,2024-12-10
+Biomedical Service Ticket 00150,Services Medical College 30,ops0150@enxi.pk,Replied,Medium,2025-06-28
+Biomedical Service Ticket 00151,Central Clinic 24,ops0151@enxi.pk,Resolved,Low,2025-11-15
+Biomedical Service Ticket 00152,Central Clinic 17,ops0152@enxi.pk,Resolved,High,2025-12-22
+Biomedical Service Ticket 00153,Jinnah Medical College 02,ops0153@enxi.pk,Replied,Low,2025-01-31
+Biomedical Service Ticket 00154,Prime Diagnostic Lab 27,ops0154@enxi.pk,Closed,Medium,2024-06-19
+Biomedical Service Ticket 00155,Noor Medical College 32,ops0155@enxi.pk,Open,High,2024-10-24
+Biomedical Service Ticket 00156,Prime Hospital 04,ops0156@enxi.pk,Resolved,Low,2024-10-28
+Biomedical Service Ticket 00157,Al-Rehman Diagnostic Lab 37,ops0157@enxi.pk,Closed,Low,2024-03-30
+Biomedical Service Ticket 00158,LifeLine Hospital 33,ops0158@enxi.pk,Resolved,High,2026-03-08
+Biomedical Service Ticket 00159,Noor Medical College 32,ops0159@enxi.pk,Resolved,High,2025-02-07
+Biomedical Service Ticket 00160,Shalimar Medical College 22,ops0160@enxi.pk,Open,High,2024-10-24
+Biomedical Service Ticket 00161,Lahore Diagnostic Hospital 05,ops0161@enxi.pk,Open,High,2024-05-16
+Biomedical Service Ticket 00162,Prime Hospital 08,ops0162@enxi.pk,Replied,High,2025-11-28
+Biomedical Service Ticket 00163,Noor Diagnostic Lab 06,ops0163@enxi.pk,Closed,High,2024-12-31
+Biomedical Service Ticket 00164,City Care Clinic 13,ops0164@enxi.pk,Open,High,2026-03-11
+Biomedical Service Ticket 00165,Shalimar Medical College 28,ops0165@enxi.pk,Resolved,Medium,2025-11-25
+Biomedical Service Ticket 00166,Jinnah Hospital 29,ops0166@enxi.pk,Replied,High,2025-06-26
+Biomedical Service Ticket 00167,Shalimar Medical College 22,ops0167@enxi.pk,Open,Low,2025-11-04
+Biomedical Service Ticket 00168,Al-Rehman Diagnostic Lab 37,ops0168@enxi.pk,Resolved,Medium,2025-05-16
+Biomedical Service Ticket 00169,Medix Diagnostic Lab 34,ops0169@enxi.pk,Closed,Low,2025-12-22
+Biomedical Service Ticket 00170,Lahore Diagnostic Medical College 26,ops0170@enxi.pk,Resolved,Low,2025-11-11
+Biomedical Service Ticket 00171,Services Clinic 40,ops0171@enxi.pk,Closed,Low,2025-02-11
+Biomedical Service Ticket 00172,Services Diagnostic Lab 01,ops0172@enxi.pk,Replied,Medium,2025-09-17
+Biomedical Service Ticket 00173,Shalimar Medical College 28,ops0173@enxi.pk,Replied,Medium,2025-04-14
+Biomedical Service Ticket 00174,Prime Clinic 15,ops0174@enxi.pk,Resolved,High,2025-07-12
+Biomedical Service Ticket 00175,Services Medical College 30,ops0175@enxi.pk,Replied,High,2025-10-04
+Biomedical Service Ticket 00176,Medix Clinic 23,ops0176@enxi.pk,Replied,Low,2024-03-24
+Biomedical Service Ticket 00177,Jinnah Hospital 10,ops0177@enxi.pk,Replied,Medium,2025-02-26
+Biomedical Service Ticket 00178,Medix Clinic 12,ops0178@enxi.pk,Open,Low,2025-02-23
+Biomedical Service Ticket 00179,Medix Hospital 35,ops0179@enxi.pk,Open,Low,2025-02-02
+Biomedical Service Ticket 00180,Medix Hospital 35,ops0180@enxi.pk,Resolved,Low,2025-03-01
+Biomedical Service Ticket 00181,Shalimar Diagnostic Lab 21,ops0181@enxi.pk,Resolved,Low,2025-06-10
+Biomedical Service Ticket 00182,Medix Hospital 14,ops0182@enxi.pk,Replied,Medium,2024-08-14
+Biomedical Service Ticket 00183,Noor Medical College 11,ops0183@enxi.pk,Closed,Medium,2025-06-28
+Biomedical Service Ticket 00184,Prime Clinic 15,ops0184@enxi.pk,Replied,Medium,2025-08-04
+Biomedical Service Ticket 00185,Jinnah Medical College 02,ops0185@enxi.pk,Replied,Medium,2024-10-13
+Biomedical Service Ticket 00186,Prime Hospital 08,ops0186@enxi.pk,Closed,Low,2025-09-08
+Biomedical Service Ticket 00187,Jinnah Hospital 29,ops0187@enxi.pk,Replied,Medium,2026-02-24
+Biomedical Service Ticket 00188,Prime Hospital 04,ops0188@enxi.pk,Closed,Medium,2024-09-02
+Biomedical Service Ticket 00189,Lahore Diagnostic Medical College 26,ops0189@enxi.pk,Replied,Low,2026-01-30
+Biomedical Service Ticket 00190,Lahore Diagnostic Diagnostic Lab 25,ops0190@enxi.pk,Open,Low,2025-04-15
+Biomedical Service Ticket 00191,Medix Clinic 12,ops0191@enxi.pk,Open,Low,2024-11-28
+Biomedical Service Ticket 00192,Medix Hospital 14,ops0192@enxi.pk,Open,Medium,2025-04-28
+Biomedical Service Ticket 00193,Medix Clinic 39,ops0193@enxi.pk,Resolved,High,2024-04-14
+Biomedical Service Ticket 00194,Shalimar Diagnostic Lab 21,ops0194@enxi.pk,Closed,Low,2026-01-17
+Biomedical Service Ticket 00195,Medix Hospital 14,ops0195@enxi.pk,Open,High,2025-10-18
+Biomedical Service Ticket 00196,Central Clinic 24,ops0196@enxi.pk,Closed,Medium,2024-05-31
+Biomedical Service Ticket 00197,LifeLine Hospital 33,ops0197@enxi.pk,Open,Medium,2025-12-18
+Biomedical Service Ticket 00198,Jinnah Medical College 02,ops0198@enxi.pk,Open,Medium,2025-07-23
+Biomedical Service Ticket 00199,Prime Diagnostic Lab 27,ops0199@enxi.pk,Closed,Low,2025-10-07
+Biomedical Service Ticket 00200,Medix Clinic 23,ops0200@enxi.pk,Resolved,Medium,2025-02-28
+Biomedical Service Ticket 00201,Lahore Diagnostic Hospital 05,ops0201@enxi.pk,Closed,High,2024-06-05
+Biomedical Service Ticket 00202,Noor Hospital 20,ops0202@enxi.pk,Replied,High,2024-10-10
+Biomedical Service Ticket 00203,Noor Diagnostic Lab 06,ops0203@enxi.pk,Closed,Medium,2025-09-05
+Biomedical Service Ticket 00204,Jinnah Medical College 02,ops0204@enxi.pk,Resolved,High,2025-03-25
+Biomedical Service Ticket 00205,Shalimar Diagnostic Lab 21,ops0205@enxi.pk,Open,Low,2025-01-17
+Biomedical Service Ticket 00206,Services Medical College 16,ops0206@enxi.pk,Replied,High,2025-01-04
+Biomedical Service Ticket 00207,Services Diagnostic Lab 01,ops0207@enxi.pk,Replied,High,2025-01-28
+Biomedical Service Ticket 00208,Jinnah Hospital 10,ops0208@enxi.pk,Replied,High,2025-06-17
+Biomedical Service Ticket 00209,Prime Medical College 31,ops0209@enxi.pk,Open,Low,2026-01-31
+Biomedical Service Ticket 00210,Medix Clinic 39,ops0210@enxi.pk,Replied,High,2025-07-03
+Biomedical Service Ticket 00211,Shalimar Diagnostic Lab 19,ops0211@enxi.pk,Resolved,High,2024-04-11
+Biomedical Service Ticket 00212,Prime Diagnostic Lab 27,ops0212@enxi.pk,Replied,Medium,2024-08-18
+Biomedical Service Ticket 00213,Medix Clinic 12,ops0213@enxi.pk,Replied,High,2025-12-11
+Biomedical Service Ticket 00214,Jinnah Hospital 10,ops0214@enxi.pk,Replied,Medium,2025-10-31
+Biomedical Service Ticket 00215,Prime Hospital 08,ops0215@enxi.pk,Replied,Low,2024-08-29
+Biomedical Service Ticket 00216,Noor Medical College 32,ops0216@enxi.pk,Replied,Medium,2025-12-11
+Biomedical Service Ticket 00217,Lahore Diagnostic Medical College 26,ops0217@enxi.pk,Resolved,Medium,2025-03-07
+Biomedical Service Ticket 00218,Services Clinic 40,ops0218@enxi.pk,Resolved,Low,2025-10-11
+Biomedical Service Ticket 00219,Jinnah Medical College 02,ops0219@enxi.pk,Resolved,Low,2025-05-27
+Biomedical Service Ticket 00220,Prime Medical College 31,ops0220@enxi.pk,Open,High,2025-05-11
+Biomedical Service Ticket 00221,Jinnah Hospital 10,ops0221@enxi.pk,Closed,Low,2024-04-04
+Biomedical Service Ticket 00222,Medix Hospital 35,ops0222@enxi.pk,Closed,High,2024-12-27
+Biomedical Service Ticket 00223,Medix Diagnostic Lab 34,ops0223@enxi.pk,Replied,Low,2025-10-02
+Biomedical Service Ticket 00224,Medix Diagnostic Lab 07,ops0224@enxi.pk,Open,Medium,2025-07-27
+Biomedical Service Ticket 00225,Prime Clinic 15,ops0225@enxi.pk,Open,Medium,2024-11-07
+Biomedical Service Ticket 00226,Lahore Diagnostic Hospital 05,ops0226@enxi.pk,Open,Medium,2025-03-31
+Biomedical Service Ticket 00227,Services Medical College 30,ops0227@enxi.pk,Closed,High,2025-09-13
+Biomedical Service Ticket 00228,Jinnah Hospital 29,ops0228@enxi.pk,Replied,High,2024-07-24
+Biomedical Service Ticket 00229,Services Diagnostic Lab 01,ops0229@enxi.pk,Resolved,Medium,2025-04-03
+Biomedical Service Ticket 00230,Prime Medical College 31,ops0230@enxi.pk,Resolved,Low,2025-11-23
+Biomedical Service Ticket 00231,Shalimar Diagnostic Lab 21,ops0231@enxi.pk,Resolved,High,2024-07-16
+Biomedical Service Ticket 00232,Medix Diagnostic Lab 07,ops0232@enxi.pk,Closed,Medium,2024-06-19
+Biomedical Service Ticket 00233,Al-Rehman Diagnostic Lab 37,ops0233@enxi.pk,Replied,Low,2025-04-21
+Biomedical Service Ticket 00234,Prime Clinic 15,ops0234@enxi.pk,Replied,Low,2024-10-21
+Biomedical Service Ticket 00235,Prime Clinic 15,ops0235@enxi.pk,Open,High,2024-10-14
+Biomedical Service Ticket 00236,Medix Diagnostic Lab 07,ops0236@enxi.pk,Closed,Medium,2024-07-03
+Biomedical Service Ticket 00237,Services Clinic 40,ops0237@enxi.pk,Open,Low,2025-10-17
+Biomedical Service Ticket 00238,Prime Clinic 15,ops0238@enxi.pk,Resolved,Low,2025-01-02
+Biomedical Service Ticket 00239,Noor Hospital 20,ops0239@enxi.pk,Resolved,High,2024-09-10
+Biomedical Service Ticket 00240,Services Medical College 30,ops0240@enxi.pk,Resolved,Low,2024-08-21
+Biomedical Service Ticket 00241,Shalimar Diagnostic Lab 21,ops0241@enxi.pk,Closed,Medium,2025-04-26
+Biomedical Service Ticket 00242,Jinnah Hospital 10,ops0242@enxi.pk,Open,High,2025-09-26
+Biomedical Service Ticket 00243,Lahore Diagnostic Diagnostic Lab 25,ops0243@enxi.pk,Open,Low,2025-05-04
+Biomedical Service Ticket 00244,Medix Clinic 12,ops0244@enxi.pk,Open,Low,2025-03-07
+Biomedical Service Ticket 00245,Jinnah Diagnostic Lab 03,ops0245@enxi.pk,Replied,Low,2024-10-20
+Biomedical Service Ticket 00246,Lahore Diagnostic Medical College 26,ops0246@enxi.pk,Resolved,Low,2025-05-14
+Biomedical Service Ticket 00247,Al-Rehman Diagnostic Lab 37,ops0247@enxi.pk,Closed,Medium,2025-11-15
+Biomedical Service Ticket 00248,Medix Clinic 23,ops0248@enxi.pk,Replied,High,2024-12-22
+Biomedical Service Ticket 00249,Al-Rehman Diagnostic Lab 37,ops0249@enxi.pk,Closed,Medium,2025-02-02
+Biomedical Service Ticket 00250,Medix Hospital 14,ops0250@enxi.pk,Closed,High,2025-03-18
+Biomedical Service Ticket 00251,Central Clinic 17,ops0251@enxi.pk,Closed,Low,2025-12-17
+Biomedical Service Ticket 00252,Medix Hospital 18,ops0252@enxi.pk,Resolved,Medium,2024-06-28
+Biomedical Service Ticket 00253,Medix Clinic 12,ops0253@enxi.pk,Resolved,Medium,2026-01-21
+Biomedical Service Ticket 00254,Noor Medical College 32,ops0254@enxi.pk,Closed,High,2026-02-13
+Biomedical Service Ticket 00255,Medix Diagnostic Lab 07,ops0255@enxi.pk,Resolved,High,2025-12-20
+Biomedical Service Ticket 00256,Central Clinic 17,ops0256@enxi.pk,Open,Medium,2025-12-23
+Biomedical Service Ticket 00257,Shalimar Medical College 28,ops0257@enxi.pk,Open,High,2025-01-31
+Biomedical Service Ticket 00258,Mayo Diagnostic Lab 09,ops0258@enxi.pk,Open,Low,2025-08-08
+Biomedical Service Ticket 00259,Services Medical College 30,ops0259@enxi.pk,Open,Low,2025-09-11
+Biomedical Service Ticket 00260,Central Clinic 36,ops0260@enxi.pk,Resolved,Low,2025-09-08

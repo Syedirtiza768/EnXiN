@@ -1,0 +1,32 @@
+supplier_name,supplier_type,supplier_group,country,default_currency
+BioMed Supplier 001,Company,Raw Material,Pakistan,PKR
+BioMed Supplier 002,Company,Raw Material,Pakistan,PKR
+BioMed Supplier 003,Company,Services,Pakistan,PKR
+BioMed Supplier 004,Company,Raw Material,Pakistan,PKR
+BioMed Supplier 005,Company,Raw Material,Pakistan,PKR
+BioMed Supplier 006,Company,Raw Material,Pakistan,PKR
+BioMed Supplier 007,Company,Raw Material,Pakistan,PKR
+BioMed Supplier 008,Company,Raw Material,Pakistan,PKR
+BioMed Supplier 009,Company,Services,Pakistan,PKR
+BioMed Supplier 010,Company,Raw Material,Pakistan,PKR
+BioMed Supplier 011,Company,Raw Material,Pakistan,PKR
+BioMed Supplier 012,Company,Raw Material,Pakistan,PKR
+BioMed Supplier 013,Company,Raw Material,Pakistan,PKR
+BioMed Supplier 014,Company,Raw Material,Pakistan,PKR
+BioMed Supplier 015,Company,Raw Material,Pakistan,PKR
+BioMed Supplier 016,Company,Raw Material,Pakistan,PKR
+BioMed Supplier 017,Company,Services,Pakistan,PKR
+BioMed Supplier 018,Company,Raw Material,Pakistan,PKR
+BioMed Supplier 019,Company,Services,Pakistan,PKR
+BioMed Supplier 020,Company,Services,Pakistan,PKR
+BioMed Supplier 021,Company,Raw Material,Pakistan,PKR
+BioMed Supplier 022,Company,Raw Material,Pakistan,PKR
+BioMed Supplier 023,Company,Services,Pakistan,PKR
+BioMed Supplier 024,Company,Services,Pakistan,PKR
+BioMed Supplier 025,Company,Services,Pakistan,PKR
+Waste Disposal Partner 001,Company,Services,Pakistan,PKR
+Waste Disposal Partner 002,Company,Services,Pakistan,PKR
+Waste Disposal Partner 003,Company,Services,Pakistan,PKR
+Waste Disposal Partner 004,Company,Services,Pakistan,PKR
+Waste Disposal Partner 005,Company,Services,Pakistan,PKR
+Waste Disposal Partner 006,Company,Services,Pakistan,PKR

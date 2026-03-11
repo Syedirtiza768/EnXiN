@@ -42,7 +42,10 @@ do_configure () {
     log "Restoring apps.txt and built assets into volume..."
     cp -f /home/frappe/apps.txt sites/apps.txt
     mkdir -p sites/assets
-    cp -af /home/frappe/assets/. sites/assets/
+    rm -rf sites/assets/* sites/assets/.[!.]* sites/assets/..?* 2>/dev/null || true
+    # Copy concrete asset files into the shared volume; preserving symlinks
+    # breaks static file serving in the nginx container where app sources are absent.
+    cp -aLf /home/frappe/assets/. sites/assets/
 
     # -- Generate common_site_config.json -------------------------
     log "Writing common_site_config.json..."

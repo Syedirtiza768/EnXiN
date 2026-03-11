@@ -1,0 +1,42 @@
+{
+  "generated_at": "2026-03-11T21:34:02.362771Z",
+  "location": "Lahore, Pakistan",
+  "company_domain": [
+    "Biomedical equipment distribution",
+    "Hospital waste collection and disposal services (mapped to existing ERPNext docs)"
+  ],
+  "time_horizon_years": 2,
+  "requested_volumes": {
+    "hospitals": 40,
+    "items": 380,
+    "sales_orders": 1200,
+    "waste_events": 3200,
+    "service_tickets": 260,
+    "financial_transactions": 1200
+  },
+  "generated_counts": {
+    "Company": 1,
+    "Warehouse": 3,
+    "Department": 5,
+    "Supplier": 31,
+    "Customer": 40,
+    "Item": 386,
+    "Item Price": 766,
+    "Sales Order": 1200,
+    "Sales Order Item": 2115,
+    "Issue": 260,
+    "Address": 71,
+    "Waste Events (JSON)": 3200,
+    "Financial Events (JSON)": 1200
+  },
+  "schema_scope": {
+    "no_custom_tables_created": true,
+    "waste_specific_doctypes_found": false,
+    "waste_mapping": "Waste collection modeled through service items + route events export + logistics references"
+  },
+  "integrity_checks": {
+    "customer_refs_in_sales": true,
+    "item_refs_in_sales_items": true,
+    "service_event_customer_refs": true
+  }
+}
