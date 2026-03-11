@@ -297,21 +297,40 @@ def import_seed(seed_dir: str = "seed_output", company_override: str | None = No
 	address_rows = _read_csv(base / "Address.csv")
 
 	seed_company = company_rows[0].get("name") if company_rows else ""
+	seed_abbr = company_rows[0].get("abbr", "") if company_rows else ""
 	seed_country = company_rows[0].get("country", "Pakistan") if company_rows else "Pakistan"
 	seed_currency = company_rows[0].get("default_currency", "PKR") if company_rows else "PKR"
 	target_company = _resolve_company(seed_company, company_override, seed_country, seed_currency)
+	target_abbr = frappe.db.get_value("Company", target_company, "abbr") or ""
+
+	# Build warehouse suffix remapper: "- ENXI" → "- GBC"
+	def _remap_wh(val):
+		if not val or not seed_abbr or not target_abbr or seed_abbr == target_abbr:
+			return val
+		return val.replace(f" - {seed_abbr}", f" - {target_abbr}")
 
 	for row in warehouse_rows:
 		if row.get("company") == seed_company:
 			row["company"] = target_company
+		row["name"] = _remap_wh(row.get("name", ""))
 	for row in department_rows:
 		if row.get("company") == seed_company:
 			row["company"] = target_company
 	for row in so_rows:
 		if row.get("company") == seed_company:
 			row["company"] = target_company
+	for row in soi_rows:
+		row["warehouse"] = _remap_wh(row.get("warehouse", ""))
 
-	report["Company Mapping"] = {"seed_company": seed_company, "target_company": target_company}
+	report["Company Mapping"] = {
+		"seed_company": seed_company, "target_company": target_company,
+		"seed_abbr": seed_abbr, "target_abbr": target_abbr,
+	}
+
+	# Pre-create standard UOMs expected by seed items.
+	for uom_name in ("Nos", "Kg", "Unit", "Pair", "Box", "Set", "Ltr"):
+		if not frappe.db.exists("UOM", uom_name):
+			frappe.get_doc({"doctype": "UOM", "uom_name": uom_name}).insert(ignore_permissions=True)
 
 	# Company creation is intentionally skipped by default because ERPNext sites
 	# usually already have chart-of-accounts bootstrapped for an existing company.
