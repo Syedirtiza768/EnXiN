@@ -1,0 +1,65 @@
+name: Build & Validate
+
+on:
+  push:
+    branches: [main, dev]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+
+  # ---- Code quality ----------------------------------------------
+  lint:
+    name: Lint
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - uses: pre-commit/action@v3.0.0
+
+  # ---- Docker build smoke test -----------------------------------
+  docker-build:
+    name: Docker Build
+    runs-on: ubuntu-latest
+    needs: lint
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Prepare environment
+        run: |
+          cp env/.env.example .env
+          sed -i 's/changeme_db_root/ci_test_root_pw/' .env
+          sed -i 's/changeme_admin/ci_test_admin_pw/' .env
+
+      - name: Build Docker image
+        run: docker compose build
+
+      - name: Start stack & wait for init
+        run: |
+          docker compose up -d
+          echo "Waiting for configurator to finish (max 180s)..."
+          timeout 180 bash -c '
+            while docker compose ps configurator --format "{{.State}}" 2>/dev/null | grep -qi running; do
+              sleep 5
+            done
+          ' || true
+          docker compose ps
+          docker compose logs configurator --tail 40
+
+      - name: Verify backend is responding
+        run: |
+          sleep 15
+          curl -sf --retry 5 --retry-delay 5 http://localhost:8090 || true
+          docker compose logs backend --tail 20
+
+      - name: Tear down
+        if: always()
+        run: docker compose down -v

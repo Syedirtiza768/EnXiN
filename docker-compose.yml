@@ -1,0 +1,168 @@
+# ==================================================================
+# EnXi ERP — Docker Compose (Production)
+# ==================================================================
+#
+# First deploy:
+#   cp env/.env.example .env   # then edit passwords
+#   docker compose up -d --build
+#
+# Update:
+#   git pull && docker compose down && docker compose up -d --build
+#   OR:  ./scripts/update.sh
+#
+# Logs:   docker compose logs -f
+# Stop:   docker compose down
+# Backup: ./scripts/backup.sh
+#
+# ==================================================================
+
+x-enxi-common: &enxi-common
+  build:
+    context: .
+    dockerfile: docker/Dockerfile
+    args:
+      PYTHON_VERSION: ${PYTHON_VERSION:-3.12}
+      NODE_VERSION: ${NODE_VERSION:-20}
+      FRAPPE_BRANCH: ${FRAPPE_BRANCH:-develop}
+      PAYMENTS_BRANCH: ${PAYMENTS_BRANCH:-develop}
+  image: enxi:${ENXI_VERSION:-latest}
+  volumes:
+    - sites:/home/frappe/frappe-bench/sites
+  environment: &enxi-env
+    DB_HOST: ${DB_HOST:-db}
+    DB_PORT: ${DB_PORT:-3306}
+    DB_ROOT_PASSWORD: ${DB_ROOT_PASSWORD:?Set DB_ROOT_PASSWORD in .env}
+    DB_NAME: ${DB_NAME:-enxi}
+    SITE_NAME: ${SITE_NAME:-enxi.localhost}
+    ADMIN_PASSWORD: ${ADMIN_PASSWORD:-admin}
+    REDIS_CACHE: redis://redis-cache:6379/0
+    REDIS_QUEUE: redis://redis-queue:6379/0
+    REDIS_SOCKETIO: redis://redis-socketio:6379/0
+  restart: unless-stopped
+
+services:
+
+  # ---- Init / Configurator (runs once then exits) ----------------
+  configurator:
+    <<: *enxi-common
+    command: configure
+    depends_on:
+      db:
+        condition: service_healthy
+      redis-cache:
+        condition: service_started
+      redis-queue:
+        condition: service_started
+      redis-socketio:
+        condition: service_started
+    volumes:
+      - sites:/home/frappe/frappe-bench/sites
+      - assets:/home/frappe/frappe-bench/sites/assets
+    restart: "no"
+
+  # ---- Web Backend (Gunicorn) ------------------------------------
+  backend:
+    <<: *enxi-common
+    command: backend
+    depends_on:
+      configurator:
+        condition: service_completed_successfully
+    environment:
+      <<: *enxi-env
+      GUNICORN_WORKERS: ${GUNICORN_WORKERS:-4}
+
+  # ---- WebSocket Server ------------------------------------------
+  websocket:
+    <<: *enxi-common
+    command: websocket
+    depends_on:
+      configurator:
+        condition: service_completed_successfully
+
+  # ---- Background Workers ----------------------------------------
+  worker-default:
+    <<: *enxi-common
+    command: worker-default
+    depends_on:
+      configurator:
+        condition: service_completed_successfully
+
+  worker-short:
+    <<: *enxi-common
+    command: worker-short
+    depends_on:
+      configurator:
+        condition: service_completed_successfully
+
+  worker-long:
+    <<: *enxi-common
+    command: worker-long
+    depends_on:
+      configurator:
+        condition: service_completed_successfully
+
+  # ---- Task Scheduler --------------------------------------------
+  scheduler:
+    <<: *enxi-common
+    command: scheduler
+    depends_on:
+      configurator:
+        condition: service_completed_successfully
+
+  # ---- MariaDB ---------------------------------------------------
+  db:
+    image: mariadb:10.11
+    volumes:
+      - db-data:/var/lib/mysql
+      - ./docker/mariadb.cnf:/etc/mysql/mariadb.conf.d/frappe.cnf:ro
+    environment:
+      MYSQL_ROOT_PASSWORD: ${DB_ROOT_PASSWORD:?Set DB_ROOT_PASSWORD in .env}
+      MYSQL_CHARACTER_SET_SERVER: utf8mb4
+      MYSQL_COLLATION_SERVER: utf8mb4_unicode_ci
+    healthcheck:
+      test: ["CMD", "healthcheck.sh", "--connect", "--innodb_initialized"]
+      interval: 5s
+      retries: 10
+      timeout: 3s
+    restart: unless-stopped
+
+  # ---- Redis (three isolated instances) --------------------------
+  redis-cache:
+    image: redis:7-alpine
+    volumes:
+      - redis-cache-data:/data
+    restart: unless-stopped
+
+  redis-queue:
+    image: redis:7-alpine
+    volumes:
+      - redis-queue-data:/data
+    restart: unless-stopped
+
+  redis-socketio:
+    image: redis:7-alpine
+    restart: unless-stopped
+
+  # ---- Nginx Reverse Proxy --------------------------------------
+  nginx:
+    image: nginx:1.27-alpine
+    ports:
+      - "${HTTP_PORT:-8090}:80"
+    volumes:
+      - ./docker/nginx.conf:/etc/nginx/conf.d/default.conf:ro
+      - sites:/home/frappe/frappe-bench/sites:ro
+      - assets:/home/frappe/frappe-bench/sites/assets:ro
+    depends_on:
+      backend:
+        condition: service_started
+      websocket:
+        condition: service_started
+    restart: unless-stopped
+
+# ---- Named Volumes -----------------------------------------------
+volumes:
+  db-data:
+  sites:
+  assets:
+  redis-cache-data:
+  redis-queue-data:

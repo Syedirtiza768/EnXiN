@@ -1,0 +1,20 @@
+# ==================================================================
+# MariaDB configuration for Frappe / EnXi
+# ==================================================================
+
+[mysqld]
+character-set-client-handshake = FALSE
+character-set-server = utf8mb4
+collation-server = utf8mb4_unicode_ci
+
+# InnoDB tuning
+innodb_file_per_table  = 1
+innodb_read_io_threads = 2
+innodb_write_io_threads = 2
+
+# Adjust to ~70% of available RAM on the DB host
+innodb_buffer_pool_size = 256M
+innodb_log_file_size    = 64M
+
+[mysql]
+default-character-set = utf8mb4

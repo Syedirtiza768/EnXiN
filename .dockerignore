@@ -1,0 +1,31 @@
+# ==================================================================
+# EnXi — Docker Build Context Exclusions
+# ==================================================================
+.git
+.github
+.vscode
+.idea
+.helix
+
+# Docker & deployment (not part of app source)
+backups/
+
+# Runtime / generated
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+*.py~
+*.swp
+*.swo
+
+# Environment secrets
+.env
+.env.*
+
+# Logs
+*.log
+
+# OS artefacts
+.DS_Store
+Thumbs.db
