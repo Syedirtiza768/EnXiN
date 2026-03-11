@@ -1,13 +1,16 @@
 import click
+import frappe
+from frappe.commands import get_site, pass_context
 
 
 @click.command("import-demo-seed")
 @click.option("--seed-dir", default="seed_output", help="Path to seed CSV directory")
 @click.option("--company", default=None, help="Target company name (auto-created if missing)")
-def import_demo_seed(seed_dir, company):
+@pass_context
+def import_demo_seed(context, seed_dir, company):
 	"""Import demo seed data (biomedical & hospital waste) into the current site."""
-	import frappe
-
+	site = get_site(context)
+	frappe.init(site)
 	frappe.connect()
 	try:
 		from erpnext.seed.import_executor import import_seed
