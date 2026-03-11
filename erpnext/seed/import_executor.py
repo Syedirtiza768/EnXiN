@@ -17,35 +17,38 @@ def _ensure_exists(doctype: str, value: str):
 	if not value:
 		return
 
+	def _ensure_tree_record(dt: str, title_field: str, parent_field: str, root_name: str):
+		if frappe.db.exists(dt, value) or frappe.db.exists(dt, {title_field: value}):
+			return
+
+		# Some fresh sites can miss expected tree roots if setup did not run fully.
+		if not frappe.db.exists(dt, root_name) and not frappe.db.exists(dt, {title_field: root_name}):
+			root_doc = frappe.get_doc({
+				"doctype": dt,
+				title_field: root_name,
+				"is_group": 1,
+			})
+			root_doc.insert(ignore_permissions=True)
+
+		doc = frappe.get_doc({
+			"doctype": dt,
+			title_field: value,
+			parent_field: root_name,
+			"is_group": 0,
+		})
+		doc.insert(ignore_permissions=True)
+
 	# Handle key setup doctypes with explicit naming fields.
 	if doctype == "Customer Group":
-		if frappe.db.exists("Customer Group", {"customer_group_name": value}):
-			return
-		doc = frappe.new_doc("Customer Group")
-		doc.customer_group_name = value
-		doc.parent_customer_group = "All Customer Groups"
-		doc.is_group = 0
-		doc.insert(ignore_permissions=True)
+		_ensure_tree_record("Customer Group", "customer_group_name", "parent_customer_group", "All Customer Groups")
 		return
 
 	if doctype == "Supplier Group":
-		if frappe.db.exists("Supplier Group", {"supplier_group_name": value}):
-			return
-		doc = frappe.new_doc("Supplier Group")
-		doc.supplier_group_name = value
-		doc.parent_supplier_group = "All Supplier Groups"
-		doc.is_group = 0
-		doc.insert(ignore_permissions=True)
+		_ensure_tree_record("Supplier Group", "supplier_group_name", "parent_supplier_group", "All Supplier Groups")
 		return
 
 	if doctype == "Territory":
-		if frappe.db.exists("Territory", {"territory_name": value}):
-			return
-		doc = frappe.new_doc("Territory")
-		doc.territory_name = value
-		doc.parent_territory = "All Territories"
-		doc.is_group = 0
-		doc.insert(ignore_permissions=True)
+		_ensure_tree_record("Territory", "territory_name", "parent_territory", "All Territories")
 		return
 
 	if not frappe.db.exists(doctype, value):
