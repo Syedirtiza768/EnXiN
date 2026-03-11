@@ -225,6 +225,12 @@ def _auto_create_company(name: str, country: str = "Pakistan", currency: str = "
 	"""Create a minimal Company record so the seed import can proceed."""
 	if frappe.db.exists("Company", name):
 		return
+
+	# Pre-create setup records that Company.on_update expects to exist.
+	for wh_type in ("Transit",):
+		if not frappe.db.exists("Warehouse Type", wh_type):
+			frappe.get_doc({"doctype": "Warehouse Type", "name": wh_type}).insert(ignore_permissions=True)
+
 	abbr = "".join(w[0] for w in name.split() if w).upper()[:4]
 	doc = frappe.get_doc({
 		"doctype": "Company",
