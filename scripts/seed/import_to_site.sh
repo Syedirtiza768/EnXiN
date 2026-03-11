@@ -94,6 +94,14 @@ if docker compose ps backend >/dev/null 2>&1; then
 fi
 
 if docker compose ps backend >/dev/null 2>&1; then
+  # Sync latest seed module code and data into running container so that
+  # a git pull on the host is enough — no full image rebuild needed.
+  echo "Syncing seed code and data into container …"
+  docker compose cp erpnext/seed/. backend:/home/frappe/frappe-bench/apps/erpnext/erpnext/seed/
+  if [ -d "$SEED_DIR" ]; then
+    docker compose cp "${SEED_DIR}/." backend:/home/frappe/frappe-bench/apps/erpnext/${SEED_DIR}/
+  fi
+
   docker compose exec -T backend \
     bench --site "$SITE_NAME" execute erpnext.seed.import_executor.import_seed --kwargs "$KWARGS"
 else
