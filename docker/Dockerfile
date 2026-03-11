@@ -6,7 +6,7 @@
 # ==================================================================
 
 ARG PYTHON_VERSION=3.14
-ARG NODE_VERSION=20
+ARG NODE_VERSION=24
 
 FROM python:${PYTHON_VERSION}-slim-bookworm
 

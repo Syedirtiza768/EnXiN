@@ -13,6 +13,7 @@
 # Logs:   docker compose logs -f
 # Stop:   docker compose down
 # Backup: ./scripts/backup.sh
+# Defaults: Python 3.14, Node 24 for Frappe develop
 #
 # ==================================================================
 
@@ -22,7 +23,7 @@ x-enxi-common: &enxi-common
     dockerfile: docker/Dockerfile
     args:
       PYTHON_VERSION: ${PYTHON_VERSION:-3.14}
-      NODE_VERSION: ${NODE_VERSION:-20}
+      NODE_VERSION: ${NODE_VERSION:-24}
       FRAPPE_BRANCH: ${FRAPPE_BRANCH:-develop}
       PAYMENTS_BRANCH: ${PAYMENTS_BRANCH:-develop}
   image: enxi:${ENXI_VERSION:-latest}
