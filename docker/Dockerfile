@@ -27,6 +27,7 @@ RUN apt-get update \
         build-essential \
         git \
         pkg-config \
+        cron \
         # MariaDB client & dev headers
         mariadb-client \
         libmariadb-dev \
