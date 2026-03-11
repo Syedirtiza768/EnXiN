@@ -67,10 +67,9 @@ else
   CONTAINER_SEED_DIR="/home/frappe/frappe-bench/apps/erpnext/${SEED_DIR}"
 fi
 
+BENCH_ARGS="import-demo-seed --seed-dir $CONTAINER_SEED_DIR"
 if [ -n "$COMPANY_OVERRIDE" ]; then
-  KWARGS="{'seed_dir':'$CONTAINER_SEED_DIR','company_override':'$COMPANY_OVERRIDE'}"
-else
-  KWARGS="{'seed_dir':'$CONTAINER_SEED_DIR'}"
+  BENCH_ARGS="$BENCH_ARGS --company \"$COMPANY_OVERRIDE\""
 fi
 
 # If provided site name is not a real Frappe site directory, auto-resolve to
@@ -84,10 +83,9 @@ if docker compose ps backend >/dev/null 2>&1; then
       fi
       SITE_NAME="$DETECTED_SITE"
 
+      BENCH_ARGS="import-demo-seed --seed-dir $CONTAINER_SEED_DIR"
       if [ -n "$COMPANY_OVERRIDE" ]; then
-        KWARGS="{'seed_dir':'$CONTAINER_SEED_DIR','company_override':'$COMPANY_OVERRIDE'}"
-      else
-        KWARGS="{'seed_dir':'$CONTAINER_SEED_DIR'}"
+        BENCH_ARGS="$BENCH_ARGS --company \"$COMPANY_OVERRIDE\""
       fi
     fi
   fi
@@ -98,14 +96,15 @@ if docker compose ps backend >/dev/null 2>&1; then
   # a git pull on the host is enough — no full image rebuild needed.
   echo "Syncing seed code and data into container …"
   docker compose cp erpnext/seed/. backend:/home/frappe/frappe-bench/apps/erpnext/erpnext/seed/
+  docker compose cp erpnext/commands/. backend:/home/frappe/frappe-bench/apps/erpnext/erpnext/commands/
   if [ -d "$SEED_DIR" ]; then
     docker compose cp "${SEED_DIR}/." backend:/home/frappe/frappe-bench/apps/erpnext/${SEED_DIR}/
   fi
 
-  docker compose exec -T backend \
-    bench --site "$SITE_NAME" execute erpnext.seed.import_executor.import_seed --kwargs "$KWARGS"
+  docker compose exec -T backend bash -c \
+    "cd /home/frappe/frappe-bench && bench --site $SITE_NAME $BENCH_ARGS"
 else
-  bench --site "$SITE_NAME" execute erpnext.seed.import_executor.import_seed --kwargs "$KWARGS"
+  bench --site "$SITE_NAME" $BENCH_ARGS
 fi
 
 echo "Import execution finished. Report path inside container: ${CONTAINER_SEED_DIR}/frappe_import_report.json"

@@ -3,9 +3,11 @@
 
 import click
 
+from erpnext.commands.seed import commands as seed_commands
+
 
 def call_command(cmd, context):
 	return click.Context(cmd, obj=context).forward(cmd)
 
 
-commands = []
+commands = [*seed_commands]
