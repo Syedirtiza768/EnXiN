@@ -26,6 +26,7 @@ RUN apt-get update \
     && apt-get install -y --no-install-recommends \
         build-essential \
         git \
+        pkg-config \
         # MariaDB client & dev headers
         mariadb-client \
         libmariadb-dev \
