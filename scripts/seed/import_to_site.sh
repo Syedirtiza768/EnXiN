@@ -14,12 +14,24 @@ COMPANY_OVERRIDE="${3:-}"
 ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/../.." && pwd)"
 cd "$ROOT_DIR"
 
-if [ -n "$COMPANY_OVERRIDE" ]; then
-  KWARGS="{'seed_dir':'$SEED_DIR','company_override':'$COMPANY_OVERRIDE'}"
+# In Docker deployment, seed files are committed under apps/erpnext/seed_output.
+if [[ "$SEED_DIR" = /* ]]; then
+  CONTAINER_SEED_DIR="$SEED_DIR"
 else
-  KWARGS="{'seed_dir':'$SEED_DIR'}"
+  CONTAINER_SEED_DIR="/home/frappe/frappe-bench/apps/erpnext/${SEED_DIR}"
 fi
 
-bench --site "$SITE_NAME" execute erpnext.seed.import_executor.import_seed --kwargs "$KWARGS"
+if [ -n "$COMPANY_OVERRIDE" ]; then
+  KWARGS="{'seed_dir':'$CONTAINER_SEED_DIR','company_override':'$COMPANY_OVERRIDE'}"
+else
+  KWARGS="{'seed_dir':'$CONTAINER_SEED_DIR'}"
+fi
 
-echo "Import execution finished. See ${SEED_DIR}/frappe_import_report.json"
+if docker compose ps backend >/dev/null 2>&1; then
+  docker compose exec -T backend \
+    bench --site "$SITE_NAME" execute erpnext.seed.import_executor.import_seed --kwargs "$KWARGS"
+else
+  bench --site "$SITE_NAME" execute erpnext.seed.import_executor.import_seed --kwargs "$KWARGS"
+fi
+
+echo "Import execution finished. Report path inside container: ${CONTAINER_SEED_DIR}/frappe_import_report.json"
