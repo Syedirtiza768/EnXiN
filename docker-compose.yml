@@ -21,7 +21,7 @@ x-enxi-common: &enxi-common
     context: .
     dockerfile: docker/Dockerfile
     args:
-      PYTHON_VERSION: ${PYTHON_VERSION:-3.12}
+      PYTHON_VERSION: ${PYTHON_VERSION:-3.14}
       NODE_VERSION: ${NODE_VERSION:-20}
       FRAPPE_BRANCH: ${FRAPPE_BRANCH:-develop}
       PAYMENTS_BRANCH: ${PAYMENTS_BRANCH:-develop}

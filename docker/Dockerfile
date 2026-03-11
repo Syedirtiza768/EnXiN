@@ -5,7 +5,7 @@
 # Run:    docker compose up -d
 # ==================================================================
 
-ARG PYTHON_VERSION=3.12
+ARG PYTHON_VERSION=3.14
 ARG NODE_VERSION=20
 
 FROM python:${PYTHON_VERSION}-slim-bookworm
