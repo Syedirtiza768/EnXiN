@@ -51,6 +51,15 @@ fi
 ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/../.." && pwd)"
 cd "$ROOT_DIR"
 
+detect_default_site() {
+  docker compose exec -T backend bash -lc 'cat /home/frappe/frappe-bench/sites/currentsite.txt 2>/dev/null || true' | tr -d '\r' | xargs
+}
+
+site_exists_in_container() {
+  local site="$1"
+  docker compose exec -T backend bash -lc "test -f /home/frappe/frappe-bench/sites/${site}/site_config.json"
+}
+
 # In Docker deployment, seed files are committed under apps/erpnext/seed_output.
 if [[ "$SEED_DIR" = /* ]]; then
   CONTAINER_SEED_DIR="$SEED_DIR"
@@ -62,6 +71,26 @@ if [ -n "$COMPANY_OVERRIDE" ]; then
   KWARGS="{'seed_dir':'$CONTAINER_SEED_DIR','company_override':'$COMPANY_OVERRIDE'}"
 else
   KWARGS="{'seed_dir':'$CONTAINER_SEED_DIR'}"
+fi
+
+# If provided site name is not a real Frappe site directory, auto-resolve to
+# current default site and treat original input as company override.
+if docker compose ps backend >/dev/null 2>&1; then
+  if ! site_exists_in_container "$SITE_NAME"; then
+    DETECTED_SITE="$(detect_default_site)"
+    if [ -n "$DETECTED_SITE" ] && site_exists_in_container "$DETECTED_SITE"; then
+      if [ -z "$COMPANY_OVERRIDE" ]; then
+        COMPANY_OVERRIDE="$SITE_NAME"
+      fi
+      SITE_NAME="$DETECTED_SITE"
+
+      if [ -n "$COMPANY_OVERRIDE" ]; then
+        KWARGS="{'seed_dir':'$CONTAINER_SEED_DIR','company_override':'$COMPANY_OVERRIDE'}"
+      else
+        KWARGS="{'seed_dir':'$CONTAINER_SEED_DIR'}"
+      fi
+    fi
+  fi
 fi
 
 if docker compose ps backend >/dev/null 2>&1; then
