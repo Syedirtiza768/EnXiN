@@ -81,6 +81,51 @@ def _import_cost_centers(rows, target_company=None, target_abbr=None):
 	inserted = 0
 	skipped = 0
 	errors = []
+	group_name_by_title = {}
+	for row in rows:
+		name = row.get("cost_center_name")
+		if not name:
+			continue
+		if row.get("is_group") in (1, "1", True):
+			group_name_by_title[name] = True
+		parent_ref = row.get("parent_cost_center", "")
+		if parent_ref:
+			parent_title = parent_ref.rsplit(" - ", 1)[0]
+			group_name_by_title[parent_title] = True
+
+	def _coerce_existing_group(cost_center_name: str, company: str):
+		if not group_name_by_title.get(cost_center_name):
+			return True
+		existing_name = frappe.db.get_value(
+			"Cost Center",
+			{"cost_center_name": cost_center_name, "company": company},
+			"name",
+		)
+		if not existing_name:
+			return True
+		if frappe.db.get_value("Cost Center", existing_name, "is_group"):
+			return True
+
+		doc = frappe.get_doc("Cost Center", existing_name)
+		if doc.check_gle_exists():
+			errors.append({
+				"doctype": "Cost Center",
+				"key": cost_center_name,
+				"error": f"Existing Cost Center '{existing_name}' must be a group node for demo import, but it already has GL Entries.",
+			})
+			return False
+		if doc.if_allocation_exists_against_cost_center() or doc.check_if_part_of_cost_center_allocation():
+			errors.append({
+				"doctype": "Cost Center",
+				"key": cost_center_name,
+				"error": f"Existing Cost Center '{existing_name}' must be a group node for demo import, but it is used in Cost Center Allocation records.",
+			})
+			return False
+
+		doc.is_group = 1
+		doc.save(ignore_permissions=True)
+		frappe.db.commit()
+		return True
 
 	# Find existing company root cost center (created by Company.on_update)
 	company_root = None
@@ -116,6 +161,9 @@ def _import_cost_centers(rows, target_company=None, target_abbr=None):
 		if not name:
 			skipped += 1
 			continue
+		if not _coerce_existing_group(name, company):
+			skipped += 1
+			continue
 		# Cost Center name in ERPNext includes company abbreviation
 		if frappe.db.exists("Cost Center", {"cost_center_name": name, "company": company}):
 			skipped += 1
@@ -126,6 +174,10 @@ def _import_cost_centers(rows, target_company=None, target_abbr=None):
 			doc.company = company
 			parent = row.get("parent_cost_center", "")
 			if parent:
+				parent_title = parent.rsplit(" - ", 1)[0]
+				if not _coerce_existing_group(parent_title, company):
+					skipped += 1
+					continue
 				# Check if the referenced parent exists; if not, use company root
 				if frappe.db.exists("Cost Center", parent):
 					doc.parent_cost_center = parent
