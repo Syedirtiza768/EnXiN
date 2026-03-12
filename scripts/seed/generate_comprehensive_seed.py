@@ -488,7 +488,7 @@ def build_branches() -> List[Dict]:
 
 
 def build_designations() -> List[Dict]:
-    return [{"designation": d} for d in DESIGNATIONS]
+    return [{"designation_name": d} for d in DESIGNATIONS]
 
 
 def build_departments() -> List[Dict]:
@@ -872,6 +872,7 @@ def build_employees(cfg: VolumeConfig) -> List[Dict]:
             doj = earliest_join + timedelta(days=random.randint(0, (TODAY - earliest_join).days))
             rows.append({
                 "employee_name": f"{first} {last}",
+                "naming_series": "HR-EMP-.YYYY.-",
                 "first_name": first,
                 "last_name": last,
                 "company": COMPANY_NAME,
@@ -1476,6 +1477,7 @@ def build_stock_entries(items: List[Dict], cfg: VolumeConfig) -> Tuple[List[Dict
         se_rows.append({
             "name": name,
             "naming_series": "STE-.YYYY.-",
+            "stock_entry_type": purpose,
             "purpose": purpose,
             "posting_date": tx_date.isoformat(),
             "company": COMPANY_NAME,
@@ -1652,7 +1654,7 @@ def build_delivery_trips(vehicles: List[Dict], drivers: List[Dict],
             "company": COMPANY_NAME,
             "vehicle": random.choice(plates),
             "driver": random.choice(driver_names) if driver_names else "",
-            "departure_time": dep_time.isoformat(),
+            "departure_time": dep_time.strftime("%Y-%m-%d %H:%M:%S"),
             "status": random.choice(["Scheduled", "In Transit", "Completed", "Completed", "Completed"]),
         })
 
@@ -1672,7 +1674,7 @@ def build_delivery_trips(vehicles: List[Dict], drivers: List[Dict],
                 "address": addr_name,
                 "visited": 1 if random.random() < 0.92 else 0,
                 "distance": round(random.uniform(2.0, 25.0), 1),
-                "estimated_arrival": arrival.isoformat(),
+                "estimated_arrival": arrival.strftime("%Y-%m-%d %H:%M:%S"),
             })
 
     return dt_rows, ds_rows
@@ -1732,6 +1734,7 @@ def build_maintenance_visits(customers: List[Dict], items: List[Dict],
             "mntc_date": tx_date.isoformat(),
             "maintenance_type": random.choice(["Scheduled", "Unscheduled", "Breakdown"]),
             "completion_status": completion,
+            "status": "Draft",
             "company": COMPANY_NAME,
         })
 
@@ -1768,6 +1771,7 @@ def build_maintenance_schedules(customers: List[Dict], items: List[Dict],
             "naming_series": "MAT-MSH-.YYYY.-",
             "customer": cust["customer_name"],
             "transaction_date": tx_date.isoformat(),
+            "status": "Draft",
             "company": COMPANY_NAME,
         })
 
@@ -1786,17 +1790,31 @@ def build_maintenance_schedules(customers: List[Dict], items: List[Dict],
     return ms_rows, msi_rows
 
 
-def build_quality_inspections(items: List[Dict], cfg: VolumeConfig) -> List[Dict]:
+def build_quality_inspections(items: List[Dict], purchase_receipts: List[Dict],
+                              delivery_notes: List[Dict], cfg: VolumeConfig) -> List[Dict]:
     rows = []
     inspectable = [i for i in items if i["is_stock_item"]][:50]
     dates = daterange(TIMELINE_START, TODAY, cfg.quality_inspections)
 
+    # Build reference pool from existing PRs and DNs
+    pr_names = [r["name"] for r in purchase_receipts]
+    dn_names = [r["name"] for r in delivery_notes]
+
     for i in range(1, cfg.quality_inspections + 1):
         item = random.choice(inspectable)
+        report_date = dates[i - 1]
+        if random.random() < 0.5 and pr_names:
+            ref_type, ref_name = "Purchase Receipt", random.choice(pr_names)
+        elif dn_names:
+            ref_type, ref_name = "Delivery Note", random.choice(dn_names)
+        else:
+            ref_type, ref_name = "Purchase Receipt", random.choice(pr_names) if pr_names else ""
         rows.append({
             "naming_series": "QI-.YYYY.-",
+            "report_date": report_date.isoformat(),
             "inspection_type": random.choice(["Incoming", "Outgoing", "In Process"]),
-            "reference_type": random.choice(["Purchase Receipt", "Delivery Note"]),
+            "reference_type": ref_type,
+            "reference_name": ref_name,
             "item_code": item["item_code"],
             "sample_size": random.randint(1, 10),
             "inspected_by": f"{random.choice(FIRST_NAMES_MALE)} {random.choice(LAST_NAMES)}",
@@ -2253,7 +2271,7 @@ def generate(cfg: VolumeConfig, out_dir: Path) -> None:
     issues = build_issues(customers, cfg)
     mv_rows, mvp_rows = build_maintenance_visits(customers, items, cfg)
     ms_rows, msi_rows = build_maintenance_schedules(customers, items, cfg)
-    qi_rows = build_quality_inspections(items, cfg)
+    qi_rows = build_quality_inspections(items, purchase_receipts, delivery_notes, cfg)
 
     print("Phase 9: Building JSON sidecars...")
     waste_events = build_waste_collection_events(customers, vehicles, cfg)
@@ -2273,7 +2291,7 @@ def generate(cfg: VolumeConfig, out_dir: Path) -> None:
     write_csv(out_dir / "Company.csv", companies,
               ["name", "abbr", "country", "default_currency"])
     write_csv(out_dir / "Branch.csv", branches, ["branch"])
-    write_csv(out_dir / "Designation.csv", designations, ["designation"])
+    write_csv(out_dir / "Designation.csv", designations, ["designation_name"])
     write_csv(out_dir / "Department.csv", departments, ["department_name", "company"])
     write_csv(out_dir / "Territory.csv", territories,
               ["territory_name", "parent_territory", "is_group"])
@@ -2299,7 +2317,7 @@ def generate(cfg: VolumeConfig, out_dir: Path) -> None:
     write_csv(out_dir / "Item_Price.csv", item_prices,
               ["item_code", "price_list", "uom", "price_list_rate", "currency"])
     write_csv(out_dir / "Employee.csv", employees,
-              ["employee_name", "first_name", "last_name", "company", "department",
+              ["employee_name", "naming_series", "first_name", "last_name", "company", "department",
                "designation", "date_of_birth", "date_of_joining", "gender",
                "employment_type", "status", "branch"])
     write_csv(out_dir / "Vehicle.csv", vehicles,
@@ -2363,7 +2381,7 @@ def generate(cfg: VolumeConfig, out_dir: Path) -> None:
               ["parent", "parenttype", "parentfield", "item_code", "qty", "uom",
                "warehouse", "rate"])
     write_csv(out_dir / "Stock_Entry.csv", stock_entries,
-              ["name", "naming_series", "purpose", "posting_date", "company"])
+              ["name", "naming_series", "stock_entry_type", "purpose", "posting_date", "company"])
     write_csv(out_dir / "Stock_Entry_Detail.csv", se_details,
               ["parent", "parenttype", "parentfield", "item_code", "qty", "uom",
                "t_warehouse", "s_warehouse", "basic_rate"])
@@ -2391,17 +2409,17 @@ def generate(cfg: VolumeConfig, out_dir: Path) -> None:
               ["subject", "customer", "raised_by", "status", "priority", "opening_date"])
     write_csv(out_dir / "Maintenance_Visit.csv", mv_rows,
               ["name", "naming_series", "customer", "mntc_date", "maintenance_type",
-               "completion_status", "company"])
+               "completion_status", "status", "company"])
     write_csv(out_dir / "Maintenance_Visit_Purpose.csv", mvp_rows,
               ["parent", "parenttype", "parentfield", "work_done", "service_person"])
     write_csv(out_dir / "Maintenance_Schedule.csv", ms_rows,
-              ["name", "naming_series", "customer", "transaction_date", "company"])
+              ["name", "naming_series", "customer", "transaction_date", "status", "company"])
     write_csv(out_dir / "Maintenance_Schedule_Item.csv", msi_rows,
               ["parent", "parenttype", "parentfield", "item_code", "start_date",
                "end_date", "periodicity", "no_of_visits"])
     write_csv(out_dir / "Quality_Inspection.csv", qi_rows,
-              ["naming_series", "inspection_type", "reference_type", "item_code",
-               "sample_size", "inspected_by", "status"])
+              ["naming_series", "report_date", "inspection_type", "reference_type",
+               "reference_name", "item_code", "sample_size", "inspected_by", "status"])
 
     # ── Write JSON files ──
     print("Phase 11: Writing JSON sidecar files...")

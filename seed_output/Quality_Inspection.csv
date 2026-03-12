@@ -1,301 +1,301 @@
-naming_series,inspection_type,reference_type,item_code,sample_size,inspected_by,status
-QI-.YYYY.-,Incoming,Delivery Note,CLN-031,1,Omar Malik,Accepted
-QI-.YYYY.-,Outgoing,Purchase Receipt,PPE-024,6,Irfan Mirza,Accepted
-QI-.YYYY.-,Incoming,Purchase Receipt,BIO-00056,6,Kamran Mughal,Accepted
-QI-.YYYY.-,Incoming,Purchase Receipt,CLN-036,4,Hassan Akhtar,Accepted
-QI-.YYYY.-,In Process,Purchase Receipt,CLN-036,7,Tariq Hussain,Accepted
-QI-.YYYY.-,Incoming,Purchase Receipt,CLN-035,7,Ahmed Sharif,Rejected
-QI-.YYYY.-,Incoming,Purchase Receipt,CLN-030,5,Salman Mirza,Rejected
-QI-.YYYY.-,Incoming,Delivery Note,SPR-047,7,Shahid Sharif,Rejected
-QI-.YYYY.-,In Process,Purchase Receipt,FUEL-055,6,Naveed Dar,Accepted
-QI-.YYYY.-,Outgoing,Purchase Receipt,PPE-028,2,Irfan Siddiqui,Rejected
-QI-.YYYY.-,In Process,Delivery Note,CLN-037,4,Atif Ahmed,Accepted
-QI-.YYYY.-,Outgoing,Delivery Note,CNT-014,2,Muhammad Mirza,Accepted
-QI-.YYYY.-,In Process,Delivery Note,CNT-013,3,Waqar Qureshi,Rejected
-QI-.YYYY.-,In Process,Purchase Receipt,SPR-041,9,Adnan Hassan,Rejected
-QI-.YYYY.-,Outgoing,Purchase Receipt,SPR-044,6,Hassan Chaudhry,Rejected
-QI-.YYYY.-,Outgoing,Purchase Receipt,SPR-042,6,Hassan Sharif,Accepted
-QI-.YYYY.-,In Process,Purchase Receipt,FUEL-053,8,Naeem Javed,Rejected
-QI-.YYYY.-,In Process,Delivery Note,BIO-00057,3,Sohail Butt,Rejected
-QI-.YYYY.-,Incoming,Purchase Receipt,BIO-00059,10,Amir Akhtar,Rejected
-QI-.YYYY.-,Incoming,Delivery Note,BIO-00058,7,Irfan Raza,Rejected
-QI-.YYYY.-,Outgoing,Purchase Receipt,CLN-031,4,Imran Sheikh,Accepted
-QI-.YYYY.-,Outgoing,Purchase Receipt,PPE-029,1,Rizwan Qureshi,Accepted
-QI-.YYYY.-,Outgoing,Delivery Note,SPR-045,4,Kamran Malik,Accepted
-QI-.YYYY.-,In Process,Purchase Receipt,CLN-031,3,Salman Rana,Rejected
-QI-.YYYY.-,In Process,Purchase Receipt,SPR-042,3,Atif Butt,Rejected
-QI-.YYYY.-,In Process,Delivery Note,SPR-044,1,Usman Butt,Accepted
-QI-.YYYY.-,Outgoing,Purchase Receipt,CLN-036,8,Imran Raza,Accepted
-QI-.YYYY.-,Incoming,Purchase Receipt,FUEL-055,5,Fahad Rana,Accepted
-QI-.YYYY.-,Outgoing,Purchase Receipt,CLN-032,4,Usman Hussain,Accepted
-QI-.YYYY.-,Outgoing,Purchase Receipt,BIO-00058,4,Rizwan Akhtar,Accepted
-QI-.YYYY.-,Incoming,Delivery Note,FUEL-053,1,Junaid Gill,Accepted
-QI-.YYYY.-,In Process,Purchase Receipt,CNT-015,3,Kashif Mughal,Accepted
-QI-.YYYY.-,Outgoing,Delivery Note,CLN-032,9,Ahmed Butt,Rejected
-QI-.YYYY.-,In Process,Delivery Note,SPR-043,4,Asad Javed,Accepted
-QI-.YYYY.-,Incoming,Delivery Note,SPR-041,9,Muhammad Rana,Accepted
-QI-.YYYY.-,In Process,Delivery Note,CNT-012,7,Waqar Ahmed,Accepted
-QI-.YYYY.-,In Process,Purchase Receipt,CNT-017,2,Saad Malik,Accepted
-QI-.YYYY.-,Incoming,Purchase Receipt,CLN-033,10,Ali Mirza,Accepted
-QI-.YYYY.-,Incoming,Purchase Receipt,CLN-030,5,Kashif Butt,Accepted
-QI-.YYYY.-,In Process,Delivery Note,SPR-051,10,Hamza Aslam,Accepted
-QI-.YYYY.-,In Process,Delivery Note,CNT-014,5,Arslan Siddiqui,Accepted
-QI-.YYYY.-,Outgoing,Purchase Receipt,SPR-039,1,Saad Dar,Rejected
-QI-.YYYY.-,In Process,Purchase Receipt,BIO-00057,4,Salman Mirza,Accepted
-QI-.YYYY.-,In Process,Delivery Note,BIO-00060,7,Tariq Dar,Rejected
-QI-.YYYY.-,In Process,Delivery Note,CNT-017,3,Naveed Khan,Accepted
-QI-.YYYY.-,In Process,Delivery Note,CLN-030,2,Bilal Aslam,Rejected
-QI-.YYYY.-,In Process,Delivery Note,FUEL-053,7,Adnan Dar,Accepted
-QI-.YYYY.-,Outgoing,Delivery Note,FUEL-054,10,Sohail Raza,Accepted
-QI-.YYYY.-,Outgoing,Purchase Receipt,CLN-030,4,Imran Raza,Rejected
-QI-.YYYY.-,Outgoing,Purchase Receipt,BIO-00060,7,Naeem Siddiqui,Rejected
-QI-.YYYY.-,Outgoing,Delivery Note,SPR-050,5,Muhammad Akhtar,Rejected
-QI-.YYYY.-,Incoming,Delivery Note,CLN-033,6,Fahad Mughal,Accepted
-QI-.YYYY.-,Incoming,Purchase Receipt,CLN-035,1,Shahid Rana,Accepted
-QI-.YYYY.-,In Process,Delivery Note,SPR-044,8,Hassan Chaudhry,Rejected
-QI-.YYYY.-,In Process,Purchase Receipt,CNT-014,9,Bilal Chaudhry,Rejected
-QI-.YYYY.-,Incoming,Delivery Note,FUEL-055,1,Naveed Akhtar,Rejected
-QI-.YYYY.-,Outgoing,Purchase Receipt,SPR-042,3,Omar Mirza,Accepted
-QI-.YYYY.-,Incoming,Purchase Receipt,BIO-00059,4,Adnan Ahmed,Rejected
-QI-.YYYY.-,Incoming,Delivery Note,SPR-047,7,Ali Siddiqui,Accepted
-QI-.YYYY.-,Outgoing,Purchase Receipt,PPE-024,6,Kashif Sharif,Rejected
-QI-.YYYY.-,Outgoing,Delivery Note,PPE-029,4,Naeem Hussain,Rejected
-QI-.YYYY.-,Incoming,Delivery Note,FUEL-055,6,Fahad Sharif,Rejected
-QI-.YYYY.-,Outgoing,Purchase Receipt,BIO-00059,2,Amir Ahmed,Accepted
-QI-.YYYY.-,In Process,Delivery Note,SPR-042,3,Irfan Chaudhry,Accepted
-QI-.YYYY.-,Incoming,Purchase Receipt,CNT-015,9,Muhammad Chaudhry,Rejected
-QI-.YYYY.-,In Process,Delivery Note,CNT-015,9,Tariq Qureshi,Accepted
-QI-.YYYY.-,Outgoing,Purchase Receipt,FUEL-054,9,Omar Siddiqui,Accepted
-QI-.YYYY.-,In Process,Purchase Receipt,SPR-052,4,Fahad Rana,Rejected
-QI-.YYYY.-,Outgoing,Delivery Note,SPR-052,2,Hamza Khan,Accepted
-QI-.YYYY.-,Outgoing,Delivery Note,SPR-046,3,Faisal Sharif,Accepted
-QI-.YYYY.-,In Process,Delivery Note,BIO-00061,6,Saad Malik,Rejected
-QI-.YYYY.-,Incoming,Purchase Receipt,FUEL-053,6,Omar Hassan,Rejected
-QI-.YYYY.-,In Process,Purchase Receipt,CNT-017,5,Salman Raza,Rejected
-QI-.YYYY.-,Incoming,Purchase Receipt,BIO-00058,10,Adnan Rana,Accepted
-QI-.YYYY.-,Incoming,Delivery Note,SPR-052,8,Bilal Raza,Accepted
-QI-.YYYY.-,Incoming,Purchase Receipt,CNT-012,3,Irfan Aslam,Accepted
-QI-.YYYY.-,In Process,Delivery Note,PPE-026,6,Imran Khan,Accepted
-QI-.YYYY.-,Incoming,Delivery Note,CLN-034,8,Hamza Butt,Accepted
-QI-.YYYY.-,Outgoing,Delivery Note,SPR-039,10,Waqar Rana,Accepted
-QI-.YYYY.-,Outgoing,Purchase Receipt,SPR-041,1,Junaid Khan,Accepted
-QI-.YYYY.-,Outgoing,Delivery Note,CLN-032,3,Adnan Sharif,Accepted
-QI-.YYYY.-,Incoming,Delivery Note,CLN-036,2,Bilal Mughal,Accepted
-QI-.YYYY.-,Outgoing,Delivery Note,CNT-013,7,Muhammad Sheikh,Accepted
-QI-.YYYY.-,In Process,Delivery Note,PPE-023,6,Kashif Rana,Rejected
-QI-.YYYY.-,Incoming,Purchase Receipt,PPE-025,1,Adnan Khan,Accepted
-QI-.YYYY.-,In Process,Purchase Receipt,SPR-046,6,Junaid Mirza,Accepted
-QI-.YYYY.-,Incoming,Delivery Note,SPR-051,6,Asad Siddiqui,Rejected
-QI-.YYYY.-,Incoming,Purchase Receipt,CLN-037,4,Naeem Sheikh,Accepted
-QI-.YYYY.-,Outgoing,Delivery Note,SPR-047,7,Naveed Ahmed,Accepted
-QI-.YYYY.-,Incoming,Delivery Note,CNT-014,5,Salman Malik,Accepted
-QI-.YYYY.-,Outgoing,Delivery Note,SPR-040,4,Naeem Rana,Accepted
-QI-.YYYY.-,Outgoing,Delivery Note,CNT-016,7,Usman Aslam,Accepted
-QI-.YYYY.-,In Process,Delivery Note,SPR-043,3,Usman Akhtar,Rejected
-QI-.YYYY.-,Incoming,Delivery Note,PPE-025,7,Sohail Butt,Accepted
-QI-.YYYY.-,Incoming,Purchase Receipt,CLN-035,2,Atif Dar,Accepted
-QI-.YYYY.-,Outgoing,Delivery Note,CLN-037,5,Usman Malik,Accepted
-QI-.YYYY.-,Outgoing,Delivery Note,CNT-019,1,Irfan Hussain,Accepted
-QI-.YYYY.-,Incoming,Delivery Note,PPE-028,6,Atif Hassan,Rejected
-QI-.YYYY.-,Incoming,Purchase Receipt,PPE-023,1,Muhammad Hassan,Rejected
-QI-.YYYY.-,Outgoing,Purchase Receipt,SPR-040,4,Ali Raza,Accepted
-QI-.YYYY.-,In Process,Delivery Note,SPR-039,2,Naveed Raza,Accepted
-QI-.YYYY.-,Outgoing,Purchase Receipt,BIO-00061,2,Shahid Ahmed,Accepted
-QI-.YYYY.-,Incoming,Delivery Note,BIO-00061,6,Faisal Akhtar,Accepted
-QI-.YYYY.-,Incoming,Delivery Note,PPE-021,4,Imran Aslam,Accepted
-QI-.YYYY.-,Outgoing,Purchase Receipt,CLN-032,10,Ahmed Gill,Rejected
-QI-.YYYY.-,Incoming,Delivery Note,SPR-051,2,Zain Chaudhry,Accepted
-QI-.YYYY.-,Outgoing,Purchase Receipt,CNT-017,10,Arslan Ahmed,Accepted
-QI-.YYYY.-,Incoming,Delivery Note,SPR-041,5,Ali Dar,Accepted
-QI-.YYYY.-,In Process,Delivery Note,SPR-047,3,Ahmed Mirza,Accepted
-QI-.YYYY.-,Incoming,Delivery Note,BIO-00061,10,Junaid Mirza,Accepted
-QI-.YYYY.-,In Process,Delivery Note,CLN-034,6,Omar Hassan,Rejected
-QI-.YYYY.-,In Process,Delivery Note,SPR-043,7,Sohail Ahmed,Accepted
-QI-.YYYY.-,Outgoing,Delivery Note,SPR-046,9,Tariq Dar,Rejected
-QI-.YYYY.-,In Process,Purchase Receipt,PPE-021,4,Salman Akhtar,Accepted
-QI-.YYYY.-,In Process,Purchase Receipt,SPR-051,1,Hamza Chaudhry,Rejected
-QI-.YYYY.-,Incoming,Purchase Receipt,CLN-033,10,Faisal Malik,Accepted
-QI-.YYYY.-,Incoming,Delivery Note,PPE-024,10,Adnan Hassan,Accepted
-QI-.YYYY.-,Outgoing,Purchase Receipt,SPR-039,3,Waqar Butt,Rejected
-QI-.YYYY.-,Incoming,Purchase Receipt,CLN-033,4,Bilal Hassan,Rejected
-QI-.YYYY.-,Outgoing,Purchase Receipt,CNT-012,1,Ahmed Raza,Accepted
-QI-.YYYY.-,Incoming,Delivery Note,BIO-00058,2,Saad Malik,Accepted
-QI-.YYYY.-,In Process,Delivery Note,CLN-034,8,Kashif Hussain,Rejected
-QI-.YYYY.-,Incoming,Purchase Receipt,FUEL-055,7,Ahmed Mirza,Accepted
-QI-.YYYY.-,Outgoing,Delivery Note,SPR-039,7,Ali Siddiqui,Accepted
-QI-.YYYY.-,Incoming,Delivery Note,SPR-049,1,Ahmed Qureshi,Rejected
-QI-.YYYY.-,In Process,Purchase Receipt,SPR-052,4,Fahad Mirza,Accepted
-QI-.YYYY.-,In Process,Purchase Receipt,CLN-032,3,Bilal Rana,Rejected
-QI-.YYYY.-,In Process,Purchase Receipt,PPE-029,9,Kashif Gill,Accepted
-QI-.YYYY.-,In Process,Delivery Note,SPR-038,6,Atif Khan,Accepted
-QI-.YYYY.-,In Process,Purchase Receipt,CLN-032,6,Fahad Javed,Accepted
-QI-.YYYY.-,In Process,Delivery Note,CNT-013,3,Kashif Mirza,Accepted
-QI-.YYYY.-,Outgoing,Purchase Receipt,CNT-019,3,Hamza Sharif,Accepted
-QI-.YYYY.-,Outgoing,Purchase Receipt,CLN-031,4,Hassan Malik,Accepted
-QI-.YYYY.-,Outgoing,Delivery Note,SPR-049,7,Imran Malik,Accepted
-QI-.YYYY.-,Outgoing,Delivery Note,SPR-042,1,Bilal Hussain,Rejected
-QI-.YYYY.-,Incoming,Purchase Receipt,PPE-022,1,Imran Hassan,Accepted
-QI-.YYYY.-,In Process,Delivery Note,PPE-023,10,Omar Akhtar,Accepted
-QI-.YYYY.-,Incoming,Delivery Note,CLN-033,8,Usman Rana,Accepted
-QI-.YYYY.-,Outgoing,Delivery Note,SPR-046,8,Tariq Gill,Accepted
-QI-.YYYY.-,In Process,Purchase Receipt,SPR-047,6,Irfan Dar,Accepted
-QI-.YYYY.-,Outgoing,Delivery Note,CLN-032,10,Usman Khan,Rejected
-QI-.YYYY.-,Incoming,Delivery Note,CLN-037,6,Naveed Malik,Rejected
-QI-.YYYY.-,In Process,Delivery Note,BIO-00061,6,Sohail Chaudhry,Rejected
-QI-.YYYY.-,Outgoing,Purchase Receipt,CNT-016,7,Imran Sheikh,Accepted
-QI-.YYYY.-,Outgoing,Purchase Receipt,CLN-037,2,Imran Ahmed,Rejected
-QI-.YYYY.-,In Process,Delivery Note,CNT-015,9,Zain Dar,Accepted
-QI-.YYYY.-,In Process,Purchase Receipt,SPR-046,3,Atif Dar,Accepted
-QI-.YYYY.-,Outgoing,Purchase Receipt,FUEL-053,2,Tariq Mughal,Accepted
-QI-.YYYY.-,Outgoing,Purchase Receipt,PPE-021,4,Rizwan Khan,Rejected
-QI-.YYYY.-,In Process,Delivery Note,CLN-034,7,Tariq Mughal,Accepted
-QI-.YYYY.-,Incoming,Delivery Note,CNT-012,2,Ahmed Aslam,Accepted
-QI-.YYYY.-,In Process,Purchase Receipt,BIO-00060,1,Irfan Qureshi,Accepted
-QI-.YYYY.-,Incoming,Delivery Note,PPE-028,2,Kashif Raza,Rejected
-QI-.YYYY.-,Outgoing,Purchase Receipt,PPE-025,6,Ali Sheikh,Accepted
-QI-.YYYY.-,In Process,Purchase Receipt,CNT-017,6,Ahmed Javed,Accepted
-QI-.YYYY.-,Outgoing,Delivery Note,CNT-017,10,Ali Raza,Accepted
-QI-.YYYY.-,Outgoing,Purchase Receipt,CNT-013,3,Muhammad Rana,Rejected
-QI-.YYYY.-,In Process,Purchase Receipt,SPR-049,3,Shahid Chaudhry,Accepted
-QI-.YYYY.-,Outgoing,Delivery Note,SPR-049,3,Waqar Rana,Rejected
-QI-.YYYY.-,In Process,Delivery Note,CNT-012,1,Arslan Akhtar,Accepted
-QI-.YYYY.-,Outgoing,Purchase Receipt,CLN-033,8,Adnan Sheikh,Accepted
-QI-.YYYY.-,Outgoing,Purchase Receipt,SPR-043,9,Shahid Qureshi,Accepted
-QI-.YYYY.-,Outgoing,Delivery Note,PPE-022,4,Hamza Akhtar,Accepted
-QI-.YYYY.-,Outgoing,Delivery Note,PPE-021,1,Hamza Hussain,Accepted
-QI-.YYYY.-,Outgoing,Purchase Receipt,SPR-047,2,Tariq Javed,Rejected
-QI-.YYYY.-,Incoming,Purchase Receipt,CNT-017,4,Muhammad Javed,Rejected
-QI-.YYYY.-,In Process,Purchase Receipt,CLN-034,8,Shahid Ahmed,Accepted
-QI-.YYYY.-,Outgoing,Delivery Note,SPR-048,9,Shahid Sheikh,Accepted
-QI-.YYYY.-,Incoming,Purchase Receipt,BIO-00057,1,Arslan Mirza,Accepted
-QI-.YYYY.-,In Process,Delivery Note,SPR-039,2,Usman Dar,Accepted
-QI-.YYYY.-,Outgoing,Delivery Note,CLN-034,4,Faisal Ahmed,Rejected
-QI-.YYYY.-,Outgoing,Purchase Receipt,SPR-050,7,Sohail Chaudhry,Accepted
-QI-.YYYY.-,In Process,Delivery Note,FUEL-054,6,Fahad Javed,Accepted
-QI-.YYYY.-,Outgoing,Purchase Receipt,CNT-016,10,Shahid Hussain,Accepted
-QI-.YYYY.-,In Process,Delivery Note,CLN-033,4,Usman Gill,Accepted
-QI-.YYYY.-,Outgoing,Delivery Note,SPR-039,3,Irfan Hussain,Rejected
-QI-.YYYY.-,Incoming,Purchase Receipt,BIO-00061,5,Faisal Malik,Accepted
-QI-.YYYY.-,In Process,Delivery Note,PPE-022,4,Adnan Javed,Accepted
-QI-.YYYY.-,Incoming,Purchase Receipt,SPR-050,3,Imran Butt,Accepted
-QI-.YYYY.-,Incoming,Delivery Note,CNT-018,10,Kamran Gill,Accepted
-QI-.YYYY.-,Outgoing,Delivery Note,PPE-029,1,Saad Mughal,Rejected
-QI-.YYYY.-,In Process,Purchase Receipt,CLN-037,4,Kashif Chaudhry,Accepted
-QI-.YYYY.-,In Process,Purchase Receipt,PPE-029,1,Atif Butt,Accepted
-QI-.YYYY.-,Outgoing,Delivery Note,SPR-039,9,Kamran Qureshi,Rejected
-QI-.YYYY.-,Outgoing,Purchase Receipt,BIO-00060,6,Faisal Mughal,Rejected
-QI-.YYYY.-,Incoming,Purchase Receipt,SPR-041,9,Kamran Dar,Accepted
-QI-.YYYY.-,Incoming,Purchase Receipt,SPR-039,6,Usman Sheikh,Accepted
-QI-.YYYY.-,Outgoing,Delivery Note,CNT-014,10,Irfan Raza,Accepted
-QI-.YYYY.-,In Process,Delivery Note,SPR-047,3,Kamran Sharif,Rejected
-QI-.YYYY.-,In Process,Purchase Receipt,SPR-043,4,Omar Rana,Accepted
-QI-.YYYY.-,Outgoing,Purchase Receipt,CLN-033,10,Waqar Butt,Rejected
-QI-.YYYY.-,Outgoing,Delivery Note,CNT-012,8,Adnan Gill,Rejected
-QI-.YYYY.-,Incoming,Purchase Receipt,BIO-00060,8,Kamran Sheikh,Rejected
-QI-.YYYY.-,Outgoing,Delivery Note,CLN-034,6,Ahmed Butt,Rejected
-QI-.YYYY.-,Incoming,Delivery Note,PPE-028,3,Sohail Akhtar,Rejected
-QI-.YYYY.-,In Process,Delivery Note,CLN-032,1,Kashif Hussain,Accepted
-QI-.YYYY.-,In Process,Delivery Note,PPE-023,4,Asad Hussain,Rejected
-QI-.YYYY.-,Outgoing,Purchase Receipt,CNT-012,10,Imran Gill,Accepted
-QI-.YYYY.-,Incoming,Purchase Receipt,CNT-016,3,Saad Javed,Accepted
-QI-.YYYY.-,Outgoing,Delivery Note,BIO-00060,5,Salman Qureshi,Rejected
-QI-.YYYY.-,In Process,Purchase Receipt,BIO-00058,2,Bilal Ahmed,Accepted
-QI-.YYYY.-,Outgoing,Delivery Note,SPR-050,8,Naeem Butt,Accepted
-QI-.YYYY.-,Outgoing,Delivery Note,CNT-014,4,Salman Raza,Accepted
-QI-.YYYY.-,Outgoing,Delivery Note,PPE-026,3,Fahad Hussain,Rejected
-QI-.YYYY.-,Outgoing,Purchase Receipt,SPR-044,3,Shahid Chaudhry,Rejected
-QI-.YYYY.-,Incoming,Delivery Note,PPE-021,7,Tariq Gill,Accepted
-QI-.YYYY.-,Outgoing,Purchase Receipt,SPR-049,8,Hamza Sheikh,Accepted
-QI-.YYYY.-,In Process,Purchase Receipt,SPR-046,1,Usman Rana,Accepted
-QI-.YYYY.-,Incoming,Purchase Receipt,SPR-039,8,Asad Butt,Accepted
-QI-.YYYY.-,Outgoing,Purchase Receipt,PPE-023,6,Shahid Mughal,Accepted
-QI-.YYYY.-,Incoming,Delivery Note,PPE-028,8,Rizwan Rana,Rejected
-QI-.YYYY.-,In Process,Purchase Receipt,CNT-018,7,Kamran Qureshi,Accepted
-QI-.YYYY.-,In Process,Delivery Note,PPE-029,4,Omar Javed,Accepted
-QI-.YYYY.-,Incoming,Purchase Receipt,CLN-032,8,Ali Hassan,Accepted
-QI-.YYYY.-,Outgoing,Purchase Receipt,CLN-033,3,Muhammad Rana,Rejected
-QI-.YYYY.-,In Process,Delivery Note,SPR-052,7,Omar Malik,Accepted
-QI-.YYYY.-,Incoming,Delivery Note,CLN-035,1,Usman Malik,Accepted
-QI-.YYYY.-,In Process,Delivery Note,PPE-021,3,Omar Butt,Accepted
-QI-.YYYY.-,Incoming,Delivery Note,SPR-047,3,Ahmed Sharif,Accepted
-QI-.YYYY.-,Incoming,Delivery Note,PPE-029,4,Amir Chaudhry,Rejected
-QI-.YYYY.-,Incoming,Purchase Receipt,CNT-016,9,Salman Javed,Accepted
-QI-.YYYY.-,In Process,Purchase Receipt,SPR-046,6,Ahmed Sheikh,Accepted
-QI-.YYYY.-,Incoming,Delivery Note,SPR-048,9,Naeem Khan,Accepted
-QI-.YYYY.-,Outgoing,Purchase Receipt,SPR-051,2,Naeem Mughal,Rejected
-QI-.YYYY.-,Incoming,Delivery Note,FUEL-055,8,Faisal Javed,Accepted
-QI-.YYYY.-,In Process,Delivery Note,PPE-027,7,Amir Hassan,Rejected
-QI-.YYYY.-,Incoming,Delivery Note,SPR-046,2,Naeem Siddiqui,Accepted
-QI-.YYYY.-,Incoming,Delivery Note,PPE-027,3,Muhammad Gill,Accepted
-QI-.YYYY.-,In Process,Delivery Note,CNT-012,6,Omar Ahmed,Accepted
-QI-.YYYY.-,Incoming,Purchase Receipt,BIO-00057,1,Asad Javed,Accepted
-QI-.YYYY.-,In Process,Purchase Receipt,SPR-039,8,Faisal Butt,Accepted
-QI-.YYYY.-,Outgoing,Delivery Note,SPR-052,6,Shahid Siddiqui,Accepted
-QI-.YYYY.-,Incoming,Purchase Receipt,CNT-012,4,Muhammad Aslam,Accepted
-QI-.YYYY.-,Outgoing,Delivery Note,SPR-052,1,Kashif Dar,Accepted
-QI-.YYYY.-,In Process,Purchase Receipt,SPR-039,7,Adnan Sheikh,Rejected
-QI-.YYYY.-,In Process,Purchase Receipt,CNT-014,6,Saad Dar,Accepted
-QI-.YYYY.-,Incoming,Delivery Note,CLN-037,8,Saad Aslam,Rejected
-QI-.YYYY.-,Outgoing,Purchase Receipt,PPE-028,10,Atif Akhtar,Accepted
-QI-.YYYY.-,In Process,Purchase Receipt,SPR-050,9,Sohail Dar,Accepted
-QI-.YYYY.-,In Process,Delivery Note,SPR-050,1,Ahmed Javed,Accepted
-QI-.YYYY.-,In Process,Delivery Note,CLN-036,2,Adnan Butt,Accepted
-QI-.YYYY.-,Incoming,Delivery Note,CLN-037,2,Saad Sheikh,Accepted
-QI-.YYYY.-,Outgoing,Delivery Note,FUEL-055,5,Zain Gill,Accepted
-QI-.YYYY.-,In Process,Delivery Note,SPR-045,9,Amir Mirza,Accepted
-QI-.YYYY.-,In Process,Purchase Receipt,FUEL-053,4,Fahad Rana,Accepted
-QI-.YYYY.-,Incoming,Purchase Receipt,PPE-027,3,Hamza Qureshi,Accepted
-QI-.YYYY.-,Outgoing,Delivery Note,CLN-033,2,Salman Sheikh,Accepted
-QI-.YYYY.-,Outgoing,Delivery Note,BIO-00057,4,Junaid Chaudhry,Accepted
-QI-.YYYY.-,Outgoing,Purchase Receipt,CNT-018,9,Faisal Mughal,Accepted
-QI-.YYYY.-,Outgoing,Purchase Receipt,CLN-030,1,Hamza Qureshi,Rejected
-QI-.YYYY.-,Incoming,Delivery Note,PPE-021,7,Faisal Javed,Accepted
-QI-.YYYY.-,Outgoing,Delivery Note,SPR-051,1,Hassan Sheikh,Accepted
-QI-.YYYY.-,Incoming,Purchase Receipt,CNT-018,6,Naeem Raza,Rejected
-QI-.YYYY.-,Incoming,Purchase Receipt,SPR-040,6,Sohail Malik,Accepted
-QI-.YYYY.-,In Process,Purchase Receipt,BIO-00057,5,Hamza Sheikh,Accepted
-QI-.YYYY.-,Outgoing,Purchase Receipt,CLN-035,6,Sohail Hassan,Accepted
-QI-.YYYY.-,In Process,Purchase Receipt,SPR-047,8,Irfan Ahmed,Accepted
-QI-.YYYY.-,In Process,Delivery Note,CLN-034,3,Sohail Gill,Rejected
-QI-.YYYY.-,Outgoing,Purchase Receipt,CNT-013,1,Naeem Malik,Accepted
-QI-.YYYY.-,Outgoing,Purchase Receipt,SPR-041,2,Faisal Malik,Accepted
-QI-.YYYY.-,In Process,Delivery Note,CNT-012,6,Hassan Gill,Accepted
-QI-.YYYY.-,Incoming,Delivery Note,CNT-012,3,Sohail Sheikh,Rejected
-QI-.YYYY.-,Outgoing,Delivery Note,CNT-020,3,Naveed Javed,Accepted
-QI-.YYYY.-,In Process,Purchase Receipt,BIO-00057,7,Amir Sharif,Accepted
-QI-.YYYY.-,Outgoing,Delivery Note,CNT-016,7,Bilal Akhtar,Accepted
-QI-.YYYY.-,Outgoing,Purchase Receipt,CNT-017,3,Salman Raza,Rejected
-QI-.YYYY.-,Incoming,Delivery Note,BIO-00058,10,Irfan Ahmed,Accepted
-QI-.YYYY.-,Outgoing,Delivery Note,SPR-051,9,Naeem Aslam,Accepted
-QI-.YYYY.-,Incoming,Delivery Note,SPR-044,8,Kashif Rana,Accepted
-QI-.YYYY.-,In Process,Purchase Receipt,PPE-022,10,Arslan Raza,Accepted
-QI-.YYYY.-,Outgoing,Delivery Note,FUEL-054,2,Hassan Gill,Accepted
-QI-.YYYY.-,Incoming,Purchase Receipt,SPR-049,9,Rizwan Qureshi,Rejected
-QI-.YYYY.-,Incoming,Delivery Note,SPR-050,7,Kashif Butt,Rejected
-QI-.YYYY.-,In Process,Purchase Receipt,PPE-026,7,Naeem Rana,Rejected
-QI-.YYYY.-,Outgoing,Purchase Receipt,SPR-047,3,Zain Dar,Accepted
-QI-.YYYY.-,In Process,Delivery Note,FUEL-054,9,Saad Hassan,Accepted
-QI-.YYYY.-,Incoming,Delivery Note,PPE-025,6,Usman Butt,Accepted
-QI-.YYYY.-,Incoming,Purchase Receipt,CNT-013,4,Adnan Dar,Accepted
-QI-.YYYY.-,Incoming,Delivery Note,SPR-050,6,Atif Chaudhry,Accepted
-QI-.YYYY.-,Incoming,Purchase Receipt,SPR-041,8,Saad Aslam,Accepted
-QI-.YYYY.-,In Process,Purchase Receipt,PPE-022,9,Rizwan Chaudhry,Accepted
-QI-.YYYY.-,Incoming,Delivery Note,SPR-047,2,Naveed Rana,Rejected
-QI-.YYYY.-,Outgoing,Purchase Receipt,CNT-019,7,Hamza Akhtar,Rejected
-QI-.YYYY.-,In Process,Purchase Receipt,PPE-027,7,Shahid Hassan,Accepted
-QI-.YYYY.-,In Process,Delivery Note,CNT-013,7,Tariq Qureshi,Accepted
-QI-.YYYY.-,In Process,Purchase Receipt,SPR-051,10,Bilal Aslam,Rejected
-QI-.YYYY.-,Incoming,Delivery Note,BIO-00060,2,Hamza Hussain,Accepted
-QI-.YYYY.-,Incoming,Purchase Receipt,CNT-016,2,Bilal Raza,Rejected
-QI-.YYYY.-,Incoming,Purchase Receipt,CLN-034,5,Rizwan Dar,Accepted
-QI-.YYYY.-,Outgoing,Purchase Receipt,CLN-035,10,Atif Butt,Rejected
-QI-.YYYY.-,Outgoing,Purchase Receipt,CLN-031,6,Arslan Raza,Accepted
-QI-.YYYY.-,Outgoing,Delivery Note,CNT-016,6,Zain Javed,Accepted
-QI-.YYYY.-,Outgoing,Delivery Note,SPR-052,8,Irfan Javed,Accepted
-QI-.YYYY.-,In Process,Purchase Receipt,CLN-032,5,Fahad Qureshi,Accepted
-QI-.YYYY.-,In Process,Delivery Note,CLN-030,10,Fahad Chaudhry,Accepted
-QI-.YYYY.-,Incoming,Purchase Receipt,PPE-029,10,Amir Gill,Accepted
-QI-.YYYY.-,Incoming,Delivery Note,SPR-048,7,Ali Hussain,Accepted
-QI-.YYYY.-,In Process,Delivery Note,PPE-025,3,Asad Hassan,Rejected
-QI-.YYYY.-,In Process,Purchase Receipt,CLN-037,2,Amir Hussain,Rejected
-QI-.YYYY.-,In Process,Purchase Receipt,CNT-017,10,Kamran Siddiqui,Accepted
+naming_series,report_date,inspection_type,reference_type,reference_name,item_code,sample_size,inspected_by,status
+QI-.YYYY.-,2023-03-06,Outgoing,Purchase Receipt,PR-DEMO-000020,CLN-031,1,Tariq Butt,Accepted
+QI-.YYYY.-,2023-03-10,Outgoing,Purchase Receipt,PR-DEMO-000478,CNT-020,2,Adnan Ahmed,Accepted
+QI-.YYYY.-,2023-03-14,Outgoing,Delivery Note,DN-DEMO-000394,CLN-032,2,Usman Chaudhry,Accepted
+QI-.YYYY.-,2023-03-22,Incoming,Purchase Receipt,PR-DEMO-000359,SPR-044,7,Tariq Hussain,Accepted
+QI-.YYYY.-,2023-04-09,Incoming,Purchase Receipt,PR-DEMO-000277,CLN-035,7,Ahmed Sharif,Rejected
+QI-.YYYY.-,2023-04-22,Outgoing,Purchase Receipt,PR-DEMO-000113,CLN-030,5,Shahid Hussain,Accepted
+QI-.YYYY.-,2023-04-25,Outgoing,Purchase Receipt,PR-DEMO-000339,CLN-035,1,Imran Akhtar,Accepted
+QI-.YYYY.-,2023-04-27,In Process,Purchase Receipt,PR-DEMO-000383,CLN-032,2,Hassan Siddiqui,Rejected
+QI-.YYYY.-,2023-04-28,Outgoing,Delivery Note,DN-DEMO-000457,CLN-037,2,Asad Malik,Accepted
+QI-.YYYY.-,2023-05-02,Incoming,Delivery Note,DN-DEMO-000724,BIO-00060,1,Omar Sheikh,Accepted
+QI-.YYYY.-,2023-05-04,Incoming,Delivery Note,DN-DEMO-000794,SPR-045,10,Bilal Hussain,Accepted
+QI-.YYYY.-,2023-05-05,In Process,Delivery Note,DN-DEMO-001114,SPR-052,2,Kamran Akhtar,Accepted
+QI-.YYYY.-,2023-05-07,Incoming,Delivery Note,DN-DEMO-000707,SPR-044,4,Waqar Sharif,Accepted
+QI-.YYYY.-,2023-05-14,Outgoing,Delivery Note,DN-DEMO-000208,CNT-019,8,Sohail Hussain,Accepted
+QI-.YYYY.-,2023-05-18,In Process,Delivery Note,DN-DEMO-001172,SPR-040,8,Usman Butt,Rejected
+QI-.YYYY.-,2023-05-19,In Process,Purchase Receipt,PR-DEMO-000314,BIO-00059,4,Arslan Sharif,Accepted
+QI-.YYYY.-,2023-05-20,Outgoing,Delivery Note,DN-DEMO-000623,SPR-048,4,Asad Mughal,Accepted
+QI-.YYYY.-,2023-05-22,Incoming,Delivery Note,DN-DEMO-000559,CLN-033,1,Rizwan Qureshi,Accepted
+QI-.YYYY.-,2023-05-27,In Process,Purchase Receipt,PR-DEMO-000122,SPR-045,1,Atif Mirza,Rejected
+QI-.YYYY.-,2023-06-06,Incoming,Delivery Note,DN-DEMO-001046,FUEL-054,3,Salman Rana,Rejected
+QI-.YYYY.-,2023-06-09,Outgoing,Delivery Note,DN-DEMO-000357,SPR-042,4,Adnan Akhtar,Rejected
+QI-.YYYY.-,2023-06-12,Incoming,Purchase Receipt,PR-DEMO-000031,SPR-050,4,Imran Dar,Accepted
+QI-.YYYY.-,2023-06-12,Outgoing,Delivery Note,DN-DEMO-000450,SPR-048,6,Fahad Raza,Accepted
+QI-.YYYY.-,2023-06-28,Outgoing,Purchase Receipt,PR-DEMO-000070,FUEL-055,5,Imran Aslam,Accepted
+QI-.YYYY.-,2023-06-30,Incoming,Purchase Receipt,PR-DEMO-000401,BIO-00060,3,Amir Hussain,Accepted
+QI-.YYYY.-,2023-07-10,Incoming,Purchase Receipt,PR-DEMO-000446,BIO-00058,10,Kamran Akhtar,Accepted
+QI-.YYYY.-,2023-07-10,Incoming,Purchase Receipt,PR-DEMO-000209,FUEL-053,7,Bilal Malik,Rejected
+QI-.YYYY.-,2023-07-11,Incoming,Purchase Receipt,PR-DEMO-000187,CNT-018,6,Omar Siddiqui,Rejected
+QI-.YYYY.-,2023-07-15,In Process,Purchase Receipt,PR-DEMO-000254,CNT-013,5,Asad Butt,Rejected
+QI-.YYYY.-,2023-07-24,In Process,Purchase Receipt,PR-DEMO-000206,CLN-033,1,Salman Rana,Accepted
+QI-.YYYY.-,2023-07-24,Outgoing,Delivery Note,DN-DEMO-000531,CNT-012,10,Fahad Ahmed,Accepted
+QI-.YYYY.-,2023-08-03,Outgoing,Delivery Note,DN-DEMO-000190,CNT-017,1,Naeem Qureshi,Accepted
+QI-.YYYY.-,2023-08-03,Outgoing,Purchase Receipt,PR-DEMO-000037,PPE-021,8,Arslan Mirza,Accepted
+QI-.YYYY.-,2023-08-08,Outgoing,Delivery Note,DN-DEMO-000241,BIO-00061,8,Arslan Butt,Accepted
+QI-.YYYY.-,2023-08-20,In Process,Delivery Note,DN-DEMO-000847,SPR-051,5,Saad Siddiqui,Accepted
+QI-.YYYY.-,2023-08-20,In Process,Delivery Note,DN-DEMO-000534,FUEL-055,8,Asad Gill,Accepted
+QI-.YYYY.-,2023-08-21,In Process,Purchase Receipt,PR-DEMO-000195,PPE-024,10,Bilal Chaudhry,Accepted
+QI-.YYYY.-,2023-09-03,In Process,Delivery Note,DN-DEMO-000782,PPE-023,7,Tariq Dar,Rejected
+QI-.YYYY.-,2023-09-12,Incoming,Delivery Note,DN-DEMO-000727,CNT-017,9,Ahmed Sheikh,Accepted
+QI-.YYYY.-,2023-09-13,Outgoing,Purchase Receipt,PR-DEMO-000086,FUEL-054,9,Saad Dar,Rejected
+QI-.YYYY.-,2023-09-14,In Process,Purchase Receipt,PR-DEMO-000160,CLN-036,7,Waqar Raza,Accepted
+QI-.YYYY.-,2023-09-18,In Process,Purchase Receipt,PR-DEMO-000085,CLN-030,4,Imran Raza,Rejected
+QI-.YYYY.-,2023-09-22,Outgoing,Delivery Note,DN-DEMO-000508,BIO-00060,8,Kamran Javed,Accepted
+QI-.YYYY.-,2023-09-23,In Process,Purchase Receipt,PR-DEMO-000372,CLN-032,6,Arslan Ahmed,Accepted
+QI-.YYYY.-,2023-10-01,Outgoing,Delivery Note,DN-DEMO-000728,CLN-032,6,Bilal Khan,Rejected
+QI-.YYYY.-,2023-10-10,In Process,Delivery Note,DN-DEMO-000804,CNT-014,9,Arslan Akhtar,Rejected
+QI-.YYYY.-,2023-10-15,In Process,Delivery Note,DN-DEMO-000201,SPR-039,4,Shahid Malik,Rejected
+QI-.YYYY.-,2023-10-19,Incoming,Purchase Receipt,PR-DEMO-000087,SPR-052,9,Kamran Chaudhry,Rejected
+QI-.YYYY.-,2023-10-23,In Process,Purchase Receipt,PR-DEMO-000486,FUEL-054,9,Junaid Sharif,Accepted
+QI-.YYYY.-,2023-10-23,Outgoing,Delivery Note,DN-DEMO-000361,SPR-052,5,Zain Chaudhry,Accepted
+QI-.YYYY.-,2023-10-29,Incoming,Delivery Note,DN-DEMO-001147,PPE-025,8,Junaid Dar,Accepted
+QI-.YYYY.-,2023-11-13,In Process,Purchase Receipt,PR-DEMO-000183,SPR-041,2,Imran Siddiqui,Accepted
+QI-.YYYY.-,2023-11-15,Outgoing,Purchase Receipt,PR-DEMO-000322,SPR-046,4,Naeem Hussain,Rejected
+QI-.YYYY.-,2023-11-23,Outgoing,Purchase Receipt,PR-DEMO-000292,FUEL-055,6,Fahad Sharif,Rejected
+QI-.YYYY.-,2023-11-29,In Process,Purchase Receipt,PR-DEMO-000294,BIO-00059,2,Salman Hassan,Accepted
+QI-.YYYY.-,2023-11-30,Outgoing,Purchase Receipt,PR-DEMO-000346,CLN-034,3,Irfan Chaudhry,Accepted
+QI-.YYYY.-,2023-12-03,In Process,Purchase Receipt,PR-DEMO-000123,CNT-015,1,Zain Javed,Accepted
+QI-.YYYY.-,2023-12-14,Outgoing,Delivery Note,DN-DEMO-001060,BIO-00056,3,Omar Mughal,Rejected
+QI-.YYYY.-,2023-12-16,Incoming,Delivery Note,DN-DEMO-000910,PPE-023,2,Zain Rana,Rejected
+QI-.YYYY.-,2023-12-18,Incoming,Delivery Note,DN-DEMO-000779,SPR-052,5,Ahmed Sharif,Rejected
+QI-.YYYY.-,2023-12-20,In Process,Purchase Receipt,PR-DEMO-000382,SPR-038,3,Faisal Sharif,Accepted
+QI-.YYYY.-,2023-12-23,Outgoing,Delivery Note,DN-DEMO-000985,BIO-00061,6,Muhammad Hassan,Accepted
+QI-.YYYY.-,2023-12-24,Incoming,Purchase Receipt,PR-DEMO-000335,CLN-035,1,Omar Raza,Rejected
+QI-.YYYY.-,2023-12-27,In Process,Purchase Receipt,PR-DEMO-000296,BIO-00058,5,Faisal Malik,Accepted
+QI-.YYYY.-,2024-01-02,In Process,Purchase Receipt,PR-DEMO-000327,SPR-042,5,Naeem Khan,Accepted
+QI-.YYYY.-,2024-01-03,Outgoing,Purchase Receipt,PR-DEMO-000413,CNT-018,5,Salman Chaudhry,Rejected
+QI-.YYYY.-,2024-01-05,Outgoing,Purchase Receipt,PR-DEMO-000003,CLN-036,6,Naeem Malik,Rejected
+QI-.YYYY.-,2024-01-05,Incoming,Purchase Receipt,PR-DEMO-000131,SPR-042,3,Tariq Mirza,Rejected
+QI-.YYYY.-,2024-01-07,Incoming,Delivery Note,DN-DEMO-000551,SPR-041,8,Saad Butt,Rejected
+QI-.YYYY.-,2024-01-21,Incoming,Purchase Receipt,PR-DEMO-000433,FUEL-055,6,Saad Dar,Accepted
+QI-.YYYY.-,2024-01-23,Outgoing,Purchase Receipt,PR-DEMO-000247,BIO-00060,7,Usman Mirza,Accepted
+QI-.YYYY.-,2024-01-24,Incoming,Purchase Receipt,PR-DEMO-000443,PPE-023,5,Waqar Gill,Accepted
+QI-.YYYY.-,2024-01-24,In Process,Purchase Receipt,PR-DEMO-000096,CNT-015,8,Arslan Aslam,Accepted
+QI-.YYYY.-,2024-01-24,Incoming,Delivery Note,DN-DEMO-000417,SPR-052,1,Muhammad Khan,Accepted
+QI-.YYYY.-,2024-01-25,Outgoing,Delivery Note,DN-DEMO-000462,SPR-046,5,Ahmed Javed,Accepted
+QI-.YYYY.-,2024-01-28,In Process,Purchase Receipt,PR-DEMO-000098,SPR-048,8,Sohail Dar,Accepted
+QI-.YYYY.-,2024-02-05,Outgoing,Delivery Note,DN-DEMO-000318,PPE-025,9,Atif Dar,Accepted
+QI-.YYYY.-,2024-02-06,Incoming,Purchase Receipt,PR-DEMO-000246,SPR-045,1,Atif Rana,Rejected
+QI-.YYYY.-,2024-02-13,Outgoing,Purchase Receipt,PR-DEMO-000136,CNT-014,4,Naeem Rana,Accepted
+QI-.YYYY.-,2024-02-15,In Process,Delivery Note,DN-DEMO-000803,CNT-016,7,Tariq Sheikh,Rejected
+QI-.YYYY.-,2024-02-20,Outgoing,Purchase Receipt,PR-DEMO-000263,CLN-033,3,Usman Akhtar,Rejected
+QI-.YYYY.-,2024-02-20,Outgoing,Purchase Receipt,PR-DEMO-000248,PPE-025,4,Naeem Siddiqui,Accepted
+QI-.YYYY.-,2024-02-27,Outgoing,Purchase Receipt,PR-DEMO-000248,CNT-016,2,Faisal Mughal,Rejected
+QI-.YYYY.-,2024-02-28,Outgoing,Delivery Note,DN-DEMO-000748,SPR-046,3,Muhammad Ahmed,Accepted
+QI-.YYYY.-,2024-03-11,In Process,Delivery Note,DN-DEMO-000092,CLN-037,9,Muhammad Rana,Accepted
+QI-.YYYY.-,2024-03-11,Outgoing,Purchase Receipt,PR-DEMO-000439,SPR-048,8,Hassan Qureshi,Accepted
+QI-.YYYY.-,2024-03-18,Incoming,Purchase Receipt,PR-DEMO-000023,SPR-052,8,Hamza Akhtar,Accepted
+QI-.YYYY.-,2024-04-02,Incoming,Purchase Receipt,PR-DEMO-000459,PPE-027,7,Kamran Javed,Accepted
+QI-.YYYY.-,2024-04-03,Outgoing,Purchase Receipt,PR-DEMO-000292,BIO-00060,5,Waqar Butt,Accepted
+QI-.YYYY.-,2024-04-17,Incoming,Purchase Receipt,PR-DEMO-000035,SPR-046,7,Fahad Mughal,Accepted
+QI-.YYYY.-,2024-04-21,Incoming,Delivery Note,DN-DEMO-000315,SPR-052,6,Arslan Chaudhry,Accepted
+QI-.YYYY.-,2024-04-28,Outgoing,Delivery Note,DN-DEMO-000279,CLN-032,6,Bilal Javed,Accepted
+QI-.YYYY.-,2024-04-28,Outgoing,Delivery Note,DN-DEMO-000397,SPR-039,2,Zain Chaudhry,Accepted
+QI-.YYYY.-,2024-05-04,In Process,Delivery Note,DN-DEMO-000468,CNT-017,2,Asad Siddiqui,Accepted
+QI-.YYYY.-,2024-05-05,Outgoing,Delivery Note,DN-DEMO-000745,FUEL-053,2,Faisal Khan,Rejected
+QI-.YYYY.-,2024-05-11,Outgoing,Purchase Receipt,PR-DEMO-000003,BIO-00059,2,Fahad Malik,Rejected
+QI-.YYYY.-,2024-05-15,In Process,Delivery Note,DN-DEMO-001166,SPR-041,5,Bilal Mughal,Rejected
+QI-.YYYY.-,2024-05-23,Incoming,Purchase Receipt,PR-DEMO-000147,SPR-047,8,Naveed Aslam,Accepted
+QI-.YYYY.-,2024-05-27,Outgoing,Purchase Receipt,PR-DEMO-000275,SPR-052,6,Naveed Gill,Accepted
+QI-.YYYY.-,2024-06-04,Incoming,Delivery Note,DN-DEMO-000147,SPR-048,9,Saad Javed,Rejected
+QI-.YYYY.-,2024-06-12,In Process,Delivery Note,DN-DEMO-000565,PPE-023,4,Arslan Akhtar,Accepted
+QI-.YYYY.-,2024-06-17,Incoming,Purchase Receipt,PR-DEMO-000208,PPE-027,8,Asad Qureshi,Rejected
+QI-.YYYY.-,2024-06-21,Outgoing,Delivery Note,DN-DEMO-000212,CLN-034,7,Fahad Mughal,Accepted
+QI-.YYYY.-,2024-06-22,In Process,Delivery Note,DN-DEMO-000398,PPE-023,6,Zain Khan,Accepted
+QI-.YYYY.-,2024-06-24,Incoming,Purchase Receipt,PR-DEMO-000332,PPE-022,7,Sohail Javed,Rejected
+QI-.YYYY.-,2024-06-25,In Process,Purchase Receipt,PR-DEMO-000004,SPR-046,1,Junaid Hassan,Accepted
+QI-.YYYY.-,2024-06-27,Incoming,Purchase Receipt,PR-DEMO-000025,FUEL-054,6,Waqar Siddiqui,Accepted
+QI-.YYYY.-,2024-06-27,Incoming,Delivery Note,DN-DEMO-000248,SPR-041,7,Ahmed Mirza,Accepted
+QI-.YYYY.-,2024-06-28,Outgoing,Delivery Note,DN-DEMO-000785,SPR-039,7,Ali Siddiqui,Accepted
+QI-.YYYY.-,2024-06-29,In Process,Purchase Receipt,PR-DEMO-000154,SPR-049,1,Ahmed Qureshi,Rejected
+QI-.YYYY.-,2024-06-29,Incoming,Delivery Note,DN-DEMO-000383,SPR-052,5,Irfan Sheikh,Accepted
+QI-.YYYY.-,2024-07-03,Incoming,Delivery Note,DN-DEMO-000457,FUEL-055,3,Hamza Rana,Rejected
+QI-.YYYY.-,2024-07-06,Outgoing,Delivery Note,DN-DEMO-001110,PPE-026,7,Irfan Ahmed,Accepted
+QI-.YYYY.-,2024-07-13,Outgoing,Delivery Note,DN-DEMO-000745,BIO-00061,1,Irfan Ahmed,Accepted
+QI-.YYYY.-,2024-07-20,In Process,Delivery Note,DN-DEMO-001179,SPR-044,3,Amir Aslam,Rejected
+QI-.YYYY.-,2024-07-24,In Process,Delivery Note,DN-DEMO-000038,SPR-051,8,Usman Siddiqui,Accepted
+QI-.YYYY.-,2024-07-31,Incoming,Purchase Receipt,PR-DEMO-000096,CLN-037,5,Atif Sharif,Accepted
+QI-.YYYY.-,2024-08-01,Incoming,Delivery Note,DN-DEMO-000167,SPR-039,2,Muhammad Malik,Rejected
+QI-.YYYY.-,2024-08-04,Incoming,Purchase Receipt,PR-DEMO-000185,SPR-042,8,Irfan Sharif,Accepted
+QI-.YYYY.-,2024-08-05,In Process,Purchase Receipt,PR-DEMO-000091,FUEL-054,3,Fahad Ahmed,Rejected
+QI-.YYYY.-,2024-08-09,Incoming,Purchase Receipt,PR-DEMO-000055,CNT-018,3,Kamran Siddiqui,Rejected
+QI-.YYYY.-,2024-08-10,Outgoing,Delivery Note,DN-DEMO-000595,CLN-030,2,Atif Siddiqui,Accepted
+QI-.YYYY.-,2024-08-18,Outgoing,Purchase Receipt,PR-DEMO-000461,PPE-029,7,Naeem Sharif,Accepted
+QI-.YYYY.-,2024-08-26,Incoming,Purchase Receipt,PR-DEMO-000337,SPR-038,6,Irfan Dar,Accepted
+QI-.YYYY.-,2024-08-28,In Process,Purchase Receipt,PR-DEMO-000450,CLN-032,3,Ahmed Dar,Accepted
+QI-.YYYY.-,2024-08-29,Incoming,Purchase Receipt,PR-DEMO-000272,FUEL-053,10,Salman Sharif,Accepted
+QI-.YYYY.-,2024-09-01,Outgoing,Purchase Receipt,PR-DEMO-000036,FUEL-053,3,Faisal Mughal,Accepted
+QI-.YYYY.-,2024-09-08,Incoming,Purchase Receipt,PR-DEMO-000162,SPR-040,2,Imran Ahmed,Rejected
+QI-.YYYY.-,2024-09-12,In Process,Delivery Note,DN-DEMO-000810,CNT-015,4,Adnan Dar,Accepted
+QI-.YYYY.-,2024-09-15,Outgoing,Delivery Note,DN-DEMO-000383,SPR-046,7,Omar Rana,Accepted
+QI-.YYYY.-,2024-09-15,Incoming,Purchase Receipt,PR-DEMO-000116,CNT-017,7,Hassan Butt,Rejected
+QI-.YYYY.-,2024-09-16,Outgoing,Delivery Note,DN-DEMO-000803,CNT-013,7,Imran Dar,Accepted
+QI-.YYYY.-,2024-09-17,Incoming,Delivery Note,DN-DEMO-000810,CNT-012,1,Saad Sheikh,Rejected
+QI-.YYYY.-,2024-09-17,Incoming,Purchase Receipt,PR-DEMO-000477,PPE-022,8,Hamza Chaudhry,Rejected
+QI-.YYYY.-,2024-09-18,In Process,Delivery Note,DN-DEMO-000959,SPR-043,10,Kamran Butt,Accepted
+QI-.YYYY.-,2024-09-20,In Process,Delivery Note,DN-DEMO-000162,CNT-019,3,Arslan Mughal,Accepted
+QI-.YYYY.-,2024-09-25,In Process,Purchase Receipt,PR-DEMO-000005,BIO-00056,8,Ali Siddiqui,Accepted
+QI-.YYYY.-,2024-09-26,Outgoing,Purchase Receipt,PR-DEMO-000496,SPR-051,1,Arslan Siddiqui,Rejected
+QI-.YYYY.-,2024-09-27,Outgoing,Purchase Receipt,PR-DEMO-000026,BIO-00061,10,Shahid Qureshi,Accepted
+QI-.YYYY.-,2024-09-27,Outgoing,Purchase Receipt,PR-DEMO-000302,SPR-046,10,Rizwan Sharif,Accepted
+QI-.YYYY.-,2024-09-28,In Process,Purchase Receipt,PR-DEMO-000001,SPR-050,5,Ahmed Akhtar,Accepted
+QI-.YYYY.-,2024-10-01,In Process,Purchase Receipt,PR-DEMO-000315,CLN-033,2,Atif Sheikh,Accepted
+QI-.YYYY.-,2024-10-02,In Process,Delivery Note,DN-DEMO-000180,SPR-043,9,Irfan Qureshi,Accepted
+QI-.YYYY.-,2024-10-14,Incoming,Delivery Note,DN-DEMO-000747,PPE-022,5,Fahad Akhtar,Accepted
+QI-.YYYY.-,2024-10-27,Outgoing,Purchase Receipt,PR-DEMO-000018,PPE-021,9,Tariq Hussain,Accepted
+QI-.YYYY.-,2024-10-28,Outgoing,Purchase Receipt,PR-DEMO-000496,BIO-00058,10,Naeem Ahmed,Accepted
+QI-.YYYY.-,2024-10-28,In Process,Purchase Receipt,PR-DEMO-000312,PPE-025,6,Salman Raza,Rejected
+QI-.YYYY.-,2024-11-09,Incoming,Delivery Note,DN-DEMO-001096,PPE-025,7,Rizwan Gill,Rejected
+QI-.YYYY.-,2024-11-13,Incoming,Delivery Note,DN-DEMO-000315,SPR-042,3,Ali Khan,Accepted
+QI-.YYYY.-,2024-11-18,Outgoing,Purchase Receipt,PR-DEMO-000421,CLN-031,2,Usman Dar,Accepted
+QI-.YYYY.-,2024-11-22,Outgoing,Purchase Receipt,PR-DEMO-000125,CLN-034,2,Adnan Javed,Accepted
+QI-.YYYY.-,2024-12-07,Incoming,Purchase Receipt,PR-DEMO-000331,BIO-00061,1,Kamran Sharif,Accepted
+QI-.YYYY.-,2024-12-10,Incoming,Delivery Note,DN-DEMO-000276,BIO-00061,8,Ahmed Javed,Rejected
+QI-.YYYY.-,2024-12-10,In Process,Purchase Receipt,PR-DEMO-000418,SPR-047,7,Asad Sheikh,Accepted
+QI-.YYYY.-,2024-12-11,Outgoing,Purchase Receipt,PR-DEMO-000209,PPE-029,3,Irfan Hussain,Rejected
+QI-.YYYY.-,2024-12-12,Outgoing,Purchase Receipt,PR-DEMO-000005,BIO-00061,7,Muhammad Mughal,Accepted
+QI-.YYYY.-,2024-12-14,In Process,Delivery Note,DN-DEMO-000827,SPR-050,4,Adnan Javed,Accepted
+QI-.YYYY.-,2024-12-15,Outgoing,Purchase Receipt,PR-DEMO-000075,SPR-050,4,Zain Hassan,Accepted
+QI-.YYYY.-,2024-12-17,In Process,Delivery Note,DN-DEMO-000909,FUEL-053,7,Saad Rana,Accepted
+QI-.YYYY.-,2024-12-18,Outgoing,Delivery Note,DN-DEMO-000112,SPR-038,6,Adnan Dar,Rejected
+QI-.YYYY.-,2024-12-20,Incoming,Purchase Receipt,PR-DEMO-000127,CNT-012,5,Naveed Khan,Accepted
+QI-.YYYY.-,2024-12-26,Outgoing,Delivery Note,DN-DEMO-000520,SPR-043,8,Amir Dar,Rejected
+QI-.YYYY.-,2024-12-29,Outgoing,Purchase Receipt,PR-DEMO-000386,FUEL-054,10,Arslan Ahmed,Accepted
+QI-.YYYY.-,2025-01-01,Incoming,Purchase Receipt,PR-DEMO-000236,CLN-036,2,Shahid Dar,Accepted
+QI-.YYYY.-,2025-01-05,In Process,Purchase Receipt,PR-DEMO-000104,SPR-039,6,Usman Sheikh,Accepted
+QI-.YYYY.-,2025-01-09,In Process,Purchase Receipt,PR-DEMO-000302,CNT-014,7,Shahid Siddiqui,Accepted
+QI-.YYYY.-,2025-01-10,In Process,Purchase Receipt,PR-DEMO-000256,FUEL-055,4,Arslan Chaudhry,Accepted
+QI-.YYYY.-,2025-01-11,Outgoing,Delivery Note,DN-DEMO-000690,PPE-029,3,Waqar Javed,Rejected
+QI-.YYYY.-,2025-01-14,Outgoing,Purchase Receipt,PR-DEMO-000002,FUEL-053,6,Atif Gill,Rejected
+QI-.YYYY.-,2025-01-21,In Process,Purchase Receipt,PR-DEMO-000250,BIO-00060,3,Sohail Mughal,Accepted
+QI-.YYYY.-,2025-01-30,Incoming,Delivery Note,DN-DEMO-000715,SPR-040,4,Sohail Rana,Accepted
+QI-.YYYY.-,2025-02-03,In Process,Purchase Receipt,PR-DEMO-000325,BIO-00057,6,Salman Sharif,Accepted
+QI-.YYYY.-,2025-02-08,In Process,Delivery Note,DN-DEMO-000373,SPR-040,5,Zain Butt,Rejected
+QI-.YYYY.-,2025-02-13,In Process,Purchase Receipt,PR-DEMO-000111,FUEL-054,10,Imran Gill,Accepted
+QI-.YYYY.-,2025-02-19,Incoming,Purchase Receipt,PR-DEMO-000019,CNT-016,6,Waqar Ahmed,Accepted
+QI-.YYYY.-,2025-03-03,Incoming,Delivery Note,DN-DEMO-000638,CLN-033,1,Ali Qureshi,Accepted
+QI-.YYYY.-,2025-03-05,In Process,Delivery Note,DN-DEMO-000745,SPR-039,7,Kashif Butt,Accepted
+QI-.YYYY.-,2025-03-06,Outgoing,Purchase Receipt,PR-DEMO-000355,CNT-014,4,Salman Raza,Accepted
+QI-.YYYY.-,2025-03-06,In Process,Purchase Receipt,PR-DEMO-000418,PPE-026,8,Irfan Qureshi,Rejected
+QI-.YYYY.-,2025-03-06,In Process,Delivery Note,DN-DEMO-000958,BIO-00057,3,Bilal Hussain,Rejected
+QI-.YYYY.-,2025-03-07,Incoming,Delivery Note,DN-DEMO-000302,PPE-027,10,Atif Gill,Accepted
+QI-.YYYY.-,2025-03-08,In Process,Delivery Note,DN-DEMO-000347,SPR-039,5,Ali Sharif,Accepted
+QI-.YYYY.-,2025-03-09,In Process,Purchase Receipt,PR-DEMO-000275,SPR-052,4,Ahmed Sheikh,Accepted
+QI-.YYYY.-,2025-03-11,Outgoing,Purchase Receipt,PR-DEMO-000081,CLN-034,4,Sohail Butt,Accepted
+QI-.YYYY.-,2025-03-17,In Process,Delivery Note,DN-DEMO-000806,PPE-023,2,Imran Hussain,Accepted
+QI-.YYYY.-,2025-03-19,Incoming,Delivery Note,DN-DEMO-000543,CLN-031,10,Kashif Sharif,Rejected
+QI-.YYYY.-,2025-03-24,Incoming,Purchase Receipt,PR-DEMO-000454,SPR-052,2,Tariq Qureshi,Accepted
+QI-.YYYY.-,2025-04-02,Outgoing,Delivery Note,DN-DEMO-000389,PPE-029,10,Atif Aslam,Accepted
+QI-.YYYY.-,2025-04-02,Incoming,Purchase Receipt,PR-DEMO-000045,CNT-015,3,Saad Mughal,Accepted
+QI-.YYYY.-,2025-04-03,In Process,Purchase Receipt,PR-DEMO-000301,PPE-021,10,Irfan Mughal,Accepted
+QI-.YYYY.-,2025-04-04,Incoming,Delivery Note,DN-DEMO-000105,CLN-031,6,Fahad Malik,Accepted
+QI-.YYYY.-,2025-04-05,Incoming,Delivery Note,DN-DEMO-000118,BIO-00061,1,Bilal Sheikh,Rejected
+QI-.YYYY.-,2025-04-20,Incoming,Delivery Note,DN-DEMO-000609,CLN-032,4,Shahid Qureshi,Accepted
+QI-.YYYY.-,2025-04-21,Outgoing,Purchase Receipt,PR-DEMO-000082,PPE-022,2,Naeem Hussain,Accepted
+QI-.YYYY.-,2025-04-24,Incoming,Delivery Note,DN-DEMO-000142,PPE-027,4,Shahid Javed,Accepted
+QI-.YYYY.-,2025-04-24,Outgoing,Delivery Note,DN-DEMO-000255,SPR-046,1,Usman Hassan,Rejected
+QI-.YYYY.-,2025-04-28,Incoming,Purchase Receipt,PR-DEMO-000283,CNT-018,6,Waqar Dar,Accepted
+QI-.YYYY.-,2025-04-28,In Process,Delivery Note,DN-DEMO-000139,FUEL-054,6,Rizwan Chaudhry,Accepted
+QI-.YYYY.-,2025-05-04,Incoming,Purchase Receipt,PR-DEMO-000145,SPR-042,9,Fahad Mughal,Accepted
+QI-.YYYY.-,2025-05-05,Incoming,Purchase Receipt,PR-DEMO-000278,BIO-00056,7,Hassan Siddiqui,Accepted
+QI-.YYYY.-,2025-05-08,Incoming,Purchase Receipt,PR-DEMO-000379,PPE-027,1,Tariq Sharif,Accepted
+QI-.YYYY.-,2025-05-17,Outgoing,Delivery Note,DN-DEMO-000929,SPR-048,5,Ali Sheikh,Rejected
+QI-.YYYY.-,2025-05-26,Incoming,Delivery Note,DN-DEMO-000031,PPE-023,10,Omar Gill,Rejected
+QI-.YYYY.-,2025-05-28,Incoming,Purchase Receipt,PR-DEMO-000455,CNT-015,5,Arslan Mughal,Rejected
+QI-.YYYY.-,2025-05-31,Outgoing,Delivery Note,DN-DEMO-001126,CLN-034,3,Ahmed Ahmed,Accepted
+QI-.YYYY.-,2025-06-06,In Process,Purchase Receipt,PR-DEMO-000065,PPE-024,5,Omar Malik,Accepted
+QI-.YYYY.-,2025-06-12,Outgoing,Delivery Note,DN-DEMO-000581,FUEL-055,9,Rizwan Sheikh,Accepted
+QI-.YYYY.-,2025-06-13,Incoming,Purchase Receipt,PR-DEMO-000477,BIO-00056,2,Sohail Aslam,Accepted
+QI-.YYYY.-,2025-06-14,Outgoing,Purchase Receipt,PR-DEMO-000045,CLN-037,8,Saad Aslam,Rejected
+QI-.YYYY.-,2025-06-14,In Process,Purchase Receipt,PR-DEMO-000360,PPE-028,4,Sohail Raza,Accepted
+QI-.YYYY.-,2025-06-14,In Process,Purchase Receipt,PR-DEMO-000311,SPR-044,1,Naveed Dar,Accepted
+QI-.YYYY.-,2025-06-15,Incoming,Delivery Note,DN-DEMO-000112,SPR-050,10,Zain Dar,Rejected
+QI-.YYYY.-,2025-06-17,Incoming,Purchase Receipt,PR-DEMO-000405,SPR-041,1,Faisal Hassan,Accepted
+QI-.YYYY.-,2025-06-18,Incoming,Purchase Receipt,PR-DEMO-000070,FUEL-055,7,Tariq Rana,Accepted
+QI-.YYYY.-,2025-06-26,In Process,Purchase Receipt,PR-DEMO-000466,SPR-039,5,Shahid Mirza,Accepted
+QI-.YYYY.-,2025-06-27,Outgoing,Delivery Note,DN-DEMO-000390,FUEL-053,1,Zain Chaudhry,Rejected
+QI-.YYYY.-,2025-06-28,Incoming,Delivery Note,DN-DEMO-000519,PPE-026,8,Saad Rana,Rejected
+QI-.YYYY.-,2025-07-03,Incoming,Purchase Receipt,PR-DEMO-000324,CLN-036,6,Adnan Sharif,Rejected
+QI-.YYYY.-,2025-07-05,In Process,Delivery Note,DN-DEMO-000437,FUEL-054,4,Saad Hassan,Accepted
+QI-.YYYY.-,2025-07-06,Outgoing,Delivery Note,DN-DEMO-000759,CNT-012,5,Saad Butt,Accepted
+QI-.YYYY.-,2025-07-06,Incoming,Purchase Receipt,PR-DEMO-000073,PPE-028,6,Faisal Dar,Rejected
+QI-.YYYY.-,2025-07-07,Incoming,Delivery Note,DN-DEMO-000736,SPR-040,2,Usman Hassan,Accepted
+QI-.YYYY.-,2025-07-09,Outgoing,Delivery Note,DN-DEMO-000166,PPE-024,10,Shahid Siddiqui,Accepted
+QI-.YYYY.-,2025-07-16,In Process,Delivery Note,DN-DEMO-000727,CNT-018,1,Muhammad Javed,Accepted
+QI-.YYYY.-,2025-07-26,Outgoing,Purchase Receipt,PR-DEMO-000188,CLN-031,8,Salman Sheikh,Accepted
+QI-.YYYY.-,2025-07-30,In Process,Purchase Receipt,PR-DEMO-000281,FUEL-053,3,Amir Sharif,Accepted
+QI-.YYYY.-,2025-07-31,Outgoing,Purchase Receipt,PR-DEMO-000315,PPE-023,3,Sohail Gill,Rejected
+QI-.YYYY.-,2025-08-03,Incoming,Purchase Receipt,PR-DEMO-000045,CNT-013,1,Ali Siddiqui,Accepted
+QI-.YYYY.-,2025-08-03,Outgoing,Delivery Note,DN-DEMO-000231,BIO-00057,1,Imran Khan,Rejected
+QI-.YYYY.-,2025-08-05,Outgoing,Delivery Note,DN-DEMO-000238,CLN-035,1,Ahmed Chaudhry,Accepted
+QI-.YYYY.-,2025-08-05,Incoming,Delivery Note,DN-DEMO-001077,PPE-023,6,Shahid Gill,Accepted
+QI-.YYYY.-,2025-08-06,Outgoing,Delivery Note,DN-DEMO-000097,SPR-044,8,Usman Ahmed,Accepted
+QI-.YYYY.-,2025-08-07,In Process,Delivery Note,DN-DEMO-000371,SPR-039,8,Ali Sharif,Accepted
+QI-.YYYY.-,2025-08-11,In Process,Delivery Note,DN-DEMO-001167,FUEL-053,4,Sohail Raza,Accepted
+QI-.YYYY.-,2025-08-17,In Process,Delivery Note,DN-DEMO-000415,SPR-049,5,Hamza Akhtar,Accepted
+QI-.YYYY.-,2025-08-18,Outgoing,Delivery Note,DN-DEMO-000759,SPR-042,8,Hamza Sharif,Accepted
+QI-.YYYY.-,2025-08-20,In Process,Purchase Receipt,PR-DEMO-000303,FUEL-053,3,Kamran Dar,Rejected
+QI-.YYYY.-,2025-08-30,Outgoing,Purchase Receipt,PR-DEMO-000221,SPR-039,10,Amir Malik,Accepted
+QI-.YYYY.-,2025-09-05,In Process,Delivery Note,DN-DEMO-000331,SPR-047,10,Arslan Qureshi,Accepted
+QI-.YYYY.-,2025-09-05,Incoming,Purchase Receipt,PR-DEMO-000301,SPR-038,10,Bilal Dar,Accepted
+QI-.YYYY.-,2025-09-08,Incoming,Delivery Note,DN-DEMO-000010,SPR-050,4,Faisal Siddiqui,Rejected
+QI-.YYYY.-,2025-09-14,Outgoing,Delivery Note,DN-DEMO-001074,SPR-050,2,Amir Rana,Accepted
+QI-.YYYY.-,2025-09-14,Outgoing,Purchase Receipt,PR-DEMO-000495,PPE-026,3,Naeem Butt,Accepted
+QI-.YYYY.-,2025-09-30,In Process,Purchase Receipt,PR-DEMO-000122,CNT-013,7,Hassan Javed,Accepted
+QI-.YYYY.-,2025-10-02,Incoming,Delivery Note,DN-DEMO-000994,SPR-038,4,Kashif Khan,Accepted
+QI-.YYYY.-,2025-10-02,Incoming,Purchase Receipt,PR-DEMO-000020,SPR-043,9,Fahad Chaudhry,Rejected
+QI-.YYYY.-,2025-10-03,Incoming,Purchase Receipt,PR-DEMO-000283,SPR-049,6,Naeem Ahmed,Rejected
+QI-.YYYY.-,2025-10-04,Incoming,Delivery Note,DN-DEMO-000622,PPE-028,7,Hamza Akhtar,Rejected
+QI-.YYYY.-,2025-10-09,In Process,Delivery Note,DN-DEMO-000371,PPE-027,7,Shahid Hassan,Accepted
+QI-.YYYY.-,2025-10-12,Outgoing,Delivery Note,DN-DEMO-000858,CNT-013,7,Bilal Aslam,Rejected
+QI-.YYYY.-,2025-10-12,Outgoing,Purchase Receipt,PR-DEMO-000084,SPR-044,9,Fahad Sheikh,Rejected
+QI-.YYYY.-,2025-10-12,Outgoing,Delivery Note,DN-DEMO-000230,PPE-028,9,Zain Ahmed,Accepted
+QI-.YYYY.-,2025-10-14,In Process,Purchase Receipt,PR-DEMO-000467,PPE-026,10,Kamran Mughal,Accepted
+QI-.YYYY.-,2025-10-16,In Process,Delivery Note,DN-DEMO-000518,CNT-017,7,Hamza Mughal,Accepted
+QI-.YYYY.-,2025-10-18,In Process,Delivery Note,DN-DEMO-000446,PPE-026,5,Faisal Khan,Accepted
+QI-.YYYY.-,2025-10-19,Outgoing,Purchase Receipt,PR-DEMO-000477,SPR-049,8,Saad Chaudhry,Rejected
+QI-.YYYY.-,2025-10-22,Outgoing,Purchase Receipt,PR-DEMO-000248,SPR-051,8,Irfan Javed,Accepted
+QI-.YYYY.-,2025-10-23,Outgoing,Delivery Note,DN-DEMO-000449,CLN-032,3,Zain Mirza,Rejected
+QI-.YYYY.-,2025-10-29,Incoming,Delivery Note,DN-DEMO-000508,CLN-033,5,Salman Ahmed,Accepted
+QI-.YYYY.-,2025-10-31,Incoming,Delivery Note,DN-DEMO-000863,FUEL-053,10,Hassan Dar,Accepted
+QI-.YYYY.-,2025-10-31,In Process,Delivery Note,DN-DEMO-000433,CNT-016,10,Atif Sheikh,Accepted
+QI-.YYYY.-,2025-10-31,Incoming,Delivery Note,DN-DEMO-000032,CNT-019,9,Naveed Ahmed,Rejected
+QI-.YYYY.-,2025-11-07,In Process,Delivery Note,DN-DEMO-000432,SPR-052,8,Omar Malik,Accepted
+QI-.YYYY.-,2025-11-08,Incoming,Purchase Receipt,PR-DEMO-000319,CNT-016,1,Asad Malik,Accepted
+QI-.YYYY.-,2025-11-09,In Process,Purchase Receipt,PR-DEMO-000203,CNT-012,1,Irfan Chaudhry,Accepted
+QI-.YYYY.-,2025-11-12,In Process,Purchase Receipt,PR-DEMO-000450,SPR-052,1,Omar Hussain,Rejected
+QI-.YYYY.-,2025-11-13,Incoming,Delivery Note,DN-DEMO-000644,SPR-051,4,Naeem Khan,Accepted
+QI-.YYYY.-,2025-11-14,Outgoing,Delivery Note,DN-DEMO-000893,SPR-042,8,Kashif Javed,Accepted
+QI-.YYYY.-,2025-11-15,Incoming,Purchase Receipt,PR-DEMO-000175,CNT-012,4,Shahid Mughal,Accepted
+QI-.YYYY.-,2025-11-21,Incoming,Delivery Note,DN-DEMO-000497,SPR-047,7,Imran Khan,Accepted
+QI-.YYYY.-,2025-11-25,In Process,Purchase Receipt,PR-DEMO-000184,CLN-034,8,Muhammad Akhtar,Accepted
+QI-.YYYY.-,2025-11-30,In Process,Purchase Receipt,PR-DEMO-000399,CLN-032,7,Ali Chaudhry,Accepted
+QI-.YYYY.-,2025-11-30,Outgoing,Purchase Receipt,PR-DEMO-000405,BIO-00061,3,Naeem Mughal,Rejected
+QI-.YYYY.-,2025-12-02,Incoming,Purchase Receipt,PR-DEMO-000171,CNT-014,6,Adnan Hussain,Rejected
+QI-.YYYY.-,2025-12-03,Outgoing,Purchase Receipt,PR-DEMO-000283,SPR-047,7,Ali Malik,Accepted
+QI-.YYYY.-,2025-12-08,In Process,Delivery Note,DN-DEMO-001074,BIO-00056,6,Arslan Chaudhry,Accepted
+QI-.YYYY.-,2025-12-09,In Process,Delivery Note,DN-DEMO-000762,SPR-047,9,Kamran Rana,Rejected
+QI-.YYYY.-,2025-12-11,Incoming,Delivery Note,DN-DEMO-000868,PPE-021,8,Sohail Mughal,Rejected
+QI-.YYYY.-,2025-12-12,Outgoing,Delivery Note,DN-DEMO-000642,PPE-028,8,Saad Ahmed,Rejected
+QI-.YYYY.-,2025-12-14,Outgoing,Purchase Receipt,PR-DEMO-000237,SPR-041,2,Imran Raza,Accepted
+QI-.YYYY.-,2025-12-14,Incoming,Delivery Note,DN-DEMO-000135,BIO-00058,10,Rizwan Javed,Rejected
+QI-.YYYY.-,2025-12-20,Outgoing,Purchase Receipt,PR-DEMO-000039,SPR-052,3,Rizwan Hussain,Accepted
+QI-.YYYY.-,2025-12-20,In Process,Purchase Receipt,PR-DEMO-000419,SPR-038,9,Waqar Akhtar,Rejected
+QI-.YYYY.-,2025-12-22,Incoming,Delivery Note,DN-DEMO-000174,BIO-00060,9,Kamran Aslam,Accepted
+QI-.YYYY.-,2025-12-28,Incoming,Purchase Receipt,PR-DEMO-000328,CNT-012,8,Adnan Chaudhry,Accepted
+QI-.YYYY.-,2026-01-07,Incoming,Delivery Note,DN-DEMO-000246,CNT-013,4,Arslan Dar,Rejected
+QI-.YYYY.-,2026-01-08,Outgoing,Purchase Receipt,PR-DEMO-000127,PPE-025,4,Omar Mughal,Rejected
+QI-.YYYY.-,2026-01-17,Outgoing,Delivery Note,DN-DEMO-000637,CLN-034,8,Amir Sharif,Rejected
+QI-.YYYY.-,2026-01-22,Incoming,Purchase Receipt,PR-DEMO-000082,BIO-00058,4,Hassan Chaudhry,Rejected
+QI-.YYYY.-,2026-01-22,Incoming,Purchase Receipt,PR-DEMO-000184,SPR-052,1,Asad Sharif,Rejected
+QI-.YYYY.-,2026-01-24,Incoming,Delivery Note,DN-DEMO-001154,FUEL-055,9,Sohail Rana,Rejected
+QI-.YYYY.-,2026-01-26,Outgoing,Delivery Note,DN-DEMO-000410,CNT-020,4,Junaid Chaudhry,Accepted
+QI-.YYYY.-,2026-01-28,Outgoing,Delivery Note,DN-DEMO-000161,SPR-046,9,Imran Gill,Rejected
+QI-.YYYY.-,2026-02-02,In Process,Delivery Note,DN-DEMO-000299,SPR-050,6,Shahid Sharif,Accepted
+QI-.YYYY.-,2026-02-06,Outgoing,Purchase Receipt,PR-DEMO-000465,SPR-052,6,Sohail Akhtar,Accepted
+QI-.YYYY.-,2026-02-10,Outgoing,Purchase Receipt,PR-DEMO-000127,CNT-017,6,Omar Siddiqui,Accepted
+QI-.YYYY.-,2026-02-10,Outgoing,Delivery Note,DN-DEMO-000810,BIO-00056,8,Naeem Hussain,Accepted
+QI-.YYYY.-,2026-02-13,Incoming,Delivery Note,DN-DEMO-001112,CLN-036,1,Kamran Aslam,Accepted
+QI-.YYYY.-,2026-03-04,Incoming,Purchase Receipt,PR-DEMO-000079,PPE-025,6,Naveed Hussain,Rejected
+QI-.YYYY.-,2026-03-12,In Process,Purchase Receipt,PR-DEMO-000464,CNT-014,1,Kamran Hassan,Rejected

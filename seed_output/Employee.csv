@@ -1,342 +1,342 @@
-employee_name,first_name,last_name,company,department,designation,date_of_birth,date_of_joining,gender,employment_type,status,branch
-Faisal Aslam,Faisal,Aslam,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Collector,2000-07-04,2021-03-22,Male,Full-time,Active,Faisalabad Branch
-Naveed Hussain,Naveed,Hussain,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Collector,1993-12-19,2022-05-27,Male,Full-time,Active,Incinerator Facility - Rawalpindi
-Kamran Raza,Kamran,Raza,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Collector,1997-09-05,2023-02-05,Male,Full-time,Left,Incinerator Facility - Faisalabad
-Tariq Ahmed,Tariq,Ahmed,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Collector,1978-12-05,2023-02-12,Male,Full-time,Active,Incinerator Facility - Faisalabad
-Zara Sharif,Zara,Sharif,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Collector,1986-08-04,2023-08-15,Female,Full-time,Active,Incinerator Facility - Faisalabad
-Omar Malik,Omar,Malik,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Collector,2000-12-04,2021-04-16,Male,Full-time,Active,Lahore Operations Center
-Bilal Chaudhry,Bilal,Chaudhry,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Collector,1991-03-18,2022-01-22,Male,Full-time,Active,Incinerator Facility - Rawalpindi
-Bushra Dar,Bushra,Dar,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Collector,1995-03-06,2024-10-02,Female,Full-time,Active,Incinerator Facility - Rawalpindi
-Waqar Butt,Waqar,Butt,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Collector,1989-10-14,2023-05-06,Male,Full-time,Active,Faisalabad Branch
-Fahad Ahmed,Fahad,Ahmed,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Collector,1993-02-26,2026-01-19,Male,Full-time,Active,Incinerator Facility - Lahore
-Kashif Hassan,Kashif,Hassan,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Collector,1983-11-28,2023-11-28,Male,Full-time,Active,Incinerator Facility - Lahore
-Waqar Dar,Waqar,Dar,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Collector,1993-02-12,2023-02-19,Male,Full-time,Active,Rawalpindi Branch
-Nadia Javed,Nadia,Javed,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Collector,1993-02-22,2021-11-30,Female,Full-time,Active,Faisalabad Branch
-Bilal Mughal,Bilal,Mughal,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Collector,1997-03-17,2023-05-05,Male,Full-time,Active,Rawalpindi Branch
-Tariq Qureshi,Tariq,Qureshi,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Collector,1990-11-18,2025-01-19,Male,Full-time,Active,Rawalpindi Branch
-Atif Mirza,Atif,Mirza,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Collector,1979-03-11,2025-11-19,Male,Full-time,Active,Head Office - Lahore
-Fatima Sharif,Fatima,Sharif,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Collector,1979-04-27,2023-04-26,Female,Full-time,Left,Incinerator Facility - Faisalabad
-Atif Gill,Atif,Gill,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Collector,1997-08-16,2022-02-06,Male,Full-time,Active,Head Office - Lahore
-Bushra Mirza,Bushra,Mirza,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Collector,1976-05-08,2024-03-06,Female,Full-time,Active,Incinerator Facility - Faisalabad
-Fahad Sharif,Fahad,Sharif,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Collector,1992-09-04,2024-05-16,Male,Full-time,Active,Incinerator Facility - Lahore
-Fahad Malik,Fahad,Malik,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Collector,1999-12-15,2024-03-23,Male,Full-time,Active,Incinerator Facility - Rawalpindi
-Amir Chaudhry,Amir,Chaudhry,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Collector,1984-01-15,2022-08-21,Male,Full-time,Active,Lahore Operations Center
-Hassan Chaudhry,Hassan,Chaudhry,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Collector,1981-12-19,2025-01-10,Male,Full-time,Active,Incinerator Facility - Rawalpindi
-Usman Butt,Usman,Butt,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Collector,1981-01-19,2023-02-17,Male,Full-time,Active,Rawalpindi Branch
-Adnan Mirza,Adnan,Mirza,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Collector,1984-10-09,2025-12-22,Male,Full-time,Active,Lahore Operations Center
-Fahad Gill,Fahad,Gill,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Collector,1976-05-28,2024-11-03,Male,Full-time,Active,Rawalpindi Branch
-Adnan Aslam,Adnan,Aslam,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Collector,1982-11-13,2023-11-28,Male,Full-time,Active,Multan Branch
-Faisal Siddiqui,Faisal,Siddiqui,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Collector,1977-11-26,2026-02-05,Male,Full-time,Active,Incinerator Facility - Rawalpindi
-Hamza Mughal,Hamza,Mughal,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Collector,1989-08-11,2024-06-04,Male,Full-time,Active,Lahore Operations Center
-Uzma Mughal,Uzma,Mughal,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Collector,1977-09-13,2022-05-21,Female,Full-time,Left,Faisalabad Branch
-Saad Mirza,Saad,Mirza,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Collector,1985-09-19,2021-11-23,Male,Full-time,Active,Incinerator Facility - Faisalabad
-Ayesha Malik,Ayesha,Malik,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Collector,1978-11-26,2025-11-08,Female,Full-time,Active,Lahore Operations Center
-Maryam Siddiqui,Maryam,Siddiqui,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Collector,1989-01-14,2022-04-19,Female,Full-time,Left,Rawalpindi Branch
-Nadia Qureshi,Nadia,Qureshi,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Collector,1983-02-21,2023-03-09,Female,Full-time,Active,Incinerator Facility - Lahore
-Sohail Qureshi,Sohail,Qureshi,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Collector,1976-07-21,2022-11-16,Male,Full-time,Active,Faisalabad Branch
-Ali Hassan,Ali,Hassan,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Collector,1975-04-16,2021-08-07,Male,Full-time,Active,Faisalabad Branch
-Kashif Khan,Kashif,Khan,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Collector,1975-12-11,2025-09-29,Male,Full-time,Active,Incinerator Facility - Rawalpindi
-Atif Ahmed,Atif,Ahmed,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Collector,1982-07-03,2025-04-05,Male,Full-time,Active,Lahore Operations Center
-Naeem Mirza,Naeem,Mirza,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Collector,1979-07-25,2025-09-21,Male,Full-time,Active,Rawalpindi Branch
-Kamran Sheikh,Kamran,Sheikh,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Collector,1977-09-19,2021-03-18,Male,Full-time,Active,Rawalpindi Branch
-Junaid Butt,Junaid,Butt,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Collector,1995-12-05,2023-06-22,Male,Full-time,Active,Incinerator Facility - Faisalabad
-Sana Hassan,Sana,Hassan,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Collector,1979-02-19,2025-04-04,Female,Full-time,Active,Incinerator Facility - Rawalpindi
-Usman Chaudhry,Usman,Chaudhry,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Collector,1983-11-03,2022-07-22,Male,Full-time,Active,Multan Branch
-Fatima Mirza,Fatima,Mirza,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Collector,1981-09-20,2024-01-08,Female,Full-time,Active,Incinerator Facility - Rawalpindi
-Muhammad Chaudhry,Muhammad,Chaudhry,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Collector,1990-07-04,2022-07-07,Male,Full-time,Active,Lahore Operations Center
-Ahmed Mughal,Ahmed,Mughal,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Collector,1985-03-13,2025-12-27,Male,Full-time,Active,Incinerator Facility - Rawalpindi
-Kamran Qureshi,Kamran,Qureshi,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Collector,1999-08-25,2021-07-28,Male,Full-time,Active,Lahore Operations Center
-Asad Malik,Asad,Malik,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Collector,1976-07-17,2022-10-08,Male,Full-time,Active,Incinerator Facility - Rawalpindi
-Faisal Ahmed,Faisal,Ahmed,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Collector,1995-09-18,2024-08-13,Male,Full-time,Active,Lahore Operations Center
-Naveed Butt,Naveed,Butt,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Collector,2000-03-18,2022-12-30,Male,Full-time,Active,Lahore Operations Center
-Tariq Chaudhry,Tariq,Chaudhry,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Collector,1976-04-03,2023-08-07,Male,Full-time,Active,Head Office - Lahore
-Junaid Qureshi,Junaid,Qureshi,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Collector,1978-01-23,2021-12-07,Male,Full-time,Active,Rawalpindi Branch
-Imran Akhtar,Imran,Akhtar,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Collector,1991-12-09,2022-02-05,Male,Full-time,Active,Multan Branch
-Sara Khan,Sara,Khan,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Collector,1985-07-09,2024-02-06,Female,Full-time,Active,Lahore Operations Center
-Naveed Mughal,Naveed,Mughal,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Collector,1976-08-28,2024-05-04,Male,Full-time,Active,Rawalpindi Branch
-Hassan Raza,Hassan,Raza,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Collector,1996-12-04,2022-06-11,Male,Full-time,Active,Head Office - Lahore
-Salman Khan,Salman,Khan,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Collector,1982-01-16,2023-03-16,Male,Full-time,Active,Rawalpindi Branch
-Salman Malik,Salman,Malik,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Collector,1992-12-24,2024-11-02,Male,Full-time,Active,Incinerator Facility - Lahore
-Irfan Aslam,Irfan,Aslam,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Collector,1983-02-19,2023-04-03,Male,Full-time,Active,Head Office - Lahore
-Arslan Akhtar,Arslan,Akhtar,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Collector,1976-07-03,2026-01-30,Male,Full-time,Active,Multan Branch
-Nadia Aslam,Nadia,Aslam,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Handler,1977-09-15,2021-03-17,Female,Full-time,Active,Multan Branch
-Omar Javed,Omar,Javed,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Handler,1982-08-12,2024-06-24,Male,Full-time,Left,Faisalabad Branch
-Mehreen Chaudhry,Mehreen,Chaudhry,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Handler,1979-01-14,2021-04-18,Female,Full-time,Active,Incinerator Facility - Lahore
-Adnan Khan,Adnan,Khan,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Handler,1985-01-25,2024-11-06,Male,Full-time,Active,Multan Branch
-Naveed Chaudhry,Naveed,Chaudhry,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Handler,1988-08-02,2021-12-17,Male,Full-time,Active,Lahore Operations Center
-Zain Akhtar,Zain,Akhtar,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Handler,1988-12-12,2023-09-25,Male,Full-time,Left,Lahore Operations Center
-Naveed Sheikh,Naveed,Sheikh,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Handler,1995-07-03,2024-06-25,Male,Full-time,Active,Incinerator Facility - Rawalpindi
-Usman Chaudhry,Usman,Chaudhry,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Handler,1984-05-28,2022-12-06,Male,Full-time,Active,Incinerator Facility - Rawalpindi
-Samina Aslam,Samina,Aslam,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Handler,1989-05-08,2021-07-31,Female,Full-time,Active,Rawalpindi Branch
-Alina Hassan,Alina,Hassan,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Handler,1979-02-06,2023-09-07,Female,Full-time,Active,Incinerator Facility - Rawalpindi
-Imran Butt,Imran,Butt,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Handler,1989-05-15,2022-08-25,Male,Full-time,Active,Lahore Operations Center
-Kamran Mirza,Kamran,Mirza,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Handler,1997-12-20,2021-05-22,Male,Full-time,Active,Incinerator Facility - Lahore
-Adnan Chaudhry,Adnan,Chaudhry,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Handler,1986-07-17,2021-06-09,Male,Full-time,Active,Multan Branch
-Maryam Khan,Maryam,Khan,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Handler,1987-08-18,2025-05-11,Female,Full-time,Active,Lahore Operations Center
-Arslan Sheikh,Arslan,Sheikh,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Handler,1978-01-02,2025-10-26,Male,Full-time,Active,Faisalabad Branch
-Amir Dar,Amir,Dar,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Handler,1986-11-21,2024-10-11,Male,Full-time,Active,Multan Branch
-Sana Khan,Sana,Khan,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Handler,1977-04-21,2023-08-26,Female,Full-time,Active,Lahore Operations Center
-Samina Hassan,Samina,Hassan,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Handler,1976-08-02,2022-02-08,Female,Full-time,Active,Incinerator Facility - Rawalpindi
-Noor Sharif,Noor,Sharif,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Handler,1975-07-22,2023-07-22,Female,Full-time,Active,Faisalabad Branch
-Rabia Rana,Rabia,Rana,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Handler,1989-03-02,2024-08-09,Female,Full-time,Active,Faisalabad Branch
-Atif Gill,Atif,Gill,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Handler,1992-08-02,2021-08-27,Male,Full-time,Active,Rawalpindi Branch
-Sohail Akhtar,Sohail,Akhtar,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Handler,1982-11-26,2024-03-18,Male,Full-time,Active,Incinerator Facility - Rawalpindi
-Farah Sharif,Farah,Sharif,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Handler,1992-08-12,2024-05-02,Female,Full-time,Active,Incinerator Facility - Rawalpindi
-Ahmed Aslam,Ahmed,Aslam,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Handler,1994-04-01,2026-03-09,Male,Full-time,Active,Multan Branch
-Atif Akhtar,Atif,Akhtar,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Handler,1986-10-08,2022-01-21,Male,Full-time,Active,Faisalabad Branch
-Amir Malik,Amir,Malik,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Handler,1999-04-19,2025-11-28,Male,Full-time,Left,Incinerator Facility - Rawalpindi
-Amir Qureshi,Amir,Qureshi,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Handler,1980-04-19,2022-12-12,Male,Full-time,Active,Incinerator Facility - Lahore
-Fatima Mughal,Fatima,Mughal,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Handler,1993-10-05,2024-04-27,Female,Full-time,Active,Incinerator Facility - Faisalabad
-Bilal Sharif,Bilal,Sharif,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Handler,1976-02-02,2022-06-20,Male,Full-time,Active,Head Office - Lahore
-Ahmed Aslam,Ahmed,Aslam,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Handler,1994-04-26,2021-11-23,Male,Full-time,Active,Rawalpindi Branch
-Samina Malik,Samina,Malik,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Operations Supervisor,1975-03-19,2025-02-11,Female,Full-time,Active,Lahore Operations Center
-Farah Ahmed,Farah,Ahmed,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Operations Supervisor,1986-12-22,2023-05-20,Female,Full-time,Active,Incinerator Facility - Lahore
-Usman Qureshi,Usman,Qureshi,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Operations Supervisor,1998-07-26,2024-09-30,Male,Full-time,Left,Incinerator Facility - Lahore
-Shahid Javed,Shahid,Javed,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Operations Supervisor,2000-06-08,2024-11-23,Male,Full-time,Active,Rawalpindi Branch
-Junaid Mirza,Junaid,Mirza,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Operations Supervisor,1979-03-24,2021-03-04,Male,Full-time,Active,Incinerator Facility - Rawalpindi
-Alina Malik,Alina,Malik,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Operations Supervisor,1980-10-11,2025-09-12,Female,Full-time,Left,Faisalabad Branch
-Hassan Sharif,Hassan,Sharif,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Operations Supervisor,1979-06-24,2021-08-07,Male,Full-time,Active,Incinerator Facility - Lahore
-Naeem Ahmed,Naeem,Ahmed,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Operations Supervisor,1997-11-21,2025-04-02,Male,Full-time,Active,Incinerator Facility - Faisalabad
-Asad Chaudhry,Asad,Chaudhry,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Route Coordinator,1997-02-12,2022-08-08,Male,Full-time,Active,Head Office - Lahore
-Kashif Gill,Kashif,Gill,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Route Coordinator,1980-07-16,2026-02-08,Male,Full-time,Active,Incinerator Facility - Rawalpindi
-Atif Raza,Atif,Raza,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Route Coordinator,1995-11-08,2022-01-28,Male,Full-time,Active,Head Office - Lahore
-Saad Rana,Saad,Rana,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Route Coordinator,1978-02-11,2022-02-12,Male,Full-time,Active,Rawalpindi Branch
-Mehreen Ahmed,Mehreen,Ahmed,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Route Coordinator,1985-10-20,2026-03-04,Female,Full-time,Active,Head Office - Lahore
-Sohail Qureshi,Sohail,Qureshi,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Route Coordinator,1994-07-06,2021-06-18,Male,Full-time,Active,Faisalabad Branch
-Kiran Hussain,Kiran,Hussain,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Driver,1998-12-18,2022-08-26,Female,Full-time,Active,Multan Branch
-Muhammad Dar,Muhammad,Dar,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Driver,1993-09-27,2023-12-01,Male,Full-time,Active,Incinerator Facility - Lahore
-Ali Mirza,Ali,Mirza,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Driver,1996-11-20,2023-11-09,Male,Full-time,Active,Head Office - Lahore
-Sohail Mirza,Sohail,Mirza,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Driver,1977-08-28,2021-10-23,Male,Full-time,Active,Incinerator Facility - Rawalpindi
-Naeem Rana,Naeem,Rana,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Driver,1977-11-18,2023-05-03,Male,Full-time,Active,Incinerator Facility - Rawalpindi
-Kashif Malik,Kashif,Malik,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Driver,1983-08-15,2022-08-22,Male,Full-time,Active,Multan Branch
-Usman Hassan,Usman,Hassan,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Driver,1977-11-12,2025-09-11,Male,Full-time,Active,Faisalabad Branch
-Amir Dar,Amir,Dar,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Driver,1991-07-18,2025-01-06,Male,Full-time,Active,Incinerator Facility - Faisalabad
-Zain Sharif,Zain,Sharif,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Driver,1984-02-13,2025-12-13,Male,Full-time,Active,Rawalpindi Branch
-Fahad Siddiqui,Fahad,Siddiqui,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Driver,1980-03-07,2025-09-11,Male,Full-time,Active,Head Office - Lahore
-Kamran Gill,Kamran,Gill,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Driver,1981-11-05,2025-11-03,Male,Full-time,Active,Incinerator Facility - Lahore
-Sana Ahmed,Sana,Ahmed,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Driver,1987-09-13,2024-04-04,Female,Full-time,Active,Multan Branch
-Irfan Khan,Irfan,Khan,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Driver,2000-12-20,2024-06-16,Male,Full-time,Active,Incinerator Facility - Rawalpindi
-Usman Sheikh,Usman,Sheikh,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Driver,1993-10-19,2025-06-01,Male,Full-time,Left,Lahore Operations Center
-Alina Hassan,Alina,Hassan,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Driver,2000-05-28,2024-03-01,Female,Full-time,Active,Incinerator Facility - Rawalpindi
-Sohail Sharif,Sohail,Sharif,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Driver,1993-10-16,2021-05-16,Male,Full-time,Active,Incinerator Facility - Rawalpindi
-Waqar Dar,Waqar,Dar,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Driver,1976-07-11,2025-01-13,Male,Full-time,Active,Incinerator Facility - Faisalabad
-Farah Khan,Farah,Khan,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Driver,1985-05-10,2022-09-26,Female,Full-time,Active,Lahore Operations Center
-Bushra Sheikh,Bushra,Sheikh,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Driver,1984-12-15,2025-07-03,Female,Full-time,Active,Multan Branch
-Sadia Ahmed,Sadia,Ahmed,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Driver,1981-08-07,2025-10-13,Female,Full-time,Active,Incinerator Facility - Faisalabad
-Farah Malik,Farah,Malik,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Driver,1991-03-03,2022-11-28,Female,Full-time,Active,Incinerator Facility - Rawalpindi
-Salman Akhtar,Salman,Akhtar,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Driver,1993-01-06,2022-03-30,Male,Full-time,Active,Faisalabad Branch
-Bushra Malik,Bushra,Malik,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Driver,1989-01-12,2025-02-11,Female,Full-time,Active,Incinerator Facility - Lahore
-Zara Dar,Zara,Dar,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Driver,1995-02-22,2021-05-02,Female,Full-time,Active,Incinerator Facility - Faisalabad
-Bilal Sharif,Bilal,Sharif,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Driver,1993-09-12,2023-02-04,Male,Full-time,Active,Multan Branch
-Sana Mirza,Sana,Mirza,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Driver,1975-07-02,2022-01-28,Female,Full-time,Active,Faisalabad Branch
-Bushra Butt,Bushra,Butt,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Driver,1983-11-14,2024-01-16,Female,Full-time,Active,Head Office - Lahore
-Usman Qureshi,Usman,Qureshi,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Driver,1994-01-08,2022-07-30,Male,Full-time,Active,Multan Branch
-Rabia Gill,Rabia,Gill,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Driver,1987-06-15,2022-07-30,Female,Full-time,Active,Multan Branch
-Amir Javed,Amir,Javed,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Driver,1987-10-04,2021-03-16,Male,Full-time,Active,Incinerator Facility - Lahore
-Waqar Javed,Waqar,Javed,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Driver,1984-05-22,2021-10-08,Male,Full-time,Active,Incinerator Facility - Lahore
-Samina Rana,Samina,Rana,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Driver,1983-11-23,2026-03-02,Female,Full-time,Active,Faisalabad Branch
-Fahad Chaudhry,Fahad,Chaudhry,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Driver,1976-10-13,2024-11-12,Male,Full-time,Active,Rawalpindi Branch
-Saima Mirza,Saima,Mirza,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Driver,1983-07-13,2023-05-05,Female,Full-time,Active,Faisalabad Branch
-Adnan Chaudhry,Adnan,Chaudhry,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Driver,1996-09-21,2025-07-25,Male,Full-time,Active,Incinerator Facility - Lahore
-Salman Qureshi,Salman,Qureshi,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Driver,1996-09-06,2022-10-23,Male,Full-time,Active,Rawalpindi Branch
-Mehreen Qureshi,Mehreen,Qureshi,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Driver,1996-06-21,2021-08-30,Female,Full-time,Active,Faisalabad Branch
-Nadia Gill,Nadia,Gill,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Driver,2000-06-12,2022-08-16,Female,Full-time,Active,Incinerator Facility - Faisalabad
-Saima Malik,Saima,Malik,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Driver,1995-10-19,2024-08-23,Female,Full-time,Active,Faisalabad Branch
-Salman Dar,Salman,Dar,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Driver,1991-05-14,2021-06-19,Male,Full-time,Active,Rawalpindi Branch
-Asad Aslam,Asad,Aslam,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Driver,1988-10-15,2021-12-19,Male,Full-time,Active,Rawalpindi Branch
-Saima Aslam,Saima,Aslam,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Driver,1995-03-11,2024-09-20,Female,Full-time,Active,Incinerator Facility - Faisalabad
-Fahad Qureshi,Fahad,Qureshi,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Driver,1993-03-16,2025-07-26,Male,Full-time,Active,Lahore Operations Center
-Tariq Gill,Tariq,Gill,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Driver,1987-07-16,2023-04-25,Male,Full-time,Active,Faisalabad Branch
-Fatima Aslam,Fatima,Aslam,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Driver,1999-09-07,2021-04-06,Female,Full-time,Active,Faisalabad Branch
-Naeem Mughal,Naeem,Mughal,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Helper,1984-03-04,2023-04-25,Male,Full-time,Active,Multan Branch
-Amir Malik,Amir,Malik,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Helper,1984-05-15,2025-03-30,Male,Full-time,Active,Incinerator Facility - Lahore
-Kamran Sheikh,Kamran,Sheikh,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Helper,1985-08-12,2025-05-15,Male,Full-time,Active,Incinerator Facility - Rawalpindi
-Zain Sheikh,Zain,Sheikh,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Helper,1981-12-01,2024-06-20,Male,Full-time,Active,Lahore Operations Center
-Sohail Malik,Sohail,Malik,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Helper,1987-11-09,2025-06-27,Male,Full-time,Active,Head Office - Lahore
-Muhammad Hassan,Muhammad,Hassan,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Helper,1995-01-02,2025-01-11,Male,Full-time,Active,Incinerator Facility - Faisalabad
-Shahid Rana,Shahid,Rana,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Helper,1990-12-05,2022-04-25,Male,Full-time,Active,Head Office - Lahore
-Kamran Hassan,Kamran,Hassan,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Helper,1996-09-09,2024-08-27,Male,Full-time,Active,Rawalpindi Branch
-Naeem Hassan,Naeem,Hassan,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Helper,1991-12-20,2021-10-28,Male,Full-time,Active,Lahore Operations Center
-Waqar Butt,Waqar,Butt,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Helper,1999-05-27,2024-02-05,Male,Full-time,Left,Incinerator Facility - Lahore
-Nadia Qureshi,Nadia,Qureshi,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Helper,1976-09-16,2022-04-30,Female,Full-time,Active,Incinerator Facility - Faisalabad
-Ahmed Khan,Ahmed,Khan,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Helper,1996-02-04,2025-11-05,Male,Full-time,Active,Incinerator Facility - Faisalabad
-Ali Akhtar,Ali,Akhtar,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Helper,1977-12-24,2021-09-24,Male,Full-time,Active,Faisalabad Branch
-Omar Rana,Omar,Rana,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Helper,1989-01-04,2025-09-21,Male,Full-time,Active,Head Office - Lahore
-Farah Aslam,Farah,Aslam,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Helper,1988-12-04,2021-09-11,Female,Full-time,Active,Head Office - Lahore
-Usman Qureshi,Usman,Qureshi,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Helper,1985-06-15,2024-08-25,Male,Full-time,Active,Lahore Operations Center
-Saad Qureshi,Saad,Qureshi,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Helper,1978-07-13,2023-09-21,Male,Full-time,Active,Incinerator Facility - Rawalpindi
-Atif Gill,Atif,Gill,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Helper,1995-03-04,2021-11-27,Male,Full-time,Active,Head Office - Lahore
-Maryam Hassan,Maryam,Hassan,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Helper,1988-10-16,2025-08-30,Female,Full-time,Active,Incinerator Facility - Faisalabad
-Faisal Mughal,Faisal,Mughal,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Helper,1994-01-28,2024-12-31,Male,Full-time,Active,Rawalpindi Branch
-Atif Hassan,Atif,Hassan,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Fleet Supervisor,1988-08-02,2021-07-08,Male,Full-time,Active,Incinerator Facility - Lahore
-Salman Akhtar,Salman,Akhtar,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Fleet Supervisor,1999-12-19,2025-03-22,Male,Full-time,Active,Incinerator Facility - Lahore
-Adnan Javed,Adnan,Javed,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Fleet Supervisor,1978-07-22,2025-03-28,Male,Full-time,Active,Incinerator Facility - Lahore
-Sohail Dar,Sohail,Dar,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Mechanic,1979-09-20,2021-06-20,Male,Full-time,Active,Rawalpindi Branch
-Atif Sharif,Atif,Sharif,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Mechanic,1980-02-25,2023-12-02,Male,Full-time,Active,Incinerator Facility - Lahore
-Ayesha Akhtar,Ayesha,Akhtar,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Mechanic,1982-09-21,2023-04-15,Female,Full-time,Active,Faisalabad Branch
-Kashif Raza,Kashif,Raza,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Mechanic,1989-02-28,2023-12-16,Male,Full-time,Active,Lahore Operations Center
-Fatima Hassan,Fatima,Hassan,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Mechanic,1987-07-02,2024-04-15,Female,Full-time,Active,Lahore Operations Center
-Sadia Mirza,Sadia,Mirza,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Mechanic,1991-09-07,2024-10-31,Female,Full-time,Active,Incinerator Facility - Lahore
-Muhammad Chaudhry,Muhammad,Chaudhry,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Mechanic,1989-06-18,2025-06-19,Male,Full-time,Active,Incinerator Facility - Faisalabad
-Farah Siddiqui,Farah,Siddiqui,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Mechanic,1978-02-25,2024-11-09,Female,Full-time,Active,Incinerator Facility - Lahore
-Sohail Mirza,Sohail,Mirza,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Dispatcher,1992-09-12,2025-02-05,Male,Full-time,Active,Rawalpindi Branch
-Amir Gill,Amir,Gill,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Dispatcher,1978-05-20,2022-04-06,Male,Full-time,Active,Incinerator Facility - Rawalpindi
-Amir Butt,Amir,Butt,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Dispatcher,1997-06-04,2025-05-29,Male,Full-time,Active,Lahore Operations Center
-Uzma Siddiqui,Uzma,Siddiqui,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Dispatcher,1996-10-17,2021-12-01,Female,Full-time,Left,Head Office - Lahore
-Muhammad Hussain,Muhammad,Hussain,EnXi Biomedical & Waste Management (Pvt) Ltd,Incinerator Operations,Incinerator Operator,1988-10-16,2024-01-06,Male,Full-time,Active,Rawalpindi Branch
-Bilal Sheikh,Bilal,Sheikh,EnXi Biomedical & Waste Management (Pvt) Ltd,Incinerator Operations,Incinerator Operator,1978-07-22,2024-07-12,Male,Full-time,Active,Incinerator Facility - Lahore
-Faisal Gill,Faisal,Gill,EnXi Biomedical & Waste Management (Pvt) Ltd,Incinerator Operations,Incinerator Operator,1994-12-25,2022-07-22,Male,Full-time,Active,Incinerator Facility - Lahore
-Uzma Sheikh,Uzma,Sheikh,EnXi Biomedical & Waste Management (Pvt) Ltd,Incinerator Operations,Incinerator Operator,1979-07-20,2025-02-01,Female,Full-time,Active,Multan Branch
-Mehreen Aslam,Mehreen,Aslam,EnXi Biomedical & Waste Management (Pvt) Ltd,Incinerator Operations,Incinerator Operator,1997-12-18,2024-09-16,Female,Full-time,Active,Faisalabad Branch
-Omar Mughal,Omar,Mughal,EnXi Biomedical & Waste Management (Pvt) Ltd,Incinerator Operations,Incinerator Operator,1996-03-23,2024-10-22,Male,Full-time,Left,Rawalpindi Branch
-Adnan Aslam,Adnan,Aslam,EnXi Biomedical & Waste Management (Pvt) Ltd,Incinerator Operations,Incinerator Operator,1997-02-25,2023-02-20,Male,Full-time,Active,Incinerator Facility - Rawalpindi
-Naeem Hussain,Naeem,Hussain,EnXi Biomedical & Waste Management (Pvt) Ltd,Incinerator Operations,Incinerator Operator,1984-07-26,2021-03-27,Male,Full-time,Active,Head Office - Lahore
-Muhammad Malik,Muhammad,Malik,EnXi Biomedical & Waste Management (Pvt) Ltd,Incinerator Operations,Incinerator Operator,1981-05-25,2025-07-26,Male,Full-time,Active,Multan Branch
-Usman Malik,Usman,Malik,EnXi Biomedical & Waste Management (Pvt) Ltd,Incinerator Operations,Incinerator Operator,1997-05-07,2025-05-22,Male,Full-time,Active,Incinerator Facility - Lahore
-Sara Javed,Sara,Javed,EnXi Biomedical & Waste Management (Pvt) Ltd,Incinerator Operations,Incinerator Operator,1996-12-18,2026-01-05,Female,Full-time,Active,Incinerator Facility - Rawalpindi
-Arslan Mirza,Arslan,Mirza,EnXi Biomedical & Waste Management (Pvt) Ltd,Incinerator Operations,Incinerator Operator,1997-11-02,2023-04-21,Male,Full-time,Active,Incinerator Facility - Lahore
-Ayesha Khan,Ayesha,Khan,EnXi Biomedical & Waste Management (Pvt) Ltd,Incinerator Operations,Incinerator Operator,1998-05-07,2024-08-22,Female,Full-time,Active,Incinerator Facility - Faisalabad
-Farah Raza,Farah,Raza,EnXi Biomedical & Waste Management (Pvt) Ltd,Incinerator Operations,Incinerator Operator,1992-12-20,2022-04-07,Female,Full-time,Active,Faisalabad Branch
-Bilal Ahmed,Bilal,Ahmed,EnXi Biomedical & Waste Management (Pvt) Ltd,Incinerator Operations,Incinerator Operator,1980-03-24,2024-01-17,Male,Full-time,Active,Head Office - Lahore
-Shahid Rana,Shahid,Rana,EnXi Biomedical & Waste Management (Pvt) Ltd,Incinerator Operations,Incinerator Operator,1979-03-19,2025-11-27,Male,Full-time,Active,Incinerator Facility - Lahore
-Irfan Sheikh,Irfan,Sheikh,EnXi Biomedical & Waste Management (Pvt) Ltd,Incinerator Operations,Incinerator Operator,1976-03-11,2024-07-05,Male,Full-time,Active,Multan Branch
-Rizwan Hussain,Rizwan,Hussain,EnXi Biomedical & Waste Management (Pvt) Ltd,Incinerator Operations,Incinerator Operator,1986-02-26,2025-02-17,Male,Full-time,Active,Faisalabad Branch
-Zara Ahmed,Zara,Ahmed,EnXi Biomedical & Waste Management (Pvt) Ltd,Incinerator Operations,Incinerator Operator,2000-09-06,2023-06-30,Female,Full-time,Active,Incinerator Facility - Rawalpindi
-Zain Butt,Zain,Butt,EnXi Biomedical & Waste Management (Pvt) Ltd,Incinerator Operations,Incinerator Operator,1996-06-11,2023-03-09,Male,Full-time,Active,Incinerator Facility - Faisalabad
-Fatima Hassan,Fatima,Hassan,EnXi Biomedical & Waste Management (Pvt) Ltd,Incinerator Operations,Incinerator Operator,1996-06-15,2022-07-06,Female,Full-time,Active,Faisalabad Branch
-Samina Dar,Samina,Dar,EnXi Biomedical & Waste Management (Pvt) Ltd,Incinerator Operations,Incinerator Operator,2000-02-13,2022-08-08,Female,Full-time,Active,Multan Branch
-Naveed Mughal,Naveed,Mughal,EnXi Biomedical & Waste Management (Pvt) Ltd,Incinerator Operations,Incinerator Operator,1991-09-15,2023-11-22,Male,Full-time,Active,Faisalabad Branch
-Ali Hassan,Ali,Hassan,EnXi Biomedical & Waste Management (Pvt) Ltd,Incinerator Operations,Incinerator Operator,1980-09-18,2021-03-16,Male,Full-time,Active,Faisalabad Branch
-Fahad Butt,Fahad,Butt,EnXi Biomedical & Waste Management (Pvt) Ltd,Incinerator Operations,Incinerator Operator,1996-07-27,2021-09-29,Male,Full-time,Active,Incinerator Facility - Rawalpindi
-Ali Sheikh,Ali,Sheikh,EnXi Biomedical & Waste Management (Pvt) Ltd,Incinerator Operations,Incinerator Operator,1975-08-23,2023-01-09,Male,Full-time,Active,Lahore Operations Center
-Arslan Rana,Arslan,Rana,EnXi Biomedical & Waste Management (Pvt) Ltd,Incinerator Operations,Incinerator Operator,1992-02-19,2025-10-08,Male,Full-time,Active,Multan Branch
-Kashif Dar,Kashif,Dar,EnXi Biomedical & Waste Management (Pvt) Ltd,Incinerator Operations,Incinerator Operator,1988-06-01,2023-05-07,Male,Full-time,Active,Head Office - Lahore
-Waqar Ahmed,Waqar,Ahmed,EnXi Biomedical & Waste Management (Pvt) Ltd,Incinerator Operations,Incinerator Operator,1999-12-19,2021-06-02,Male,Full-time,Active,Lahore Operations Center
-Naveed Hassan,Naveed,Hassan,EnXi Biomedical & Waste Management (Pvt) Ltd,Incinerator Operations,Incinerator Operator,1984-11-10,2024-07-25,Male,Full-time,Active,Incinerator Facility - Faisalabad
-Amir Khan,Amir,Khan,EnXi Biomedical & Waste Management (Pvt) Ltd,Incinerator Operations,Incinerator Supervisor,1990-03-18,2022-05-25,Male,Full-time,Active,Incinerator Facility - Rawalpindi
-Mehreen Mirza,Mehreen,Mirza,EnXi Biomedical & Waste Management (Pvt) Ltd,Incinerator Operations,Incinerator Supervisor,1995-03-10,2024-12-17,Female,Full-time,Active,Incinerator Facility - Lahore
-Fatima Hussain,Fatima,Hussain,EnXi Biomedical & Waste Management (Pvt) Ltd,Incinerator Operations,Incinerator Supervisor,1992-03-04,2021-05-25,Female,Full-time,Active,Incinerator Facility - Rawalpindi
-Ali Mirza,Ali,Mirza,EnXi Biomedical & Waste Management (Pvt) Ltd,Incinerator Operations,Incinerator Supervisor,1981-12-24,2025-03-26,Male,Full-time,Active,Incinerator Facility - Rawalpindi
-Zara Sheikh,Zara,Sheikh,EnXi Biomedical & Waste Management (Pvt) Ltd,Incinerator Operations,Incinerator Supervisor,1980-03-08,2024-08-15,Female,Full-time,Active,Faisalabad Branch
-Kamran Raza,Kamran,Raza,EnXi Biomedical & Waste Management (Pvt) Ltd,Incinerator Operations,Incinerator Supervisor,1976-09-15,2024-10-11,Male,Full-time,Active,Multan Branch
-Hamza Hassan,Hamza,Hassan,EnXi Biomedical & Waste Management (Pvt) Ltd,Incinerator Operations,Incinerator Supervisor,1981-12-19,2023-11-23,Male,Full-time,Left,Incinerator Facility - Lahore
-Sohail Chaudhry,Sohail,Chaudhry,EnXi Biomedical & Waste Management (Pvt) Ltd,Incinerator Operations,Incinerator Supervisor,1978-05-20,2021-07-21,Male,Full-time,Active,Incinerator Facility - Lahore
-Saad Javed,Saad,Javed,EnXi Biomedical & Waste Management (Pvt) Ltd,Incinerator Operations,Maintenance Technician,1996-05-23,2024-06-09,Male,Full-time,Active,Incinerator Facility - Lahore
-Kiran Qureshi,Kiran,Qureshi,EnXi Biomedical & Waste Management (Pvt) Ltd,Incinerator Operations,Maintenance Technician,1975-06-08,2025-07-27,Female,Full-time,Active,Incinerator Facility - Rawalpindi
-Imran Sheikh,Imran,Sheikh,EnXi Biomedical & Waste Management (Pvt) Ltd,Incinerator Operations,Maintenance Technician,1996-12-11,2026-01-31,Male,Full-time,Active,Incinerator Facility - Faisalabad
-Omar Sharif,Omar,Sharif,EnXi Biomedical & Waste Management (Pvt) Ltd,Incinerator Operations,Maintenance Technician,1992-02-06,2024-10-13,Male,Full-time,Active,Multan Branch
-Hina Hussain,Hina,Hussain,EnXi Biomedical & Waste Management (Pvt) Ltd,Incinerator Operations,Maintenance Technician,1981-05-24,2026-02-18,Female,Full-time,Active,Lahore Operations Center
-Zara Khan,Zara,Khan,EnXi Biomedical & Waste Management (Pvt) Ltd,Incinerator Operations,Maintenance Technician,1993-10-13,2025-06-23,Female,Full-time,Active,Head Office - Lahore
-Shahid Hussain,Shahid,Hussain,EnXi Biomedical & Waste Management (Pvt) Ltd,Incinerator Operations,Maintenance Technician,1990-11-25,2021-12-30,Male,Full-time,Active,Faisalabad Branch
-Alina Mirza,Alina,Mirza,EnXi Biomedical & Waste Management (Pvt) Ltd,Incinerator Operations,Maintenance Technician,1979-08-17,2024-01-10,Female,Full-time,Active,Incinerator Facility - Lahore
-Kamran Chaudhry,Kamran,Chaudhry,EnXi Biomedical & Waste Management (Pvt) Ltd,Incinerator Operations,Maintenance Technician,2000-10-22,2022-02-03,Male,Full-time,Active,Rawalpindi Branch
-Bilal Raza,Bilal,Raza,EnXi Biomedical & Waste Management (Pvt) Ltd,Incinerator Operations,Maintenance Technician,1993-11-28,2021-12-25,Male,Full-time,Active,Incinerator Facility - Faisalabad
-Ayesha Chaudhry,Ayesha,Chaudhry,EnXi Biomedical & Waste Management (Pvt) Ltd,Incinerator Operations,Maintenance Technician,1999-08-08,2021-07-07,Female,Full-time,Active,Faisalabad Branch
-Asad Akhtar,Asad,Akhtar,EnXi Biomedical & Waste Management (Pvt) Ltd,Incinerator Operations,Maintenance Technician,2000-06-13,2023-10-18,Male,Full-time,Active,Head Office - Lahore
-Sohail Aslam,Sohail,Aslam,EnXi Biomedical & Waste Management (Pvt) Ltd,Training & Compliance,Trainer,1978-12-17,2024-09-18,Male,Full-time,Active,Multan Branch
-Rizwan Qureshi,Rizwan,Qureshi,EnXi Biomedical & Waste Management (Pvt) Ltd,Training & Compliance,Trainer,1987-11-13,2023-03-19,Male,Full-time,Active,Lahore Operations Center
-Faisal Chaudhry,Faisal,Chaudhry,EnXi Biomedical & Waste Management (Pvt) Ltd,Training & Compliance,Trainer,1991-07-12,2025-09-29,Male,Full-time,Active,Incinerator Facility - Faisalabad
-Sadia Khan,Sadia,Khan,EnXi Biomedical & Waste Management (Pvt) Ltd,Training & Compliance,Trainer,1991-03-15,2022-02-03,Female,Full-time,Active,Multan Branch
-Bilal Qureshi,Bilal,Qureshi,EnXi Biomedical & Waste Management (Pvt) Ltd,Training & Compliance,Trainer,1986-10-23,2025-09-29,Male,Full-time,Active,Faisalabad Branch
-Saad Hassan,Saad,Hassan,EnXi Biomedical & Waste Management (Pvt) Ltd,Training & Compliance,Trainer,1990-11-16,2023-11-07,Male,Full-time,Active,Rawalpindi Branch
-Tariq Khan,Tariq,Khan,EnXi Biomedical & Waste Management (Pvt) Ltd,Training & Compliance,Training Coordinator,1982-01-05,2024-05-18,Male,Full-time,Active,Rawalpindi Branch
-Muhammad Raza,Muhammad,Raza,EnXi Biomedical & Waste Management (Pvt) Ltd,Training & Compliance,Training Coordinator,1979-01-06,2022-08-11,Male,Full-time,Active,Incinerator Facility - Rawalpindi
-Rizwan Khan,Rizwan,Khan,EnXi Biomedical & Waste Management (Pvt) Ltd,Training & Compliance,Training Coordinator,1998-12-22,2025-10-08,Male,Full-time,Active,Lahore Operations Center
-Waqar Sharif,Waqar,Sharif,EnXi Biomedical & Waste Management (Pvt) Ltd,Training & Compliance,Compliance Officer,1990-03-08,2025-10-26,Male,Full-time,Active,Rawalpindi Branch
-Maryam Javed,Maryam,Javed,EnXi Biomedical & Waste Management (Pvt) Ltd,Training & Compliance,Compliance Officer,1996-09-09,2022-02-07,Female,Full-time,Active,Incinerator Facility - Lahore
-Sadia Raza,Sadia,Raza,EnXi Biomedical & Waste Management (Pvt) Ltd,Training & Compliance,Compliance Officer,1977-04-13,2023-04-29,Female,Full-time,Active,Head Office - Lahore
-Salman Akhtar,Salman,Akhtar,EnXi Biomedical & Waste Management (Pvt) Ltd,Training & Compliance,Compliance Officer,1996-07-27,2022-01-01,Male,Full-time,Active,Rawalpindi Branch
-Waqar Javed,Waqar,Javed,EnXi Biomedical & Waste Management (Pvt) Ltd,Training & Compliance,Environmental Officer,1976-09-17,2025-05-19,Male,Full-time,Active,Incinerator Facility - Faisalabad
-Naeem Javed,Naeem,Javed,EnXi Biomedical & Waste Management (Pvt) Ltd,Training & Compliance,Environmental Officer,1992-01-25,2024-12-19,Male,Full-time,Active,Incinerator Facility - Rawalpindi
-Muhammad Akhtar,Muhammad,Akhtar,EnXi Biomedical & Waste Management (Pvt) Ltd,Training & Compliance,Environmental Officer,1988-04-26,2023-11-13,Male,Full-time,Active,Incinerator Facility - Rawalpindi
-Arslan Raza,Arslan,Raza,EnXi Biomedical & Waste Management (Pvt) Ltd,Training & Compliance,Safety Officer,1978-07-05,2022-08-04,Male,Full-time,Active,Faisalabad Branch
-Sana Mirza,Sana,Mirza,EnXi Biomedical & Waste Management (Pvt) Ltd,Training & Compliance,Safety Officer,1994-09-14,2022-08-10,Female,Full-time,Active,Head Office - Lahore
-Hassan Akhtar,Hassan,Akhtar,EnXi Biomedical & Waste Management (Pvt) Ltd,Training & Compliance,Safety Officer,1975-07-21,2022-04-25,Male,Full-time,Active,Incinerator Facility - Lahore
-Hassan Sheikh,Hassan,Sheikh,EnXi Biomedical & Waste Management (Pvt) Ltd,Janitorial Services,Janitorial Supervisor,1988-11-19,2022-08-02,Male,Full-time,Active,Incinerator Facility - Rawalpindi
-Waqar Rana,Waqar,Rana,EnXi Biomedical & Waste Management (Pvt) Ltd,Janitorial Services,Janitorial Supervisor,1996-07-25,2022-04-22,Male,Full-time,Active,Incinerator Facility - Faisalabad
-Shahid Hussain,Shahid,Hussain,EnXi Biomedical & Waste Management (Pvt) Ltd,Janitorial Services,Janitorial Supervisor,1990-05-10,2024-05-27,Male,Full-time,Active,Incinerator Facility - Rawalpindi
-Sara Chaudhry,Sara,Chaudhry,EnXi Biomedical & Waste Management (Pvt) Ltd,Janitorial Services,Janitorial Supervisor,1989-12-06,2021-09-22,Female,Full-time,Active,Incinerator Facility - Rawalpindi
-Mehreen Javed,Mehreen,Javed,EnXi Biomedical & Waste Management (Pvt) Ltd,Janitorial Services,Janitorial Supervisor,1997-11-23,2021-06-15,Female,Full-time,Active,Head Office - Lahore
-Hina Sharif,Hina,Sharif,EnXi Biomedical & Waste Management (Pvt) Ltd,Janitorial Services,Janitor,1994-07-03,2021-07-10,Female,Full-time,Active,Incinerator Facility - Lahore
-Muhammad Dar,Muhammad,Dar,EnXi Biomedical & Waste Management (Pvt) Ltd,Janitorial Services,Janitor,1987-10-21,2024-02-01,Male,Full-time,Active,Head Office - Lahore
-Maryam Sharif,Maryam,Sharif,EnXi Biomedical & Waste Management (Pvt) Ltd,Janitorial Services,Janitor,1989-01-07,2025-12-06,Female,Full-time,Active,Multan Branch
-Arslan Javed,Arslan,Javed,EnXi Biomedical & Waste Management (Pvt) Ltd,Janitorial Services,Janitor,1991-09-23,2022-06-18,Male,Full-time,Active,Head Office - Lahore
-Sohail Khan,Sohail,Khan,EnXi Biomedical & Waste Management (Pvt) Ltd,Janitorial Services,Janitor,1980-02-09,2025-07-14,Male,Full-time,Active,Incinerator Facility - Rawalpindi
-Asad Akhtar,Asad,Akhtar,EnXi Biomedical & Waste Management (Pvt) Ltd,Janitorial Services,Janitor,1975-12-23,2021-07-19,Male,Full-time,Active,Multan Branch
-Mehreen Raza,Mehreen,Raza,EnXi Biomedical & Waste Management (Pvt) Ltd,Janitorial Services,Janitor,1986-06-27,2022-09-18,Female,Full-time,Active,Faisalabad Branch
-Faisal Raza,Faisal,Raza,EnXi Biomedical & Waste Management (Pvt) Ltd,Janitorial Services,Janitor,1975-05-06,2023-06-12,Male,Full-time,Active,Lahore Operations Center
-Saad Hassan,Saad,Hassan,EnXi Biomedical & Waste Management (Pvt) Ltd,Janitorial Services,Janitor,2000-09-09,2026-01-28,Male,Full-time,Active,Multan Branch
-Faisal Raza,Faisal,Raza,EnXi Biomedical & Waste Management (Pvt) Ltd,Janitorial Services,Janitor,1990-04-25,2023-01-25,Male,Full-time,Left,Incinerator Facility - Faisalabad
-Naeem Raza,Naeem,Raza,EnXi Biomedical & Waste Management (Pvt) Ltd,Janitorial Services,Janitor,1975-08-04,2022-08-11,Male,Full-time,Active,Faisalabad Branch
-Zain Aslam,Zain,Aslam,EnXi Biomedical & Waste Management (Pvt) Ltd,Janitorial Services,Janitor,1988-06-17,2024-03-02,Male,Full-time,Active,Multan Branch
-Ali Dar,Ali,Dar,EnXi Biomedical & Waste Management (Pvt) Ltd,Janitorial Services,Janitor,1996-12-27,2023-01-30,Male,Full-time,Active,Rawalpindi Branch
-Imran Butt,Imran,Butt,EnXi Biomedical & Waste Management (Pvt) Ltd,Janitorial Services,Janitor,1993-05-06,2025-05-07,Male,Full-time,Active,Faisalabad Branch
-Asad Chaudhry,Asad,Chaudhry,EnXi Biomedical & Waste Management (Pvt) Ltd,Janitorial Services,Janitor,1998-04-28,2022-08-26,Male,Full-time,Active,Faisalabad Branch
-Sadia Mughal,Sadia,Mughal,EnXi Biomedical & Waste Management (Pvt) Ltd,Janitorial Services,Janitor,1979-02-04,2021-08-08,Female,Full-time,Active,Incinerator Facility - Faisalabad
-Fahad Hussain,Fahad,Hussain,EnXi Biomedical & Waste Management (Pvt) Ltd,Janitorial Services,Janitor,1976-08-12,2024-08-23,Male,Full-time,Active,Multan Branch
-Fahad Akhtar,Fahad,Akhtar,EnXi Biomedical & Waste Management (Pvt) Ltd,Janitorial Services,Janitor,1983-07-08,2025-05-15,Male,Full-time,Active,Head Office - Lahore
-Tariq Sharif,Tariq,Sharif,EnXi Biomedical & Waste Management (Pvt) Ltd,Janitorial Services,Janitor,1992-01-17,2023-02-10,Male,Full-time,Active,Rawalpindi Branch
-Hassan Akhtar,Hassan,Akhtar,EnXi Biomedical & Waste Management (Pvt) Ltd,Janitorial Services,Janitor,1989-06-23,2021-03-18,Male,Full-time,Active,Faisalabad Branch
-Hassan Aslam,Hassan,Aslam,EnXi Biomedical & Waste Management (Pvt) Ltd,Janitorial Services,Sanitation Worker,1986-10-28,2022-08-14,Male,Full-time,Active,Multan Branch
-Atif Javed,Atif,Javed,EnXi Biomedical & Waste Management (Pvt) Ltd,Janitorial Services,Sanitation Worker,1985-06-06,2023-12-17,Male,Full-time,Active,Incinerator Facility - Rawalpindi
-Farah Mughal,Farah,Mughal,EnXi Biomedical & Waste Management (Pvt) Ltd,Janitorial Services,Sanitation Worker,1987-05-15,2022-03-04,Female,Full-time,Active,Faisalabad Branch
-Rabia Chaudhry,Rabia,Chaudhry,EnXi Biomedical & Waste Management (Pvt) Ltd,Janitorial Services,Sanitation Worker,1992-07-28,2023-04-20,Female,Full-time,Active,Rawalpindi Branch
-Ahmed Qureshi,Ahmed,Qureshi,EnXi Biomedical & Waste Management (Pvt) Ltd,Janitorial Services,Sanitation Worker,1988-08-05,2026-03-04,Male,Full-time,Active,Incinerator Facility - Lahore
-Nadia Rana,Nadia,Rana,EnXi Biomedical & Waste Management (Pvt) Ltd,Janitorial Services,Sanitation Worker,1992-10-02,2023-05-25,Female,Full-time,Active,Rawalpindi Branch
-Amir Rana,Amir,Rana,EnXi Biomedical & Waste Management (Pvt) Ltd,Janitorial Services,Sanitation Worker,1990-11-04,2023-09-08,Male,Full-time,Active,Multan Branch
-Shahid Hussain,Shahid,Hussain,EnXi Biomedical & Waste Management (Pvt) Ltd,Janitorial Services,Sanitation Worker,2000-05-12,2021-04-10,Male,Full-time,Active,Incinerator Facility - Lahore
-Sadia Butt,Sadia,Butt,EnXi Biomedical & Waste Management (Pvt) Ltd,Janitorial Services,Sanitation Worker,1993-10-21,2024-10-20,Female,Full-time,Active,Multan Branch
-Kamran Akhtar,Kamran,Akhtar,EnXi Biomedical & Waste Management (Pvt) Ltd,Janitorial Services,Sanitation Worker,1990-12-15,2026-02-24,Male,Full-time,Active,Multan Branch
-Usman Qureshi,Usman,Qureshi,EnXi Biomedical & Waste Management (Pvt) Ltd,Finance & Accounts,Finance Manager,1995-06-14,2024-09-13,Male,Full-time,Active,Incinerator Facility - Rawalpindi
-Sana Ahmed,Sana,Ahmed,EnXi Biomedical & Waste Management (Pvt) Ltd,Finance & Accounts,Accountant,1980-06-08,2022-12-03,Female,Full-time,Active,Multan Branch
-Sadia Dar,Sadia,Dar,EnXi Biomedical & Waste Management (Pvt) Ltd,Finance & Accounts,Accountant,1983-08-25,2026-01-01,Female,Full-time,Active,Incinerator Facility - Faisalabad
-Bilal Khan,Bilal,Khan,EnXi Biomedical & Waste Management (Pvt) Ltd,Finance & Accounts,Accountant,1979-12-08,2024-11-15,Male,Full-time,Active,Lahore Operations Center
-Faisal Hassan,Faisal,Hassan,EnXi Biomedical & Waste Management (Pvt) Ltd,Finance & Accounts,Accountant,1978-02-16,2024-03-28,Male,Full-time,Active,Incinerator Facility - Rawalpindi
-Ali Hassan,Ali,Hassan,EnXi Biomedical & Waste Management (Pvt) Ltd,Finance & Accounts,Accounts Officer,1983-10-05,2021-08-20,Male,Full-time,Active,Incinerator Facility - Rawalpindi
-Zain Mirza,Zain,Mirza,EnXi Biomedical & Waste Management (Pvt) Ltd,Finance & Accounts,Accounts Officer,1989-11-05,2021-11-24,Male,Full-time,Active,Rawalpindi Branch
-Kamran Mughal,Kamran,Mughal,EnXi Biomedical & Waste Management (Pvt) Ltd,Finance & Accounts,Accounts Officer,1985-08-15,2026-01-17,Male,Full-time,Active,Multan Branch
-Usman Hussain,Usman,Hussain,EnXi Biomedical & Waste Management (Pvt) Ltd,Human Resources,HR Manager,1980-10-20,2023-09-22,Male,Full-time,Active,Incinerator Facility - Rawalpindi
-Sohail Hussain,Sohail,Hussain,EnXi Biomedical & Waste Management (Pvt) Ltd,Human Resources,HR Officer,1984-06-16,2024-03-10,Male,Full-time,Active,Lahore Operations Center
-Imran Gill,Imran,Gill,EnXi Biomedical & Waste Management (Pvt) Ltd,Human Resources,HR Officer,1983-03-10,2021-03-22,Male,Full-time,Active,Rawalpindi Branch
-Atif Hussain,Atif,Hussain,EnXi Biomedical & Waste Management (Pvt) Ltd,Procurement & Stores,Procurement Officer,1975-12-16,2025-05-26,Male,Full-time,Active,Head Office - Lahore
-Nadia Javed,Nadia,Javed,EnXi Biomedical & Waste Management (Pvt) Ltd,Procurement & Stores,Procurement Officer,1982-01-18,2023-04-05,Female,Full-time,Active,Incinerator Facility - Rawalpindi
-Bilal Dar,Bilal,Dar,EnXi Biomedical & Waste Management (Pvt) Ltd,Procurement & Stores,Store Keeper,1987-04-09,2021-08-10,Male,Full-time,Active,Faisalabad Branch
-Arslan Javed,Arslan,Javed,EnXi Biomedical & Waste Management (Pvt) Ltd,Procurement & Stores,Store Keeper,2000-12-22,2022-09-08,Male,Full-time,Active,Multan Branch
-Salman Ahmed,Salman,Ahmed,EnXi Biomedical & Waste Management (Pvt) Ltd,Procurement & Stores,Store Keeper,1980-03-10,2021-10-13,Male,Full-time,Active,Incinerator Facility - Faisalabad
-Waqar Sharif,Waqar,Sharif,EnXi Biomedical & Waste Management (Pvt) Ltd,Quality Assurance,Quality Inspector,1981-06-01,2022-01-06,Male,Full-time,Active,Head Office - Lahore
-Hassan Mirza,Hassan,Mirza,EnXi Biomedical & Waste Management (Pvt) Ltd,Quality Assurance,Quality Inspector,1983-03-23,2023-08-15,Male,Full-time,Active,Faisalabad Branch
-Ahmed Sharif,Ahmed,Sharif,EnXi Biomedical & Waste Management (Pvt) Ltd,Quality Assurance,Quality Inspector,1981-06-14,2022-11-29,Male,Full-time,Active,Incinerator Facility - Faisalabad
-Uzma Malik,Uzma,Malik,EnXi Biomedical & Waste Management (Pvt) Ltd,Quality Assurance,Quality Inspector,1985-02-27,2025-05-16,Female,Full-time,Left,Head Office - Lahore
-Faisal Ahmed,Faisal,Ahmed,EnXi Biomedical & Waste Management (Pvt) Ltd,Biomedical Engineering,Biomedical Engineer,1992-08-06,2022-03-29,Male,Full-time,Active,Multan Branch
-Fatima Hassan,Fatima,Hassan,EnXi Biomedical & Waste Management (Pvt) Ltd,Biomedical Engineering,Biomedical Engineer,1999-12-08,2023-04-28,Female,Full-time,Active,Incinerator Facility - Faisalabad
-Muhammad Butt,Muhammad,Butt,EnXi Biomedical & Waste Management (Pvt) Ltd,Biomedical Engineering,Biomedical Engineer,1989-12-25,2021-09-09,Male,Full-time,Active,Faisalabad Branch
-Kamran Mirza,Kamran,Mirza,EnXi Biomedical & Waste Management (Pvt) Ltd,Biomedical Engineering,Biomedical Engineer,1985-03-21,2025-03-31,Male,Full-time,Active,Lahore Operations Center
-Sohail Mirza,Sohail,Mirza,EnXi Biomedical & Waste Management (Pvt) Ltd,Biomedical Engineering,Biomedical Engineer,1981-06-02,2026-01-02,Male,Full-time,Active,Lahore Operations Center
-Tariq Aslam,Tariq,Aslam,EnXi Biomedical & Waste Management (Pvt) Ltd,Biomedical Engineering,Service Technician,1975-03-26,2022-09-17,Male,Full-time,Active,Incinerator Facility - Rawalpindi
-Fatima Malik,Fatima,Malik,EnXi Biomedical & Waste Management (Pvt) Ltd,Biomedical Engineering,Service Technician,1993-12-16,2025-01-08,Female,Full-time,Active,Incinerator Facility - Lahore
-Bushra Qureshi,Bushra,Qureshi,EnXi Biomedical & Waste Management (Pvt) Ltd,Biomedical Engineering,Service Technician,1990-02-22,2024-08-18,Female,Full-time,Active,Head Office - Lahore
-Sohail Sheikh,Sohail,Sheikh,EnXi Biomedical & Waste Management (Pvt) Ltd,Biomedical Engineering,Service Technician,1997-09-26,2021-10-06,Male,Full-time,Active,Faisalabad Branch
-Shahid Mughal,Shahid,Mughal,EnXi Biomedical & Waste Management (Pvt) Ltd,Biomedical Engineering,Service Technician,2000-08-24,2022-03-31,Male,Full-time,Active,Incinerator Facility - Rawalpindi
-Usman Rana,Usman,Rana,EnXi Biomedical & Waste Management (Pvt) Ltd,Biomedical Engineering,Service Technician,1976-08-23,2023-08-14,Male,Full-time,Active,Incinerator Facility - Faisalabad
-Bilal Hussain,Bilal,Hussain,EnXi Biomedical & Waste Management (Pvt) Ltd,Biomedical Engineering,Service Technician,1986-06-24,2023-10-16,Male,Full-time,Active,Rawalpindi Branch
-Usman Siddiqui,Usman,Siddiqui,EnXi Biomedical & Waste Management (Pvt) Ltd,Biomedical Engineering,Service Technician,1984-05-18,2023-03-22,Male,Full-time,Active,Incinerator Facility - Rawalpindi
-Fatima Javed,Fatima,Javed,EnXi Biomedical & Waste Management (Pvt) Ltd,Sales & Business Development,Sales Executive,1986-10-08,2022-12-17,Female,Full-time,Active,Incinerator Facility - Rawalpindi
-Kamran Sharif,Kamran,Sharif,EnXi Biomedical & Waste Management (Pvt) Ltd,Sales & Business Development,Sales Executive,1999-09-05,2024-08-07,Male,Full-time,Active,Incinerator Facility - Rawalpindi
-Hassan Hassan,Hassan,Hassan,EnXi Biomedical & Waste Management (Pvt) Ltd,Sales & Business Development,Sales Executive,1991-11-03,2021-05-29,Male,Full-time,Active,Rawalpindi Branch
-Muhammad Butt,Muhammad,Butt,EnXi Biomedical & Waste Management (Pvt) Ltd,Sales & Business Development,Sales Executive,1978-08-07,2021-09-19,Male,Full-time,Active,Incinerator Facility - Rawalpindi
-Naveed Javed,Naveed,Javed,EnXi Biomedical & Waste Management (Pvt) Ltd,Customer Support,Customer Support Officer,1997-10-09,2021-06-09,Male,Full-time,Active,Lahore Operations Center
-Irfan Butt,Irfan,Butt,EnXi Biomedical & Waste Management (Pvt) Ltd,Customer Support,Customer Support Officer,1995-08-27,2021-08-11,Male,Full-time,Active,Head Office - Lahore
-Junaid Gill,Junaid,Gill,EnXi Biomedical & Waste Management (Pvt) Ltd,Customer Support,Customer Support Officer,1986-12-02,2025-10-12,Male,Full-time,Active,Head Office - Lahore
-Nadia Ahmed,Nadia,Ahmed,EnXi Biomedical & Waste Management (Pvt) Ltd,IT & Data,IT Officer,1981-09-04,2021-09-24,Female,Full-time,Active,Incinerator Facility - Rawalpindi
-Naveed Chaudhry,Naveed,Chaudhry,EnXi Biomedical & Waste Management (Pvt) Ltd,IT & Data,IT Officer,1993-11-06,2024-04-17,Male,Full-time,Active,Incinerator Facility - Rawalpindi
-Alina Mughal,Alina,Mughal,EnXi Biomedical & Waste Management (Pvt) Ltd,IT & Data,Data Entry Operator,1996-08-23,2024-11-22,Female,Full-time,Active,Lahore Operations Center
-Bilal Hussain,Bilal,Hussain,EnXi Biomedical & Waste Management (Pvt) Ltd,IT & Data,Data Entry Operator,1987-09-11,2024-11-06,Male,Full-time,Active,Incinerator Facility - Faisalabad
-Samina Hussain,Samina,Hussain,EnXi Biomedical & Waste Management (Pvt) Ltd,IT & Data,Data Entry Operator,1985-06-14,2025-06-13,Female,Full-time,Active,Incinerator Facility - Lahore
-Rizwan Hussain,Rizwan,Hussain,EnXi Biomedical & Waste Management (Pvt) Ltd,Administration,Admin Officer,1981-07-25,2024-03-31,Male,Full-time,Active,Multan Branch
-Kashif Siddiqui,Kashif,Siddiqui,EnXi Biomedical & Waste Management (Pvt) Ltd,Administration,Admin Officer,1987-01-24,2021-05-10,Male,Full-time,Left,Head Office - Lahore
-Naeem Mirza,Naeem,Mirza,EnXi Biomedical & Waste Management (Pvt) Ltd,Administration,Admin Officer,1975-05-08,2022-05-14,Male,Full-time,Active,Head Office - Lahore
-Rabia Hussain,Rabia,Hussain,EnXi Biomedical & Waste Management (Pvt) Ltd,Administration,CEO,1991-09-19,2024-05-14,Female,Full-time,Active,Head Office - Lahore
-Usman Sheikh,Usman,Sheikh,EnXi Biomedical & Waste Management (Pvt) Ltd,Administration,COO,1983-06-19,2022-07-25,Male,Full-time,Active,Multan Branch
-Faisal Raza,Faisal,Raza,EnXi Biomedical & Waste Management (Pvt) Ltd,Administration,CFO,1981-12-03,2025-03-21,Male,Full-time,Active,Incinerator Facility - Faisalabad
-Amir Raza,Amir,Raza,EnXi Biomedical & Waste Management (Pvt) Ltd,Administration,Director Operations,1978-10-21,2022-11-06,Male,Full-time,Active,Incinerator Facility - Rawalpindi
-Muhammad Aslam,Muhammad,Aslam,EnXi Biomedical & Waste Management (Pvt) Ltd,Administration,Director Compliance,1986-07-14,2026-01-11,Male,Full-time,Active,Faisalabad Branch
+employee_name,naming_series,first_name,last_name,company,department,designation,date_of_birth,date_of_joining,gender,employment_type,status,branch
+Faisal Aslam,HR-EMP-.YYYY.-,Faisal,Aslam,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Collector,2000-07-04,2021-03-22,Male,Full-time,Active,Faisalabad Branch
+Naveed Hussain,HR-EMP-.YYYY.-,Naveed,Hussain,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Collector,1993-12-19,2022-05-27,Male,Full-time,Active,Incinerator Facility - Rawalpindi
+Kamran Raza,HR-EMP-.YYYY.-,Kamran,Raza,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Collector,1997-09-05,2023-02-05,Male,Full-time,Left,Incinerator Facility - Faisalabad
+Tariq Ahmed,HR-EMP-.YYYY.-,Tariq,Ahmed,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Collector,1978-12-05,2023-02-12,Male,Full-time,Active,Incinerator Facility - Faisalabad
+Zara Sharif,HR-EMP-.YYYY.-,Zara,Sharif,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Collector,1986-08-04,2023-08-15,Female,Full-time,Active,Incinerator Facility - Faisalabad
+Omar Malik,HR-EMP-.YYYY.-,Omar,Malik,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Collector,2000-12-04,2021-04-16,Male,Full-time,Active,Lahore Operations Center
+Bilal Chaudhry,HR-EMP-.YYYY.-,Bilal,Chaudhry,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Collector,1991-03-18,2022-01-22,Male,Full-time,Active,Incinerator Facility - Rawalpindi
+Bushra Dar,HR-EMP-.YYYY.-,Bushra,Dar,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Collector,1995-03-06,2024-10-02,Female,Full-time,Active,Incinerator Facility - Rawalpindi
+Waqar Butt,HR-EMP-.YYYY.-,Waqar,Butt,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Collector,1989-10-14,2023-05-06,Male,Full-time,Active,Faisalabad Branch
+Fahad Ahmed,HR-EMP-.YYYY.-,Fahad,Ahmed,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Collector,1993-02-26,2026-01-19,Male,Full-time,Active,Incinerator Facility - Lahore
+Kashif Hassan,HR-EMP-.YYYY.-,Kashif,Hassan,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Collector,1983-11-28,2023-11-28,Male,Full-time,Active,Incinerator Facility - Lahore
+Waqar Dar,HR-EMP-.YYYY.-,Waqar,Dar,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Collector,1993-02-12,2023-02-19,Male,Full-time,Active,Rawalpindi Branch
+Nadia Javed,HR-EMP-.YYYY.-,Nadia,Javed,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Collector,1993-02-22,2021-11-30,Female,Full-time,Active,Faisalabad Branch
+Bilal Mughal,HR-EMP-.YYYY.-,Bilal,Mughal,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Collector,1997-03-17,2023-05-05,Male,Full-time,Active,Rawalpindi Branch
+Tariq Qureshi,HR-EMP-.YYYY.-,Tariq,Qureshi,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Collector,1990-11-18,2025-01-19,Male,Full-time,Active,Rawalpindi Branch
+Atif Mirza,HR-EMP-.YYYY.-,Atif,Mirza,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Collector,1979-03-11,2025-11-19,Male,Full-time,Active,Head Office - Lahore
+Fatima Sharif,HR-EMP-.YYYY.-,Fatima,Sharif,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Collector,1979-04-27,2023-04-26,Female,Full-time,Left,Incinerator Facility - Faisalabad
+Atif Gill,HR-EMP-.YYYY.-,Atif,Gill,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Collector,1997-08-16,2022-02-06,Male,Full-time,Active,Head Office - Lahore
+Bushra Mirza,HR-EMP-.YYYY.-,Bushra,Mirza,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Collector,1976-05-08,2024-03-06,Female,Full-time,Active,Incinerator Facility - Faisalabad
+Fahad Sharif,HR-EMP-.YYYY.-,Fahad,Sharif,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Collector,1992-09-04,2024-05-16,Male,Full-time,Active,Incinerator Facility - Lahore
+Fahad Malik,HR-EMP-.YYYY.-,Fahad,Malik,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Collector,1999-12-15,2024-03-23,Male,Full-time,Active,Incinerator Facility - Rawalpindi
+Amir Chaudhry,HR-EMP-.YYYY.-,Amir,Chaudhry,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Collector,1984-01-15,2022-08-21,Male,Full-time,Active,Lahore Operations Center
+Hassan Chaudhry,HR-EMP-.YYYY.-,Hassan,Chaudhry,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Collector,1981-12-19,2025-01-10,Male,Full-time,Active,Incinerator Facility - Rawalpindi
+Usman Butt,HR-EMP-.YYYY.-,Usman,Butt,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Collector,1981-01-19,2023-02-17,Male,Full-time,Active,Rawalpindi Branch
+Adnan Mirza,HR-EMP-.YYYY.-,Adnan,Mirza,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Collector,1984-10-09,2025-12-22,Male,Full-time,Active,Lahore Operations Center
+Fahad Gill,HR-EMP-.YYYY.-,Fahad,Gill,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Collector,1976-05-28,2024-11-03,Male,Full-time,Active,Rawalpindi Branch
+Adnan Aslam,HR-EMP-.YYYY.-,Adnan,Aslam,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Collector,1982-11-13,2023-11-28,Male,Full-time,Active,Multan Branch
+Faisal Siddiqui,HR-EMP-.YYYY.-,Faisal,Siddiqui,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Collector,1977-11-26,2026-02-05,Male,Full-time,Active,Incinerator Facility - Rawalpindi
+Hamza Mughal,HR-EMP-.YYYY.-,Hamza,Mughal,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Collector,1989-08-11,2024-06-04,Male,Full-time,Active,Lahore Operations Center
+Uzma Mughal,HR-EMP-.YYYY.-,Uzma,Mughal,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Collector,1977-09-13,2022-05-21,Female,Full-time,Left,Faisalabad Branch
+Saad Mirza,HR-EMP-.YYYY.-,Saad,Mirza,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Collector,1985-09-19,2021-11-23,Male,Full-time,Active,Incinerator Facility - Faisalabad
+Ayesha Malik,HR-EMP-.YYYY.-,Ayesha,Malik,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Collector,1978-11-26,2025-11-08,Female,Full-time,Active,Lahore Operations Center
+Maryam Siddiqui,HR-EMP-.YYYY.-,Maryam,Siddiqui,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Collector,1989-01-14,2022-04-19,Female,Full-time,Left,Rawalpindi Branch
+Nadia Qureshi,HR-EMP-.YYYY.-,Nadia,Qureshi,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Collector,1983-02-21,2023-03-09,Female,Full-time,Active,Incinerator Facility - Lahore
+Sohail Qureshi,HR-EMP-.YYYY.-,Sohail,Qureshi,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Collector,1976-07-21,2022-11-16,Male,Full-time,Active,Faisalabad Branch
+Ali Hassan,HR-EMP-.YYYY.-,Ali,Hassan,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Collector,1975-04-16,2021-08-07,Male,Full-time,Active,Faisalabad Branch
+Kashif Khan,HR-EMP-.YYYY.-,Kashif,Khan,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Collector,1975-12-11,2025-09-29,Male,Full-time,Active,Incinerator Facility - Rawalpindi
+Atif Ahmed,HR-EMP-.YYYY.-,Atif,Ahmed,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Collector,1982-07-03,2025-04-05,Male,Full-time,Active,Lahore Operations Center
+Naeem Mirza,HR-EMP-.YYYY.-,Naeem,Mirza,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Collector,1979-07-25,2025-09-21,Male,Full-time,Active,Rawalpindi Branch
+Kamran Sheikh,HR-EMP-.YYYY.-,Kamran,Sheikh,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Collector,1977-09-19,2021-03-18,Male,Full-time,Active,Rawalpindi Branch
+Junaid Butt,HR-EMP-.YYYY.-,Junaid,Butt,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Collector,1995-12-05,2023-06-22,Male,Full-time,Active,Incinerator Facility - Faisalabad
+Sana Hassan,HR-EMP-.YYYY.-,Sana,Hassan,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Collector,1979-02-19,2025-04-04,Female,Full-time,Active,Incinerator Facility - Rawalpindi
+Usman Chaudhry,HR-EMP-.YYYY.-,Usman,Chaudhry,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Collector,1983-11-03,2022-07-22,Male,Full-time,Active,Multan Branch
+Fatima Mirza,HR-EMP-.YYYY.-,Fatima,Mirza,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Collector,1981-09-20,2024-01-08,Female,Full-time,Active,Incinerator Facility - Rawalpindi
+Muhammad Chaudhry,HR-EMP-.YYYY.-,Muhammad,Chaudhry,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Collector,1990-07-04,2022-07-07,Male,Full-time,Active,Lahore Operations Center
+Ahmed Mughal,HR-EMP-.YYYY.-,Ahmed,Mughal,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Collector,1985-03-13,2025-12-27,Male,Full-time,Active,Incinerator Facility - Rawalpindi
+Kamran Qureshi,HR-EMP-.YYYY.-,Kamran,Qureshi,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Collector,1999-08-25,2021-07-28,Male,Full-time,Active,Lahore Operations Center
+Asad Malik,HR-EMP-.YYYY.-,Asad,Malik,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Collector,1976-07-17,2022-10-08,Male,Full-time,Active,Incinerator Facility - Rawalpindi
+Faisal Ahmed,HR-EMP-.YYYY.-,Faisal,Ahmed,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Collector,1995-09-18,2024-08-13,Male,Full-time,Active,Lahore Operations Center
+Naveed Butt,HR-EMP-.YYYY.-,Naveed,Butt,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Collector,2000-03-18,2022-12-30,Male,Full-time,Active,Lahore Operations Center
+Tariq Chaudhry,HR-EMP-.YYYY.-,Tariq,Chaudhry,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Collector,1976-04-03,2023-08-07,Male,Full-time,Active,Head Office - Lahore
+Junaid Qureshi,HR-EMP-.YYYY.-,Junaid,Qureshi,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Collector,1978-01-23,2021-12-07,Male,Full-time,Active,Rawalpindi Branch
+Imran Akhtar,HR-EMP-.YYYY.-,Imran,Akhtar,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Collector,1991-12-09,2022-02-05,Male,Full-time,Active,Multan Branch
+Sara Khan,HR-EMP-.YYYY.-,Sara,Khan,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Collector,1985-07-09,2024-02-06,Female,Full-time,Active,Lahore Operations Center
+Naveed Mughal,HR-EMP-.YYYY.-,Naveed,Mughal,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Collector,1976-08-28,2024-05-04,Male,Full-time,Active,Rawalpindi Branch
+Hassan Raza,HR-EMP-.YYYY.-,Hassan,Raza,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Collector,1996-12-04,2022-06-11,Male,Full-time,Active,Head Office - Lahore
+Salman Khan,HR-EMP-.YYYY.-,Salman,Khan,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Collector,1982-01-16,2023-03-16,Male,Full-time,Active,Rawalpindi Branch
+Salman Malik,HR-EMP-.YYYY.-,Salman,Malik,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Collector,1992-12-24,2024-11-02,Male,Full-time,Active,Incinerator Facility - Lahore
+Irfan Aslam,HR-EMP-.YYYY.-,Irfan,Aslam,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Collector,1983-02-19,2023-04-03,Male,Full-time,Active,Head Office - Lahore
+Arslan Akhtar,HR-EMP-.YYYY.-,Arslan,Akhtar,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Collector,1976-07-03,2026-01-30,Male,Full-time,Active,Multan Branch
+Nadia Aslam,HR-EMP-.YYYY.-,Nadia,Aslam,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Handler,1977-09-15,2021-03-17,Female,Full-time,Active,Multan Branch
+Omar Javed,HR-EMP-.YYYY.-,Omar,Javed,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Handler,1982-08-12,2024-06-24,Male,Full-time,Left,Faisalabad Branch
+Mehreen Chaudhry,HR-EMP-.YYYY.-,Mehreen,Chaudhry,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Handler,1979-01-14,2021-04-18,Female,Full-time,Active,Incinerator Facility - Lahore
+Adnan Khan,HR-EMP-.YYYY.-,Adnan,Khan,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Handler,1985-01-25,2024-11-06,Male,Full-time,Active,Multan Branch
+Naveed Chaudhry,HR-EMP-.YYYY.-,Naveed,Chaudhry,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Handler,1988-08-02,2021-12-17,Male,Full-time,Active,Lahore Operations Center
+Zain Akhtar,HR-EMP-.YYYY.-,Zain,Akhtar,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Handler,1988-12-12,2023-09-25,Male,Full-time,Left,Lahore Operations Center
+Naveed Sheikh,HR-EMP-.YYYY.-,Naveed,Sheikh,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Handler,1995-07-03,2024-06-25,Male,Full-time,Active,Incinerator Facility - Rawalpindi
+Usman Chaudhry,HR-EMP-.YYYY.-,Usman,Chaudhry,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Handler,1984-05-28,2022-12-06,Male,Full-time,Active,Incinerator Facility - Rawalpindi
+Samina Aslam,HR-EMP-.YYYY.-,Samina,Aslam,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Handler,1989-05-08,2021-07-31,Female,Full-time,Active,Rawalpindi Branch
+Alina Hassan,HR-EMP-.YYYY.-,Alina,Hassan,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Handler,1979-02-06,2023-09-07,Female,Full-time,Active,Incinerator Facility - Rawalpindi
+Imran Butt,HR-EMP-.YYYY.-,Imran,Butt,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Handler,1989-05-15,2022-08-25,Male,Full-time,Active,Lahore Operations Center
+Kamran Mirza,HR-EMP-.YYYY.-,Kamran,Mirza,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Handler,1997-12-20,2021-05-22,Male,Full-time,Active,Incinerator Facility - Lahore
+Adnan Chaudhry,HR-EMP-.YYYY.-,Adnan,Chaudhry,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Handler,1986-07-17,2021-06-09,Male,Full-time,Active,Multan Branch
+Maryam Khan,HR-EMP-.YYYY.-,Maryam,Khan,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Handler,1987-08-18,2025-05-11,Female,Full-time,Active,Lahore Operations Center
+Arslan Sheikh,HR-EMP-.YYYY.-,Arslan,Sheikh,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Handler,1978-01-02,2025-10-26,Male,Full-time,Active,Faisalabad Branch
+Amir Dar,HR-EMP-.YYYY.-,Amir,Dar,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Handler,1986-11-21,2024-10-11,Male,Full-time,Active,Multan Branch
+Sana Khan,HR-EMP-.YYYY.-,Sana,Khan,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Handler,1977-04-21,2023-08-26,Female,Full-time,Active,Lahore Operations Center
+Samina Hassan,HR-EMP-.YYYY.-,Samina,Hassan,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Handler,1976-08-02,2022-02-08,Female,Full-time,Active,Incinerator Facility - Rawalpindi
+Noor Sharif,HR-EMP-.YYYY.-,Noor,Sharif,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Handler,1975-07-22,2023-07-22,Female,Full-time,Active,Faisalabad Branch
+Rabia Rana,HR-EMP-.YYYY.-,Rabia,Rana,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Handler,1989-03-02,2024-08-09,Female,Full-time,Active,Faisalabad Branch
+Atif Gill,HR-EMP-.YYYY.-,Atif,Gill,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Handler,1992-08-02,2021-08-27,Male,Full-time,Active,Rawalpindi Branch
+Sohail Akhtar,HR-EMP-.YYYY.-,Sohail,Akhtar,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Handler,1982-11-26,2024-03-18,Male,Full-time,Active,Incinerator Facility - Rawalpindi
+Farah Sharif,HR-EMP-.YYYY.-,Farah,Sharif,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Handler,1992-08-12,2024-05-02,Female,Full-time,Active,Incinerator Facility - Rawalpindi
+Ahmed Aslam,HR-EMP-.YYYY.-,Ahmed,Aslam,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Handler,1994-04-01,2026-03-09,Male,Full-time,Active,Multan Branch
+Atif Akhtar,HR-EMP-.YYYY.-,Atif,Akhtar,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Handler,1986-10-08,2022-01-21,Male,Full-time,Active,Faisalabad Branch
+Amir Malik,HR-EMP-.YYYY.-,Amir,Malik,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Handler,1999-04-19,2025-11-28,Male,Full-time,Left,Incinerator Facility - Rawalpindi
+Amir Qureshi,HR-EMP-.YYYY.-,Amir,Qureshi,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Handler,1980-04-19,2022-12-12,Male,Full-time,Active,Incinerator Facility - Lahore
+Fatima Mughal,HR-EMP-.YYYY.-,Fatima,Mughal,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Handler,1993-10-05,2024-04-27,Female,Full-time,Active,Incinerator Facility - Faisalabad
+Bilal Sharif,HR-EMP-.YYYY.-,Bilal,Sharif,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Handler,1976-02-02,2022-06-20,Male,Full-time,Active,Head Office - Lahore
+Ahmed Aslam,HR-EMP-.YYYY.-,Ahmed,Aslam,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Handler,1994-04-26,2021-11-23,Male,Full-time,Active,Rawalpindi Branch
+Samina Malik,HR-EMP-.YYYY.-,Samina,Malik,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Operations Supervisor,1975-03-19,2025-02-11,Female,Full-time,Active,Lahore Operations Center
+Farah Ahmed,HR-EMP-.YYYY.-,Farah,Ahmed,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Operations Supervisor,1986-12-22,2023-05-20,Female,Full-time,Active,Incinerator Facility - Lahore
+Usman Qureshi,HR-EMP-.YYYY.-,Usman,Qureshi,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Operations Supervisor,1998-07-26,2024-09-30,Male,Full-time,Left,Incinerator Facility - Lahore
+Shahid Javed,HR-EMP-.YYYY.-,Shahid,Javed,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Operations Supervisor,2000-06-08,2024-11-23,Male,Full-time,Active,Rawalpindi Branch
+Junaid Mirza,HR-EMP-.YYYY.-,Junaid,Mirza,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Operations Supervisor,1979-03-24,2021-03-04,Male,Full-time,Active,Incinerator Facility - Rawalpindi
+Alina Malik,HR-EMP-.YYYY.-,Alina,Malik,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Operations Supervisor,1980-10-11,2025-09-12,Female,Full-time,Left,Faisalabad Branch
+Hassan Sharif,HR-EMP-.YYYY.-,Hassan,Sharif,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Operations Supervisor,1979-06-24,2021-08-07,Male,Full-time,Active,Incinerator Facility - Lahore
+Naeem Ahmed,HR-EMP-.YYYY.-,Naeem,Ahmed,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Waste Operations Supervisor,1997-11-21,2025-04-02,Male,Full-time,Active,Incinerator Facility - Faisalabad
+Asad Chaudhry,HR-EMP-.YYYY.-,Asad,Chaudhry,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Route Coordinator,1997-02-12,2022-08-08,Male,Full-time,Active,Head Office - Lahore
+Kashif Gill,HR-EMP-.YYYY.-,Kashif,Gill,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Route Coordinator,1980-07-16,2026-02-08,Male,Full-time,Active,Incinerator Facility - Rawalpindi
+Atif Raza,HR-EMP-.YYYY.-,Atif,Raza,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Route Coordinator,1995-11-08,2022-01-28,Male,Full-time,Active,Head Office - Lahore
+Saad Rana,HR-EMP-.YYYY.-,Saad,Rana,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Route Coordinator,1978-02-11,2022-02-12,Male,Full-time,Active,Rawalpindi Branch
+Mehreen Ahmed,HR-EMP-.YYYY.-,Mehreen,Ahmed,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Route Coordinator,1985-10-20,2026-03-04,Female,Full-time,Active,Head Office - Lahore
+Sohail Qureshi,HR-EMP-.YYYY.-,Sohail,Qureshi,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations,Route Coordinator,1994-07-06,2021-06-18,Male,Full-time,Active,Faisalabad Branch
+Kiran Hussain,HR-EMP-.YYYY.-,Kiran,Hussain,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Driver,1998-12-18,2022-08-26,Female,Full-time,Active,Multan Branch
+Muhammad Dar,HR-EMP-.YYYY.-,Muhammad,Dar,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Driver,1993-09-27,2023-12-01,Male,Full-time,Active,Incinerator Facility - Lahore
+Ali Mirza,HR-EMP-.YYYY.-,Ali,Mirza,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Driver,1996-11-20,2023-11-09,Male,Full-time,Active,Head Office - Lahore
+Sohail Mirza,HR-EMP-.YYYY.-,Sohail,Mirza,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Driver,1977-08-28,2021-10-23,Male,Full-time,Active,Incinerator Facility - Rawalpindi
+Naeem Rana,HR-EMP-.YYYY.-,Naeem,Rana,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Driver,1977-11-18,2023-05-03,Male,Full-time,Active,Incinerator Facility - Rawalpindi
+Kashif Malik,HR-EMP-.YYYY.-,Kashif,Malik,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Driver,1983-08-15,2022-08-22,Male,Full-time,Active,Multan Branch
+Usman Hassan,HR-EMP-.YYYY.-,Usman,Hassan,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Driver,1977-11-12,2025-09-11,Male,Full-time,Active,Faisalabad Branch
+Amir Dar,HR-EMP-.YYYY.-,Amir,Dar,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Driver,1991-07-18,2025-01-06,Male,Full-time,Active,Incinerator Facility - Faisalabad
+Zain Sharif,HR-EMP-.YYYY.-,Zain,Sharif,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Driver,1984-02-13,2025-12-13,Male,Full-time,Active,Rawalpindi Branch
+Fahad Siddiqui,HR-EMP-.YYYY.-,Fahad,Siddiqui,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Driver,1980-03-07,2025-09-11,Male,Full-time,Active,Head Office - Lahore
+Kamran Gill,HR-EMP-.YYYY.-,Kamran,Gill,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Driver,1981-11-05,2025-11-03,Male,Full-time,Active,Incinerator Facility - Lahore
+Sana Ahmed,HR-EMP-.YYYY.-,Sana,Ahmed,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Driver,1987-09-13,2024-04-04,Female,Full-time,Active,Multan Branch
+Irfan Khan,HR-EMP-.YYYY.-,Irfan,Khan,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Driver,2000-12-20,2024-06-16,Male,Full-time,Active,Incinerator Facility - Rawalpindi
+Usman Sheikh,HR-EMP-.YYYY.-,Usman,Sheikh,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Driver,1993-10-19,2025-06-01,Male,Full-time,Left,Lahore Operations Center
+Alina Hassan,HR-EMP-.YYYY.-,Alina,Hassan,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Driver,2000-05-28,2024-03-01,Female,Full-time,Active,Incinerator Facility - Rawalpindi
+Sohail Sharif,HR-EMP-.YYYY.-,Sohail,Sharif,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Driver,1993-10-16,2021-05-16,Male,Full-time,Active,Incinerator Facility - Rawalpindi
+Waqar Dar,HR-EMP-.YYYY.-,Waqar,Dar,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Driver,1976-07-11,2025-01-13,Male,Full-time,Active,Incinerator Facility - Faisalabad
+Farah Khan,HR-EMP-.YYYY.-,Farah,Khan,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Driver,1985-05-10,2022-09-26,Female,Full-time,Active,Lahore Operations Center
+Bushra Sheikh,HR-EMP-.YYYY.-,Bushra,Sheikh,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Driver,1984-12-15,2025-07-03,Female,Full-time,Active,Multan Branch
+Sadia Ahmed,HR-EMP-.YYYY.-,Sadia,Ahmed,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Driver,1981-08-07,2025-10-13,Female,Full-time,Active,Incinerator Facility - Faisalabad
+Farah Malik,HR-EMP-.YYYY.-,Farah,Malik,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Driver,1991-03-03,2022-11-28,Female,Full-time,Active,Incinerator Facility - Rawalpindi
+Salman Akhtar,HR-EMP-.YYYY.-,Salman,Akhtar,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Driver,1993-01-06,2022-03-30,Male,Full-time,Active,Faisalabad Branch
+Bushra Malik,HR-EMP-.YYYY.-,Bushra,Malik,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Driver,1989-01-12,2025-02-11,Female,Full-time,Active,Incinerator Facility - Lahore
+Zara Dar,HR-EMP-.YYYY.-,Zara,Dar,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Driver,1995-02-22,2021-05-02,Female,Full-time,Active,Incinerator Facility - Faisalabad
+Bilal Sharif,HR-EMP-.YYYY.-,Bilal,Sharif,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Driver,1993-09-12,2023-02-04,Male,Full-time,Active,Multan Branch
+Sana Mirza,HR-EMP-.YYYY.-,Sana,Mirza,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Driver,1975-07-02,2022-01-28,Female,Full-time,Active,Faisalabad Branch
+Bushra Butt,HR-EMP-.YYYY.-,Bushra,Butt,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Driver,1983-11-14,2024-01-16,Female,Full-time,Active,Head Office - Lahore
+Usman Qureshi,HR-EMP-.YYYY.-,Usman,Qureshi,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Driver,1994-01-08,2022-07-30,Male,Full-time,Active,Multan Branch
+Rabia Gill,HR-EMP-.YYYY.-,Rabia,Gill,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Driver,1987-06-15,2022-07-30,Female,Full-time,Active,Multan Branch
+Amir Javed,HR-EMP-.YYYY.-,Amir,Javed,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Driver,1987-10-04,2021-03-16,Male,Full-time,Active,Incinerator Facility - Lahore
+Waqar Javed,HR-EMP-.YYYY.-,Waqar,Javed,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Driver,1984-05-22,2021-10-08,Male,Full-time,Active,Incinerator Facility - Lahore
+Samina Rana,HR-EMP-.YYYY.-,Samina,Rana,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Driver,1983-11-23,2026-03-02,Female,Full-time,Active,Faisalabad Branch
+Fahad Chaudhry,HR-EMP-.YYYY.-,Fahad,Chaudhry,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Driver,1976-10-13,2024-11-12,Male,Full-time,Active,Rawalpindi Branch
+Saima Mirza,HR-EMP-.YYYY.-,Saima,Mirza,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Driver,1983-07-13,2023-05-05,Female,Full-time,Active,Faisalabad Branch
+Adnan Chaudhry,HR-EMP-.YYYY.-,Adnan,Chaudhry,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Driver,1996-09-21,2025-07-25,Male,Full-time,Active,Incinerator Facility - Lahore
+Salman Qureshi,HR-EMP-.YYYY.-,Salman,Qureshi,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Driver,1996-09-06,2022-10-23,Male,Full-time,Active,Rawalpindi Branch
+Mehreen Qureshi,HR-EMP-.YYYY.-,Mehreen,Qureshi,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Driver,1996-06-21,2021-08-30,Female,Full-time,Active,Faisalabad Branch
+Nadia Gill,HR-EMP-.YYYY.-,Nadia,Gill,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Driver,2000-06-12,2022-08-16,Female,Full-time,Active,Incinerator Facility - Faisalabad
+Saima Malik,HR-EMP-.YYYY.-,Saima,Malik,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Driver,1995-10-19,2024-08-23,Female,Full-time,Active,Faisalabad Branch
+Salman Dar,HR-EMP-.YYYY.-,Salman,Dar,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Driver,1991-05-14,2021-06-19,Male,Full-time,Active,Rawalpindi Branch
+Asad Aslam,HR-EMP-.YYYY.-,Asad,Aslam,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Driver,1988-10-15,2021-12-19,Male,Full-time,Active,Rawalpindi Branch
+Saima Aslam,HR-EMP-.YYYY.-,Saima,Aslam,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Driver,1995-03-11,2024-09-20,Female,Full-time,Active,Incinerator Facility - Faisalabad
+Fahad Qureshi,HR-EMP-.YYYY.-,Fahad,Qureshi,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Driver,1993-03-16,2025-07-26,Male,Full-time,Active,Lahore Operations Center
+Tariq Gill,HR-EMP-.YYYY.-,Tariq,Gill,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Driver,1987-07-16,2023-04-25,Male,Full-time,Active,Faisalabad Branch
+Fatima Aslam,HR-EMP-.YYYY.-,Fatima,Aslam,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Driver,1999-09-07,2021-04-06,Female,Full-time,Active,Faisalabad Branch
+Naeem Mughal,HR-EMP-.YYYY.-,Naeem,Mughal,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Helper,1984-03-04,2023-04-25,Male,Full-time,Active,Multan Branch
+Amir Malik,HR-EMP-.YYYY.-,Amir,Malik,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Helper,1984-05-15,2025-03-30,Male,Full-time,Active,Incinerator Facility - Lahore
+Kamran Sheikh,HR-EMP-.YYYY.-,Kamran,Sheikh,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Helper,1985-08-12,2025-05-15,Male,Full-time,Active,Incinerator Facility - Rawalpindi
+Zain Sheikh,HR-EMP-.YYYY.-,Zain,Sheikh,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Helper,1981-12-01,2024-06-20,Male,Full-time,Active,Lahore Operations Center
+Sohail Malik,HR-EMP-.YYYY.-,Sohail,Malik,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Helper,1987-11-09,2025-06-27,Male,Full-time,Active,Head Office - Lahore
+Muhammad Hassan,HR-EMP-.YYYY.-,Muhammad,Hassan,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Helper,1995-01-02,2025-01-11,Male,Full-time,Active,Incinerator Facility - Faisalabad
+Shahid Rana,HR-EMP-.YYYY.-,Shahid,Rana,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Helper,1990-12-05,2022-04-25,Male,Full-time,Active,Head Office - Lahore
+Kamran Hassan,HR-EMP-.YYYY.-,Kamran,Hassan,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Helper,1996-09-09,2024-08-27,Male,Full-time,Active,Rawalpindi Branch
+Naeem Hassan,HR-EMP-.YYYY.-,Naeem,Hassan,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Helper,1991-12-20,2021-10-28,Male,Full-time,Active,Lahore Operations Center
+Waqar Butt,HR-EMP-.YYYY.-,Waqar,Butt,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Helper,1999-05-27,2024-02-05,Male,Full-time,Left,Incinerator Facility - Lahore
+Nadia Qureshi,HR-EMP-.YYYY.-,Nadia,Qureshi,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Helper,1976-09-16,2022-04-30,Female,Full-time,Active,Incinerator Facility - Faisalabad
+Ahmed Khan,HR-EMP-.YYYY.-,Ahmed,Khan,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Helper,1996-02-04,2025-11-05,Male,Full-time,Active,Incinerator Facility - Faisalabad
+Ali Akhtar,HR-EMP-.YYYY.-,Ali,Akhtar,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Helper,1977-12-24,2021-09-24,Male,Full-time,Active,Faisalabad Branch
+Omar Rana,HR-EMP-.YYYY.-,Omar,Rana,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Helper,1989-01-04,2025-09-21,Male,Full-time,Active,Head Office - Lahore
+Farah Aslam,HR-EMP-.YYYY.-,Farah,Aslam,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Helper,1988-12-04,2021-09-11,Female,Full-time,Active,Head Office - Lahore
+Usman Qureshi,HR-EMP-.YYYY.-,Usman,Qureshi,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Helper,1985-06-15,2024-08-25,Male,Full-time,Active,Lahore Operations Center
+Saad Qureshi,HR-EMP-.YYYY.-,Saad,Qureshi,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Helper,1978-07-13,2023-09-21,Male,Full-time,Active,Incinerator Facility - Rawalpindi
+Atif Gill,HR-EMP-.YYYY.-,Atif,Gill,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Helper,1995-03-04,2021-11-27,Male,Full-time,Active,Head Office - Lahore
+Maryam Hassan,HR-EMP-.YYYY.-,Maryam,Hassan,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Helper,1988-10-16,2025-08-30,Female,Full-time,Active,Incinerator Facility - Faisalabad
+Faisal Mughal,HR-EMP-.YYYY.-,Faisal,Mughal,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Helper,1994-01-28,2024-12-31,Male,Full-time,Active,Rawalpindi Branch
+Atif Hassan,HR-EMP-.YYYY.-,Atif,Hassan,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Fleet Supervisor,1988-08-02,2021-07-08,Male,Full-time,Active,Incinerator Facility - Lahore
+Salman Akhtar,HR-EMP-.YYYY.-,Salman,Akhtar,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Fleet Supervisor,1999-12-19,2025-03-22,Male,Full-time,Active,Incinerator Facility - Lahore
+Adnan Javed,HR-EMP-.YYYY.-,Adnan,Javed,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Fleet Supervisor,1978-07-22,2025-03-28,Male,Full-time,Active,Incinerator Facility - Lahore
+Sohail Dar,HR-EMP-.YYYY.-,Sohail,Dar,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Mechanic,1979-09-20,2021-06-20,Male,Full-time,Active,Rawalpindi Branch
+Atif Sharif,HR-EMP-.YYYY.-,Atif,Sharif,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Mechanic,1980-02-25,2023-12-02,Male,Full-time,Active,Incinerator Facility - Lahore
+Ayesha Akhtar,HR-EMP-.YYYY.-,Ayesha,Akhtar,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Mechanic,1982-09-21,2023-04-15,Female,Full-time,Active,Faisalabad Branch
+Kashif Raza,HR-EMP-.YYYY.-,Kashif,Raza,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Mechanic,1989-02-28,2023-12-16,Male,Full-time,Active,Lahore Operations Center
+Fatima Hassan,HR-EMP-.YYYY.-,Fatima,Hassan,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Mechanic,1987-07-02,2024-04-15,Female,Full-time,Active,Lahore Operations Center
+Sadia Mirza,HR-EMP-.YYYY.-,Sadia,Mirza,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Mechanic,1991-09-07,2024-10-31,Female,Full-time,Active,Incinerator Facility - Lahore
+Muhammad Chaudhry,HR-EMP-.YYYY.-,Muhammad,Chaudhry,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Mechanic,1989-06-18,2025-06-19,Male,Full-time,Active,Incinerator Facility - Faisalabad
+Farah Siddiqui,HR-EMP-.YYYY.-,Farah,Siddiqui,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Mechanic,1978-02-25,2024-11-09,Female,Full-time,Active,Incinerator Facility - Lahore
+Sohail Mirza,HR-EMP-.YYYY.-,Sohail,Mirza,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Dispatcher,1992-09-12,2025-02-05,Male,Full-time,Active,Rawalpindi Branch
+Amir Gill,HR-EMP-.YYYY.-,Amir,Gill,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Dispatcher,1978-05-20,2022-04-06,Male,Full-time,Active,Incinerator Facility - Rawalpindi
+Amir Butt,HR-EMP-.YYYY.-,Amir,Butt,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Dispatcher,1997-06-04,2025-05-29,Male,Full-time,Active,Lahore Operations Center
+Uzma Siddiqui,HR-EMP-.YYYY.-,Uzma,Siddiqui,EnXi Biomedical & Waste Management (Pvt) Ltd,Fleet & Transport,Dispatcher,1996-10-17,2021-12-01,Female,Full-time,Left,Head Office - Lahore
+Muhammad Hussain,HR-EMP-.YYYY.-,Muhammad,Hussain,EnXi Biomedical & Waste Management (Pvt) Ltd,Incinerator Operations,Incinerator Operator,1988-10-16,2024-01-06,Male,Full-time,Active,Rawalpindi Branch
+Bilal Sheikh,HR-EMP-.YYYY.-,Bilal,Sheikh,EnXi Biomedical & Waste Management (Pvt) Ltd,Incinerator Operations,Incinerator Operator,1978-07-22,2024-07-12,Male,Full-time,Active,Incinerator Facility - Lahore
+Faisal Gill,HR-EMP-.YYYY.-,Faisal,Gill,EnXi Biomedical & Waste Management (Pvt) Ltd,Incinerator Operations,Incinerator Operator,1994-12-25,2022-07-22,Male,Full-time,Active,Incinerator Facility - Lahore
+Uzma Sheikh,HR-EMP-.YYYY.-,Uzma,Sheikh,EnXi Biomedical & Waste Management (Pvt) Ltd,Incinerator Operations,Incinerator Operator,1979-07-20,2025-02-01,Female,Full-time,Active,Multan Branch
+Mehreen Aslam,HR-EMP-.YYYY.-,Mehreen,Aslam,EnXi Biomedical & Waste Management (Pvt) Ltd,Incinerator Operations,Incinerator Operator,1997-12-18,2024-09-16,Female,Full-time,Active,Faisalabad Branch
+Omar Mughal,HR-EMP-.YYYY.-,Omar,Mughal,EnXi Biomedical & Waste Management (Pvt) Ltd,Incinerator Operations,Incinerator Operator,1996-03-23,2024-10-22,Male,Full-time,Left,Rawalpindi Branch
+Adnan Aslam,HR-EMP-.YYYY.-,Adnan,Aslam,EnXi Biomedical & Waste Management (Pvt) Ltd,Incinerator Operations,Incinerator Operator,1997-02-25,2023-02-20,Male,Full-time,Active,Incinerator Facility - Rawalpindi
+Naeem Hussain,HR-EMP-.YYYY.-,Naeem,Hussain,EnXi Biomedical & Waste Management (Pvt) Ltd,Incinerator Operations,Incinerator Operator,1984-07-26,2021-03-27,Male,Full-time,Active,Head Office - Lahore
+Muhammad Malik,HR-EMP-.YYYY.-,Muhammad,Malik,EnXi Biomedical & Waste Management (Pvt) Ltd,Incinerator Operations,Incinerator Operator,1981-05-25,2025-07-26,Male,Full-time,Active,Multan Branch
+Usman Malik,HR-EMP-.YYYY.-,Usman,Malik,EnXi Biomedical & Waste Management (Pvt) Ltd,Incinerator Operations,Incinerator Operator,1997-05-07,2025-05-22,Male,Full-time,Active,Incinerator Facility - Lahore
+Sara Javed,HR-EMP-.YYYY.-,Sara,Javed,EnXi Biomedical & Waste Management (Pvt) Ltd,Incinerator Operations,Incinerator Operator,1996-12-18,2026-01-05,Female,Full-time,Active,Incinerator Facility - Rawalpindi
+Arslan Mirza,HR-EMP-.YYYY.-,Arslan,Mirza,EnXi Biomedical & Waste Management (Pvt) Ltd,Incinerator Operations,Incinerator Operator,1997-11-02,2023-04-21,Male,Full-time,Active,Incinerator Facility - Lahore
+Ayesha Khan,HR-EMP-.YYYY.-,Ayesha,Khan,EnXi Biomedical & Waste Management (Pvt) Ltd,Incinerator Operations,Incinerator Operator,1998-05-07,2024-08-22,Female,Full-time,Active,Incinerator Facility - Faisalabad
+Farah Raza,HR-EMP-.YYYY.-,Farah,Raza,EnXi Biomedical & Waste Management (Pvt) Ltd,Incinerator Operations,Incinerator Operator,1992-12-20,2022-04-07,Female,Full-time,Active,Faisalabad Branch
+Bilal Ahmed,HR-EMP-.YYYY.-,Bilal,Ahmed,EnXi Biomedical & Waste Management (Pvt) Ltd,Incinerator Operations,Incinerator Operator,1980-03-24,2024-01-17,Male,Full-time,Active,Head Office - Lahore
+Shahid Rana,HR-EMP-.YYYY.-,Shahid,Rana,EnXi Biomedical & Waste Management (Pvt) Ltd,Incinerator Operations,Incinerator Operator,1979-03-19,2025-11-27,Male,Full-time,Active,Incinerator Facility - Lahore
+Irfan Sheikh,HR-EMP-.YYYY.-,Irfan,Sheikh,EnXi Biomedical & Waste Management (Pvt) Ltd,Incinerator Operations,Incinerator Operator,1976-03-11,2024-07-05,Male,Full-time,Active,Multan Branch
+Rizwan Hussain,HR-EMP-.YYYY.-,Rizwan,Hussain,EnXi Biomedical & Waste Management (Pvt) Ltd,Incinerator Operations,Incinerator Operator,1986-02-26,2025-02-17,Male,Full-time,Active,Faisalabad Branch
+Zara Ahmed,HR-EMP-.YYYY.-,Zara,Ahmed,EnXi Biomedical & Waste Management (Pvt) Ltd,Incinerator Operations,Incinerator Operator,2000-09-06,2023-06-30,Female,Full-time,Active,Incinerator Facility - Rawalpindi
+Zain Butt,HR-EMP-.YYYY.-,Zain,Butt,EnXi Biomedical & Waste Management (Pvt) Ltd,Incinerator Operations,Incinerator Operator,1996-06-11,2023-03-09,Male,Full-time,Active,Incinerator Facility - Faisalabad
+Fatima Hassan,HR-EMP-.YYYY.-,Fatima,Hassan,EnXi Biomedical & Waste Management (Pvt) Ltd,Incinerator Operations,Incinerator Operator,1996-06-15,2022-07-06,Female,Full-time,Active,Faisalabad Branch
+Samina Dar,HR-EMP-.YYYY.-,Samina,Dar,EnXi Biomedical & Waste Management (Pvt) Ltd,Incinerator Operations,Incinerator Operator,2000-02-13,2022-08-08,Female,Full-time,Active,Multan Branch
+Naveed Mughal,HR-EMP-.YYYY.-,Naveed,Mughal,EnXi Biomedical & Waste Management (Pvt) Ltd,Incinerator Operations,Incinerator Operator,1991-09-15,2023-11-22,Male,Full-time,Active,Faisalabad Branch
+Ali Hassan,HR-EMP-.YYYY.-,Ali,Hassan,EnXi Biomedical & Waste Management (Pvt) Ltd,Incinerator Operations,Incinerator Operator,1980-09-18,2021-03-16,Male,Full-time,Active,Faisalabad Branch
+Fahad Butt,HR-EMP-.YYYY.-,Fahad,Butt,EnXi Biomedical & Waste Management (Pvt) Ltd,Incinerator Operations,Incinerator Operator,1996-07-27,2021-09-29,Male,Full-time,Active,Incinerator Facility - Rawalpindi
+Ali Sheikh,HR-EMP-.YYYY.-,Ali,Sheikh,EnXi Biomedical & Waste Management (Pvt) Ltd,Incinerator Operations,Incinerator Operator,1975-08-23,2023-01-09,Male,Full-time,Active,Lahore Operations Center
+Arslan Rana,HR-EMP-.YYYY.-,Arslan,Rana,EnXi Biomedical & Waste Management (Pvt) Ltd,Incinerator Operations,Incinerator Operator,1992-02-19,2025-10-08,Male,Full-time,Active,Multan Branch
+Kashif Dar,HR-EMP-.YYYY.-,Kashif,Dar,EnXi Biomedical & Waste Management (Pvt) Ltd,Incinerator Operations,Incinerator Operator,1988-06-01,2023-05-07,Male,Full-time,Active,Head Office - Lahore
+Waqar Ahmed,HR-EMP-.YYYY.-,Waqar,Ahmed,EnXi Biomedical & Waste Management (Pvt) Ltd,Incinerator Operations,Incinerator Operator,1999-12-19,2021-06-02,Male,Full-time,Active,Lahore Operations Center
+Naveed Hassan,HR-EMP-.YYYY.-,Naveed,Hassan,EnXi Biomedical & Waste Management (Pvt) Ltd,Incinerator Operations,Incinerator Operator,1984-11-10,2024-07-25,Male,Full-time,Active,Incinerator Facility - Faisalabad
+Amir Khan,HR-EMP-.YYYY.-,Amir,Khan,EnXi Biomedical & Waste Management (Pvt) Ltd,Incinerator Operations,Incinerator Supervisor,1990-03-18,2022-05-25,Male,Full-time,Active,Incinerator Facility - Rawalpindi
+Mehreen Mirza,HR-EMP-.YYYY.-,Mehreen,Mirza,EnXi Biomedical & Waste Management (Pvt) Ltd,Incinerator Operations,Incinerator Supervisor,1995-03-10,2024-12-17,Female,Full-time,Active,Incinerator Facility - Lahore
+Fatima Hussain,HR-EMP-.YYYY.-,Fatima,Hussain,EnXi Biomedical & Waste Management (Pvt) Ltd,Incinerator Operations,Incinerator Supervisor,1992-03-04,2021-05-25,Female,Full-time,Active,Incinerator Facility - Rawalpindi
+Ali Mirza,HR-EMP-.YYYY.-,Ali,Mirza,EnXi Biomedical & Waste Management (Pvt) Ltd,Incinerator Operations,Incinerator Supervisor,1981-12-24,2025-03-26,Male,Full-time,Active,Incinerator Facility - Rawalpindi
+Zara Sheikh,HR-EMP-.YYYY.-,Zara,Sheikh,EnXi Biomedical & Waste Management (Pvt) Ltd,Incinerator Operations,Incinerator Supervisor,1980-03-08,2024-08-15,Female,Full-time,Active,Faisalabad Branch
+Kamran Raza,HR-EMP-.YYYY.-,Kamran,Raza,EnXi Biomedical & Waste Management (Pvt) Ltd,Incinerator Operations,Incinerator Supervisor,1976-09-15,2024-10-11,Male,Full-time,Active,Multan Branch
+Hamza Hassan,HR-EMP-.YYYY.-,Hamza,Hassan,EnXi Biomedical & Waste Management (Pvt) Ltd,Incinerator Operations,Incinerator Supervisor,1981-12-19,2023-11-23,Male,Full-time,Left,Incinerator Facility - Lahore
+Sohail Chaudhry,HR-EMP-.YYYY.-,Sohail,Chaudhry,EnXi Biomedical & Waste Management (Pvt) Ltd,Incinerator Operations,Incinerator Supervisor,1978-05-20,2021-07-21,Male,Full-time,Active,Incinerator Facility - Lahore
+Saad Javed,HR-EMP-.YYYY.-,Saad,Javed,EnXi Biomedical & Waste Management (Pvt) Ltd,Incinerator Operations,Maintenance Technician,1996-05-23,2024-06-09,Male,Full-time,Active,Incinerator Facility - Lahore
+Kiran Qureshi,HR-EMP-.YYYY.-,Kiran,Qureshi,EnXi Biomedical & Waste Management (Pvt) Ltd,Incinerator Operations,Maintenance Technician,1975-06-08,2025-07-27,Female,Full-time,Active,Incinerator Facility - Rawalpindi
+Imran Sheikh,HR-EMP-.YYYY.-,Imran,Sheikh,EnXi Biomedical & Waste Management (Pvt) Ltd,Incinerator Operations,Maintenance Technician,1996-12-11,2026-01-31,Male,Full-time,Active,Incinerator Facility - Faisalabad
+Omar Sharif,HR-EMP-.YYYY.-,Omar,Sharif,EnXi Biomedical & Waste Management (Pvt) Ltd,Incinerator Operations,Maintenance Technician,1992-02-06,2024-10-13,Male,Full-time,Active,Multan Branch
+Hina Hussain,HR-EMP-.YYYY.-,Hina,Hussain,EnXi Biomedical & Waste Management (Pvt) Ltd,Incinerator Operations,Maintenance Technician,1981-05-24,2026-02-18,Female,Full-time,Active,Lahore Operations Center
+Zara Khan,HR-EMP-.YYYY.-,Zara,Khan,EnXi Biomedical & Waste Management (Pvt) Ltd,Incinerator Operations,Maintenance Technician,1993-10-13,2025-06-23,Female,Full-time,Active,Head Office - Lahore
+Shahid Hussain,HR-EMP-.YYYY.-,Shahid,Hussain,EnXi Biomedical & Waste Management (Pvt) Ltd,Incinerator Operations,Maintenance Technician,1990-11-25,2021-12-30,Male,Full-time,Active,Faisalabad Branch
+Alina Mirza,HR-EMP-.YYYY.-,Alina,Mirza,EnXi Biomedical & Waste Management (Pvt) Ltd,Incinerator Operations,Maintenance Technician,1979-08-17,2024-01-10,Female,Full-time,Active,Incinerator Facility - Lahore
+Kamran Chaudhry,HR-EMP-.YYYY.-,Kamran,Chaudhry,EnXi Biomedical & Waste Management (Pvt) Ltd,Incinerator Operations,Maintenance Technician,2000-10-22,2022-02-03,Male,Full-time,Active,Rawalpindi Branch
+Bilal Raza,HR-EMP-.YYYY.-,Bilal,Raza,EnXi Biomedical & Waste Management (Pvt) Ltd,Incinerator Operations,Maintenance Technician,1993-11-28,2021-12-25,Male,Full-time,Active,Incinerator Facility - Faisalabad
+Ayesha Chaudhry,HR-EMP-.YYYY.-,Ayesha,Chaudhry,EnXi Biomedical & Waste Management (Pvt) Ltd,Incinerator Operations,Maintenance Technician,1999-08-08,2021-07-07,Female,Full-time,Active,Faisalabad Branch
+Asad Akhtar,HR-EMP-.YYYY.-,Asad,Akhtar,EnXi Biomedical & Waste Management (Pvt) Ltd,Incinerator Operations,Maintenance Technician,2000-06-13,2023-10-18,Male,Full-time,Active,Head Office - Lahore
+Sohail Aslam,HR-EMP-.YYYY.-,Sohail,Aslam,EnXi Biomedical & Waste Management (Pvt) Ltd,Training & Compliance,Trainer,1978-12-17,2024-09-18,Male,Full-time,Active,Multan Branch
+Rizwan Qureshi,HR-EMP-.YYYY.-,Rizwan,Qureshi,EnXi Biomedical & Waste Management (Pvt) Ltd,Training & Compliance,Trainer,1987-11-13,2023-03-19,Male,Full-time,Active,Lahore Operations Center
+Faisal Chaudhry,HR-EMP-.YYYY.-,Faisal,Chaudhry,EnXi Biomedical & Waste Management (Pvt) Ltd,Training & Compliance,Trainer,1991-07-12,2025-09-29,Male,Full-time,Active,Incinerator Facility - Faisalabad
+Sadia Khan,HR-EMP-.YYYY.-,Sadia,Khan,EnXi Biomedical & Waste Management (Pvt) Ltd,Training & Compliance,Trainer,1991-03-15,2022-02-03,Female,Full-time,Active,Multan Branch
+Bilal Qureshi,HR-EMP-.YYYY.-,Bilal,Qureshi,EnXi Biomedical & Waste Management (Pvt) Ltd,Training & Compliance,Trainer,1986-10-23,2025-09-29,Male,Full-time,Active,Faisalabad Branch
+Saad Hassan,HR-EMP-.YYYY.-,Saad,Hassan,EnXi Biomedical & Waste Management (Pvt) Ltd,Training & Compliance,Trainer,1990-11-16,2023-11-07,Male,Full-time,Active,Rawalpindi Branch
+Tariq Khan,HR-EMP-.YYYY.-,Tariq,Khan,EnXi Biomedical & Waste Management (Pvt) Ltd,Training & Compliance,Training Coordinator,1982-01-05,2024-05-18,Male,Full-time,Active,Rawalpindi Branch
+Muhammad Raza,HR-EMP-.YYYY.-,Muhammad,Raza,EnXi Biomedical & Waste Management (Pvt) Ltd,Training & Compliance,Training Coordinator,1979-01-06,2022-08-11,Male,Full-time,Active,Incinerator Facility - Rawalpindi
+Rizwan Khan,HR-EMP-.YYYY.-,Rizwan,Khan,EnXi Biomedical & Waste Management (Pvt) Ltd,Training & Compliance,Training Coordinator,1998-12-22,2025-10-08,Male,Full-time,Active,Lahore Operations Center
+Waqar Sharif,HR-EMP-.YYYY.-,Waqar,Sharif,EnXi Biomedical & Waste Management (Pvt) Ltd,Training & Compliance,Compliance Officer,1990-03-08,2025-10-26,Male,Full-time,Active,Rawalpindi Branch
+Maryam Javed,HR-EMP-.YYYY.-,Maryam,Javed,EnXi Biomedical & Waste Management (Pvt) Ltd,Training & Compliance,Compliance Officer,1996-09-09,2022-02-07,Female,Full-time,Active,Incinerator Facility - Lahore
+Sadia Raza,HR-EMP-.YYYY.-,Sadia,Raza,EnXi Biomedical & Waste Management (Pvt) Ltd,Training & Compliance,Compliance Officer,1977-04-13,2023-04-29,Female,Full-time,Active,Head Office - Lahore
+Salman Akhtar,HR-EMP-.YYYY.-,Salman,Akhtar,EnXi Biomedical & Waste Management (Pvt) Ltd,Training & Compliance,Compliance Officer,1996-07-27,2022-01-01,Male,Full-time,Active,Rawalpindi Branch
+Waqar Javed,HR-EMP-.YYYY.-,Waqar,Javed,EnXi Biomedical & Waste Management (Pvt) Ltd,Training & Compliance,Environmental Officer,1976-09-17,2025-05-19,Male,Full-time,Active,Incinerator Facility - Faisalabad
+Naeem Javed,HR-EMP-.YYYY.-,Naeem,Javed,EnXi Biomedical & Waste Management (Pvt) Ltd,Training & Compliance,Environmental Officer,1992-01-25,2024-12-19,Male,Full-time,Active,Incinerator Facility - Rawalpindi
+Muhammad Akhtar,HR-EMP-.YYYY.-,Muhammad,Akhtar,EnXi Biomedical & Waste Management (Pvt) Ltd,Training & Compliance,Environmental Officer,1988-04-26,2023-11-13,Male,Full-time,Active,Incinerator Facility - Rawalpindi
+Arslan Raza,HR-EMP-.YYYY.-,Arslan,Raza,EnXi Biomedical & Waste Management (Pvt) Ltd,Training & Compliance,Safety Officer,1978-07-05,2022-08-04,Male,Full-time,Active,Faisalabad Branch
+Sana Mirza,HR-EMP-.YYYY.-,Sana,Mirza,EnXi Biomedical & Waste Management (Pvt) Ltd,Training & Compliance,Safety Officer,1994-09-14,2022-08-10,Female,Full-time,Active,Head Office - Lahore
+Hassan Akhtar,HR-EMP-.YYYY.-,Hassan,Akhtar,EnXi Biomedical & Waste Management (Pvt) Ltd,Training & Compliance,Safety Officer,1975-07-21,2022-04-25,Male,Full-time,Active,Incinerator Facility - Lahore
+Hassan Sheikh,HR-EMP-.YYYY.-,Hassan,Sheikh,EnXi Biomedical & Waste Management (Pvt) Ltd,Janitorial Services,Janitorial Supervisor,1988-11-19,2022-08-02,Male,Full-time,Active,Incinerator Facility - Rawalpindi
+Waqar Rana,HR-EMP-.YYYY.-,Waqar,Rana,EnXi Biomedical & Waste Management (Pvt) Ltd,Janitorial Services,Janitorial Supervisor,1996-07-25,2022-04-22,Male,Full-time,Active,Incinerator Facility - Faisalabad
+Shahid Hussain,HR-EMP-.YYYY.-,Shahid,Hussain,EnXi Biomedical & Waste Management (Pvt) Ltd,Janitorial Services,Janitorial Supervisor,1990-05-10,2024-05-27,Male,Full-time,Active,Incinerator Facility - Rawalpindi
+Sara Chaudhry,HR-EMP-.YYYY.-,Sara,Chaudhry,EnXi Biomedical & Waste Management (Pvt) Ltd,Janitorial Services,Janitorial Supervisor,1989-12-06,2021-09-22,Female,Full-time,Active,Incinerator Facility - Rawalpindi
+Mehreen Javed,HR-EMP-.YYYY.-,Mehreen,Javed,EnXi Biomedical & Waste Management (Pvt) Ltd,Janitorial Services,Janitorial Supervisor,1997-11-23,2021-06-15,Female,Full-time,Active,Head Office - Lahore
+Hina Sharif,HR-EMP-.YYYY.-,Hina,Sharif,EnXi Biomedical & Waste Management (Pvt) Ltd,Janitorial Services,Janitor,1994-07-03,2021-07-10,Female,Full-time,Active,Incinerator Facility - Lahore
+Muhammad Dar,HR-EMP-.YYYY.-,Muhammad,Dar,EnXi Biomedical & Waste Management (Pvt) Ltd,Janitorial Services,Janitor,1987-10-21,2024-02-01,Male,Full-time,Active,Head Office - Lahore
+Maryam Sharif,HR-EMP-.YYYY.-,Maryam,Sharif,EnXi Biomedical & Waste Management (Pvt) Ltd,Janitorial Services,Janitor,1989-01-07,2025-12-06,Female,Full-time,Active,Multan Branch
+Arslan Javed,HR-EMP-.YYYY.-,Arslan,Javed,EnXi Biomedical & Waste Management (Pvt) Ltd,Janitorial Services,Janitor,1991-09-23,2022-06-18,Male,Full-time,Active,Head Office - Lahore
+Sohail Khan,HR-EMP-.YYYY.-,Sohail,Khan,EnXi Biomedical & Waste Management (Pvt) Ltd,Janitorial Services,Janitor,1980-02-09,2025-07-14,Male,Full-time,Active,Incinerator Facility - Rawalpindi
+Asad Akhtar,HR-EMP-.YYYY.-,Asad,Akhtar,EnXi Biomedical & Waste Management (Pvt) Ltd,Janitorial Services,Janitor,1975-12-23,2021-07-19,Male,Full-time,Active,Multan Branch
+Mehreen Raza,HR-EMP-.YYYY.-,Mehreen,Raza,EnXi Biomedical & Waste Management (Pvt) Ltd,Janitorial Services,Janitor,1986-06-27,2022-09-18,Female,Full-time,Active,Faisalabad Branch
+Faisal Raza,HR-EMP-.YYYY.-,Faisal,Raza,EnXi Biomedical & Waste Management (Pvt) Ltd,Janitorial Services,Janitor,1975-05-06,2023-06-12,Male,Full-time,Active,Lahore Operations Center
+Saad Hassan,HR-EMP-.YYYY.-,Saad,Hassan,EnXi Biomedical & Waste Management (Pvt) Ltd,Janitorial Services,Janitor,2000-09-09,2026-01-28,Male,Full-time,Active,Multan Branch
+Faisal Raza,HR-EMP-.YYYY.-,Faisal,Raza,EnXi Biomedical & Waste Management (Pvt) Ltd,Janitorial Services,Janitor,1990-04-25,2023-01-25,Male,Full-time,Left,Incinerator Facility - Faisalabad
+Naeem Raza,HR-EMP-.YYYY.-,Naeem,Raza,EnXi Biomedical & Waste Management (Pvt) Ltd,Janitorial Services,Janitor,1975-08-04,2022-08-11,Male,Full-time,Active,Faisalabad Branch
+Zain Aslam,HR-EMP-.YYYY.-,Zain,Aslam,EnXi Biomedical & Waste Management (Pvt) Ltd,Janitorial Services,Janitor,1988-06-17,2024-03-02,Male,Full-time,Active,Multan Branch
+Ali Dar,HR-EMP-.YYYY.-,Ali,Dar,EnXi Biomedical & Waste Management (Pvt) Ltd,Janitorial Services,Janitor,1996-12-27,2023-01-30,Male,Full-time,Active,Rawalpindi Branch
+Imran Butt,HR-EMP-.YYYY.-,Imran,Butt,EnXi Biomedical & Waste Management (Pvt) Ltd,Janitorial Services,Janitor,1993-05-06,2025-05-07,Male,Full-time,Active,Faisalabad Branch
+Asad Chaudhry,HR-EMP-.YYYY.-,Asad,Chaudhry,EnXi Biomedical & Waste Management (Pvt) Ltd,Janitorial Services,Janitor,1998-04-28,2022-08-26,Male,Full-time,Active,Faisalabad Branch
+Sadia Mughal,HR-EMP-.YYYY.-,Sadia,Mughal,EnXi Biomedical & Waste Management (Pvt) Ltd,Janitorial Services,Janitor,1979-02-04,2021-08-08,Female,Full-time,Active,Incinerator Facility - Faisalabad
+Fahad Hussain,HR-EMP-.YYYY.-,Fahad,Hussain,EnXi Biomedical & Waste Management (Pvt) Ltd,Janitorial Services,Janitor,1976-08-12,2024-08-23,Male,Full-time,Active,Multan Branch
+Fahad Akhtar,HR-EMP-.YYYY.-,Fahad,Akhtar,EnXi Biomedical & Waste Management (Pvt) Ltd,Janitorial Services,Janitor,1983-07-08,2025-05-15,Male,Full-time,Active,Head Office - Lahore
+Tariq Sharif,HR-EMP-.YYYY.-,Tariq,Sharif,EnXi Biomedical & Waste Management (Pvt) Ltd,Janitorial Services,Janitor,1992-01-17,2023-02-10,Male,Full-time,Active,Rawalpindi Branch
+Hassan Akhtar,HR-EMP-.YYYY.-,Hassan,Akhtar,EnXi Biomedical & Waste Management (Pvt) Ltd,Janitorial Services,Janitor,1989-06-23,2021-03-18,Male,Full-time,Active,Faisalabad Branch
+Hassan Aslam,HR-EMP-.YYYY.-,Hassan,Aslam,EnXi Biomedical & Waste Management (Pvt) Ltd,Janitorial Services,Sanitation Worker,1986-10-28,2022-08-14,Male,Full-time,Active,Multan Branch
+Atif Javed,HR-EMP-.YYYY.-,Atif,Javed,EnXi Biomedical & Waste Management (Pvt) Ltd,Janitorial Services,Sanitation Worker,1985-06-06,2023-12-17,Male,Full-time,Active,Incinerator Facility - Rawalpindi
+Farah Mughal,HR-EMP-.YYYY.-,Farah,Mughal,EnXi Biomedical & Waste Management (Pvt) Ltd,Janitorial Services,Sanitation Worker,1987-05-15,2022-03-04,Female,Full-time,Active,Faisalabad Branch
+Rabia Chaudhry,HR-EMP-.YYYY.-,Rabia,Chaudhry,EnXi Biomedical & Waste Management (Pvt) Ltd,Janitorial Services,Sanitation Worker,1992-07-28,2023-04-20,Female,Full-time,Active,Rawalpindi Branch
+Ahmed Qureshi,HR-EMP-.YYYY.-,Ahmed,Qureshi,EnXi Biomedical & Waste Management (Pvt) Ltd,Janitorial Services,Sanitation Worker,1988-08-05,2026-03-04,Male,Full-time,Active,Incinerator Facility - Lahore
+Nadia Rana,HR-EMP-.YYYY.-,Nadia,Rana,EnXi Biomedical & Waste Management (Pvt) Ltd,Janitorial Services,Sanitation Worker,1992-10-02,2023-05-25,Female,Full-time,Active,Rawalpindi Branch
+Amir Rana,HR-EMP-.YYYY.-,Amir,Rana,EnXi Biomedical & Waste Management (Pvt) Ltd,Janitorial Services,Sanitation Worker,1990-11-04,2023-09-08,Male,Full-time,Active,Multan Branch
+Shahid Hussain,HR-EMP-.YYYY.-,Shahid,Hussain,EnXi Biomedical & Waste Management (Pvt) Ltd,Janitorial Services,Sanitation Worker,2000-05-12,2021-04-10,Male,Full-time,Active,Incinerator Facility - Lahore
+Sadia Butt,HR-EMP-.YYYY.-,Sadia,Butt,EnXi Biomedical & Waste Management (Pvt) Ltd,Janitorial Services,Sanitation Worker,1993-10-21,2024-10-20,Female,Full-time,Active,Multan Branch
+Kamran Akhtar,HR-EMP-.YYYY.-,Kamran,Akhtar,EnXi Biomedical & Waste Management (Pvt) Ltd,Janitorial Services,Sanitation Worker,1990-12-15,2026-02-24,Male,Full-time,Active,Multan Branch
+Usman Qureshi,HR-EMP-.YYYY.-,Usman,Qureshi,EnXi Biomedical & Waste Management (Pvt) Ltd,Finance & Accounts,Finance Manager,1995-06-14,2024-09-13,Male,Full-time,Active,Incinerator Facility - Rawalpindi
+Sana Ahmed,HR-EMP-.YYYY.-,Sana,Ahmed,EnXi Biomedical & Waste Management (Pvt) Ltd,Finance & Accounts,Accountant,1980-06-08,2022-12-03,Female,Full-time,Active,Multan Branch
+Sadia Dar,HR-EMP-.YYYY.-,Sadia,Dar,EnXi Biomedical & Waste Management (Pvt) Ltd,Finance & Accounts,Accountant,1983-08-25,2026-01-01,Female,Full-time,Active,Incinerator Facility - Faisalabad
+Bilal Khan,HR-EMP-.YYYY.-,Bilal,Khan,EnXi Biomedical & Waste Management (Pvt) Ltd,Finance & Accounts,Accountant,1979-12-08,2024-11-15,Male,Full-time,Active,Lahore Operations Center
+Faisal Hassan,HR-EMP-.YYYY.-,Faisal,Hassan,EnXi Biomedical & Waste Management (Pvt) Ltd,Finance & Accounts,Accountant,1978-02-16,2024-03-28,Male,Full-time,Active,Incinerator Facility - Rawalpindi
+Ali Hassan,HR-EMP-.YYYY.-,Ali,Hassan,EnXi Biomedical & Waste Management (Pvt) Ltd,Finance & Accounts,Accounts Officer,1983-10-05,2021-08-20,Male,Full-time,Active,Incinerator Facility - Rawalpindi
+Zain Mirza,HR-EMP-.YYYY.-,Zain,Mirza,EnXi Biomedical & Waste Management (Pvt) Ltd,Finance & Accounts,Accounts Officer,1989-11-05,2021-11-24,Male,Full-time,Active,Rawalpindi Branch
+Kamran Mughal,HR-EMP-.YYYY.-,Kamran,Mughal,EnXi Biomedical & Waste Management (Pvt) Ltd,Finance & Accounts,Accounts Officer,1985-08-15,2026-01-17,Male,Full-time,Active,Multan Branch
+Usman Hussain,HR-EMP-.YYYY.-,Usman,Hussain,EnXi Biomedical & Waste Management (Pvt) Ltd,Human Resources,HR Manager,1980-10-20,2023-09-22,Male,Full-time,Active,Incinerator Facility - Rawalpindi
+Sohail Hussain,HR-EMP-.YYYY.-,Sohail,Hussain,EnXi Biomedical & Waste Management (Pvt) Ltd,Human Resources,HR Officer,1984-06-16,2024-03-10,Male,Full-time,Active,Lahore Operations Center
+Imran Gill,HR-EMP-.YYYY.-,Imran,Gill,EnXi Biomedical & Waste Management (Pvt) Ltd,Human Resources,HR Officer,1983-03-10,2021-03-22,Male,Full-time,Active,Rawalpindi Branch
+Atif Hussain,HR-EMP-.YYYY.-,Atif,Hussain,EnXi Biomedical & Waste Management (Pvt) Ltd,Procurement & Stores,Procurement Officer,1975-12-16,2025-05-26,Male,Full-time,Active,Head Office - Lahore
+Nadia Javed,HR-EMP-.YYYY.-,Nadia,Javed,EnXi Biomedical & Waste Management (Pvt) Ltd,Procurement & Stores,Procurement Officer,1982-01-18,2023-04-05,Female,Full-time,Active,Incinerator Facility - Rawalpindi
+Bilal Dar,HR-EMP-.YYYY.-,Bilal,Dar,EnXi Biomedical & Waste Management (Pvt) Ltd,Procurement & Stores,Store Keeper,1987-04-09,2021-08-10,Male,Full-time,Active,Faisalabad Branch
+Arslan Javed,HR-EMP-.YYYY.-,Arslan,Javed,EnXi Biomedical & Waste Management (Pvt) Ltd,Procurement & Stores,Store Keeper,2000-12-22,2022-09-08,Male,Full-time,Active,Multan Branch
+Salman Ahmed,HR-EMP-.YYYY.-,Salman,Ahmed,EnXi Biomedical & Waste Management (Pvt) Ltd,Procurement & Stores,Store Keeper,1980-03-10,2021-10-13,Male,Full-time,Active,Incinerator Facility - Faisalabad
+Waqar Sharif,HR-EMP-.YYYY.-,Waqar,Sharif,EnXi Biomedical & Waste Management (Pvt) Ltd,Quality Assurance,Quality Inspector,1981-06-01,2022-01-06,Male,Full-time,Active,Head Office - Lahore
+Hassan Mirza,HR-EMP-.YYYY.-,Hassan,Mirza,EnXi Biomedical & Waste Management (Pvt) Ltd,Quality Assurance,Quality Inspector,1983-03-23,2023-08-15,Male,Full-time,Active,Faisalabad Branch
+Ahmed Sharif,HR-EMP-.YYYY.-,Ahmed,Sharif,EnXi Biomedical & Waste Management (Pvt) Ltd,Quality Assurance,Quality Inspector,1981-06-14,2022-11-29,Male,Full-time,Active,Incinerator Facility - Faisalabad
+Uzma Malik,HR-EMP-.YYYY.-,Uzma,Malik,EnXi Biomedical & Waste Management (Pvt) Ltd,Quality Assurance,Quality Inspector,1985-02-27,2025-05-16,Female,Full-time,Left,Head Office - Lahore
+Faisal Ahmed,HR-EMP-.YYYY.-,Faisal,Ahmed,EnXi Biomedical & Waste Management (Pvt) Ltd,Biomedical Engineering,Biomedical Engineer,1992-08-06,2022-03-29,Male,Full-time,Active,Multan Branch
+Fatima Hassan,HR-EMP-.YYYY.-,Fatima,Hassan,EnXi Biomedical & Waste Management (Pvt) Ltd,Biomedical Engineering,Biomedical Engineer,1999-12-08,2023-04-28,Female,Full-time,Active,Incinerator Facility - Faisalabad
+Muhammad Butt,HR-EMP-.YYYY.-,Muhammad,Butt,EnXi Biomedical & Waste Management (Pvt) Ltd,Biomedical Engineering,Biomedical Engineer,1989-12-25,2021-09-09,Male,Full-time,Active,Faisalabad Branch
+Kamran Mirza,HR-EMP-.YYYY.-,Kamran,Mirza,EnXi Biomedical & Waste Management (Pvt) Ltd,Biomedical Engineering,Biomedical Engineer,1985-03-21,2025-03-31,Male,Full-time,Active,Lahore Operations Center
+Sohail Mirza,HR-EMP-.YYYY.-,Sohail,Mirza,EnXi Biomedical & Waste Management (Pvt) Ltd,Biomedical Engineering,Biomedical Engineer,1981-06-02,2026-01-02,Male,Full-time,Active,Lahore Operations Center
+Tariq Aslam,HR-EMP-.YYYY.-,Tariq,Aslam,EnXi Biomedical & Waste Management (Pvt) Ltd,Biomedical Engineering,Service Technician,1975-03-26,2022-09-17,Male,Full-time,Active,Incinerator Facility - Rawalpindi
+Fatima Malik,HR-EMP-.YYYY.-,Fatima,Malik,EnXi Biomedical & Waste Management (Pvt) Ltd,Biomedical Engineering,Service Technician,1993-12-16,2025-01-08,Female,Full-time,Active,Incinerator Facility - Lahore
+Bushra Qureshi,HR-EMP-.YYYY.-,Bushra,Qureshi,EnXi Biomedical & Waste Management (Pvt) Ltd,Biomedical Engineering,Service Technician,1990-02-22,2024-08-18,Female,Full-time,Active,Head Office - Lahore
+Sohail Sheikh,HR-EMP-.YYYY.-,Sohail,Sheikh,EnXi Biomedical & Waste Management (Pvt) Ltd,Biomedical Engineering,Service Technician,1997-09-26,2021-10-06,Male,Full-time,Active,Faisalabad Branch
+Shahid Mughal,HR-EMP-.YYYY.-,Shahid,Mughal,EnXi Biomedical & Waste Management (Pvt) Ltd,Biomedical Engineering,Service Technician,2000-08-24,2022-03-31,Male,Full-time,Active,Incinerator Facility - Rawalpindi
+Usman Rana,HR-EMP-.YYYY.-,Usman,Rana,EnXi Biomedical & Waste Management (Pvt) Ltd,Biomedical Engineering,Service Technician,1976-08-23,2023-08-14,Male,Full-time,Active,Incinerator Facility - Faisalabad
+Bilal Hussain,HR-EMP-.YYYY.-,Bilal,Hussain,EnXi Biomedical & Waste Management (Pvt) Ltd,Biomedical Engineering,Service Technician,1986-06-24,2023-10-16,Male,Full-time,Active,Rawalpindi Branch
+Usman Siddiqui,HR-EMP-.YYYY.-,Usman,Siddiqui,EnXi Biomedical & Waste Management (Pvt) Ltd,Biomedical Engineering,Service Technician,1984-05-18,2023-03-22,Male,Full-time,Active,Incinerator Facility - Rawalpindi
+Fatima Javed,HR-EMP-.YYYY.-,Fatima,Javed,EnXi Biomedical & Waste Management (Pvt) Ltd,Sales & Business Development,Sales Executive,1986-10-08,2022-12-17,Female,Full-time,Active,Incinerator Facility - Rawalpindi
+Kamran Sharif,HR-EMP-.YYYY.-,Kamran,Sharif,EnXi Biomedical & Waste Management (Pvt) Ltd,Sales & Business Development,Sales Executive,1999-09-05,2024-08-07,Male,Full-time,Active,Incinerator Facility - Rawalpindi
+Hassan Hassan,HR-EMP-.YYYY.-,Hassan,Hassan,EnXi Biomedical & Waste Management (Pvt) Ltd,Sales & Business Development,Sales Executive,1991-11-03,2021-05-29,Male,Full-time,Active,Rawalpindi Branch
+Muhammad Butt,HR-EMP-.YYYY.-,Muhammad,Butt,EnXi Biomedical & Waste Management (Pvt) Ltd,Sales & Business Development,Sales Executive,1978-08-07,2021-09-19,Male,Full-time,Active,Incinerator Facility - Rawalpindi
+Naveed Javed,HR-EMP-.YYYY.-,Naveed,Javed,EnXi Biomedical & Waste Management (Pvt) Ltd,Customer Support,Customer Support Officer,1997-10-09,2021-06-09,Male,Full-time,Active,Lahore Operations Center
+Irfan Butt,HR-EMP-.YYYY.-,Irfan,Butt,EnXi Biomedical & Waste Management (Pvt) Ltd,Customer Support,Customer Support Officer,1995-08-27,2021-08-11,Male,Full-time,Active,Head Office - Lahore
+Junaid Gill,HR-EMP-.YYYY.-,Junaid,Gill,EnXi Biomedical & Waste Management (Pvt) Ltd,Customer Support,Customer Support Officer,1986-12-02,2025-10-12,Male,Full-time,Active,Head Office - Lahore
+Nadia Ahmed,HR-EMP-.YYYY.-,Nadia,Ahmed,EnXi Biomedical & Waste Management (Pvt) Ltd,IT & Data,IT Officer,1981-09-04,2021-09-24,Female,Full-time,Active,Incinerator Facility - Rawalpindi
+Naveed Chaudhry,HR-EMP-.YYYY.-,Naveed,Chaudhry,EnXi Biomedical & Waste Management (Pvt) Ltd,IT & Data,IT Officer,1993-11-06,2024-04-17,Male,Full-time,Active,Incinerator Facility - Rawalpindi
+Alina Mughal,HR-EMP-.YYYY.-,Alina,Mughal,EnXi Biomedical & Waste Management (Pvt) Ltd,IT & Data,Data Entry Operator,1996-08-23,2024-11-22,Female,Full-time,Active,Lahore Operations Center
+Bilal Hussain,HR-EMP-.YYYY.-,Bilal,Hussain,EnXi Biomedical & Waste Management (Pvt) Ltd,IT & Data,Data Entry Operator,1987-09-11,2024-11-06,Male,Full-time,Active,Incinerator Facility - Faisalabad
+Samina Hussain,HR-EMP-.YYYY.-,Samina,Hussain,EnXi Biomedical & Waste Management (Pvt) Ltd,IT & Data,Data Entry Operator,1985-06-14,2025-06-13,Female,Full-time,Active,Incinerator Facility - Lahore
+Rizwan Hussain,HR-EMP-.YYYY.-,Rizwan,Hussain,EnXi Biomedical & Waste Management (Pvt) Ltd,Administration,Admin Officer,1981-07-25,2024-03-31,Male,Full-time,Active,Multan Branch
+Kashif Siddiqui,HR-EMP-.YYYY.-,Kashif,Siddiqui,EnXi Biomedical & Waste Management (Pvt) Ltd,Administration,Admin Officer,1987-01-24,2021-05-10,Male,Full-time,Left,Head Office - Lahore
+Naeem Mirza,HR-EMP-.YYYY.-,Naeem,Mirza,EnXi Biomedical & Waste Management (Pvt) Ltd,Administration,Admin Officer,1975-05-08,2022-05-14,Male,Full-time,Active,Head Office - Lahore
+Rabia Hussain,HR-EMP-.YYYY.-,Rabia,Hussain,EnXi Biomedical & Waste Management (Pvt) Ltd,Administration,CEO,1991-09-19,2024-05-14,Female,Full-time,Active,Head Office - Lahore
+Usman Sheikh,HR-EMP-.YYYY.-,Usman,Sheikh,EnXi Biomedical & Waste Management (Pvt) Ltd,Administration,COO,1983-06-19,2022-07-25,Male,Full-time,Active,Multan Branch
+Faisal Raza,HR-EMP-.YYYY.-,Faisal,Raza,EnXi Biomedical & Waste Management (Pvt) Ltd,Administration,CFO,1981-12-03,2025-03-21,Male,Full-time,Active,Incinerator Facility - Faisalabad
+Amir Raza,HR-EMP-.YYYY.-,Amir,Raza,EnXi Biomedical & Waste Management (Pvt) Ltd,Administration,Director Operations,1978-10-21,2022-11-06,Male,Full-time,Active,Incinerator Facility - Rawalpindi
+Muhammad Aslam,HR-EMP-.YYYY.-,Muhammad,Aslam,EnXi Biomedical & Waste Management (Pvt) Ltd,Administration,Director Compliance,1986-07-14,2026-01-11,Male,Full-time,Active,Faisalabad Branch

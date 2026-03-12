@@ -1,401 +1,401 @@
-name,naming_series,customer,mntc_date,maintenance_type,completion_status,company
-MV-DEMO-000001,MAT-MVS-.YYYY.-,Medix Clinic,2023-03-04,Scheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000002,MAT-MVS-.YYYY.-,Chughtai Lab,2023-03-04,Unscheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000003,MAT-MVS-.YYYY.-,Islamabad Diagnostics 105,2023-03-07,Unscheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000004,MAT-MVS-.YYYY.-,Punjab Medical Faculty,2023-03-07,Breakdown,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000005,MAT-MVS-.YYYY.-,Shaukat Khanum Teaching Hospital 72,2023-03-10,Scheduled,Partially Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000006,MAT-MVS-.YYYY.-,Doctors Teaching Hospital 36,2023-03-21,Scheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000007,MAT-MVS-.YYYY.-,Directorate of Health Services Lahore,2023-03-22,Scheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000008,MAT-MVS-.YYYY.-,Jinnah Tertiary Hospital 32,2023-03-23,Scheduled,Partially Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000009,MAT-MVS-.YYYY.-,Punjab Diagnostic Center 113,2023-03-24,Breakdown,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000010,MAT-MVS-.YYYY.-,Noor Teaching Hospital 76,2023-04-06,Scheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000011,MAT-MVS-.YYYY.-,Qamar Lab 120,2023-04-08,Unscheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000012,MAT-MVS-.YYYY.-,Lahore Diagnostics 106,2023-04-11,Unscheduled,Partially Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000013,MAT-MVS-.YYYY.-,Surgimed General Hospital 58,2023-04-13,Scheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000014,MAT-MVS-.YYYY.-,Farooq General Hospital 70,2023-04-16,Unscheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000015,MAT-MVS-.YYYY.-,Specialized Healthcare & Medical Education,2023-04-17,Scheduled,Partially Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000016,MAT-MVS-.YYYY.-,LifeLine Teaching Hospital 74,2023-04-18,Unscheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000017,MAT-MVS-.YYYY.-,Primary & Secondary Healthcare Dept,2023-04-26,Unscheduled,Partially Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000018,MAT-MVS-.YYYY.-,Shaukat Khanum Lab 102,2023-04-28,Breakdown,Partially Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000019,MAT-MVS-.YYYY.-,Dr. Essa Lab,2023-04-28,Scheduled,Partially Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000020,MAT-MVS-.YYYY.-,Shaukat Khanum Lab 102,2023-04-29,Scheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000021,MAT-MVS-.YYYY.-,Allied Lab 114,2023-05-08,Unscheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000022,MAT-MVS-.YYYY.-,Shaukat Khanum Teaching Hospital 72,2023-05-09,Scheduled,Partially Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000023,MAT-MVS-.YYYY.-,Fatima Memorial Tertiary Hospital 09,2023-05-10,Unscheduled,Partially Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000024,MAT-MVS-.YYYY.-,Jinnah Tertiary Hospital 32,2023-05-13,Breakdown,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000025,MAT-MVS-.YYYY.-,Ittefaq General Hospital 25,2023-05-19,Breakdown,Partially Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000026,MAT-MVS-.YYYY.-,Lahore Diagnostics,2023-05-19,Unscheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000027,MAT-MVS-.YYYY.-,Specialized Healthcare & Medical Education,2023-05-22,Unscheduled,Partially Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000028,MAT-MVS-.YYYY.-,Prime Teaching Hospital 14,2023-05-25,Unscheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000029,MAT-MVS-.YYYY.-,Prime Teaching Hospital 14,2023-05-26,Breakdown,Partially Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000030,MAT-MVS-.YYYY.-,LifeLine General Hospital 49,2023-05-29,Scheduled,Partially Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000031,MAT-MVS-.YYYY.-,City Care Tertiary Hospital 02,2023-06-01,Scheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000032,MAT-MVS-.YYYY.-,Services Teaching Hospital 33,2023-06-08,Breakdown,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000033,MAT-MVS-.YYYY.-,Ghurki Trust Tertiary Hospital 12,2023-06-12,Scheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000034,MAT-MVS-.YYYY.-,Medicare Clinic 110,2023-06-19,Unscheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000035,MAT-MVS-.YYYY.-,Chughtai Tertiary Hospital 57,2023-06-20,Unscheduled,Partially Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000036,MAT-MVS-.YYYY.-,City Care Tertiary Hospital 02,2023-06-27,Unscheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000037,MAT-MVS-.YYYY.-,City Care Tertiary Hospital 02,2023-06-28,Unscheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000038,MAT-MVS-.YYYY.-,Al-Razi Clinic,2023-07-01,Unscheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000039,MAT-MVS-.YYYY.-,Chughtai Lab 101,2023-07-02,Breakdown,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000040,MAT-MVS-.YYYY.-,Islamabad Diagnostics,2023-07-03,Scheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000041,MAT-MVS-.YYYY.-,Ittefaq District Hospital 19,2023-07-04,Scheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000042,MAT-MVS-.YYYY.-,City Lab 107,2023-07-05,Breakdown,Partially Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000043,MAT-MVS-.YYYY.-,Punjab Diagnostic Center,2023-07-05,Scheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000044,MAT-MVS-.YYYY.-,Rehman Diagnostics,2023-07-06,Scheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000045,MAT-MVS-.YYYY.-,Excel Labs 104,2023-07-13,Unscheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000046,MAT-MVS-.YYYY.-,Lahore Diagnostics 106,2023-07-15,Scheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000047,MAT-MVS-.YYYY.-,Sharif Medical Tertiary Hospital 43,2023-07-18,Breakdown,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000048,MAT-MVS-.YYYY.-,Metro Diagnostics 108,2023-07-23,Scheduled,Partially Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000049,MAT-MVS-.YYYY.-,Punjab Medical Faculty,2023-07-25,Breakdown,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000050,MAT-MVS-.YYYY.-,Sharif Medical District Hospital 30,2023-07-27,Breakdown,Partially Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000051,MAT-MVS-.YYYY.-,Rehman Diagnostics 118,2023-07-29,Scheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000052,MAT-MVS-.YYYY.-,Doctors Tertiary Hospital 78,2023-07-30,Breakdown,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000053,MAT-MVS-.YYYY.-,Medicare Clinic,2023-07-30,Scheduled,Partially Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000054,MAT-MVS-.YYYY.-,Saleem Lab,2023-08-01,Scheduled,Partially Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000055,MAT-MVS-.YYYY.-,Doctors Tertiary Hospital 78,2023-08-07,Unscheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000056,MAT-MVS-.YYYY.-,Shalimar General Hospital 47,2023-08-10,Scheduled,Partially Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000057,MAT-MVS-.YYYY.-,Excel Labs,2023-08-13,Breakdown,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000058,MAT-MVS-.YYYY.-,Gulab Devi Specialized Hospital 22,2023-08-16,Scheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000059,MAT-MVS-.YYYY.-,Excel Labs,2023-08-17,Unscheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000060,MAT-MVS-.YYYY.-,Punjab Emergency Service (Rescue 1122),2023-08-17,Scheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000061,MAT-MVS-.YYYY.-,Punjab AIDS Control Program,2023-08-21,Breakdown,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000062,MAT-MVS-.YYYY.-,City Care Tertiary Hospital 20,2023-08-26,Unscheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000063,MAT-MVS-.YYYY.-,Doctors Tertiary Hospital 66,2023-08-28,Scheduled,Partially Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000064,MAT-MVS-.YYYY.-,Directorate of Health Services Lahore,2023-08-28,Scheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000065,MAT-MVS-.YYYY.-,City Care Tertiary Hospital 02,2023-09-03,Unscheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000066,MAT-MVS-.YYYY.-,Metro Diagnostics 108,2023-09-04,Scheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000067,MAT-MVS-.YYYY.-,Hameed Latif District Hospital 26,2023-09-07,Unscheduled,Partially Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000068,MAT-MVS-.YYYY.-,Sharif Medical General Hospital 03,2023-09-08,Unscheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000069,MAT-MVS-.YYYY.-,Shaukat Khanum Teaching Hospital 50,2023-09-10,Unscheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000070,MAT-MVS-.YYYY.-,District Health Authority Lahore,2023-09-15,Scheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000071,MAT-MVS-.YYYY.-,Sharif Medical District Hospital 30,2023-09-16,Unscheduled,Partially Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000072,MAT-MVS-.YYYY.-,Excel Labs,2023-09-17,Scheduled,Partially Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000073,MAT-MVS-.YYYY.-,Doctors Private Hospital 29,2023-09-18,Breakdown,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000074,MAT-MVS-.YYYY.-,Jinnah Tertiary Hospital 32,2023-09-21,Breakdown,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000075,MAT-MVS-.YYYY.-,Punjab Health Department,2023-09-26,Scheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000076,MAT-MVS-.YYYY.-,Lady Willingdon Tertiary Hospital 60,2023-09-26,Breakdown,Partially Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000077,MAT-MVS-.YYYY.-,Lahore Diagnostics 106,2023-10-09,Scheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000078,MAT-MVS-.YYYY.-,LifeLine General Hospital 11,2023-10-10,Breakdown,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000079,MAT-MVS-.YYYY.-,Lahore Diagnostics 106,2023-10-11,Unscheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000080,MAT-MVS-.YYYY.-,District Health Authority Lahore,2023-10-13,Scheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000081,MAT-MVS-.YYYY.-,Sharif Medical District Hospital 30,2023-10-14,Scheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000082,MAT-MVS-.YYYY.-,Shalimar General Hospital 47,2023-10-20,Unscheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000083,MAT-MVS-.YYYY.-,One Health Lab 117,2023-10-20,Breakdown,Partially Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000084,MAT-MVS-.YYYY.-,Excel Labs 104,2023-10-22,Scheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000085,MAT-MVS-.YYYY.-,IDC Lab,2023-10-24,Breakdown,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000086,MAT-MVS-.YYYY.-,Central Tertiary Hospital 07,2023-10-31,Unscheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000087,MAT-MVS-.YYYY.-,Primary & Secondary Healthcare Dept,2023-10-31,Scheduled,Partially Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000088,MAT-MVS-.YYYY.-,Medix Clinic 112,2023-11-03,Breakdown,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000089,MAT-MVS-.YYYY.-,Health First Clinic,2023-11-03,Unscheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000090,MAT-MVS-.YYYY.-,Noor Teaching Hospital 76,2023-11-04,Scheduled,Partially Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000091,MAT-MVS-.YYYY.-,City Lab 107,2023-11-07,Breakdown,Partially Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000092,MAT-MVS-.YYYY.-,Jinnah Tertiary Hospital 15,2023-11-09,Scheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000093,MAT-MVS-.YYYY.-,Primary & Secondary Healthcare Dept,2023-11-10,Unscheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000094,MAT-MVS-.YYYY.-,Dr. Essa Lab 116,2023-11-12,Scheduled,Partially Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000095,MAT-MVS-.YYYY.-,Rehman Diagnostics,2023-11-12,Unscheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000096,MAT-MVS-.YYYY.-,District Health Authority Lahore,2023-11-13,Unscheduled,Partially Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000097,MAT-MVS-.YYYY.-,Fatima Memorial Tertiary Hospital 09,2023-11-14,Scheduled,Partially Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000098,MAT-MVS-.YYYY.-,Lahore General District Hospital 69,2023-11-17,Unscheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000099,MAT-MVS-.YYYY.-,Saleem Lab 119,2023-11-22,Scheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000100,MAT-MVS-.YYYY.-,Sir Ganga Ram Tertiary Hospital 46,2023-11-22,Breakdown,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000101,MAT-MVS-.YYYY.-,Punjab Specialized Hospital 42,2023-11-25,Unscheduled,Partially Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000102,MAT-MVS-.YYYY.-,Punjab Health Department,2023-11-26,Scheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000103,MAT-MVS-.YYYY.-,Al-Rehman Tertiary Hospital 17,2023-12-09,Unscheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000104,MAT-MVS-.YYYY.-,LifeLine General Hospital 11,2023-12-12,Breakdown,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000105,MAT-MVS-.YYYY.-,Allied Lab,2023-12-15,Unscheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000106,MAT-MVS-.YYYY.-,Noor Teaching Hospital 76,2023-12-19,Unscheduled,Partially Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000107,MAT-MVS-.YYYY.-,Saleem Lab 119,2023-12-25,Breakdown,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000108,MAT-MVS-.YYYY.-,Sharif Medical Teaching Hospital 62,2023-12-29,Scheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000109,MAT-MVS-.YYYY.-,Noor District Hospital 68,2024-01-02,Breakdown,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000110,MAT-MVS-.YYYY.-,Punjab AIDS Control Program,2024-01-04,Unscheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000111,MAT-MVS-.YYYY.-,Ghurki Trust Private Hospital 61,2024-01-08,Breakdown,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000112,MAT-MVS-.YYYY.-,Shaukat Khanum Teaching Hospital 72,2024-01-11,Scheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000113,MAT-MVS-.YYYY.-,Doctors Private Hospital 29,2024-01-11,Scheduled,Partially Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000114,MAT-MVS-.YYYY.-,Sharif Medical District Hospital 30,2024-01-16,Scheduled,Partially Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000115,MAT-MVS-.YYYY.-,Sharif Medical Tertiary Hospital 71,2024-01-18,Breakdown,Partially Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000116,MAT-MVS-.YYYY.-,Mayo Teaching Hospital 05,2024-01-18,Unscheduled,Partially Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000117,MAT-MVS-.YYYY.-,Lahore General Tertiary Hospital 27,2024-01-23,Unscheduled,Partially Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000118,MAT-MVS-.YYYY.-,Sir Ganga Ram Tertiary Hospital 46,2024-01-24,Unscheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000119,MAT-MVS-.YYYY.-,Chughtai Tertiary Hospital 57,2024-01-26,Scheduled,Partially Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000120,MAT-MVS-.YYYY.-,LifeLine Tertiary Hospital 64,2024-01-28,Scheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000121,MAT-MVS-.YYYY.-,Punjab Healthcare Commission,2024-01-28,Unscheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000122,MAT-MVS-.YYYY.-,Fatima Memorial Private Hospital 34,2024-01-29,Scheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000123,MAT-MVS-.YYYY.-,Rehman Diagnostics,2024-01-29,Unscheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000124,MAT-MVS-.YYYY.-,Punjab Diagnostic Center,2024-02-02,Breakdown,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000125,MAT-MVS-.YYYY.-,Lahore General Tertiary Hospital 27,2024-02-07,Breakdown,Partially Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000126,MAT-MVS-.YYYY.-,Doctors Tertiary Hospital 78,2024-02-13,Scheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000127,MAT-MVS-.YYYY.-,Punjab Emergency Service (Rescue 1122),2024-02-13,Unscheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000128,MAT-MVS-.YYYY.-,Sharif Medical Tertiary Hospital 71,2024-02-13,Scheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000129,MAT-MVS-.YYYY.-,City Care Tertiary Hospital 20,2024-02-14,Breakdown,Partially Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000130,MAT-MVS-.YYYY.-,LifeLine Tertiary Hospital 64,2024-02-14,Scheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000131,MAT-MVS-.YYYY.-,Ittefaq District Hospital 19,2024-02-14,Scheduled,Partially Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000132,MAT-MVS-.YYYY.-,Doctors Teaching Hospital 35,2024-02-17,Unscheduled,Partially Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000133,MAT-MVS-.YYYY.-,Mayo Specialized Hospital 10,2024-02-18,Breakdown,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000134,MAT-MVS-.YYYY.-,Surgimed District Hospital 23,2024-02-24,Breakdown,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000135,MAT-MVS-.YYYY.-,Prime Teaching Hospital 14,2024-02-25,Breakdown,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000136,MAT-MVS-.YYYY.-,Islamabad Diagnostics,2024-02-26,Unscheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000137,MAT-MVS-.YYYY.-,Sir Ganga Ram General Hospital 54,2024-03-08,Unscheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000138,MAT-MVS-.YYYY.-,Punjab Diagnostic Center,2024-03-10,Unscheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000139,MAT-MVS-.YYYY.-,Dr. Essa Lab,2024-03-12,Unscheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000140,MAT-MVS-.YYYY.-,Punjab Diagnostic Center 113,2024-03-12,Breakdown,Partially Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000141,MAT-MVS-.YYYY.-,Jinnah Tertiary Hospital 15,2024-03-14,Scheduled,Partially Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000142,MAT-MVS-.YYYY.-,Surgimed District Hospital 23,2024-03-19,Scheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000143,MAT-MVS-.YYYY.-,Jinnah Tertiary Hospital 67,2024-03-20,Unscheduled,Partially Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000144,MAT-MVS-.YYYY.-,Ittefaq General Hospital 25,2024-03-21,Breakdown,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000145,MAT-MVS-.YYYY.-,Medix Clinic,2024-03-22,Breakdown,Partially Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000146,MAT-MVS-.YYYY.-,Metro Diagnostics,2024-03-26,Scheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000147,MAT-MVS-.YYYY.-,Children Teaching Hospital 80,2024-03-30,Scheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000148,MAT-MVS-.YYYY.-,Punjab Specialized Hospital 42,2024-04-01,Unscheduled,Partially Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000149,MAT-MVS-.YYYY.-,Saleem Lab,2024-04-24,Scheduled,Partially Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000150,MAT-MVS-.YYYY.-,Ittefaq General Hospital 25,2024-04-24,Unscheduled,Partially Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000151,MAT-MVS-.YYYY.-,Surgimed District Hospital 23,2024-04-30,Breakdown,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000152,MAT-MVS-.YYYY.-,Punjab Specialized Hospital 42,2024-04-30,Scheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000153,MAT-MVS-.YYYY.-,Rehman Diagnostics 118,2024-05-03,Scheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000154,MAT-MVS-.YYYY.-,Central Tertiary Hospital 07,2024-05-06,Breakdown,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000155,MAT-MVS-.YYYY.-,Children District Hospital 55,2024-05-06,Scheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000156,MAT-MVS-.YYYY.-,Shaukat Khanum Specialized Hospital 63,2024-05-10,Scheduled,Partially Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000157,MAT-MVS-.YYYY.-,Specialized Healthcare & Medical Education,2024-05-12,Unscheduled,Partially Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000158,MAT-MVS-.YYYY.-,Medicare Clinic,2024-05-12,Scheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000159,MAT-MVS-.YYYY.-,Gulab Devi Tertiary Hospital 28,2024-05-13,Breakdown,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000160,MAT-MVS-.YYYY.-,Lahore Diagnostics 106,2024-05-14,Breakdown,Partially Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000161,MAT-MVS-.YYYY.-,Jinnah Tertiary Hospital 15,2024-05-16,Unscheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000162,MAT-MVS-.YYYY.-,Shaukat Khanum Specialized Hospital 63,2024-05-17,Breakdown,Partially Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000163,MAT-MVS-.YYYY.-,National District Hospital 18,2024-05-18,Breakdown,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000164,MAT-MVS-.YYYY.-,Surgimed General Hospital 58,2024-05-20,Unscheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000165,MAT-MVS-.YYYY.-,City Lab,2024-05-24,Unscheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000166,MAT-MVS-.YYYY.-,Punjab Tertiary Hospital 37,2024-06-04,Scheduled,Partially Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000167,MAT-MVS-.YYYY.-,Jinnah Tertiary Hospital 67,2024-06-09,Scheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000168,MAT-MVS-.YYYY.-,Health First Clinic 111,2024-06-14,Breakdown,Partially Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000169,MAT-MVS-.YYYY.-,City Care Tertiary Hospital 20,2024-06-14,Unscheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000170,MAT-MVS-.YYYY.-,Sharif Medical Teaching Hospital 62,2024-06-15,Scheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000171,MAT-MVS-.YYYY.-,Surgimed District Hospital 23,2024-06-15,Unscheduled,Partially Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000172,MAT-MVS-.YYYY.-,Primary & Secondary Healthcare Dept,2024-06-16,Unscheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000173,MAT-MVS-.YYYY.-,Ittefaq District Hospital 19,2024-06-16,Scheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000174,MAT-MVS-.YYYY.-,Sir Ganga Ram Tertiary Hospital 75,2024-06-18,Scheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000175,MAT-MVS-.YYYY.-,Sharif Medical Tertiary Hospital 71,2024-06-25,Unscheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000176,MAT-MVS-.YYYY.-,Punjab Tertiary Hospital 37,2024-07-02,Unscheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000177,MAT-MVS-.YYYY.-,LifeLine Teaching Hospital 74,2024-07-02,Scheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000178,MAT-MVS-.YYYY.-,Punjab Emergency Service (Rescue 1122),2024-07-08,Scheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000179,MAT-MVS-.YYYY.-,Lady Willingdon Tertiary Hospital 06,2024-07-08,Unscheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000180,MAT-MVS-.YYYY.-,Services Specialized Hospital 04,2024-07-11,Scheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000181,MAT-MVS-.YYYY.-,Qamar Lab 120,2024-07-11,Unscheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000182,MAT-MVS-.YYYY.-,Punjab General Hospital 59,2024-07-13,Unscheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000183,MAT-MVS-.YYYY.-,Gulab Devi Specialized Hospital 22,2024-07-14,Breakdown,Partially Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000184,MAT-MVS-.YYYY.-,Punjab Healthcare Commission,2024-07-14,Unscheduled,Partially Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000185,MAT-MVS-.YYYY.-,LifeLine Tertiary Hospital 64,2024-07-14,Scheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000186,MAT-MVS-.YYYY.-,Agha Khan Lab Lahore,2024-07-15,Unscheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000187,MAT-MVS-.YYYY.-,Jinnah Tertiary Hospital 32,2024-07-21,Unscheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000188,MAT-MVS-.YYYY.-,Lahore General Tertiary Hospital 27,2024-07-24,Breakdown,Partially Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000189,MAT-MVS-.YYYY.-,Sir Ganga Ram District Hospital 08,2024-07-31,Unscheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000190,MAT-MVS-.YYYY.-,Sir Ganga Ram General Hospital 38,2024-08-04,Scheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000191,MAT-MVS-.YYYY.-,National District Hospital 18,2024-08-05,Scheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000192,MAT-MVS-.YYYY.-,Allied Lab,2024-08-12,Unscheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000193,MAT-MVS-.YYYY.-,Lahore General Tertiary Hospital 27,2024-08-16,Unscheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000194,MAT-MVS-.YYYY.-,City Care Tertiary Hospital 02,2024-08-20,Breakdown,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000195,MAT-MVS-.YYYY.-,Directorate of Health Services Lahore,2024-08-25,Breakdown,Partially Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000196,MAT-MVS-.YYYY.-,Chughtai Lab,2024-08-27,Unscheduled,Partially Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000197,MAT-MVS-.YYYY.-,Punjab Diagnostic Center,2024-08-29,Scheduled,Partially Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000198,MAT-MVS-.YYYY.-,Noor District Hospital 68,2024-09-01,Scheduled,Partially Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000199,MAT-MVS-.YYYY.-,Lahore Diagnostics 106,2024-09-03,Scheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000200,MAT-MVS-.YYYY.-,Punjab General Hospital 59,2024-09-12,Scheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000201,MAT-MVS-.YYYY.-,Mayo Specialized Hospital 10,2024-09-12,Breakdown,Partially Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000202,MAT-MVS-.YYYY.-,One Health Lab,2024-09-15,Breakdown,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000203,MAT-MVS-.YYYY.-,LifeLine Tertiary Hospital 64,2024-09-16,Scheduled,Partially Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000204,MAT-MVS-.YYYY.-,Jinnah Tertiary Hospital 15,2024-09-19,Scheduled,Partially Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000205,MAT-MVS-.YYYY.-,Fatima Memorial District Hospital 65,2024-09-20,Scheduled,Partially Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000206,MAT-MVS-.YYYY.-,Chughtai Private Hospital 56,2024-09-20,Scheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000207,MAT-MVS-.YYYY.-,Punjab Healthcare Commission,2024-09-22,Scheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000208,MAT-MVS-.YYYY.-,Doctors Teaching Hospital 36,2024-09-28,Breakdown,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000209,MAT-MVS-.YYYY.-,Shalimar General Hospital 47,2024-09-28,Unscheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000210,MAT-MVS-.YYYY.-,Ghurki Trust Tertiary Hospital 12,2024-09-29,Breakdown,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000211,MAT-MVS-.YYYY.-,Punjab Medical Faculty,2024-09-30,Unscheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000212,MAT-MVS-.YYYY.-,Allied Lab 114,2024-10-02,Scheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000213,MAT-MVS-.YYYY.-,Doctors Teaching Hospital 35,2024-10-06,Scheduled,Partially Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000214,MAT-MVS-.YYYY.-,Prime Tertiary Hospital 24,2024-10-09,Breakdown,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000215,MAT-MVS-.YYYY.-,Ittefaq General Hospital 25,2024-10-11,Breakdown,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000216,MAT-MVS-.YYYY.-,Medix Clinic 112,2024-10-11,Scheduled,Partially Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000217,MAT-MVS-.YYYY.-,Central Tertiary Hospital 07,2024-10-12,Breakdown,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000218,MAT-MVS-.YYYY.-,Sir Ganga Ram General Hospital 38,2024-10-17,Breakdown,Partially Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000219,MAT-MVS-.YYYY.-,Shalimar General Hospital 47,2024-10-18,Scheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000220,MAT-MVS-.YYYY.-,Islamabad Diagnostics 105,2024-10-19,Unscheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000221,MAT-MVS-.YYYY.-,Lahore General District Hospital 69,2024-10-20,Breakdown,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000222,MAT-MVS-.YYYY.-,LifeLine Teaching Hospital 74,2024-10-21,Breakdown,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000223,MAT-MVS-.YYYY.-,Chughtai Private Hospital 56,2024-10-21,Breakdown,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000224,MAT-MVS-.YYYY.-,Allied Lab 114,2024-10-30,Breakdown,Partially Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000225,MAT-MVS-.YYYY.-,Lahore General District Hospital 69,2024-10-31,Scheduled,Partially Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000226,MAT-MVS-.YYYY.-,Shaukat Khanum Teaching Hospital 50,2024-10-31,Scheduled,Partially Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000227,MAT-MVS-.YYYY.-,Specialized Healthcare & Medical Education,2024-11-02,Scheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000228,MAT-MVS-.YYYY.-,National District Hospital 18,2024-11-02,Unscheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000229,MAT-MVS-.YYYY.-,Directorate of Health Services Lahore,2024-11-04,Breakdown,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000230,MAT-MVS-.YYYY.-,Doctors Teaching Hospital 36,2024-11-14,Scheduled,Partially Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000231,MAT-MVS-.YYYY.-,Saleem Lab 119,2024-11-21,Unscheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000232,MAT-MVS-.YYYY.-,IDC Lab,2024-11-21,Unscheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000233,MAT-MVS-.YYYY.-,Agha Khan Lab Lahore,2024-11-24,Scheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000234,MAT-MVS-.YYYY.-,Sharif Medical District Hospital 30,2024-11-26,Scheduled,Partially Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000235,MAT-MVS-.YYYY.-,Gulab Devi Tertiary Hospital 28,2024-12-01,Unscheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000236,MAT-MVS-.YYYY.-,Children District Hospital 55,2024-12-03,Unscheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000237,MAT-MVS-.YYYY.-,Metro Diagnostics 108,2024-12-04,Scheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000238,MAT-MVS-.YYYY.-,City Care Tertiary Hospital 02,2024-12-14,Scheduled,Partially Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000239,MAT-MVS-.YYYY.-,National Private Hospital 21,2024-12-14,Breakdown,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000240,MAT-MVS-.YYYY.-,Services Specialized Hospital 04,2024-12-14,Breakdown,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000241,MAT-MVS-.YYYY.-,Fatima Memorial District Hospital 65,2024-12-16,Unscheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000242,MAT-MVS-.YYYY.-,Lahore Diagnostics,2024-12-22,Breakdown,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000243,MAT-MVS-.YYYY.-,Ghurki Trust Specialized Hospital 31,2024-12-22,Scheduled,Partially Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000244,MAT-MVS-.YYYY.-,Qamar Lab 120,2024-12-23,Scheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000245,MAT-MVS-.YYYY.-,Al-Rehman Tertiary Hospital 17,2024-12-26,Scheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000246,MAT-MVS-.YYYY.-,Saleem Lab,2024-12-31,Breakdown,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000247,MAT-MVS-.YYYY.-,National Private Hospital 21,2025-01-01,Scheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000248,MAT-MVS-.YYYY.-,City Lab 107,2025-01-06,Scheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000249,MAT-MVS-.YYYY.-,Saleem Lab 119,2025-01-07,Unscheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000250,MAT-MVS-.YYYY.-,City Care Teaching Hospital 40,2025-01-07,Scheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000251,MAT-MVS-.YYYY.-,Ghurki Trust Private Hospital 61,2025-01-08,Breakdown,Partially Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000252,MAT-MVS-.YYYY.-,City Lab 107,2025-01-08,Breakdown,Partially Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000253,MAT-MVS-.YYYY.-,Sir Ganga Ram Tertiary Hospital 46,2025-01-09,Unscheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000254,MAT-MVS-.YYYY.-,Excel Labs 104,2025-01-13,Scheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000255,MAT-MVS-.YYYY.-,Saleem Lab 119,2025-01-14,Breakdown,Partially Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000256,MAT-MVS-.YYYY.-,District Health Authority Lahore,2025-01-14,Unscheduled,Partially Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000257,MAT-MVS-.YYYY.-,City Care Tertiary Hospital 02,2025-01-22,Unscheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000258,MAT-MVS-.YYYY.-,Shaukat Khanum Teaching Hospital 72,2025-01-26,Scheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000259,MAT-MVS-.YYYY.-,Mayo Teaching Hospital 05,2025-01-26,Unscheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000260,MAT-MVS-.YYYY.-,Ittefaq General Hospital 25,2025-01-26,Scheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000261,MAT-MVS-.YYYY.-,Fatima Memorial District Hospital 65,2025-01-29,Scheduled,Partially Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000262,MAT-MVS-.YYYY.-,Allied Lab,2025-02-07,Scheduled,Partially Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000263,MAT-MVS-.YYYY.-,Punjab Environmental Protection Agency,2025-02-08,Breakdown,Partially Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000264,MAT-MVS-.YYYY.-,Sharif Medical Tertiary Hospital 43,2025-02-08,Breakdown,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000265,MAT-MVS-.YYYY.-,Ghurki Trust Specialized Hospital 31,2025-02-18,Breakdown,Partially Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000266,MAT-MVS-.YYYY.-,Ittefaq District Hospital 19,2025-02-19,Breakdown,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000267,MAT-MVS-.YYYY.-,IDC Lab 103,2025-02-21,Scheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000268,MAT-MVS-.YYYY.-,One Health Lab 117,2025-02-22,Unscheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000269,MAT-MVS-.YYYY.-,Allied Lab,2025-02-27,Unscheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000270,MAT-MVS-.YYYY.-,Gulab Devi District Hospital 44,2025-03-04,Breakdown,Partially Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000271,MAT-MVS-.YYYY.-,Mayo Teaching Hospital 05,2025-03-06,Scheduled,Partially Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000272,MAT-MVS-.YYYY.-,Punjab Medical Faculty,2025-03-08,Unscheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000273,MAT-MVS-.YYYY.-,Children Teaching Hospital 80,2025-03-09,Unscheduled,Partially Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000274,MAT-MVS-.YYYY.-,Children District Hospital 55,2025-03-13,Unscheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000275,MAT-MVS-.YYYY.-,Medix Clinic 112,2025-03-13,Breakdown,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000276,MAT-MVS-.YYYY.-,Medix Clinic,2025-03-15,Scheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000277,MAT-MVS-.YYYY.-,Sir Ganga Ram District Hospital 08,2025-03-16,Unscheduled,Partially Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000278,MAT-MVS-.YYYY.-,Ittefaq General Hospital 25,2025-03-20,Breakdown,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000279,MAT-MVS-.YYYY.-,Punjab Health Department,2025-03-23,Breakdown,Partially Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000280,MAT-MVS-.YYYY.-,LifeLine Tertiary Hospital 64,2025-03-26,Breakdown,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000281,MAT-MVS-.YYYY.-,Punjab Tertiary Hospital 37,2025-03-27,Unscheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000282,MAT-MVS-.YYYY.-,Shaukat Khanum Teaching Hospital 50,2025-03-28,Scheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000283,MAT-MVS-.YYYY.-,Metro Diagnostics,2025-04-01,Scheduled,Partially Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000284,MAT-MVS-.YYYY.-,Dr. Essa Lab 116,2025-04-02,Scheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000285,MAT-MVS-.YYYY.-,Shaukat Khanum Specialized Hospital 63,2025-04-02,Scheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000286,MAT-MVS-.YYYY.-,Medix Clinic,2025-04-09,Scheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000287,MAT-MVS-.YYYY.-,Punjab General Hospital 59,2025-04-15,Breakdown,Partially Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000288,MAT-MVS-.YYYY.-,Central District Hospital 53,2025-04-17,Scheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000289,MAT-MVS-.YYYY.-,Sheikh Zayed General Hospital 39,2025-04-20,Scheduled,Partially Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000290,MAT-MVS-.YYYY.-,Punjab Emergency Service (Rescue 1122),2025-04-24,Unscheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000291,MAT-MVS-.YYYY.-,Allied Lab 114,2025-04-28,Scheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000292,MAT-MVS-.YYYY.-,Health First Clinic 111,2025-05-03,Breakdown,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000293,MAT-MVS-.YYYY.-,Directorate of Health Services Lahore,2025-05-05,Breakdown,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000294,MAT-MVS-.YYYY.-,City Care Tertiary Hospital 20,2025-05-09,Breakdown,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000295,MAT-MVS-.YYYY.-,Sharif Medical General Hospital 03,2025-05-10,Breakdown,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000296,MAT-MVS-.YYYY.-,Gulab Devi Tertiary Hospital 13,2025-05-14,Scheduled,Partially Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000297,MAT-MVS-.YYYY.-,Sir Ganga Ram General Hospital 54,2025-05-19,Unscheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000298,MAT-MVS-.YYYY.-,Al-Razi Clinic 109,2025-05-24,Breakdown,Partially Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000299,MAT-MVS-.YYYY.-,Agha Khan Lab Lahore 115,2025-05-25,Breakdown,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000300,MAT-MVS-.YYYY.-,Punjab Diagnostic Center 113,2025-06-07,Scheduled,Partially Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000301,MAT-MVS-.YYYY.-,Doctors Tertiary Hospital 78,2025-06-09,Scheduled,Partially Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000302,MAT-MVS-.YYYY.-,Lahore Diagnostics 106,2025-06-09,Breakdown,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000303,MAT-MVS-.YYYY.-,Services Specialized Hospital 77,2025-06-10,Breakdown,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000304,MAT-MVS-.YYYY.-,Shaukat Khanum Teaching Hospital 50,2025-06-16,Scheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000305,MAT-MVS-.YYYY.-,Qamar Lab 120,2025-06-17,Scheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000306,MAT-MVS-.YYYY.-,Sir Ganga Ram General Hospital 38,2025-06-23,Scheduled,Partially Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000307,MAT-MVS-.YYYY.-,Farooq General Hospital 70,2025-06-27,Unscheduled,Partially Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000308,MAT-MVS-.YYYY.-,Chughtai Lab 101,2025-06-28,Breakdown,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000309,MAT-MVS-.YYYY.-,Mayo District Hospital 01,2025-06-29,Scheduled,Partially Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000310,MAT-MVS-.YYYY.-,Islamabad Diagnostics 105,2025-06-30,Breakdown,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000311,MAT-MVS-.YYYY.-,Rehman Diagnostics 118,2025-07-01,Unscheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000312,MAT-MVS-.YYYY.-,Gulab Devi Specialized Hospital 22,2025-07-03,Scheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000313,MAT-MVS-.YYYY.-,Chughtai Private Hospital 56,2025-07-03,Unscheduled,Partially Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000314,MAT-MVS-.YYYY.-,Punjab Emergency Service (Rescue 1122),2025-07-07,Unscheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000315,MAT-MVS-.YYYY.-,City Care Tertiary Hospital 20,2025-07-08,Breakdown,Partially Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000316,MAT-MVS-.YYYY.-,Excel Labs 104,2025-07-11,Breakdown,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000317,MAT-MVS-.YYYY.-,Shaukat Khanum Lab 102,2025-07-17,Scheduled,Partially Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000318,MAT-MVS-.YYYY.-,Doctors Private Hospital 29,2025-07-18,Unscheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000319,MAT-MVS-.YYYY.-,Sir Ganga Ram District Hospital 08,2025-07-20,Unscheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000320,MAT-MVS-.YYYY.-,Punjab Medical Faculty,2025-07-23,Breakdown,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000321,MAT-MVS-.YYYY.-,City Lab 107,2025-07-26,Unscheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000322,MAT-MVS-.YYYY.-,Sharif Medical District Hospital 30,2025-07-30,Unscheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000323,MAT-MVS-.YYYY.-,Allied Lab 114,2025-08-03,Unscheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000324,MAT-MVS-.YYYY.-,Gulab Devi Specialized Hospital 22,2025-08-04,Scheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000325,MAT-MVS-.YYYY.-,District Health Authority Lahore,2025-08-10,Breakdown,Partially Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000326,MAT-MVS-.YYYY.-,District Health Authority Lahore,2025-08-13,Unscheduled,Partially Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000327,MAT-MVS-.YYYY.-,District Health Authority Lahore,2025-08-21,Breakdown,Partially Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000328,MAT-MVS-.YYYY.-,Punjab Medical Faculty,2025-08-22,Breakdown,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000329,MAT-MVS-.YYYY.-,Chughtai Private Hospital 56,2025-08-24,Scheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000330,MAT-MVS-.YYYY.-,Allied Lab 114,2025-08-24,Scheduled,Partially Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000331,MAT-MVS-.YYYY.-,Rehman Diagnostics,2025-08-26,Unscheduled,Partially Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000332,MAT-MVS-.YYYY.-,Children District Hospital 55,2025-09-06,Breakdown,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000333,MAT-MVS-.YYYY.-,Jinnah Tertiary Hospital 32,2025-09-09,Unscheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000334,MAT-MVS-.YYYY.-,Children District Hospital 55,2025-09-09,Unscheduled,Partially Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000335,MAT-MVS-.YYYY.-,City Lab 107,2025-09-12,Scheduled,Partially Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000336,MAT-MVS-.YYYY.-,Shaukat Khanum Lab 102,2025-09-13,Unscheduled,Partially Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000337,MAT-MVS-.YYYY.-,LifeLine Tertiary Hospital 64,2025-09-14,Unscheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000338,MAT-MVS-.YYYY.-,Fatima Memorial Private Hospital 34,2025-09-15,Scheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000339,MAT-MVS-.YYYY.-,Central District Hospital 53,2025-09-19,Scheduled,Partially Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000340,MAT-MVS-.YYYY.-,Shaukat Khanum Teaching Hospital 50,2025-09-23,Breakdown,Partially Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000341,MAT-MVS-.YYYY.-,Mayo Specialized Hospital 10,2025-09-26,Unscheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000342,MAT-MVS-.YYYY.-,Metro Diagnostics,2025-10-09,Unscheduled,Partially Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000343,MAT-MVS-.YYYY.-,Rehman Diagnostics,2025-10-14,Unscheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000344,MAT-MVS-.YYYY.-,Islamabad Diagnostics,2025-10-17,Breakdown,Partially Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000345,MAT-MVS-.YYYY.-,Central Tertiary Hospital 07,2025-10-19,Breakdown,Partially Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000346,MAT-MVS-.YYYY.-,Sir Ganga Ram General Hospital 38,2025-10-21,Scheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000347,MAT-MVS-.YYYY.-,Specialized Healthcare & Medical Education,2025-10-22,Scheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000348,MAT-MVS-.YYYY.-,Rehman Diagnostics,2025-10-22,Breakdown,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000349,MAT-MVS-.YYYY.-,Rehman Diagnostics,2025-10-23,Breakdown,Partially Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000350,MAT-MVS-.YYYY.-,Jinnah Tertiary Hospital 67,2025-10-23,Unscheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000351,MAT-MVS-.YYYY.-,Lady Willingdon Tertiary Hospital 60,2025-10-26,Breakdown,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000352,MAT-MVS-.YYYY.-,Mayo Teaching Hospital 05,2025-10-29,Scheduled,Partially Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000353,MAT-MVS-.YYYY.-,Dr. Essa Lab,2025-10-30,Breakdown,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000354,MAT-MVS-.YYYY.-,Rehman Diagnostics,2025-10-31,Scheduled,Partially Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000355,MAT-MVS-.YYYY.-,City Lab 107,2025-11-01,Unscheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000356,MAT-MVS-.YYYY.-,National Private Hospital 21,2025-11-05,Unscheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000357,MAT-MVS-.YYYY.-,Noor District Hospital 68,2025-11-07,Breakdown,Partially Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000358,MAT-MVS-.YYYY.-,Surgimed District Hospital 23,2025-11-09,Scheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000359,MAT-MVS-.YYYY.-,Shaukat Khanum Lab,2025-11-09,Scheduled,Partially Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000360,MAT-MVS-.YYYY.-,Medicare Clinic 110,2025-11-10,Unscheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000361,MAT-MVS-.YYYY.-,Agha Khan Lab Lahore,2025-11-10,Unscheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000362,MAT-MVS-.YYYY.-,Islamabad Diagnostics 105,2025-11-11,Scheduled,Partially Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000363,MAT-MVS-.YYYY.-,Al-Razi Clinic,2025-11-14,Breakdown,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000364,MAT-MVS-.YYYY.-,Surgimed General Hospital 58,2025-11-17,Unscheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000365,MAT-MVS-.YYYY.-,Metro Diagnostics 108,2025-11-18,Breakdown,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000366,MAT-MVS-.YYYY.-,Primary & Secondary Healthcare Dept,2025-11-29,Unscheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000367,MAT-MVS-.YYYY.-,Surgimed General Hospital 58,2025-11-30,Unscheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000368,MAT-MVS-.YYYY.-,Punjab Diagnostic Center 113,2025-12-02,Unscheduled,Partially Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000369,MAT-MVS-.YYYY.-,Saleem Lab,2025-12-04,Breakdown,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000370,MAT-MVS-.YYYY.-,Chughtai Lab,2025-12-06,Scheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000371,MAT-MVS-.YYYY.-,Rehman Diagnostics,2025-12-06,Scheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000372,MAT-MVS-.YYYY.-,Chughtai Tertiary Hospital 57,2025-12-14,Breakdown,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000373,MAT-MVS-.YYYY.-,Lahore General Tertiary Hospital 27,2025-12-20,Scheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000374,MAT-MVS-.YYYY.-,LifeLine Teaching Hospital 74,2025-12-23,Scheduled,Partially Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000375,MAT-MVS-.YYYY.-,LifeLine General Hospital 11,2025-12-30,Unscheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000376,MAT-MVS-.YYYY.-,Islamabad Diagnostics,2026-01-06,Breakdown,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000377,MAT-MVS-.YYYY.-,Punjab Tertiary Hospital 37,2026-01-06,Scheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000378,MAT-MVS-.YYYY.-,Sheikh Zayed General Hospital 39,2026-01-07,Breakdown,Partially Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000379,MAT-MVS-.YYYY.-,Sharif Medical Tertiary Hospital 71,2026-01-07,Breakdown,Partially Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000380,MAT-MVS-.YYYY.-,Metro Diagnostics,2026-01-07,Breakdown,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000381,MAT-MVS-.YYYY.-,Lahore General Tertiary Hospital 27,2026-01-18,Scheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000382,MAT-MVS-.YYYY.-,Metro Diagnostics 108,2026-01-18,Scheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000383,MAT-MVS-.YYYY.-,Sharif Medical Tertiary Hospital 71,2026-01-18,Unscheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000384,MAT-MVS-.YYYY.-,Punjab AIDS Control Program,2026-01-24,Unscheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000385,MAT-MVS-.YYYY.-,National District Hospital 18,2026-01-25,Breakdown,Partially Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000386,MAT-MVS-.YYYY.-,Mayo Teaching Hospital 05,2026-01-27,Breakdown,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000387,MAT-MVS-.YYYY.-,Punjab Health Department,2026-01-29,Unscheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000388,MAT-MVS-.YYYY.-,Jinnah Tertiary Hospital 15,2026-02-07,Unscheduled,Partially Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000389,MAT-MVS-.YYYY.-,Doctors Teaching Hospital 36,2026-02-07,Scheduled,Partially Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000390,MAT-MVS-.YYYY.-,Allied Lab,2026-02-07,Scheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000391,MAT-MVS-.YYYY.-,One Health Lab,2026-02-16,Unscheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000392,MAT-MVS-.YYYY.-,Prime Teaching Hospital 14,2026-02-17,Breakdown,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000393,MAT-MVS-.YYYY.-,Lahore General Tertiary Hospital 27,2026-02-22,Breakdown,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000394,MAT-MVS-.YYYY.-,Chughtai Tertiary Hospital 57,2026-02-28,Breakdown,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000395,MAT-MVS-.YYYY.-,Health First Clinic,2026-03-01,Breakdown,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000396,MAT-MVS-.YYYY.-,Chughtai Lab,2026-03-01,Unscheduled,Partially Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000397,MAT-MVS-.YYYY.-,Doctors Tertiary Hospital 78,2026-03-03,Scheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000398,MAT-MVS-.YYYY.-,Central District Hospital 53,2026-03-05,Breakdown,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000399,MAT-MVS-.YYYY.-,City Lab 107,2026-03-09,Breakdown,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
-MV-DEMO-000400,MAT-MVS-.YYYY.-,Shaukat Khanum Lab,2026-03-12,Unscheduled,Fully Completed,EnXi Biomedical & Waste Management (Pvt) Ltd
+name,naming_series,customer,mntc_date,maintenance_type,completion_status,status,company
+MV-DEMO-000001,MAT-MVS-.YYYY.-,Medix Clinic,2023-03-04,Scheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000002,MAT-MVS-.YYYY.-,Chughtai Lab,2023-03-04,Unscheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000003,MAT-MVS-.YYYY.-,Islamabad Diagnostics 105,2023-03-07,Unscheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000004,MAT-MVS-.YYYY.-,Punjab Medical Faculty,2023-03-07,Breakdown,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000005,MAT-MVS-.YYYY.-,Shaukat Khanum Teaching Hospital 72,2023-03-10,Scheduled,Partially Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000006,MAT-MVS-.YYYY.-,Doctors Teaching Hospital 36,2023-03-21,Scheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000007,MAT-MVS-.YYYY.-,Directorate of Health Services Lahore,2023-03-22,Scheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000008,MAT-MVS-.YYYY.-,Jinnah Tertiary Hospital 32,2023-03-23,Scheduled,Partially Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000009,MAT-MVS-.YYYY.-,Punjab Diagnostic Center 113,2023-03-24,Breakdown,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000010,MAT-MVS-.YYYY.-,Noor Teaching Hospital 76,2023-04-06,Scheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000011,MAT-MVS-.YYYY.-,Qamar Lab 120,2023-04-08,Unscheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000012,MAT-MVS-.YYYY.-,Lahore Diagnostics 106,2023-04-11,Unscheduled,Partially Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000013,MAT-MVS-.YYYY.-,Surgimed General Hospital 58,2023-04-13,Scheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000014,MAT-MVS-.YYYY.-,Farooq General Hospital 70,2023-04-16,Unscheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000015,MAT-MVS-.YYYY.-,Specialized Healthcare & Medical Education,2023-04-17,Scheduled,Partially Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000016,MAT-MVS-.YYYY.-,LifeLine Teaching Hospital 74,2023-04-18,Unscheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000017,MAT-MVS-.YYYY.-,Primary & Secondary Healthcare Dept,2023-04-26,Unscheduled,Partially Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000018,MAT-MVS-.YYYY.-,Shaukat Khanum Lab 102,2023-04-28,Breakdown,Partially Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000019,MAT-MVS-.YYYY.-,Dr. Essa Lab,2023-04-28,Scheduled,Partially Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000020,MAT-MVS-.YYYY.-,Shaukat Khanum Lab 102,2023-04-29,Scheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000021,MAT-MVS-.YYYY.-,Allied Lab 114,2023-05-08,Unscheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000022,MAT-MVS-.YYYY.-,Shaukat Khanum Teaching Hospital 72,2023-05-09,Scheduled,Partially Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000023,MAT-MVS-.YYYY.-,Fatima Memorial Tertiary Hospital 09,2023-05-10,Unscheduled,Partially Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000024,MAT-MVS-.YYYY.-,Jinnah Tertiary Hospital 32,2023-05-13,Breakdown,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000025,MAT-MVS-.YYYY.-,Ittefaq General Hospital 25,2023-05-19,Breakdown,Partially Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000026,MAT-MVS-.YYYY.-,Lahore Diagnostics,2023-05-19,Unscheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000027,MAT-MVS-.YYYY.-,Specialized Healthcare & Medical Education,2023-05-22,Unscheduled,Partially Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000028,MAT-MVS-.YYYY.-,Prime Teaching Hospital 14,2023-05-25,Unscheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000029,MAT-MVS-.YYYY.-,Prime Teaching Hospital 14,2023-05-26,Breakdown,Partially Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000030,MAT-MVS-.YYYY.-,LifeLine General Hospital 49,2023-05-29,Scheduled,Partially Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000031,MAT-MVS-.YYYY.-,City Care Tertiary Hospital 02,2023-06-01,Scheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000032,MAT-MVS-.YYYY.-,Services Teaching Hospital 33,2023-06-08,Breakdown,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000033,MAT-MVS-.YYYY.-,Ghurki Trust Tertiary Hospital 12,2023-06-12,Scheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000034,MAT-MVS-.YYYY.-,Medicare Clinic 110,2023-06-19,Unscheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000035,MAT-MVS-.YYYY.-,Chughtai Tertiary Hospital 57,2023-06-20,Unscheduled,Partially Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000036,MAT-MVS-.YYYY.-,City Care Tertiary Hospital 02,2023-06-27,Unscheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000037,MAT-MVS-.YYYY.-,City Care Tertiary Hospital 02,2023-06-28,Unscheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000038,MAT-MVS-.YYYY.-,Al-Razi Clinic,2023-07-01,Unscheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000039,MAT-MVS-.YYYY.-,Chughtai Lab 101,2023-07-02,Breakdown,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000040,MAT-MVS-.YYYY.-,Islamabad Diagnostics,2023-07-03,Scheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000041,MAT-MVS-.YYYY.-,Ittefaq District Hospital 19,2023-07-04,Scheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000042,MAT-MVS-.YYYY.-,City Lab 107,2023-07-05,Breakdown,Partially Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000043,MAT-MVS-.YYYY.-,Punjab Diagnostic Center,2023-07-05,Scheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000044,MAT-MVS-.YYYY.-,Rehman Diagnostics,2023-07-06,Scheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000045,MAT-MVS-.YYYY.-,Excel Labs 104,2023-07-13,Unscheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000046,MAT-MVS-.YYYY.-,Lahore Diagnostics 106,2023-07-15,Scheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000047,MAT-MVS-.YYYY.-,Sharif Medical Tertiary Hospital 43,2023-07-18,Breakdown,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000048,MAT-MVS-.YYYY.-,Metro Diagnostics 108,2023-07-23,Scheduled,Partially Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000049,MAT-MVS-.YYYY.-,Punjab Medical Faculty,2023-07-25,Breakdown,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000050,MAT-MVS-.YYYY.-,Sharif Medical District Hospital 30,2023-07-27,Breakdown,Partially Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000051,MAT-MVS-.YYYY.-,Rehman Diagnostics 118,2023-07-29,Scheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000052,MAT-MVS-.YYYY.-,Doctors Tertiary Hospital 78,2023-07-30,Breakdown,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000053,MAT-MVS-.YYYY.-,Medicare Clinic,2023-07-30,Scheduled,Partially Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000054,MAT-MVS-.YYYY.-,Saleem Lab,2023-08-01,Scheduled,Partially Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000055,MAT-MVS-.YYYY.-,Doctors Tertiary Hospital 78,2023-08-07,Unscheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000056,MAT-MVS-.YYYY.-,Shalimar General Hospital 47,2023-08-10,Scheduled,Partially Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000057,MAT-MVS-.YYYY.-,Excel Labs,2023-08-13,Breakdown,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000058,MAT-MVS-.YYYY.-,Gulab Devi Specialized Hospital 22,2023-08-16,Scheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000059,MAT-MVS-.YYYY.-,Excel Labs,2023-08-17,Unscheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000060,MAT-MVS-.YYYY.-,Punjab Emergency Service (Rescue 1122),2023-08-17,Scheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000061,MAT-MVS-.YYYY.-,Punjab AIDS Control Program,2023-08-21,Breakdown,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000062,MAT-MVS-.YYYY.-,City Care Tertiary Hospital 20,2023-08-26,Unscheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000063,MAT-MVS-.YYYY.-,Doctors Tertiary Hospital 66,2023-08-28,Scheduled,Partially Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000064,MAT-MVS-.YYYY.-,Directorate of Health Services Lahore,2023-08-28,Scheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000065,MAT-MVS-.YYYY.-,City Care Tertiary Hospital 02,2023-09-03,Unscheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000066,MAT-MVS-.YYYY.-,Metro Diagnostics 108,2023-09-04,Scheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000067,MAT-MVS-.YYYY.-,Hameed Latif District Hospital 26,2023-09-07,Unscheduled,Partially Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000068,MAT-MVS-.YYYY.-,Sharif Medical General Hospital 03,2023-09-08,Unscheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000069,MAT-MVS-.YYYY.-,Shaukat Khanum Teaching Hospital 50,2023-09-10,Unscheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000070,MAT-MVS-.YYYY.-,District Health Authority Lahore,2023-09-15,Scheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000071,MAT-MVS-.YYYY.-,Sharif Medical District Hospital 30,2023-09-16,Unscheduled,Partially Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000072,MAT-MVS-.YYYY.-,Excel Labs,2023-09-17,Scheduled,Partially Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000073,MAT-MVS-.YYYY.-,Doctors Private Hospital 29,2023-09-18,Breakdown,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000074,MAT-MVS-.YYYY.-,Jinnah Tertiary Hospital 32,2023-09-21,Breakdown,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000075,MAT-MVS-.YYYY.-,Punjab Health Department,2023-09-26,Scheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000076,MAT-MVS-.YYYY.-,Lady Willingdon Tertiary Hospital 60,2023-09-26,Breakdown,Partially Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000077,MAT-MVS-.YYYY.-,Lahore Diagnostics 106,2023-10-09,Scheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000078,MAT-MVS-.YYYY.-,LifeLine General Hospital 11,2023-10-10,Breakdown,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000079,MAT-MVS-.YYYY.-,Lahore Diagnostics 106,2023-10-11,Unscheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000080,MAT-MVS-.YYYY.-,District Health Authority Lahore,2023-10-13,Scheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000081,MAT-MVS-.YYYY.-,Sharif Medical District Hospital 30,2023-10-14,Scheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000082,MAT-MVS-.YYYY.-,Shalimar General Hospital 47,2023-10-20,Unscheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000083,MAT-MVS-.YYYY.-,One Health Lab 117,2023-10-20,Breakdown,Partially Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000084,MAT-MVS-.YYYY.-,Excel Labs 104,2023-10-22,Scheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000085,MAT-MVS-.YYYY.-,IDC Lab,2023-10-24,Breakdown,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000086,MAT-MVS-.YYYY.-,Central Tertiary Hospital 07,2023-10-31,Unscheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000087,MAT-MVS-.YYYY.-,Primary & Secondary Healthcare Dept,2023-10-31,Scheduled,Partially Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000088,MAT-MVS-.YYYY.-,Medix Clinic 112,2023-11-03,Breakdown,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000089,MAT-MVS-.YYYY.-,Health First Clinic,2023-11-03,Unscheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000090,MAT-MVS-.YYYY.-,Noor Teaching Hospital 76,2023-11-04,Scheduled,Partially Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000091,MAT-MVS-.YYYY.-,City Lab 107,2023-11-07,Breakdown,Partially Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000092,MAT-MVS-.YYYY.-,Jinnah Tertiary Hospital 15,2023-11-09,Scheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000093,MAT-MVS-.YYYY.-,Primary & Secondary Healthcare Dept,2023-11-10,Unscheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000094,MAT-MVS-.YYYY.-,Dr. Essa Lab 116,2023-11-12,Scheduled,Partially Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000095,MAT-MVS-.YYYY.-,Rehman Diagnostics,2023-11-12,Unscheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000096,MAT-MVS-.YYYY.-,District Health Authority Lahore,2023-11-13,Unscheduled,Partially Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000097,MAT-MVS-.YYYY.-,Fatima Memorial Tertiary Hospital 09,2023-11-14,Scheduled,Partially Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000098,MAT-MVS-.YYYY.-,Lahore General District Hospital 69,2023-11-17,Unscheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000099,MAT-MVS-.YYYY.-,Saleem Lab 119,2023-11-22,Scheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000100,MAT-MVS-.YYYY.-,Sir Ganga Ram Tertiary Hospital 46,2023-11-22,Breakdown,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000101,MAT-MVS-.YYYY.-,Punjab Specialized Hospital 42,2023-11-25,Unscheduled,Partially Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000102,MAT-MVS-.YYYY.-,Punjab Health Department,2023-11-26,Scheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000103,MAT-MVS-.YYYY.-,Al-Rehman Tertiary Hospital 17,2023-12-09,Unscheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000104,MAT-MVS-.YYYY.-,LifeLine General Hospital 11,2023-12-12,Breakdown,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000105,MAT-MVS-.YYYY.-,Allied Lab,2023-12-15,Unscheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000106,MAT-MVS-.YYYY.-,Noor Teaching Hospital 76,2023-12-19,Unscheduled,Partially Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000107,MAT-MVS-.YYYY.-,Saleem Lab 119,2023-12-25,Breakdown,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000108,MAT-MVS-.YYYY.-,Sharif Medical Teaching Hospital 62,2023-12-29,Scheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000109,MAT-MVS-.YYYY.-,Noor District Hospital 68,2024-01-02,Breakdown,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000110,MAT-MVS-.YYYY.-,Punjab AIDS Control Program,2024-01-04,Unscheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000111,MAT-MVS-.YYYY.-,Ghurki Trust Private Hospital 61,2024-01-08,Breakdown,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000112,MAT-MVS-.YYYY.-,Shaukat Khanum Teaching Hospital 72,2024-01-11,Scheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000113,MAT-MVS-.YYYY.-,Doctors Private Hospital 29,2024-01-11,Scheduled,Partially Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000114,MAT-MVS-.YYYY.-,Sharif Medical District Hospital 30,2024-01-16,Scheduled,Partially Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000115,MAT-MVS-.YYYY.-,Sharif Medical Tertiary Hospital 71,2024-01-18,Breakdown,Partially Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000116,MAT-MVS-.YYYY.-,Mayo Teaching Hospital 05,2024-01-18,Unscheduled,Partially Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000117,MAT-MVS-.YYYY.-,Lahore General Tertiary Hospital 27,2024-01-23,Unscheduled,Partially Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000118,MAT-MVS-.YYYY.-,Sir Ganga Ram Tertiary Hospital 46,2024-01-24,Unscheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000119,MAT-MVS-.YYYY.-,Chughtai Tertiary Hospital 57,2024-01-26,Scheduled,Partially Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000120,MAT-MVS-.YYYY.-,LifeLine Tertiary Hospital 64,2024-01-28,Scheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000121,MAT-MVS-.YYYY.-,Punjab Healthcare Commission,2024-01-28,Unscheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000122,MAT-MVS-.YYYY.-,Fatima Memorial Private Hospital 34,2024-01-29,Scheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000123,MAT-MVS-.YYYY.-,Rehman Diagnostics,2024-01-29,Unscheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000124,MAT-MVS-.YYYY.-,Punjab Diagnostic Center,2024-02-02,Breakdown,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000125,MAT-MVS-.YYYY.-,Lahore General Tertiary Hospital 27,2024-02-07,Breakdown,Partially Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000126,MAT-MVS-.YYYY.-,Doctors Tertiary Hospital 78,2024-02-13,Scheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000127,MAT-MVS-.YYYY.-,Punjab Emergency Service (Rescue 1122),2024-02-13,Unscheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000128,MAT-MVS-.YYYY.-,Sharif Medical Tertiary Hospital 71,2024-02-13,Scheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000129,MAT-MVS-.YYYY.-,City Care Tertiary Hospital 20,2024-02-14,Breakdown,Partially Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000130,MAT-MVS-.YYYY.-,LifeLine Tertiary Hospital 64,2024-02-14,Scheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000131,MAT-MVS-.YYYY.-,Ittefaq District Hospital 19,2024-02-14,Scheduled,Partially Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000132,MAT-MVS-.YYYY.-,Doctors Teaching Hospital 35,2024-02-17,Unscheduled,Partially Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000133,MAT-MVS-.YYYY.-,Mayo Specialized Hospital 10,2024-02-18,Breakdown,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000134,MAT-MVS-.YYYY.-,Surgimed District Hospital 23,2024-02-24,Breakdown,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000135,MAT-MVS-.YYYY.-,Prime Teaching Hospital 14,2024-02-25,Breakdown,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000136,MAT-MVS-.YYYY.-,Islamabad Diagnostics,2024-02-26,Unscheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000137,MAT-MVS-.YYYY.-,Sir Ganga Ram General Hospital 54,2024-03-08,Unscheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000138,MAT-MVS-.YYYY.-,Punjab Diagnostic Center,2024-03-10,Unscheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000139,MAT-MVS-.YYYY.-,Dr. Essa Lab,2024-03-12,Unscheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000140,MAT-MVS-.YYYY.-,Punjab Diagnostic Center 113,2024-03-12,Breakdown,Partially Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000141,MAT-MVS-.YYYY.-,Jinnah Tertiary Hospital 15,2024-03-14,Scheduled,Partially Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000142,MAT-MVS-.YYYY.-,Surgimed District Hospital 23,2024-03-19,Scheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000143,MAT-MVS-.YYYY.-,Jinnah Tertiary Hospital 67,2024-03-20,Unscheduled,Partially Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000144,MAT-MVS-.YYYY.-,Ittefaq General Hospital 25,2024-03-21,Breakdown,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000145,MAT-MVS-.YYYY.-,Medix Clinic,2024-03-22,Breakdown,Partially Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000146,MAT-MVS-.YYYY.-,Metro Diagnostics,2024-03-26,Scheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000147,MAT-MVS-.YYYY.-,Children Teaching Hospital 80,2024-03-30,Scheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000148,MAT-MVS-.YYYY.-,Punjab Specialized Hospital 42,2024-04-01,Unscheduled,Partially Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000149,MAT-MVS-.YYYY.-,Saleem Lab,2024-04-24,Scheduled,Partially Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000150,MAT-MVS-.YYYY.-,Ittefaq General Hospital 25,2024-04-24,Unscheduled,Partially Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000151,MAT-MVS-.YYYY.-,Surgimed District Hospital 23,2024-04-30,Breakdown,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000152,MAT-MVS-.YYYY.-,Punjab Specialized Hospital 42,2024-04-30,Scheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000153,MAT-MVS-.YYYY.-,Rehman Diagnostics 118,2024-05-03,Scheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000154,MAT-MVS-.YYYY.-,Central Tertiary Hospital 07,2024-05-06,Breakdown,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000155,MAT-MVS-.YYYY.-,Children District Hospital 55,2024-05-06,Scheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000156,MAT-MVS-.YYYY.-,Shaukat Khanum Specialized Hospital 63,2024-05-10,Scheduled,Partially Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000157,MAT-MVS-.YYYY.-,Specialized Healthcare & Medical Education,2024-05-12,Unscheduled,Partially Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000158,MAT-MVS-.YYYY.-,Medicare Clinic,2024-05-12,Scheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000159,MAT-MVS-.YYYY.-,Gulab Devi Tertiary Hospital 28,2024-05-13,Breakdown,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000160,MAT-MVS-.YYYY.-,Lahore Diagnostics 106,2024-05-14,Breakdown,Partially Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000161,MAT-MVS-.YYYY.-,Jinnah Tertiary Hospital 15,2024-05-16,Unscheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000162,MAT-MVS-.YYYY.-,Shaukat Khanum Specialized Hospital 63,2024-05-17,Breakdown,Partially Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000163,MAT-MVS-.YYYY.-,National District Hospital 18,2024-05-18,Breakdown,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000164,MAT-MVS-.YYYY.-,Surgimed General Hospital 58,2024-05-20,Unscheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000165,MAT-MVS-.YYYY.-,City Lab,2024-05-24,Unscheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000166,MAT-MVS-.YYYY.-,Punjab Tertiary Hospital 37,2024-06-04,Scheduled,Partially Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000167,MAT-MVS-.YYYY.-,Jinnah Tertiary Hospital 67,2024-06-09,Scheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000168,MAT-MVS-.YYYY.-,Health First Clinic 111,2024-06-14,Breakdown,Partially Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000169,MAT-MVS-.YYYY.-,City Care Tertiary Hospital 20,2024-06-14,Unscheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000170,MAT-MVS-.YYYY.-,Sharif Medical Teaching Hospital 62,2024-06-15,Scheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000171,MAT-MVS-.YYYY.-,Surgimed District Hospital 23,2024-06-15,Unscheduled,Partially Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000172,MAT-MVS-.YYYY.-,Primary & Secondary Healthcare Dept,2024-06-16,Unscheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000173,MAT-MVS-.YYYY.-,Ittefaq District Hospital 19,2024-06-16,Scheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000174,MAT-MVS-.YYYY.-,Sir Ganga Ram Tertiary Hospital 75,2024-06-18,Scheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000175,MAT-MVS-.YYYY.-,Sharif Medical Tertiary Hospital 71,2024-06-25,Unscheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000176,MAT-MVS-.YYYY.-,Punjab Tertiary Hospital 37,2024-07-02,Unscheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000177,MAT-MVS-.YYYY.-,LifeLine Teaching Hospital 74,2024-07-02,Scheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000178,MAT-MVS-.YYYY.-,Punjab Emergency Service (Rescue 1122),2024-07-08,Scheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000179,MAT-MVS-.YYYY.-,Lady Willingdon Tertiary Hospital 06,2024-07-08,Unscheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000180,MAT-MVS-.YYYY.-,Services Specialized Hospital 04,2024-07-11,Scheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000181,MAT-MVS-.YYYY.-,Qamar Lab 120,2024-07-11,Unscheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000182,MAT-MVS-.YYYY.-,Punjab General Hospital 59,2024-07-13,Unscheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000183,MAT-MVS-.YYYY.-,Gulab Devi Specialized Hospital 22,2024-07-14,Breakdown,Partially Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000184,MAT-MVS-.YYYY.-,Punjab Healthcare Commission,2024-07-14,Unscheduled,Partially Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000185,MAT-MVS-.YYYY.-,LifeLine Tertiary Hospital 64,2024-07-14,Scheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000186,MAT-MVS-.YYYY.-,Agha Khan Lab Lahore,2024-07-15,Unscheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000187,MAT-MVS-.YYYY.-,Jinnah Tertiary Hospital 32,2024-07-21,Unscheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000188,MAT-MVS-.YYYY.-,Lahore General Tertiary Hospital 27,2024-07-24,Breakdown,Partially Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000189,MAT-MVS-.YYYY.-,Sir Ganga Ram District Hospital 08,2024-07-31,Unscheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000190,MAT-MVS-.YYYY.-,Sir Ganga Ram General Hospital 38,2024-08-04,Scheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000191,MAT-MVS-.YYYY.-,National District Hospital 18,2024-08-05,Scheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000192,MAT-MVS-.YYYY.-,Allied Lab,2024-08-12,Unscheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000193,MAT-MVS-.YYYY.-,Lahore General Tertiary Hospital 27,2024-08-16,Unscheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000194,MAT-MVS-.YYYY.-,City Care Tertiary Hospital 02,2024-08-20,Breakdown,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000195,MAT-MVS-.YYYY.-,Directorate of Health Services Lahore,2024-08-25,Breakdown,Partially Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000196,MAT-MVS-.YYYY.-,Chughtai Lab,2024-08-27,Unscheduled,Partially Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000197,MAT-MVS-.YYYY.-,Punjab Diagnostic Center,2024-08-29,Scheduled,Partially Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000198,MAT-MVS-.YYYY.-,Noor District Hospital 68,2024-09-01,Scheduled,Partially Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000199,MAT-MVS-.YYYY.-,Lahore Diagnostics 106,2024-09-03,Scheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000200,MAT-MVS-.YYYY.-,Punjab General Hospital 59,2024-09-12,Scheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000201,MAT-MVS-.YYYY.-,Mayo Specialized Hospital 10,2024-09-12,Breakdown,Partially Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000202,MAT-MVS-.YYYY.-,One Health Lab,2024-09-15,Breakdown,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000203,MAT-MVS-.YYYY.-,LifeLine Tertiary Hospital 64,2024-09-16,Scheduled,Partially Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000204,MAT-MVS-.YYYY.-,Jinnah Tertiary Hospital 15,2024-09-19,Scheduled,Partially Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000205,MAT-MVS-.YYYY.-,Fatima Memorial District Hospital 65,2024-09-20,Scheduled,Partially Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000206,MAT-MVS-.YYYY.-,Chughtai Private Hospital 56,2024-09-20,Scheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000207,MAT-MVS-.YYYY.-,Punjab Healthcare Commission,2024-09-22,Scheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000208,MAT-MVS-.YYYY.-,Doctors Teaching Hospital 36,2024-09-28,Breakdown,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000209,MAT-MVS-.YYYY.-,Shalimar General Hospital 47,2024-09-28,Unscheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000210,MAT-MVS-.YYYY.-,Ghurki Trust Tertiary Hospital 12,2024-09-29,Breakdown,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000211,MAT-MVS-.YYYY.-,Punjab Medical Faculty,2024-09-30,Unscheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000212,MAT-MVS-.YYYY.-,Allied Lab 114,2024-10-02,Scheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000213,MAT-MVS-.YYYY.-,Doctors Teaching Hospital 35,2024-10-06,Scheduled,Partially Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000214,MAT-MVS-.YYYY.-,Prime Tertiary Hospital 24,2024-10-09,Breakdown,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000215,MAT-MVS-.YYYY.-,Ittefaq General Hospital 25,2024-10-11,Breakdown,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000216,MAT-MVS-.YYYY.-,Medix Clinic 112,2024-10-11,Scheduled,Partially Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000217,MAT-MVS-.YYYY.-,Central Tertiary Hospital 07,2024-10-12,Breakdown,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000218,MAT-MVS-.YYYY.-,Sir Ganga Ram General Hospital 38,2024-10-17,Breakdown,Partially Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000219,MAT-MVS-.YYYY.-,Shalimar General Hospital 47,2024-10-18,Scheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000220,MAT-MVS-.YYYY.-,Islamabad Diagnostics 105,2024-10-19,Unscheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000221,MAT-MVS-.YYYY.-,Lahore General District Hospital 69,2024-10-20,Breakdown,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000222,MAT-MVS-.YYYY.-,LifeLine Teaching Hospital 74,2024-10-21,Breakdown,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000223,MAT-MVS-.YYYY.-,Chughtai Private Hospital 56,2024-10-21,Breakdown,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000224,MAT-MVS-.YYYY.-,Allied Lab 114,2024-10-30,Breakdown,Partially Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000225,MAT-MVS-.YYYY.-,Lahore General District Hospital 69,2024-10-31,Scheduled,Partially Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000226,MAT-MVS-.YYYY.-,Shaukat Khanum Teaching Hospital 50,2024-10-31,Scheduled,Partially Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000227,MAT-MVS-.YYYY.-,Specialized Healthcare & Medical Education,2024-11-02,Scheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000228,MAT-MVS-.YYYY.-,National District Hospital 18,2024-11-02,Unscheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000229,MAT-MVS-.YYYY.-,Directorate of Health Services Lahore,2024-11-04,Breakdown,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000230,MAT-MVS-.YYYY.-,Doctors Teaching Hospital 36,2024-11-14,Scheduled,Partially Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000231,MAT-MVS-.YYYY.-,Saleem Lab 119,2024-11-21,Unscheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000232,MAT-MVS-.YYYY.-,IDC Lab,2024-11-21,Unscheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000233,MAT-MVS-.YYYY.-,Agha Khan Lab Lahore,2024-11-24,Scheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000234,MAT-MVS-.YYYY.-,Sharif Medical District Hospital 30,2024-11-26,Scheduled,Partially Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000235,MAT-MVS-.YYYY.-,Gulab Devi Tertiary Hospital 28,2024-12-01,Unscheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000236,MAT-MVS-.YYYY.-,Children District Hospital 55,2024-12-03,Unscheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000237,MAT-MVS-.YYYY.-,Metro Diagnostics 108,2024-12-04,Scheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000238,MAT-MVS-.YYYY.-,City Care Tertiary Hospital 02,2024-12-14,Scheduled,Partially Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000239,MAT-MVS-.YYYY.-,National Private Hospital 21,2024-12-14,Breakdown,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000240,MAT-MVS-.YYYY.-,Services Specialized Hospital 04,2024-12-14,Breakdown,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000241,MAT-MVS-.YYYY.-,Fatima Memorial District Hospital 65,2024-12-16,Unscheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000242,MAT-MVS-.YYYY.-,Lahore Diagnostics,2024-12-22,Breakdown,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000243,MAT-MVS-.YYYY.-,Ghurki Trust Specialized Hospital 31,2024-12-22,Scheduled,Partially Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000244,MAT-MVS-.YYYY.-,Qamar Lab 120,2024-12-23,Scheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000245,MAT-MVS-.YYYY.-,Al-Rehman Tertiary Hospital 17,2024-12-26,Scheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000246,MAT-MVS-.YYYY.-,Saleem Lab,2024-12-31,Breakdown,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000247,MAT-MVS-.YYYY.-,National Private Hospital 21,2025-01-01,Scheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000248,MAT-MVS-.YYYY.-,City Lab 107,2025-01-06,Scheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000249,MAT-MVS-.YYYY.-,Saleem Lab 119,2025-01-07,Unscheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000250,MAT-MVS-.YYYY.-,City Care Teaching Hospital 40,2025-01-07,Scheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000251,MAT-MVS-.YYYY.-,Ghurki Trust Private Hospital 61,2025-01-08,Breakdown,Partially Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000252,MAT-MVS-.YYYY.-,City Lab 107,2025-01-08,Breakdown,Partially Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000253,MAT-MVS-.YYYY.-,Sir Ganga Ram Tertiary Hospital 46,2025-01-09,Unscheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000254,MAT-MVS-.YYYY.-,Excel Labs 104,2025-01-13,Scheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000255,MAT-MVS-.YYYY.-,Saleem Lab 119,2025-01-14,Breakdown,Partially Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000256,MAT-MVS-.YYYY.-,District Health Authority Lahore,2025-01-14,Unscheduled,Partially Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000257,MAT-MVS-.YYYY.-,City Care Tertiary Hospital 02,2025-01-22,Unscheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000258,MAT-MVS-.YYYY.-,Shaukat Khanum Teaching Hospital 72,2025-01-26,Scheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000259,MAT-MVS-.YYYY.-,Mayo Teaching Hospital 05,2025-01-26,Unscheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000260,MAT-MVS-.YYYY.-,Ittefaq General Hospital 25,2025-01-26,Scheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000261,MAT-MVS-.YYYY.-,Fatima Memorial District Hospital 65,2025-01-29,Scheduled,Partially Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000262,MAT-MVS-.YYYY.-,Allied Lab,2025-02-07,Scheduled,Partially Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000263,MAT-MVS-.YYYY.-,Punjab Environmental Protection Agency,2025-02-08,Breakdown,Partially Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000264,MAT-MVS-.YYYY.-,Sharif Medical Tertiary Hospital 43,2025-02-08,Breakdown,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000265,MAT-MVS-.YYYY.-,Ghurki Trust Specialized Hospital 31,2025-02-18,Breakdown,Partially Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000266,MAT-MVS-.YYYY.-,Ittefaq District Hospital 19,2025-02-19,Breakdown,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000267,MAT-MVS-.YYYY.-,IDC Lab 103,2025-02-21,Scheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000268,MAT-MVS-.YYYY.-,One Health Lab 117,2025-02-22,Unscheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000269,MAT-MVS-.YYYY.-,Allied Lab,2025-02-27,Unscheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000270,MAT-MVS-.YYYY.-,Gulab Devi District Hospital 44,2025-03-04,Breakdown,Partially Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000271,MAT-MVS-.YYYY.-,Mayo Teaching Hospital 05,2025-03-06,Scheduled,Partially Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000272,MAT-MVS-.YYYY.-,Punjab Medical Faculty,2025-03-08,Unscheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000273,MAT-MVS-.YYYY.-,Children Teaching Hospital 80,2025-03-09,Unscheduled,Partially Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000274,MAT-MVS-.YYYY.-,Children District Hospital 55,2025-03-13,Unscheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000275,MAT-MVS-.YYYY.-,Medix Clinic 112,2025-03-13,Breakdown,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000276,MAT-MVS-.YYYY.-,Medix Clinic,2025-03-15,Scheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000277,MAT-MVS-.YYYY.-,Sir Ganga Ram District Hospital 08,2025-03-16,Unscheduled,Partially Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000278,MAT-MVS-.YYYY.-,Ittefaq General Hospital 25,2025-03-20,Breakdown,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000279,MAT-MVS-.YYYY.-,Punjab Health Department,2025-03-23,Breakdown,Partially Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000280,MAT-MVS-.YYYY.-,LifeLine Tertiary Hospital 64,2025-03-26,Breakdown,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000281,MAT-MVS-.YYYY.-,Punjab Tertiary Hospital 37,2025-03-27,Unscheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000282,MAT-MVS-.YYYY.-,Shaukat Khanum Teaching Hospital 50,2025-03-28,Scheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000283,MAT-MVS-.YYYY.-,Metro Diagnostics,2025-04-01,Scheduled,Partially Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000284,MAT-MVS-.YYYY.-,Dr. Essa Lab 116,2025-04-02,Scheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000285,MAT-MVS-.YYYY.-,Shaukat Khanum Specialized Hospital 63,2025-04-02,Scheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000286,MAT-MVS-.YYYY.-,Medix Clinic,2025-04-09,Scheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000287,MAT-MVS-.YYYY.-,Punjab General Hospital 59,2025-04-15,Breakdown,Partially Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000288,MAT-MVS-.YYYY.-,Central District Hospital 53,2025-04-17,Scheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000289,MAT-MVS-.YYYY.-,Sheikh Zayed General Hospital 39,2025-04-20,Scheduled,Partially Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000290,MAT-MVS-.YYYY.-,Punjab Emergency Service (Rescue 1122),2025-04-24,Unscheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000291,MAT-MVS-.YYYY.-,Allied Lab 114,2025-04-28,Scheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000292,MAT-MVS-.YYYY.-,Health First Clinic 111,2025-05-03,Breakdown,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000293,MAT-MVS-.YYYY.-,Directorate of Health Services Lahore,2025-05-05,Breakdown,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000294,MAT-MVS-.YYYY.-,City Care Tertiary Hospital 20,2025-05-09,Breakdown,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000295,MAT-MVS-.YYYY.-,Sharif Medical General Hospital 03,2025-05-10,Breakdown,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000296,MAT-MVS-.YYYY.-,Gulab Devi Tertiary Hospital 13,2025-05-14,Scheduled,Partially Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000297,MAT-MVS-.YYYY.-,Sir Ganga Ram General Hospital 54,2025-05-19,Unscheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000298,MAT-MVS-.YYYY.-,Al-Razi Clinic 109,2025-05-24,Breakdown,Partially Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000299,MAT-MVS-.YYYY.-,Agha Khan Lab Lahore 115,2025-05-25,Breakdown,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000300,MAT-MVS-.YYYY.-,Punjab Diagnostic Center 113,2025-06-07,Scheduled,Partially Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000301,MAT-MVS-.YYYY.-,Doctors Tertiary Hospital 78,2025-06-09,Scheduled,Partially Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000302,MAT-MVS-.YYYY.-,Lahore Diagnostics 106,2025-06-09,Breakdown,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000303,MAT-MVS-.YYYY.-,Services Specialized Hospital 77,2025-06-10,Breakdown,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000304,MAT-MVS-.YYYY.-,Shaukat Khanum Teaching Hospital 50,2025-06-16,Scheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000305,MAT-MVS-.YYYY.-,Qamar Lab 120,2025-06-17,Scheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000306,MAT-MVS-.YYYY.-,Sir Ganga Ram General Hospital 38,2025-06-23,Scheduled,Partially Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000307,MAT-MVS-.YYYY.-,Farooq General Hospital 70,2025-06-27,Unscheduled,Partially Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000308,MAT-MVS-.YYYY.-,Chughtai Lab 101,2025-06-28,Breakdown,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000309,MAT-MVS-.YYYY.-,Mayo District Hospital 01,2025-06-29,Scheduled,Partially Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000310,MAT-MVS-.YYYY.-,Islamabad Diagnostics 105,2025-06-30,Breakdown,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000311,MAT-MVS-.YYYY.-,Rehman Diagnostics 118,2025-07-01,Unscheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000312,MAT-MVS-.YYYY.-,Gulab Devi Specialized Hospital 22,2025-07-03,Scheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000313,MAT-MVS-.YYYY.-,Chughtai Private Hospital 56,2025-07-03,Unscheduled,Partially Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000314,MAT-MVS-.YYYY.-,Punjab Emergency Service (Rescue 1122),2025-07-07,Unscheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000315,MAT-MVS-.YYYY.-,City Care Tertiary Hospital 20,2025-07-08,Breakdown,Partially Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000316,MAT-MVS-.YYYY.-,Excel Labs 104,2025-07-11,Breakdown,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000317,MAT-MVS-.YYYY.-,Shaukat Khanum Lab 102,2025-07-17,Scheduled,Partially Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000318,MAT-MVS-.YYYY.-,Doctors Private Hospital 29,2025-07-18,Unscheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000319,MAT-MVS-.YYYY.-,Sir Ganga Ram District Hospital 08,2025-07-20,Unscheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000320,MAT-MVS-.YYYY.-,Punjab Medical Faculty,2025-07-23,Breakdown,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000321,MAT-MVS-.YYYY.-,City Lab 107,2025-07-26,Unscheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000322,MAT-MVS-.YYYY.-,Sharif Medical District Hospital 30,2025-07-30,Unscheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000323,MAT-MVS-.YYYY.-,Allied Lab 114,2025-08-03,Unscheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000324,MAT-MVS-.YYYY.-,Gulab Devi Specialized Hospital 22,2025-08-04,Scheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000325,MAT-MVS-.YYYY.-,District Health Authority Lahore,2025-08-10,Breakdown,Partially Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000326,MAT-MVS-.YYYY.-,District Health Authority Lahore,2025-08-13,Unscheduled,Partially Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000327,MAT-MVS-.YYYY.-,District Health Authority Lahore,2025-08-21,Breakdown,Partially Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000328,MAT-MVS-.YYYY.-,Punjab Medical Faculty,2025-08-22,Breakdown,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000329,MAT-MVS-.YYYY.-,Chughtai Private Hospital 56,2025-08-24,Scheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000330,MAT-MVS-.YYYY.-,Allied Lab 114,2025-08-24,Scheduled,Partially Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000331,MAT-MVS-.YYYY.-,Rehman Diagnostics,2025-08-26,Unscheduled,Partially Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000332,MAT-MVS-.YYYY.-,Children District Hospital 55,2025-09-06,Breakdown,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000333,MAT-MVS-.YYYY.-,Jinnah Tertiary Hospital 32,2025-09-09,Unscheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000334,MAT-MVS-.YYYY.-,Children District Hospital 55,2025-09-09,Unscheduled,Partially Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000335,MAT-MVS-.YYYY.-,City Lab 107,2025-09-12,Scheduled,Partially Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000336,MAT-MVS-.YYYY.-,Shaukat Khanum Lab 102,2025-09-13,Unscheduled,Partially Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000337,MAT-MVS-.YYYY.-,LifeLine Tertiary Hospital 64,2025-09-14,Unscheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000338,MAT-MVS-.YYYY.-,Fatima Memorial Private Hospital 34,2025-09-15,Scheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000339,MAT-MVS-.YYYY.-,Central District Hospital 53,2025-09-19,Scheduled,Partially Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000340,MAT-MVS-.YYYY.-,Shaukat Khanum Teaching Hospital 50,2025-09-23,Breakdown,Partially Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000341,MAT-MVS-.YYYY.-,Mayo Specialized Hospital 10,2025-09-26,Unscheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000342,MAT-MVS-.YYYY.-,Metro Diagnostics,2025-10-09,Unscheduled,Partially Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000343,MAT-MVS-.YYYY.-,Rehman Diagnostics,2025-10-14,Unscheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000344,MAT-MVS-.YYYY.-,Islamabad Diagnostics,2025-10-17,Breakdown,Partially Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000345,MAT-MVS-.YYYY.-,Central Tertiary Hospital 07,2025-10-19,Breakdown,Partially Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000346,MAT-MVS-.YYYY.-,Sir Ganga Ram General Hospital 38,2025-10-21,Scheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000347,MAT-MVS-.YYYY.-,Specialized Healthcare & Medical Education,2025-10-22,Scheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000348,MAT-MVS-.YYYY.-,Rehman Diagnostics,2025-10-22,Breakdown,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000349,MAT-MVS-.YYYY.-,Rehman Diagnostics,2025-10-23,Breakdown,Partially Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000350,MAT-MVS-.YYYY.-,Jinnah Tertiary Hospital 67,2025-10-23,Unscheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000351,MAT-MVS-.YYYY.-,Lady Willingdon Tertiary Hospital 60,2025-10-26,Breakdown,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000352,MAT-MVS-.YYYY.-,Mayo Teaching Hospital 05,2025-10-29,Scheduled,Partially Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000353,MAT-MVS-.YYYY.-,Dr. Essa Lab,2025-10-30,Breakdown,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000354,MAT-MVS-.YYYY.-,Rehman Diagnostics,2025-10-31,Scheduled,Partially Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000355,MAT-MVS-.YYYY.-,City Lab 107,2025-11-01,Unscheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000356,MAT-MVS-.YYYY.-,National Private Hospital 21,2025-11-05,Unscheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000357,MAT-MVS-.YYYY.-,Noor District Hospital 68,2025-11-07,Breakdown,Partially Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000358,MAT-MVS-.YYYY.-,Surgimed District Hospital 23,2025-11-09,Scheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000359,MAT-MVS-.YYYY.-,Shaukat Khanum Lab,2025-11-09,Scheduled,Partially Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000360,MAT-MVS-.YYYY.-,Medicare Clinic 110,2025-11-10,Unscheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000361,MAT-MVS-.YYYY.-,Agha Khan Lab Lahore,2025-11-10,Unscheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000362,MAT-MVS-.YYYY.-,Islamabad Diagnostics 105,2025-11-11,Scheduled,Partially Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000363,MAT-MVS-.YYYY.-,Al-Razi Clinic,2025-11-14,Breakdown,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000364,MAT-MVS-.YYYY.-,Surgimed General Hospital 58,2025-11-17,Unscheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000365,MAT-MVS-.YYYY.-,Metro Diagnostics 108,2025-11-18,Breakdown,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000366,MAT-MVS-.YYYY.-,Primary & Secondary Healthcare Dept,2025-11-29,Unscheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000367,MAT-MVS-.YYYY.-,Surgimed General Hospital 58,2025-11-30,Unscheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000368,MAT-MVS-.YYYY.-,Punjab Diagnostic Center 113,2025-12-02,Unscheduled,Partially Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000369,MAT-MVS-.YYYY.-,Saleem Lab,2025-12-04,Breakdown,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000370,MAT-MVS-.YYYY.-,Chughtai Lab,2025-12-06,Scheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000371,MAT-MVS-.YYYY.-,Rehman Diagnostics,2025-12-06,Scheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000372,MAT-MVS-.YYYY.-,Chughtai Tertiary Hospital 57,2025-12-14,Breakdown,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000373,MAT-MVS-.YYYY.-,Lahore General Tertiary Hospital 27,2025-12-20,Scheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000374,MAT-MVS-.YYYY.-,LifeLine Teaching Hospital 74,2025-12-23,Scheduled,Partially Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000375,MAT-MVS-.YYYY.-,LifeLine General Hospital 11,2025-12-30,Unscheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000376,MAT-MVS-.YYYY.-,Islamabad Diagnostics,2026-01-06,Breakdown,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000377,MAT-MVS-.YYYY.-,Punjab Tertiary Hospital 37,2026-01-06,Scheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000378,MAT-MVS-.YYYY.-,Sheikh Zayed General Hospital 39,2026-01-07,Breakdown,Partially Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000379,MAT-MVS-.YYYY.-,Sharif Medical Tertiary Hospital 71,2026-01-07,Breakdown,Partially Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000380,MAT-MVS-.YYYY.-,Metro Diagnostics,2026-01-07,Breakdown,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000381,MAT-MVS-.YYYY.-,Lahore General Tertiary Hospital 27,2026-01-18,Scheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000382,MAT-MVS-.YYYY.-,Metro Diagnostics 108,2026-01-18,Scheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000383,MAT-MVS-.YYYY.-,Sharif Medical Tertiary Hospital 71,2026-01-18,Unscheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000384,MAT-MVS-.YYYY.-,Punjab AIDS Control Program,2026-01-24,Unscheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000385,MAT-MVS-.YYYY.-,National District Hospital 18,2026-01-25,Breakdown,Partially Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000386,MAT-MVS-.YYYY.-,Mayo Teaching Hospital 05,2026-01-27,Breakdown,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000387,MAT-MVS-.YYYY.-,Punjab Health Department,2026-01-29,Unscheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000388,MAT-MVS-.YYYY.-,Jinnah Tertiary Hospital 15,2026-02-07,Unscheduled,Partially Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000389,MAT-MVS-.YYYY.-,Doctors Teaching Hospital 36,2026-02-07,Scheduled,Partially Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000390,MAT-MVS-.YYYY.-,Allied Lab,2026-02-07,Scheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000391,MAT-MVS-.YYYY.-,One Health Lab,2026-02-16,Unscheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000392,MAT-MVS-.YYYY.-,Prime Teaching Hospital 14,2026-02-17,Breakdown,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000393,MAT-MVS-.YYYY.-,Lahore General Tertiary Hospital 27,2026-02-22,Breakdown,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000394,MAT-MVS-.YYYY.-,Chughtai Tertiary Hospital 57,2026-02-28,Breakdown,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000395,MAT-MVS-.YYYY.-,Health First Clinic,2026-03-01,Breakdown,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000396,MAT-MVS-.YYYY.-,Chughtai Lab,2026-03-01,Unscheduled,Partially Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000397,MAT-MVS-.YYYY.-,Doctors Tertiary Hospital 78,2026-03-03,Scheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000398,MAT-MVS-.YYYY.-,Central District Hospital 53,2026-03-05,Breakdown,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000399,MAT-MVS-.YYYY.-,City Lab 107,2026-03-09,Breakdown,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd
+MV-DEMO-000400,MAT-MVS-.YYYY.-,Shaukat Khanum Lab,2026-03-12,Unscheduled,Fully Completed,Draft,EnXi Biomedical & Waste Management (Pvt) Ltd

@@ -72,6 +72,36 @@ def _safe_insert(doc):
 		return False, frappe.get_traceback()
 
 
+def _import_cost_centers(rows):
+	"""Tree-aware Cost Center importer — creates parents before children."""
+	inserted = 0
+	skipped = 0
+	errors = []
+	for row in rows:
+		name = row.get("cost_center_name")
+		company = row.get("company")
+		if not name:
+			skipped += 1
+			continue
+		# Cost Center name in ERPNext includes company abbreviation
+		if frappe.db.exists("Cost Center", {"cost_center_name": name, "company": company}):
+			skipped += 1
+			continue
+		try:
+			doc = frappe.new_doc("Cost Center")
+			doc.cost_center_name = name
+			doc.company = company
+			parent = row.get("parent_cost_center", "")
+			if parent:
+				doc.parent_cost_center = parent
+			doc.is_group = row.get("is_group", 0)
+			doc.insert(ignore_permissions=True)
+			inserted += 1
+		except Exception:
+			errors.append({"doctype": "Cost Center", "key": name, "error": frappe.get_traceback()})
+	return {"inserted": inserted, "skipped": skipped, "errors": errors}
+
+
 def _upsert_simple(doctype: str, rows, key_field: str, field_map: dict[str, str] | None = None):
 	inserted = 0
 	skipped = 0
@@ -338,6 +368,7 @@ def _import_stock_entries(se_rows, sed_rows):
 
 		doc = frappe.new_doc("Stock Entry")
 		doc.naming_series = row.get("naming_series") or "STE-.YYYY.-"
+		doc.stock_entry_type = row.get("stock_entry_type") or row.get("purpose") or "Material Receipt"
 		doc.purpose = row.get("purpose") or "Material Receipt"
 		doc.posting_date = row.get("posting_date")
 		doc.company = row.get("company")
@@ -662,8 +693,17 @@ def import_seed(seed_dir: str = "seed_output", company_override: str | None = No
 	_ensure_exists("Territory", "Pakistan")
 	for uom_name in ("Nos", "Kg", "Unit", "Pair", "Box", "Set", "Ltr"):
 		if not frappe.db.exists("UOM", uom_name):
-			frappe.get_doc({"doctype": "UOM", "uom_name": uom_name}).insert(ignore_permissions=True)
-	frappe.db.commit()
+			frappe.get_doc({"doctype": "UOM", "uom_name": uom_name}).insert(ignore_permissions=True)	# Ensure Stock Entry Types exist
+	for set_name in ("Material Receipt", "Material Issue", "Material Transfer"):
+		if not frappe.db.exists("Stock Entry Type", set_name):
+			frappe.get_doc({"doctype": "Stock Entry Type", "name": set_name, "purpose": set_name}).insert(ignore_permissions=True)
+	# Ensure Price Lists exist
+	for pl_name in ("Standard Selling", "Standard Buying"):
+		if not frappe.db.exists("Price List", pl_name):
+			frappe.get_doc({"doctype": "Price List", "price_list_name": pl_name,
+				"selling": 1 if "Selling" in pl_name else 0,
+				"buying": 1 if "Buying" in pl_name else 0,
+				"currency": target_currency}).insert(ignore_permissions=True)	frappe.db.commit()
 	_log("  ✓ Baseline references ready")
 
 	target_currency = frappe.db.get_value("Company", target_company, "default_currency") or "PKR"
@@ -671,6 +711,28 @@ def import_seed(seed_dir: str = "seed_output", company_override: str | None = No
 	def _set_currency(doc, row):
 		doc.currency = target_currency
 		doc.conversion_rate = 1.0
+
+	def _set_si_defaults(doc, row):
+		"""Set Sales Invoice currency + price list defaults."""
+		doc.currency = target_currency
+		doc.conversion_rate = 1.0
+		doc.selling_price_list = "Standard Selling"
+		doc.price_list_currency = target_currency
+		doc.plc_conversion_rate = 1.0
+		debit_to = frappe.db.get_value("Company", target_company, "default_receivable_account")
+		if debit_to:
+			doc.debit_to = debit_to
+
+	def _set_pi_defaults(doc, row):
+		"""Set Purchase Invoice currency + price list defaults."""
+		doc.currency = target_currency
+		doc.conversion_rate = 1.0
+		doc.buying_price_list = "Standard Buying"
+		doc.price_list_currency = target_currency
+		doc.plc_conversion_rate = 1.0
+		credit_to = frappe.db.get_value("Company", target_company, "default_payable_account")
+		if credit_to:
+			doc.credit_to = credit_to
 
 	# ── Import in dependency order (commit after each step to release DB locks) ──
 	def _step(label, fn, *args, **kwargs):
@@ -690,10 +752,10 @@ def import_seed(seed_dir: str = "seed_output", company_override: str | None = No
 
 	report["Company"] = {"inserted": 0, "skipped": len(company_rows), "errors": []}
 	_step("Branch", _upsert_simple, "Branch", branch_rows, "branch")
-	_step("Designation", _upsert_simple, "Designation", designation_rows, "designation")
+	_step("Designation", _upsert_simple, "Designation", designation_rows, "designation_name")
 	_step("Department", _upsert_simple, "Department", department_rows, "department_name")
 	_step("Warehouse", _upsert_simple, "Warehouse", warehouse_rows, "name")
-	_step("Cost Center", _upsert_simple, "Cost Center", cost_center_rows, "cost_center_name")
+	_step("Cost Center", _import_cost_centers, cost_center_rows)
 	_step("Customer Group", _upsert_simple, "Customer Group", customer_group_rows, "customer_group_name")
 	_step("Supplier Group", _upsert_simple, "Supplier Group", supplier_group_rows, "supplier_group_name")
 	_step("Territory", _upsert_simple, "Territory", territory_rows, "territory_name")
@@ -721,8 +783,8 @@ def import_seed(seed_dir: str = "seed_output", company_override: str | None = No
 	_step("Purchase Receipt", _import_with_children, "Purchase Receipt", pr_rows, pri_rows, "items", _set_currency)
 	_step("Stock Entry", _import_stock_entries, stock_entry_rows, stock_entry_detail_rows)
 	_step("Delivery Note", _import_with_children, "Delivery Note", dn_rows, dni_rows, "items", _set_currency)
-	_step("Sales Invoice", _import_with_children, "Sales Invoice", si_rows, sii_rows, "items", _set_currency)
-	_step("Purchase Invoice", _import_with_children, "Purchase Invoice", pi_rows, pii_rows, "items", _set_currency)
+	_step("Sales Invoice", _import_with_children, "Sales Invoice", si_rows, sii_rows, "items", _set_si_defaults)
+	_step("Purchase Invoice", _import_with_children, "Purchase Invoice", pi_rows, pii_rows, "items", _set_pi_defaults)
 	_step("Issue", _upsert_simple, "Issue", issue_rows, "subject")
 	_step("Maintenance Visit", _import_with_children, "Maintenance Visit", mv_rows, mvp_rows, "purposes")
 	_step("Delivery Trip", _import_with_children, "Delivery Trip", dt_rows, ds_rows, "delivery_stops")
