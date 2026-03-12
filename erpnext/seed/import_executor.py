@@ -596,6 +596,14 @@ def _import_json_records(doctype, rows, key_field):
 def _ensure_custom_doctypes():
 	"""Create all domain-specific Custom DocTypes if they don't already exist."""
 
+	# ── ensure a dedicated module exists ──
+	MODULE_NAME = "Waste Management"
+	if not frappe.db.exists("Module Def", MODULE_NAME):
+		frappe.get_doc({"doctype": "Module Def", "module_name": MODULE_NAME,
+						"app_name": "erpnext", "custom": 1}).insert(ignore_permissions=True)
+		frappe.db.commit()
+		_log(f"  ✓ Created module '{MODULE_NAME}'")
+
 	def _f(fieldname, label, fieldtype="Data", **kw):
 		return {"fieldname": fieldname, "label": label, "fieldtype": fieldtype,
 				"in_list_view": kw.pop("in_list_view", 0), **kw}
@@ -603,7 +611,7 @@ def _ensure_custom_doctypes():
 	doctypes = [
 		{
 			"doctype": "DocType", "name": "Waste Collection Event",
-			"module": "ERPNext", "custom": 1, "autoname": "field:event_id",
+			"module": MODULE_NAME, "custom": 1, "autoname": "field:event_id",
 			"fields": [
 				_f("event_id",               "Event ID",               "Data",  reqd=1, in_list_view=1),
 				_f("event_date",             "Event Date",             "Date",  reqd=1, in_list_view=1),
@@ -626,7 +634,7 @@ def _ensure_custom_doctypes():
 		},
 		{
 			"doctype": "DocType", "name": "Incinerator Batch",
-			"module": "ERPNext", "custom": 1, "autoname": "field:batch_id",
+			"module": MODULE_NAME, "custom": 1, "autoname": "field:batch_id",
 			"fields": [
 				_f("batch_id",              "Batch ID",               "Data",  reqd=1, in_list_view=1),
 				_f("facility",              "Facility",               "Data",  in_list_view=1),
@@ -650,7 +658,7 @@ def _ensure_custom_doctypes():
 		},
 		{
 			"doctype": "DocType", "name": "Waste Transport Log",
-			"module": "ERPNext", "custom": 1, "autoname": "field:trip_id",
+			"module": MODULE_NAME, "custom": 1, "autoname": "field:trip_id",
 			"fields": [
 				_f("trip_id",              "Trip ID",              "Data",  reqd=1, in_list_view=1),
 				_f("trip_date",            "Trip Date",            "Date",  reqd=1, in_list_view=1),
@@ -671,7 +679,7 @@ def _ensure_custom_doctypes():
 		},
 		{
 			"doctype": "DocType", "name": "Waste Training Session",
-			"module": "ERPNext", "custom": 1, "autoname": "field:session_id",
+			"module": MODULE_NAME, "custom": 1, "autoname": "field:session_id",
 			"fields": [
 				_f("session_id",           "Session ID",          "Data",  reqd=1, in_list_view=1),
 				_f("session_date",         "Session Date",        "Date",  reqd=1, in_list_view=1),
@@ -688,7 +696,7 @@ def _ensure_custom_doctypes():
 		},
 		{
 			"doctype": "DocType", "name": "Healthcare Compliance Report",
-			"module": "ERPNext", "custom": 1, "autoname": "field:report_id",
+			"module": MODULE_NAME, "custom": 1, "autoname": "field:report_id",
 			"fields": [
 				_f("report_id",                    "Report ID",                    "Data",  reqd=1, in_list_view=1),
 				_f("report_month",                 "Report Month",                 "Data",  in_list_view=1),
@@ -710,7 +718,7 @@ def _ensure_custom_doctypes():
 		},
 		{
 			"doctype": "DocType", "name": "Waste Disposal Certificate",
-			"module": "ERPNext", "custom": 1, "autoname": "field:certificate_no",
+			"module": MODULE_NAME, "custom": 1, "autoname": "field:certificate_no",
 			"fields": [
 				_f("certificate_no",  "Certificate No",     "Data",  reqd=1, in_list_view=1),
 				_f("issue_date",      "Issue Date",         "Date",  reqd=1, in_list_view=1),
@@ -725,7 +733,7 @@ def _ensure_custom_doctypes():
 		},
 		{
 			"doctype": "DocType", "name": "Waste Route Schedule",
-			"module": "ERPNext", "custom": 1, "autoname": "field:route_code",
+			"module": MODULE_NAME, "custom": 1, "autoname": "field:route_code",
 			"fields": [
 				_f("route_code",            "Route Code",           "Data",  reqd=1, in_list_view=1),
 				_f("route_name",            "Route Name",           "Data",  in_list_view=1),
@@ -739,7 +747,7 @@ def _ensure_custom_doctypes():
 		},
 		{
 			"doctype": "DocType", "name": "Vehicle Fuel Log",
-			"module": "ERPNext", "custom": 1, "autoname": "field:log_id",
+			"module": MODULE_NAME, "custom": 1, "autoname": "field:log_id",
 			"fields": [
 				_f("log_id",          "Log ID",           "Data",  reqd=1, in_list_view=1),
 				_f("log_date",        "Log Date",         "Date",  reqd=1, in_list_view=1),
@@ -754,7 +762,7 @@ def _ensure_custom_doctypes():
 		},
 		{
 			"doctype": "DocType", "name": "Environmental Measurement",
-			"module": "ERPNext", "custom": 1, "autoname": "field:record_id",
+			"module": MODULE_NAME, "custom": 1, "autoname": "field:record_id",
 			"fields": [
 				_f("record_id",          "Record ID",          "Data",  reqd=1, in_list_view=1),
 				_f("monitoring_date",    "Monitoring Date",    "Date",  reqd=1, in_list_view=1),
@@ -771,7 +779,7 @@ def _ensure_custom_doctypes():
 		},
 		{
 			"doctype": "DocType", "name": "Demo Financial Entry",
-			"module": "ERPNext", "custom": 1, "autoname": "field:journal_ref",
+			"module": MODULE_NAME, "custom": 1, "autoname": "field:journal_ref",
 			"fields": [
 				_f("journal_ref",  "Journal Ref",  "Data",  reqd=1, in_list_view=1),
 				_f("posting_date", "Posting Date", "Date",  reqd=1, in_list_view=1),
