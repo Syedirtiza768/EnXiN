@@ -141,7 +141,7 @@ def _import_addresses(rows):
 	return {"inserted": inserted, "skipped": skipped, "errors": errors}
 
 
-def _import_sales_orders(so_rows, soi_rows):
+def _import_sales_orders(so_rows, soi_rows, company_currency: str = "PKR"):
 	items_by_parent = defaultdict(list)
 	for row in soi_rows:
 		items_by_parent[row.get("parent")].append(row)
@@ -162,6 +162,9 @@ def _import_sales_orders(so_rows, soi_rows):
 		doc.transaction_date = row.get("transaction_date")
 		doc.delivery_date = row.get("delivery_date")
 		doc.company = row.get("company")
+		# Force currency to company default to avoid missing Currency Exchange records.
+		doc.currency = company_currency
+		doc.conversion_rate = 1.0
 
 		for item in items_by_parent.get(name, []):
 			doc.append(
@@ -190,14 +193,14 @@ def _import_item_prices(rows):
 	errors = []
 
 	for row in rows:
-		filters = {
+		# Use only core fields for dedup — customer/supplier can be NULL in DB
+		# which doesn't match an empty-string filter, causing false misses.
+		dedup_filters = {
 			"item_code": row.get("item_code"),
 			"price_list": row.get("price_list"),
-			"uom": row.get("uom"),
-			"customer": row.get("customer") or "",
-			"supplier": row.get("supplier") or "",
+			"uom": row.get("uom") or None,
 		}
-		if frappe.db.exists("Item Price", filters):
+		if frappe.db.exists("Item Price", dedup_filters):
 			skipped += 1
 			continue
 
@@ -342,10 +345,11 @@ def import_seed(seed_dir: str = "seed_output", company_override: str | None = No
 	report["Item Group"] = _upsert_simple("Item Group", item_group_rows, "item_group_name")
 	report["Brand"] = _upsert_simple("Brand", brand_rows, "brand")
 	report["Item"] = _upsert_simple("Item", item_rows, "item_code")
+	target_currency = frappe.db.get_value("Company", target_company, "default_currency") or "PKR"
 	report["Item Price"] = _import_item_prices(item_price_rows)
 	report["Issue"] = _upsert_simple("Issue", issue_rows, "subject")
 	report["Address"] = _import_addresses(address_rows)
-	report["Sales Order"] = _import_sales_orders(so_rows, soi_rows)
+	report["Sales Order"] = _import_sales_orders(so_rows, soi_rows, company_currency=target_currency)
 
 	# Optional sidecar data for audit/analytics only.
 	report["Waste Events JSON"] = {
