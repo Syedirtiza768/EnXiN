@@ -559,6 +559,249 @@ def _import_bulk(doctype, rows, skip_validation=False):
 	return {"inserted": inserted, "skipped": 0, "errors": errors}
 
 
+def _import_json_records(doctype, rows, key_field):
+	"""Import a list of plain-dict rows into a Custom DocType."""
+	inserted = 0
+	skipped = 0
+	errors = []
+	try:
+		valid_cols = set(frappe.get_meta(doctype).get_valid_columns())
+	except Exception:
+		return {"inserted": 0, "skipped": 0, "errors": [
+			{"doctype": doctype, "key": "", "error": f"DocType {doctype} not available"}
+		]}
+
+	for row in rows:
+		key = row.get(key_field)
+		if key and frappe.db.exists(doctype, key):
+			skipped += 1
+			continue
+		doc = frappe.new_doc(doctype)
+		for k, v in row.items():
+			if k not in valid_cols:
+				continue
+			if isinstance(v, (dict, list)):
+				v = json.dumps(v, ensure_ascii=False)
+			elif isinstance(v, bool):
+				v = 1 if v else 0
+			doc.set(k, v)
+		ok, err = _safe_insert(doc, skip_validation=True)
+		if ok:
+			inserted += 1
+		else:
+			errors.append({"doctype": doctype, "key": key, "error": err})
+	return {"inserted": inserted, "skipped": skipped, "errors": errors}
+
+
+def _ensure_custom_doctypes():
+	"""Create all domain-specific Custom DocTypes if they don't already exist."""
+
+	def _f(fieldname, label, fieldtype="Data", **kw):
+		return {"fieldname": fieldname, "label": label, "fieldtype": fieldtype,
+				"in_list_view": kw.pop("in_list_view", 0), **kw}
+
+	doctypes = [
+		{
+			"doctype": "DocType", "name": "Waste Collection Event",
+			"module": "ERPNext", "custom": 1, "autoname": "field:event_id",
+			"fields": [
+				_f("event_id",               "Event ID",               "Data",  reqd=1, in_list_view=1),
+				_f("event_date",             "Event Date",             "Date",  reqd=1, in_list_view=1),
+				_f("customer",               "Customer",               "Data",  in_list_view=1),
+				_f("waste_category",         "Waste Category",         "Data"),
+				_f("waste_code",             "Waste Code",             "Data"),
+				_f("color_code",             "Color Code",             "Data"),
+				_f("weight_kg",              "Weight (kg)",            "Float"),
+				_f("containers_collected",   "Containers Collected",   "Int"),
+				_f("disposal_certificate_no","Disposal Certificate No","Data"),
+				_f("route_code",             "Route Code",             "Data"),
+				_f("vehicle_plate",          "Vehicle Plate",          "Data"),
+				_f("pickup_time",            "Pickup Time",            "Data"),
+				_f("status",                 "Status",                 "Select",
+				   options="Completed\nMissed\nRescheduled", in_list_view=1),
+				_f("crew_lead",              "Crew Lead",              "Data"),
+				_f("customer_signoff",       "Customer Signoff",       "Check"),
+				_f("incident_notes",         "Incident Notes",         "Small Text"),
+			],
+		},
+		{
+			"doctype": "DocType", "name": "Incinerator Batch",
+			"module": "ERPNext", "custom": 1, "autoname": "field:batch_id",
+			"fields": [
+				_f("batch_id",              "Batch ID",               "Data",  reqd=1, in_list_view=1),
+				_f("facility",              "Facility",               "Data",  in_list_view=1),
+				_f("operation_date",        "Operation Date",         "Date",  reqd=1, in_list_view=1),
+				_f("start_time",            "Start Time",             "Data"),
+				_f("end_time",              "End Time",               "Data"),
+				_f("total_waste_kg",        "Total Waste (kg)",       "Float"),
+				_f("waste_breakdown",       "Waste Breakdown (JSON)", "Small Text"),
+				_f("chamber_temperature_c", "Chamber Temp (°C)",      "Int"),
+				_f("emissions_pm",          "Emissions PM",           "Float"),
+				_f("emissions_so2",         "Emissions SO₂",          "Float"),
+				_f("emissions_nox",         "Emissions NOₓ",          "Float"),
+				_f("emissions_compliant",   "Emissions Compliant",    "Check"),
+				_f("ash_generated_kg",      "Ash Generated (kg)",     "Float"),
+				_f("operator",              "Operator",               "Data"),
+				_f("disposal_certificate",  "Disposal Certificate",   "Data"),
+				_f("downtime_hours",        "Downtime (hrs)",         "Float"),
+				_f("fuel_consumed_ltr",     "Fuel Consumed (ltr)",    "Float"),
+				_f("maintenance_notes",     "Maintenance Notes",      "Small Text"),
+			],
+		},
+		{
+			"doctype": "DocType", "name": "Waste Transport Log",
+			"module": "ERPNext", "custom": 1, "autoname": "field:trip_id",
+			"fields": [
+				_f("trip_id",              "Trip ID",              "Data",  reqd=1, in_list_view=1),
+				_f("trip_date",            "Trip Date",            "Date",  reqd=1, in_list_view=1),
+				_f("vehicle_plate",        "Vehicle Plate",        "Data",  in_list_view=1),
+				_f("driver",               "Driver",               "Data"),
+				_f("route_code",           "Route Code",           "Data"),
+				_f("origin",               "Origin",               "Data"),
+				_f("destination",          "Destination",          "Data"),
+				_f("waste_collected_kg",   "Waste Collected (kg)", "Float"),
+				_f("containers_collected", "Containers Collected", "Int"),
+				_f("departure_time",       "Departure Time",       "Data"),
+				_f("arrival_time",         "Arrival Time",         "Data"),
+				_f("return_time",          "Return Time",          "Data"),
+				_f("km_driven",            "KM Driven",            "Float"),
+				_f("fuel_consumed_ltr",    "Fuel Consumed (ltr)",  "Float"),
+				_f("incidents",            "Incidents",            "Small Text"),
+			],
+		},
+		{
+			"doctype": "DocType", "name": "Waste Training Session",
+			"module": "ERPNext", "custom": 1, "autoname": "field:session_id",
+			"fields": [
+				_f("session_id",           "Session ID",          "Data",  reqd=1, in_list_view=1),
+				_f("session_date",         "Session Date",        "Date",  reqd=1, in_list_view=1),
+				_f("program",              "Program",             "Data",  in_list_view=1),
+				_f("location",             "Location",            "Data"),
+				_f("trainer",              "Trainer",             "Data"),
+				_f("participants",         "Participants",        "Int"),
+				_f("duration_hours",       "Duration (hrs)",      "Int"),
+				_f("assessment_conducted", "Assessment Conducted","Check"),
+				_f("pass_rate_pct",        "Pass Rate (%)",       "Float"),
+				_f("certificates_issued",  "Certificates Issued", "Int"),
+				_f("topics_covered",       "Topics Covered",      "Small Text"),
+			],
+		},
+		{
+			"doctype": "DocType", "name": "Healthcare Compliance Report",
+			"module": "ERPNext", "custom": 1, "autoname": "field:report_id",
+			"fields": [
+				_f("report_id",                    "Report ID",                    "Data",  reqd=1, in_list_view=1),
+				_f("report_month",                 "Report Month",                 "Data",  in_list_view=1),
+				_f("report_date",                  "Report Date",                  "Date",  in_list_view=1),
+				_f("total_waste_collected_kg",     "Total Waste Collected (kg)",   "Float"),
+				_f("total_waste_incinerated_kg",   "Total Waste Incinerated (kg)", "Float"),
+				_f("hospitals_served",             "Hospitals Served",             "Int"),
+				_f("pickup_compliance_pct",        "Pickup Compliance (%)",        "Float"),
+				_f("missed_pickups",               "Missed Pickups",               "Int"),
+				_f("incidents_reported",           "Incidents Reported",           "Int"),
+				_f("regulatory_audits",            "Regulatory Audits",            "Int"),
+				_f("audit_findings",               "Audit Findings",               "Int"),
+				_f("emissions_compliance_pct",     "Emissions Compliance (%)",     "Float"),
+				_f("training_sessions_conducted",  "Training Sessions Conducted",  "Int"),
+				_f("certificates_issued",          "Certificates Issued",          "Int"),
+				_f("vehicles_operational",         "Vehicles Operational",         "Int"),
+				_f("incinerators_operational",     "Incinerators Operational",     "Int"),
+			],
+		},
+		{
+			"doctype": "DocType", "name": "Waste Disposal Certificate",
+			"module": "ERPNext", "custom": 1, "autoname": "field:certificate_no",
+			"fields": [
+				_f("certificate_no",  "Certificate No",     "Data",  reqd=1, in_list_view=1),
+				_f("issue_date",      "Issue Date",         "Date",  reqd=1, in_list_view=1),
+				_f("facility",        "Facility",           "Data",  in_list_view=1),
+				_f("waste_category",  "Waste Category",     "Data"),
+				_f("weight_kg",       "Weight (kg)",        "Float"),
+				_f("disposal_method", "Disposal Method",    "Data"),
+				_f("chamber_temp_c",  "Chamber Temp (°C)",  "Int"),
+				_f("residue_disposed","Residue Disposed",   "Small Text"),
+				_f("epa_reference",   "EPA Reference",      "Data"),
+			],
+		},
+		{
+			"doctype": "DocType", "name": "Waste Route Schedule",
+			"module": "ERPNext", "custom": 1, "autoname": "field:route_code",
+			"fields": [
+				_f("route_code",            "Route Code",           "Data",  reqd=1, in_list_view=1),
+				_f("route_name",            "Route Name",           "Data",  in_list_view=1),
+				_f("day_of_week",           "Day of Week",          "Data"),
+				_f("frequency",             "Frequency",            "Data",  in_list_view=1),
+				_f("stops",                 "Stops",                "Int"),
+				_f("estimated_duration_hrs","Estimated Duration (hrs)","Float"),
+				_f("vehicle_type",          "Vehicle Type",         "Data"),
+				_f("region",                "Region",               "Data"),
+			],
+		},
+		{
+			"doctype": "DocType", "name": "Vehicle Fuel Log",
+			"module": "ERPNext", "custom": 1, "autoname": "field:log_id",
+			"fields": [
+				_f("log_id",          "Log ID",           "Data",  reqd=1, in_list_view=1),
+				_f("log_date",        "Log Date",         "Date",  reqd=1, in_list_view=1),
+				_f("vehicle_plate",   "Vehicle Plate",    "Data",  in_list_view=1),
+				_f("fuel_type",       "Fuel Type",        "Data"),
+				_f("quantity_ltr",    "Quantity (ltr)",   "Float"),
+				_f("rate_per_ltr",    "Rate per Ltr",     "Float"),
+				_f("amount_pkr",      "Amount (PKR)",     "Float"),
+				_f("odometer_reading","Odometer Reading", "Int"),
+				_f("fuel_station",    "Fuel Station",     "Data"),
+			],
+		},
+		{
+			"doctype": "DocType", "name": "Environmental Measurement",
+			"module": "ERPNext", "custom": 1, "autoname": "field:record_id",
+			"fields": [
+				_f("record_id",          "Record ID",          "Data",  reqd=1, in_list_view=1),
+				_f("monitoring_date",    "Monitoring Date",    "Date",  reqd=1, in_list_view=1),
+				_f("facility",           "Facility",           "Data",  in_list_view=1),
+				_f("ambient_air_pm25",   "Ambient PM2.5",      "Float"),
+				_f("ambient_air_pm10",   "Ambient PM10",       "Float"),
+				_f("stack_emission_pm",  "Stack PM",           "Float"),
+				_f("stack_emission_so2", "Stack SO₂",          "Float"),
+				_f("stack_emission_nox", "Stack NOₓ",          "Float"),
+				_f("noise_level_db",     "Noise Level (dB)",   "Float"),
+				_f("water_quality_ph",   "Water Quality pH",   "Float"),
+				_f("compliant",          "Compliant",          "Check"),
+			],
+		},
+		{
+			"doctype": "DocType", "name": "Demo Financial Entry",
+			"module": "ERPNext", "custom": 1, "autoname": "field:journal_ref",
+			"fields": [
+				_f("journal_ref",  "Journal Ref",  "Data",  reqd=1, in_list_view=1),
+				_f("posting_date", "Posting Date", "Date",  reqd=1, in_list_view=1),
+				_f("voucher_type", "Voucher Type", "Data",  in_list_view=1),
+				_f("amount_pkr",   "Amount (PKR)", "Float", in_list_view=1),
+				_f("cost_center",  "Cost Center",  "Data"),
+				_f("remarks",      "Remarks",      "Small Text"),
+			],
+		},
+	]
+
+	created = 0
+	for defn in doctypes:
+		name = defn["name"]
+		if frappe.db.exists("DocType", name):
+			continue
+		try:
+			frappe.get_doc(defn).insert(ignore_permissions=True)
+			frappe.db.commit()
+			created += 1
+		except Exception:
+			_log(f"  ⚠ Could not create DocType {name}: {frappe.get_traceback().strip().split(chr(10))[-1][:120]}")
+
+	if created:
+		frappe.clear_cache()
+		_log(f"  ✓ Created {created} custom DocTypes")
+	else:
+		_log("  ✓ Custom DocTypes already exist")
+
+
 def _auto_create_company(name: str, country: str = "Pakistan", currency: str = "PKR"):
 	"""Create a minimal Company record so the seed import can proceed."""
 	if frappe.db.exists("Company", name):
@@ -771,6 +1014,34 @@ def import_seed(seed_dir: str = "seed_output", company_override: str | None = No
 	frappe.db.commit()
 	_log("  ✓ Baseline references ready")
 
+	# ── Ensure domain-specific Custom DocTypes exist ──
+	_log("  Creating domain custom DocTypes ...")
+	_ensure_custom_doctypes()
+
+	# ── Read JSON sidecars ──
+	def _read_json(filename, key):
+		p = base / filename
+		if not p.exists():
+			return []
+		return json.loads(p.read_text(encoding="utf-8")).get(key, [])
+
+	waste_events_rows     = _read_json("waste_collection_events.json", "events")
+	incinerator_ops_rows  = _read_json("incinerator_operations.json",  "operations")
+	transport_log_rows    = _read_json("transport_logs.json",          "logs")
+	training_rows         = _read_json("training_sessions.json",       "sessions")
+	compliance_rows       = _read_json("compliance_reports.json",      "reports")
+	disposal_cert_rows    = _read_json("disposal_certificates.json",   "certificates")
+	route_schedule_rows   = _read_json("route_schedules.json",         "routes")
+	fuel_log_rows         = _read_json("vehicle_fuel_logs.json",       "logs")
+	env_monitoring_rows   = _read_json("environmental_monitoring.json","records")
+	financial_rows        = _read_json("financial_events.json",        "entries")
+
+	# Remap cost_center company suffix in financial events
+	for row in financial_rows:
+		cc = row.get("cost_center", "")
+		if cc and seed_abbr and target_abbr and seed_abbr != target_abbr:
+			row["cost_center"] = cc.replace(f" - {seed_abbr}", f" - {target_abbr}")
+
 	def _set_currency(doc, row):
 		doc.currency = target_currency
 		doc.conversion_rate = 1.0
@@ -899,25 +1170,18 @@ def import_seed(seed_dir: str = "seed_output", company_override: str | None = No
 	_step("Maintenance Schedule", _import_with_children, "Maintenance Schedule", ms_rows, msi_rows, "items", skip_validation=True)
 	_step("Quality Inspection", _import_bulk, "Quality Inspection", qi_rows, skip_validation=True)
 
-	# ── JSON sidecars (for audit/analytics) ──
-	json_sidecars = [
-		("Waste Events", "waste_collection_events.json", "events"),
-		("Incinerator Ops", "incinerator_operations.json", "operations"),
-		("Transport Logs", "transport_logs.json", "logs"),
-		("Training Sessions", "training_sessions.json", "sessions"),
-		("Compliance Reports", "compliance_reports.json", "reports"),
-		("Disposal Certificates", "disposal_certificates.json", "certificates"),
-		("Fuel Logs", "vehicle_fuel_logs.json", "logs"),
-		("Environmental Monitoring", "environmental_monitoring.json", "records"),
-		("Route Schedules", "route_schedules.json", "routes"),
-		("Financial Events", "financial_events.json", "entries"),
-	]
-	for label, filename, key in json_sidecars:
-		p = base / filename
-		report[f"{label} JSON"] = {
-			"loaded": p.exists(),
-			"rows": len(json.loads(p.read_text(encoding="utf-8")).get(key, [])) if p.exists() else 0,
-		}
+	# ── Domain-specific Custom DocType imports ──
+	_log("\n  Importing domain records into Custom DocTypes ...")
+	_step("Waste Collection Event",     _import_json_records, "Waste Collection Event",     waste_events_rows,    "event_id")
+	_step("Incinerator Batch",          _import_json_records, "Incinerator Batch",           incinerator_ops_rows, "batch_id")
+	_step("Waste Transport Log",        _import_json_records, "Waste Transport Log",         transport_log_rows,   "trip_id")
+	_step("Waste Training Session",     _import_json_records, "Waste Training Session",      training_rows,        "session_id")
+	_step("Healthcare Compliance Rpt",  _import_json_records, "Healthcare Compliance Report",compliance_rows,      "report_id")
+	_step("Waste Disposal Certificate", _import_json_records, "Waste Disposal Certificate",  disposal_cert_rows,   "certificate_no")
+	_step("Waste Route Schedule",       _import_json_records, "Waste Route Schedule",        route_schedule_rows,  "route_code")
+	_step("Vehicle Fuel Log",           _import_json_records, "Vehicle Fuel Log",            fuel_log_rows,        "log_id")
+	_step("Environmental Measurement",  _import_json_records, "Environmental Measurement",   env_monitoring_rows,  "record_id")
+	_step("Demo Financial Entry",       _import_json_records, "Demo Financial Entry",        financial_rows,       "journal_ref")
 
 	out_path = base / "frappe_import_report.json"
 	out_path.write_text(json.dumps(report, indent=2), encoding="utf-8")
