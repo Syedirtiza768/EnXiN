@@ -193,7 +193,7 @@ def _import_item_prices(rows):
 	errors = []
 
 	for row in rows:
-		# Use only core fields for dedup — customer/supplier can be NULL in DB
+		# Use only core fields for dedup â€” customer/supplier can be NULL in DB
 		# which doesn't match an empty-string filter, causing false misses.
 		dedup_filters = {
 			"item_code": row.get("item_code"),
@@ -337,17 +337,18 @@ def _import_stock_entries(se_rows, sed_rows):
 		doc.company = row.get("company")
 
 		for item in items_by_parent.get(name, []):
-			doc.append(
-				"items",
-				{
-					"item_code": item.get("item_code"),
-					"qty": item.get("qty"),
-					"uom": item.get("uom"),
-					"t_warehouse": item.get("t_warehouse") or None,
-					"basic_rate": item.get("basic_rate"),
-					"allow_zero_valuation_rate": 0,
-				},
-			)
+			child = {
+				"item_code": item.get("item_code"),
+				"qty": item.get("qty"),
+				"uom": item.get("uom"),
+				"basic_rate": item.get("basic_rate"),
+				"allow_zero_valuation_rate": 0,
+			}
+			if item.get("t_warehouse"):
+				child["t_warehouse"] = item["t_warehouse"]
+			if item.get("s_warehouse"):
+				child["s_warehouse"] = item["s_warehouse"]
+			doc.append("items", child)
 
 		ok, err = _safe_insert(doc)
 		if ok:
@@ -356,6 +357,122 @@ def _import_stock_entries(se_rows, sed_rows):
 			errors.append({"doctype": "Stock Entry", "key": name, "error": err})
 
 	return {"inserted": inserted, "skipped": skipped, "errors": errors}
+
+
+def _import_with_children(doctype, parent_rows, child_rows, child_fieldname,
+						  extra_parent_cb=None):
+	"""Generic importer for parent-child doctypes."""
+	items_by_parent = defaultdict(list)
+	for row in child_rows:
+		items_by_parent[row.get("parent")].append(row)
+
+	inserted = 0
+	skipped = 0
+	errors = []
+
+	for row in parent_rows:
+		name = row.get("name")
+		if name and frappe.db.exists(doctype, name):
+			skipped += 1
+			continue
+
+		doc = frappe.new_doc(doctype)
+		valid_cols = set(doc.meta.get_valid_columns())
+		for k, v in row.items():
+			if k == "name" or not v:
+				continue
+			if k in valid_cols:
+				doc.set(k, v)
+
+		if extra_parent_cb:
+			extra_parent_cb(doc, row)
+
+		for child_row in items_by_parent.get(name, []):
+			child_dict = {k: v for k, v in child_row.items()
+						  if k not in ("parent", "parenttype", "parentfield", "") and v}
+			doc.append(child_fieldname, child_dict)
+
+		ok, err = _safe_insert(doc)
+		if ok:
+			inserted += 1
+		else:
+			errors.append({"doctype": doctype, "key": name, "error": err})
+
+	return {"inserted": inserted, "skipped": skipped, "errors": errors}
+
+
+def _import_contacts(rows):
+	inserted = 0
+	skipped = 0
+	errors = []
+	for row in rows:
+		dup = {"first_name": row.get("first_name"), "email_id": row.get("email_id")}
+		if frappe.db.exists("Contact", dup):
+			skipped += 1
+			continue
+		doc = frappe.new_doc("Contact")
+		for f in ("first_name", "last_name", "email_id", "phone", "mobile_no", "company_name"):
+			if row.get(f):
+				doc.set(f, row[f])
+		if row.get("link_doctype") and row.get("link_name"):
+			doc.append("links", {"link_doctype": row["link_doctype"], "link_name": row["link_name"]})
+		ok, err = _safe_insert(doc)
+		if ok:
+			inserted += 1
+		else:
+			errors.append({"doctype": "Contact", "key": str(dup), "error": err})
+	return {"inserted": inserted, "skipped": skipped, "errors": errors}
+
+
+def _import_holiday_lists(hl_rows, h_rows):
+	holidays_by_list = defaultdict(list)
+	for row in h_rows:
+		holidays_by_list[row.get("holiday_list")].append(row)
+
+	inserted = 0
+	skipped = 0
+	errors = []
+	for row in hl_rows:
+		name = row.get("holiday_list_name")
+		if name and frappe.db.exists("Holiday List", name):
+			skipped += 1
+			continue
+		doc = frappe.new_doc("Holiday List")
+		doc.holiday_list_name = name
+		doc.from_date = row.get("from_date")
+		doc.to_date = row.get("to_date")
+		doc.company = row.get("company")
+		for h in holidays_by_list.get(name, []):
+			doc.append("holidays", {
+				"holiday_date": h.get("holiday_date"),
+				"description": h.get("description"),
+			})
+		ok, err = _safe_insert(doc)
+		if ok:
+			inserted += 1
+		else:
+			errors.append({"doctype": "Holiday List", "key": name, "error": err})
+	return {"inserted": inserted, "skipped": skipped, "errors": errors}
+
+
+def _import_bulk(doctype, rows):
+	"""Import rows without dedup - for doctypes without natural unique keys."""
+	inserted = 0
+	errors = []
+	for row in rows:
+		doc = frappe.new_doc(doctype)
+		valid_cols = set(doc.meta.get_valid_columns())
+		for k, v in row.items():
+			if k == "name" or not v:
+				continue
+			if k in valid_cols:
+				doc.set(k, v)
+		ok, err = _safe_insert(doc)
+		if ok:
+			inserted += 1
+		else:
+			errors.append({"doctype": doctype, "key": str(row)[:100], "error": err})
+	return {"inserted": inserted, "skipped": 0, "errors": errors}
 
 
 def _auto_create_company(name: str, country: str = "Pakistan", currency: str = "PKR"):
@@ -401,45 +518,70 @@ def _resolve_company(seed_company: str, company_override: str | None,
 
 
 def import_seed(seed_dir: str = "seed_output", company_override: str | None = None):
-	"""Import generated seed CSVs into current site using Frappe ORM.
-
-	Run with:
-	bench --site <site> execute erpnext.seed.import_executor.import_seed --kwargs "{'seed_dir':'/workspace/seed_output'}"
-	"""
+	"""Import comprehensive seed CSVs into current site using Frappe ORM."""
 
 	base = Path(seed_dir)
 	if not base.exists():
 		frappe.throw(f"Seed directory not found: {seed_dir}")
 
-	# Ensure baseline refs expected by generated CSVs.
-	_ensure_exists("Customer Group", "Commercial")
-	_ensure_exists("Supplier Group", "Services")
-	_ensure_exists("Supplier Group", "Raw Material")
-	_ensure_exists("Territory", "Pakistan")
+	# Helper to read CSV if it exists
+	def _csv(name):
+		p = base / name
+		return _read_csv(p) if p.exists() else []
 
-	report = {}
+	# ── Read all CSV files ──
+	company_rows = _csv("Company.csv")
+	branch_rows = _csv("Branch.csv")
+	department_rows = _csv("Department.csv")
+	designation_rows = _csv("Designation.csv")
+	warehouse_rows = _csv("Warehouse.csv")
+	cost_center_rows = _csv("Cost_Center.csv")
+	customer_group_rows = _csv("Customer_Group.csv")
+	supplier_group_rows = _csv("Supplier_Group.csv")
+	territory_rows = _csv("Territory.csv")
+	item_group_rows = _csv("Item_Group.csv")
+	brand_rows = _csv("Brand.csv")
+	customer_rows = _csv("Customer.csv")
+	supplier_rows = _csv("Supplier.csv")
+	item_rows = _csv("Item.csv")
+	item_price_rows = _csv("Item_Price.csv")
+	employee_rows = _csv("Employee.csv")
+	vehicle_rows = _csv("Vehicle.csv")
+	driver_rows = _csv("Driver.csv")
+	holiday_list_rows = _csv("Holiday_List.csv")
+	holiday_rows = _csv("Holiday.csv")
+	address_rows = _csv("Address.csv")
+	contact_rows = _csv("Contact.csv")
+	lead_rows = _csv("Lead.csv")
+	opportunity_rows = _csv("Opportunity.csv")
+	opportunity_item_rows = _csv("Opportunity_Item.csv")
+	contract_rows = _csv("Contract.csv")
+	quotation_rows = _csv("Quotation.csv")
+	quotation_item_rows = _csv("Quotation_Item.csv")
+	so_rows = _csv("Sales_Order.csv")
+	soi_rows = _csv("Sales_Order_Item.csv")
+	po_rows = _csv("Purchase_Order.csv")
+	poi_rows = _csv("Purchase_Order_Item.csv")
+	mr_rows = _csv("Material_Request.csv")
+	mri_rows = _csv("Material_Request_Item.csv")
+	pr_rows = _csv("Purchase_Receipt.csv")
+	pri_rows = _csv("Purchase_Receipt_Item.csv")
+	stock_entry_rows = _csv("Stock_Entry.csv")
+	stock_entry_detail_rows = _csv("Stock_Entry_Detail.csv")
+	dn_rows = _csv("Delivery_Note.csv")
+	dni_rows = _csv("Delivery_Note_Item.csv")
+	si_rows = _csv("Sales_Invoice.csv")
+	sii_rows = _csv("Sales_Invoice_Item.csv")
+	pi_rows = _csv("Purchase_Invoice.csv")
+	pii_rows = _csv("Purchase_Invoice_Item.csv")
+	issue_rows = _csv("Issue.csv")
+	project_rows = _csv("Project.csv")
+	task_rows = _csv("Task.csv")
+	mv_rows = _csv("Maintenance_Visit.csv")
+	mvp_rows = _csv("Maintenance_Visit_Purpose.csv")
+	qi_rows = _csv("Quality_Inspection.csv")
 
-	company_rows = _read_csv(base / "Company.csv")
-	warehouse_rows = _read_csv(base / "Warehouse.csv")
-	department_rows = _read_csv(base / "Department.csv")
-	supplier_rows = _read_csv(base / "Supplier.csv")
-	customer_rows = _read_csv(base / "Customer.csv")
-	item_group_rows = _read_csv(base / "Item_Group.csv")
-	brand_rows = _read_csv(base / "Brand.csv")
-	item_rows = _read_csv(base / "Item.csv")
-	item_price_rows = _read_csv(base / "Item_Price.csv")
-	so_rows = _read_csv(base / "Sales_Order.csv")
-	soi_rows = _read_csv(base / "Sales_Order_Item.csv")
-	issue_rows = _read_csv(base / "Issue.csv")
-	address_rows = _read_csv(base / "Address.csv")
-	employee_rows = _read_csv(base / "Employee.csv") if (base / "Employee.csv").exists() else []
-	quotation_rows = _read_csv(base / "Quotation.csv") if (base / "Quotation.csv").exists() else []
-	quotation_item_rows = _read_csv(base / "Quotation_Item.csv") if (base / "Quotation_Item.csv").exists() else []
-	po_rows = _read_csv(base / "Purchase_Order.csv") if (base / "Purchase_Order.csv").exists() else []
-	poi_rows = _read_csv(base / "Purchase_Order_Item.csv") if (base / "Purchase_Order_Item.csv").exists() else []
-	stock_entry_rows = _read_csv(base / "Stock_Entry.csv") if (base / "Stock_Entry.csv").exists() else []
-	stock_entry_detail_rows = _read_csv(base / "Stock_Entry_Detail.csv") if (base / "Stock_Entry_Detail.csv").exists() else []
-
+	# ── Resolve company ──
 	seed_company = company_rows[0].get("name") if company_rows else ""
 	seed_abbr = company_rows[0].get("abbr", "") if company_rows else ""
 	seed_country = company_rows[0].get("country", "Pakistan") if company_rows else "Pakistan"
@@ -447,84 +589,125 @@ def import_seed(seed_dir: str = "seed_output", company_override: str | None = No
 	target_company = _resolve_company(seed_company, company_override, seed_country, seed_currency)
 	target_abbr = frappe.db.get_value("Company", target_company, "abbr") or ""
 
-	# Build warehouse suffix remapper: "- ENXI" → "- GBC"
 	def _remap_wh(val):
 		if not val or not seed_abbr or not target_abbr or seed_abbr == target_abbr:
 			return val
 		return val.replace(f" - {seed_abbr}", f" - {target_abbr}")
 
-	for row in warehouse_rows:
-		if row.get("company") == seed_company:
-			row["company"] = target_company
-		row["name"] = _remap_wh(row.get("name", ""))
-	for row in department_rows:
-		if row.get("company") == seed_company:
-			row["company"] = target_company
-	for row in so_rows:
-		if row.get("company") == seed_company:
-			row["company"] = target_company
-	for row in soi_rows:
-		row["warehouse"] = _remap_wh(row.get("warehouse", ""))
-	for row in quotation_rows:
-		if row.get("company") == seed_company:
-			row["company"] = target_company
-	for row in po_rows:
-		if row.get("company") == seed_company:
-			row["company"] = target_company
-	for row in poi_rows:
-		row["warehouse"] = _remap_wh(row.get("warehouse", ""))
-	for row in stock_entry_rows:
-		if row.get("company") == seed_company:
-			row["company"] = target_company
-	for row in stock_entry_detail_rows:
-		row["t_warehouse"] = _remap_wh(row.get("t_warehouse", ""))
-	for row in employee_rows:
-		if row.get("company") == seed_company:
-			row["company"] = target_company
+	# ── Remap company & warehouse across all rows ──
+	all_company_rows = [
+		warehouse_rows, department_rows, cost_center_rows, employee_rows,
+		so_rows, quotation_rows, po_rows, stock_entry_rows,
+		mr_rows, pr_rows, dn_rows, si_rows, pi_rows,
+		project_rows, task_rows, mv_rows, qi_rows,
+		lead_rows, opportunity_rows, holiday_list_rows,
+	]
+	for rows_list in all_company_rows:
+		for row in rows_list:
+			if row.get("company") == seed_company:
+				row["company"] = target_company
 
+	for row in warehouse_rows:
+		row["name"] = _remap_wh(row.get("name", ""))
+
+	wh_fields = [
+		(soi_rows, ["warehouse"]),
+		(poi_rows, ["warehouse"]),
+		(stock_entry_detail_rows, ["t_warehouse", "s_warehouse"]),
+		(mri_rows, ["warehouse"]),
+		(pri_rows, ["warehouse"]),
+		(dni_rows, ["warehouse"]),
+		(pii_rows, ["warehouse"]),
+	]
+	for rows_list, fields in wh_fields:
+		for row in rows_list:
+			for fld in fields:
+				row[fld] = _remap_wh(row.get(fld, ""))
+
+	for row in cost_center_rows:
+		row["parent_cost_center"] = _remap_wh(row.get("parent_cost_center", ""))
+
+	report = {}
 	report["Company Mapping"] = {
 		"seed_company": seed_company, "target_company": target_company,
 		"seed_abbr": seed_abbr, "target_abbr": target_abbr,
 	}
 
-	# Pre-create standard UOMs expected by seed items.
+	# ── Pre-create baseline references ──
+	for cg in ("Commercial", "Institutional", "Government"):
+		_ensure_exists("Customer Group", cg)
+	for sg in ("Services", "Raw Material", "Equipment Vendor", "Fuel Supplier", "Vehicle Parts", "IT Services", "Insurance"):
+		_ensure_exists("Supplier Group", sg)
+	_ensure_exists("Territory", "Pakistan")
 	for uom_name in ("Nos", "Kg", "Unit", "Pair", "Box", "Set", "Ltr"):
 		if not frappe.db.exists("UOM", uom_name):
 			frappe.get_doc({"doctype": "UOM", "uom_name": uom_name}).insert(ignore_permissions=True)
 
-	# Company creation is intentionally skipped by default because ERPNext sites
-	# usually already have chart-of-accounts bootstrapped for an existing company.
+	target_currency = frappe.db.get_value("Company", target_company, "default_currency") or "PKR"
+
+	def _set_currency(doc, row):
+		doc.currency = target_currency
+		doc.conversion_rate = 1.0
+
+	# ── Import in dependency order ──
 	report["Company"] = {"inserted": 0, "skipped": len(company_rows), "errors": []}
+	report["Branch"] = _upsert_simple("Branch", branch_rows, "branch")
+	report["Designation"] = _upsert_simple("Designation", designation_rows, "designation")
 	report["Department"] = _upsert_simple("Department", department_rows, "department_name")
 	report["Warehouse"] = _upsert_simple("Warehouse", warehouse_rows, "name")
-	report["Supplier"] = _upsert_simple("Supplier", supplier_rows, "supplier_name")
-	report["Customer"] = _upsert_simple("Customer", customer_rows, "customer_name")
+	report["Cost Center"] = _upsert_simple("Cost Center", cost_center_rows, "cost_center_name")
+	report["Customer Group"] = _upsert_simple("Customer Group", customer_group_rows, "customer_group_name")
+	report["Supplier Group"] = _upsert_simple("Supplier Group", supplier_group_rows, "supplier_group_name")
+	report["Territory"] = _upsert_simple("Territory", territory_rows, "territory_name")
 	report["Item Group"] = _upsert_simple("Item Group", item_group_rows, "item_group_name")
 	report["Brand"] = _upsert_simple("Brand", brand_rows, "brand")
+	report["Customer"] = _upsert_simple("Customer", customer_rows, "customer_name")
+	report["Supplier"] = _upsert_simple("Supplier", supplier_rows, "supplier_name")
 	report["Item"] = _upsert_simple("Item", item_rows, "item_code")
-	target_currency = frappe.db.get_value("Company", target_company, "default_currency") or "PKR"
 	report["Item Price"] = _import_item_prices(item_price_rows)
-	report["Issue"] = _upsert_simple("Issue", issue_rows, "subject")
-	report["Address"] = _import_addresses(address_rows)
-	report["Sales Order"] = _import_sales_orders(so_rows, soi_rows, company_currency=target_currency)
 	report["Employee"] = _upsert_simple("Employee", employee_rows, "employee_name")
+	report["Vehicle"] = _upsert_simple("Vehicle", vehicle_rows, "license_plate")
+	report["Driver"] = _upsert_simple("Driver", driver_rows, "full_name")
+	report["Holiday List"] = _import_holiday_lists(holiday_list_rows, holiday_rows)
+	report["Address"] = _import_addresses(address_rows)
+	report["Contact"] = _import_contacts(contact_rows)
+	report["Lead"] = _upsert_simple("Lead", lead_rows, "company_name")
+	report["Opportunity"] = _import_with_children("Opportunity", opportunity_rows, opportunity_item_rows, "items", _set_currency)
+	report["Contract"] = _upsert_simple("Contract", contract_rows, "party_name")
+	report["Project"] = _upsert_simple("Project", project_rows, "project_name")
+	report["Task"] = _upsert_simple("Task", task_rows, "subject")
 	report["Quotation"] = _import_quotations(quotation_rows, quotation_item_rows, company_currency=target_currency)
+	report["Sales Order"] = _import_sales_orders(so_rows, soi_rows, company_currency=target_currency)
 	report["Purchase Order"] = _import_purchase_orders(po_rows, poi_rows, company_currency=target_currency)
+	report["Material Request"] = _import_with_children("Material Request", mr_rows, mri_rows, "items")
+	report["Purchase Receipt"] = _import_with_children("Purchase Receipt", pr_rows, pri_rows, "items", _set_currency)
 	report["Stock Entry"] = _import_stock_entries(stock_entry_rows, stock_entry_detail_rows)
+	report["Delivery Note"] = _import_with_children("Delivery Note", dn_rows, dni_rows, "items", _set_currency)
+	report["Sales Invoice"] = _import_with_children("Sales Invoice", si_rows, sii_rows, "items", _set_currency)
+	report["Purchase Invoice"] = _import_with_children("Purchase Invoice", pi_rows, pii_rows, "items", _set_currency)
+	report["Issue"] = _upsert_simple("Issue", issue_rows, "subject")
+	report["Maintenance Visit"] = _import_with_children("Maintenance Visit", mv_rows, mvp_rows, "purposes")
+	report["Quality Inspection"] = _import_bulk("Quality Inspection", qi_rows)
 
-	# Optional sidecar data for audit/analytics only.
-	report["Waste Events JSON"] = {
-		"loaded": (base / "waste_collection_events.json").exists(),
-		"rows": len(json.loads((base / "waste_collection_events.json").read_text(encoding="utf-8")).get("events", []))
-		if (base / "waste_collection_events.json").exists()
-		else 0,
-	}
-	report["Financial Events JSON"] = {
-		"loaded": (base / "financial_events.json").exists(),
-		"rows": len(json.loads((base / "financial_events.json").read_text(encoding="utf-8")).get("entries", []))
-		if (base / "financial_events.json").exists()
-		else 0,
-	}
+	# ── JSON sidecars (for audit/analytics) ──
+	json_sidecars = [
+		("Waste Events", "waste_collection_events.json", "events"),
+		("Incinerator Ops", "incinerator_operations.json", "operations"),
+		("Transport Logs", "transport_logs.json", "logs"),
+		("Training Sessions", "training_sessions.json", "sessions"),
+		("Compliance Reports", "compliance_reports.json", "reports"),
+		("Disposal Certificates", "disposal_certificates.json", "certificates"),
+		("Fuel Logs", "vehicle_fuel_logs.json", "logs"),
+		("Environmental Monitoring", "environmental_monitoring.json", "records"),
+		("Route Schedules", "route_schedules.json", "routes"),
+		("Financial Events", "financial_events.json", "entries"),
+	]
+	for label, filename, key in json_sidecars:
+		p = base / filename
+		report[f"{label} JSON"] = {
+			"loaded": p.exists(),
+			"rows": len(json.loads(p.read_text(encoding="utf-8")).get(key, [])) if p.exists() else 0,
+		}
 
 	out_path = base / "frappe_import_report.json"
 	out_path.write_text(json.dumps(report, indent=2), encoding="utf-8")

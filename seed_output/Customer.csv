@@ -1,41 +1,56 @@
 customer_name,customer_type,customer_group,territory,default_currency
-Services Diagnostic Lab 01,Company,Commercial,Pakistan,PKR
-Jinnah Medical College 02,Company,Commercial,Pakistan,PKR
-Jinnah Diagnostic Lab 03,Company,Commercial,Pakistan,PKR
-Prime Hospital 04,Company,Commercial,Pakistan,PKR
-Lahore Diagnostic Hospital 05,Company,Commercial,Pakistan,PKR
-Noor Diagnostic Lab 06,Company,Commercial,Pakistan,PKR
-Medix Diagnostic Lab 07,Company,Commercial,Pakistan,PKR
-Prime Hospital 08,Company,Commercial,Pakistan,PKR
-Mayo Diagnostic Lab 09,Company,Commercial,Pakistan,PKR
-Jinnah Hospital 10,Company,Commercial,Pakistan,PKR
-Noor Medical College 11,Company,Commercial,Pakistan,PKR
-Medix Clinic 12,Company,Commercial,Pakistan,PKR
-City Care Clinic 13,Company,Commercial,Pakistan,PKR
-Medix Hospital 14,Company,Commercial,Pakistan,PKR
-Prime Clinic 15,Company,Commercial,Pakistan,PKR
-Services Medical College 16,Company,Commercial,Pakistan,PKR
-Central Clinic 17,Company,Commercial,Pakistan,PKR
-Medix Hospital 18,Company,Commercial,Pakistan,PKR
-Shalimar Diagnostic Lab 19,Company,Commercial,Pakistan,PKR
-Noor Hospital 20,Company,Commercial,Pakistan,PKR
-Shalimar Diagnostic Lab 21,Company,Commercial,Pakistan,PKR
-Shalimar Medical College 22,Company,Commercial,Pakistan,PKR
-Medix Clinic 23,Company,Commercial,Pakistan,PKR
-Central Clinic 24,Company,Commercial,Pakistan,PKR
-Lahore Diagnostic Diagnostic Lab 25,Company,Commercial,Pakistan,PKR
-Lahore Diagnostic Medical College 26,Company,Commercial,Pakistan,PKR
-Prime Diagnostic Lab 27,Company,Commercial,Pakistan,PKR
-Shalimar Medical College 28,Company,Commercial,Pakistan,PKR
-Jinnah Hospital 29,Company,Commercial,Pakistan,PKR
-Services Medical College 30,Company,Commercial,Pakistan,PKR
-Prime Medical College 31,Company,Commercial,Pakistan,PKR
-Noor Medical College 32,Company,Commercial,Pakistan,PKR
-LifeLine Hospital 33,Company,Commercial,Pakistan,PKR
-Medix Diagnostic Lab 34,Company,Commercial,Pakistan,PKR
-Medix Hospital 35,Company,Commercial,Pakistan,PKR
-Central Clinic 36,Company,Commercial,Pakistan,PKR
-Al-Rehman Diagnostic Lab 37,Company,Commercial,Pakistan,PKR
-LifeLine Hospital 38,Company,Commercial,Pakistan,PKR
-Medix Clinic 39,Company,Commercial,Pakistan,PKR
-Services Clinic 40,Company,Commercial,Pakistan,PKR
+Mayo Tertiary Hospital 01,Company,Commercial,Faisalabad,PKR
+Jinnah Tertiary Hospital 02,Company,Commercial,Lahore,PKR
+Services Tertiary Hospital 03,Company,Commercial,Multan,PKR
+Shalimar Tertiary Hospital 04,Company,Commercial,Rawalpindi,PKR
+Central Park Tertiary Hospital 05,Company,Commercial,Lahore,PKR
+City Care Tertiary Hospital 06,Company,Commercial,Lahore,PKR
+Noor Tertiary Hospital 07,Company,Commercial,Lahore,PKR
+Al-Rehman Tertiary Hospital 08,Company,Commercial,Lahore,PKR
+LifeLine Tertiary Hospital 09,Company,Commercial,Lahore,PKR
+Prime Tertiary Hospital 10,Company,Commercial,Lahore,PKR
+Medix District Hospital 11,Company,Commercial,Rawalpindi,PKR
+Punjab District Hospital 12,Company,Commercial,Multan,PKR
+Lahore General District Hospital 13,Company,Commercial,Lahore,PKR
+Sheikh Zayed District Hospital 14,Company,Commercial,Lahore,PKR
+Hameed Latif District Hospital 15,Company,Commercial,Lahore,PKR
+Shaukat Khanum District Hospital 16,Company,Commercial,Multan,PKR
+National District Hospital 17,Company,Commercial,Lahore,PKR
+Allied Teaching Hospital 18,Company,Institutional,Lahore,PKR
+Combined Military Teaching Hospital 19,Company,Institutional,Lahore,PKR
+Gulab Devi Teaching Hospital 20,Company,Institutional,Rawalpindi,PKR
+Sir Ganga Ram Teaching Hospital 21,Company,Institutional,Lahore,PKR
+Fatima Memorial Private Hospital 22,Company,Commercial,Lahore,PKR
+Sharif Medical Private Hospital 23,Company,Commercial,Faisalabad,PKR
+Ittefaq Private Hospital 24,Company,Commercial,Lahore,PKR
+Doctors Private Hospital 25,Company,Commercial,Lahore,PKR
+Surgimed Diagnostic Laboratory 26,Company,Commercial,Lahore,PKR
+Hafeez Diagnostic Laboratory 27,Company,Commercial,Lahore,PKR
+Aziz Fatimah Diagnostic Laboratory 28,Company,Commercial,Multan,PKR
+Farooq Maternity Hospital 29,Company,Commercial,Lahore,PKR
+Children Maternity Hospital 30,Company,Commercial,Faisalabad,PKR
+Lady Aitchison Specialist Clinic 31,Company,Commercial,Lahore,PKR
+Lahore Eye Medical Center 32,Company,Commercial,Lahore,PKR
+Sir Ganga Ram Medical Center 33,Company,Commercial,Lahore,PKR
+Surgimed Medical Center 34,Company,Commercial,Lahore,PKR
+Allied Medical Center 35,Company,Commercial,Lahore,PKR
+Central Park Medical Center 36,Company,Commercial,Lahore,PKR
+Sheikh Zayed Medical Center 37,Company,Commercial,Lahore,PKR
+Citi Lab Medical Center 38,Company,Commercial,Lahore,PKR
+CMH Medical Center 39,Company,Commercial,Lahore,PKR
+Sir Ganga Ram Medical Center 40,Company,Commercial,Lahore,PKR
+Sheikh Zayed Medical Center 41,Company,Commercial,Lahore,PKR
+Ghurki Trust Medical Center 42,Company,Commercial,Lahore,PKR
+Social Security Medical Center 43,Company,Commercial,Lahore,PKR
+Surgimed Medical Center 44,Company,Commercial,Lahore,PKR
+Ghurki Trust Medical Center 45,Company,Commercial,Lahore,PKR
+Children Medical Center 46,Company,Commercial,Lahore,PKR
+Prime Medical Center 47,Company,Commercial,Lahore,PKR
+National Medical Center 48,Company,Commercial,Lahore,PKR
+LifeLine Medical Center 49,Company,Commercial,Lahore,PKR
+Shaukat Khanum Medical Center 50,Company,Commercial,Lahore,PKR
+Wapda Teaching Medical Center 51,Company,Commercial,Lahore,PKR
+Excel Labs Medical Center 52,Company,Commercial,Lahore,PKR
+Agha Khan Lab Medical Center 53,Company,Commercial,Lahore,PKR
+National Medical Center 54,Company,Commercial,Lahore,PKR
+Wapda Teaching Medical Center 55,Company,Commercial,Lahore,PKR

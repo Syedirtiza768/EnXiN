@@ -1,0 +1,8 @@
+supplier_group_name,parent_supplier_group,is_group
+Raw Material,All Supplier Groups,0
+Equipment Vendor,All Supplier Groups,0
+Services,All Supplier Groups,0
+Fuel Supplier,All Supplier Groups,0
+Vehicle Parts,All Supplier Groups,0
+IT Services,All Supplier Groups,0
+Insurance,All Supplier Groups,0

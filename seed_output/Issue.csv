@@ -1,261 +1,401 @@
 subject,customer,raised_by,status,priority,opening_date
-Biomedical Service Ticket 00001,Lahore Diagnostic Medical College 26,ops0001@enxi.pk,Replied,Medium,2024-05-06
-Biomedical Service Ticket 00002,Noor Medical College 32,ops0002@enxi.pk,Closed,Medium,2025-01-16
-Biomedical Service Ticket 00003,Jinnah Hospital 29,ops0003@enxi.pk,Replied,Low,2025-05-21
-Biomedical Service Ticket 00004,Lahore Diagnostic Medical College 26,ops0004@enxi.pk,Resolved,Low,2024-12-01
-Biomedical Service Ticket 00005,Medix Hospital 35,ops0005@enxi.pk,Resolved,Medium,2025-12-21
-Biomedical Service Ticket 00006,Medix Clinic 12,ops0006@enxi.pk,Open,Medium,2024-07-08
-Biomedical Service Ticket 00007,LifeLine Hospital 38,ops0007@enxi.pk,Closed,Medium,2025-11-20
-Biomedical Service Ticket 00008,Prime Diagnostic Lab 27,ops0008@enxi.pk,Replied,High,2025-06-16
-Biomedical Service Ticket 00009,Jinnah Medical College 02,ops0009@enxi.pk,Replied,Low,2025-08-08
-Biomedical Service Ticket 00010,Services Clinic 40,ops0010@enxi.pk,Open,High,2025-03-28
-Biomedical Service Ticket 00011,Al-Rehman Diagnostic Lab 37,ops0011@enxi.pk,Closed,Low,2025-07-09
-Biomedical Service Ticket 00012,Shalimar Diagnostic Lab 21,ops0012@enxi.pk,Replied,Low,2026-03-11
-Biomedical Service Ticket 00013,Al-Rehman Diagnostic Lab 37,ops0013@enxi.pk,Closed,High,2025-02-18
-Biomedical Service Ticket 00014,Noor Diagnostic Lab 06,ops0014@enxi.pk,Resolved,Low,2025-09-10
-Biomedical Service Ticket 00015,Medix Clinic 39,ops0015@enxi.pk,Closed,High,2025-03-20
-Biomedical Service Ticket 00016,LifeLine Hospital 33,ops0016@enxi.pk,Replied,Low,2024-07-04
-Biomedical Service Ticket 00017,Services Medical College 30,ops0017@enxi.pk,Resolved,High,2024-09-11
-Biomedical Service Ticket 00018,Services Medical College 16,ops0018@enxi.pk,Replied,Medium,2025-05-20
-Biomedical Service Ticket 00019,City Care Clinic 13,ops0019@enxi.pk,Resolved,Low,2025-09-07
-Biomedical Service Ticket 00020,Shalimar Diagnostic Lab 19,ops0020@enxi.pk,Open,Low,2025-04-08
-Biomedical Service Ticket 00021,Medix Hospital 14,ops0021@enxi.pk,Closed,Medium,2026-01-31
-Biomedical Service Ticket 00022,Services Medical College 16,ops0022@enxi.pk,Closed,Low,2024-06-01
-Biomedical Service Ticket 00023,Medix Clinic 12,ops0023@enxi.pk,Closed,High,2024-08-12
-Biomedical Service Ticket 00024,Prime Hospital 08,ops0024@enxi.pk,Resolved,Low,2024-03-19
-Biomedical Service Ticket 00025,Services Medical College 16,ops0025@enxi.pk,Closed,High,2025-02-20
-Biomedical Service Ticket 00026,Lahore Diagnostic Hospital 05,ops0026@enxi.pk,Open,High,2026-03-06
-Biomedical Service Ticket 00027,Jinnah Diagnostic Lab 03,ops0027@enxi.pk,Closed,High,2025-11-06
-Biomedical Service Ticket 00028,Prime Medical College 31,ops0028@enxi.pk,Closed,Low,2024-12-01
-Biomedical Service Ticket 00029,Prime Diagnostic Lab 27,ops0029@enxi.pk,Resolved,High,2024-09-30
-Biomedical Service Ticket 00030,Medix Hospital 35,ops0030@enxi.pk,Open,High,2025-08-21
-Biomedical Service Ticket 00031,Medix Clinic 39,ops0031@enxi.pk,Open,Medium,2025-12-01
-Biomedical Service Ticket 00032,Prime Medical College 31,ops0032@enxi.pk,Open,Medium,2025-06-20
-Biomedical Service Ticket 00033,Lahore Diagnostic Medical College 26,ops0033@enxi.pk,Open,Medium,2025-05-31
-Biomedical Service Ticket 00034,Lahore Diagnostic Medical College 26,ops0034@enxi.pk,Closed,Medium,2024-04-30
-Biomedical Service Ticket 00035,Prime Hospital 08,ops0035@enxi.pk,Open,Low,2025-06-30
-Biomedical Service Ticket 00036,Central Clinic 17,ops0036@enxi.pk,Open,High,2024-12-25
-Biomedical Service Ticket 00037,Noor Medical College 11,ops0037@enxi.pk,Resolved,Medium,2024-04-21
-Biomedical Service Ticket 00038,Shalimar Medical College 22,ops0038@enxi.pk,Replied,Low,2024-07-14
-Biomedical Service Ticket 00039,Prime Medical College 31,ops0039@enxi.pk,Replied,Medium,2025-07-26
-Biomedical Service Ticket 00040,Medix Diagnostic Lab 07,ops0040@enxi.pk,Resolved,High,2025-06-26
-Biomedical Service Ticket 00041,Lahore Diagnostic Hospital 05,ops0041@enxi.pk,Closed,High,2025-03-22
-Biomedical Service Ticket 00042,Noor Medical College 32,ops0042@enxi.pk,Replied,Medium,2024-05-02
-Biomedical Service Ticket 00043,Shalimar Medical College 22,ops0043@enxi.pk,Resolved,High,2025-11-15
-Biomedical Service Ticket 00044,Jinnah Hospital 29,ops0044@enxi.pk,Resolved,Medium,2026-02-12
-Biomedical Service Ticket 00045,Central Clinic 17,ops0045@enxi.pk,Resolved,High,2025-03-25
-Biomedical Service Ticket 00046,Jinnah Diagnostic Lab 03,ops0046@enxi.pk,Replied,Low,2024-11-25
-Biomedical Service Ticket 00047,Medix Diagnostic Lab 34,ops0047@enxi.pk,Resolved,Low,2025-05-21
-Biomedical Service Ticket 00048,Prime Clinic 15,ops0048@enxi.pk,Resolved,High,2025-02-20
-Biomedical Service Ticket 00049,Central Clinic 24,ops0049@enxi.pk,Resolved,Medium,2026-02-01
-Biomedical Service Ticket 00050,Noor Medical College 11,ops0050@enxi.pk,Resolved,Medium,2025-01-09
-Biomedical Service Ticket 00051,Jinnah Hospital 29,ops0051@enxi.pk,Resolved,Low,2024-04-05
-Biomedical Service Ticket 00052,Mayo Diagnostic Lab 09,ops0052@enxi.pk,Replied,High,2025-09-18
-Biomedical Service Ticket 00053,Shalimar Diagnostic Lab 19,ops0053@enxi.pk,Closed,Medium,2024-12-10
-Biomedical Service Ticket 00054,Prime Clinic 15,ops0054@enxi.pk,Open,Low,2024-09-11
-Biomedical Service Ticket 00055,LifeLine Hospital 38,ops0055@enxi.pk,Resolved,Low,2025-01-06
-Biomedical Service Ticket 00056,LifeLine Hospital 38,ops0056@enxi.pk,Open,Medium,2025-03-12
-Biomedical Service Ticket 00057,Central Clinic 24,ops0057@enxi.pk,Closed,Medium,2025-05-13
-Biomedical Service Ticket 00058,Services Clinic 40,ops0058@enxi.pk,Replied,Medium,2024-03-29
-Biomedical Service Ticket 00059,Jinnah Hospital 10,ops0059@enxi.pk,Resolved,High,2025-06-12
-Biomedical Service Ticket 00060,Central Clinic 24,ops0060@enxi.pk,Closed,Medium,2025-02-07
-Biomedical Service Ticket 00061,Noor Medical College 11,ops0061@enxi.pk,Closed,Low,2025-01-10
-Biomedical Service Ticket 00062,Prime Medical College 31,ops0062@enxi.pk,Closed,Low,2025-12-23
-Biomedical Service Ticket 00063,Lahore Diagnostic Hospital 05,ops0063@enxi.pk,Resolved,Low,2024-04-17
-Biomedical Service Ticket 00064,Noor Hospital 20,ops0064@enxi.pk,Replied,Low,2025-11-12
-Biomedical Service Ticket 00065,Jinnah Hospital 10,ops0065@enxi.pk,Resolved,High,2024-07-04
-Biomedical Service Ticket 00066,Prime Hospital 08,ops0066@enxi.pk,Replied,Medium,2025-03-12
-Biomedical Service Ticket 00067,Noor Medical College 32,ops0067@enxi.pk,Closed,High,2024-04-18
-Biomedical Service Ticket 00068,Services Diagnostic Lab 01,ops0068@enxi.pk,Replied,High,2025-09-07
-Biomedical Service Ticket 00069,City Care Clinic 13,ops0069@enxi.pk,Resolved,High,2025-04-21
-Biomedical Service Ticket 00070,Jinnah Diagnostic Lab 03,ops0070@enxi.pk,Closed,High,2024-11-21
-Biomedical Service Ticket 00071,Medix Diagnostic Lab 07,ops0071@enxi.pk,Resolved,High,2024-09-07
-Biomedical Service Ticket 00072,Lahore Diagnostic Hospital 05,ops0072@enxi.pk,Resolved,High,2024-06-06
-Biomedical Service Ticket 00073,Medix Hospital 35,ops0073@enxi.pk,Open,Low,2025-09-10
-Biomedical Service Ticket 00074,Jinnah Hospital 29,ops0074@enxi.pk,Replied,Low,2024-06-16
-Biomedical Service Ticket 00075,Central Clinic 17,ops0075@enxi.pk,Replied,High,2024-07-19
-Biomedical Service Ticket 00076,Services Medical College 16,ops0076@enxi.pk,Replied,High,2024-08-07
-Biomedical Service Ticket 00077,Services Medical College 30,ops0077@enxi.pk,Replied,Low,2025-12-20
-Biomedical Service Ticket 00078,Medix Clinic 39,ops0078@enxi.pk,Resolved,High,2025-07-30
-Biomedical Service Ticket 00079,Medix Hospital 18,ops0079@enxi.pk,Open,High,2025-05-27
-Biomedical Service Ticket 00080,City Care Clinic 13,ops0080@enxi.pk,Open,Low,2024-12-18
-Biomedical Service Ticket 00081,Medix Diagnostic Lab 34,ops0081@enxi.pk,Resolved,Low,2025-02-28
-Biomedical Service Ticket 00082,Medix Hospital 14,ops0082@enxi.pk,Replied,Low,2025-06-24
-Biomedical Service Ticket 00083,LifeLine Hospital 38,ops0083@enxi.pk,Closed,Medium,2026-02-15
-Biomedical Service Ticket 00084,Medix Diagnostic Lab 07,ops0084@enxi.pk,Open,Medium,2025-12-04
-Biomedical Service Ticket 00085,Lahore Diagnostic Hospital 05,ops0085@enxi.pk,Replied,Medium,2024-11-16
-Biomedical Service Ticket 00086,Prime Hospital 08,ops0086@enxi.pk,Closed,Low,2025-08-30
-Biomedical Service Ticket 00087,Prime Medical College 31,ops0087@enxi.pk,Replied,Low,2025-10-15
-Biomedical Service Ticket 00088,Medix Hospital 35,ops0088@enxi.pk,Replied,High,2025-06-24
-Biomedical Service Ticket 00089,Noor Medical College 32,ops0089@enxi.pk,Resolved,High,2024-04-22
-Biomedical Service Ticket 00090,Services Diagnostic Lab 01,ops0090@enxi.pk,Closed,Low,2024-05-29
-Biomedical Service Ticket 00091,Jinnah Hospital 29,ops0091@enxi.pk,Replied,High,2025-02-09
-Biomedical Service Ticket 00092,Services Clinic 40,ops0092@enxi.pk,Closed,Low,2025-03-28
-Biomedical Service Ticket 00093,Central Clinic 17,ops0093@enxi.pk,Closed,High,2024-04-20
-Biomedical Service Ticket 00094,Medix Hospital 18,ops0094@enxi.pk,Closed,High,2024-08-09
-Biomedical Service Ticket 00095,Medix Clinic 12,ops0095@enxi.pk,Resolved,High,2025-11-25
-Biomedical Service Ticket 00096,Prime Medical College 31,ops0096@enxi.pk,Resolved,High,2025-12-25
-Biomedical Service Ticket 00097,Noor Hospital 20,ops0097@enxi.pk,Resolved,High,2024-06-23
-Biomedical Service Ticket 00098,Services Medical College 16,ops0098@enxi.pk,Resolved,Medium,2025-04-07
-Biomedical Service Ticket 00099,Central Clinic 36,ops0099@enxi.pk,Resolved,High,2025-08-18
-Biomedical Service Ticket 00100,Jinnah Hospital 29,ops0100@enxi.pk,Open,Low,2024-05-31
-Biomedical Service Ticket 00101,Noor Medical College 32,ops0101@enxi.pk,Open,Medium,2025-02-20
-Biomedical Service Ticket 00102,LifeLine Hospital 33,ops0102@enxi.pk,Closed,Medium,2025-12-24
-Biomedical Service Ticket 00103,Noor Medical College 11,ops0103@enxi.pk,Replied,Low,2025-01-15
-Biomedical Service Ticket 00104,Shalimar Medical College 28,ops0104@enxi.pk,Resolved,Low,2025-05-18
-Biomedical Service Ticket 00105,Jinnah Hospital 29,ops0105@enxi.pk,Resolved,High,2025-04-26
-Biomedical Service Ticket 00106,Medix Hospital 35,ops0106@enxi.pk,Replied,Low,2024-04-03
-Biomedical Service Ticket 00107,Medix Diagnostic Lab 07,ops0107@enxi.pk,Replied,Low,2024-09-16
-Biomedical Service Ticket 00108,Noor Hospital 20,ops0108@enxi.pk,Resolved,Medium,2024-11-30
-Biomedical Service Ticket 00109,Medix Diagnostic Lab 34,ops0109@enxi.pk,Closed,Low,2026-01-09
-Biomedical Service Ticket 00110,Noor Hospital 20,ops0110@enxi.pk,Replied,High,2024-06-01
-Biomedical Service Ticket 00111,Jinnah Hospital 10,ops0111@enxi.pk,Resolved,Low,2025-05-29
-Biomedical Service Ticket 00112,City Care Clinic 13,ops0112@enxi.pk,Closed,Low,2024-07-09
-Biomedical Service Ticket 00113,Noor Medical College 11,ops0113@enxi.pk,Replied,Medium,2024-09-24
-Biomedical Service Ticket 00114,Medix Diagnostic Lab 34,ops0114@enxi.pk,Closed,High,2025-10-17
-Biomedical Service Ticket 00115,Medix Clinic 39,ops0115@enxi.pk,Closed,High,2024-12-04
-Biomedical Service Ticket 00116,Medix Hospital 18,ops0116@enxi.pk,Replied,Medium,2025-01-16
-Biomedical Service Ticket 00117,Prime Medical College 31,ops0117@enxi.pk,Resolved,Medium,2025-12-02
-Biomedical Service Ticket 00118,Jinnah Hospital 10,ops0118@enxi.pk,Resolved,Medium,2025-08-20
-Biomedical Service Ticket 00119,Medix Clinic 23,ops0119@enxi.pk,Resolved,Medium,2025-09-15
-Biomedical Service Ticket 00120,Noor Hospital 20,ops0120@enxi.pk,Closed,High,2024-11-16
-Biomedical Service Ticket 00121,Lahore Diagnostic Medical College 26,ops0121@enxi.pk,Closed,Low,2026-02-20
-Biomedical Service Ticket 00122,Lahore Diagnostic Medical College 26,ops0122@enxi.pk,Open,Medium,2024-05-01
-Biomedical Service Ticket 00123,Medix Clinic 23,ops0123@enxi.pk,Replied,Medium,2025-03-30
-Biomedical Service Ticket 00124,Medix Hospital 18,ops0124@enxi.pk,Open,High,2025-10-20
-Biomedical Service Ticket 00125,City Care Clinic 13,ops0125@enxi.pk,Replied,High,2025-07-09
-Biomedical Service Ticket 00126,Central Clinic 17,ops0126@enxi.pk,Resolved,Medium,2024-10-18
-Biomedical Service Ticket 00127,Jinnah Medical College 02,ops0127@enxi.pk,Resolved,Medium,2025-06-02
-Biomedical Service Ticket 00128,Lahore Diagnostic Diagnostic Lab 25,ops0128@enxi.pk,Resolved,High,2024-12-18
-Biomedical Service Ticket 00129,Central Clinic 36,ops0129@enxi.pk,Replied,Low,2026-02-15
-Biomedical Service Ticket 00130,Services Clinic 40,ops0130@enxi.pk,Closed,Medium,2024-09-18
-Biomedical Service Ticket 00131,Medix Diagnostic Lab 07,ops0131@enxi.pk,Open,Low,2024-12-20
-Biomedical Service Ticket 00132,Noor Medical College 11,ops0132@enxi.pk,Resolved,High,2025-08-07
-Biomedical Service Ticket 00133,Prime Medical College 31,ops0133@enxi.pk,Closed,Low,2026-01-28
-Biomedical Service Ticket 00134,Lahore Diagnostic Diagnostic Lab 25,ops0134@enxi.pk,Closed,Low,2024-04-27
-Biomedical Service Ticket 00135,Medix Hospital 18,ops0135@enxi.pk,Closed,Low,2025-11-21
-Biomedical Service Ticket 00136,Medix Diagnostic Lab 07,ops0136@enxi.pk,Open,High,2025-04-24
-Biomedical Service Ticket 00137,Shalimar Medical College 22,ops0137@enxi.pk,Resolved,High,2024-09-13
-Biomedical Service Ticket 00138,Central Clinic 24,ops0138@enxi.pk,Closed,Medium,2026-02-04
-Biomedical Service Ticket 00139,Prime Hospital 08,ops0139@enxi.pk,Closed,Low,2024-12-28
-Biomedical Service Ticket 00140,Lahore Diagnostic Hospital 05,ops0140@enxi.pk,Resolved,High,2024-12-16
-Biomedical Service Ticket 00141,Prime Diagnostic Lab 27,ops0141@enxi.pk,Replied,Low,2024-03-17
-Biomedical Service Ticket 00142,LifeLine Hospital 38,ops0142@enxi.pk,Resolved,High,2025-05-02
-Biomedical Service Ticket 00143,City Care Clinic 13,ops0143@enxi.pk,Open,Medium,2024-10-10
-Biomedical Service Ticket 00144,Services Medical College 16,ops0144@enxi.pk,Resolved,High,2024-03-31
-Biomedical Service Ticket 00145,Medix Hospital 35,ops0145@enxi.pk,Resolved,High,2025-05-10
-Biomedical Service Ticket 00146,Medix Diagnostic Lab 34,ops0146@enxi.pk,Resolved,High,2026-01-13
-Biomedical Service Ticket 00147,Jinnah Medical College 02,ops0147@enxi.pk,Replied,Low,2024-07-22
-Biomedical Service Ticket 00148,Shalimar Diagnostic Lab 21,ops0148@enxi.pk,Resolved,Medium,2024-12-18
-Biomedical Service Ticket 00149,Medix Hospital 14,ops0149@enxi.pk,Replied,Medium,2024-12-10
-Biomedical Service Ticket 00150,Services Medical College 30,ops0150@enxi.pk,Replied,Medium,2025-06-28
-Biomedical Service Ticket 00151,Central Clinic 24,ops0151@enxi.pk,Resolved,Low,2025-11-15
-Biomedical Service Ticket 00152,Central Clinic 17,ops0152@enxi.pk,Resolved,High,2025-12-22
-Biomedical Service Ticket 00153,Jinnah Medical College 02,ops0153@enxi.pk,Replied,Low,2025-01-31
-Biomedical Service Ticket 00154,Prime Diagnostic Lab 27,ops0154@enxi.pk,Closed,Medium,2024-06-19
-Biomedical Service Ticket 00155,Noor Medical College 32,ops0155@enxi.pk,Open,High,2024-10-24
-Biomedical Service Ticket 00156,Prime Hospital 04,ops0156@enxi.pk,Resolved,Low,2024-10-28
-Biomedical Service Ticket 00157,Al-Rehman Diagnostic Lab 37,ops0157@enxi.pk,Closed,Low,2024-03-30
-Biomedical Service Ticket 00158,LifeLine Hospital 33,ops0158@enxi.pk,Resolved,High,2026-03-08
-Biomedical Service Ticket 00159,Noor Medical College 32,ops0159@enxi.pk,Resolved,High,2025-02-07
-Biomedical Service Ticket 00160,Shalimar Medical College 22,ops0160@enxi.pk,Open,High,2024-10-24
-Biomedical Service Ticket 00161,Lahore Diagnostic Hospital 05,ops0161@enxi.pk,Open,High,2024-05-16
-Biomedical Service Ticket 00162,Prime Hospital 08,ops0162@enxi.pk,Replied,High,2025-11-28
-Biomedical Service Ticket 00163,Noor Diagnostic Lab 06,ops0163@enxi.pk,Closed,High,2024-12-31
-Biomedical Service Ticket 00164,City Care Clinic 13,ops0164@enxi.pk,Open,High,2026-03-11
-Biomedical Service Ticket 00165,Shalimar Medical College 28,ops0165@enxi.pk,Resolved,Medium,2025-11-25
-Biomedical Service Ticket 00166,Jinnah Hospital 29,ops0166@enxi.pk,Replied,High,2025-06-26
-Biomedical Service Ticket 00167,Shalimar Medical College 22,ops0167@enxi.pk,Open,Low,2025-11-04
-Biomedical Service Ticket 00168,Al-Rehman Diagnostic Lab 37,ops0168@enxi.pk,Resolved,Medium,2025-05-16
-Biomedical Service Ticket 00169,Medix Diagnostic Lab 34,ops0169@enxi.pk,Closed,Low,2025-12-22
-Biomedical Service Ticket 00170,Lahore Diagnostic Medical College 26,ops0170@enxi.pk,Resolved,Low,2025-11-11
-Biomedical Service Ticket 00171,Services Clinic 40,ops0171@enxi.pk,Closed,Low,2025-02-11
-Biomedical Service Ticket 00172,Services Diagnostic Lab 01,ops0172@enxi.pk,Replied,Medium,2025-09-17
-Biomedical Service Ticket 00173,Shalimar Medical College 28,ops0173@enxi.pk,Replied,Medium,2025-04-14
-Biomedical Service Ticket 00174,Prime Clinic 15,ops0174@enxi.pk,Resolved,High,2025-07-12
-Biomedical Service Ticket 00175,Services Medical College 30,ops0175@enxi.pk,Replied,High,2025-10-04
-Biomedical Service Ticket 00176,Medix Clinic 23,ops0176@enxi.pk,Replied,Low,2024-03-24
-Biomedical Service Ticket 00177,Jinnah Hospital 10,ops0177@enxi.pk,Replied,Medium,2025-02-26
-Biomedical Service Ticket 00178,Medix Clinic 12,ops0178@enxi.pk,Open,Low,2025-02-23
-Biomedical Service Ticket 00179,Medix Hospital 35,ops0179@enxi.pk,Open,Low,2025-02-02
-Biomedical Service Ticket 00180,Medix Hospital 35,ops0180@enxi.pk,Resolved,Low,2025-03-01
-Biomedical Service Ticket 00181,Shalimar Diagnostic Lab 21,ops0181@enxi.pk,Resolved,Low,2025-06-10
-Biomedical Service Ticket 00182,Medix Hospital 14,ops0182@enxi.pk,Replied,Medium,2024-08-14
-Biomedical Service Ticket 00183,Noor Medical College 11,ops0183@enxi.pk,Closed,Medium,2025-06-28
-Biomedical Service Ticket 00184,Prime Clinic 15,ops0184@enxi.pk,Replied,Medium,2025-08-04
-Biomedical Service Ticket 00185,Jinnah Medical College 02,ops0185@enxi.pk,Replied,Medium,2024-10-13
-Biomedical Service Ticket 00186,Prime Hospital 08,ops0186@enxi.pk,Closed,Low,2025-09-08
-Biomedical Service Ticket 00187,Jinnah Hospital 29,ops0187@enxi.pk,Replied,Medium,2026-02-24
-Biomedical Service Ticket 00188,Prime Hospital 04,ops0188@enxi.pk,Closed,Medium,2024-09-02
-Biomedical Service Ticket 00189,Lahore Diagnostic Medical College 26,ops0189@enxi.pk,Replied,Low,2026-01-30
-Biomedical Service Ticket 00190,Lahore Diagnostic Diagnostic Lab 25,ops0190@enxi.pk,Open,Low,2025-04-15
-Biomedical Service Ticket 00191,Medix Clinic 12,ops0191@enxi.pk,Open,Low,2024-11-28
-Biomedical Service Ticket 00192,Medix Hospital 14,ops0192@enxi.pk,Open,Medium,2025-04-28
-Biomedical Service Ticket 00193,Medix Clinic 39,ops0193@enxi.pk,Resolved,High,2024-04-14
-Biomedical Service Ticket 00194,Shalimar Diagnostic Lab 21,ops0194@enxi.pk,Closed,Low,2026-01-17
-Biomedical Service Ticket 00195,Medix Hospital 14,ops0195@enxi.pk,Open,High,2025-10-18
-Biomedical Service Ticket 00196,Central Clinic 24,ops0196@enxi.pk,Closed,Medium,2024-05-31
-Biomedical Service Ticket 00197,LifeLine Hospital 33,ops0197@enxi.pk,Open,Medium,2025-12-18
-Biomedical Service Ticket 00198,Jinnah Medical College 02,ops0198@enxi.pk,Open,Medium,2025-07-23
-Biomedical Service Ticket 00199,Prime Diagnostic Lab 27,ops0199@enxi.pk,Closed,Low,2025-10-07
-Biomedical Service Ticket 00200,Medix Clinic 23,ops0200@enxi.pk,Resolved,Medium,2025-02-28
-Biomedical Service Ticket 00201,Lahore Diagnostic Hospital 05,ops0201@enxi.pk,Closed,High,2024-06-05
-Biomedical Service Ticket 00202,Noor Hospital 20,ops0202@enxi.pk,Replied,High,2024-10-10
-Biomedical Service Ticket 00203,Noor Diagnostic Lab 06,ops0203@enxi.pk,Closed,Medium,2025-09-05
-Biomedical Service Ticket 00204,Jinnah Medical College 02,ops0204@enxi.pk,Resolved,High,2025-03-25
-Biomedical Service Ticket 00205,Shalimar Diagnostic Lab 21,ops0205@enxi.pk,Open,Low,2025-01-17
-Biomedical Service Ticket 00206,Services Medical College 16,ops0206@enxi.pk,Replied,High,2025-01-04
-Biomedical Service Ticket 00207,Services Diagnostic Lab 01,ops0207@enxi.pk,Replied,High,2025-01-28
-Biomedical Service Ticket 00208,Jinnah Hospital 10,ops0208@enxi.pk,Replied,High,2025-06-17
-Biomedical Service Ticket 00209,Prime Medical College 31,ops0209@enxi.pk,Open,Low,2026-01-31
-Biomedical Service Ticket 00210,Medix Clinic 39,ops0210@enxi.pk,Replied,High,2025-07-03
-Biomedical Service Ticket 00211,Shalimar Diagnostic Lab 19,ops0211@enxi.pk,Resolved,High,2024-04-11
-Biomedical Service Ticket 00212,Prime Diagnostic Lab 27,ops0212@enxi.pk,Replied,Medium,2024-08-18
-Biomedical Service Ticket 00213,Medix Clinic 12,ops0213@enxi.pk,Replied,High,2025-12-11
-Biomedical Service Ticket 00214,Jinnah Hospital 10,ops0214@enxi.pk,Replied,Medium,2025-10-31
-Biomedical Service Ticket 00215,Prime Hospital 08,ops0215@enxi.pk,Replied,Low,2024-08-29
-Biomedical Service Ticket 00216,Noor Medical College 32,ops0216@enxi.pk,Replied,Medium,2025-12-11
-Biomedical Service Ticket 00217,Lahore Diagnostic Medical College 26,ops0217@enxi.pk,Resolved,Medium,2025-03-07
-Biomedical Service Ticket 00218,Services Clinic 40,ops0218@enxi.pk,Resolved,Low,2025-10-11
-Biomedical Service Ticket 00219,Jinnah Medical College 02,ops0219@enxi.pk,Resolved,Low,2025-05-27
-Biomedical Service Ticket 00220,Prime Medical College 31,ops0220@enxi.pk,Open,High,2025-05-11
-Biomedical Service Ticket 00221,Jinnah Hospital 10,ops0221@enxi.pk,Closed,Low,2024-04-04
-Biomedical Service Ticket 00222,Medix Hospital 35,ops0222@enxi.pk,Closed,High,2024-12-27
-Biomedical Service Ticket 00223,Medix Diagnostic Lab 34,ops0223@enxi.pk,Replied,Low,2025-10-02
-Biomedical Service Ticket 00224,Medix Diagnostic Lab 07,ops0224@enxi.pk,Open,Medium,2025-07-27
-Biomedical Service Ticket 00225,Prime Clinic 15,ops0225@enxi.pk,Open,Medium,2024-11-07
-Biomedical Service Ticket 00226,Lahore Diagnostic Hospital 05,ops0226@enxi.pk,Open,Medium,2025-03-31
-Biomedical Service Ticket 00227,Services Medical College 30,ops0227@enxi.pk,Closed,High,2025-09-13
-Biomedical Service Ticket 00228,Jinnah Hospital 29,ops0228@enxi.pk,Replied,High,2024-07-24
-Biomedical Service Ticket 00229,Services Diagnostic Lab 01,ops0229@enxi.pk,Resolved,Medium,2025-04-03
-Biomedical Service Ticket 00230,Prime Medical College 31,ops0230@enxi.pk,Resolved,Low,2025-11-23
-Biomedical Service Ticket 00231,Shalimar Diagnostic Lab 21,ops0231@enxi.pk,Resolved,High,2024-07-16
-Biomedical Service Ticket 00232,Medix Diagnostic Lab 07,ops0232@enxi.pk,Closed,Medium,2024-06-19
-Biomedical Service Ticket 00233,Al-Rehman Diagnostic Lab 37,ops0233@enxi.pk,Replied,Low,2025-04-21
-Biomedical Service Ticket 00234,Prime Clinic 15,ops0234@enxi.pk,Replied,Low,2024-10-21
-Biomedical Service Ticket 00235,Prime Clinic 15,ops0235@enxi.pk,Open,High,2024-10-14
-Biomedical Service Ticket 00236,Medix Diagnostic Lab 07,ops0236@enxi.pk,Closed,Medium,2024-07-03
-Biomedical Service Ticket 00237,Services Clinic 40,ops0237@enxi.pk,Open,Low,2025-10-17
-Biomedical Service Ticket 00238,Prime Clinic 15,ops0238@enxi.pk,Resolved,Low,2025-01-02
-Biomedical Service Ticket 00239,Noor Hospital 20,ops0239@enxi.pk,Resolved,High,2024-09-10
-Biomedical Service Ticket 00240,Services Medical College 30,ops0240@enxi.pk,Resolved,Low,2024-08-21
-Biomedical Service Ticket 00241,Shalimar Diagnostic Lab 21,ops0241@enxi.pk,Closed,Medium,2025-04-26
-Biomedical Service Ticket 00242,Jinnah Hospital 10,ops0242@enxi.pk,Open,High,2025-09-26
-Biomedical Service Ticket 00243,Lahore Diagnostic Diagnostic Lab 25,ops0243@enxi.pk,Open,Low,2025-05-04
-Biomedical Service Ticket 00244,Medix Clinic 12,ops0244@enxi.pk,Open,Low,2025-03-07
-Biomedical Service Ticket 00245,Jinnah Diagnostic Lab 03,ops0245@enxi.pk,Replied,Low,2024-10-20
-Biomedical Service Ticket 00246,Lahore Diagnostic Medical College 26,ops0246@enxi.pk,Resolved,Low,2025-05-14
-Biomedical Service Ticket 00247,Al-Rehman Diagnostic Lab 37,ops0247@enxi.pk,Closed,Medium,2025-11-15
-Biomedical Service Ticket 00248,Medix Clinic 23,ops0248@enxi.pk,Replied,High,2024-12-22
-Biomedical Service Ticket 00249,Al-Rehman Diagnostic Lab 37,ops0249@enxi.pk,Closed,Medium,2025-02-02
-Biomedical Service Ticket 00250,Medix Hospital 14,ops0250@enxi.pk,Closed,High,2025-03-18
-Biomedical Service Ticket 00251,Central Clinic 17,ops0251@enxi.pk,Closed,Low,2025-12-17
-Biomedical Service Ticket 00252,Medix Hospital 18,ops0252@enxi.pk,Resolved,Medium,2024-06-28
-Biomedical Service Ticket 00253,Medix Clinic 12,ops0253@enxi.pk,Resolved,Medium,2026-01-21
-Biomedical Service Ticket 00254,Noor Medical College 32,ops0254@enxi.pk,Closed,High,2026-02-13
-Biomedical Service Ticket 00255,Medix Diagnostic Lab 07,ops0255@enxi.pk,Resolved,High,2025-12-20
-Biomedical Service Ticket 00256,Central Clinic 17,ops0256@enxi.pk,Open,Medium,2025-12-23
-Biomedical Service Ticket 00257,Shalimar Medical College 28,ops0257@enxi.pk,Open,High,2025-01-31
-Biomedical Service Ticket 00258,Mayo Diagnostic Lab 09,ops0258@enxi.pk,Open,Low,2025-08-08
-Biomedical Service Ticket 00259,Services Medical College 30,ops0259@enxi.pk,Open,Low,2025-09-11
-Biomedical Service Ticket 00260,Central Clinic 36,ops0260@enxi.pk,Resolved,Low,2025-09-08
+Equipment Malfunction - Allied Teaching Hospital 18 #00001,Allied Teaching Hospital 18,support0001@enxi.pk,Resolved,Urgent,2024-03-13
+Preventive Maintenance Due - LifeLine Medical Center 49 #00002,LifeLine Medical Center 49,support0002@enxi.pk,Open,Medium,2024-03-20
+Billing Inquiry - Combined Military Teaching Hos #00003,Combined Military Teaching Hospital 19,support0003@enxi.pk,Open,Urgent,2024-03-21
+Incinerator Issue - Ittefaq Private Hospital 24 #00004,Ittefaq Private Hospital 24,support0004@enxi.pk,Closed,Low,2024-03-22
+Preventive Maintenance Due - Allied Teaching Hospital 18 #00005,Allied Teaching Hospital 18,support0005@enxi.pk,Open,High,2024-03-23
+Billing Inquiry - Central Park Medical Center 36 #00006,Central Park Medical Center 36,support0006@enxi.pk,Closed,Urgent,2024-03-23
+Training Request - City Care Tertiary Hospital 06 #00007,City Care Tertiary Hospital 06,support0007@enxi.pk,Closed,High,2024-03-24
+Calibration Required - Allied Teaching Hospital 18 #00008,Allied Teaching Hospital 18,support0008@enxi.pk,Closed,Medium,2024-03-28
+Pickup Schedule Change - Shaukat Khanum Medical Center  #00009,Shaukat Khanum Medical Center 50,support0009@enxi.pk,Resolved,Urgent,2024-03-31
+Fleet Breakdown - Shalimar Tertiary Hospital 04 #00010,Shalimar Tertiary Hospital 04,support0010@enxi.pk,Resolved,Urgent,2024-04-02
+Preventive Maintenance Due - Lady Aitchison Specialist Clin #00011,Lady Aitchison Specialist Clinic 31,support0011@enxi.pk,Open,Low,2024-04-02
+Training Request - Al-Rehman Tertiary Hospital 08 #00012,Al-Rehman Tertiary Hospital 08,support0012@enxi.pk,Closed,Urgent,2024-04-05
+Equipment Malfunction - Shaukat Khanum Medical Center  #00013,Shaukat Khanum Medical Center 50,support0013@enxi.pk,Replied,Medium,2024-04-07
+Compliance Query - Medix District Hospital 11 #00014,Medix District Hospital 11,support0014@enxi.pk,Closed,Low,2024-04-07
+Pickup Schedule Change - Ghurki Trust Medical Center 45 #00015,Ghurki Trust Medical Center 45,support0015@enxi.pk,Resolved,Medium,2024-04-08
+Equipment Malfunction - Wapda Teaching Medical Center  #00016,Wapda Teaching Medical Center 51,support0016@enxi.pk,Closed,Medium,2024-04-12
+Pickup Schedule Change - LifeLine Tertiary Hospital 09 #00017,LifeLine Tertiary Hospital 09,support0017@enxi.pk,Closed,Urgent,2024-04-12
+Training Request - Shaukat Khanum Medical Center  #00018,Shaukat Khanum Medical Center 50,support0018@enxi.pk,Closed,High,2024-04-12
+Incinerator Issue - CMH Medical Center 39 #00019,CMH Medical Center 39,support0019@enxi.pk,Open,Medium,2024-04-13
+Equipment Malfunction - Sheikh Zayed Medical Center 41 #00020,Sheikh Zayed Medical Center 41,support0020@enxi.pk,Resolved,Medium,2024-04-14
+Preventive Maintenance Due - Sir Ganga Ram Medical Center 3 #00021,Sir Ganga Ram Medical Center 33,support0021@enxi.pk,Closed,Urgent,2024-04-16
+Emergency Waste Pickup - Sir Ganga Ram Medical Center 4 #00022,Sir Ganga Ram Medical Center 40,support0022@enxi.pk,Replied,High,2024-04-17
+Emergency Waste Pickup - Surgimed Diagnostic Laboratory #00023,Surgimed Diagnostic Laboratory 26,support0023@enxi.pk,Replied,High,2024-04-19
+Equipment Malfunction - Children Maternity Hospital 30 #00024,Children Maternity Hospital 30,support0024@enxi.pk,Resolved,Low,2024-04-20
+Incinerator Issue - Noor Tertiary Hospital 07 #00025,Noor Tertiary Hospital 07,support0025@enxi.pk,Replied,Low,2024-04-20
+Training Request - City Care Tertiary Hospital 06 #00026,City Care Tertiary Hospital 06,support0026@enxi.pk,Closed,High,2024-04-21
+Calibration Required - Shaukat Khanum District Hospit #00027,Shaukat Khanum District Hospital 16,support0027@enxi.pk,Replied,Low,2024-04-22
+Pickup Schedule Change - Agha Khan Lab Medical Center 5 #00028,Agha Khan Lab Medical Center 53,support0028@enxi.pk,Resolved,Urgent,2024-04-23
+Compliance Query - Agha Khan Lab Medical Center 5 #00029,Agha Khan Lab Medical Center 53,support0029@enxi.pk,Open,Low,2024-04-25
+Installation Support - Medix District Hospital 11 #00030,Medix District Hospital 11,support0030@enxi.pk,Resolved,Low,2024-04-26
+Installation Support - Agha Khan Lab Medical Center 5 #00031,Agha Khan Lab Medical Center 53,support0031@enxi.pk,Open,Low,2024-04-27
+Pickup Schedule Change - Shaukat Khanum District Hospit #00032,Shaukat Khanum District Hospital 16,support0032@enxi.pk,Replied,Urgent,2024-04-27
+Waste Container Replacement - Allied Teaching Hospital 18 #00033,Allied Teaching Hospital 18,support0033@enxi.pk,Replied,High,2024-04-29
+Incinerator Issue - Doctors Private Hospital 25 #00034,Doctors Private Hospital 25,support0034@enxi.pk,Closed,High,2024-05-06
+Fleet Breakdown - Jinnah Tertiary Hospital 02 #00035,Jinnah Tertiary Hospital 02,support0035@enxi.pk,Resolved,Medium,2024-05-06
+Calibration Required - Doctors Private Hospital 25 #00036,Doctors Private Hospital 25,support0036@enxi.pk,Resolved,Low,2024-05-07
+Incinerator Issue - Ghurki Trust Medical Center 42 #00037,Ghurki Trust Medical Center 42,support0037@enxi.pk,Replied,Medium,2024-05-15
+Preventive Maintenance Due - Al-Rehman Tertiary Hospital 08 #00038,Al-Rehman Tertiary Hospital 08,support0038@enxi.pk,Resolved,High,2024-05-15
+Incinerator Issue - Noor Tertiary Hospital 07 #00039,Noor Tertiary Hospital 07,support0039@enxi.pk,Open,Low,2024-05-16
+Equipment Malfunction - Citi Lab Medical Center 38 #00040,Citi Lab Medical Center 38,support0040@enxi.pk,Replied,Low,2024-05-16
+Equipment Malfunction - Doctors Private Hospital 25 #00041,Doctors Private Hospital 25,support0041@enxi.pk,Closed,Low,2024-05-17
+Fleet Breakdown - Shaukat Khanum District Hospit #00042,Shaukat Khanum District Hospital 16,support0042@enxi.pk,Closed,Medium,2024-05-18
+Equipment Malfunction - Shalimar Tertiary Hospital 04 #00043,Shalimar Tertiary Hospital 04,support0043@enxi.pk,Resolved,Medium,2024-05-18
+Preventive Maintenance Due - Punjab District Hospital 12 #00044,Punjab District Hospital 12,support0044@enxi.pk,Resolved,High,2024-05-19
+Incinerator Issue - Medix District Hospital 11 #00045,Medix District Hospital 11,support0045@enxi.pk,Closed,Urgent,2024-05-20
+Waste Container Replacement - Ghurki Trust Medical Center 42 #00046,Ghurki Trust Medical Center 42,support0046@enxi.pk,Resolved,Medium,2024-05-23
+Pickup Schedule Change - Central Park Medical Center 36 #00047,Central Park Medical Center 36,support0047@enxi.pk,Replied,High,2024-05-23
+Billing Inquiry - Shaukat Khanum Medical Center  #00048,Shaukat Khanum Medical Center 50,support0048@enxi.pk,Open,Low,2024-05-23
+Billing Inquiry - National Medical Center 54 #00049,National Medical Center 54,support0049@enxi.pk,Open,High,2024-05-25
+Emergency Waste Pickup - Social Security Medical Center #00050,Social Security Medical Center 43,support0050@enxi.pk,Resolved,High,2024-05-27
+Calibration Required - National Medical Center 48 #00051,National Medical Center 48,support0051@enxi.pk,Closed,Low,2024-05-28
+Pickup Schedule Change - Allied Medical Center 35 #00052,Allied Medical Center 35,support0052@enxi.pk,Resolved,High,2024-05-29
+Installation Support - Sheikh Zayed District Hospital #00053,Sheikh Zayed District Hospital 14,support0053@enxi.pk,Resolved,Medium,2024-05-29
+Training Request - Surgimed Diagnostic Laboratory #00054,Surgimed Diagnostic Laboratory 26,support0054@enxi.pk,Replied,High,2024-06-02
+Training Request - Shalimar Tertiary Hospital 04 #00055,Shalimar Tertiary Hospital 04,support0055@enxi.pk,Open,High,2024-06-03
+Emergency Waste Pickup - Wapda Teaching Medical Center  #00056,Wapda Teaching Medical Center 55,support0056@enxi.pk,Resolved,Low,2024-06-06
+Waste Container Replacement - Punjab District Hospital 12 #00057,Punjab District Hospital 12,support0057@enxi.pk,Replied,Medium,2024-06-06
+Training Request - Sharif Medical Private Hospita #00058,Sharif Medical Private Hospital 23,support0058@enxi.pk,Resolved,Medium,2024-06-07
+Compliance Query - Agha Khan Lab Medical Center 5 #00059,Agha Khan Lab Medical Center 53,support0059@enxi.pk,Open,Medium,2024-06-09
+Fleet Breakdown - Social Security Medical Center #00060,Social Security Medical Center 43,support0060@enxi.pk,Resolved,Medium,2024-06-09
+Training Request - Sir Ganga Ram Medical Center 3 #00061,Sir Ganga Ram Medical Center 33,support0061@enxi.pk,Open,High,2024-06-14
+Installation Support - Jinnah Tertiary Hospital 02 #00062,Jinnah Tertiary Hospital 02,support0062@enxi.pk,Resolved,Low,2024-06-17
+Fleet Breakdown - Lahore Eye Medical Center 32 #00063,Lahore Eye Medical Center 32,support0063@enxi.pk,Open,Urgent,2024-06-18
+Waste Container Replacement - Excel Labs Medical Center 52 #00064,Excel Labs Medical Center 52,support0064@enxi.pk,Resolved,High,2024-06-21
+Pickup Schedule Change - Wapda Teaching Medical Center  #00065,Wapda Teaching Medical Center 51,support0065@enxi.pk,Replied,High,2024-06-23
+Pickup Schedule Change - Punjab District Hospital 12 #00066,Punjab District Hospital 12,support0066@enxi.pk,Closed,Urgent,2024-06-26
+Installation Support - Lahore Eye Medical Center 32 #00067,Lahore Eye Medical Center 32,support0067@enxi.pk,Resolved,High,2024-06-27
+Pickup Schedule Change - Shaukat Khanum Medical Center  #00068,Shaukat Khanum Medical Center 50,support0068@enxi.pk,Closed,High,2024-06-28
+Emergency Waste Pickup - Wapda Teaching Medical Center  #00069,Wapda Teaching Medical Center 51,support0069@enxi.pk,Replied,Low,2024-06-28
+Billing Inquiry - Gulab Devi Teaching Hospital 2 #00070,Gulab Devi Teaching Hospital 20,support0070@enxi.pk,Resolved,Low,2024-06-29
+Billing Inquiry - Shalimar Tertiary Hospital 04 #00071,Shalimar Tertiary Hospital 04,support0071@enxi.pk,Open,Urgent,2024-06-29
+Training Request - Sheikh Zayed Medical Center 37 #00072,Sheikh Zayed Medical Center 37,support0072@enxi.pk,Replied,Urgent,2024-07-02
+Training Request - Gulab Devi Teaching Hospital 2 #00073,Gulab Devi Teaching Hospital 20,support0073@enxi.pk,Closed,Medium,2024-07-03
+Incinerator Issue - National Medical Center 48 #00074,National Medical Center 48,support0074@enxi.pk,Closed,High,2024-07-04
+Compliance Query - Excel Labs Medical Center 52 #00075,Excel Labs Medical Center 52,support0075@enxi.pk,Replied,Urgent,2024-07-06
+Emergency Waste Pickup - Children Maternity Hospital 30 #00076,Children Maternity Hospital 30,support0076@enxi.pk,Replied,High,2024-07-09
+Pickup Schedule Change - Ghurki Trust Medical Center 42 #00077,Ghurki Trust Medical Center 42,support0077@enxi.pk,Closed,Low,2024-07-12
+Preventive Maintenance Due - Citi Lab Medical Center 38 #00078,Citi Lab Medical Center 38,support0078@enxi.pk,Replied,Low,2024-07-14
+Pickup Schedule Change - Jinnah Tertiary Hospital 02 #00079,Jinnah Tertiary Hospital 02,support0079@enxi.pk,Open,Urgent,2024-07-18
+Compliance Query - Medix District Hospital 11 #00080,Medix District Hospital 11,support0080@enxi.pk,Resolved,High,2024-07-20
+Waste Container Replacement - Prime Medical Center 47 #00081,Prime Medical Center 47,support0081@enxi.pk,Closed,Low,2024-07-21
+Billing Inquiry - City Care Tertiary Hospital 06 #00082,City Care Tertiary Hospital 06,support0082@enxi.pk,Open,Medium,2024-07-21
+Incinerator Issue - Prime Tertiary Hospital 10 #00083,Prime Tertiary Hospital 10,support0083@enxi.pk,Resolved,Urgent,2024-07-22
+Installation Support - Jinnah Tertiary Hospital 02 #00084,Jinnah Tertiary Hospital 02,support0084@enxi.pk,Replied,Urgent,2024-07-22
+Compliance Query - LifeLine Tertiary Hospital 09 #00085,LifeLine Tertiary Hospital 09,support0085@enxi.pk,Open,Urgent,2024-07-23
+Waste Container Replacement - Combined Military Teaching Hos #00086,Combined Military Teaching Hospital 19,support0086@enxi.pk,Open,Urgent,2024-07-26
+Equipment Malfunction - Shaukat Khanum Medical Center  #00087,Shaukat Khanum Medical Center 50,support0087@enxi.pk,Replied,Medium,2024-07-27
+Equipment Malfunction - Ittefaq Private Hospital 24 #00088,Ittefaq Private Hospital 24,support0088@enxi.pk,Replied,High,2024-07-27
+Incinerator Issue - Shaukat Khanum District Hospit #00089,Shaukat Khanum District Hospital 16,support0089@enxi.pk,Resolved,High,2024-07-28
+Installation Support - Prime Tertiary Hospital 10 #00090,Prime Tertiary Hospital 10,support0090@enxi.pk,Resolved,Medium,2024-08-01
+Waste Container Replacement - Surgimed Medical Center 44 #00091,Surgimed Medical Center 44,support0091@enxi.pk,Closed,Low,2024-08-02
+Installation Support - Wapda Teaching Medical Center  #00092,Wapda Teaching Medical Center 51,support0092@enxi.pk,Resolved,Urgent,2024-08-02
+Pickup Schedule Change - Prime Medical Center 47 #00093,Prime Medical Center 47,support0093@enxi.pk,Resolved,High,2024-08-02
+Fleet Breakdown - CMH Medical Center 39 #00094,CMH Medical Center 39,support0094@enxi.pk,Resolved,High,2024-08-02
+Installation Support - National Medical Center 54 #00095,National Medical Center 54,support0095@enxi.pk,Open,Medium,2024-08-03
+Fleet Breakdown - Farooq Maternity Hospital 29 #00096,Farooq Maternity Hospital 29,support0096@enxi.pk,Replied,Low,2024-08-04
+Fleet Breakdown - Lahore Eye Medical Center 32 #00097,Lahore Eye Medical Center 32,support0097@enxi.pk,Resolved,Medium,2024-08-09
+Fleet Breakdown - Farooq Maternity Hospital 29 #00098,Farooq Maternity Hospital 29,support0098@enxi.pk,Open,Medium,2024-08-15
+Calibration Required - LifeLine Tertiary Hospital 09 #00099,LifeLine Tertiary Hospital 09,support0099@enxi.pk,Resolved,Low,2024-08-23
+Waste Container Replacement - Medix District Hospital 11 #00100,Medix District Hospital 11,support0100@enxi.pk,Replied,Urgent,2024-08-24
+Calibration Required - Social Security Medical Center #00101,Social Security Medical Center 43,support0101@enxi.pk,Closed,Urgent,2024-08-24
+Installation Support - Noor Tertiary Hospital 07 #00102,Noor Tertiary Hospital 07,support0102@enxi.pk,Closed,High,2024-08-25
+Equipment Malfunction - Children Medical Center 46 #00103,Children Medical Center 46,support0103@enxi.pk,Resolved,Low,2024-08-27
+Fleet Breakdown - Allied Teaching Hospital 18 #00104,Allied Teaching Hospital 18,support0104@enxi.pk,Closed,High,2024-09-03
+Compliance Query - Social Security Medical Center #00105,Social Security Medical Center 43,support0105@enxi.pk,Open,Low,2024-09-04
+Training Request - Medix District Hospital 11 #00106,Medix District Hospital 11,support0106@enxi.pk,Closed,Medium,2024-09-15
+Preventive Maintenance Due - Sir Ganga Ram Medical Center 3 #00107,Sir Ganga Ram Medical Center 33,support0107@enxi.pk,Open,Low,2024-09-16
+Equipment Malfunction - Sharif Medical Private Hospita #00108,Sharif Medical Private Hospital 23,support0108@enxi.pk,Replied,Medium,2024-09-18
+Fleet Breakdown - Allied Medical Center 35 #00109,Allied Medical Center 35,support0109@enxi.pk,Replied,Low,2024-09-20
+Incinerator Issue - Lady Aitchison Specialist Clin #00110,Lady Aitchison Specialist Clinic 31,support0110@enxi.pk,Resolved,High,2024-09-21
+Compliance Query - Citi Lab Medical Center 38 #00111,Citi Lab Medical Center 38,support0111@enxi.pk,Replied,Medium,2024-09-23
+Billing Inquiry - Farooq Maternity Hospital 29 #00112,Farooq Maternity Hospital 29,support0112@enxi.pk,Closed,Urgent,2024-09-24
+Pickup Schedule Change - Wapda Teaching Medical Center  #00113,Wapda Teaching Medical Center 51,support0113@enxi.pk,Replied,Medium,2024-09-25
+Waste Container Replacement - Sir Ganga Ram Medical Center 4 #00114,Sir Ganga Ram Medical Center 40,support0114@enxi.pk,Resolved,High,2024-09-28
+Waste Container Replacement - Sheikh Zayed District Hospital #00115,Sheikh Zayed District Hospital 14,support0115@enxi.pk,Closed,Medium,2024-09-29
+Calibration Required - Prime Medical Center 47 #00116,Prime Medical Center 47,support0116@enxi.pk,Closed,Medium,2024-10-01
+Billing Inquiry - CMH Medical Center 39 #00117,CMH Medical Center 39,support0117@enxi.pk,Replied,Low,2024-10-02
+Compliance Query - Agha Khan Lab Medical Center 5 #00118,Agha Khan Lab Medical Center 53,support0118@enxi.pk,Open,Low,2024-10-07
+Calibration Required - Mayo Tertiary Hospital 01 #00119,Mayo Tertiary Hospital 01,support0119@enxi.pk,Closed,Low,2024-10-08
+Installation Support - Lahore Eye Medical Center 32 #00120,Lahore Eye Medical Center 32,support0120@enxi.pk,Replied,Low,2024-10-11
+Waste Container Replacement - National District Hospital 17 #00121,National District Hospital 17,support0121@enxi.pk,Resolved,Urgent,2024-10-12
+Incinerator Issue - Sheikh Zayed Medical Center 37 #00122,Sheikh Zayed Medical Center 37,support0122@enxi.pk,Closed,High,2024-10-16
+Installation Support - Sheikh Zayed District Hospital #00123,Sheikh Zayed District Hospital 14,support0123@enxi.pk,Open,High,2024-10-16
+Installation Support - Sharif Medical Private Hospita #00124,Sharif Medical Private Hospital 23,support0124@enxi.pk,Replied,Low,2024-10-19
+Compliance Query - Jinnah Tertiary Hospital 02 #00125,Jinnah Tertiary Hospital 02,support0125@enxi.pk,Replied,Low,2024-10-20
+Emergency Waste Pickup - Central Park Medical Center 36 #00126,Central Park Medical Center 36,support0126@enxi.pk,Replied,Low,2024-10-20
+Installation Support - Central Park Medical Center 36 #00127,Central Park Medical Center 36,support0127@enxi.pk,Replied,Low,2024-10-22
+Emergency Waste Pickup - Social Security Medical Center #00128,Social Security Medical Center 43,support0128@enxi.pk,Resolved,Low,2024-10-26
+Emergency Waste Pickup - Lady Aitchison Specialist Clin #00129,Lady Aitchison Specialist Clinic 31,support0129@enxi.pk,Replied,Medium,2024-10-26
+Installation Support - Children Maternity Hospital 30 #00130,Children Maternity Hospital 30,support0130@enxi.pk,Replied,Low,2024-10-28
+Emergency Waste Pickup - LifeLine Tertiary Hospital 09 #00131,LifeLine Tertiary Hospital 09,support0131@enxi.pk,Closed,Medium,2024-10-31
+Preventive Maintenance Due - Allied Teaching Hospital 18 #00132,Allied Teaching Hospital 18,support0132@enxi.pk,Resolved,High,2024-11-01
+Calibration Required - Shalimar Tertiary Hospital 04 #00133,Shalimar Tertiary Hospital 04,support0133@enxi.pk,Closed,High,2024-11-02
+Incinerator Issue - CMH Medical Center 39 #00134,CMH Medical Center 39,support0134@enxi.pk,Open,Medium,2024-11-02
+Training Request - Hafeez Diagnostic Laboratory 2 #00135,Hafeez Diagnostic Laboratory 27,support0135@enxi.pk,Open,Low,2024-11-04
+Equipment Malfunction - CMH Medical Center 39 #00136,CMH Medical Center 39,support0136@enxi.pk,Closed,Medium,2024-11-07
+Equipment Malfunction - Punjab District Hospital 12 #00137,Punjab District Hospital 12,support0137@enxi.pk,Closed,Low,2024-11-07
+Preventive Maintenance Due - Medix District Hospital 11 #00138,Medix District Hospital 11,support0138@enxi.pk,Resolved,High,2024-11-08
+Waste Container Replacement - Punjab District Hospital 12 #00139,Punjab District Hospital 12,support0139@enxi.pk,Resolved,Urgent,2024-11-09
+Equipment Malfunction - Shaukat Khanum Medical Center  #00140,Shaukat Khanum Medical Center 50,support0140@enxi.pk,Replied,Medium,2024-11-10
+Preventive Maintenance Due - Sheikh Zayed District Hospital #00141,Sheikh Zayed District Hospital 14,support0141@enxi.pk,Resolved,Urgent,2024-11-10
+Preventive Maintenance Due - Sharif Medical Private Hospita #00142,Sharif Medical Private Hospital 23,support0142@enxi.pk,Closed,High,2024-11-11
+Emergency Waste Pickup - Farooq Maternity Hospital 29 #00143,Farooq Maternity Hospital 29,support0143@enxi.pk,Open,Medium,2024-11-11
+Waste Container Replacement - Medix District Hospital 11 #00144,Medix District Hospital 11,support0144@enxi.pk,Open,Low,2024-11-13
+Billing Inquiry - Wapda Teaching Medical Center  #00145,Wapda Teaching Medical Center 51,support0145@enxi.pk,Open,High,2024-11-16
+Installation Support - Central Park Tertiary Hospital #00146,Central Park Tertiary Hospital 05,support0146@enxi.pk,Resolved,Low,2024-11-17
+Fleet Breakdown - Medix District Hospital 11 #00147,Medix District Hospital 11,support0147@enxi.pk,Resolved,Low,2024-11-20
+Equipment Malfunction - Hameed Latif District Hospital #00148,Hameed Latif District Hospital 15,support0148@enxi.pk,Open,Urgent,2024-11-24
+Incinerator Issue - Sir Ganga Ram Medical Center 3 #00149,Sir Ganga Ram Medical Center 33,support0149@enxi.pk,Closed,Urgent,2024-11-24
+Compliance Query - Ghurki Trust Medical Center 42 #00150,Ghurki Trust Medical Center 42,support0150@enxi.pk,Closed,High,2024-11-25
+Incinerator Issue - Fatima Memorial Private Hospit #00151,Fatima Memorial Private Hospital 22,support0151@enxi.pk,Resolved,Low,2024-11-25
+Compliance Query - Citi Lab Medical Center 38 #00152,Citi Lab Medical Center 38,support0152@enxi.pk,Open,High,2024-11-28
+Equipment Malfunction - Fatima Memorial Private Hospit #00153,Fatima Memorial Private Hospital 22,support0153@enxi.pk,Resolved,Urgent,2024-11-30
+Waste Container Replacement - Punjab District Hospital 12 #00154,Punjab District Hospital 12,support0154@enxi.pk,Closed,Urgent,2024-12-02
+Pickup Schedule Change - Sir Ganga Ram Medical Center 4 #00155,Sir Ganga Ram Medical Center 40,support0155@enxi.pk,Closed,Medium,2024-12-04
+Calibration Required - Farooq Maternity Hospital 29 #00156,Farooq Maternity Hospital 29,support0156@enxi.pk,Closed,High,2024-12-05
+Training Request - Noor Tertiary Hospital 07 #00157,Noor Tertiary Hospital 07,support0157@enxi.pk,Open,High,2024-12-10
+Fleet Breakdown - Shaukat Khanum Medical Center  #00158,Shaukat Khanum Medical Center 50,support0158@enxi.pk,Replied,Low,2024-12-18
+Waste Container Replacement - Gulab Devi Teaching Hospital 2 #00159,Gulab Devi Teaching Hospital 20,support0159@enxi.pk,Resolved,High,2024-12-21
+Incinerator Issue - Services Tertiary Hospital 03 #00160,Services Tertiary Hospital 03,support0160@enxi.pk,Resolved,Urgent,2024-12-21
+Preventive Maintenance Due - Prime Tertiary Hospital 10 #00161,Prime Tertiary Hospital 10,support0161@enxi.pk,Closed,Urgent,2024-12-22
+Incinerator Issue - National District Hospital 17 #00162,National District Hospital 17,support0162@enxi.pk,Replied,High,2024-12-22
+Waste Container Replacement - CMH Medical Center 39 #00163,CMH Medical Center 39,support0163@enxi.pk,Resolved,Low,2024-12-23
+Fleet Breakdown - Aziz Fatimah Diagnostic Labora #00164,Aziz Fatimah Diagnostic Laboratory 28,support0164@enxi.pk,Closed,Urgent,2024-12-23
+Equipment Malfunction - National District Hospital 17 #00165,National District Hospital 17,support0165@enxi.pk,Closed,Urgent,2024-12-24
+Training Request - Sheikh Zayed Medical Center 37 #00166,Sheikh Zayed Medical Center 37,support0166@enxi.pk,Resolved,High,2024-12-25
+Pickup Schedule Change - Farooq Maternity Hospital 29 #00167,Farooq Maternity Hospital 29,support0167@enxi.pk,Open,Low,2024-12-26
+Billing Inquiry - Shalimar Tertiary Hospital 04 #00168,Shalimar Tertiary Hospital 04,support0168@enxi.pk,Closed,Urgent,2025-01-05
+Calibration Required - Ghurki Trust Medical Center 42 #00169,Ghurki Trust Medical Center 42,support0169@enxi.pk,Closed,High,2025-01-07
+Training Request - City Care Tertiary Hospital 06 #00170,City Care Tertiary Hospital 06,support0170@enxi.pk,Closed,Medium,2025-01-07
+Emergency Waste Pickup - Ghurki Trust Medical Center 42 #00171,Ghurki Trust Medical Center 42,support0171@enxi.pk,Closed,High,2025-01-10
+Installation Support - Sheikh Zayed District Hospital #00172,Sheikh Zayed District Hospital 14,support0172@enxi.pk,Closed,Low,2025-01-16
+Calibration Required - Central Park Tertiary Hospital #00173,Central Park Tertiary Hospital 05,support0173@enxi.pk,Resolved,Medium,2025-01-17
+Preventive Maintenance Due - National Medical Center 54 #00174,National Medical Center 54,support0174@enxi.pk,Closed,High,2025-01-18
+Incinerator Issue - Sharif Medical Private Hospita #00175,Sharif Medical Private Hospital 23,support0175@enxi.pk,Replied,High,2025-01-19
+Installation Support - Shaukat Khanum District Hospit #00176,Shaukat Khanum District Hospital 16,support0176@enxi.pk,Open,High,2025-01-19
+Equipment Malfunction - Farooq Maternity Hospital 29 #00177,Farooq Maternity Hospital 29,support0177@enxi.pk,Resolved,Low,2025-01-20
+Incinerator Issue - Lady Aitchison Specialist Clin #00178,Lady Aitchison Specialist Clinic 31,support0178@enxi.pk,Replied,Urgent,2025-01-20
+Preventive Maintenance Due - Sharif Medical Private Hospita #00179,Sharif Medical Private Hospital 23,support0179@enxi.pk,Closed,High,2025-01-22
+Emergency Waste Pickup - Surgimed Diagnostic Laboratory #00180,Surgimed Diagnostic Laboratory 26,support0180@enxi.pk,Replied,Urgent,2025-01-24
+Emergency Waste Pickup - Ghurki Trust Medical Center 45 #00181,Ghurki Trust Medical Center 45,support0181@enxi.pk,Replied,Low,2025-01-25
+Waste Container Replacement - National Medical Center 54 #00182,National Medical Center 54,support0182@enxi.pk,Replied,Urgent,2025-01-27
+Compliance Query - Sheikh Zayed District Hospital #00183,Sheikh Zayed District Hospital 14,support0183@enxi.pk,Closed,Low,2025-01-29
+Compliance Query - Prime Tertiary Hospital 10 #00184,Prime Tertiary Hospital 10,support0184@enxi.pk,Closed,Urgent,2025-01-30
+Preventive Maintenance Due - Punjab District Hospital 12 #00185,Punjab District Hospital 12,support0185@enxi.pk,Replied,Medium,2025-02-01
+Equipment Malfunction - Mayo Tertiary Hospital 01 #00186,Mayo Tertiary Hospital 01,support0186@enxi.pk,Resolved,Urgent,2025-02-01
+Training Request - Social Security Medical Center #00187,Social Security Medical Center 43,support0187@enxi.pk,Resolved,Low,2025-02-02
+Waste Container Replacement - Ittefaq Private Hospital 24 #00188,Ittefaq Private Hospital 24,support0188@enxi.pk,Replied,High,2025-02-02
+Compliance Query - Punjab District Hospital 12 #00189,Punjab District Hospital 12,support0189@enxi.pk,Closed,Urgent,2025-02-08
+Equipment Malfunction - Jinnah Tertiary Hospital 02 #00190,Jinnah Tertiary Hospital 02,support0190@enxi.pk,Open,High,2025-02-08
+Training Request - Lahore Eye Medical Center 32 #00191,Lahore Eye Medical Center 32,support0191@enxi.pk,Replied,Urgent,2025-02-10
+Emergency Waste Pickup - Ghurki Trust Medical Center 42 #00192,Ghurki Trust Medical Center 42,support0192@enxi.pk,Open,Medium,2025-02-14
+Waste Container Replacement - Jinnah Tertiary Hospital 02 #00193,Jinnah Tertiary Hospital 02,support0193@enxi.pk,Resolved,Low,2025-02-15
+Waste Container Replacement - Agha Khan Lab Medical Center 5 #00194,Agha Khan Lab Medical Center 53,support0194@enxi.pk,Closed,High,2025-02-16
+Waste Container Replacement - Ghurki Trust Medical Center 42 #00195,Ghurki Trust Medical Center 42,support0195@enxi.pk,Replied,High,2025-02-17
+Fleet Breakdown - Aziz Fatimah Diagnostic Labora #00196,Aziz Fatimah Diagnostic Laboratory 28,support0196@enxi.pk,Resolved,Urgent,2025-02-18
+Installation Support - Prime Medical Center 47 #00197,Prime Medical Center 47,support0197@enxi.pk,Open,Urgent,2025-02-19
+Equipment Malfunction - Excel Labs Medical Center 52 #00198,Excel Labs Medical Center 52,support0198@enxi.pk,Closed,Low,2025-02-19
+Installation Support - Jinnah Tertiary Hospital 02 #00199,Jinnah Tertiary Hospital 02,support0199@enxi.pk,Resolved,Urgent,2025-02-19
+Pickup Schedule Change - Noor Tertiary Hospital 07 #00200,Noor Tertiary Hospital 07,support0200@enxi.pk,Replied,Medium,2025-02-24
+Equipment Malfunction - Farooq Maternity Hospital 29 #00201,Farooq Maternity Hospital 29,support0201@enxi.pk,Open,High,2025-02-25
+Emergency Waste Pickup - Prime Medical Center 47 #00202,Prime Medical Center 47,support0202@enxi.pk,Open,Urgent,2025-03-01
+Pickup Schedule Change - Gulab Devi Teaching Hospital 2 #00203,Gulab Devi Teaching Hospital 20,support0203@enxi.pk,Replied,Urgent,2025-03-03
+Installation Support - Central Park Medical Center 36 #00204,Central Park Medical Center 36,support0204@enxi.pk,Open,Urgent,2025-03-03
+Training Request - Shaukat Khanum District Hospit #00205,Shaukat Khanum District Hospital 16,support0205@enxi.pk,Closed,Urgent,2025-03-06
+Preventive Maintenance Due - Punjab District Hospital 12 #00206,Punjab District Hospital 12,support0206@enxi.pk,Resolved,Urgent,2025-03-08
+Installation Support - Children Medical Center 46 #00207,Children Medical Center 46,support0207@enxi.pk,Resolved,Low,2025-03-09
+Compliance Query - National Medical Center 48 #00208,National Medical Center 48,support0208@enxi.pk,Resolved,High,2025-03-10
+Training Request - National Medical Center 54 #00209,National Medical Center 54,support0209@enxi.pk,Closed,Urgent,2025-03-11
+Training Request - Al-Rehman Tertiary Hospital 08 #00210,Al-Rehman Tertiary Hospital 08,support0210@enxi.pk,Replied,High,2025-03-12
+Training Request - LifeLine Medical Center 49 #00211,LifeLine Medical Center 49,support0211@enxi.pk,Closed,High,2025-03-14
+Pickup Schedule Change - Central Park Tertiary Hospital #00212,Central Park Tertiary Hospital 05,support0212@enxi.pk,Replied,Urgent,2025-03-14
+Compliance Query - Sir Ganga Ram Medical Center 3 #00213,Sir Ganga Ram Medical Center 33,support0213@enxi.pk,Replied,Low,2025-03-14
+Preventive Maintenance Due - National District Hospital 17 #00214,National District Hospital 17,support0214@enxi.pk,Closed,Medium,2025-03-16
+Waste Container Replacement - Hafeez Diagnostic Laboratory 2 #00215,Hafeez Diagnostic Laboratory 27,support0215@enxi.pk,Resolved,Medium,2025-03-16
+Incinerator Issue - City Care Tertiary Hospital 06 #00216,City Care Tertiary Hospital 06,support0216@enxi.pk,Replied,Medium,2025-03-17
+Fleet Breakdown - Sheikh Zayed District Hospital #00217,Sheikh Zayed District Hospital 14,support0217@enxi.pk,Replied,Medium,2025-03-22
+Compliance Query - Al-Rehman Tertiary Hospital 08 #00218,Al-Rehman Tertiary Hospital 08,support0218@enxi.pk,Open,Low,2025-03-26
+Fleet Breakdown - Children Maternity Hospital 30 #00219,Children Maternity Hospital 30,support0219@enxi.pk,Open,Medium,2025-03-26
+Incinerator Issue - LifeLine Tertiary Hospital 09 #00220,LifeLine Tertiary Hospital 09,support0220@enxi.pk,Open,High,2025-03-28
+Pickup Schedule Change - Children Medical Center 46 #00221,Children Medical Center 46,support0221@enxi.pk,Resolved,High,2025-04-02
+Installation Support - Hafeez Diagnostic Laboratory 2 #00222,Hafeez Diagnostic Laboratory 27,support0222@enxi.pk,Closed,Low,2025-04-16
+Incinerator Issue - Ittefaq Private Hospital 24 #00223,Ittefaq Private Hospital 24,support0223@enxi.pk,Resolved,Low,2025-04-20
+Installation Support - Prime Medical Center 47 #00224,Prime Medical Center 47,support0224@enxi.pk,Closed,Urgent,2025-04-27
+Pickup Schedule Change - Mayo Tertiary Hospital 01 #00225,Mayo Tertiary Hospital 01,support0225@enxi.pk,Resolved,Urgent,2025-04-28
+Emergency Waste Pickup - Central Park Medical Center 36 #00226,Central Park Medical Center 36,support0226@enxi.pk,Replied,Low,2025-04-28
+Billing Inquiry - Noor Tertiary Hospital 07 #00227,Noor Tertiary Hospital 07,support0227@enxi.pk,Resolved,High,2025-05-05
+Incinerator Issue - Farooq Maternity Hospital 29 #00228,Farooq Maternity Hospital 29,support0228@enxi.pk,Closed,Urgent,2025-05-06
+Incinerator Issue - Wapda Teaching Medical Center  #00229,Wapda Teaching Medical Center 51,support0229@enxi.pk,Closed,Urgent,2025-05-06
+Installation Support - Ittefaq Private Hospital 24 #00230,Ittefaq Private Hospital 24,support0230@enxi.pk,Closed,Urgent,2025-05-07
+Pickup Schedule Change - Surgimed Diagnostic Laboratory #00231,Surgimed Diagnostic Laboratory 26,support0231@enxi.pk,Closed,Urgent,2025-05-09
+Training Request - Services Tertiary Hospital 03 #00232,Services Tertiary Hospital 03,support0232@enxi.pk,Resolved,Medium,2025-05-09
+Training Request - Mayo Tertiary Hospital 01 #00233,Mayo Tertiary Hospital 01,support0233@enxi.pk,Resolved,Medium,2025-05-13
+Billing Inquiry - Citi Lab Medical Center 38 #00234,Citi Lab Medical Center 38,support0234@enxi.pk,Resolved,High,2025-05-15
+Calibration Required - Sir Ganga Ram Teaching Hospita #00235,Sir Ganga Ram Teaching Hospital 21,support0235@enxi.pk,Open,Urgent,2025-05-16
+Equipment Malfunction - Ittefaq Private Hospital 24 #00236,Ittefaq Private Hospital 24,support0236@enxi.pk,Resolved,Urgent,2025-05-18
+Calibration Required - Surgimed Medical Center 34 #00237,Surgimed Medical Center 34,support0237@enxi.pk,Closed,Medium,2025-05-19
+Compliance Query - Children Maternity Hospital 30 #00238,Children Maternity Hospital 30,support0238@enxi.pk,Resolved,High,2025-05-19
+Calibration Required - Prime Tertiary Hospital 10 #00239,Prime Tertiary Hospital 10,support0239@enxi.pk,Open,Urgent,2025-05-19
+Incinerator Issue - Central Park Tertiary Hospital #00240,Central Park Tertiary Hospital 05,support0240@enxi.pk,Resolved,Low,2025-05-20
+Emergency Waste Pickup - Hafeez Diagnostic Laboratory 2 #00241,Hafeez Diagnostic Laboratory 27,support0241@enxi.pk,Replied,Urgent,2025-05-25
+Incinerator Issue - Wapda Teaching Medical Center  #00242,Wapda Teaching Medical Center 51,support0242@enxi.pk,Replied,Urgent,2025-05-28
+Incinerator Issue - Wapda Teaching Medical Center  #00243,Wapda Teaching Medical Center 51,support0243@enxi.pk,Resolved,Low,2025-06-03
+Billing Inquiry - Shalimar Tertiary Hospital 04 #00244,Shalimar Tertiary Hospital 04,support0244@enxi.pk,Closed,Medium,2025-06-06
+Billing Inquiry - Gulab Devi Teaching Hospital 2 #00245,Gulab Devi Teaching Hospital 20,support0245@enxi.pk,Closed,Medium,2025-06-06
+Equipment Malfunction - Citi Lab Medical Center 38 #00246,Citi Lab Medical Center 38,support0246@enxi.pk,Replied,Medium,2025-06-08
+Preventive Maintenance Due - Excel Labs Medical Center 52 #00247,Excel Labs Medical Center 52,support0247@enxi.pk,Resolved,Medium,2025-06-11
+Waste Container Replacement - Shalimar Tertiary Hospital 04 #00248,Shalimar Tertiary Hospital 04,support0248@enxi.pk,Open,Medium,2025-06-13
+Waste Container Replacement - Sheikh Zayed Medical Center 37 #00249,Sheikh Zayed Medical Center 37,support0249@enxi.pk,Replied,Low,2025-06-13
+Preventive Maintenance Due - City Care Tertiary Hospital 06 #00250,City Care Tertiary Hospital 06,support0250@enxi.pk,Open,High,2025-06-15
+Equipment Malfunction - Social Security Medical Center #00251,Social Security Medical Center 43,support0251@enxi.pk,Closed,High,2025-06-19
+Training Request - National District Hospital 17 #00252,National District Hospital 17,support0252@enxi.pk,Resolved,High,2025-06-21
+Installation Support - Surgimed Medical Center 34 #00253,Surgimed Medical Center 34,support0253@enxi.pk,Resolved,High,2025-06-21
+Fleet Breakdown - LifeLine Tertiary Hospital 09 #00254,LifeLine Tertiary Hospital 09,support0254@enxi.pk,Resolved,High,2025-06-21
+Emergency Waste Pickup - Prime Tertiary Hospital 10 #00255,Prime Tertiary Hospital 10,support0255@enxi.pk,Closed,Low,2025-06-22
+Preventive Maintenance Due - Fatima Memorial Private Hospit #00256,Fatima Memorial Private Hospital 22,support0256@enxi.pk,Resolved,Medium,2025-06-22
+Emergency Waste Pickup - Hafeez Diagnostic Laboratory 2 #00257,Hafeez Diagnostic Laboratory 27,support0257@enxi.pk,Closed,High,2025-06-22
+Installation Support - Sharif Medical Private Hospita #00258,Sharif Medical Private Hospital 23,support0258@enxi.pk,Replied,High,2025-06-24
+Installation Support - Central Park Tertiary Hospital #00259,Central Park Tertiary Hospital 05,support0259@enxi.pk,Replied,Urgent,2025-06-30
+Preventive Maintenance Due - Children Medical Center 46 #00260,Children Medical Center 46,support0260@enxi.pk,Replied,High,2025-06-30
+Billing Inquiry - Sharif Medical Private Hospita #00261,Sharif Medical Private Hospital 23,support0261@enxi.pk,Closed,Urgent,2025-07-02
+Incinerator Issue - Shaukat Khanum District Hospit #00262,Shaukat Khanum District Hospital 16,support0262@enxi.pk,Replied,High,2025-07-04
+Fleet Breakdown - Children Medical Center 46 #00263,Children Medical Center 46,support0263@enxi.pk,Closed,High,2025-07-04
+Installation Support - Central Park Tertiary Hospital #00264,Central Park Tertiary Hospital 05,support0264@enxi.pk,Replied,High,2025-07-06
+Billing Inquiry - Surgimed Medical Center 44 #00265,Surgimed Medical Center 44,support0265@enxi.pk,Open,Low,2025-07-08
+Emergency Waste Pickup - CMH Medical Center 39 #00266,CMH Medical Center 39,support0266@enxi.pk,Open,Urgent,2025-07-12
+Pickup Schedule Change - LifeLine Tertiary Hospital 09 #00267,LifeLine Tertiary Hospital 09,support0267@enxi.pk,Closed,High,2025-07-12
+Installation Support - Sheikh Zayed Medical Center 41 #00268,Sheikh Zayed Medical Center 41,support0268@enxi.pk,Closed,Medium,2025-07-14
+Waste Container Replacement - Citi Lab Medical Center 38 #00269,Citi Lab Medical Center 38,support0269@enxi.pk,Closed,High,2025-07-16
+Billing Inquiry - LifeLine Tertiary Hospital 09 #00270,LifeLine Tertiary Hospital 09,support0270@enxi.pk,Resolved,Low,2025-07-21
+Emergency Waste Pickup - Lahore Eye Medical Center 32 #00271,Lahore Eye Medical Center 32,support0271@enxi.pk,Closed,Medium,2025-07-23
+Installation Support - Aziz Fatimah Diagnostic Labora #00272,Aziz Fatimah Diagnostic Laboratory 28,support0272@enxi.pk,Open,Low,2025-07-25
+Equipment Malfunction - Agha Khan Lab Medical Center 5 #00273,Agha Khan Lab Medical Center 53,support0273@enxi.pk,Replied,Urgent,2025-07-27
+Preventive Maintenance Due - Agha Khan Lab Medical Center 5 #00274,Agha Khan Lab Medical Center 53,support0274@enxi.pk,Open,High,2025-07-28
+Fleet Breakdown - Wapda Teaching Medical Center  #00275,Wapda Teaching Medical Center 55,support0275@enxi.pk,Replied,Low,2025-08-01
+Training Request - Lahore General District Hospit #00276,Lahore General District Hospital 13,support0276@enxi.pk,Closed,Medium,2025-08-02
+Calibration Required - Noor Tertiary Hospital 07 #00277,Noor Tertiary Hospital 07,support0277@enxi.pk,Open,High,2025-08-02
+Preventive Maintenance Due - Sheikh Zayed Medical Center 41 #00278,Sheikh Zayed Medical Center 41,support0278@enxi.pk,Open,High,2025-08-03
+Fleet Breakdown - Sharif Medical Private Hospita #00279,Sharif Medical Private Hospital 23,support0279@enxi.pk,Closed,Medium,2025-08-03
+Pickup Schedule Change - Agha Khan Lab Medical Center 5 #00280,Agha Khan Lab Medical Center 53,support0280@enxi.pk,Resolved,Urgent,2025-08-04
+Calibration Required - Ghurki Trust Medical Center 45 #00281,Ghurki Trust Medical Center 45,support0281@enxi.pk,Replied,Low,2025-08-06
+Billing Inquiry - Noor Tertiary Hospital 07 #00282,Noor Tertiary Hospital 07,support0282@enxi.pk,Resolved,Urgent,2025-08-06
+Waste Container Replacement - Hafeez Diagnostic Laboratory 2 #00283,Hafeez Diagnostic Laboratory 27,support0283@enxi.pk,Replied,Medium,2025-08-07
+Compliance Query - Surgimed Medical Center 44 #00284,Surgimed Medical Center 44,support0284@enxi.pk,Open,Medium,2025-08-08
+Waste Container Replacement - Combined Military Teaching Hos #00285,Combined Military Teaching Hospital 19,support0285@enxi.pk,Replied,Urgent,2025-08-09
+Compliance Query - LifeLine Tertiary Hospital 09 #00286,LifeLine Tertiary Hospital 09,support0286@enxi.pk,Replied,Low,2025-08-09
+Equipment Malfunction - Allied Teaching Hospital 18 #00287,Allied Teaching Hospital 18,support0287@enxi.pk,Replied,Low,2025-08-12
+Installation Support - Ghurki Trust Medical Center 42 #00288,Ghurki Trust Medical Center 42,support0288@enxi.pk,Resolved,High,2025-08-15
+Emergency Waste Pickup - Wapda Teaching Medical Center  #00289,Wapda Teaching Medical Center 55,support0289@enxi.pk,Resolved,Low,2025-08-16
+Pickup Schedule Change - Surgimed Medical Center 44 #00290,Surgimed Medical Center 44,support0290@enxi.pk,Replied,Low,2025-08-16
+Pickup Schedule Change - Prime Tertiary Hospital 10 #00291,Prime Tertiary Hospital 10,support0291@enxi.pk,Resolved,Medium,2025-08-22
+Compliance Query - LifeLine Medical Center 49 #00292,LifeLine Medical Center 49,support0292@enxi.pk,Open,Urgent,2025-08-22
+Compliance Query - Allied Teaching Hospital 18 #00293,Allied Teaching Hospital 18,support0293@enxi.pk,Open,Medium,2025-08-22
+Waste Container Replacement - National Medical Center 48 #00294,National Medical Center 48,support0294@enxi.pk,Replied,Low,2025-08-24
+Emergency Waste Pickup - Wapda Teaching Medical Center  #00295,Wapda Teaching Medical Center 55,support0295@enxi.pk,Closed,Low,2025-08-29
+Pickup Schedule Change - LifeLine Tertiary Hospital 09 #00296,LifeLine Tertiary Hospital 09,support0296@enxi.pk,Resolved,Low,2025-09-01
+Waste Container Replacement - Gulab Devi Teaching Hospital 2 #00297,Gulab Devi Teaching Hospital 20,support0297@enxi.pk,Open,Low,2025-09-01
+Equipment Malfunction - Sir Ganga Ram Medical Center 4 #00298,Sir Ganga Ram Medical Center 40,support0298@enxi.pk,Closed,Urgent,2025-09-08
+Incinerator Issue - Noor Tertiary Hospital 07 #00299,Noor Tertiary Hospital 07,support0299@enxi.pk,Replied,Medium,2025-09-08
+Compliance Query - Surgimed Medical Center 44 #00300,Surgimed Medical Center 44,support0300@enxi.pk,Replied,Medium,2025-09-08
+Installation Support - LifeLine Medical Center 49 #00301,LifeLine Medical Center 49,support0301@enxi.pk,Closed,Medium,2025-09-10
+Billing Inquiry - Lahore Eye Medical Center 32 #00302,Lahore Eye Medical Center 32,support0302@enxi.pk,Resolved,High,2025-09-12
+Installation Support - National District Hospital 17 #00303,National District Hospital 17,support0303@enxi.pk,Closed,Low,2025-09-13
+Calibration Required - Farooq Maternity Hospital 29 #00304,Farooq Maternity Hospital 29,support0304@enxi.pk,Closed,High,2025-09-14
+Waste Container Replacement - Lady Aitchison Specialist Clin #00305,Lady Aitchison Specialist Clinic 31,support0305@enxi.pk,Resolved,High,2025-09-15
+Training Request - Gulab Devi Teaching Hospital 2 #00306,Gulab Devi Teaching Hospital 20,support0306@enxi.pk,Open,High,2025-09-20
+Preventive Maintenance Due - Children Maternity Hospital 30 #00307,Children Maternity Hospital 30,support0307@enxi.pk,Replied,Urgent,2025-09-21
+Billing Inquiry - Hafeez Diagnostic Laboratory 2 #00308,Hafeez Diagnostic Laboratory 27,support0308@enxi.pk,Open,High,2025-09-22
+Waste Container Replacement - Surgimed Medical Center 44 #00309,Surgimed Medical Center 44,support0309@enxi.pk,Replied,Medium,2025-09-23
+Pickup Schedule Change - CMH Medical Center 39 #00310,CMH Medical Center 39,support0310@enxi.pk,Replied,Urgent,2025-09-26
+Equipment Malfunction - Children Medical Center 46 #00311,Children Medical Center 46,support0311@enxi.pk,Replied,Low,2025-09-28
+Equipment Malfunction - Sharif Medical Private Hospita #00312,Sharif Medical Private Hospital 23,support0312@enxi.pk,Open,Medium,2025-09-30
+Waste Container Replacement - National District Hospital 17 #00313,National District Hospital 17,support0313@enxi.pk,Replied,Low,2025-09-30
+Calibration Required - Aziz Fatimah Diagnostic Labora #00314,Aziz Fatimah Diagnostic Laboratory 28,support0314@enxi.pk,Closed,High,2025-10-01
+Calibration Required - Sir Ganga Ram Medical Center 3 #00315,Sir Ganga Ram Medical Center 33,support0315@enxi.pk,Resolved,Urgent,2025-10-05
+Waste Container Replacement - Lady Aitchison Specialist Clin #00316,Lady Aitchison Specialist Clinic 31,support0316@enxi.pk,Replied,Low,2025-10-05
+Calibration Required - National Medical Center 54 #00317,National Medical Center 54,support0317@enxi.pk,Open,Medium,2025-10-10
+Preventive Maintenance Due - Farooq Maternity Hospital 29 #00318,Farooq Maternity Hospital 29,support0318@enxi.pk,Open,Medium,2025-10-14
+Compliance Query - Farooq Maternity Hospital 29 #00319,Farooq Maternity Hospital 29,support0319@enxi.pk,Replied,High,2025-10-15
+Installation Support - Sir Ganga Ram Teaching Hospita #00320,Sir Ganga Ram Teaching Hospital 21,support0320@enxi.pk,Open,High,2025-10-16
+Calibration Required - Excel Labs Medical Center 52 #00321,Excel Labs Medical Center 52,support0321@enxi.pk,Open,Low,2025-10-17
+Incinerator Issue - Hafeez Diagnostic Laboratory 2 #00322,Hafeez Diagnostic Laboratory 27,support0322@enxi.pk,Replied,Medium,2025-10-20
+Fleet Breakdown - Services Tertiary Hospital 03 #00323,Services Tertiary Hospital 03,support0323@enxi.pk,Closed,High,2025-10-20
+Preventive Maintenance Due - CMH Medical Center 39 #00324,CMH Medical Center 39,support0324@enxi.pk,Open,Low,2025-10-25
+Pickup Schedule Change - Children Medical Center 46 #00325,Children Medical Center 46,support0325@enxi.pk,Resolved,Medium,2025-10-25
+Pickup Schedule Change - Surgimed Diagnostic Laboratory #00326,Surgimed Diagnostic Laboratory 26,support0326@enxi.pk,Replied,Urgent,2025-10-28
+Pickup Schedule Change - Allied Teaching Hospital 18 #00327,Allied Teaching Hospital 18,support0327@enxi.pk,Resolved,Medium,2025-10-28
+Calibration Required - Agha Khan Lab Medical Center 5 #00328,Agha Khan Lab Medical Center 53,support0328@enxi.pk,Closed,Low,2025-10-28
+Calibration Required - National District Hospital 17 #00329,National District Hospital 17,support0329@enxi.pk,Replied,Low,2025-10-29
+Equipment Malfunction - Sheikh Zayed Medical Center 41 #00330,Sheikh Zayed Medical Center 41,support0330@enxi.pk,Closed,Medium,2025-10-29
+Installation Support - Medix District Hospital 11 #00331,Medix District Hospital 11,support0331@enxi.pk,Closed,Medium,2025-10-30
+Calibration Required - Sir Ganga Ram Teaching Hospita #00332,Sir Ganga Ram Teaching Hospital 21,support0332@enxi.pk,Closed,Low,2025-11-03
+Incinerator Issue - Wapda Teaching Medical Center  #00333,Wapda Teaching Medical Center 55,support0333@enxi.pk,Closed,High,2025-11-03
+Installation Support - Social Security Medical Center #00334,Social Security Medical Center 43,support0334@enxi.pk,Open,Low,2025-11-09
+Waste Container Replacement - CMH Medical Center 39 #00335,CMH Medical Center 39,support0335@enxi.pk,Replied,High,2025-11-12
+Equipment Malfunction - Sheikh Zayed District Hospital #00336,Sheikh Zayed District Hospital 14,support0336@enxi.pk,Open,Low,2025-11-13
+Equipment Malfunction - Citi Lab Medical Center 38 #00337,Citi Lab Medical Center 38,support0337@enxi.pk,Open,Urgent,2025-11-16
+Incinerator Issue - Sheikh Zayed District Hospital #00338,Sheikh Zayed District Hospital 14,support0338@enxi.pk,Replied,High,2025-11-17
+Fleet Breakdown - Sir Ganga Ram Medical Center 3 #00339,Sir Ganga Ram Medical Center 33,support0339@enxi.pk,Closed,Urgent,2025-11-21
+Compliance Query - Farooq Maternity Hospital 29 #00340,Farooq Maternity Hospital 29,support0340@enxi.pk,Resolved,Urgent,2025-11-22
+Training Request - Ittefaq Private Hospital 24 #00341,Ittefaq Private Hospital 24,support0341@enxi.pk,Closed,Low,2025-11-23
+Calibration Required - Lady Aitchison Specialist Clin #00342,Lady Aitchison Specialist Clinic 31,support0342@enxi.pk,Resolved,Urgent,2025-11-23
+Equipment Malfunction - Ghurki Trust Medical Center 42 #00343,Ghurki Trust Medical Center 42,support0343@enxi.pk,Replied,High,2025-11-27
+Billing Inquiry - Allied Teaching Hospital 18 #00344,Allied Teaching Hospital 18,support0344@enxi.pk,Replied,Medium,2025-11-29
+Fleet Breakdown - Punjab District Hospital 12 #00345,Punjab District Hospital 12,support0345@enxi.pk,Resolved,Urgent,2025-12-01
+Incinerator Issue - Sharif Medical Private Hospita #00346,Sharif Medical Private Hospital 23,support0346@enxi.pk,Closed,High,2025-12-06
+Preventive Maintenance Due - Agha Khan Lab Medical Center 5 #00347,Agha Khan Lab Medical Center 53,support0347@enxi.pk,Resolved,High,2025-12-09
+Billing Inquiry - National Medical Center 48 #00348,National Medical Center 48,support0348@enxi.pk,Replied,High,2025-12-13
+Installation Support - Al-Rehman Tertiary Hospital 08 #00349,Al-Rehman Tertiary Hospital 08,support0349@enxi.pk,Resolved,Urgent,2025-12-16
+Compliance Query - Sheikh Zayed District Hospital #00350,Sheikh Zayed District Hospital 14,support0350@enxi.pk,Open,High,2025-12-19
+Fleet Breakdown - Noor Tertiary Hospital 07 #00351,Noor Tertiary Hospital 07,support0351@enxi.pk,Closed,Urgent,2025-12-20
+Incinerator Issue - Sheikh Zayed Medical Center 37 #00352,Sheikh Zayed Medical Center 37,support0352@enxi.pk,Closed,High,2025-12-20
+Emergency Waste Pickup - Children Medical Center 46 #00353,Children Medical Center 46,support0353@enxi.pk,Resolved,Urgent,2025-12-21
+Billing Inquiry - Sir Ganga Ram Teaching Hospita #00354,Sir Ganga Ram Teaching Hospital 21,support0354@enxi.pk,Open,Low,2025-12-22
+Incinerator Issue - Wapda Teaching Medical Center  #00355,Wapda Teaching Medical Center 51,support0355@enxi.pk,Replied,Medium,2025-12-23
+Fleet Breakdown - Farooq Maternity Hospital 29 #00356,Farooq Maternity Hospital 29,support0356@enxi.pk,Resolved,Medium,2025-12-24
+Emergency Waste Pickup - Punjab District Hospital 12 #00357,Punjab District Hospital 12,support0357@enxi.pk,Closed,High,2025-12-28
+Pickup Schedule Change - Surgimed Medical Center 34 #00358,Surgimed Medical Center 34,support0358@enxi.pk,Replied,Low,2025-12-30
+Emergency Waste Pickup - Mayo Tertiary Hospital 01 #00359,Mayo Tertiary Hospital 01,support0359@enxi.pk,Replied,Medium,2025-12-31
+Compliance Query - LifeLine Tertiary Hospital 09 #00360,LifeLine Tertiary Hospital 09,support0360@enxi.pk,Open,High,2025-12-31
+Compliance Query - Fatima Memorial Private Hospit #00361,Fatima Memorial Private Hospital 22,support0361@enxi.pk,Closed,High,2026-01-01
+Fleet Breakdown - National Medical Center 54 #00362,National Medical Center 54,support0362@enxi.pk,Replied,Urgent,2026-01-05
+Calibration Required - Ghurki Trust Medical Center 42 #00363,Ghurki Trust Medical Center 42,support0363@enxi.pk,Replied,Urgent,2026-01-10
+Billing Inquiry - Surgimed Diagnostic Laboratory #00364,Surgimed Diagnostic Laboratory 26,support0364@enxi.pk,Open,High,2026-01-13
+Pickup Schedule Change - Central Park Tertiary Hospital #00365,Central Park Tertiary Hospital 05,support0365@enxi.pk,Replied,Urgent,2026-01-13
+Waste Container Replacement - Gulab Devi Teaching Hospital 2 #00366,Gulab Devi Teaching Hospital 20,support0366@enxi.pk,Open,Medium,2026-01-13
+Installation Support - Sir Ganga Ram Medical Center 4 #00367,Sir Ganga Ram Medical Center 40,support0367@enxi.pk,Open,Low,2026-01-14
+Installation Support - Hameed Latif District Hospital #00368,Hameed Latif District Hospital 15,support0368@enxi.pk,Replied,Medium,2026-01-16
+Training Request - Citi Lab Medical Center 38 #00369,Citi Lab Medical Center 38,support0369@enxi.pk,Replied,Low,2026-01-18
+Emergency Waste Pickup - Jinnah Tertiary Hospital 02 #00370,Jinnah Tertiary Hospital 02,support0370@enxi.pk,Replied,High,2026-01-21
+Calibration Required - Sheikh Zayed Medical Center 41 #00371,Sheikh Zayed Medical Center 41,support0371@enxi.pk,Resolved,Medium,2026-01-21
+Calibration Required - CMH Medical Center 39 #00372,CMH Medical Center 39,support0372@enxi.pk,Replied,High,2026-01-23
+Preventive Maintenance Due - Services Tertiary Hospital 03 #00373,Services Tertiary Hospital 03,support0373@enxi.pk,Resolved,Urgent,2026-01-29
+Training Request - LifeLine Tertiary Hospital 09 #00374,LifeLine Tertiary Hospital 09,support0374@enxi.pk,Resolved,Low,2026-01-30
+Billing Inquiry - Children Maternity Hospital 30 #00375,Children Maternity Hospital 30,support0375@enxi.pk,Resolved,Medium,2026-01-30
+Equipment Malfunction - CMH Medical Center 39 #00376,CMH Medical Center 39,support0376@enxi.pk,Closed,Medium,2026-01-31
+Incinerator Issue - Social Security Medical Center #00377,Social Security Medical Center 43,support0377@enxi.pk,Resolved,Urgent,2026-01-31
+Installation Support - Surgimed Diagnostic Laboratory #00378,Surgimed Diagnostic Laboratory 26,support0378@enxi.pk,Open,Low,2026-02-03
+Training Request - Farooq Maternity Hospital 29 #00379,Farooq Maternity Hospital 29,support0379@enxi.pk,Replied,High,2026-02-03
+Billing Inquiry - Gulab Devi Teaching Hospital 2 #00380,Gulab Devi Teaching Hospital 20,support0380@enxi.pk,Closed,Urgent,2026-02-03
+Emergency Waste Pickup - Doctors Private Hospital 25 #00381,Doctors Private Hospital 25,support0381@enxi.pk,Resolved,Medium,2026-02-04
+Incinerator Issue - Aziz Fatimah Diagnostic Labora #00382,Aziz Fatimah Diagnostic Laboratory 28,support0382@enxi.pk,Open,High,2026-02-05
+Training Request - Sheikh Zayed District Hospital #00383,Sheikh Zayed District Hospital 14,support0383@enxi.pk,Closed,Medium,2026-02-05
+Fleet Breakdown - Surgimed Medical Center 44 #00384,Surgimed Medical Center 44,support0384@enxi.pk,Resolved,Low,2026-02-07
+Compliance Query - Surgimed Medical Center 34 #00385,Surgimed Medical Center 34,support0385@enxi.pk,Resolved,Medium,2026-02-08
+Incinerator Issue - Fatima Memorial Private Hospit #00386,Fatima Memorial Private Hospital 22,support0386@enxi.pk,Closed,Medium,2026-02-08
+Installation Support - Sheikh Zayed Medical Center 37 #00387,Sheikh Zayed Medical Center 37,support0387@enxi.pk,Replied,Urgent,2026-02-11
+Emergency Waste Pickup - Doctors Private Hospital 25 #00388,Doctors Private Hospital 25,support0388@enxi.pk,Replied,Medium,2026-02-12
+Calibration Required - Excel Labs Medical Center 52 #00389,Excel Labs Medical Center 52,support0389@enxi.pk,Resolved,Urgent,2026-02-13
+Calibration Required - National Medical Center 48 #00390,National Medical Center 48,support0390@enxi.pk,Closed,Medium,2026-02-15
+Pickup Schedule Change - Sheikh Zayed Medical Center 41 #00391,Sheikh Zayed Medical Center 41,support0391@enxi.pk,Closed,Medium,2026-02-19
+Equipment Malfunction - Lady Aitchison Specialist Clin #00392,Lady Aitchison Specialist Clinic 31,support0392@enxi.pk,Resolved,Urgent,2026-02-25
+Waste Container Replacement - Punjab District Hospital 12 #00393,Punjab District Hospital 12,support0393@enxi.pk,Replied,High,2026-02-28
+Pickup Schedule Change - Sheikh Zayed Medical Center 41 #00394,Sheikh Zayed Medical Center 41,support0394@enxi.pk,Closed,Urgent,2026-03-02
+Preventive Maintenance Due - Surgimed Diagnostic Laboratory #00395,Surgimed Diagnostic Laboratory 26,support0395@enxi.pk,Open,High,2026-03-03
+Pickup Schedule Change - Noor Tertiary Hospital 07 #00396,Noor Tertiary Hospital 07,support0396@enxi.pk,Closed,Low,2026-03-05
+Equipment Malfunction - Allied Medical Center 35 #00397,Allied Medical Center 35,support0397@enxi.pk,Closed,Urgent,2026-03-06
+Training Request - Medix District Hospital 11 #00398,Medix District Hospital 11,support0398@enxi.pk,Closed,Urgent,2026-03-07
+Calibration Required - Sir Ganga Ram Medical Center 4 #00399,Sir Ganga Ram Medical Center 40,support0399@enxi.pk,Resolved,High,2026-03-08
+Pickup Schedule Change - CMH Medical Center 39 #00400,CMH Medical Center 39,support0400@enxi.pk,Open,Medium,2026-03-09

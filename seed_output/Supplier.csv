@@ -1,32 +1,36 @@
 supplier_name,supplier_type,supplier_group,country,default_currency
-BioMed Supplier 001,Company,Raw Material,Pakistan,PKR
-BioMed Supplier 002,Company,Raw Material,Pakistan,PKR
-BioMed Supplier 003,Company,Services,Pakistan,PKR
-BioMed Supplier 004,Company,Raw Material,Pakistan,PKR
-BioMed Supplier 005,Company,Raw Material,Pakistan,PKR
-BioMed Supplier 006,Company,Raw Material,Pakistan,PKR
-BioMed Supplier 007,Company,Raw Material,Pakistan,PKR
-BioMed Supplier 008,Company,Raw Material,Pakistan,PKR
-BioMed Supplier 009,Company,Services,Pakistan,PKR
-BioMed Supplier 010,Company,Raw Material,Pakistan,PKR
-BioMed Supplier 011,Company,Raw Material,Pakistan,PKR
-BioMed Supplier 012,Company,Raw Material,Pakistan,PKR
-BioMed Supplier 013,Company,Raw Material,Pakistan,PKR
-BioMed Supplier 014,Company,Raw Material,Pakistan,PKR
-BioMed Supplier 015,Company,Raw Material,Pakistan,PKR
-BioMed Supplier 016,Company,Raw Material,Pakistan,PKR
-BioMed Supplier 017,Company,Services,Pakistan,PKR
-BioMed Supplier 018,Company,Raw Material,Pakistan,PKR
-BioMed Supplier 019,Company,Services,Pakistan,PKR
-BioMed Supplier 020,Company,Services,Pakistan,PKR
-BioMed Supplier 021,Company,Raw Material,Pakistan,PKR
-BioMed Supplier 022,Company,Raw Material,Pakistan,PKR
-BioMed Supplier 023,Company,Services,Pakistan,PKR
-BioMed Supplier 024,Company,Services,Pakistan,PKR
-BioMed Supplier 025,Company,Services,Pakistan,PKR
-Waste Disposal Partner 001,Company,Services,Pakistan,PKR
-Waste Disposal Partner 002,Company,Services,Pakistan,PKR
-Waste Disposal Partner 003,Company,Services,Pakistan,PKR
-Waste Disposal Partner 004,Company,Services,Pakistan,PKR
-Waste Disposal Partner 005,Company,Services,Pakistan,PKR
-Waste Disposal Partner 006,Company,Services,Pakistan,PKR
+Medical Supplies Punjab,Company,Raw Material,Pakistan,PKR
+Bio-Equipment International,Company,Equipment Vendor,Pakistan,PKR
+Safety First PPE,Company,Raw Material,Pakistan,PKR
+Lahore Container Works,Company,Raw Material,Pakistan,PKR
+Eco-Disposal Systems,Company,Services,Pakistan,PKR
+Punjab Auto Parts,Company,Vehicle Parts,Pakistan,PKR
+National Chemical Corp,Company,Raw Material,Pakistan,PKR
+Al-Fatah Safety Products,Company,Raw Material,Pakistan,PKR
+Siemens Pakistan,Company,Equipment Vendor,Pakistan,PKR
+Philips Healthcare PK,Company,Equipment Vendor,Pakistan,PKR
+GE Health Pakistan,Company,Equipment Vendor,Pakistan,PKR
+Draeger Safety Pakistan,Company,Equipment Vendor,Pakistan,PKR
+Pakistan Petroleum Corp,Company,Fuel Supplier,Pakistan,PKR
+Shell Pakistan,Company,Fuel Supplier,Pakistan,PKR
+Total Parco,Company,Fuel Supplier,Pakistan,PKR
+Atlas Honda Parts,Company,Vehicle Parts,Pakistan,PKR
+Hino Pakistan Motors,Company,Vehicle Parts,Pakistan,PKR
+Isuzu Pakistan,Company,Vehicle Parts,Pakistan,PKR
+Waste Tech Industries,Company,Equipment Vendor,Pakistan,PKR
+Refractory Materials Lahore,Company,Raw Material,Pakistan,PKR
+Metropolitan Steel Works,Company,Raw Material,Pakistan,PKR
+Pharma Waste Solutions,Company,Services,Pakistan,PKR
+Clean Environment Services,Company,Services,Pakistan,PKR
+Kohinoor Chemical,Company,Raw Material,Pakistan,PKR
+Lahore Paper & Packaging,Company,Raw Material,Pakistan,PKR
+Digital Tracking Systems,Company,IT Services,Pakistan,PKR
+Punjab Insurance Brokers,Company,Insurance,Pakistan,PKR
+SafeGuard Uniforms,Company,Raw Material,Pakistan,PKR
+MedTech Training Institute,Company,Services,Pakistan,PKR
+Calibration Services Pakistan,Company,Services,Pakistan,PKR
+Fire Safety Equipment Co,Company,Raw Material,Pakistan,PKR
+Lahore Rubber Works,Company,Raw Material,Pakistan,PKR
+Ravi Engineering Works,Company,Services,Pakistan,PKR
+National Environmental Lab,Company,Services,Pakistan,PKR
+Punjab Revenue Board Consultants,Company,Services,Pakistan,PKR

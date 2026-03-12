@@ -1,0 +1,4 @@
+customer_group_name,parent_customer_group,is_group
+Commercial,All Customer Groups,0
+Institutional,All Customer Groups,0
+Government,All Customer Groups,0

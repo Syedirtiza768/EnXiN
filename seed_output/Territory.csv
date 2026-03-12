@@ -1,0 +1,7 @@
+territory_name,parent_territory,is_group
+Pakistan,All Territories,1
+Punjab,Pakistan,1
+Lahore,Punjab,0
+Rawalpindi,Punjab,0
+Faisalabad,Punjab,0
+Multan,Punjab,0

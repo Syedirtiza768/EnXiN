@@ -1,0 +1,61 @@
+name,naming_series,opportunity_from,party_name,status,company,transaction_date,opportunity_amount
+OPP-DEMO-000001,OPP-.YYYY.-,Customer,Shaukat Khanum District Hospital 16,Replied,EnXi Biomedical & Waste Management (Pvt) Ltd,2024-03-12,2380569
+OPP-DEMO-000002,OPP-.YYYY.-,Customer,Excel Labs Medical Center 52,Converted,EnXi Biomedical & Waste Management (Pvt) Ltd,2024-03-19,3563688
+OPP-DEMO-000003,OPP-.YYYY.-,Customer,LifeLine Tertiary Hospital 09,Converted,EnXi Biomedical & Waste Management (Pvt) Ltd,2024-03-20,1025736
+OPP-DEMO-000004,OPP-.YYYY.-,Customer,Allied Teaching Hospital 18,Replied,EnXi Biomedical & Waste Management (Pvt) Ltd,2024-03-21,4227161
+OPP-DEMO-000005,OPP-.YYYY.-,Customer,Prime Tertiary Hospital 10,Open,EnXi Biomedical & Waste Management (Pvt) Ltd,2024-03-22,4587659
+OPP-DEMO-000006,OPP-.YYYY.-,Customer,Combined Military Teaching Hospital 19,Converted,EnXi Biomedical & Waste Management (Pvt) Ltd,2024-06-01,1148904
+OPP-DEMO-000007,OPP-.YYYY.-,Customer,Hameed Latif District Hospital 15,Open,EnXi Biomedical & Waste Management (Pvt) Ltd,2024-06-11,1364026
+OPP-DEMO-000008,OPP-.YYYY.-,Customer,Fatima Memorial Private Hospital 22,Lost,EnXi Biomedical & Waste Management (Pvt) Ltd,2024-07-29,2713694
+OPP-DEMO-000009,OPP-.YYYY.-,Customer,Ghurki Trust Medical Center 45,Open,EnXi Biomedical & Waste Management (Pvt) Ltd,2024-08-18,2870326
+OPP-DEMO-000010,OPP-.YYYY.-,Customer,Allied Teaching Hospital 18,Lost,EnXi Biomedical & Waste Management (Pvt) Ltd,2024-08-26,698818
+OPP-DEMO-000011,OPP-.YYYY.-,Customer,Lahore General District Hospital 13,Converted,EnXi Biomedical & Waste Management (Pvt) Ltd,2024-09-21,3300903
+OPP-DEMO-000012,OPP-.YYYY.-,Customer,Doctors Private Hospital 25,Lost,EnXi Biomedical & Waste Management (Pvt) Ltd,2024-10-23,2173346
+OPP-DEMO-000013,OPP-.YYYY.-,Customer,National Medical Center 48,Open,EnXi Biomedical & Waste Management (Pvt) Ltd,2024-10-30,4471631
+OPP-DEMO-000014,OPP-.YYYY.-,Customer,Surgimed Medical Center 44,Converted,EnXi Biomedical & Waste Management (Pvt) Ltd,2024-11-03,2810050
+OPP-DEMO-000015,OPP-.YYYY.-,Customer,National Medical Center 48,Replied,EnXi Biomedical & Waste Management (Pvt) Ltd,2024-11-22,4469846
+OPP-DEMO-000016,OPP-.YYYY.-,Customer,Sheikh Zayed Medical Center 41,Converted,EnXi Biomedical & Waste Management (Pvt) Ltd,2024-12-03,1767014
+OPP-DEMO-000017,OPP-.YYYY.-,Customer,Al-Rehman Tertiary Hospital 08,Quotation,EnXi Biomedical & Waste Management (Pvt) Ltd,2024-12-06,3742011
+OPP-DEMO-000018,OPP-.YYYY.-,Customer,Wapda Teaching Medical Center 51,Converted,EnXi Biomedical & Waste Management (Pvt) Ltd,2024-12-30,1103693
+OPP-DEMO-000019,OPP-.YYYY.-,Customer,Services Tertiary Hospital 03,Replied,EnXi Biomedical & Waste Management (Pvt) Ltd,2025-01-05,4086859
+OPP-DEMO-000020,OPP-.YYYY.-,Customer,Shaukat Khanum District Hospital 16,Quotation,EnXi Biomedical & Waste Management (Pvt) Ltd,2025-01-12,4293626
+OPP-DEMO-000021,OPP-.YYYY.-,Customer,LifeLine Medical Center 49,Open,EnXi Biomedical & Waste Management (Pvt) Ltd,2025-01-16,601430
+OPP-DEMO-000022,OPP-.YYYY.-,Customer,Ghurki Trust Medical Center 45,Replied,EnXi Biomedical & Waste Management (Pvt) Ltd,2025-01-21,1000866
+OPP-DEMO-000023,OPP-.YYYY.-,Customer,Sir Ganga Ram Teaching Hospital 21,Replied,EnXi Biomedical & Waste Management (Pvt) Ltd,2025-01-23,3013512
+OPP-DEMO-000024,OPP-.YYYY.-,Customer,Jinnah Tertiary Hospital 02,Lost,EnXi Biomedical & Waste Management (Pvt) Ltd,2025-02-27,3104526
+OPP-DEMO-000025,OPP-.YYYY.-,Customer,Lahore Eye Medical Center 32,Lost,EnXi Biomedical & Waste Management (Pvt) Ltd,2025-03-02,4789439
+OPP-DEMO-000026,OPP-.YYYY.-,Customer,Lahore General District Hospital 13,Replied,EnXi Biomedical & Waste Management (Pvt) Ltd,2025-03-21,1665538
+OPP-DEMO-000027,OPP-.YYYY.-,Customer,Prime Medical Center 47,Lost,EnXi Biomedical & Waste Management (Pvt) Ltd,2025-03-29,2409588
+OPP-DEMO-000028,OPP-.YYYY.-,Customer,Surgimed Medical Center 34,Quotation,EnXi Biomedical & Waste Management (Pvt) Ltd,2025-04-03,3869707
+OPP-DEMO-000029,OPP-.YYYY.-,Customer,Ittefaq Private Hospital 24,Lost,EnXi Biomedical & Waste Management (Pvt) Ltd,2025-04-15,106038
+OPP-DEMO-000030,OPP-.YYYY.-,Customer,Jinnah Tertiary Hospital 02,Replied,EnXi Biomedical & Waste Management (Pvt) Ltd,2025-04-20,3154084
+OPP-DEMO-000031,OPP-.YYYY.-,Customer,Social Security Medical Center 43,Replied,EnXi Biomedical & Waste Management (Pvt) Ltd,2025-05-07,3350508
+OPP-DEMO-000032,OPP-.YYYY.-,Customer,Shaukat Khanum Medical Center 50,Replied,EnXi Biomedical & Waste Management (Pvt) Ltd,2025-05-08,1392948
+OPP-DEMO-000033,OPP-.YYYY.-,Customer,Ghurki Trust Medical Center 42,Converted,EnXi Biomedical & Waste Management (Pvt) Ltd,2025-05-18,1026640
+OPP-DEMO-000034,OPP-.YYYY.-,Customer,Services Tertiary Hospital 03,Quotation,EnXi Biomedical & Waste Management (Pvt) Ltd,2025-05-26,1598530
+OPP-DEMO-000035,OPP-.YYYY.-,Customer,Lahore Eye Medical Center 32,Quotation,EnXi Biomedical & Waste Management (Pvt) Ltd,2025-05-31,928405
+OPP-DEMO-000036,OPP-.YYYY.-,Customer,Social Security Medical Center 43,Lost,EnXi Biomedical & Waste Management (Pvt) Ltd,2025-06-02,4510909
+OPP-DEMO-000037,OPP-.YYYY.-,Customer,Hameed Latif District Hospital 15,Replied,EnXi Biomedical & Waste Management (Pvt) Ltd,2025-06-07,694533
+OPP-DEMO-000038,OPP-.YYYY.-,Customer,National Medical Center 54,Open,EnXi Biomedical & Waste Management (Pvt) Ltd,2025-06-22,4026364
+OPP-DEMO-000039,OPP-.YYYY.-,Customer,Agha Khan Lab Medical Center 53,Converted,EnXi Biomedical & Waste Management (Pvt) Ltd,2025-07-05,589056
+OPP-DEMO-000040,OPP-.YYYY.-,Customer,Prime Medical Center 47,Open,EnXi Biomedical & Waste Management (Pvt) Ltd,2025-07-13,2649336
+OPP-DEMO-000041,OPP-.YYYY.-,Customer,Noor Tertiary Hospital 07,Open,EnXi Biomedical & Waste Management (Pvt) Ltd,2025-07-18,2037919
+OPP-DEMO-000042,OPP-.YYYY.-,Customer,Lahore General District Hospital 13,Replied,EnXi Biomedical & Waste Management (Pvt) Ltd,2025-07-28,2186775
+OPP-DEMO-000043,OPP-.YYYY.-,Customer,National Medical Center 48,Open,EnXi Biomedical & Waste Management (Pvt) Ltd,2025-08-29,4936566
+OPP-DEMO-000044,OPP-.YYYY.-,Customer,Ghurki Trust Medical Center 45,Lost,EnXi Biomedical & Waste Management (Pvt) Ltd,2025-08-30,973274
+OPP-DEMO-000045,OPP-.YYYY.-,Customer,Surgimed Diagnostic Laboratory 26,Replied,EnXi Biomedical & Waste Management (Pvt) Ltd,2025-09-09,2931263
+OPP-DEMO-000046,OPP-.YYYY.-,Customer,Sharif Medical Private Hospital 23,Converted,EnXi Biomedical & Waste Management (Pvt) Ltd,2025-09-10,4714416
+OPP-DEMO-000047,OPP-.YYYY.-,Customer,LifeLine Medical Center 49,Lost,EnXi Biomedical & Waste Management (Pvt) Ltd,2025-09-15,2813302
+OPP-DEMO-000048,OPP-.YYYY.-,Customer,Sheikh Zayed District Hospital 14,Lost,EnXi Biomedical & Waste Management (Pvt) Ltd,2025-09-24,4715736
+OPP-DEMO-000049,OPP-.YYYY.-,Customer,Farooq Maternity Hospital 29,Lost,EnXi Biomedical & Waste Management (Pvt) Ltd,2025-10-07,101641
+OPP-DEMO-000050,OPP-.YYYY.-,Customer,Surgimed Medical Center 34,Quotation,EnXi Biomedical & Waste Management (Pvt) Ltd,2025-10-10,2632031
+OPP-DEMO-000051,OPP-.YYYY.-,Customer,Sheikh Zayed District Hospital 14,Converted,EnXi Biomedical & Waste Management (Pvt) Ltd,2025-11-07,282044
+OPP-DEMO-000052,OPP-.YYYY.-,Customer,Central Park Medical Center 36,Replied,EnXi Biomedical & Waste Management (Pvt) Ltd,2025-11-13,4895027
+OPP-DEMO-000053,OPP-.YYYY.-,Customer,Children Maternity Hospital 30,Converted,EnXi Biomedical & Waste Management (Pvt) Ltd,2025-11-13,1409521
+OPP-DEMO-000054,OPP-.YYYY.-,Customer,Citi Lab Medical Center 38,Quotation,EnXi Biomedical & Waste Management (Pvt) Ltd,2025-12-12,2054496
+OPP-DEMO-000055,OPP-.YYYY.-,Customer,Sheikh Zayed Medical Center 37,Lost,EnXi Biomedical & Waste Management (Pvt) Ltd,2025-12-18,4873662
+OPP-DEMO-000056,OPP-.YYYY.-,Customer,Prime Medical Center 47,Converted,EnXi Biomedical & Waste Management (Pvt) Ltd,2025-12-23,4147781
+OPP-DEMO-000057,OPP-.YYYY.-,Customer,CMH Medical Center 39,Converted,EnXi Biomedical & Waste Management (Pvt) Ltd,2025-12-26,413495
+OPP-DEMO-000058,OPP-.YYYY.-,Customer,Shaukat Khanum Medical Center 50,Converted,EnXi Biomedical & Waste Management (Pvt) Ltd,2025-12-27,3018650
+OPP-DEMO-000059,OPP-.YYYY.-,Customer,Shaukat Khanum Medical Center 50,Quotation,EnXi Biomedical & Waste Management (Pvt) Ltd,2026-01-02,195918
+OPP-DEMO-000060,OPP-.YYYY.-,Customer,Surgimed Medical Center 34,Open,EnXi Biomedical & Waste Management (Pvt) Ltd,2026-02-14,2778621

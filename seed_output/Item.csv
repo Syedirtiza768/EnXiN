@@ -1,387 +1,501 @@
 item_code,item_name,item_group,stock_uom,brand,is_stock_item,is_sales_item,is_purchase_item,has_serial_no,warranty_period
-BIO-00001,Autoclaves Model 897,Biomedical Equipment,Nos,Nihon Kohden,1,1,1,0,18
-BIO-00002,Sterilization Equipment Model 119,Biomedical Equipment,Nos,Mindray,1,1,1,0,18
-BIO-00003,Ventilators Model 159,Biomedical Equipment,Nos,Philips,1,1,1,0,6
-BIO-00004,Patient Monitors Model 849,Biomedical Equipment,Nos,Siemens,1,1,1,0,12
-BIO-00005,Infusion Pumps Model 775,Biomedical Equipment,Nos,Siemens,1,1,1,0,12
-BIO-00006,Ultrasound Machines Model 640,Biomedical Equipment,Nos,Drager,1,1,1,1,12
-BIO-00007,Autoclaves Model 873,Biomedical Equipment,Nos,BPL,1,1,1,0,18
-BIO-00008,Surgical Lights Model 787,Biomedical Equipment,Nos,BPL,1,1,1,1,24
-BIO-00009,Patient Monitors Model 353,Biomedical Equipment,Nos,Philips,1,1,1,1,6
-BIO-00010,Laboratory Analyzers Model 667,Biomedical Equipment,Nos,Philips,1,1,1,1,6
-BIO-00011,Patient Monitors Model 824,Biomedical Equipment,Nos,BPL,1,1,1,1,6
-BIO-00012,ICU Monitors Model 980,Biomedical Equipment,Nos,GE Healthcare,1,1,1,1,12
-BIO-00013,Ultrasound Machines Model 785,Biomedical Equipment,Nos,Siemens,1,1,1,1,12
-BIO-00014,Oxygen Concentrators Model 684,Biomedical Equipment,Nos,Nihon Kohden,1,1,1,1,24
-BIO-00015,Surgical Lights Model 294,Biomedical Equipment,Nos,Mindray,1,1,1,1,24
-BIO-00016,ECG Machines Model 533,Biomedical Equipment,Nos,Siemens,1,1,1,1,6
-BIO-00017,Hospital Beds Model 769,Biomedical Equipment,Nos,BPL,1,1,1,1,24
-BIO-00018,Oxygen Concentrators Model 447,Biomedical Equipment,Nos,Drager,1,1,1,0,12
-BIO-00019,Ventilators Model 294,Biomedical Equipment,Nos,Nihon Kohden,1,1,1,1,24
-BIO-00020,Infusion Pumps Model 385,Biomedical Equipment,Nos,Siemens,1,1,1,1,6
-BIO-00021,Sterilization Equipment Model 927,Biomedical Equipment,Nos,Drager,1,1,1,0,6
-BIO-00022,ICU Monitors Model 767,Biomedical Equipment,Nos,Nihon Kohden,1,1,1,0,6
-BIO-00023,Ventilators Model 270,Biomedical Equipment,Nos,Siemens,1,1,1,1,12
-BIO-00024,Surgical Lights Model 160,Biomedical Equipment,Nos,Philips,1,1,1,1,24
-BIO-00025,Ultrasound Machines Model 902,Biomedical Equipment,Nos,Drager,1,1,1,1,24
-BIO-00026,Oxygen Concentrators Model 848,Biomedical Equipment,Nos,Drager,1,1,1,1,24
-BIO-00027,Infusion Pumps Model 294,Biomedical Equipment,Nos,GE Healthcare,1,1,1,1,6
-BIO-00028,Laboratory Analyzers Model 853,Biomedical Equipment,Nos,Nihon Kohden,1,1,1,1,18
-BIO-00029,ICU Monitors Model 151,Biomedical Equipment,Nos,Nihon Kohden,1,1,1,1,12
-BIO-00030,ICU Monitors Model 620,Biomedical Equipment,Nos,Mindray,1,1,1,0,6
-BIO-00031,Laboratory Analyzers Model 169,Biomedical Equipment,Nos,BPL,1,1,1,0,24
-BIO-00032,Patient Monitors Model 683,Biomedical Equipment,Nos,Philips,1,1,1,1,6
-BIO-00033,Laboratory Analyzers Model 183,Biomedical Equipment,Nos,Siemens,1,1,1,0,18
-BIO-00034,Ultrasound Machines Model 309,Biomedical Equipment,Nos,BPL,1,1,1,0,12
-BIO-00035,Ultrasound Machines Model 505,Biomedical Equipment,Nos,Philips,1,1,1,0,18
-BIO-00036,Sterilization Equipment Model 423,Biomedical Equipment,Nos,Drager,1,1,1,0,6
-BIO-00037,Sterilization Equipment Model 736,Biomedical Equipment,Nos,Nihon Kohden,1,1,1,0,6
-BIO-00038,Autoclaves Model 318,Biomedical Equipment,Nos,Nihon Kohden,1,1,1,1,18
-BIO-00039,Patient Monitors Model 350,Biomedical Equipment,Nos,GE Healthcare,1,1,1,1,24
-BIO-00040,Autoclaves Model 820,Biomedical Equipment,Nos,GE Healthcare,1,1,1,1,6
-BIO-00041,Hospital Beds Model 936,Biomedical Equipment,Nos,Nihon Kohden,1,1,1,1,6
-BIO-00042,Infusion Pumps Model 370,Biomedical Equipment,Nos,Mindray,1,1,1,0,12
-BIO-00043,Ultrasound Machines Model 388,Biomedical Equipment,Nos,Nihon Kohden,1,1,1,1,18
-BIO-00044,Ventilators Model 803,Biomedical Equipment,Nos,BPL,1,1,1,0,24
-BIO-00045,Ultrasound Machines Model 966,Biomedical Equipment,Nos,Mindray,1,1,1,1,24
-BIO-00046,Ultrasound Machines Model 145,Biomedical Equipment,Nos,Mindray,1,1,1,1,12
-BIO-00047,Hospital Beds Model 368,Biomedical Equipment,Nos,Philips,1,1,1,0,24
-BIO-00048,Autoclaves Model 109,Biomedical Equipment,Nos,Mindray,1,1,1,1,12
-BIO-00049,Autoclaves Model 136,Biomedical Equipment,Nos,Drager,1,1,1,1,12
-BIO-00050,Surgical Lights Model 230,Biomedical Equipment,Nos,Mindray,1,1,1,1,6
-BIO-00051,ECG Machines Model 315,Biomedical Equipment,Nos,BPL,1,1,1,1,6
-BIO-00052,ECG Machines Model 898,Biomedical Equipment,Nos,Nihon Kohden,1,1,1,0,24
-BIO-00053,Laboratory Analyzers Model 867,Biomedical Equipment,Nos,Philips,1,1,1,0,12
-BIO-00054,Infusion Pumps Model 919,Biomedical Equipment,Nos,Drager,1,1,1,1,24
-BIO-00055,ICU Monitors Model 283,Biomedical Equipment,Nos,BPL,1,1,1,0,24
-BIO-00056,Hospital Beds Model 984,Biomedical Equipment,Nos,BPL,1,1,1,0,18
-BIO-00057,Infusion Pumps Model 906,Biomedical Equipment,Nos,BPL,1,1,1,1,6
-BIO-00058,Sterilization Equipment Model 327,Biomedical Equipment,Nos,Philips,1,1,1,0,24
-BIO-00059,ECG Machines Model 412,Biomedical Equipment,Nos,Drager,1,1,1,0,12
-BIO-00060,Ventilators Model 124,Biomedical Equipment,Nos,BPL,1,1,1,1,18
-BIO-00061,Ultrasound Machines Model 985,Biomedical Equipment,Nos,Mindray,1,1,1,0,18
-BIO-00062,ECG Machines Model 756,Biomedical Equipment,Nos,Nihon Kohden,1,1,1,1,18
-BIO-00063,ICU Monitors Model 218,Biomedical Equipment,Nos,GE Healthcare,1,1,1,1,18
-BIO-00064,ICU Monitors Model 211,Biomedical Equipment,Nos,Nihon Kohden,1,1,1,1,18
-BIO-00065,Surgical Lights Model 720,Biomedical Equipment,Nos,Nihon Kohden,1,1,1,1,12
-BIO-00066,Ultrasound Machines Model 145,Biomedical Equipment,Nos,BPL,1,1,1,1,12
-BIO-00067,ECG Machines Model 541,Biomedical Equipment,Nos,Mindray,1,1,1,0,18
-BIO-00068,Laboratory Analyzers Model 421,Biomedical Equipment,Nos,BPL,1,1,1,0,18
-BIO-00069,Autoclaves Model 416,Biomedical Equipment,Nos,BPL,1,1,1,1,24
-BIO-00070,Oxygen Concentrators Model 402,Biomedical Equipment,Nos,Nihon Kohden,1,1,1,1,24
-BIO-00071,Hospital Beds Model 488,Biomedical Equipment,Nos,BPL,1,1,1,0,12
-BIO-00072,Laboratory Analyzers Model 682,Biomedical Equipment,Nos,GE Healthcare,1,1,1,1,6
-BIO-00073,Ultrasound Machines Model 393,Biomedical Equipment,Nos,Philips,1,1,1,1,18
-BIO-00074,Sterilization Equipment Model 552,Biomedical Equipment,Nos,Siemens,1,1,1,0,24
-BIO-00075,Oxygen Concentrators Model 273,Biomedical Equipment,Nos,BPL,1,1,1,1,18
-BIO-00076,Patient Monitors Model 938,Biomedical Equipment,Nos,Drager,1,1,1,1,18
-BIO-00077,Ventilators Model 925,Biomedical Equipment,Nos,Philips,1,1,1,1,6
-BIO-00078,Ventilators Model 586,Biomedical Equipment,Nos,Nihon Kohden,1,1,1,0,6
-BIO-00079,Sterilization Equipment Model 524,Biomedical Equipment,Nos,BPL,1,1,1,1,24
-BIO-00080,Sterilization Equipment Model 509,Biomedical Equipment,Nos,Philips,1,1,1,1,6
-BIO-00081,Patient Monitors Model 897,Biomedical Equipment,Nos,Siemens,1,1,1,1,24
-BIO-00082,ICU Monitors Model 670,Biomedical Equipment,Nos,Philips,1,1,1,0,6
-BIO-00083,Sterilization Equipment Model 236,Biomedical Equipment,Nos,Drager,1,1,1,1,18
-BIO-00084,Sterilization Equipment Model 727,Biomedical Equipment,Nos,Drager,1,1,1,0,24
-BIO-00085,Autoclaves Model 556,Biomedical Equipment,Nos,Philips,1,1,1,0,24
-BIO-00086,Sterilization Equipment Model 365,Biomedical Equipment,Nos,Drager,1,1,1,1,18
-BIO-00087,Autoclaves Model 596,Biomedical Equipment,Nos,BPL,1,1,1,1,24
-BIO-00088,Patient Monitors Model 830,Biomedical Equipment,Nos,GE Healthcare,1,1,1,1,18
-BIO-00089,ECG Machines Model 653,Biomedical Equipment,Nos,Mindray,1,1,1,1,12
-BIO-00090,Surgical Lights Model 810,Biomedical Equipment,Nos,Philips,1,1,1,0,6
-BIO-00091,Surgical Lights Model 517,Biomedical Equipment,Nos,GE Healthcare,1,1,1,1,24
-BIO-00092,ICU Monitors Model 311,Biomedical Equipment,Nos,Drager,1,1,1,1,6
-BIO-00093,Laboratory Analyzers Model 489,Biomedical Equipment,Nos,Siemens,1,1,1,1,18
-BIO-00094,Ultrasound Machines Model 871,Biomedical Equipment,Nos,Siemens,1,1,1,0,24
-BIO-00095,Autoclaves Model 865,Biomedical Equipment,Nos,BPL,1,1,1,1,12
-BIO-00096,Sterilization Equipment Model 324,Biomedical Equipment,Nos,GE Healthcare,1,1,1,1,6
-BIO-00097,Surgical Lights Model 444,Biomedical Equipment,Nos,BPL,1,1,1,0,24
-BIO-00098,Oxygen Concentrators Model 269,Biomedical Equipment,Nos,Drager,1,1,1,1,12
-BIO-00099,Laboratory Analyzers Model 646,Biomedical Equipment,Nos,Mindray,1,1,1,0,6
-BIO-00100,Patient Monitors Model 758,Biomedical Equipment,Nos,Siemens,1,1,1,1,24
-BIO-00101,Infusion Pumps Model 151,Biomedical Equipment,Nos,GE Healthcare,1,1,1,1,12
-BIO-00102,Sterilization Equipment Model 434,Biomedical Equipment,Nos,GE Healthcare,1,1,1,0,24
-BIO-00103,Ultrasound Machines Model 870,Biomedical Equipment,Nos,Drager,1,1,1,1,6
-BIO-00104,Sterilization Equipment Model 119,Biomedical Equipment,Nos,BPL,1,1,1,1,18
-BIO-00105,Ventilators Model 765,Biomedical Equipment,Nos,Mindray,1,1,1,0,6
-BIO-00106,ICU Monitors Model 353,Biomedical Equipment,Nos,Philips,1,1,1,0,12
-BIO-00107,Ventilators Model 229,Biomedical Equipment,Nos,Siemens,1,1,1,0,12
-BIO-00108,Sterilization Equipment Model 816,Biomedical Equipment,Nos,GE Healthcare,1,1,1,0,12
-BIO-00109,Laboratory Analyzers Model 721,Biomedical Equipment,Nos,BPL,1,1,1,0,12
-BIO-00110,Ultrasound Machines Model 210,Biomedical Equipment,Nos,Nihon Kohden,1,1,1,1,18
-BIO-00111,Laboratory Analyzers Model 793,Biomedical Equipment,Nos,Siemens,1,1,1,1,12
-BIO-00112,Patient Monitors Model 706,Biomedical Equipment,Nos,BPL,1,1,1,0,12
-BIO-00113,Patient Monitors Model 813,Biomedical Equipment,Nos,Drager,1,1,1,1,6
-BIO-00114,Laboratory Analyzers Model 901,Biomedical Equipment,Nos,Mindray,1,1,1,1,24
-BIO-00115,Hospital Beds Model 479,Biomedical Equipment,Nos,Mindray,1,1,1,1,18
-BIO-00116,ICU Monitors Model 969,Biomedical Equipment,Nos,Siemens,1,1,1,0,6
-BIO-00117,Surgical Lights Model 470,Biomedical Equipment,Nos,BPL,1,1,1,0,24
-BIO-00118,Oxygen Concentrators Model 256,Biomedical Equipment,Nos,Siemens,1,1,1,1,18
-BIO-00119,Laboratory Analyzers Model 927,Biomedical Equipment,Nos,Nihon Kohden,1,1,1,0,24
-BIO-00120,Surgical Lights Model 945,Biomedical Equipment,Nos,BPL,1,1,1,1,18
-BIO-00121,Ventilators Model 950,Biomedical Equipment,Nos,Mindray,1,1,1,1,24
-BIO-00122,Ventilators Model 868,Biomedical Equipment,Nos,Siemens,1,1,1,1,24
-BIO-00123,ECG Machines Model 129,Biomedical Equipment,Nos,Siemens,1,1,1,0,12
-BIO-00124,Sterilization Equipment Model 317,Biomedical Equipment,Nos,GE Healthcare,1,1,1,0,18
-BIO-00125,Ultrasound Machines Model 710,Biomedical Equipment,Nos,BPL,1,1,1,0,6
-BIO-00126,Autoclaves Model 295,Biomedical Equipment,Nos,Mindray,1,1,1,1,24
-BIO-00127,Sterilization Equipment Model 668,Biomedical Equipment,Nos,Drager,1,1,1,1,24
-BIO-00128,Hospital Beds Model 828,Biomedical Equipment,Nos,Siemens,1,1,1,1,6
-BIO-00129,Patient Monitors Model 401,Biomedical Equipment,Nos,Philips,1,1,1,1,12
-BIO-00130,Ultrasound Machines Model 779,Biomedical Equipment,Nos,Nihon Kohden,1,1,1,1,18
-BIO-00131,Surgical Lights Model 863,Biomedical Equipment,Nos,Nihon Kohden,1,1,1,1,24
-BIO-00132,Ultrasound Machines Model 413,Biomedical Equipment,Nos,GE Healthcare,1,1,1,1,12
-BIO-00133,ECG Machines Model 222,Biomedical Equipment,Nos,BPL,1,1,1,1,12
-BIO-00134,Ventilators Model 321,Biomedical Equipment,Nos,BPL,1,1,1,1,18
-BIO-00135,Patient Monitors Model 952,Biomedical Equipment,Nos,Philips,1,1,1,1,18
-BIO-00136,Infusion Pumps Model 409,Biomedical Equipment,Nos,Mindray,1,1,1,0,12
-BIO-00137,Ultrasound Machines Model 146,Biomedical Equipment,Nos,Mindray,1,1,1,1,12
-BIO-00138,Hospital Beds Model 989,Biomedical Equipment,Nos,Drager,1,1,1,1,6
-BIO-00139,Laboratory Analyzers Model 391,Biomedical Equipment,Nos,Siemens,1,1,1,1,18
-BIO-00140,Infusion Pumps Model 152,Biomedical Equipment,Nos,GE Healthcare,1,1,1,0,24
-BIO-00141,Patient Monitors Model 941,Biomedical Equipment,Nos,Mindray,1,1,1,1,6
-BIO-00142,Laboratory Analyzers Model 744,Biomedical Equipment,Nos,BPL,1,1,1,1,12
-BIO-00143,Laboratory Analyzers Model 411,Biomedical Equipment,Nos,Mindray,1,1,1,0,6
-BIO-00144,Autoclaves Model 882,Biomedical Equipment,Nos,Siemens,1,1,1,1,12
-BIO-00145,Autoclaves Model 489,Biomedical Equipment,Nos,Siemens,1,1,1,0,18
-BIO-00146,Laboratory Analyzers Model 539,Biomedical Equipment,Nos,GE Healthcare,1,1,1,1,6
-BIO-00147,Laboratory Analyzers Model 857,Biomedical Equipment,Nos,Mindray,1,1,1,0,12
-BIO-00148,Hospital Beds Model 316,Biomedical Equipment,Nos,GE Healthcare,1,1,1,0,12
-BIO-00149,Ventilators Model 277,Biomedical Equipment,Nos,Nihon Kohden,1,1,1,1,6
-BIO-00150,Surgical Lights Model 561,Biomedical Equipment,Nos,BPL,1,1,1,1,18
-BIO-00151,ICU Monitors Model 337,Biomedical Equipment,Nos,GE Healthcare,1,1,1,0,24
-BIO-00152,Patient Monitors Model 803,Biomedical Equipment,Nos,Philips,1,1,1,0,12
-BIO-00153,Surgical Lights Model 217,Biomedical Equipment,Nos,Nihon Kohden,1,1,1,1,12
-BIO-00154,Ultrasound Machines Model 946,Biomedical Equipment,Nos,Philips,1,1,1,1,12
-BIO-00155,Ultrasound Machines Model 709,Biomedical Equipment,Nos,BPL,1,1,1,0,18
-BIO-00156,Sterilization Equipment Model 227,Biomedical Equipment,Nos,Siemens,1,1,1,0,24
-BIO-00157,Ultrasound Machines Model 612,Biomedical Equipment,Nos,Nihon Kohden,1,1,1,1,6
-BIO-00158,Laboratory Analyzers Model 140,Biomedical Equipment,Nos,Siemens,1,1,1,0,18
-BIO-00159,ICU Monitors Model 193,Biomedical Equipment,Nos,Philips,1,1,1,0,6
-BIO-00160,Hospital Beds Model 941,Biomedical Equipment,Nos,GE Healthcare,1,1,1,1,12
-BIO-00161,Sterilization Equipment Model 631,Biomedical Equipment,Nos,BPL,1,1,1,1,18
-BIO-00162,Infusion Pumps Model 699,Biomedical Equipment,Nos,Siemens,1,1,1,1,24
-BIO-00163,Patient Monitors Model 581,Biomedical Equipment,Nos,GE Healthcare,1,1,1,1,18
-BIO-00164,Hospital Beds Model 207,Biomedical Equipment,Nos,Drager,1,1,1,1,24
-BIO-00165,Oxygen Concentrators Model 607,Biomedical Equipment,Nos,GE Healthcare,1,1,1,0,24
-BIO-00166,Autoclaves Model 137,Biomedical Equipment,Nos,Siemens,1,1,1,1,18
-BIO-00167,ECG Machines Model 218,Biomedical Equipment,Nos,Drager,1,1,1,1,6
-BIO-00168,Hospital Beds Model 990,Biomedical Equipment,Nos,Nihon Kohden,1,1,1,1,6
-BIO-00169,Ventilators Model 630,Biomedical Equipment,Nos,GE Healthcare,1,1,1,1,24
-BIO-00170,Hospital Beds Model 552,Biomedical Equipment,Nos,Drager,1,1,1,1,18
-BIO-00171,Autoclaves Model 234,Biomedical Equipment,Nos,GE Healthcare,1,1,1,1,24
-BIO-00172,Patient Monitors Model 129,Biomedical Equipment,Nos,BPL,1,1,1,1,12
-BIO-00173,Oxygen Concentrators Model 262,Biomedical Equipment,Nos,GE Healthcare,1,1,1,1,24
-BIO-00174,Patient Monitors Model 330,Biomedical Equipment,Nos,Drager,1,1,1,0,24
-BIO-00175,Patient Monitors Model 763,Biomedical Equipment,Nos,Drager,1,1,1,1,18
-BIO-00176,Autoclaves Model 822,Biomedical Equipment,Nos,GE Healthcare,1,1,1,1,24
-BIO-00177,Sterilization Equipment Model 349,Biomedical Equipment,Nos,Siemens,1,1,1,1,24
-BIO-00178,Ventilators Model 713,Biomedical Equipment,Nos,Nihon Kohden,1,1,1,0,12
-BIO-00179,Patient Monitors Model 382,Biomedical Equipment,Nos,Drager,1,1,1,0,24
-BIO-00180,ECG Machines Model 906,Biomedical Equipment,Nos,Nihon Kohden,1,1,1,1,6
-BIO-00181,Ultrasound Machines Model 843,Biomedical Equipment,Nos,GE Healthcare,1,1,1,0,24
-BIO-00182,Infusion Pumps Model 557,Biomedical Equipment,Nos,Nihon Kohden,1,1,1,1,18
-BIO-00183,Autoclaves Model 881,Biomedical Equipment,Nos,Nihon Kohden,1,1,1,1,18
-BIO-00184,Ventilators Model 814,Biomedical Equipment,Nos,Philips,1,1,1,1,12
-BIO-00185,Surgical Lights Model 144,Biomedical Equipment,Nos,GE Healthcare,1,1,1,0,24
-BIO-00186,Surgical Lights Model 779,Biomedical Equipment,Nos,Drager,1,1,1,0,12
-BIO-00187,Sterilization Equipment Model 137,Biomedical Equipment,Nos,Philips,1,1,1,1,18
-BIO-00188,Patient Monitors Model 995,Biomedical Equipment,Nos,Drager,1,1,1,1,24
-BIO-00189,ICU Monitors Model 839,Biomedical Equipment,Nos,Philips,1,1,1,1,12
-BIO-00190,Patient Monitors Model 580,Biomedical Equipment,Nos,Drager,1,1,1,0,18
-BIO-00191,Laboratory Analyzers Model 809,Biomedical Equipment,Nos,Siemens,1,1,1,1,18
-BIO-00192,Hospital Beds Model 979,Biomedical Equipment,Nos,Nihon Kohden,1,1,1,1,18
-BIO-00193,Hospital Beds Model 835,Biomedical Equipment,Nos,Drager,1,1,1,1,6
-BIO-00194,Laboratory Analyzers Model 170,Biomedical Equipment,Nos,Philips,1,1,1,1,18
-BIO-00195,Ventilators Model 864,Biomedical Equipment,Nos,Mindray,1,1,1,1,6
-BIO-00196,Hospital Beds Model 820,Biomedical Equipment,Nos,Drager,1,1,1,1,12
-BIO-00197,Oxygen Concentrators Model 406,Biomedical Equipment,Nos,Mindray,1,1,1,1,6
-BIO-00198,Ultrasound Machines Model 467,Biomedical Equipment,Nos,GE Healthcare,1,1,1,1,12
-BIO-00199,Autoclaves Model 521,Biomedical Equipment,Nos,Nihon Kohden,1,1,1,0,12
-BIO-00200,Infusion Pumps Model 279,Biomedical Equipment,Nos,Mindray,1,1,1,1,24
-BIO-00201,Laboratory Analyzers Model 799,Biomedical Equipment,Nos,Philips,1,1,1,1,12
-BIO-00202,Ventilators Model 572,Biomedical Equipment,Nos,BPL,1,1,1,1,18
-BIO-00203,Hospital Beds Model 109,Biomedical Equipment,Nos,Drager,1,1,1,1,18
-BIO-00204,Hospital Beds Model 659,Biomedical Equipment,Nos,Philips,1,1,1,1,18
-BIO-00205,Laboratory Analyzers Model 406,Biomedical Equipment,Nos,BPL,1,1,1,0,18
-BIO-00206,Sterilization Equipment Model 965,Biomedical Equipment,Nos,GE Healthcare,1,1,1,1,24
-BIO-00207,Sterilization Equipment Model 209,Biomedical Equipment,Nos,Philips,1,1,1,1,18
-BIO-00208,Laboratory Analyzers Model 402,Biomedical Equipment,Nos,BPL,1,1,1,1,24
-BIO-00209,Ultrasound Machines Model 108,Biomedical Equipment,Nos,Nihon Kohden,1,1,1,0,6
-BIO-00210,Laboratory Analyzers Model 863,Biomedical Equipment,Nos,Siemens,1,1,1,0,18
-BIO-00211,Ventilators Model 721,Biomedical Equipment,Nos,Drager,1,1,1,1,12
-BIO-00212,Laboratory Analyzers Model 356,Biomedical Equipment,Nos,BPL,1,1,1,0,12
-BIO-00213,Hospital Beds Model 199,Biomedical Equipment,Nos,BPL,1,1,1,1,18
-BIO-00214,Sterilization Equipment Model 134,Biomedical Equipment,Nos,Nihon Kohden,1,1,1,1,12
-BIO-00215,Patient Monitors Model 402,Biomedical Equipment,Nos,GE Healthcare,1,1,1,0,12
-BIO-00216,Ventilators Model 235,Biomedical Equipment,Nos,Drager,1,1,1,1,18
-BIO-00217,Autoclaves Model 613,Biomedical Equipment,Nos,GE Healthcare,1,1,1,0,18
-BIO-00218,Sterilization Equipment Model 925,Biomedical Equipment,Nos,GE Healthcare,1,1,1,0,18
-BIO-00219,Patient Monitors Model 579,Biomedical Equipment,Nos,Mindray,1,1,1,1,12
-BIO-00220,Hospital Beds Model 841,Biomedical Equipment,Nos,BPL,1,1,1,0,18
-BIO-00221,Patient Monitors Model 909,Biomedical Equipment,Nos,Siemens,1,1,1,1,6
-BIO-00222,Sterilization Equipment Model 477,Biomedical Equipment,Nos,BPL,1,1,1,0,18
-BIO-00223,Laboratory Analyzers Model 490,Biomedical Equipment,Nos,Drager,1,1,1,1,18
-BIO-00224,Patient Monitors Model 791,Biomedical Equipment,Nos,Philips,1,1,1,1,18
-BIO-00225,Laboratory Analyzers Model 326,Biomedical Equipment,Nos,BPL,1,1,1,1,24
-BIO-00226,Oxygen Concentrators Model 409,Biomedical Equipment,Nos,BPL,1,1,1,1,12
-BIO-00227,ICU Monitors Model 138,Biomedical Equipment,Nos,GE Healthcare,1,1,1,0,6
-BIO-00228,Patient Monitors Model 340,Biomedical Equipment,Nos,Nihon Kohden,1,1,1,1,24
-BIO-00229,ECG Machines Model 786,Biomedical Equipment,Nos,BPL,1,1,1,0,24
-BIO-00230,Laboratory Analyzers Model 860,Biomedical Equipment,Nos,BPL,1,1,1,1,24
-BIO-00231,Hospital Beds Model 201,Biomedical Equipment,Nos,Drager,1,1,1,1,24
-BIO-00232,Ultrasound Machines Model 133,Biomedical Equipment,Nos,BPL,1,1,1,1,24
-BIO-00233,Sterilization Equipment Model 341,Biomedical Equipment,Nos,Drager,1,1,1,1,18
-BIO-00234,Autoclaves Model 760,Biomedical Equipment,Nos,GE Healthcare,1,1,1,1,18
-BIO-00235,Ventilators Model 225,Biomedical Equipment,Nos,Drager,1,1,1,0,6
-BIO-00236,Hospital Beds Model 317,Biomedical Equipment,Nos,BPL,1,1,1,1,6
-BIO-00237,ICU Monitors Model 905,Biomedical Equipment,Nos,GE Healthcare,1,1,1,1,12
-BIO-00238,Laboratory Analyzers Model 310,Biomedical Equipment,Nos,Mindray,1,1,1,0,12
-BIO-00239,Laboratory Analyzers Model 321,Biomedical Equipment,Nos,Drager,1,1,1,0,18
-BIO-00240,Infusion Pumps Model 907,Biomedical Equipment,Nos,Nihon Kohden,1,1,1,1,12
-BIO-00241,Infusion Pumps Model 653,Biomedical Equipment,Nos,GE Healthcare,1,1,1,0,6
-BIO-00242,Hospital Beds Model 987,Biomedical Equipment,Nos,Mindray,1,1,1,1,18
-BIO-00243,Ventilators Model 702,Biomedical Equipment,Nos,GE Healthcare,1,1,1,1,18
-BIO-00244,ICU Monitors Model 229,Biomedical Equipment,Nos,BPL,1,1,1,1,6
-BIO-00245,Oxygen Concentrators Model 165,Biomedical Equipment,Nos,Siemens,1,1,1,1,18
-BIO-00246,Autoclaves Model 707,Biomedical Equipment,Nos,Mindray,1,1,1,1,12
-BIO-00247,Laboratory Analyzers Model 144,Biomedical Equipment,Nos,BPL,1,1,1,0,18
-BIO-00248,Sterilization Equipment Model 758,Biomedical Equipment,Nos,Mindray,1,1,1,1,24
-BIO-00249,Surgical Lights Model 536,Biomedical Equipment,Nos,BPL,1,1,1,1,24
-BIO-00250,Patient Monitors Model 182,Biomedical Equipment,Nos,GE Healthcare,1,1,1,1,6
-BIO-00251,Infusion Pumps Model 381,Biomedical Equipment,Nos,Nihon Kohden,1,1,1,1,18
-BIO-00252,Surgical Lights Model 711,Biomedical Equipment,Nos,Nihon Kohden,1,1,1,1,24
-BIO-00253,Patient Monitors Model 912,Biomedical Equipment,Nos,BPL,1,1,1,1,12
-BIO-00254,Surgical Lights Model 562,Biomedical Equipment,Nos,Philips,1,1,1,1,24
-BIO-00255,Surgical Lights Model 525,Biomedical Equipment,Nos,BPL,1,1,1,1,24
-BIO-00256,ECG Machines Model 781,Biomedical Equipment,Nos,GE Healthcare,1,1,1,1,12
-BIO-00257,Hospital Beds Model 585,Biomedical Equipment,Nos,Mindray,1,1,1,1,6
-BIO-00258,Patient Monitors Model 542,Biomedical Equipment,Nos,Mindray,1,1,1,0,18
-BIO-00259,Infusion Pumps Model 669,Biomedical Equipment,Nos,Mindray,1,1,1,1,18
-BIO-00260,Hospital Beds Model 225,Biomedical Equipment,Nos,Siemens,1,1,1,1,24
-BIO-00261,Oxygen Concentrators Model 152,Biomedical Equipment,Nos,GE Healthcare,1,1,1,1,18
-BIO-00262,Patient Monitors Model 691,Biomedical Equipment,Nos,Nihon Kohden,1,1,1,1,24
-BIO-00263,Ventilators Model 967,Biomedical Equipment,Nos,Mindray,1,1,1,1,18
-BIO-00264,Patient Monitors Model 880,Biomedical Equipment,Nos,GE Healthcare,1,1,1,1,24
-BIO-00265,Autoclaves Model 885,Biomedical Equipment,Nos,Drager,1,1,1,1,6
-BIO-00266,Laboratory Analyzers Model 773,Biomedical Equipment,Nos,Drager,1,1,1,0,6
-BIO-00267,Infusion Pumps Model 379,Biomedical Equipment,Nos,BPL,1,1,1,0,18
-BIO-00268,ECG Machines Model 106,Biomedical Equipment,Nos,Philips,1,1,1,0,24
-BIO-00269,Patient Monitors Model 245,Biomedical Equipment,Nos,BPL,1,1,1,1,6
-BIO-00270,Patient Monitors Model 864,Biomedical Equipment,Nos,Nihon Kohden,1,1,1,1,24
-BIO-00271,Sterilization Equipment Model 449,Biomedical Equipment,Nos,Philips,1,1,1,1,18
-BIO-00272,Laboratory Analyzers Model 710,Biomedical Equipment,Nos,Mindray,1,1,1,0,12
-BIO-00273,Infusion Pumps Model 872,Biomedical Equipment,Nos,Nihon Kohden,1,1,1,1,6
-BIO-00274,Ultrasound Machines Model 553,Biomedical Equipment,Nos,BPL,1,1,1,1,24
-BIO-00275,Surgical Lights Model 379,Biomedical Equipment,Nos,Philips,1,1,1,0,6
-BIO-00276,ECG Machines Model 540,Biomedical Equipment,Nos,Mindray,1,1,1,1,24
-BIO-00277,Autoclaves Model 783,Biomedical Equipment,Nos,GE Healthcare,1,1,1,1,24
-BIO-00278,Laboratory Analyzers Model 156,Biomedical Equipment,Nos,Mindray,1,1,1,1,12
-BIO-00279,Infusion Pumps Model 882,Biomedical Equipment,Nos,GE Healthcare,1,1,1,1,6
-BIO-00280,ICU Monitors Model 609,Biomedical Equipment,Nos,BPL,1,1,1,1,12
-BIO-00281,Surgical Lights Model 645,Biomedical Equipment,Nos,BPL,1,1,1,1,18
-BIO-00282,Patient Monitors Model 506,Biomedical Equipment,Nos,Drager,1,1,1,0,24
-BIO-00283,ICU Monitors Model 570,Biomedical Equipment,Nos,Mindray,1,1,1,0,24
-BIO-00284,Laboratory Analyzers Model 514,Biomedical Equipment,Nos,BPL,1,1,1,1,18
-BIO-00285,Patient Monitors Model 514,Biomedical Equipment,Nos,Mindray,1,1,1,0,12
-BIO-00286,Laboratory Analyzers Model 571,Biomedical Equipment,Nos,Drager,1,1,1,0,18
-BIO-00287,Patient Monitors Model 547,Biomedical Equipment,Nos,Drager,1,1,1,1,24
-BIO-00288,Laboratory Analyzers Model 510,Biomedical Equipment,Nos,Nihon Kohden,1,1,1,1,18
-BIO-00289,Oxygen Concentrators Model 447,Biomedical Equipment,Nos,Philips,1,1,1,1,12
-BIO-00290,Patient Monitors Model 622,Biomedical Equipment,Nos,BPL,1,1,1,1,12
-BIO-00291,ECG Machines Model 459,Biomedical Equipment,Nos,BPL,1,1,1,0,12
-BIO-00292,Ventilators Model 205,Biomedical Equipment,Nos,Philips,1,1,1,1,12
-BIO-00293,Laboratory Analyzers Model 256,Biomedical Equipment,Nos,Drager,1,1,1,0,6
-BIO-00294,Infusion Pumps Model 891,Biomedical Equipment,Nos,BPL,1,1,1,1,24
-BIO-00295,Hospital Beds Model 678,Biomedical Equipment,Nos,BPL,1,1,1,1,18
-BIO-00296,Hospital Beds Model 423,Biomedical Equipment,Nos,Philips,1,1,1,1,24
-BIO-00297,Sterilization Equipment Model 746,Biomedical Equipment,Nos,GE Healthcare,1,1,1,0,6
-BIO-00298,ECG Machines Model 619,Biomedical Equipment,Nos,Mindray,1,1,1,1,24
-BIO-00299,ICU Monitors Model 158,Biomedical Equipment,Nos,GE Healthcare,1,1,1,0,6
-BIO-00300,Hospital Beds Model 984,Biomedical Equipment,Nos,Drager,1,1,1,1,24
-BIO-00301,Sterilization Equipment Model 694,Biomedical Equipment,Nos,Nihon Kohden,1,1,1,0,6
-BIO-00302,Sterilization Equipment Model 929,Biomedical Equipment,Nos,Nihon Kohden,1,1,1,0,18
-BIO-00303,Laboratory Analyzers Model 587,Biomedical Equipment,Nos,Nihon Kohden,1,1,1,1,6
-BIO-00304,Sterilization Equipment Model 205,Biomedical Equipment,Nos,Drager,1,1,1,0,18
-BIO-00305,Oxygen Concentrators Model 186,Biomedical Equipment,Nos,Nihon Kohden,1,1,1,1,6
-BIO-00306,Ventilators Model 824,Biomedical Equipment,Nos,Siemens,1,1,1,0,12
-BIO-00307,ECG Machines Model 481,Biomedical Equipment,Nos,GE Healthcare,1,1,1,1,18
-BIO-00308,Hospital Beds Model 712,Biomedical Equipment,Nos,Mindray,1,1,1,0,18
-BIO-00309,Patient Monitors Model 437,Biomedical Equipment,Nos,Mindray,1,1,1,1,24
-BIO-00310,Ultrasound Machines Model 358,Biomedical Equipment,Nos,BPL,1,1,1,0,12
-BIO-00311,ECG Machines Model 183,Biomedical Equipment,Nos,Nihon Kohden,1,1,1,0,18
-BIO-00312,Ultrasound Machines Model 771,Biomedical Equipment,Nos,BPL,1,1,1,0,12
-BIO-00313,Laboratory Analyzers Model 825,Biomedical Equipment,Nos,Mindray,1,1,1,1,24
-BIO-00314,Hospital Beds Model 910,Biomedical Equipment,Nos,GE Healthcare,1,1,1,0,6
-BIO-00315,Hospital Beds Model 786,Biomedical Equipment,Nos,Siemens,1,1,1,1,6
-BIO-00316,ECG Machines Model 416,Biomedical Equipment,Nos,Philips,1,1,1,0,18
-BIO-00317,Sterilization Equipment Model 296,Biomedical Equipment,Nos,Philips,1,1,1,0,12
-BIO-00318,Patient Monitors Model 402,Biomedical Equipment,Nos,Drager,1,1,1,0,6
-BIO-00319,Hospital Beds Model 444,Biomedical Equipment,Nos,Drager,1,1,1,1,24
-BIO-00320,Infusion Pumps Model 266,Biomedical Equipment,Nos,Philips,1,1,1,0,12
-BIO-00321,Oxygen Concentrators Model 548,Biomedical Equipment,Nos,Mindray,1,1,1,1,12
-BIO-00322,Sterilization Equipment Model 725,Biomedical Equipment,Nos,GE Healthcare,1,1,1,0,24
-BIO-00323,Ventilators Model 646,Biomedical Equipment,Nos,Philips,1,1,1,1,24
-BIO-00324,Ventilators Model 476,Biomedical Equipment,Nos,BPL,1,1,1,0,24
-BIO-00325,Sterilization Equipment Model 887,Biomedical Equipment,Nos,GE Healthcare,1,1,1,0,24
-BIO-00326,Infusion Pumps Model 936,Biomedical Equipment,Nos,Philips,1,1,1,0,12
-BIO-00327,Ultrasound Machines Model 153,Biomedical Equipment,Nos,BPL,1,1,1,1,18
-BIO-00328,Autoclaves Model 205,Biomedical Equipment,Nos,BPL,1,1,1,0,6
-BIO-00329,Ultrasound Machines Model 185,Biomedical Equipment,Nos,Drager,1,1,1,1,24
-BIO-00330,Autoclaves Model 250,Biomedical Equipment,Nos,Drager,1,1,1,1,12
-BIO-00331,Sterilization Equipment Model 457,Biomedical Equipment,Nos,Mindray,1,1,1,1,24
-BIO-00332,Autoclaves Model 482,Biomedical Equipment,Nos,Philips,1,1,1,1,6
-BIO-00333,ECG Machines Model 329,Biomedical Equipment,Nos,Mindray,1,1,1,1,6
-BIO-00334,Oxygen Concentrators Model 765,Biomedical Equipment,Nos,GE Healthcare,1,1,1,0,12
-BIO-00335,ICU Monitors Model 393,Biomedical Equipment,Nos,Drager,1,1,1,1,12
-BIO-00336,Oxygen Concentrators Model 580,Biomedical Equipment,Nos,Siemens,1,1,1,1,6
-BIO-00337,ICU Monitors Model 362,Biomedical Equipment,Nos,Philips,1,1,1,0,24
-BIO-00338,Patient Monitors Model 894,Biomedical Equipment,Nos,GE Healthcare,1,1,1,1,6
-BIO-00339,ICU Monitors Model 344,Biomedical Equipment,Nos,Siemens,1,1,1,1,24
-BIO-00340,Patient Monitors Model 213,Biomedical Equipment,Nos,Drager,1,1,1,0,6
-BIO-00341,Hospital Beds Model 627,Biomedical Equipment,Nos,Nihon Kohden,1,1,1,1,12
-BIO-00342,Ultrasound Machines Model 539,Biomedical Equipment,Nos,Mindray,1,1,1,1,12
-BIO-00343,Laboratory Analyzers Model 526,Biomedical Equipment,Nos,Philips,1,1,1,0,6
-BIO-00344,Autoclaves Model 469,Biomedical Equipment,Nos,Mindray,1,1,1,0,6
-BIO-00345,Surgical Lights Model 994,Biomedical Equipment,Nos,Siemens,1,1,1,1,24
-BIO-00346,ECG Machines Model 359,Biomedical Equipment,Nos,BPL,1,1,1,1,6
-BIO-00347,ECG Machines Model 346,Biomedical Equipment,Nos,BPL,1,1,1,0,6
-BIO-00348,Laboratory Analyzers Model 852,Biomedical Equipment,Nos,Drager,1,1,1,1,6
-BIO-00349,ECG Machines Model 659,Biomedical Equipment,Nos,GE Healthcare,1,1,1,0,12
-BIO-00350,Hospital Beds Model 575,Biomedical Equipment,Nos,BPL,1,1,1,1,12
-BIO-00351,Infusion Pumps Model 164,Biomedical Equipment,Nos,BPL,1,1,1,0,24
-BIO-00352,ICU Monitors Model 400,Biomedical Equipment,Nos,Philips,1,1,1,1,12
-BIO-00353,ICU Monitors Model 423,Biomedical Equipment,Nos,GE Healthcare,1,1,1,1,24
-BIO-00354,Ultrasound Machines Model 137,Biomedical Equipment,Nos,Drager,1,1,1,1,18
-BIO-00355,ECG Machines Model 982,Biomedical Equipment,Nos,Drager,1,1,1,1,18
-BIO-00356,Ultrasound Machines Model 227,Biomedical Equipment,Nos,Drager,1,1,1,1,24
-BIO-00357,Oxygen Concentrators Model 550,Biomedical Equipment,Nos,Siemens,1,1,1,1,12
-BIO-00358,Sterilization Equipment Model 808,Biomedical Equipment,Nos,Siemens,1,1,1,1,18
-BIO-00359,Patient Monitors Model 844,Biomedical Equipment,Nos,Siemens,1,1,1,1,12
-BIO-00360,Autoclaves Model 400,Biomedical Equipment,Nos,GE Healthcare,1,1,1,1,18
-BIO-00361,Hospital Beds Model 402,Biomedical Equipment,Nos,GE Healthcare,1,1,1,1,24
-BIO-00362,Infusion Pumps Model 806,Biomedical Equipment,Nos,Siemens,1,1,1,1,6
-BIO-00363,Oxygen Concentrators Model 990,Biomedical Equipment,Nos,GE Healthcare,1,1,1,1,24
-BIO-00364,Ultrasound Machines Model 754,Biomedical Equipment,Nos,Drager,1,1,1,0,6
-BIO-00365,Hospital Beds Model 752,Biomedical Equipment,Nos,Siemens,1,1,1,1,12
-BIO-00366,ICU Monitors Model 246,Biomedical Equipment,Nos,Drager,1,1,1,1,24
-BIO-00367,ICU Monitors Model 229,Biomedical Equipment,Nos,Mindray,1,1,1,1,18
-BIO-00368,ECG Machines Model 492,Biomedical Equipment,Nos,Nihon Kohden,1,1,1,1,12
-BIO-00369,Hospital Beds Model 560,Biomedical Equipment,Nos,GE Healthcare,1,1,1,1,6
-BIO-00370,Laboratory Analyzers Model 240,Biomedical Equipment,Nos,Nihon Kohden,1,1,1,1,18
-BIO-00371,Hospital Beds Model 385,Biomedical Equipment,Nos,Philips,1,1,1,0,6
-BIO-00372,Oxygen Concentrators Model 290,Biomedical Equipment,Nos,Siemens,1,1,1,1,6
-BIO-00373,Ultrasound Machines Model 893,Biomedical Equipment,Nos,GE Healthcare,1,1,1,0,12
-BIO-00374,Laboratory Analyzers Model 392,Biomedical Equipment,Nos,BPL,1,1,1,0,24
-BIO-00375,Ventilators Model 225,Biomedical Equipment,Nos,Philips,1,1,1,0,24
-BIO-00376,Infusion Pumps Model 830,Biomedical Equipment,Nos,Siemens,1,1,1,0,18
-BIO-00377,Hospital Beds Model 455,Biomedical Equipment,Nos,BPL,1,1,1,1,18
-BIO-00378,Ultrasound Machines Model 971,Biomedical Equipment,Nos,Philips,1,1,1,0,12
-BIO-00379,ECG Machines Model 620,Biomedical Equipment,Nos,Philips,1,1,1,1,12
-BIO-00380,Infusion Pumps Model 342,Biomedical Equipment,Nos,Drager,1,1,1,1,18
-WASTE-INFECTIOUS,Infectious Waste Collection Service,Waste Management Services,Kg,,0,1,0,0,0
-WASTE-PATHOLOGICAL,Pathological Waste Collection Service,Waste Management Services,Kg,,0,1,0,0,0
-WASTE-SHARPS,Sharps Waste Collection Service,Waste Management Services,Kg,,0,1,0,0,0
-WASTE-PHARMACEUTICAL,Pharmaceutical Waste Collection Service,Waste Management Services,Kg,,0,1,0,0,0
-WASTE-CHEMICAL,Chemical Waste Collection Service,Waste Management Services,Kg,,0,1,0,0,0
-WASTE-GENERAL,General Medical Waste Collection Service,Waste Management Services,Kg,,0,1,0,0,0
+BIO-00001,Dental Chairs Model 538,Biomedical Equipment,Nos,Hillrom,1,1,1,1,12
+BIO-00002,Ultrasound Machines Model 621,Biomedical Equipment,Nos,Medtronic,1,1,1,1,6
+BIO-00003,Ventilators Model 256,Biomedical Equipment,Nos,GE Healthcare,1,1,1,0,24
+BIO-00004,Endoscopy Systems Model 165,Biomedical Equipment,Nos,Draeger,1,1,1,1,24
+BIO-00005,Blood Gas Analyzers Model 357,Biomedical Equipment,Nos,B.Braun,1,1,1,0,6
+BIO-00006,Ventilators Model 798,Biomedical Equipment,Nos,B.Braun,1,1,1,0,18
+BIO-00007,Ventilators Model 400,Biomedical Equipment,Nos,Draeger,1,1,1,1,6
+BIO-00008,Autoclaves Model 612,Biomedical Equipment,Nos,GE Healthcare,1,1,1,1,6
+BIO-00009,Laboratory Analyzers Model 961,Biomedical Equipment,Nos,B.Braun,1,1,1,0,12
+BIO-00010,Oxygen Concentrators Model 880,Biomedical Equipment,Nos,GE Healthcare,1,1,1,1,6
+BIO-00011,Endoscopy Systems Model 431,Biomedical Equipment,Nos,Medtronic,1,1,1,1,18
+BIO-00012,Laboratory Analyzers Model 345,Biomedical Equipment,Nos,Mindray,1,1,1,1,6
+BIO-00013,Infusion Pumps Model 849,Biomedical Equipment,Nos,Medtronic,1,1,1,0,12
+BIO-00014,Ultrasound Machines Model 775,Biomedical Equipment,Nos,Medtronic,1,1,1,0,12
+BIO-00015,Autoclaves Model 640,Biomedical Equipment,Nos,Hillrom,1,1,1,1,12
+BIO-00016,X-Ray Machines Model 873,Biomedical Equipment,Nos,Siemens Healthineers,1,1,1,0,24
+BIO-00017,Oxygen Concentrators Model 548,Biomedical Equipment,Nos,B.Braun,1,1,1,1,12
+BIO-00018,Sterilization Equipment Model 165,Biomedical Equipment,Nos,BPL Medical,1,1,1,1,12
+BIO-00019,Dental Chairs Model 325,Biomedical Equipment,Nos,Mindray,1,1,1,1,6
+BIO-00020,Sterilization Equipment Model 169,Biomedical Equipment,Nos,Mindray,1,1,1,0,6
+BIO-00021,Blood Gas Analyzers Model 343,Biomedical Equipment,Nos,Nihon Kohden,1,1,1,0,12
+BIO-00022,X-Ray Machines Model 235,Biomedical Equipment,Nos,Hillrom,1,1,1,1,12
+BIO-00023,Nebulizers Model 926,Biomedical Equipment,Nos,Draeger,1,1,1,1,6
+BIO-00024,Syringe Pumps Model 462,Biomedical Equipment,Nos,Draeger,1,1,1,1,6
+BIO-00025,Ventilators Model 162,Biomedical Equipment,Nos,Draeger,1,1,1,0,6
+BIO-00026,Sterilization Equipment Model 296,Biomedical Equipment,Nos,Siemens Healthineers,1,1,1,1,12
+BIO-00027,Syringe Pumps Model 287,Biomedical Equipment,Nos,Nihon Kohden,1,1,1,1,6
+BIO-00028,Pulse Oximeters Model 927,Biomedical Equipment,Nos,B.Braun,1,1,1,1,6
+BIO-00029,Infusion Pumps Model 871,Biomedical Equipment,Nos,Siemens Healthineers,1,1,1,1,24
+BIO-00030,Nebulizers Model 318,Biomedical Equipment,Nos,Draeger,1,1,1,0,12
+BIO-00031,Defibrillators Model 102,Biomedical Equipment,Nos,Draeger,1,1,1,1,24
+BIO-00032,Laboratory Analyzers Model 533,Biomedical Equipment,Nos,B.Braun,1,1,1,0,24
+BIO-00033,Ultrasound Machines Model 294,Biomedical Equipment,Nos,Nihon Kohden,1,1,1,1,6
+BIO-00034,Dental Chairs Model 853,Biomedical Equipment,Nos,B.Braun,1,1,1,1,18
+BIO-00035,Patient Monitors Model 151,Biomedical Equipment,Nos,Hillrom,1,1,1,1,12
+BIO-00036,Patient Monitors Model 620,Biomedical Equipment,Nos,Philips,1,1,1,0,6
+BIO-00037,Endoscopy Systems Model 169,Biomedical Equipment,Nos,Siemens Healthineers,1,1,1,1,12
+BIO-00038,Dental Chairs Model 708,Biomedical Equipment,Nos,Mindray,1,1,1,0,24
+BIO-00039,Dental Chairs Model 678,Biomedical Equipment,Nos,B.Braun,1,1,1,1,18
+BIO-00040,Surgical Lights Model 785,Biomedical Equipment,Nos,BPL Medical,1,1,1,1,24
+BIO-00041,Ultrasound Machines Model 787,Biomedical Equipment,Nos,Nihon Kohden,1,1,1,1,6
+BIO-00042,ICU Monitors Model 569,Biomedical Equipment,Nos,Hillrom,1,1,1,0,6
+BIO-00043,Infusion Pumps Model 650,Biomedical Equipment,Nos,Siemens Healthineers,1,1,1,1,12
+BIO-00044,Oxygen Concentrators Model 170,Biomedical Equipment,Nos,Siemens Healthineers,1,1,1,1,12
+BIO-00045,Pulse Oximeters Model 953,Biomedical Equipment,Nos,B.Braun,1,1,1,0,6
+BIO-00046,X-Ray Machines Model 406,Biomedical Equipment,Nos,Philips,1,1,1,0,12
+BIO-00047,Autoclaves Model 218,Biomedical Equipment,Nos,Philips,1,1,1,0,12
+BIO-00048,Autoclaves Model 388,Biomedical Equipment,Nos,Hillrom,1,1,1,1,18
+BIO-00049,Surgical Lights Model 803,Biomedical Equipment,Nos,Nihon Kohden,1,1,1,1,18
+BIO-00050,Patient Monitors Model 194,Biomedical Equipment,Nos,Draeger,1,1,1,0,6
+BIO-00051,ICU Monitors Model 441,Biomedical Equipment,Nos,GE Healthcare,1,1,1,0,18
+BIO-00052,ECG Machines Model 859,Biomedical Equipment,Nos,Medtronic,1,1,1,1,24
+BIO-00053,X-Ray Machines Model 109,Biomedical Equipment,Nos,Philips,1,1,1,1,12
+BIO-00054,X-Ray Machines Model 136,Biomedical Equipment,Nos,BPL Medical,1,1,1,1,12
+BIO-00055,Syringe Pumps Model 230,Biomedical Equipment,Nos,Mindray,1,1,1,1,6
+BIO-00056,Oxygen Concentrators Model 315,Biomedical Equipment,Nos,Siemens Healthineers,1,1,1,0,18
+BIO-00057,X-Ray Machines Model 995,Biomedical Equipment,Nos,Draeger,1,1,1,0,12
+BIO-00058,Sterilization Equipment Model 985,Biomedical Equipment,Nos,GE Healthcare,1,1,1,0,12
+BIO-00059,Syringe Pumps Model 125,Biomedical Equipment,Nos,GE Healthcare,1,1,1,0,18
+BIO-00060,Syringe Pumps Model 921,Biomedical Equipment,Nos,Siemens Healthineers,1,1,1,1,6
+BIO-00061,Defibrillators Model 993,Biomedical Equipment,Nos,Mindray,1,1,1,0,12
+BIO-00062,Surgical Lights Model 936,Biomedical Equipment,Nos,Medtronic,1,1,1,1,12
+BIO-00063,Sterilization Equipment Model 124,Biomedical Equipment,Nos,Siemens Healthineers,1,1,1,1,18
+BIO-00064,Infusion Pumps Model 891,Biomedical Equipment,Nos,Nihon Kohden,1,1,1,1,24
+BIO-00065,X-Ray Machines Model 439,Biomedical Equipment,Nos,Mindray,1,1,1,1,18
+BIO-00066,ECG Machines Model 694,Biomedical Equipment,Nos,Nihon Kohden,1,1,1,1,24
+BIO-00067,Oxygen Concentrators Model 846,Biomedical Equipment,Nos,BPL Medical,1,1,1,1,6
+BIO-00068,Defibrillators Model 690,Biomedical Equipment,Nos,Siemens Healthineers,1,1,1,1,24
+BIO-00069,ICU Monitors Model 632,Biomedical Equipment,Nos,B.Braun,1,1,1,0,12
+BIO-00070,Oxygen Concentrators Model 541,Biomedical Equipment,Nos,Philips,1,1,1,0,18
+BIO-00071,Endoscopy Systems Model 421,Biomedical Equipment,Nos,Philips,1,1,1,0,18
+BIO-00072,Blood Gas Analyzers Model 416,Biomedical Equipment,Nos,Draeger,1,1,1,1,18
+BIO-00073,X-Ray Machines Model 230,Biomedical Equipment,Nos,Siemens Healthineers,1,1,1,1,24
+BIO-00074,ECG Machines Model 730,Biomedical Equipment,Nos,Hillrom,1,1,1,1,6
+BIO-00075,Laboratory Analyzers Model 393,Biomedical Equipment,Nos,Siemens Healthineers,1,1,1,1,18
+BIO-00076,Pulse Oximeters Model 552,Biomedical Equipment,Nos,Medtronic,1,1,1,0,24
+BIO-00077,ECG Machines Model 774,Biomedical Equipment,Nos,Philips,1,1,1,1,18
+BIO-00078,Infusion Pumps Model 938,Biomedical Equipment,Nos,Siemens Healthineers,1,1,1,0,12
+BIO-00079,Surgical Lights Model 250,Biomedical Equipment,Nos,Mindray,1,1,1,1,24
+BIO-00080,Endoscopy Systems Model 970,Biomedical Equipment,Nos,Philips,1,1,1,1,12
+BIO-00081,Defibrillators Model 606,Biomedical Equipment,Nos,Draeger,1,1,1,1,6
+BIO-00082,Ventilators Model 897,Biomedical Equipment,Nos,Draeger,1,1,1,1,24
+BIO-00083,Patient Monitors Model 670,Biomedical Equipment,Nos,Siemens Healthineers,1,1,1,0,6
+BIO-00084,Pulse Oximeters Model 236,Biomedical Equipment,Nos,Medtronic,1,1,1,0,18
+BIO-00085,Pulse Oximeters Model 727,Biomedical Equipment,Nos,B.Braun,1,1,1,1,24
+BIO-00086,ECG Machines Model 861,Biomedical Equipment,Nos,Medtronic,1,1,1,1,12
+BIO-00087,Autoclaves Model 884,Biomedical Equipment,Nos,B.Braun,1,1,1,1,12
+BIO-00088,Autoclaves Model 550,Biomedical Equipment,Nos,Philips,1,1,1,0,12
+BIO-00089,Autoclaves Model 443,Biomedical Equipment,Nos,BPL Medical,1,1,1,0,6
+BIO-00090,Ultrasound Machines Model 254,Biomedical Equipment,Nos,Siemens Healthineers,1,1,1,1,12
+BIO-00091,Surgical Lights Model 165,Biomedical Equipment,Nos,Draeger,1,1,1,1,24
+BIO-00092,Syringe Pumps Model 163,Biomedical Equipment,Nos,Siemens Healthineers,1,1,1,0,24
+BIO-00093,Dental Chairs Model 812,Biomedical Equipment,Nos,Mindray,1,1,1,0,24
+BIO-00094,Nebulizers Model 106,Biomedical Equipment,Nos,BPL Medical,1,1,1,1,24
+BIO-00095,Syringe Pumps Model 651,Biomedical Equipment,Nos,B.Braun,1,1,1,0,12
+BIO-00096,Nebulizers Model 324,Biomedical Equipment,Nos,Nihon Kohden,1,1,1,1,6
+BIO-00097,Defibrillators Model 444,Biomedical Equipment,Nos,Draeger,1,1,1,0,24
+BIO-00098,Ultrasound Machines Model 737,Biomedical Equipment,Nos,B.Braun,1,1,1,1,24
+BIO-00099,Dental Chairs Model 677,Biomedical Equipment,Nos,Mindray,1,1,1,1,24
+BIO-00100,Ultrasound Machines Model 987,Biomedical Equipment,Nos,Medtronic,1,1,1,1,18
+BIO-00101,Defibrillators Model 435,Biomedical Equipment,Nos,Siemens Healthineers,1,1,1,1,18
+BIO-00102,Defibrillators Model 384,Biomedical Equipment,Nos,Draeger,1,1,1,1,6
+BIO-00103,Nebulizers Model 119,Biomedical Equipment,Nos,B.Braun,1,1,1,1,18
+BIO-00104,Sterilization Equipment Model 765,Biomedical Equipment,Nos,Philips,1,1,1,0,6
+BIO-00105,ICU Monitors Model 353,Biomedical Equipment,Nos,Siemens Healthineers,1,1,1,0,12
+BIO-00106,Sterilization Equipment Model 229,Biomedical Equipment,Nos,Medtronic,1,1,1,0,12
+BIO-00107,Pulse Oximeters Model 816,Biomedical Equipment,Nos,Nihon Kohden,1,1,1,0,12
+BIO-00108,Endoscopy Systems Model 721,Biomedical Equipment,Nos,Philips,1,1,1,0,12
+BIO-00109,Laboratory Analyzers Model 210,Biomedical Equipment,Nos,Hillrom,1,1,1,1,18
+BIO-00110,Dental Chairs Model 793,Biomedical Equipment,Nos,Draeger,1,1,1,1,12
+BIO-00111,Infusion Pumps Model 706,Biomedical Equipment,Nos,Siemens Healthineers,1,1,1,1,18
+BIO-00112,Endoscopy Systems Model 924,Biomedical Equipment,Nos,Philips,1,1,1,0,6
+BIO-00113,Oxygen Concentrators Model 645,Biomedical Equipment,Nos,Draeger,1,1,1,0,6
+BIO-00114,Blood Gas Analyzers Model 763,Biomedical Equipment,Nos,BPL Medical,1,1,1,1,24
+BIO-00115,Nebulizers Model 208,Biomedical Equipment,Nos,Draeger,1,1,1,0,24
+BIO-00116,Ultrasound Machines Model 545,Biomedical Equipment,Nos,GE Healthcare,1,1,1,0,18
+BIO-00117,Endoscopy Systems Model 927,Biomedical Equipment,Nos,B.Braun,1,1,1,0,24
+BIO-00118,Syringe Pumps Model 945,Biomedical Equipment,Nos,Hillrom,1,1,1,1,12
+BIO-00119,Infusion Pumps Model 385,Biomedical Equipment,Nos,Medtronic,1,1,1,1,24
+BIO-00120,Dental Chairs Model 724,Biomedical Equipment,Nos,Draeger,1,1,1,1,24
+BIO-00121,Hospital Beds Model 286,Biomedical Equipment,Nos,Medtronic,1,1,1,1,18
+BIO-00122,Hospital Beds Model 386,Biomedical Equipment,Nos,Hillrom,1,1,1,0,18
+BIO-00123,X-Ray Machines Model 110,Biomedical Equipment,Nos,B.Braun,1,1,1,0,6
+BIO-00124,Sterilization Equipment Model 837,Biomedical Equipment,Nos,Draeger,1,1,1,1,12
+BIO-00125,Nebulizers Model 761,Biomedical Equipment,Nos,Medtronic,1,1,1,1,6
+BIO-00126,Infusion Pumps Model 401,Biomedical Equipment,Nos,Siemens Healthineers,1,1,1,1,12
+BIO-00127,Laboratory Analyzers Model 779,Biomedical Equipment,Nos,Hillrom,1,1,1,1,18
+BIO-00128,Syringe Pumps Model 863,Biomedical Equipment,Nos,B.Braun,1,1,1,1,24
+BIO-00129,Autoclaves Model 413,Biomedical Equipment,Nos,Nihon Kohden,1,1,1,1,12
+BIO-00130,Hospital Beds Model 222,Biomedical Equipment,Nos,B.Braun,1,1,1,0,12
+BIO-00131,Surgical Lights Model 321,Biomedical Equipment,Nos,Medtronic,1,1,1,1,18
+BIO-00132,Ventilators Model 952,Biomedical Equipment,Nos,Siemens Healthineers,1,1,1,1,18
+BIO-00133,ECG Machines Model 409,Biomedical Equipment,Nos,Mindray,1,1,1,0,12
+BIO-00134,Autoclaves Model 146,Biomedical Equipment,Nos,Mindray,1,1,1,1,12
+BIO-00135,Nebulizers Model 205,Biomedical Equipment,Nos,Mindray,1,1,1,1,24
+BIO-00136,Nebulizers Model 551,Biomedical Equipment,Nos,BPL Medical,1,1,1,1,6
+BIO-00137,Autoclaves Model 982,Biomedical Equipment,Nos,Medtronic,1,1,1,1,6
+BIO-00138,Defibrillators Model 603,Biomedical Equipment,Nos,Philips,1,1,1,1,6
+BIO-00139,Ultrasound Machines Model 252,Biomedical Equipment,Nos,Hillrom,1,1,1,0,6
+BIO-00140,Sterilization Equipment Model 221,Biomedical Equipment,Nos,B.Braun,1,1,1,0,12
+BIO-00141,Blood Gas Analyzers Model 489,Biomedical Equipment,Nos,Medtronic,1,1,1,0,18
+BIO-00142,Dental Chairs Model 539,Biomedical Equipment,Nos,Nihon Kohden,1,1,1,1,6
+BIO-00143,Endoscopy Systems Model 857,Biomedical Equipment,Nos,Philips,1,1,1,0,12
+BIO-00144,Surgical Lights Model 370,Biomedical Equipment,Nos,Philips,1,1,1,1,12
+BIO-00145,X-Ray Machines Model 176,Biomedical Equipment,Nos,GE Healthcare,1,1,1,1,24
+BIO-00146,Endoscopy Systems Model 581,Biomedical Equipment,Nos,Nihon Kohden,1,1,1,1,18
+BIO-00147,Laboratory Analyzers Model 819,Biomedical Equipment,Nos,Medtronic,1,1,1,1,12
+BIO-00148,Autoclaves Model 906,Biomedical Equipment,Nos,Hillrom,1,1,1,0,12
+BIO-00149,Syringe Pumps Model 217,Biomedical Equipment,Nos,B.Braun,1,1,1,1,12
+BIO-00150,Autoclaves Model 946,Biomedical Equipment,Nos,GE Healthcare,1,1,1,1,12
+BIO-00151,Laboratory Analyzers Model 709,Biomedical Equipment,Nos,Hillrom,1,1,1,0,24
+BIO-00152,Ventilators Model 579,Biomedical Equipment,Nos,Nihon Kohden,1,1,1,0,18
+BIO-00153,Blood Gas Analyzers Model 652,Biomedical Equipment,Nos,Medtronic,1,1,1,1,6
+BIO-00154,Syringe Pumps Model 852,Biomedical Equipment,Nos,BPL Medical,1,1,1,0,6
+BIO-00155,Infusion Pumps Model 334,Biomedical Equipment,Nos,Hillrom,1,1,1,1,6
+BIO-00156,Autoclaves Model 690,Biomedical Equipment,Nos,Mindray,1,1,1,0,12
+BIO-00157,Nebulizers Model 631,Biomedical Equipment,Nos,Medtronic,1,1,1,0,12
+BIO-00158,Dental Chairs Model 546,Biomedical Equipment,Nos,Medtronic,1,1,1,0,24
+BIO-00159,Oxygen Concentrators Model 518,Biomedical Equipment,Nos,BPL Medical,1,1,1,1,6
+BIO-00160,ECG Machines Model 437,Biomedical Equipment,Nos,Draeger,1,1,1,0,18
+BIO-00161,Defibrillators Model 933,Biomedical Equipment,Nos,B.Braun,1,1,1,1,6
+BIO-00162,Hospital Beds Model 358,Biomedical Equipment,Nos,BPL Medical,1,1,1,1,24
+BIO-00163,Blood Gas Analyzers Model 944,Biomedical Equipment,Nos,Mindray,1,1,1,0,24
+BIO-00164,Syringe Pumps Model 155,Biomedical Equipment,Nos,Siemens Healthineers,1,1,1,1,24
+BIO-00165,Pulse Oximeters Model 878,Biomedical Equipment,Nos,Mindray,1,1,1,1,12
+BIO-00166,Laboratory Analyzers Model 548,Biomedical Equipment,Nos,Medtronic,1,1,1,1,12
+BIO-00167,ECG Machines Model 418,Biomedical Equipment,Nos,B.Braun,1,1,1,1,24
+BIO-00168,Infusion Pumps Model 330,Biomedical Equipment,Nos,Philips,1,1,1,1,6
+BIO-00169,Ultrasound Machines Model 610,Biomedical Equipment,Nos,Nihon Kohden,1,1,1,1,18
+BIO-00170,Syringe Pumps Model 954,Biomedical Equipment,Nos,Medtronic,1,1,1,0,12
+BIO-00171,Pulse Oximeters Model 664,Biomedical Equipment,Nos,GE Healthcare,1,1,1,1,12
+BIO-00172,Infusion Pumps Model 382,Biomedical Equipment,Nos,Draeger,1,1,1,1,18
+BIO-00173,ICU Monitors Model 389,Biomedical Equipment,Nos,Nihon Kohden,1,1,1,0,24
+BIO-00174,Ultrasound Machines Model 557,Biomedical Equipment,Nos,B.Braun,1,1,1,1,18
+BIO-00175,X-Ray Machines Model 881,Biomedical Equipment,Nos,B.Braun,1,1,1,1,18
+BIO-00176,Surgical Lights Model 814,Biomedical Equipment,Nos,Siemens Healthineers,1,1,1,1,12
+BIO-00177,Syringe Pumps Model 144,Biomedical Equipment,Nos,BPL Medical,1,1,1,0,24
+BIO-00178,Defibrillators Model 779,Biomedical Equipment,Nos,GE Healthcare,1,1,1,1,6
+BIO-00179,Ultrasound Machines Model 614,Biomedical Equipment,Nos,Hillrom,1,1,1,1,6
+BIO-00180,Pulse Oximeters Model 202,Biomedical Equipment,Nos,B.Braun,1,1,1,0,6
+BIO-00181,Ultrasound Machines Model 519,Biomedical Equipment,Nos,GE Healthcare,1,1,1,1,18
+BIO-00182,Hospital Beds Model 738,Biomedical Equipment,Nos,Draeger,1,1,1,0,18
+BIO-00183,X-Ray Machines Model 489,Biomedical Equipment,Nos,BPL Medical,1,1,1,0,24
+BIO-00184,X-Ray Machines Model 136,Biomedical Equipment,Nos,Hillrom,1,1,1,1,18
+BIO-00185,Sterilization Equipment Model 864,Biomedical Equipment,Nos,Philips,1,1,1,1,6
+BIO-00186,Ventilators Model 554,Biomedical Equipment,Nos,GE Healthcare,1,1,1,0,6
+BIO-00187,Patient Monitors Model 432,Biomedical Equipment,Nos,Mindray,1,1,1,1,18
+BIO-00188,Syringe Pumps Model 249,Biomedical Equipment,Nos,Siemens Healthineers,1,1,1,1,12
+BIO-00189,ECG Machines Model 279,Biomedical Equipment,Nos,Philips,1,1,1,0,24
+BIO-00190,Endoscopy Systems Model 799,Biomedical Equipment,Nos,Siemens Healthineers,1,1,1,1,12
+BIO-00191,Sterilization Equipment Model 572,Biomedical Equipment,Nos,Nihon Kohden,1,1,1,1,6
+BIO-00192,Pulse Oximeters Model 394,Biomedical Equipment,Nos,B.Braun,1,1,1,1,24
+BIO-00193,Oxygen Concentrators Model 701,Biomedical Equipment,Nos,Nihon Kohden,1,1,1,0,24
+BIO-00194,Autoclaves Model 567,Biomedical Equipment,Nos,Nihon Kohden,1,1,1,1,24
+BIO-00195,Nebulizers Model 209,Biomedical Equipment,Nos,Siemens Healthineers,1,1,1,1,18
+BIO-00196,Dental Chairs Model 402,Biomedical Equipment,Nos,Nihon Kohden,1,1,1,1,24
+BIO-00197,Autoclaves Model 108,Biomedical Equipment,Nos,Hillrom,1,1,1,0,6
+BIO-00198,Endoscopy Systems Model 863,Biomedical Equipment,Nos,Medtronic,1,1,1,0,18
+BIO-00199,Sterilization Equipment Model 721,Biomedical Equipment,Nos,BPL Medical,1,1,1,1,12
+BIO-00200,Endoscopy Systems Model 356,Biomedical Equipment,Nos,GE Healthcare,1,1,1,0,6
+SPR-00001,Monitor Display Panel #49,Biomedical Spare Parts,Nos,Medtronic,1,1,1,0,0
+SPR-00002,Infusion Pump Motor #14,Biomedical Spare Parts,Nos,Hillrom,1,1,1,0,0
+SPR-00003,ECG Lead Set 12-Lead #56,Biomedical Spare Parts,Nos,GE Healthcare,1,1,1,0,0
+SPR-00004,SpO2 Sensor Cable #21,Biomedical Spare Parts,Nos,Nihon Kohden,1,1,1,0,0
+SPR-00005,Blood Pressure Cuff Adult #51,Biomedical Spare Parts,Nos,Draeger,1,1,1,0,0
+SPR-00006,Ventilator Circuit Kit #32,Biomedical Spare Parts,Nos,Siemens Healthineers,1,1,1,0,0
+SPR-00007,Autoclave Gasket Set #26,Biomedical Spare Parts,Nos,B.Braun,1,1,1,0,0
+SPR-00008,Defibrillator Pads #56,Biomedical Spare Parts,Nos,B.Braun,1,1,1,0,0
+SPR-00009,Temperature Probe #74,Biomedical Spare Parts,Nos,Nihon Kohden,1,1,1,0,0
+SPR-00010,Printer Paper Roll (Thermal) #31,Biomedical Spare Parts,Nos,Nihon Kohden,1,1,1,0,0
+SPR-00011,Battery Pack (Medical Grade) #71,Biomedical Spare Parts,Nos,Nihon Kohden,1,1,1,0,0
+SPR-00012,Fuse Kit (Assorted) #53,Biomedical Spare Parts,Nos,Philips,1,1,1,0,0
+WC-YEL-060,Yellow Bin 60L,Waste Containers,Nos,,1,1,1,0,0
+WC-YEL-120,Yellow Bin 120L,Waste Containers,Nos,,1,1,1,0,0
+WC-RED-060,Red Bin 60L,Waste Containers,Nos,,1,1,1,0,0
+WC-SHP-005,Sharps Container 5L,Waste Containers,Nos,,1,1,1,0,0
+WC-SHP-010,Sharps Container 10L,Waste Containers,Nos,,1,1,1,0,0
+WC-CHM-050,Chemical Waste Drum 50L,Waste Containers,Nos,,1,1,1,0,0
+WC-BAG-050,Biohazard Bag Roll (50pcs),Waste Containers,Nos,,1,1,1,0,0
+WC-LNR-YEL,Yellow Liner Bag Roll,Waste Containers,Nos,,1,1,1,0,0
+WC-LNR-RED,Red Liner Bag Roll,Waste Containers,Nos,,1,1,1,0,0
+PPE-GLV-NIT,Nitrile Gloves Box (100),PPE & Safety,Box,,1,0,1,0,0
+PPE-GLV-LAT,Latex Gloves Box (100),PPE & Safety,Box,,1,0,1,0,0
+PPE-MSK-N95,N95 Respirator Mask (20),PPE & Safety,Box,,1,0,1,0,0
+PPE-MSK-SUR,Surgical Mask Box (50),PPE & Safety,Box,,1,0,1,0,0
+PPE-SHD-001,Face Shield,PPE & Safety,Nos,,1,0,1,0,0
+PPE-GOG-001,Safety Goggles,PPE & Safety,Nos,,1,0,1,0,0
+PPE-GWN-DIS,Disposable Gown,PPE & Safety,Nos,,1,0,1,0,0
+PPE-APR-HDY,Heavy Duty Apron,PPE & Safety,Nos,,1,0,1,0,0
+PPE-BOT-001,Safety Boots Pair,PPE & Safety,Pair,,1,0,1,0,0
+PPE-GLV-CHM,Chemical Resistant Gloves,PPE & Safety,Pair,,1,0,1,0,0
+INC-FUEL-DSL,Incinerator Fuel (Diesel),Incinerator Supplies,Ltr,,1,0,1,0,0
+INC-BRK-REF,Refractory Brick,Incinerator Supplies,Nos,,1,0,1,0,0
+INC-FLT-EMI,Emission Filter Cartridge,Incinerator Supplies,Nos,,1,0,1,0,0
+INC-SNS-TMP,Thermocouple Sensor,Incinerator Supplies,Nos,,1,0,1,0,0
+INC-BAG-ASH,Ash Collection Bag,Incinerator Supplies,Nos,,1,0,1,0,0
+INC-ELC-IGN,Ignition Electrode,Incinerator Supplies,Nos,,1,0,1,0,0
+VPT-OIL-ENG,Engine Oil 5L,Vehicle Parts & Supplies,Nos,,1,0,1,0,0
+VPT-FLT-AIR,Air Filter,Vehicle Parts & Supplies,Nos,,1,0,1,0,0
+VPT-BRK-PAD,Brake Pad Set,Vehicle Parts & Supplies,Set,,1,0,1,0,0
+VPT-TYR-195,Tyre 195/65R15,Vehicle Parts & Supplies,Nos,,1,0,1,0,0
+VPT-BAT-12V,Battery 12V Heavy Duty,Vehicle Parts & Supplies,Nos,,1,0,1,0,0
+VPT-COL-005,Coolant 5L,Vehicle Parts & Supplies,Nos,,1,0,1,0,0
+VPT-WPR-SET,Wiper Blade Set,Vehicle Parts & Supplies,Set,,1,0,1,0,0
+VPT-TRN-FLD,Transmission Fluid 4L,Vehicle Parts & Supplies,Nos,,1,0,1,0,0
+CLN-DIS-005,Disinfectant Solution 5L,Cleaning & Disinfection,Nos,,1,0,1,0,0
+CLN-BLC-005,Bleach Solution 5L,Cleaning & Disinfection,Nos,,1,0,1,0,0
+CLN-SPL-KIT,Spill Containment Kit,Cleaning & Disinfection,Nos,,1,0,1,0,0
+CLN-SAN-SPR,Surface Sanitizer Spray,Cleaning & Disinfection,Nos,,1,0,1,0,0
+SVC-WASTE-INFECTIOUS,Infectious Waste Collection Service,Waste Management Services,Kg,,0,1,0,0,0
+SVC-WASTE-PATHOLOGICAL,Pathological Waste Collection Service,Waste Management Services,Kg,,0,1,0,0,0
+SVC-WASTE-SHARPS,Sharps Waste Collection Service,Waste Management Services,Kg,,0,1,0,0,0
+SVC-WASTE-PHARMACEUTICAL,Pharmaceutical Waste Collection Service,Waste Management Services,Kg,,0,1,0,0,0
+SVC-WASTE-CHEMICAL,Chemical Waste Collection Service,Waste Management Services,Kg,,0,1,0,0,0
+SVC-WASTE-GENERAL,General Medical Waste Collection Service,Waste Management Services,Kg,,0,1,0,0,0
+SVC-BIO-INST,Installation & Commissioning,Biomedical Services,Nos,,0,1,0,0,0
+SVC-BIO-PMV,Preventive Maintenance Visit,Biomedical Services,Nos,,0,1,0,0,0
+SVC-BIO-CMS,Corrective Maintenance Service,Biomedical Services,Nos,,0,1,0,0,0
+SVC-BIO-CAL,Calibration Service,Biomedical Services,Nos,,0,1,0,0,0
+SVC-BIO-AMC,AMC - Annual Maintenance Contract,Biomedical Services,Nos,,0,1,0,0,0
+SVC-BIO-CMC,CMC - Comprehensive Maintenance,Biomedical Services,Nos,,0,1,0,0,0
+SVC-TRN-EQP,Equipment Training Session,Training Services,Nos,,0,1,0,0,0
+SVC-TRN-WST,Waste Handling Training,Training Services,Nos,,0,1,0,0,0
+SVC-CMP-AUD,Compliance Audit Service,Compliance Services,Nos,,0,1,0,0,0
+SVC-CMP-ENV,Environmental Monitoring,Compliance Services,Nos,,0,1,0,0,0
+SVC-CMP-CON,Waste Management Consultancy,Compliance Services,Nos,,0,1,0,0,0
+SVC-INC-001,Incineration Service,Waste Management Services,Kg,,0,1,0,0,0
+BIO-00268,Pulse Oximeters Variant 2233,Biomedical Equipment,Nos,GE Healthcare,1,1,1,0,12
+BIO-00269,Defibrillators Variant 6992,Biomedical Equipment,Nos,Philips,1,1,1,0,12
+BIO-00270,Autoclaves Variant 9791,Biomedical Equipment,Nos,Philips,1,1,1,1,24
+BIO-00271,Dental Chairs Variant 7242,Biomedical Equipment,Nos,BPL Medical,1,1,1,1,12
+BIO-00272,Nebulizers Variant 1410,Biomedical Equipment,Nos,Hillrom,1,1,1,0,24
+BIO-00273,Endoscopy Systems Variant 4626,Biomedical Equipment,Nos,Philips,1,1,1,0,24
+BIO-00274,Laboratory Analyzers Variant 7689,Biomedical Equipment,Nos,Philips,1,1,1,1,12
+BIO-00275,Laboratory Analyzers Variant 9071,Biomedical Equipment,Nos,Philips,1,1,1,1,12
+BIO-00276,Defibrillators Variant 8432,Biomedical Equipment,Nos,BPL Medical,1,1,1,0,24
+BIO-00277,Dental Chairs Variant 3531,Biomedical Equipment,Nos,Draeger,1,1,1,0,24
+BIO-00278,Endoscopy Systems Variant 7686,Biomedical Equipment,Nos,Nihon Kohden,1,1,1,1,24
+BIO-00279,Surgical Lights Variant 8264,Biomedical Equipment,Nos,Medtronic,1,1,1,0,24
+BIO-00280,Ventilators Variant 7018,Biomedical Equipment,Nos,B.Braun,1,1,1,0,24
+BIO-00281,Patient Monitors Variant 7523,Biomedical Equipment,Nos,Nihon Kohden,1,1,1,1,12
+BIO-00282,Pulse Oximeters Variant 2501,Biomedical Equipment,Nos,Siemens Healthineers,1,1,1,0,12
+BIO-00283,Patient Monitors Variant 6464,Biomedical Equipment,Nos,Siemens Healthineers,1,1,1,0,12
+BIO-00284,Infusion Pumps Variant 4394,Biomedical Equipment,Nos,Hillrom,1,1,1,1,12
+BIO-00285,Hospital Beds Variant 3417,Biomedical Equipment,Nos,Hillrom,1,1,1,1,12
+BIO-00286,Ultrasound Machines Variant 9850,Biomedical Equipment,Nos,Nihon Kohden,1,1,1,0,12
+BIO-00287,ICU Monitors Variant 3159,Biomedical Equipment,Nos,Mindray,1,1,1,1,12
+BIO-00288,Dental Chairs Variant 6304,Biomedical Equipment,Nos,Mindray,1,1,1,1,12
+BIO-00289,Ultrasound Machines Variant 7897,Biomedical Equipment,Nos,B.Braun,1,1,1,1,12
+BIO-00290,Nebulizers Variant 8344,Biomedical Equipment,Nos,BPL Medical,1,1,1,0,12
+BIO-00291,Pulse Oximeters Variant 9254,Biomedical Equipment,Nos,Siemens Healthineers,1,1,1,0,12
+BIO-00292,Blood Gas Analyzers Variant 5941,Biomedical Equipment,Nos,Medtronic,1,1,1,0,12
+BIO-00293,Patient Monitors Variant 8847,Biomedical Equipment,Nos,Draeger,1,1,1,1,12
+BIO-00294,Nebulizers Variant 8267,Biomedical Equipment,Nos,Philips,1,1,1,0,24
+BIO-00295,Endoscopy Systems Variant 3430,Biomedical Equipment,Nos,Philips,1,1,1,1,24
+BIO-00296,Defibrillators Variant 9692,Biomedical Equipment,Nos,Nihon Kohden,1,1,1,1,24
+BIO-00297,Ventilators Variant 2874,Biomedical Equipment,Nos,B.Braun,1,1,1,0,12
+BIO-00298,Syringe Pumps Variant 8398,Biomedical Equipment,Nos,Siemens Healthineers,1,1,1,1,24
+BIO-00299,Defibrillators Variant 7815,Biomedical Equipment,Nos,Philips,1,1,1,1,24
+BIO-00300,Autoclaves Variant 7132,Biomedical Equipment,Nos,GE Healthcare,1,1,1,0,24
+BIO-00301,Infusion Pumps Variant 2494,Biomedical Equipment,Nos,Philips,1,1,1,1,12
+BIO-00302,Oxygen Concentrators Variant 3131,Biomedical Equipment,Nos,B.Braun,1,1,1,1,24
+BIO-00303,Ventilators Variant 7730,Biomedical Equipment,Nos,BPL Medical,1,1,1,0,24
+BIO-00304,Patient Monitors Variant 5712,Biomedical Equipment,Nos,Hillrom,1,1,1,1,12
+BIO-00305,Dental Chairs Variant 9313,Biomedical Equipment,Nos,Siemens Healthineers,1,1,1,1,24
+BIO-00306,Sterilization Equipment Variant 2773,Biomedical Equipment,Nos,BPL Medical,1,1,1,0,24
+BIO-00307,Ventilators Variant 5564,Biomedical Equipment,Nos,Hillrom,1,1,1,1,24
+BIO-00308,X-Ray Machines Variant 1430,Biomedical Equipment,Nos,Hillrom,1,1,1,0,24
+BIO-00309,ICU Monitors Variant 3955,Biomedical Equipment,Nos,Nihon Kohden,1,1,1,0,24
+BIO-00310,Hospital Beds Variant 6751,Biomedical Equipment,Nos,Mindray,1,1,1,1,12
+BIO-00311,Dental Chairs Variant 7566,Biomedical Equipment,Nos,Philips,1,1,1,1,12
+BIO-00312,Infusion Pumps Variant 9691,Biomedical Equipment,Nos,Siemens Healthineers,1,1,1,1,24
+BIO-00313,Hospital Beds Variant 3578,Biomedical Equipment,Nos,BPL Medical,1,1,1,1,24
+BIO-00314,Dental Chairs Variant 2391,Biomedical Equipment,Nos,Mindray,1,1,1,1,12
+BIO-00315,Infusion Pumps Variant 5458,Biomedical Equipment,Nos,Medtronic,1,1,1,0,24
+BIO-00316,Endoscopy Systems Variant 8242,Biomedical Equipment,Nos,Draeger,1,1,1,1,12
+BIO-00317,Oxygen Concentrators Variant 8043,Biomedical Equipment,Nos,Philips,1,1,1,1,24
+BIO-00318,Blood Gas Analyzers Variant 6053,Biomedical Equipment,Nos,Mindray,1,1,1,1,12
+BIO-00319,ICU Monitors Variant 4349,Biomedical Equipment,Nos,Nihon Kohden,1,1,1,0,12
+BIO-00320,Autoclaves Variant 5742,Biomedical Equipment,Nos,BPL Medical,1,1,1,1,24
+BIO-00321,Syringe Pumps Variant 3878,Biomedical Equipment,Nos,GE Healthcare,1,1,1,1,12
+BIO-00322,Blood Gas Analyzers Variant 6802,Biomedical Equipment,Nos,Philips,1,1,1,1,12
+BIO-00323,Syringe Pumps Variant 1307,Biomedical Equipment,Nos,Medtronic,1,1,1,0,24
+BIO-00324,Dental Chairs Variant 8033,Biomedical Equipment,Nos,Hillrom,1,1,1,1,24
+BIO-00325,Laboratory Analyzers Variant 2887,Biomedical Equipment,Nos,Draeger,1,1,1,1,24
+BIO-00326,ECG Machines Variant 8538,Biomedical Equipment,Nos,BPL Medical,1,1,1,1,12
+BIO-00327,Sterilization Equipment Variant 8138,Biomedical Equipment,Nos,Hillrom,1,1,1,1,12
+BIO-00328,Defibrillators Variant 6083,Biomedical Equipment,Nos,BPL Medical,1,1,1,1,12
+BIO-00329,Infusion Pumps Variant 9363,Biomedical Equipment,Nos,Philips,1,1,1,0,12
+BIO-00330,Oxygen Concentrators Variant 6752,Biomedical Equipment,Nos,GE Healthcare,1,1,1,1,12
+BIO-00331,Autoclaves Variant 4232,Biomedical Equipment,Nos,GE Healthcare,1,1,1,0,12
+BIO-00332,ECG Machines Variant 9095,Biomedical Equipment,Nos,Medtronic,1,1,1,0,24
+BIO-00333,Dental Chairs Variant 6295,Biomedical Equipment,Nos,BPL Medical,1,1,1,1,12
+BIO-00334,Nebulizers Variant 8245,Biomedical Equipment,Nos,Nihon Kohden,1,1,1,0,12
+BIO-00335,Oxygen Concentrators Variant 9312,Biomedical Equipment,Nos,Philips,1,1,1,1,24
+BIO-00336,Patient Monitors Variant 1932,Biomedical Equipment,Nos,BPL Medical,1,1,1,0,12
+BIO-00337,Infusion Pumps Variant 9307,Biomedical Equipment,Nos,Draeger,1,1,1,1,12
+BIO-00338,Pulse Oximeters Variant 4084,Biomedical Equipment,Nos,BPL Medical,1,1,1,0,12
+BIO-00339,Patient Monitors Variant 8381,Biomedical Equipment,Nos,Philips,1,1,1,0,24
+BIO-00340,Infusion Pumps Variant 9266,Biomedical Equipment,Nos,GE Healthcare,1,1,1,1,24
+BIO-00341,Pulse Oximeters Variant 9586,Biomedical Equipment,Nos,B.Braun,1,1,1,0,24
+BIO-00342,Oxygen Concentrators Variant 5634,Biomedical Equipment,Nos,Draeger,1,1,1,1,24
+BIO-00343,Endoscopy Systems Variant 1857,Biomedical Equipment,Nos,BPL Medical,1,1,1,1,12
+BIO-00344,X-Ray Machines Variant 7333,Biomedical Equipment,Nos,Nihon Kohden,1,1,1,1,12
+BIO-00345,Hospital Beds Variant 2335,Biomedical Equipment,Nos,Hillrom,1,1,1,0,24
+BIO-00346,Laboratory Analyzers Variant 7421,Biomedical Equipment,Nos,GE Healthcare,1,1,1,0,12
+BIO-00347,Laboratory Analyzers Variant 7171,Biomedical Equipment,Nos,BPL Medical,1,1,1,0,12
+BIO-00348,Syringe Pumps Variant 9331,Biomedical Equipment,Nos,BPL Medical,1,1,1,1,24
+BIO-00349,ECG Machines Variant 4509,Biomedical Equipment,Nos,BPL Medical,1,1,1,0,24
+BIO-00350,Surgical Lights Variant 4711,Biomedical Equipment,Nos,GE Healthcare,1,1,1,1,24
+BIO-00351,Ventilators Variant 9317,Biomedical Equipment,Nos,B.Braun,1,1,1,0,12
+BIO-00352,Hospital Beds Variant 3147,Biomedical Equipment,Nos,Hillrom,1,1,1,1,12
+BIO-00353,ECG Machines Variant 3712,Biomedical Equipment,Nos,Medtronic,1,1,1,1,24
+BIO-00354,Sterilization Equipment Variant 8277,Biomedical Equipment,Nos,Hillrom,1,1,1,1,24
+BIO-00355,Sterilization Equipment Variant 9749,Biomedical Equipment,Nos,Siemens Healthineers,1,1,1,1,24
+BIO-00356,Surgical Lights Variant 7026,Biomedical Equipment,Nos,Hillrom,1,1,1,0,24
+BIO-00357,Laboratory Analyzers Variant 7256,Biomedical Equipment,Nos,B.Braun,1,1,1,0,12
+BIO-00358,Surgical Lights Variant 3267,Biomedical Equipment,Nos,Nihon Kohden,1,1,1,1,24
+BIO-00359,Oxygen Concentrators Variant 2680,Biomedical Equipment,Nos,B.Braun,1,1,1,0,24
+BIO-00360,Infusion Pumps Variant 3626,Biomedical Equipment,Nos,Nihon Kohden,1,1,1,1,12
+BIO-00361,Syringe Pumps Variant 2502,Biomedical Equipment,Nos,Siemens Healthineers,1,1,1,0,24
+BIO-00362,ICU Monitors Variant 7797,Biomedical Equipment,Nos,Mindray,1,1,1,1,24
+BIO-00363,Sterilization Equipment Variant 7326,Biomedical Equipment,Nos,Philips,1,1,1,1,12
+BIO-00364,Hospital Beds Variant 2623,Biomedical Equipment,Nos,BPL Medical,1,1,1,0,12
+BIO-00365,Patient Monitors Variant 5700,Biomedical Equipment,Nos,Medtronic,1,1,1,0,12
+BIO-00366,Nebulizers Variant 8349,Biomedical Equipment,Nos,Hillrom,1,1,1,1,12
+BIO-00367,ICU Monitors Variant 5193,Biomedical Equipment,Nos,Siemens Healthineers,1,1,1,0,24
+BIO-00368,Ventilators Variant 5720,Biomedical Equipment,Nos,Siemens Healthineers,1,1,1,1,12
+BIO-00369,Sterilization Equipment Variant 7878,Biomedical Equipment,Nos,Hillrom,1,1,1,1,12
+BIO-00370,Nebulizers Variant 9782,Biomedical Equipment,Nos,Mindray,1,1,1,0,12
+BIO-00371,Ultrasound Machines Variant 5772,Biomedical Equipment,Nos,Draeger,1,1,1,1,24
+BIO-00372,Sterilization Equipment Variant 7825,Biomedical Equipment,Nos,GE Healthcare,1,1,1,0,12
+BIO-00373,Blood Gas Analyzers Variant 6908,Biomedical Equipment,Nos,Philips,1,1,1,0,12
+BIO-00374,Defibrillators Variant 8702,Biomedical Equipment,Nos,Mindray,1,1,1,0,24
+BIO-00375,Autoclaves Variant 1266,Biomedical Equipment,Nos,BPL Medical,1,1,1,0,24
+BIO-00376,Sterilization Equipment Variant 2698,Biomedical Equipment,Nos,Hillrom,1,1,1,0,24
+BIO-00377,Ultrasound Machines Variant 1726,Biomedical Equipment,Nos,BPL Medical,1,1,1,0,12
+BIO-00378,Pulse Oximeters Variant 8840,Biomedical Equipment,Nos,GE Healthcare,1,1,1,0,12
+BIO-00379,Pulse Oximeters Variant 1605,Biomedical Equipment,Nos,Nihon Kohden,1,1,1,1,12
+BIO-00380,Patient Monitors Variant 6170,Biomedical Equipment,Nos,Nihon Kohden,1,1,1,0,24
+BIO-00381,Autoclaves Variant 1599,Biomedical Equipment,Nos,Siemens Healthineers,1,1,1,1,12
+BIO-00382,Hospital Beds Variant 5476,Biomedical Equipment,Nos,Philips,1,1,1,0,24
+BIO-00383,Defibrillators Variant 8204,Biomedical Equipment,Nos,Draeger,1,1,1,1,12
+BIO-00384,Nebulizers Variant 9151,Biomedical Equipment,Nos,BPL Medical,1,1,1,0,24
+BIO-00385,Infusion Pumps Variant 7955,Biomedical Equipment,Nos,Philips,1,1,1,1,12
+BIO-00386,X-Ray Machines Variant 5813,Biomedical Equipment,Nos,BPL Medical,1,1,1,1,24
+BIO-00387,Laboratory Analyzers Variant 6021,Biomedical Equipment,Nos,Medtronic,1,1,1,0,24
+BIO-00388,ECG Machines Variant 8272,Biomedical Equipment,Nos,BPL Medical,1,1,1,1,24
+BIO-00389,Endoscopy Systems Variant 8126,Biomedical Equipment,Nos,Nihon Kohden,1,1,1,0,12
+BIO-00390,Infusion Pumps Variant 7655,Biomedical Equipment,Nos,BPL Medical,1,1,1,0,12
+BIO-00391,ICU Monitors Variant 3339,Biomedical Equipment,Nos,Hillrom,1,1,1,0,24
+BIO-00392,Patient Monitors Variant 3068,Biomedical Equipment,Nos,Philips,1,1,1,1,24
+BIO-00393,Oxygen Concentrators Variant 7272,Biomedical Equipment,Nos,Hillrom,1,1,1,1,12
+BIO-00394,Pulse Oximeters Variant 7077,Biomedical Equipment,Nos,BPL Medical,1,1,1,1,12
+BIO-00395,Dental Chairs Variant 3255,Biomedical Equipment,Nos,B.Braun,1,1,1,1,24
+BIO-00396,Autoclaves Variant 5089,Biomedical Equipment,Nos,Philips,1,1,1,1,12
+BIO-00397,Nebulizers Variant 9482,Biomedical Equipment,Nos,Draeger,1,1,1,0,12
+BIO-00398,Autoclaves Variant 5264,Biomedical Equipment,Nos,Medtronic,1,1,1,1,24
+BIO-00399,Nebulizers Variant 4279,Biomedical Equipment,Nos,Philips,1,1,1,1,12
+BIO-00400,Pulse Oximeters Variant 3828,Biomedical Equipment,Nos,Medtronic,1,1,1,0,24
+BIO-00401,Oxygen Concentrators Variant 2063,Biomedical Equipment,Nos,B.Braun,1,1,1,0,24
+BIO-00402,ECG Machines Variant 3852,Biomedical Equipment,Nos,BPL Medical,1,1,1,0,12
+BIO-00403,Surgical Lights Variant 3275,Biomedical Equipment,Nos,Siemens Healthineers,1,1,1,0,12
+BIO-00404,Oxygen Concentrators Variant 7044,Biomedical Equipment,Nos,Medtronic,1,1,1,0,12
+BIO-00405,Endoscopy Systems Variant 2412,Biomedical Equipment,Nos,Philips,1,1,1,1,24
+BIO-00406,Blood Gas Analyzers Variant 7730,Biomedical Equipment,Nos,Draeger,1,1,1,0,12
+BIO-00407,Ultrasound Machines Variant 6194,Biomedical Equipment,Nos,Philips,1,1,1,1,24
+BIO-00408,Ultrasound Machines Variant 3981,Biomedical Equipment,Nos,GE Healthcare,1,1,1,1,12
+BIO-00409,Ventilators Variant 9488,Biomedical Equipment,Nos,GE Healthcare,1,1,1,1,12
+BIO-00410,Hospital Beds Variant 4694,Biomedical Equipment,Nos,BPL Medical,1,1,1,0,24
+BIO-00411,Infusion Pumps Variant 5105,Biomedical Equipment,Nos,Siemens Healthineers,1,1,1,0,24
+BIO-00412,Ultrasound Machines Variant 5961,Biomedical Equipment,Nos,Hillrom,1,1,1,0,12
+BIO-00413,Dental Chairs Variant 3526,Biomedical Equipment,Nos,GE Healthcare,1,1,1,0,24
+BIO-00414,Dental Chairs Variant 1674,Biomedical Equipment,Nos,Mindray,1,1,1,1,24
+BIO-00415,Surgical Lights Variant 7825,Biomedical Equipment,Nos,Hillrom,1,1,1,0,24
+BIO-00416,X-Ray Machines Variant 5745,Biomedical Equipment,Nos,Nihon Kohden,1,1,1,1,24
+BIO-00417,Laboratory Analyzers Variant 8430,Biomedical Equipment,Nos,Philips,1,1,1,0,12
+BIO-00418,Pulse Oximeters Variant 7809,Biomedical Equipment,Nos,Medtronic,1,1,1,1,24
+BIO-00419,Endoscopy Systems Variant 3353,Biomedical Equipment,Nos,BPL Medical,1,1,1,0,24
+BIO-00420,Oxygen Concentrators Variant 7532,Biomedical Equipment,Nos,GE Healthcare,1,1,1,0,12
+BIO-00421,Hospital Beds Variant 4960,Biomedical Equipment,Nos,Medtronic,1,1,1,1,24
+BIO-00422,Sterilization Equipment Variant 3308,Biomedical Equipment,Nos,Philips,1,1,1,1,24
+BIO-00423,Endoscopy Systems Variant 7850,Biomedical Equipment,Nos,Siemens Healthineers,1,1,1,0,12
+BIO-00424,Hospital Beds Variant 6123,Biomedical Equipment,Nos,Siemens Healthineers,1,1,1,0,24
+BIO-00425,Blood Gas Analyzers Variant 8648,Biomedical Equipment,Nos,Medtronic,1,1,1,0,24
+BIO-00426,ICU Monitors Variant 2475,Biomedical Equipment,Nos,Draeger,1,1,1,0,12
+BIO-00427,Surgical Lights Variant 6781,Biomedical Equipment,Nos,Mindray,1,1,1,1,24
+BIO-00428,Endoscopy Systems Variant 8710,Biomedical Equipment,Nos,Nihon Kohden,1,1,1,0,12
+BIO-00429,Syringe Pumps Variant 3194,Biomedical Equipment,Nos,Nihon Kohden,1,1,1,0,24
+BIO-00430,Oxygen Concentrators Variant 1741,Biomedical Equipment,Nos,Draeger,1,1,1,1,12
+BIO-00431,Oxygen Concentrators Variant 5728,Biomedical Equipment,Nos,Philips,1,1,1,1,24
+BIO-00432,X-Ray Machines Variant 5582,Biomedical Equipment,Nos,Hillrom,1,1,1,0,12
+BIO-00433,Ultrasound Machines Variant 2584,Biomedical Equipment,Nos,Draeger,1,1,1,1,24
+BIO-00434,X-Ray Machines Variant 6990,Biomedical Equipment,Nos,GE Healthcare,1,1,1,1,24
+BIO-00435,Blood Gas Analyzers Variant 1659,Biomedical Equipment,Nos,Mindray,1,1,1,1,24
+BIO-00436,Nebulizers Variant 9508,Biomedical Equipment,Nos,Medtronic,1,1,1,1,12
+BIO-00437,Hospital Beds Variant 6218,Biomedical Equipment,Nos,GE Healthcare,1,1,1,1,24
+BIO-00438,Dental Chairs Variant 6511,Biomedical Equipment,Nos,B.Braun,1,1,1,0,24
+BIO-00439,Dental Chairs Variant 5911,Biomedical Equipment,Nos,Medtronic,1,1,1,0,24
+BIO-00440,Hospital Beds Variant 2795,Biomedical Equipment,Nos,Draeger,1,1,1,0,12
+BIO-00441,Endoscopy Systems Variant 8775,Biomedical Equipment,Nos,Nihon Kohden,1,1,1,0,12
+BIO-00442,Patient Monitors Variant 8871,Biomedical Equipment,Nos,GE Healthcare,1,1,1,0,24
+BIO-00443,Ultrasound Machines Variant 4968,Biomedical Equipment,Nos,Mindray,1,1,1,0,12
+BIO-00444,Surgical Lights Variant 1310,Biomedical Equipment,Nos,Medtronic,1,1,1,1,12
+BIO-00445,Syringe Pumps Variant 4340,Biomedical Equipment,Nos,Draeger,1,1,1,0,24
+BIO-00446,Patient Monitors Variant 3262,Biomedical Equipment,Nos,B.Braun,1,1,1,1,24
+BIO-00447,Nebulizers Variant 9609,Biomedical Equipment,Nos,Draeger,1,1,1,1,12
+BIO-00448,Pulse Oximeters Variant 9734,Biomedical Equipment,Nos,BPL Medical,1,1,1,0,24
+BIO-00449,Endoscopy Systems Variant 8932,Biomedical Equipment,Nos,Siemens Healthineers,1,1,1,0,24
+BIO-00450,X-Ray Machines Variant 5890,Biomedical Equipment,Nos,Siemens Healthineers,1,1,1,0,24
+BIO-00451,Laboratory Analyzers Variant 4396,Biomedical Equipment,Nos,Medtronic,1,1,1,1,24
+BIO-00452,X-Ray Machines Variant 5480,Biomedical Equipment,Nos,Nihon Kohden,1,1,1,1,24
+BIO-00453,Defibrillators Variant 6654,Biomedical Equipment,Nos,GE Healthcare,1,1,1,1,24
+BIO-00454,Infusion Pumps Variant 6674,Biomedical Equipment,Nos,Medtronic,1,1,1,0,24
+BIO-00455,Surgical Lights Variant 4310,Biomedical Equipment,Nos,B.Braun,1,1,1,1,24
+BIO-00456,Ultrasound Machines Variant 2789,Biomedical Equipment,Nos,Hillrom,1,1,1,0,12
+BIO-00457,Sterilization Equipment Variant 1831,Biomedical Equipment,Nos,B.Braun,1,1,1,1,12
+BIO-00458,Patient Monitors Variant 2641,Biomedical Equipment,Nos,Draeger,1,1,1,1,24
+BIO-00459,Ventilators Variant 3252,Biomedical Equipment,Nos,Mindray,1,1,1,0,12
+BIO-00460,Syringe Pumps Variant 8793,Biomedical Equipment,Nos,Medtronic,1,1,1,0,24
+BIO-00461,Hospital Beds Variant 5676,Biomedical Equipment,Nos,Mindray,1,1,1,0,12
+BIO-00462,Dental Chairs Variant 4804,Biomedical Equipment,Nos,B.Braun,1,1,1,0,12
+BIO-00463,ECG Machines Variant 7846,Biomedical Equipment,Nos,GE Healthcare,1,1,1,0,12
+BIO-00464,Defibrillators Variant 9116,Biomedical Equipment,Nos,GE Healthcare,1,1,1,0,24
+BIO-00465,Patient Monitors Variant 1151,Biomedical Equipment,Nos,Nihon Kohden,1,1,1,0,12
+BIO-00466,Hospital Beds Variant 5662,Biomedical Equipment,Nos,Medtronic,1,1,1,0,24
+BIO-00467,Ultrasound Machines Variant 9261,Biomedical Equipment,Nos,Medtronic,1,1,1,1,12
+BIO-00468,Hospital Beds Variant 3662,Biomedical Equipment,Nos,Medtronic,1,1,1,0,12
+BIO-00469,ICU Monitors Variant 6523,Biomedical Equipment,Nos,Nihon Kohden,1,1,1,0,12
+BIO-00470,ECG Machines Variant 7643,Biomedical Equipment,Nos,Draeger,1,1,1,0,12
+BIO-00471,Defibrillators Variant 2562,Biomedical Equipment,Nos,GE Healthcare,1,1,1,0,24
+BIO-00472,Hospital Beds Variant 5064,Biomedical Equipment,Nos,Mindray,1,1,1,1,12
+BIO-00473,Pulse Oximeters Variant 5374,Biomedical Equipment,Nos,BPL Medical,1,1,1,1,12
+BIO-00474,Autoclaves Variant 6890,Biomedical Equipment,Nos,Siemens Healthineers,1,1,1,1,12
+BIO-00475,Pulse Oximeters Variant 6026,Biomedical Equipment,Nos,GE Healthcare,1,1,1,1,24
+BIO-00476,Ventilators Variant 5833,Biomedical Equipment,Nos,BPL Medical,1,1,1,0,12
+BIO-00477,Ultrasound Machines Variant 8834,Biomedical Equipment,Nos,GE Healthcare,1,1,1,1,24
+BIO-00478,Syringe Pumps Variant 9998,Biomedical Equipment,Nos,Medtronic,1,1,1,0,12
+BIO-00479,Sterilization Equipment Variant 2341,Biomedical Equipment,Nos,B.Braun,1,1,1,1,24
+BIO-00480,Infusion Pumps Variant 2838,Biomedical Equipment,Nos,Mindray,1,1,1,0,12
+BIO-00481,Dental Chairs Variant 9792,Biomedical Equipment,Nos,GE Healthcare,1,1,1,1,24
+BIO-00482,Ventilators Variant 4365,Biomedical Equipment,Nos,Hillrom,1,1,1,1,24
+BIO-00483,Patient Monitors Variant 8429,Biomedical Equipment,Nos,GE Healthcare,1,1,1,0,24
+BIO-00484,Dental Chairs Variant 1945,Biomedical Equipment,Nos,B.Braun,1,1,1,1,24
+BIO-00485,ICU Monitors Variant 7487,Biomedical Equipment,Nos,Nihon Kohden,1,1,1,0,12
+BIO-00486,Dental Chairs Variant 2196,Biomedical Equipment,Nos,Mindray,1,1,1,1,12
+BIO-00487,X-Ray Machines Variant 1987,Biomedical Equipment,Nos,Philips,1,1,1,0,24
+BIO-00488,Patient Monitors Variant 5703,Biomedical Equipment,Nos,Draeger,1,1,1,1,12
+BIO-00489,Syringe Pumps Variant 7135,Biomedical Equipment,Nos,Draeger,1,1,1,1,24
+BIO-00490,Defibrillators Variant 2314,Biomedical Equipment,Nos,B.Braun,1,1,1,1,24
+BIO-00491,Ventilators Variant 3924,Biomedical Equipment,Nos,B.Braun,1,1,1,1,12
+BIO-00492,Sterilization Equipment Variant 1056,Biomedical Equipment,Nos,Mindray,1,1,1,0,24
+BIO-00493,X-Ray Machines Variant 7948,Biomedical Equipment,Nos,B.Braun,1,1,1,1,12
+BIO-00494,Sterilization Equipment Variant 8546,Biomedical Equipment,Nos,BPL Medical,1,1,1,1,12
+BIO-00495,Ventilators Variant 1527,Biomedical Equipment,Nos,Draeger,1,1,1,0,12
+BIO-00496,Sterilization Equipment Variant 4376,Biomedical Equipment,Nos,Philips,1,1,1,1,12
+BIO-00497,Pulse Oximeters Variant 1797,Biomedical Equipment,Nos,Siemens Healthineers,1,1,1,0,24
+BIO-00498,Pulse Oximeters Variant 4839,Biomedical Equipment,Nos,B.Braun,1,1,1,1,12
+BIO-00499,Ultrasound Machines Variant 9255,Biomedical Equipment,Nos,Nihon Kohden,1,1,1,1,24
+BIO-00500,Dental Chairs Variant 6253,Biomedical Equipment,Nos,Siemens Healthineers,1,1,1,1,12

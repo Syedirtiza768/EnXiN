@@ -1,0 +1,1001 @@
+name,naming_series,customer,posting_date,due_date,company
+SI-DEMO-000001,ACC-SINV-.YYYY.-,Central Park Tertiary Hospital 05,2024-03-12,2024-04-26,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000002,ACC-SINV-.YYYY.-,Services Tertiary Hospital 03,2024-03-13,2024-05-12,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000003,ACC-SINV-.YYYY.-,Children Medical Center 46,2024-03-13,2024-03-28,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000004,ACC-SINV-.YYYY.-,Lady Aitchison Specialist Clinic 31,2024-03-13,2024-03-28,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000005,ACC-SINV-.YYYY.-,Ghurki Trust Medical Center 45,2024-03-13,2024-04-27,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000006,ACC-SINV-.YYYY.-,Sheikh Zayed Medical Center 41,2024-03-14,2024-05-13,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000007,ACC-SINV-.YYYY.-,Lady Aitchison Specialist Clinic 31,2024-03-15,2024-05-14,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000008,ACC-SINV-.YYYY.-,Sharif Medical Private Hospital 23,2024-03-16,2024-03-31,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000009,ACC-SINV-.YYYY.-,Children Medical Center 46,2024-03-16,2024-04-30,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000010,ACC-SINV-.YYYY.-,Medix District Hospital 11,2024-03-16,2024-03-31,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000011,ACC-SINV-.YYYY.-,Surgimed Diagnostic Laboratory 26,2024-03-17,2024-05-16,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000012,ACC-SINV-.YYYY.-,Prime Tertiary Hospital 10,2024-03-18,2024-04-17,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000013,ACC-SINV-.YYYY.-,Central Park Tertiary Hospital 05,2024-03-18,2024-04-02,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000014,ACC-SINV-.YYYY.-,Sharif Medical Private Hospital 23,2024-03-19,2024-05-18,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000015,ACC-SINV-.YYYY.-,Children Maternity Hospital 30,2024-03-21,2024-04-20,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000016,ACC-SINV-.YYYY.-,Wapda Teaching Medical Center 55,2024-03-21,2024-05-05,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000017,ACC-SINV-.YYYY.-,Sheikh Zayed Medical Center 37,2024-03-24,2024-04-23,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000018,ACC-SINV-.YYYY.-,Surgimed Medical Center 44,2024-03-24,2024-04-08,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000019,ACC-SINV-.YYYY.-,Surgimed Medical Center 44,2024-03-24,2024-04-23,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000020,ACC-SINV-.YYYY.-,Sheikh Zayed District Hospital 14,2024-03-24,2024-05-23,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000021,ACC-SINV-.YYYY.-,Ghurki Trust Medical Center 42,2024-03-25,2024-05-24,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000022,ACC-SINV-.YYYY.-,Noor Tertiary Hospital 07,2024-03-27,2024-04-26,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000023,ACC-SINV-.YYYY.-,Prime Medical Center 47,2024-03-27,2024-04-26,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000024,ACC-SINV-.YYYY.-,Wapda Teaching Medical Center 51,2024-03-27,2024-04-11,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000025,ACC-SINV-.YYYY.-,Surgimed Diagnostic Laboratory 26,2024-03-28,2024-04-27,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000026,ACC-SINV-.YYYY.-,Prime Tertiary Hospital 10,2024-03-29,2024-04-28,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000027,ACC-SINV-.YYYY.-,Central Park Medical Center 36,2024-03-30,2024-04-29,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000028,ACC-SINV-.YYYY.-,National Medical Center 54,2024-03-30,2024-04-29,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000029,ACC-SINV-.YYYY.-,Lady Aitchison Specialist Clinic 31,2024-03-30,2024-04-29,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000030,ACC-SINV-.YYYY.-,Farooq Maternity Hospital 29,2024-04-02,2024-05-02,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000031,ACC-SINV-.YYYY.-,LifeLine Medical Center 49,2024-04-02,2024-05-17,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000032,ACC-SINV-.YYYY.-,Punjab District Hospital 12,2024-04-03,2024-04-18,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000033,ACC-SINV-.YYYY.-,Central Park Tertiary Hospital 05,2024-04-05,2024-06-04,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000034,ACC-SINV-.YYYY.-,Combined Military Teaching Hospital 19,2024-04-05,2024-05-05,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000035,ACC-SINV-.YYYY.-,National Medical Center 54,2024-04-05,2024-04-20,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000036,ACC-SINV-.YYYY.-,Sir Ganga Ram Medical Center 40,2024-04-05,2024-06-04,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000037,ACC-SINV-.YYYY.-,Surgimed Diagnostic Laboratory 26,2024-04-06,2024-05-21,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000038,ACC-SINV-.YYYY.-,Prime Medical Center 47,2024-04-06,2024-05-21,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000039,ACC-SINV-.YYYY.-,Surgimed Medical Center 44,2024-04-06,2024-04-21,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000040,ACC-SINV-.YYYY.-,Services Tertiary Hospital 03,2024-04-08,2024-04-23,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000041,ACC-SINV-.YYYY.-,Allied Medical Center 35,2024-04-08,2024-05-23,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000042,ACC-SINV-.YYYY.-,Aziz Fatimah Diagnostic Laboratory 28,2024-04-08,2024-05-08,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000043,ACC-SINV-.YYYY.-,Sheikh Zayed District Hospital 14,2024-04-09,2024-06-08,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000044,ACC-SINV-.YYYY.-,LifeLine Tertiary Hospital 09,2024-04-10,2024-05-10,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000045,ACC-SINV-.YYYY.-,National Medical Center 48,2024-04-10,2024-05-10,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000046,ACC-SINV-.YYYY.-,Allied Teaching Hospital 18,2024-04-11,2024-05-11,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000047,ACC-SINV-.YYYY.-,Children Maternity Hospital 30,2024-04-13,2024-05-28,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000048,ACC-SINV-.YYYY.-,Al-Rehman Tertiary Hospital 08,2024-04-13,2024-06-12,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000049,ACC-SINV-.YYYY.-,Wapda Teaching Medical Center 55,2024-04-14,2024-04-29,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000050,ACC-SINV-.YYYY.-,Hafeez Diagnostic Laboratory 27,2024-04-15,2024-06-14,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000051,ACC-SINV-.YYYY.-,National Medical Center 54,2024-04-15,2024-06-14,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000052,ACC-SINV-.YYYY.-,Lady Aitchison Specialist Clinic 31,2024-04-16,2024-05-31,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000053,ACC-SINV-.YYYY.-,Wapda Teaching Medical Center 55,2024-04-17,2024-05-02,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000054,ACC-SINV-.YYYY.-,National District Hospital 17,2024-04-17,2024-05-02,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000055,ACC-SINV-.YYYY.-,Aziz Fatimah Diagnostic Laboratory 28,2024-04-18,2024-06-17,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000056,ACC-SINV-.YYYY.-,Mayo Tertiary Hospital 01,2024-04-18,2024-05-03,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000057,ACC-SINV-.YYYY.-,Combined Military Teaching Hospital 19,2024-04-18,2024-06-02,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000058,ACC-SINV-.YYYY.-,Fatima Memorial Private Hospital 22,2024-04-18,2024-05-03,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000059,ACC-SINV-.YYYY.-,Prime Tertiary Hospital 10,2024-04-19,2024-06-18,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000060,ACC-SINV-.YYYY.-,Mayo Tertiary Hospital 01,2024-04-19,2024-05-19,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000061,ACC-SINV-.YYYY.-,Sharif Medical Private Hospital 23,2024-04-19,2024-05-04,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000062,ACC-SINV-.YYYY.-,Sir Ganga Ram Medical Center 40,2024-04-20,2024-06-19,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000063,ACC-SINV-.YYYY.-,Hafeez Diagnostic Laboratory 27,2024-04-20,2024-05-05,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000064,ACC-SINV-.YYYY.-,Fatima Memorial Private Hospital 22,2024-04-20,2024-05-20,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000065,ACC-SINV-.YYYY.-,Medix District Hospital 11,2024-04-23,2024-05-23,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000066,ACC-SINV-.YYYY.-,Social Security Medical Center 43,2024-04-23,2024-05-08,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000067,ACC-SINV-.YYYY.-,Lahore General District Hospital 13,2024-04-24,2024-06-23,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000068,ACC-SINV-.YYYY.-,Gulab Devi Teaching Hospital 20,2024-04-25,2024-05-25,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000069,ACC-SINV-.YYYY.-,Shalimar Tertiary Hospital 04,2024-04-25,2024-06-09,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000070,ACC-SINV-.YYYY.-,Fatima Memorial Private Hospital 22,2024-04-26,2024-05-26,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000071,ACC-SINV-.YYYY.-,Shaukat Khanum Medical Center 50,2024-04-27,2024-05-12,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000072,ACC-SINV-.YYYY.-,Shaukat Khanum Medical Center 50,2024-04-27,2024-05-27,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000073,ACC-SINV-.YYYY.-,Sir Ganga Ram Medical Center 33,2024-04-27,2024-06-26,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000074,ACC-SINV-.YYYY.-,Farooq Maternity Hospital 29,2024-04-27,2024-05-27,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000075,ACC-SINV-.YYYY.-,City Care Tertiary Hospital 06,2024-04-29,2024-06-28,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000076,ACC-SINV-.YYYY.-,Jinnah Tertiary Hospital 02,2024-04-29,2024-05-29,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000077,ACC-SINV-.YYYY.-,Excel Labs Medical Center 52,2024-04-30,2024-05-15,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000078,ACC-SINV-.YYYY.-,Al-Rehman Tertiary Hospital 08,2024-04-30,2024-06-29,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000079,ACC-SINV-.YYYY.-,LifeLine Tertiary Hospital 09,2024-05-01,2024-05-31,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000080,ACC-SINV-.YYYY.-,Ghurki Trust Medical Center 45,2024-05-02,2024-06-16,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000081,ACC-SINV-.YYYY.-,Prime Medical Center 47,2024-05-03,2024-06-17,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000082,ACC-SINV-.YYYY.-,Sir Ganga Ram Teaching Hospital 21,2024-05-04,2024-06-18,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000083,ACC-SINV-.YYYY.-,Sir Ganga Ram Teaching Hospital 21,2024-05-05,2024-07-04,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000084,ACC-SINV-.YYYY.-,Wapda Teaching Medical Center 55,2024-05-05,2024-05-20,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000085,ACC-SINV-.YYYY.-,Farooq Maternity Hospital 29,2024-05-06,2024-06-05,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000086,ACC-SINV-.YYYY.-,Fatima Memorial Private Hospital 22,2024-05-07,2024-07-06,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000087,ACC-SINV-.YYYY.-,National District Hospital 17,2024-05-07,2024-06-21,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000088,ACC-SINV-.YYYY.-,Doctors Private Hospital 25,2024-05-07,2024-05-22,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000089,ACC-SINV-.YYYY.-,Surgimed Medical Center 34,2024-05-07,2024-07-06,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000090,ACC-SINV-.YYYY.-,LifeLine Medical Center 49,2024-05-08,2024-05-23,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000091,ACC-SINV-.YYYY.-,Medix District Hospital 11,2024-05-09,2024-06-08,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000092,ACC-SINV-.YYYY.-,Doctors Private Hospital 25,2024-05-10,2024-07-09,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000093,ACC-SINV-.YYYY.-,Lahore General District Hospital 13,2024-05-11,2024-06-25,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000094,ACC-SINV-.YYYY.-,LifeLine Tertiary Hospital 09,2024-05-13,2024-06-12,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000095,ACC-SINV-.YYYY.-,Doctors Private Hospital 25,2024-05-13,2024-05-28,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000096,ACC-SINV-.YYYY.-,Shaukat Khanum District Hospital 16,2024-05-15,2024-07-14,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000097,ACC-SINV-.YYYY.-,Children Maternity Hospital 30,2024-05-15,2024-05-30,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000098,ACC-SINV-.YYYY.-,Surgimed Diagnostic Laboratory 26,2024-05-17,2024-06-01,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000099,ACC-SINV-.YYYY.-,Surgimed Medical Center 34,2024-05-18,2024-07-17,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000100,ACC-SINV-.YYYY.-,Surgimed Medical Center 44,2024-05-20,2024-07-04,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000101,ACC-SINV-.YYYY.-,Ittefaq Private Hospital 24,2024-05-21,2024-07-20,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000102,ACC-SINV-.YYYY.-,Shaukat Khanum Medical Center 50,2024-05-21,2024-07-05,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000103,ACC-SINV-.YYYY.-,Children Maternity Hospital 30,2024-05-22,2024-07-21,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000104,ACC-SINV-.YYYY.-,Children Medical Center 46,2024-05-22,2024-06-06,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000105,ACC-SINV-.YYYY.-,Shaukat Khanum District Hospital 16,2024-05-22,2024-07-21,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000106,ACC-SINV-.YYYY.-,Citi Lab Medical Center 38,2024-05-22,2024-07-06,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000107,ACC-SINV-.YYYY.-,Children Maternity Hospital 30,2024-05-23,2024-07-07,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000108,ACC-SINV-.YYYY.-,Al-Rehman Tertiary Hospital 08,2024-05-23,2024-06-07,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000109,ACC-SINV-.YYYY.-,National Medical Center 48,2024-05-23,2024-07-22,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000110,ACC-SINV-.YYYY.-,Shaukat Khanum Medical Center 50,2024-05-24,2024-07-08,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000111,ACC-SINV-.YYYY.-,Shaukat Khanum Medical Center 50,2024-05-24,2024-07-23,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000112,ACC-SINV-.YYYY.-,Noor Tertiary Hospital 07,2024-05-25,2024-07-24,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000113,ACC-SINV-.YYYY.-,Fatima Memorial Private Hospital 22,2024-05-26,2024-06-25,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000114,ACC-SINV-.YYYY.-,Fatima Memorial Private Hospital 22,2024-05-26,2024-06-10,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000115,ACC-SINV-.YYYY.-,Ittefaq Private Hospital 24,2024-05-26,2024-07-10,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000116,ACC-SINV-.YYYY.-,Surgimed Medical Center 44,2024-05-26,2024-07-25,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000117,ACC-SINV-.YYYY.-,Excel Labs Medical Center 52,2024-05-27,2024-06-11,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000118,ACC-SINV-.YYYY.-,Gulab Devi Teaching Hospital 20,2024-05-29,2024-06-28,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000119,ACC-SINV-.YYYY.-,National Medical Center 54,2024-05-30,2024-06-29,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000120,ACC-SINV-.YYYY.-,Social Security Medical Center 43,2024-05-31,2024-06-15,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000121,ACC-SINV-.YYYY.-,Doctors Private Hospital 25,2024-05-31,2024-06-15,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000122,ACC-SINV-.YYYY.-,Social Security Medical Center 43,2024-05-31,2024-06-15,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000123,ACC-SINV-.YYYY.-,Sir Ganga Ram Medical Center 33,2024-05-31,2024-06-30,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000124,ACC-SINV-.YYYY.-,Prime Tertiary Hospital 10,2024-06-01,2024-07-01,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000125,ACC-SINV-.YYYY.-,Combined Military Teaching Hospital 19,2024-06-01,2024-06-16,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000126,ACC-SINV-.YYYY.-,Citi Lab Medical Center 38,2024-06-02,2024-07-17,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000127,ACC-SINV-.YYYY.-,Surgimed Medical Center 44,2024-06-03,2024-06-18,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000128,ACC-SINV-.YYYY.-,City Care Tertiary Hospital 06,2024-06-03,2024-07-03,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000129,ACC-SINV-.YYYY.-,Lahore General District Hospital 13,2024-06-03,2024-07-03,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000130,ACC-SINV-.YYYY.-,Ghurki Trust Medical Center 45,2024-06-04,2024-07-19,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000131,ACC-SINV-.YYYY.-,Sir Ganga Ram Medical Center 40,2024-06-05,2024-08-04,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000132,ACC-SINV-.YYYY.-,Ghurki Trust Medical Center 45,2024-06-06,2024-06-21,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000133,ACC-SINV-.YYYY.-,Shaukat Khanum District Hospital 16,2024-06-07,2024-07-22,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000134,ACC-SINV-.YYYY.-,Combined Military Teaching Hospital 19,2024-06-07,2024-08-06,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000135,ACC-SINV-.YYYY.-,Services Tertiary Hospital 03,2024-06-08,2024-07-08,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000136,ACC-SINV-.YYYY.-,Ittefaq Private Hospital 24,2024-06-09,2024-07-24,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000137,ACC-SINV-.YYYY.-,Prime Tertiary Hospital 10,2024-06-09,2024-06-24,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000138,ACC-SINV-.YYYY.-,Lady Aitchison Specialist Clinic 31,2024-06-10,2024-07-25,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000139,ACC-SINV-.YYYY.-,Gulab Devi Teaching Hospital 20,2024-06-11,2024-07-26,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000140,ACC-SINV-.YYYY.-,Allied Teaching Hospital 18,2024-06-11,2024-08-10,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000141,ACC-SINV-.YYYY.-,Shaukat Khanum Medical Center 50,2024-06-14,2024-07-14,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000142,ACC-SINV-.YYYY.-,Shaukat Khanum District Hospital 16,2024-06-14,2024-06-29,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000143,ACC-SINV-.YYYY.-,Surgimed Medical Center 44,2024-06-15,2024-06-30,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000144,ACC-SINV-.YYYY.-,Jinnah Tertiary Hospital 02,2024-06-15,2024-08-14,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000145,ACC-SINV-.YYYY.-,Prime Tertiary Hospital 10,2024-06-16,2024-07-16,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000146,ACC-SINV-.YYYY.-,Ghurki Trust Medical Center 42,2024-06-18,2024-07-18,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000147,ACC-SINV-.YYYY.-,Doctors Private Hospital 25,2024-06-19,2024-08-03,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000148,ACC-SINV-.YYYY.-,Ghurki Trust Medical Center 45,2024-06-20,2024-08-04,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000149,ACC-SINV-.YYYY.-,Ittefaq Private Hospital 24,2024-06-21,2024-08-05,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000150,ACC-SINV-.YYYY.-,Fatima Memorial Private Hospital 22,2024-06-21,2024-07-06,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000151,ACC-SINV-.YYYY.-,Children Medical Center 46,2024-06-22,2024-08-06,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000152,ACC-SINV-.YYYY.-,Lahore Eye Medical Center 32,2024-06-22,2024-08-21,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000153,ACC-SINV-.YYYY.-,Excel Labs Medical Center 52,2024-06-23,2024-08-07,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000154,ACC-SINV-.YYYY.-,Ghurki Trust Medical Center 42,2024-06-23,2024-07-23,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000155,ACC-SINV-.YYYY.-,Sheikh Zayed Medical Center 37,2024-06-24,2024-07-09,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000156,ACC-SINV-.YYYY.-,Jinnah Tertiary Hospital 02,2024-06-24,2024-07-24,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000157,ACC-SINV-.YYYY.-,Sheikh Zayed Medical Center 37,2024-06-24,2024-08-23,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000158,ACC-SINV-.YYYY.-,Sheikh Zayed Medical Center 37,2024-06-24,2024-07-09,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000159,ACC-SINV-.YYYY.-,Shalimar Tertiary Hospital 04,2024-06-24,2024-08-23,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000160,ACC-SINV-.YYYY.-,Jinnah Tertiary Hospital 02,2024-06-25,2024-08-24,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000161,ACC-SINV-.YYYY.-,CMH Medical Center 39,2024-06-25,2024-07-10,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000162,ACC-SINV-.YYYY.-,Prime Medical Center 47,2024-06-25,2024-07-10,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000163,ACC-SINV-.YYYY.-,Services Tertiary Hospital 03,2024-06-26,2024-07-11,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000164,ACC-SINV-.YYYY.-,National District Hospital 17,2024-06-26,2024-08-10,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000165,ACC-SINV-.YYYY.-,Aziz Fatimah Diagnostic Laboratory 28,2024-06-26,2024-08-25,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000166,ACC-SINV-.YYYY.-,Doctors Private Hospital 25,2024-06-27,2024-07-27,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000167,ACC-SINV-.YYYY.-,Ghurki Trust Medical Center 42,2024-06-28,2024-07-28,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000168,ACC-SINV-.YYYY.-,Surgimed Medical Center 44,2024-06-29,2024-07-29,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000169,ACC-SINV-.YYYY.-,CMH Medical Center 39,2024-06-29,2024-07-29,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000170,ACC-SINV-.YYYY.-,Ghurki Trust Medical Center 42,2024-06-29,2024-07-29,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000171,ACC-SINV-.YYYY.-,Hameed Latif District Hospital 15,2024-06-30,2024-07-15,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000172,ACC-SINV-.YYYY.-,Punjab District Hospital 12,2024-06-30,2024-08-29,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000173,ACC-SINV-.YYYY.-,LifeLine Tertiary Hospital 09,2024-07-01,2024-07-31,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000174,ACC-SINV-.YYYY.-,Children Maternity Hospital 30,2024-07-01,2024-08-30,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000175,ACC-SINV-.YYYY.-,Children Maternity Hospital 30,2024-07-02,2024-07-17,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000176,ACC-SINV-.YYYY.-,Central Park Medical Center 36,2024-07-03,2024-08-17,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000177,ACC-SINV-.YYYY.-,Farooq Maternity Hospital 29,2024-07-03,2024-08-02,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000178,ACC-SINV-.YYYY.-,Shalimar Tertiary Hospital 04,2024-07-03,2024-09-01,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000179,ACC-SINV-.YYYY.-,Ghurki Trust Medical Center 45,2024-07-04,2024-07-19,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000180,ACC-SINV-.YYYY.-,Sheikh Zayed Medical Center 37,2024-07-04,2024-07-19,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000181,ACC-SINV-.YYYY.-,Hafeez Diagnostic Laboratory 27,2024-07-05,2024-09-03,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000182,ACC-SINV-.YYYY.-,Sir Ganga Ram Teaching Hospital 21,2024-07-06,2024-08-05,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000183,ACC-SINV-.YYYY.-,Hafeez Diagnostic Laboratory 27,2024-07-07,2024-07-22,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000184,ACC-SINV-.YYYY.-,Agha Khan Lab Medical Center 53,2024-07-07,2024-07-22,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000185,ACC-SINV-.YYYY.-,National District Hospital 17,2024-07-08,2024-09-06,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000186,ACC-SINV-.YYYY.-,Fatima Memorial Private Hospital 22,2024-07-08,2024-08-07,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000187,ACC-SINV-.YYYY.-,Farooq Maternity Hospital 29,2024-07-09,2024-09-07,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000188,ACC-SINV-.YYYY.-,Lahore Eye Medical Center 32,2024-07-11,2024-08-25,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000189,ACC-SINV-.YYYY.-,Excel Labs Medical Center 52,2024-07-13,2024-08-27,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000190,ACC-SINV-.YYYY.-,Children Maternity Hospital 30,2024-07-14,2024-09-12,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000191,ACC-SINV-.YYYY.-,City Care Tertiary Hospital 06,2024-07-14,2024-08-13,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000192,ACC-SINV-.YYYY.-,Sir Ganga Ram Medical Center 33,2024-07-14,2024-09-12,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000193,ACC-SINV-.YYYY.-,Gulab Devi Teaching Hospital 20,2024-07-14,2024-08-13,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000194,ACC-SINV-.YYYY.-,Wapda Teaching Medical Center 51,2024-07-17,2024-08-16,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000195,ACC-SINV-.YYYY.-,Surgimed Medical Center 44,2024-07-17,2024-08-01,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000196,ACC-SINV-.YYYY.-,Al-Rehman Tertiary Hospital 08,2024-07-17,2024-09-15,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000197,ACC-SINV-.YYYY.-,Lahore General District Hospital 13,2024-07-18,2024-09-16,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000198,ACC-SINV-.YYYY.-,Services Tertiary Hospital 03,2024-07-18,2024-09-01,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000199,ACC-SINV-.YYYY.-,Sir Ganga Ram Medical Center 33,2024-07-18,2024-08-02,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000200,ACC-SINV-.YYYY.-,Ghurki Trust Medical Center 45,2024-07-19,2024-09-17,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000201,ACC-SINV-.YYYY.-,Sheikh Zayed Medical Center 37,2024-07-19,2024-09-02,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000202,ACC-SINV-.YYYY.-,Children Maternity Hospital 30,2024-07-20,2024-08-19,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000203,ACC-SINV-.YYYY.-,LifeLine Medical Center 49,2024-07-20,2024-09-03,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000204,ACC-SINV-.YYYY.-,Ittefaq Private Hospital 24,2024-07-20,2024-08-19,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000205,ACC-SINV-.YYYY.-,National Medical Center 54,2024-07-22,2024-09-20,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000206,ACC-SINV-.YYYY.-,Sheikh Zayed Medical Center 37,2024-07-24,2024-08-08,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000207,ACC-SINV-.YYYY.-,National District Hospital 17,2024-07-25,2024-08-09,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000208,ACC-SINV-.YYYY.-,Ghurki Trust Medical Center 45,2024-07-27,2024-08-11,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000209,ACC-SINV-.YYYY.-,Sir Ganga Ram Medical Center 33,2024-07-27,2024-09-25,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000210,ACC-SINV-.YYYY.-,Medix District Hospital 11,2024-07-28,2024-08-12,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000211,ACC-SINV-.YYYY.-,Noor Tertiary Hospital 07,2024-07-29,2024-08-13,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000212,ACC-SINV-.YYYY.-,Combined Military Teaching Hospital 19,2024-07-29,2024-08-28,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000213,ACC-SINV-.YYYY.-,Citi Lab Medical Center 38,2024-07-31,2024-09-14,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000214,ACC-SINV-.YYYY.-,Doctors Private Hospital 25,2024-07-31,2024-09-29,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000215,ACC-SINV-.YYYY.-,Combined Military Teaching Hospital 19,2024-08-01,2024-09-30,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000216,ACC-SINV-.YYYY.-,Central Park Tertiary Hospital 05,2024-08-02,2024-08-17,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000217,ACC-SINV-.YYYY.-,Shalimar Tertiary Hospital 04,2024-08-02,2024-10-01,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000218,ACC-SINV-.YYYY.-,Central Park Medical Center 36,2024-08-02,2024-09-16,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000219,ACC-SINV-.YYYY.-,Ittefaq Private Hospital 24,2024-08-02,2024-08-17,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000220,ACC-SINV-.YYYY.-,Combined Military Teaching Hospital 19,2024-08-05,2024-10-04,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000221,ACC-SINV-.YYYY.-,Surgimed Medical Center 44,2024-08-06,2024-09-05,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000222,ACC-SINV-.YYYY.-,Surgimed Medical Center 44,2024-08-07,2024-09-06,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000223,ACC-SINV-.YYYY.-,Sir Ganga Ram Medical Center 40,2024-08-07,2024-10-06,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000224,ACC-SINV-.YYYY.-,Ghurki Trust Medical Center 45,2024-08-09,2024-09-23,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000225,ACC-SINV-.YYYY.-,Aziz Fatimah Diagnostic Laboratory 28,2024-08-09,2024-09-23,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000226,ACC-SINV-.YYYY.-,Gulab Devi Teaching Hospital 20,2024-08-11,2024-09-25,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000227,ACC-SINV-.YYYY.-,Prime Tertiary Hospital 10,2024-08-11,2024-10-10,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000228,ACC-SINV-.YYYY.-,National Medical Center 48,2024-08-11,2024-09-25,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000229,ACC-SINV-.YYYY.-,Combined Military Teaching Hospital 19,2024-08-13,2024-08-28,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000230,ACC-SINV-.YYYY.-,Sharif Medical Private Hospital 23,2024-08-14,2024-09-13,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000231,ACC-SINV-.YYYY.-,Wapda Teaching Medical Center 51,2024-08-15,2024-09-29,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000232,ACC-SINV-.YYYY.-,Children Maternity Hospital 30,2024-08-15,2024-09-14,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000233,ACC-SINV-.YYYY.-,Aziz Fatimah Diagnostic Laboratory 28,2024-08-15,2024-10-14,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000234,ACC-SINV-.YYYY.-,Wapda Teaching Medical Center 51,2024-08-16,2024-10-15,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000235,ACC-SINV-.YYYY.-,National Medical Center 48,2024-08-16,2024-10-15,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000236,ACC-SINV-.YYYY.-,Sir Ganga Ram Teaching Hospital 21,2024-08-16,2024-09-30,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000237,ACC-SINV-.YYYY.-,Wapda Teaching Medical Center 51,2024-08-17,2024-10-16,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000238,ACC-SINV-.YYYY.-,Services Tertiary Hospital 03,2024-08-17,2024-10-01,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000239,ACC-SINV-.YYYY.-,Prime Medical Center 47,2024-08-17,2024-10-16,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000240,ACC-SINV-.YYYY.-,Allied Teaching Hospital 18,2024-08-18,2024-10-02,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000241,ACC-SINV-.YYYY.-,Sir Ganga Ram Medical Center 33,2024-08-18,2024-09-02,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000242,ACC-SINV-.YYYY.-,Surgimed Diagnostic Laboratory 26,2024-08-18,2024-09-17,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000243,ACC-SINV-.YYYY.-,Sharif Medical Private Hospital 23,2024-08-19,2024-10-18,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000244,ACC-SINV-.YYYY.-,Jinnah Tertiary Hospital 02,2024-08-19,2024-10-18,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000245,ACC-SINV-.YYYY.-,Ittefaq Private Hospital 24,2024-08-19,2024-09-18,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000246,ACC-SINV-.YYYY.-,National Medical Center 48,2024-08-20,2024-09-04,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000247,ACC-SINV-.YYYY.-,Ghurki Trust Medical Center 45,2024-08-22,2024-09-06,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000248,ACC-SINV-.YYYY.-,Excel Labs Medical Center 52,2024-08-23,2024-09-07,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000249,ACC-SINV-.YYYY.-,Surgimed Medical Center 44,2024-08-23,2024-10-22,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000250,ACC-SINV-.YYYY.-,Central Park Medical Center 36,2024-08-24,2024-10-08,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000251,ACC-SINV-.YYYY.-,Medix District Hospital 11,2024-08-28,2024-09-12,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000252,ACC-SINV-.YYYY.-,Sheikh Zayed Medical Center 37,2024-08-28,2024-10-27,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000253,ACC-SINV-.YYYY.-,Sheikh Zayed District Hospital 14,2024-08-28,2024-09-12,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000254,ACC-SINV-.YYYY.-,Ghurki Trust Medical Center 45,2024-08-28,2024-09-27,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000255,ACC-SINV-.YYYY.-,Wapda Teaching Medical Center 55,2024-08-30,2024-09-14,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000256,ACC-SINV-.YYYY.-,Prime Tertiary Hospital 10,2024-09-02,2024-11-01,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000257,ACC-SINV-.YYYY.-,Sir Ganga Ram Medical Center 40,2024-09-05,2024-11-04,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000258,ACC-SINV-.YYYY.-,Fatima Memorial Private Hospital 22,2024-09-07,2024-10-22,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000259,ACC-SINV-.YYYY.-,Medix District Hospital 11,2024-09-08,2024-11-07,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000260,ACC-SINV-.YYYY.-,Children Medical Center 46,2024-09-11,2024-10-11,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000261,ACC-SINV-.YYYY.-,Surgimed Medical Center 44,2024-09-12,2024-10-27,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000262,ACC-SINV-.YYYY.-,Farooq Maternity Hospital 29,2024-09-12,2024-10-27,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000263,ACC-SINV-.YYYY.-,Punjab District Hospital 12,2024-09-16,2024-10-16,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000264,ACC-SINV-.YYYY.-,Prime Medical Center 47,2024-09-17,2024-11-01,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000265,ACC-SINV-.YYYY.-,Punjab District Hospital 12,2024-09-18,2024-10-03,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000266,ACC-SINV-.YYYY.-,Children Maternity Hospital 30,2024-09-18,2024-10-18,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000267,ACC-SINV-.YYYY.-,Shalimar Tertiary Hospital 04,2024-09-20,2024-11-04,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000268,ACC-SINV-.YYYY.-,National Medical Center 54,2024-09-21,2024-10-21,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000269,ACC-SINV-.YYYY.-,Sir Ganga Ram Medical Center 40,2024-09-22,2024-11-21,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000270,ACC-SINV-.YYYY.-,Children Maternity Hospital 30,2024-09-22,2024-11-21,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000271,ACC-SINV-.YYYY.-,Fatima Memorial Private Hospital 22,2024-09-23,2024-11-07,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000272,ACC-SINV-.YYYY.-,Combined Military Teaching Hospital 19,2024-09-25,2024-10-10,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000273,ACC-SINV-.YYYY.-,Al-Rehman Tertiary Hospital 08,2024-09-25,2024-10-25,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000274,ACC-SINV-.YYYY.-,Sheikh Zayed District Hospital 14,2024-09-25,2024-11-24,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000275,ACC-SINV-.YYYY.-,Fatima Memorial Private Hospital 22,2024-09-26,2024-11-25,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000276,ACC-SINV-.YYYY.-,Social Security Medical Center 43,2024-09-27,2024-10-12,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000277,ACC-SINV-.YYYY.-,National District Hospital 17,2024-09-28,2024-11-27,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000278,ACC-SINV-.YYYY.-,CMH Medical Center 39,2024-09-29,2024-10-14,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000279,ACC-SINV-.YYYY.-,National Medical Center 54,2024-09-30,2024-11-14,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000280,ACC-SINV-.YYYY.-,CMH Medical Center 39,2024-09-30,2024-10-30,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000281,ACC-SINV-.YYYY.-,Al-Rehman Tertiary Hospital 08,2024-09-30,2024-10-15,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000282,ACC-SINV-.YYYY.-,Excel Labs Medical Center 52,2024-10-02,2024-12-01,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000283,ACC-SINV-.YYYY.-,Shaukat Khanum District Hospital 16,2024-10-03,2024-10-18,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000284,ACC-SINV-.YYYY.-,Social Security Medical Center 43,2024-10-04,2024-12-03,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000285,ACC-SINV-.YYYY.-,Surgimed Medical Center 34,2024-10-05,2024-10-20,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000286,ACC-SINV-.YYYY.-,Noor Tertiary Hospital 07,2024-10-07,2024-12-06,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000287,ACC-SINV-.YYYY.-,LifeLine Tertiary Hospital 09,2024-10-10,2024-12-09,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000288,ACC-SINV-.YYYY.-,Shaukat Khanum District Hospital 16,2024-10-10,2024-10-25,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000289,ACC-SINV-.YYYY.-,Punjab District Hospital 12,2024-10-11,2024-12-10,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000290,ACC-SINV-.YYYY.-,Sheikh Zayed Medical Center 41,2024-10-11,2024-11-10,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000291,ACC-SINV-.YYYY.-,Sharif Medical Private Hospital 23,2024-10-12,2024-12-11,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000292,ACC-SINV-.YYYY.-,Excel Labs Medical Center 52,2024-10-13,2024-10-28,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000293,ACC-SINV-.YYYY.-,Allied Medical Center 35,2024-10-14,2024-10-29,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000294,ACC-SINV-.YYYY.-,Central Park Medical Center 36,2024-10-14,2024-12-13,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000295,ACC-SINV-.YYYY.-,Hafeez Diagnostic Laboratory 27,2024-10-15,2024-10-30,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000296,ACC-SINV-.YYYY.-,Sir Ganga Ram Medical Center 40,2024-10-16,2024-11-30,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000297,ACC-SINV-.YYYY.-,Hameed Latif District Hospital 15,2024-10-17,2024-12-01,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000298,ACC-SINV-.YYYY.-,City Care Tertiary Hospital 06,2024-10-17,2024-11-01,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000299,ACC-SINV-.YYYY.-,Surgimed Medical Center 34,2024-10-17,2024-11-16,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000300,ACC-SINV-.YYYY.-,Medix District Hospital 11,2024-10-17,2024-12-16,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000301,ACC-SINV-.YYYY.-,Sir Ganga Ram Teaching Hospital 21,2024-10-18,2024-12-02,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000302,ACC-SINV-.YYYY.-,CMH Medical Center 39,2024-10-19,2024-12-03,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000303,ACC-SINV-.YYYY.-,Medix District Hospital 11,2024-10-19,2024-12-03,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000304,ACC-SINV-.YYYY.-,Prime Tertiary Hospital 10,2024-10-20,2024-11-04,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000305,ACC-SINV-.YYYY.-,Hameed Latif District Hospital 15,2024-10-21,2024-11-20,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000306,ACC-SINV-.YYYY.-,Central Park Medical Center 36,2024-10-23,2024-12-22,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000307,ACC-SINV-.YYYY.-,National Medical Center 48,2024-10-23,2024-11-22,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000308,ACC-SINV-.YYYY.-,Aziz Fatimah Diagnostic Laboratory 28,2024-10-25,2024-12-24,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000309,ACC-SINV-.YYYY.-,LifeLine Tertiary Hospital 09,2024-10-25,2024-12-24,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000310,ACC-SINV-.YYYY.-,Doctors Private Hospital 25,2024-10-25,2024-11-24,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000311,ACC-SINV-.YYYY.-,Social Security Medical Center 43,2024-10-26,2024-12-10,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000312,ACC-SINV-.YYYY.-,Surgimed Medical Center 34,2024-10-26,2024-12-25,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000313,ACC-SINV-.YYYY.-,Prime Medical Center 47,2024-10-26,2024-11-25,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000314,ACC-SINV-.YYYY.-,Lady Aitchison Specialist Clinic 31,2024-10-27,2024-12-26,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000315,ACC-SINV-.YYYY.-,Allied Teaching Hospital 18,2024-10-27,2024-12-26,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000316,ACC-SINV-.YYYY.-,Punjab District Hospital 12,2024-10-28,2024-11-27,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000317,ACC-SINV-.YYYY.-,Sheikh Zayed Medical Center 41,2024-10-29,2024-12-13,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000318,ACC-SINV-.YYYY.-,Shaukat Khanum District Hospital 16,2024-10-29,2024-12-13,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000319,ACC-SINV-.YYYY.-,Lahore General District Hospital 13,2024-10-29,2024-11-28,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000320,ACC-SINV-.YYYY.-,Ghurki Trust Medical Center 42,2024-10-30,2024-11-14,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000321,ACC-SINV-.YYYY.-,Sheikh Zayed District Hospital 14,2024-10-31,2024-12-15,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000322,ACC-SINV-.YYYY.-,Citi Lab Medical Center 38,2024-11-01,2024-12-31,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000323,ACC-SINV-.YYYY.-,Shaukat Khanum Medical Center 50,2024-11-01,2024-12-31,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000324,ACC-SINV-.YYYY.-,Central Park Medical Center 36,2024-11-01,2024-12-16,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000325,ACC-SINV-.YYYY.-,Gulab Devi Teaching Hospital 20,2024-11-02,2024-12-02,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000326,ACC-SINV-.YYYY.-,LifeLine Medical Center 49,2024-11-03,2024-12-03,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000327,ACC-SINV-.YYYY.-,Combined Military Teaching Hospital 19,2024-11-03,2025-01-02,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000328,ACC-SINV-.YYYY.-,Wapda Teaching Medical Center 51,2024-11-04,2024-12-04,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000329,ACC-SINV-.YYYY.-,Ghurki Trust Medical Center 42,2024-11-04,2024-11-19,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000330,ACC-SINV-.YYYY.-,Hafeez Diagnostic Laboratory 27,2024-11-05,2025-01-04,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000331,ACC-SINV-.YYYY.-,Ittefaq Private Hospital 24,2024-11-06,2025-01-05,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000332,ACC-SINV-.YYYY.-,Ghurki Trust Medical Center 42,2024-11-06,2025-01-05,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000333,ACC-SINV-.YYYY.-,National Medical Center 54,2024-11-07,2024-12-22,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000334,ACC-SINV-.YYYY.-,Gulab Devi Teaching Hospital 20,2024-11-08,2024-12-23,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000335,ACC-SINV-.YYYY.-,Social Security Medical Center 43,2024-11-09,2025-01-08,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000336,ACC-SINV-.YYYY.-,Punjab District Hospital 12,2024-11-10,2024-12-10,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000337,ACC-SINV-.YYYY.-,Medix District Hospital 11,2024-11-10,2024-12-25,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000338,ACC-SINV-.YYYY.-,Sharif Medical Private Hospital 23,2024-11-11,2025-01-10,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000339,ACC-SINV-.YYYY.-,Mayo Tertiary Hospital 01,2024-11-12,2025-01-11,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000340,ACC-SINV-.YYYY.-,Surgimed Medical Center 44,2024-11-13,2024-12-28,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000341,ACC-SINV-.YYYY.-,Surgimed Medical Center 44,2024-11-14,2024-12-29,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000342,ACC-SINV-.YYYY.-,Services Tertiary Hospital 03,2024-11-14,2025-01-13,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000343,ACC-SINV-.YYYY.-,Central Park Medical Center 36,2024-11-14,2024-12-29,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000344,ACC-SINV-.YYYY.-,LifeLine Tertiary Hospital 09,2024-11-15,2024-11-30,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000345,ACC-SINV-.YYYY.-,Sir Ganga Ram Medical Center 33,2024-11-16,2024-12-01,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000346,ACC-SINV-.YYYY.-,Prime Medical Center 47,2024-11-16,2025-01-15,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000347,ACC-SINV-.YYYY.-,Allied Medical Center 35,2024-11-16,2024-12-16,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000348,ACC-SINV-.YYYY.-,Central Park Medical Center 36,2024-11-17,2024-12-02,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000349,ACC-SINV-.YYYY.-,Central Park Tertiary Hospital 05,2024-11-17,2024-12-02,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000350,ACC-SINV-.YYYY.-,Ittefaq Private Hospital 24,2024-11-19,2024-12-19,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000351,ACC-SINV-.YYYY.-,National Medical Center 54,2024-11-19,2024-12-19,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000352,ACC-SINV-.YYYY.-,Jinnah Tertiary Hospital 02,2024-11-21,2024-12-21,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000353,ACC-SINV-.YYYY.-,Medix District Hospital 11,2024-11-21,2025-01-20,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000354,ACC-SINV-.YYYY.-,Ittefaq Private Hospital 24,2024-11-21,2025-01-20,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000355,ACC-SINV-.YYYY.-,Children Maternity Hospital 30,2024-11-21,2025-01-05,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000356,ACC-SINV-.YYYY.-,Sheikh Zayed Medical Center 37,2024-11-22,2025-01-06,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000357,ACC-SINV-.YYYY.-,Ittefaq Private Hospital 24,2024-11-23,2024-12-08,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000358,ACC-SINV-.YYYY.-,Ghurki Trust Medical Center 42,2024-11-24,2024-12-24,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000359,ACC-SINV-.YYYY.-,Sheikh Zayed Medical Center 37,2024-11-25,2024-12-10,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000360,ACC-SINV-.YYYY.-,Sir Ganga Ram Medical Center 33,2024-11-25,2025-01-09,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000361,ACC-SINV-.YYYY.-,Central Park Medical Center 36,2024-11-28,2024-12-28,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000362,ACC-SINV-.YYYY.-,Ghurki Trust Medical Center 45,2024-11-30,2025-01-14,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000363,ACC-SINV-.YYYY.-,Excel Labs Medical Center 52,2024-12-01,2024-12-16,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000364,ACC-SINV-.YYYY.-,Medix District Hospital 11,2024-12-01,2024-12-16,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000365,ACC-SINV-.YYYY.-,Central Park Tertiary Hospital 05,2024-12-01,2024-12-31,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000366,ACC-SINV-.YYYY.-,Ittefaq Private Hospital 24,2024-12-02,2025-01-31,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000367,ACC-SINV-.YYYY.-,Prime Tertiary Hospital 10,2024-12-03,2024-12-18,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000368,ACC-SINV-.YYYY.-,Wapda Teaching Medical Center 51,2024-12-03,2025-01-02,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000369,ACC-SINV-.YYYY.-,Sir Ganga Ram Medical Center 40,2024-12-04,2025-01-18,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000370,ACC-SINV-.YYYY.-,Sir Ganga Ram Medical Center 33,2024-12-05,2025-01-04,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000371,ACC-SINV-.YYYY.-,Agha Khan Lab Medical Center 53,2024-12-05,2025-01-19,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000372,ACC-SINV-.YYYY.-,Prime Medical Center 47,2024-12-05,2024-12-20,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000373,ACC-SINV-.YYYY.-,Combined Military Teaching Hospital 19,2024-12-05,2025-01-19,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000374,ACC-SINV-.YYYY.-,Lahore General District Hospital 13,2024-12-05,2025-02-03,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000375,ACC-SINV-.YYYY.-,National Medical Center 54,2024-12-05,2024-12-20,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000376,ACC-SINV-.YYYY.-,Punjab District Hospital 12,2024-12-06,2024-12-21,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000377,ACC-SINV-.YYYY.-,Ittefaq Private Hospital 24,2024-12-06,2025-01-05,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000378,ACC-SINV-.YYYY.-,Sir Ganga Ram Teaching Hospital 21,2024-12-06,2024-12-21,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000379,ACC-SINV-.YYYY.-,Agha Khan Lab Medical Center 53,2024-12-07,2025-02-05,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000380,ACC-SINV-.YYYY.-,LifeLine Tertiary Hospital 09,2024-12-07,2025-01-06,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000381,ACC-SINV-.YYYY.-,Gulab Devi Teaching Hospital 20,2024-12-08,2025-02-06,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000382,ACC-SINV-.YYYY.-,CMH Medical Center 39,2024-12-11,2024-12-26,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000383,ACC-SINV-.YYYY.-,Excel Labs Medical Center 52,2024-12-11,2025-01-25,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000384,ACC-SINV-.YYYY.-,Excel Labs Medical Center 52,2024-12-12,2025-01-26,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000385,ACC-SINV-.YYYY.-,Sheikh Zayed District Hospital 14,2024-12-14,2025-02-12,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000386,ACC-SINV-.YYYY.-,Aziz Fatimah Diagnostic Laboratory 28,2024-12-15,2025-02-13,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000387,ACC-SINV-.YYYY.-,Shaukat Khanum District Hospital 16,2024-12-15,2025-01-29,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000388,ACC-SINV-.YYYY.-,Shaukat Khanum Medical Center 50,2024-12-16,2024-12-31,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000389,ACC-SINV-.YYYY.-,Medix District Hospital 11,2024-12-17,2025-01-01,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000390,ACC-SINV-.YYYY.-,City Care Tertiary Hospital 06,2024-12-17,2025-01-16,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000391,ACC-SINV-.YYYY.-,Citi Lab Medical Center 38,2024-12-18,2025-02-01,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000392,ACC-SINV-.YYYY.-,Sir Ganga Ram Medical Center 40,2024-12-19,2025-01-03,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000393,ACC-SINV-.YYYY.-,Surgimed Medical Center 34,2024-12-21,2025-01-05,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000394,ACC-SINV-.YYYY.-,Hafeez Diagnostic Laboratory 27,2024-12-21,2025-02-04,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000395,ACC-SINV-.YYYY.-,Lahore General District Hospital 13,2024-12-22,2025-01-06,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000396,ACC-SINV-.YYYY.-,Surgimed Medical Center 44,2024-12-23,2025-01-07,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000397,ACC-SINV-.YYYY.-,Social Security Medical Center 43,2024-12-24,2025-01-23,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000398,ACC-SINV-.YYYY.-,Central Park Medical Center 36,2024-12-24,2025-01-23,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000399,ACC-SINV-.YYYY.-,Hameed Latif District Hospital 15,2024-12-24,2025-02-22,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000400,ACC-SINV-.YYYY.-,Shalimar Tertiary Hospital 04,2024-12-25,2025-02-08,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000401,ACC-SINV-.YYYY.-,City Care Tertiary Hospital 06,2024-12-25,2025-01-09,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000402,ACC-SINV-.YYYY.-,Central Park Medical Center 36,2024-12-26,2025-01-10,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000403,ACC-SINV-.YYYY.-,Wapda Teaching Medical Center 51,2024-12-26,2025-02-24,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000404,ACC-SINV-.YYYY.-,Agha Khan Lab Medical Center 53,2024-12-27,2025-01-11,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000405,ACC-SINV-.YYYY.-,Sheikh Zayed District Hospital 14,2024-12-28,2025-01-27,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000406,ACC-SINV-.YYYY.-,Excel Labs Medical Center 52,2024-12-30,2025-02-13,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000407,ACC-SINV-.YYYY.-,Jinnah Tertiary Hospital 02,2024-12-30,2025-02-28,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000408,ACC-SINV-.YYYY.-,Lady Aitchison Specialist Clinic 31,2024-12-31,2025-03-01,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000409,ACC-SINV-.YYYY.-,Children Medical Center 46,2025-01-01,2025-03-02,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000410,ACC-SINV-.YYYY.-,Sharif Medical Private Hospital 23,2025-01-01,2025-03-02,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000411,ACC-SINV-.YYYY.-,Agha Khan Lab Medical Center 53,2025-01-02,2025-03-03,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000412,ACC-SINV-.YYYY.-,Surgimed Diagnostic Laboratory 26,2025-01-02,2025-01-17,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000413,ACC-SINV-.YYYY.-,Lahore Eye Medical Center 32,2025-01-03,2025-01-18,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000414,ACC-SINV-.YYYY.-,Shaukat Khanum Medical Center 50,2025-01-03,2025-03-04,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000415,ACC-SINV-.YYYY.-,LifeLine Medical Center 49,2025-01-03,2025-03-04,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000416,ACC-SINV-.YYYY.-,Aziz Fatimah Diagnostic Laboratory 28,2025-01-04,2025-03-05,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000417,ACC-SINV-.YYYY.-,Mayo Tertiary Hospital 01,2025-01-06,2025-02-20,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000418,ACC-SINV-.YYYY.-,Surgimed Diagnostic Laboratory 26,2025-01-06,2025-03-07,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000419,ACC-SINV-.YYYY.-,Children Medical Center 46,2025-01-08,2025-02-07,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000420,ACC-SINV-.YYYY.-,Ghurki Trust Medical Center 45,2025-01-08,2025-03-09,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000421,ACC-SINV-.YYYY.-,Noor Tertiary Hospital 07,2025-01-09,2025-02-23,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000422,ACC-SINV-.YYYY.-,Jinnah Tertiary Hospital 02,2025-01-09,2025-03-10,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000423,ACC-SINV-.YYYY.-,Ghurki Trust Medical Center 42,2025-01-13,2025-01-28,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000424,ACC-SINV-.YYYY.-,Shaukat Khanum District Hospital 16,2025-01-13,2025-02-12,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000425,ACC-SINV-.YYYY.-,Wapda Teaching Medical Center 55,2025-01-13,2025-01-28,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000426,ACC-SINV-.YYYY.-,Allied Medical Center 35,2025-01-14,2025-03-15,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000427,ACC-SINV-.YYYY.-,Allied Medical Center 35,2025-01-15,2025-02-14,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000428,ACC-SINV-.YYYY.-,Children Maternity Hospital 30,2025-01-16,2025-03-02,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000429,ACC-SINV-.YYYY.-,Lahore Eye Medical Center 32,2025-01-16,2025-02-15,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000430,ACC-SINV-.YYYY.-,Allied Medical Center 35,2025-01-16,2025-02-15,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000431,ACC-SINV-.YYYY.-,Fatima Memorial Private Hospital 22,2025-01-16,2025-03-02,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000432,ACC-SINV-.YYYY.-,Sheikh Zayed District Hospital 14,2025-01-16,2025-01-31,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000433,ACC-SINV-.YYYY.-,Wapda Teaching Medical Center 51,2025-01-16,2025-01-31,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000434,ACC-SINV-.YYYY.-,Medix District Hospital 11,2025-01-17,2025-02-16,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000435,ACC-SINV-.YYYY.-,Central Park Medical Center 36,2025-01-17,2025-02-16,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000436,ACC-SINV-.YYYY.-,Surgimed Diagnostic Laboratory 26,2025-01-19,2025-02-18,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000437,ACC-SINV-.YYYY.-,Jinnah Tertiary Hospital 02,2025-01-20,2025-02-04,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000438,ACC-SINV-.YYYY.-,National District Hospital 17,2025-01-23,2025-03-24,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000439,ACC-SINV-.YYYY.-,Hafeez Diagnostic Laboratory 27,2025-01-23,2025-03-24,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000440,ACC-SINV-.YYYY.-,Aziz Fatimah Diagnostic Laboratory 28,2025-01-23,2025-03-24,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000441,ACC-SINV-.YYYY.-,Surgimed Diagnostic Laboratory 26,2025-01-24,2025-02-23,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000442,ACC-SINV-.YYYY.-,Services Tertiary Hospital 03,2025-01-25,2025-03-26,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000443,ACC-SINV-.YYYY.-,Fatima Memorial Private Hospital 22,2025-01-25,2025-03-11,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000444,ACC-SINV-.YYYY.-,Farooq Maternity Hospital 29,2025-01-26,2025-03-27,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000445,ACC-SINV-.YYYY.-,National District Hospital 17,2025-01-26,2025-03-12,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000446,ACC-SINV-.YYYY.-,Sir Ganga Ram Medical Center 33,2025-01-26,2025-02-10,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000447,ACC-SINV-.YYYY.-,Excel Labs Medical Center 52,2025-01-26,2025-02-10,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000448,ACC-SINV-.YYYY.-,Allied Medical Center 35,2025-01-27,2025-02-11,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000449,ACC-SINV-.YYYY.-,Sheikh Zayed District Hospital 14,2025-01-27,2025-03-28,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000450,ACC-SINV-.YYYY.-,Hafeez Diagnostic Laboratory 27,2025-01-28,2025-03-29,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000451,ACC-SINV-.YYYY.-,Doctors Private Hospital 25,2025-01-28,2025-02-12,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000452,ACC-SINV-.YYYY.-,Central Park Tertiary Hospital 05,2025-01-28,2025-02-12,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000453,ACC-SINV-.YYYY.-,Surgimed Diagnostic Laboratory 26,2025-01-29,2025-02-13,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000454,ACC-SINV-.YYYY.-,Fatima Memorial Private Hospital 22,2025-01-30,2025-03-16,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000455,ACC-SINV-.YYYY.-,Punjab District Hospital 12,2025-01-30,2025-03-31,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000456,ACC-SINV-.YYYY.-,Sir Ganga Ram Medical Center 33,2025-02-02,2025-03-19,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000457,ACC-SINV-.YYYY.-,Farooq Maternity Hospital 29,2025-02-03,2025-02-18,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000458,ACC-SINV-.YYYY.-,Combined Military Teaching Hospital 19,2025-02-03,2025-03-20,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000459,ACC-SINV-.YYYY.-,Fatima Memorial Private Hospital 22,2025-02-04,2025-03-21,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000460,ACC-SINV-.YYYY.-,Aziz Fatimah Diagnostic Laboratory 28,2025-02-04,2025-02-19,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000461,ACC-SINV-.YYYY.-,Wapda Teaching Medical Center 55,2025-02-05,2025-02-20,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000462,ACC-SINV-.YYYY.-,Ghurki Trust Medical Center 42,2025-02-09,2025-03-11,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000463,ACC-SINV-.YYYY.-,Prime Tertiary Hospital 10,2025-02-09,2025-03-11,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000464,ACC-SINV-.YYYY.-,Citi Lab Medical Center 38,2025-02-10,2025-04-11,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000465,ACC-SINV-.YYYY.-,LifeLine Tertiary Hospital 09,2025-02-10,2025-02-25,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000466,ACC-SINV-.YYYY.-,Excel Labs Medical Center 52,2025-02-10,2025-03-12,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000467,ACC-SINV-.YYYY.-,Allied Medical Center 35,2025-02-12,2025-03-29,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000468,ACC-SINV-.YYYY.-,Sir Ganga Ram Teaching Hospital 21,2025-02-12,2025-04-13,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000469,ACC-SINV-.YYYY.-,National District Hospital 17,2025-02-14,2025-03-01,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000470,ACC-SINV-.YYYY.-,City Care Tertiary Hospital 06,2025-02-15,2025-04-16,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000471,ACC-SINV-.YYYY.-,Allied Medical Center 35,2025-02-17,2025-03-04,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000472,ACC-SINV-.YYYY.-,Excel Labs Medical Center 52,2025-02-17,2025-04-03,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000473,ACC-SINV-.YYYY.-,Allied Teaching Hospital 18,2025-02-19,2025-04-05,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000474,ACC-SINV-.YYYY.-,National Medical Center 48,2025-02-19,2025-04-20,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000475,ACC-SINV-.YYYY.-,Mayo Tertiary Hospital 01,2025-02-20,2025-04-21,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000476,ACC-SINV-.YYYY.-,Fatima Memorial Private Hospital 22,2025-02-20,2025-04-06,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000477,ACC-SINV-.YYYY.-,Excel Labs Medical Center 52,2025-02-22,2025-03-24,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000478,ACC-SINV-.YYYY.-,Combined Military Teaching Hospital 19,2025-02-25,2025-04-26,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000479,ACC-SINV-.YYYY.-,Combined Military Teaching Hospital 19,2025-02-25,2025-03-27,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000480,ACC-SINV-.YYYY.-,LifeLine Medical Center 49,2025-02-25,2025-04-26,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000481,ACC-SINV-.YYYY.-,LifeLine Tertiary Hospital 09,2025-02-26,2025-04-27,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000482,ACC-SINV-.YYYY.-,Mayo Tertiary Hospital 01,2025-03-01,2025-03-16,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000483,ACC-SINV-.YYYY.-,Children Medical Center 46,2025-03-01,2025-03-16,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000484,ACC-SINV-.YYYY.-,Allied Teaching Hospital 18,2025-03-03,2025-04-17,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000485,ACC-SINV-.YYYY.-,Ghurki Trust Medical Center 45,2025-03-03,2025-04-17,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000486,ACC-SINV-.YYYY.-,Sir Ganga Ram Teaching Hospital 21,2025-03-04,2025-03-19,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000487,ACC-SINV-.YYYY.-,Sheikh Zayed District Hospital 14,2025-03-04,2025-04-03,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000488,ACC-SINV-.YYYY.-,Allied Teaching Hospital 18,2025-03-05,2025-05-04,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000489,ACC-SINV-.YYYY.-,Surgimed Medical Center 44,2025-03-06,2025-03-21,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000490,ACC-SINV-.YYYY.-,Mayo Tertiary Hospital 01,2025-03-06,2025-05-05,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000491,ACC-SINV-.YYYY.-,Surgimed Medical Center 44,2025-03-07,2025-04-21,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000492,ACC-SINV-.YYYY.-,Surgimed Diagnostic Laboratory 26,2025-03-07,2025-03-22,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000493,ACC-SINV-.YYYY.-,Wapda Teaching Medical Center 55,2025-03-08,2025-04-22,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000494,ACC-SINV-.YYYY.-,Central Park Medical Center 36,2025-03-09,2025-04-23,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000495,ACC-SINV-.YYYY.-,Sheikh Zayed Medical Center 41,2025-03-09,2025-04-08,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000496,ACC-SINV-.YYYY.-,Prime Tertiary Hospital 10,2025-03-12,2025-04-11,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000497,ACC-SINV-.YYYY.-,Medix District Hospital 11,2025-03-14,2025-05-13,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000498,ACC-SINV-.YYYY.-,Social Security Medical Center 43,2025-03-14,2025-05-13,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000499,ACC-SINV-.YYYY.-,Social Security Medical Center 43,2025-03-15,2025-04-14,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000500,ACC-SINV-.YYYY.-,Sir Ganga Ram Teaching Hospital 21,2025-03-15,2025-05-14,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000501,ACC-SINV-.YYYY.-,Lady Aitchison Specialist Clinic 31,2025-03-16,2025-03-31,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000502,ACC-SINV-.YYYY.-,Surgimed Medical Center 34,2025-03-16,2025-04-15,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000503,ACC-SINV-.YYYY.-,Children Maternity Hospital 30,2025-03-17,2025-04-01,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000504,ACC-SINV-.YYYY.-,CMH Medical Center 39,2025-03-18,2025-05-02,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000505,ACC-SINV-.YYYY.-,Prime Medical Center 47,2025-03-19,2025-04-03,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000506,ACC-SINV-.YYYY.-,Central Park Tertiary Hospital 05,2025-03-20,2025-05-04,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000507,ACC-SINV-.YYYY.-,Doctors Private Hospital 25,2025-03-21,2025-04-05,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000508,ACC-SINV-.YYYY.-,Shaukat Khanum District Hospital 16,2025-03-21,2025-04-05,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000509,ACC-SINV-.YYYY.-,Ittefaq Private Hospital 24,2025-03-22,2025-05-06,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000510,ACC-SINV-.YYYY.-,Sheikh Zayed District Hospital 14,2025-03-24,2025-05-08,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000511,ACC-SINV-.YYYY.-,Lahore Eye Medical Center 32,2025-03-26,2025-05-25,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000512,ACC-SINV-.YYYY.-,National Medical Center 54,2025-03-27,2025-05-26,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000513,ACC-SINV-.YYYY.-,Lady Aitchison Specialist Clinic 31,2025-03-27,2025-04-11,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000514,ACC-SINV-.YYYY.-,Shaukat Khanum District Hospital 16,2025-03-28,2025-04-27,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000515,ACC-SINV-.YYYY.-,City Care Tertiary Hospital 06,2025-03-28,2025-04-12,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000516,ACC-SINV-.YYYY.-,Medix District Hospital 11,2025-03-30,2025-05-29,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000517,ACC-SINV-.YYYY.-,Shalimar Tertiary Hospital 04,2025-03-30,2025-05-29,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000518,ACC-SINV-.YYYY.-,Prime Medical Center 47,2025-03-31,2025-04-15,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000519,ACC-SINV-.YYYY.-,Ittefaq Private Hospital 24,2025-04-01,2025-05-01,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000520,ACC-SINV-.YYYY.-,Sheikh Zayed Medical Center 37,2025-04-02,2025-05-17,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000521,ACC-SINV-.YYYY.-,Gulab Devi Teaching Hospital 20,2025-04-02,2025-06-01,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000522,ACC-SINV-.YYYY.-,Noor Tertiary Hospital 07,2025-04-03,2025-04-18,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000523,ACC-SINV-.YYYY.-,Surgimed Medical Center 44,2025-04-03,2025-06-02,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000524,ACC-SINV-.YYYY.-,Farooq Maternity Hospital 29,2025-04-03,2025-04-18,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000525,ACC-SINV-.YYYY.-,Surgimed Medical Center 34,2025-04-04,2025-04-19,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000526,ACC-SINV-.YYYY.-,Prime Medical Center 47,2025-04-05,2025-06-04,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000527,ACC-SINV-.YYYY.-,Excel Labs Medical Center 52,2025-04-05,2025-05-05,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000528,ACC-SINV-.YYYY.-,Excel Labs Medical Center 52,2025-04-05,2025-04-20,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000529,ACC-SINV-.YYYY.-,Allied Teaching Hospital 18,2025-04-05,2025-05-20,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000530,ACC-SINV-.YYYY.-,Ghurki Trust Medical Center 45,2025-04-06,2025-06-05,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000531,ACC-SINV-.YYYY.-,Farooq Maternity Hospital 29,2025-04-06,2025-06-05,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000532,ACC-SINV-.YYYY.-,Hafeez Diagnostic Laboratory 27,2025-04-07,2025-05-22,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000533,ACC-SINV-.YYYY.-,Combined Military Teaching Hospital 19,2025-04-08,2025-05-23,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000534,ACC-SINV-.YYYY.-,Sir Ganga Ram Teaching Hospital 21,2025-04-09,2025-06-08,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000535,ACC-SINV-.YYYY.-,Surgimed Diagnostic Laboratory 26,2025-04-09,2025-05-24,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000536,ACC-SINV-.YYYY.-,Shaukat Khanum Medical Center 50,2025-04-10,2025-05-10,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000537,ACC-SINV-.YYYY.-,Citi Lab Medical Center 38,2025-04-10,2025-05-25,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000538,ACC-SINV-.YYYY.-,Sharif Medical Private Hospital 23,2025-04-11,2025-04-26,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000539,ACC-SINV-.YYYY.-,Gulab Devi Teaching Hospital 20,2025-04-11,2025-05-26,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000540,ACC-SINV-.YYYY.-,Prime Tertiary Hospital 10,2025-04-11,2025-04-26,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000541,ACC-SINV-.YYYY.-,Surgimed Diagnostic Laboratory 26,2025-04-12,2025-05-12,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000542,ACC-SINV-.YYYY.-,Wapda Teaching Medical Center 55,2025-04-12,2025-06-11,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000543,ACC-SINV-.YYYY.-,Medix District Hospital 11,2025-04-13,2025-05-28,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000544,ACC-SINV-.YYYY.-,Mayo Tertiary Hospital 01,2025-04-13,2025-04-28,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000545,ACC-SINV-.YYYY.-,Prime Medical Center 47,2025-04-13,2025-06-12,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000546,ACC-SINV-.YYYY.-,Aziz Fatimah Diagnostic Laboratory 28,2025-04-14,2025-05-29,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000547,ACC-SINV-.YYYY.-,Children Maternity Hospital 30,2025-04-15,2025-06-14,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000548,ACC-SINV-.YYYY.-,Al-Rehman Tertiary Hospital 08,2025-04-15,2025-05-15,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000549,ACC-SINV-.YYYY.-,Lady Aitchison Specialist Clinic 31,2025-04-16,2025-05-01,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000550,ACC-SINV-.YYYY.-,Surgimed Diagnostic Laboratory 26,2025-04-16,2025-06-15,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000551,ACC-SINV-.YYYY.-,LifeLine Tertiary Hospital 09,2025-04-17,2025-06-16,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000552,ACC-SINV-.YYYY.-,National District Hospital 17,2025-04-18,2025-05-18,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000553,ACC-SINV-.YYYY.-,Ghurki Trust Medical Center 45,2025-04-18,2025-06-17,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000554,ACC-SINV-.YYYY.-,Children Maternity Hospital 30,2025-04-18,2025-05-18,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000555,ACC-SINV-.YYYY.-,Surgimed Medical Center 44,2025-04-18,2025-05-18,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000556,ACC-SINV-.YYYY.-,Citi Lab Medical Center 38,2025-04-20,2025-05-20,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000557,ACC-SINV-.YYYY.-,Excel Labs Medical Center 52,2025-04-21,2025-05-21,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000558,ACC-SINV-.YYYY.-,Shaukat Khanum Medical Center 50,2025-04-22,2025-05-07,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000559,ACC-SINV-.YYYY.-,Citi Lab Medical Center 38,2025-04-23,2025-06-07,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000560,ACC-SINV-.YYYY.-,Services Tertiary Hospital 03,2025-04-23,2025-05-23,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000561,ACC-SINV-.YYYY.-,Allied Teaching Hospital 18,2025-04-25,2025-05-25,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000562,ACC-SINV-.YYYY.-,Lahore General District Hospital 13,2025-04-25,2025-05-10,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000563,ACC-SINV-.YYYY.-,Sir Ganga Ram Medical Center 33,2025-04-25,2025-05-25,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000564,ACC-SINV-.YYYY.-,Surgimed Diagnostic Laboratory 26,2025-04-26,2025-05-11,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000565,ACC-SINV-.YYYY.-,Lahore Eye Medical Center 32,2025-04-27,2025-05-12,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000566,ACC-SINV-.YYYY.-,Farooq Maternity Hospital 29,2025-04-27,2025-05-12,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000567,ACC-SINV-.YYYY.-,Children Medical Center 46,2025-04-27,2025-06-11,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000568,ACC-SINV-.YYYY.-,Hafeez Diagnostic Laboratory 27,2025-04-28,2025-06-27,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000569,ACC-SINV-.YYYY.-,Sheikh Zayed Medical Center 41,2025-04-29,2025-06-28,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000570,ACC-SINV-.YYYY.-,Sharif Medical Private Hospital 23,2025-04-29,2025-06-13,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000571,ACC-SINV-.YYYY.-,Ittefaq Private Hospital 24,2025-04-30,2025-06-29,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000572,ACC-SINV-.YYYY.-,Hameed Latif District Hospital 15,2025-04-30,2025-06-29,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000573,ACC-SINV-.YYYY.-,Combined Military Teaching Hospital 19,2025-05-01,2025-05-16,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000574,ACC-SINV-.YYYY.-,Prime Tertiary Hospital 10,2025-05-01,2025-06-30,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000575,ACC-SINV-.YYYY.-,Surgimed Medical Center 34,2025-05-02,2025-06-16,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000576,ACC-SINV-.YYYY.-,Prime Medical Center 47,2025-05-02,2025-06-01,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000577,ACC-SINV-.YYYY.-,Sheikh Zayed Medical Center 41,2025-05-03,2025-05-18,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000578,ACC-SINV-.YYYY.-,Sir Ganga Ram Medical Center 40,2025-05-04,2025-07-03,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000579,ACC-SINV-.YYYY.-,Surgimed Medical Center 44,2025-05-05,2025-06-04,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000580,ACC-SINV-.YYYY.-,Shaukat Khanum District Hospital 16,2025-05-06,2025-06-05,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000581,ACC-SINV-.YYYY.-,Ittefaq Private Hospital 24,2025-05-06,2025-07-05,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000582,ACC-SINV-.YYYY.-,City Care Tertiary Hospital 06,2025-05-07,2025-05-22,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000583,ACC-SINV-.YYYY.-,Surgimed Diagnostic Laboratory 26,2025-05-08,2025-07-07,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000584,ACC-SINV-.YYYY.-,Sheikh Zayed Medical Center 41,2025-05-08,2025-05-23,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000585,ACC-SINV-.YYYY.-,Gulab Devi Teaching Hospital 20,2025-05-08,2025-07-07,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000586,ACC-SINV-.YYYY.-,Gulab Devi Teaching Hospital 20,2025-05-09,2025-07-08,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000587,ACC-SINV-.YYYY.-,Citi Lab Medical Center 38,2025-05-09,2025-06-23,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000588,ACC-SINV-.YYYY.-,Prime Medical Center 47,2025-05-09,2025-05-24,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000589,ACC-SINV-.YYYY.-,Punjab District Hospital 12,2025-05-10,2025-06-24,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000590,ACC-SINV-.YYYY.-,Medix District Hospital 11,2025-05-10,2025-06-09,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000591,ACC-SINV-.YYYY.-,Sheikh Zayed Medical Center 37,2025-05-11,2025-07-10,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000592,ACC-SINV-.YYYY.-,Sheikh Zayed District Hospital 14,2025-05-11,2025-07-10,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000593,ACC-SINV-.YYYY.-,National District Hospital 17,2025-05-12,2025-06-26,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000594,ACC-SINV-.YYYY.-,Mayo Tertiary Hospital 01,2025-05-13,2025-06-12,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000595,ACC-SINV-.YYYY.-,Sir Ganga Ram Teaching Hospital 21,2025-05-13,2025-06-27,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000596,ACC-SINV-.YYYY.-,Shaukat Khanum Medical Center 50,2025-05-15,2025-06-29,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000597,ACC-SINV-.YYYY.-,Shalimar Tertiary Hospital 04,2025-05-16,2025-07-15,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000598,ACC-SINV-.YYYY.-,Prime Tertiary Hospital 10,2025-05-16,2025-05-31,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000599,ACC-SINV-.YYYY.-,Excel Labs Medical Center 52,2025-05-16,2025-07-15,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000600,ACC-SINV-.YYYY.-,Doctors Private Hospital 25,2025-05-18,2025-06-17,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000601,ACC-SINV-.YYYY.-,National Medical Center 48,2025-05-19,2025-07-18,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000602,ACC-SINV-.YYYY.-,Prime Medical Center 47,2025-05-19,2025-06-18,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000603,ACC-SINV-.YYYY.-,Sir Ganga Ram Medical Center 33,2025-05-19,2025-07-18,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000604,ACC-SINV-.YYYY.-,CMH Medical Center 39,2025-05-20,2025-06-04,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000605,ACC-SINV-.YYYY.-,Excel Labs Medical Center 52,2025-05-21,2025-06-05,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000606,ACC-SINV-.YYYY.-,CMH Medical Center 39,2025-05-22,2025-06-06,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000607,ACC-SINV-.YYYY.-,Aziz Fatimah Diagnostic Laboratory 28,2025-05-23,2025-07-22,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000608,ACC-SINV-.YYYY.-,Farooq Maternity Hospital 29,2025-05-24,2025-06-23,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000609,ACC-SINV-.YYYY.-,Gulab Devi Teaching Hospital 20,2025-05-25,2025-07-09,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000610,ACC-SINV-.YYYY.-,Shaukat Khanum Medical Center 50,2025-05-26,2025-06-25,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000611,ACC-SINV-.YYYY.-,Sharif Medical Private Hospital 23,2025-05-26,2025-07-10,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000612,ACC-SINV-.YYYY.-,Lady Aitchison Specialist Clinic 31,2025-05-27,2025-07-26,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000613,ACC-SINV-.YYYY.-,Agha Khan Lab Medical Center 53,2025-05-27,2025-06-11,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000614,ACC-SINV-.YYYY.-,Noor Tertiary Hospital 07,2025-05-28,2025-07-27,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000615,ACC-SINV-.YYYY.-,Central Park Medical Center 36,2025-05-30,2025-06-14,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000616,ACC-SINV-.YYYY.-,LifeLine Medical Center 49,2025-05-31,2025-07-30,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000617,ACC-SINV-.YYYY.-,Allied Teaching Hospital 18,2025-05-31,2025-07-30,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000618,ACC-SINV-.YYYY.-,National District Hospital 17,2025-06-01,2025-07-31,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000619,ACC-SINV-.YYYY.-,Hameed Latif District Hospital 15,2025-06-01,2025-07-31,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000620,ACC-SINV-.YYYY.-,National Medical Center 48,2025-06-03,2025-07-18,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000621,ACC-SINV-.YYYY.-,Jinnah Tertiary Hospital 02,2025-06-04,2025-07-19,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000622,ACC-SINV-.YYYY.-,City Care Tertiary Hospital 06,2025-06-05,2025-07-05,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000623,ACC-SINV-.YYYY.-,National Medical Center 48,2025-06-06,2025-08-05,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000624,ACC-SINV-.YYYY.-,LifeLine Medical Center 49,2025-06-07,2025-07-07,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000625,ACC-SINV-.YYYY.-,Agha Khan Lab Medical Center 53,2025-06-09,2025-07-24,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000626,ACC-SINV-.YYYY.-,Agha Khan Lab Medical Center 53,2025-06-09,2025-08-08,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000627,ACC-SINV-.YYYY.-,Sheikh Zayed District Hospital 14,2025-06-10,2025-06-25,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000628,ACC-SINV-.YYYY.-,Sir Ganga Ram Teaching Hospital 21,2025-06-10,2025-06-25,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000629,ACC-SINV-.YYYY.-,Sir Ganga Ram Medical Center 33,2025-06-11,2025-08-10,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000630,ACC-SINV-.YYYY.-,CMH Medical Center 39,2025-06-13,2025-07-13,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000631,ACC-SINV-.YYYY.-,Shaukat Khanum Medical Center 50,2025-06-13,2025-07-13,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000632,ACC-SINV-.YYYY.-,Surgimed Diagnostic Laboratory 26,2025-06-13,2025-07-28,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000633,ACC-SINV-.YYYY.-,Agha Khan Lab Medical Center 53,2025-06-15,2025-06-30,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000634,ACC-SINV-.YYYY.-,Services Tertiary Hospital 03,2025-06-15,2025-07-15,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000635,ACC-SINV-.YYYY.-,Mayo Tertiary Hospital 01,2025-06-15,2025-06-30,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000636,ACC-SINV-.YYYY.-,Hafeez Diagnostic Laboratory 27,2025-06-16,2025-07-31,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000637,ACC-SINV-.YYYY.-,Gulab Devi Teaching Hospital 20,2025-06-16,2025-07-01,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000638,ACC-SINV-.YYYY.-,National District Hospital 17,2025-06-17,2025-08-16,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000639,ACC-SINV-.YYYY.-,National Medical Center 48,2025-06-18,2025-07-03,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000640,ACC-SINV-.YYYY.-,City Care Tertiary Hospital 06,2025-06-19,2025-07-19,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000641,ACC-SINV-.YYYY.-,Fatima Memorial Private Hospital 22,2025-06-19,2025-07-04,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000642,ACC-SINV-.YYYY.-,Sheikh Zayed Medical Center 37,2025-06-20,2025-08-19,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000643,ACC-SINV-.YYYY.-,Central Park Medical Center 36,2025-06-20,2025-08-19,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000644,ACC-SINV-.YYYY.-,Ghurki Trust Medical Center 45,2025-06-20,2025-07-05,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000645,ACC-SINV-.YYYY.-,Services Tertiary Hospital 03,2025-06-20,2025-07-05,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000646,ACC-SINV-.YYYY.-,Sir Ganga Ram Teaching Hospital 21,2025-06-21,2025-07-21,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000647,ACC-SINV-.YYYY.-,LifeLine Tertiary Hospital 09,2025-06-22,2025-08-21,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000648,ACC-SINV-.YYYY.-,Noor Tertiary Hospital 07,2025-06-23,2025-07-23,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000649,ACC-SINV-.YYYY.-,National Medical Center 48,2025-06-24,2025-07-09,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000650,ACC-SINV-.YYYY.-,Citi Lab Medical Center 38,2025-06-24,2025-08-08,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000651,ACC-SINV-.YYYY.-,Wapda Teaching Medical Center 51,2025-06-24,2025-07-09,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000652,ACC-SINV-.YYYY.-,Punjab District Hospital 12,2025-06-24,2025-08-08,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000653,ACC-SINV-.YYYY.-,Noor Tertiary Hospital 07,2025-06-25,2025-07-10,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000654,ACC-SINV-.YYYY.-,Shalimar Tertiary Hospital 04,2025-06-26,2025-08-25,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000655,ACC-SINV-.YYYY.-,Combined Military Teaching Hospital 19,2025-06-27,2025-07-12,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000656,ACC-SINV-.YYYY.-,Wapda Teaching Medical Center 51,2025-06-27,2025-08-11,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000657,ACC-SINV-.YYYY.-,Al-Rehman Tertiary Hospital 08,2025-06-27,2025-07-12,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000658,ACC-SINV-.YYYY.-,National Medical Center 54,2025-06-28,2025-08-27,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000659,ACC-SINV-.YYYY.-,Sir Ganga Ram Medical Center 33,2025-06-28,2025-08-27,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000660,ACC-SINV-.YYYY.-,Lady Aitchison Specialist Clinic 31,2025-06-28,2025-07-13,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000661,ACC-SINV-.YYYY.-,Gulab Devi Teaching Hospital 20,2025-06-30,2025-07-30,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000662,ACC-SINV-.YYYY.-,Medix District Hospital 11,2025-07-02,2025-08-16,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000663,ACC-SINV-.YYYY.-,Noor Tertiary Hospital 07,2025-07-02,2025-08-31,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000664,ACC-SINV-.YYYY.-,Hameed Latif District Hospital 15,2025-07-03,2025-08-02,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000665,ACC-SINV-.YYYY.-,LifeLine Medical Center 49,2025-07-04,2025-08-03,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000666,ACC-SINV-.YYYY.-,Medix District Hospital 11,2025-07-04,2025-08-03,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000667,ACC-SINV-.YYYY.-,Excel Labs Medical Center 52,2025-07-05,2025-08-19,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000668,ACC-SINV-.YYYY.-,Sheikh Zayed District Hospital 14,2025-07-08,2025-09-06,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000669,ACC-SINV-.YYYY.-,Lahore Eye Medical Center 32,2025-07-09,2025-08-23,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000670,ACC-SINV-.YYYY.-,Doctors Private Hospital 25,2025-07-10,2025-08-09,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000671,ACC-SINV-.YYYY.-,Allied Medical Center 35,2025-07-10,2025-07-25,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000672,ACC-SINV-.YYYY.-,Central Park Tertiary Hospital 05,2025-07-11,2025-08-10,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000673,ACC-SINV-.YYYY.-,National Medical Center 48,2025-07-13,2025-08-12,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000674,ACC-SINV-.YYYY.-,Hameed Latif District Hospital 15,2025-07-14,2025-07-29,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000675,ACC-SINV-.YYYY.-,Ittefaq Private Hospital 24,2025-07-14,2025-07-29,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000676,ACC-SINV-.YYYY.-,Surgimed Medical Center 44,2025-07-14,2025-07-29,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000677,ACC-SINV-.YYYY.-,Central Park Medical Center 36,2025-07-14,2025-09-12,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000678,ACC-SINV-.YYYY.-,City Care Tertiary Hospital 06,2025-07-15,2025-07-30,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000679,ACC-SINV-.YYYY.-,Children Medical Center 46,2025-07-15,2025-08-14,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000680,ACC-SINV-.YYYY.-,Hameed Latif District Hospital 15,2025-07-15,2025-08-14,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000681,ACC-SINV-.YYYY.-,Sharif Medical Private Hospital 23,2025-07-16,2025-09-14,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000682,ACC-SINV-.YYYY.-,Aziz Fatimah Diagnostic Laboratory 28,2025-07-17,2025-08-16,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000683,ACC-SINV-.YYYY.-,Combined Military Teaching Hospital 19,2025-07-17,2025-08-31,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000684,ACC-SINV-.YYYY.-,Social Security Medical Center 43,2025-07-17,2025-08-01,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000685,ACC-SINV-.YYYY.-,Children Medical Center 46,2025-07-17,2025-09-15,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000686,ACC-SINV-.YYYY.-,LifeLine Medical Center 49,2025-07-17,2025-09-15,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000687,ACC-SINV-.YYYY.-,Combined Military Teaching Hospital 19,2025-07-18,2025-09-01,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000688,ACC-SINV-.YYYY.-,City Care Tertiary Hospital 06,2025-07-18,2025-08-02,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000689,ACC-SINV-.YYYY.-,Wapda Teaching Medical Center 51,2025-07-22,2025-09-20,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000690,ACC-SINV-.YYYY.-,Surgimed Diagnostic Laboratory 26,2025-07-22,2025-09-05,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000691,ACC-SINV-.YYYY.-,Central Park Medical Center 36,2025-07-22,2025-08-06,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000692,ACC-SINV-.YYYY.-,Wapda Teaching Medical Center 51,2025-07-22,2025-09-20,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000693,ACC-SINV-.YYYY.-,Ghurki Trust Medical Center 45,2025-07-22,2025-08-06,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000694,ACC-SINV-.YYYY.-,Noor Tertiary Hospital 07,2025-07-24,2025-09-07,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000695,ACC-SINV-.YYYY.-,Allied Teaching Hospital 18,2025-07-24,2025-09-22,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000696,ACC-SINV-.YYYY.-,Allied Teaching Hospital 18,2025-07-25,2025-09-08,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000697,ACC-SINV-.YYYY.-,Citi Lab Medical Center 38,2025-07-28,2025-09-11,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000698,ACC-SINV-.YYYY.-,Hafeez Diagnostic Laboratory 27,2025-07-28,2025-08-27,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000699,ACC-SINV-.YYYY.-,Fatima Memorial Private Hospital 22,2025-07-30,2025-09-28,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000700,ACC-SINV-.YYYY.-,Hameed Latif District Hospital 15,2025-08-01,2025-09-15,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000701,ACC-SINV-.YYYY.-,National District Hospital 17,2025-08-01,2025-08-31,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000702,ACC-SINV-.YYYY.-,Gulab Devi Teaching Hospital 20,2025-08-01,2025-08-31,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000703,ACC-SINV-.YYYY.-,Jinnah Tertiary Hospital 02,2025-08-02,2025-09-16,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000704,ACC-SINV-.YYYY.-,Ghurki Trust Medical Center 42,2025-08-06,2025-10-05,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000705,ACC-SINV-.YYYY.-,Sir Ganga Ram Teaching Hospital 21,2025-08-06,2025-09-05,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000706,ACC-SINV-.YYYY.-,Children Maternity Hospital 30,2025-08-07,2025-10-06,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000707,ACC-SINV-.YYYY.-,City Care Tertiary Hospital 06,2025-08-08,2025-09-22,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000708,ACC-SINV-.YYYY.-,Surgimed Diagnostic Laboratory 26,2025-08-09,2025-09-23,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000709,ACC-SINV-.YYYY.-,Sheikh Zayed Medical Center 41,2025-08-09,2025-10-08,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000710,ACC-SINV-.YYYY.-,Surgimed Medical Center 44,2025-08-11,2025-10-10,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000711,ACC-SINV-.YYYY.-,Citi Lab Medical Center 38,2025-08-12,2025-08-27,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000712,ACC-SINV-.YYYY.-,CMH Medical Center 39,2025-08-12,2025-10-11,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000713,ACC-SINV-.YYYY.-,LifeLine Medical Center 49,2025-08-13,2025-10-12,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000714,ACC-SINV-.YYYY.-,Prime Medical Center 47,2025-08-13,2025-10-12,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000715,ACC-SINV-.YYYY.-,Gulab Devi Teaching Hospital 20,2025-08-13,2025-09-12,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000716,ACC-SINV-.YYYY.-,CMH Medical Center 39,2025-08-14,2025-10-13,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000717,ACC-SINV-.YYYY.-,Surgimed Diagnostic Laboratory 26,2025-08-14,2025-09-28,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000718,ACC-SINV-.YYYY.-,National Medical Center 48,2025-08-16,2025-10-15,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000719,ACC-SINV-.YYYY.-,Medix District Hospital 11,2025-08-18,2025-09-02,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000720,ACC-SINV-.YYYY.-,Lahore Eye Medical Center 32,2025-08-18,2025-09-17,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000721,ACC-SINV-.YYYY.-,Prime Tertiary Hospital 10,2025-08-19,2025-10-03,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000722,ACC-SINV-.YYYY.-,Lahore General District Hospital 13,2025-08-20,2025-10-04,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000723,ACC-SINV-.YYYY.-,National Medical Center 48,2025-08-21,2025-10-20,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000724,ACC-SINV-.YYYY.-,Surgimed Medical Center 34,2025-08-22,2025-10-06,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000725,ACC-SINV-.YYYY.-,Gulab Devi Teaching Hospital 20,2025-08-22,2025-10-21,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000726,ACC-SINV-.YYYY.-,Punjab District Hospital 12,2025-08-22,2025-09-06,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000727,ACC-SINV-.YYYY.-,Shaukat Khanum Medical Center 50,2025-08-23,2025-09-22,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000728,ACC-SINV-.YYYY.-,Hameed Latif District Hospital 15,2025-08-25,2025-10-09,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000729,ACC-SINV-.YYYY.-,Prime Medical Center 47,2025-08-25,2025-09-09,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000730,ACC-SINV-.YYYY.-,Hafeez Diagnostic Laboratory 27,2025-08-25,2025-09-09,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000731,ACC-SINV-.YYYY.-,Sir Ganga Ram Medical Center 40,2025-08-26,2025-09-25,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000732,ACC-SINV-.YYYY.-,Prime Tertiary Hospital 10,2025-08-26,2025-09-25,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000733,ACC-SINV-.YYYY.-,CMH Medical Center 39,2025-08-26,2025-09-10,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000734,ACC-SINV-.YYYY.-,Allied Teaching Hospital 18,2025-08-27,2025-10-11,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000735,ACC-SINV-.YYYY.-,Noor Tertiary Hospital 07,2025-08-28,2025-10-12,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000736,ACC-SINV-.YYYY.-,Jinnah Tertiary Hospital 02,2025-08-29,2025-10-28,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000737,ACC-SINV-.YYYY.-,Ghurki Trust Medical Center 45,2025-08-30,2025-09-29,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000738,ACC-SINV-.YYYY.-,Citi Lab Medical Center 38,2025-08-31,2025-09-30,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000739,ACC-SINV-.YYYY.-,LifeLine Medical Center 49,2025-08-31,2025-09-30,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000740,ACC-SINV-.YYYY.-,Surgimed Medical Center 34,2025-09-01,2025-10-01,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000741,ACC-SINV-.YYYY.-,Lahore Eye Medical Center 32,2025-09-01,2025-09-16,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000742,ACC-SINV-.YYYY.-,Mayo Tertiary Hospital 01,2025-09-01,2025-09-16,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000743,ACC-SINV-.YYYY.-,Prime Tertiary Hospital 10,2025-09-02,2025-10-17,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000744,ACC-SINV-.YYYY.-,Children Maternity Hospital 30,2025-09-02,2025-11-01,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000745,ACC-SINV-.YYYY.-,Fatima Memorial Private Hospital 22,2025-09-02,2025-10-17,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000746,ACC-SINV-.YYYY.-,Combined Military Teaching Hospital 19,2025-09-03,2025-10-18,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000747,ACC-SINV-.YYYY.-,Sheikh Zayed District Hospital 14,2025-09-03,2025-10-18,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000748,ACC-SINV-.YYYY.-,Prime Tertiary Hospital 10,2025-09-04,2025-10-04,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000749,ACC-SINV-.YYYY.-,Sheikh Zayed Medical Center 41,2025-09-04,2025-10-04,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000750,ACC-SINV-.YYYY.-,National Medical Center 48,2025-09-06,2025-10-06,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000751,ACC-SINV-.YYYY.-,Sir Ganga Ram Teaching Hospital 21,2025-09-06,2025-09-21,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000752,ACC-SINV-.YYYY.-,Surgimed Medical Center 44,2025-09-08,2025-10-08,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000753,ACC-SINV-.YYYY.-,Services Tertiary Hospital 03,2025-09-09,2025-10-09,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000754,ACC-SINV-.YYYY.-,Hameed Latif District Hospital 15,2025-09-09,2025-10-09,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000755,ACC-SINV-.YYYY.-,Mayo Tertiary Hospital 01,2025-09-09,2025-10-24,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000756,ACC-SINV-.YYYY.-,Aziz Fatimah Diagnostic Laboratory 28,2025-09-10,2025-11-09,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000757,ACC-SINV-.YYYY.-,Services Tertiary Hospital 03,2025-09-11,2025-10-11,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000758,ACC-SINV-.YYYY.-,Gulab Devi Teaching Hospital 20,2025-09-12,2025-10-27,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000759,ACC-SINV-.YYYY.-,City Care Tertiary Hospital 06,2025-09-12,2025-10-12,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000760,ACC-SINV-.YYYY.-,Sheikh Zayed District Hospital 14,2025-09-12,2025-09-27,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000761,ACC-SINV-.YYYY.-,Doctors Private Hospital 25,2025-09-13,2025-10-28,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000762,ACC-SINV-.YYYY.-,Ittefaq Private Hospital 24,2025-09-16,2025-10-16,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000763,ACC-SINV-.YYYY.-,Social Security Medical Center 43,2025-09-18,2025-10-03,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000764,ACC-SINV-.YYYY.-,City Care Tertiary Hospital 06,2025-09-18,2025-11-02,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000765,ACC-SINV-.YYYY.-,Mayo Tertiary Hospital 01,2025-09-20,2025-10-05,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000766,ACC-SINV-.YYYY.-,Allied Teaching Hospital 18,2025-09-23,2025-11-07,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000767,ACC-SINV-.YYYY.-,Wapda Teaching Medical Center 51,2025-09-23,2025-11-22,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000768,ACC-SINV-.YYYY.-,Children Maternity Hospital 30,2025-09-24,2025-11-08,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000769,ACC-SINV-.YYYY.-,Central Park Tertiary Hospital 05,2025-09-26,2025-11-25,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000770,ACC-SINV-.YYYY.-,Wapda Teaching Medical Center 55,2025-09-27,2025-11-11,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000771,ACC-SINV-.YYYY.-,Shaukat Khanum District Hospital 16,2025-09-28,2025-11-12,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000772,ACC-SINV-.YYYY.-,Medix District Hospital 11,2025-09-29,2025-11-28,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000773,ACC-SINV-.YYYY.-,Jinnah Tertiary Hospital 02,2025-09-29,2025-10-14,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000774,ACC-SINV-.YYYY.-,Sheikh Zayed District Hospital 14,2025-09-30,2025-11-14,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000775,ACC-SINV-.YYYY.-,CMH Medical Center 39,2025-10-01,2025-11-30,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000776,ACC-SINV-.YYYY.-,Sharif Medical Private Hospital 23,2025-10-01,2025-11-30,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000777,ACC-SINV-.YYYY.-,Surgimed Medical Center 34,2025-10-02,2025-10-17,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000778,ACC-SINV-.YYYY.-,Surgimed Diagnostic Laboratory 26,2025-10-02,2025-10-17,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000779,ACC-SINV-.YYYY.-,Ittefaq Private Hospital 24,2025-10-03,2025-11-02,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000780,ACC-SINV-.YYYY.-,Sheikh Zayed District Hospital 14,2025-10-03,2025-12-02,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000781,ACC-SINV-.YYYY.-,LifeLine Tertiary Hospital 09,2025-10-03,2025-12-02,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000782,ACC-SINV-.YYYY.-,Services Tertiary Hospital 03,2025-10-03,2025-11-02,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000783,ACC-SINV-.YYYY.-,Medix District Hospital 11,2025-10-03,2025-11-02,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000784,ACC-SINV-.YYYY.-,National District Hospital 17,2025-10-05,2025-10-20,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000785,ACC-SINV-.YYYY.-,Combined Military Teaching Hospital 19,2025-10-06,2025-12-05,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000786,ACC-SINV-.YYYY.-,Prime Medical Center 47,2025-10-06,2025-11-05,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000787,ACC-SINV-.YYYY.-,Children Maternity Hospital 30,2025-10-07,2025-11-21,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000788,ACC-SINV-.YYYY.-,National District Hospital 17,2025-10-07,2025-10-22,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000789,ACC-SINV-.YYYY.-,Surgimed Diagnostic Laboratory 26,2025-10-07,2025-12-06,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000790,ACC-SINV-.YYYY.-,Mayo Tertiary Hospital 01,2025-10-08,2025-10-23,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000791,ACC-SINV-.YYYY.-,Children Medical Center 46,2025-10-08,2025-11-07,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000792,ACC-SINV-.YYYY.-,Al-Rehman Tertiary Hospital 08,2025-10-08,2025-11-07,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000793,ACC-SINV-.YYYY.-,Al-Rehman Tertiary Hospital 08,2025-10-10,2025-11-09,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000794,ACC-SINV-.YYYY.-,Allied Medical Center 35,2025-10-10,2025-11-09,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000795,ACC-SINV-.YYYY.-,National District Hospital 17,2025-10-10,2025-12-09,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000796,ACC-SINV-.YYYY.-,Children Medical Center 46,2025-10-11,2025-11-10,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000797,ACC-SINV-.YYYY.-,Wapda Teaching Medical Center 55,2025-10-12,2025-10-27,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000798,ACC-SINV-.YYYY.-,Shaukat Khanum Medical Center 50,2025-10-14,2025-11-28,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000799,ACC-SINV-.YYYY.-,Sheikh Zayed Medical Center 37,2025-10-14,2025-11-13,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000800,ACC-SINV-.YYYY.-,Surgimed Diagnostic Laboratory 26,2025-10-14,2025-12-13,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000801,ACC-SINV-.YYYY.-,Sharif Medical Private Hospital 23,2025-10-14,2025-11-13,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000802,ACC-SINV-.YYYY.-,National District Hospital 17,2025-10-14,2025-11-28,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000803,ACC-SINV-.YYYY.-,Excel Labs Medical Center 52,2025-10-14,2025-11-28,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000804,ACC-SINV-.YYYY.-,Al-Rehman Tertiary Hospital 08,2025-10-16,2025-11-30,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000805,ACC-SINV-.YYYY.-,Noor Tertiary Hospital 07,2025-10-18,2025-11-17,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000806,ACC-SINV-.YYYY.-,Jinnah Tertiary Hospital 02,2025-10-19,2025-12-18,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000807,ACC-SINV-.YYYY.-,Central Park Medical Center 36,2025-10-19,2025-11-03,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000808,ACC-SINV-.YYYY.-,Central Park Medical Center 36,2025-10-20,2025-11-19,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000809,ACC-SINV-.YYYY.-,Sheikh Zayed Medical Center 41,2025-10-20,2025-11-04,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000810,ACC-SINV-.YYYY.-,Fatima Memorial Private Hospital 22,2025-10-20,2025-12-04,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000811,ACC-SINV-.YYYY.-,Sheikh Zayed Medical Center 41,2025-10-23,2025-12-07,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000812,ACC-SINV-.YYYY.-,Central Park Tertiary Hospital 05,2025-10-24,2025-11-23,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000813,ACC-SINV-.YYYY.-,Lahore General District Hospital 13,2025-10-26,2025-11-10,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000814,ACC-SINV-.YYYY.-,Ghurki Trust Medical Center 45,2025-10-27,2025-12-26,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000815,ACC-SINV-.YYYY.-,Punjab District Hospital 12,2025-10-27,2025-12-26,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000816,ACC-SINV-.YYYY.-,Surgimed Medical Center 34,2025-10-27,2025-12-26,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000817,ACC-SINV-.YYYY.-,Sheikh Zayed Medical Center 37,2025-10-30,2025-11-29,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000818,ACC-SINV-.YYYY.-,Central Park Tertiary Hospital 05,2025-10-30,2025-11-29,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000819,ACC-SINV-.YYYY.-,Lahore Eye Medical Center 32,2025-10-30,2025-12-14,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000820,ACC-SINV-.YYYY.-,Sharif Medical Private Hospital 23,2025-10-30,2025-11-29,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000821,ACC-SINV-.YYYY.-,Central Park Medical Center 36,2025-10-30,2025-12-14,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000822,ACC-SINV-.YYYY.-,Lahore Eye Medical Center 32,2025-10-31,2025-11-30,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000823,ACC-SINV-.YYYY.-,CMH Medical Center 39,2025-11-01,2025-11-16,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000824,ACC-SINV-.YYYY.-,Al-Rehman Tertiary Hospital 08,2025-11-01,2025-12-16,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000825,ACC-SINV-.YYYY.-,Noor Tertiary Hospital 07,2025-11-02,2025-11-17,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000826,ACC-SINV-.YYYY.-,Noor Tertiary Hospital 07,2025-11-03,2025-12-18,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000827,ACC-SINV-.YYYY.-,Gulab Devi Teaching Hospital 20,2025-11-03,2025-12-18,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000828,ACC-SINV-.YYYY.-,National District Hospital 17,2025-11-03,2026-01-02,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000829,ACC-SINV-.YYYY.-,Central Park Tertiary Hospital 05,2025-11-04,2025-12-19,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000830,ACC-SINV-.YYYY.-,City Care Tertiary Hospital 06,2025-11-06,2025-11-21,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000831,ACC-SINV-.YYYY.-,Noor Tertiary Hospital 07,2025-11-07,2026-01-06,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000832,ACC-SINV-.YYYY.-,Children Maternity Hospital 30,2025-11-07,2025-11-22,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000833,ACC-SINV-.YYYY.-,City Care Tertiary Hospital 06,2025-11-07,2025-12-22,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000834,ACC-SINV-.YYYY.-,Surgimed Medical Center 34,2025-11-08,2025-11-23,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000835,ACC-SINV-.YYYY.-,Sheikh Zayed Medical Center 37,2025-11-08,2026-01-07,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000836,ACC-SINV-.YYYY.-,Farooq Maternity Hospital 29,2025-11-08,2025-12-08,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000837,ACC-SINV-.YYYY.-,Surgimed Diagnostic Laboratory 26,2025-11-09,2025-11-24,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000838,ACC-SINV-.YYYY.-,Lahore General District Hospital 13,2025-11-10,2026-01-09,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000839,ACC-SINV-.YYYY.-,Hameed Latif District Hospital 15,2025-11-11,2025-12-11,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000840,ACC-SINV-.YYYY.-,Excel Labs Medical Center 52,2025-11-11,2026-01-10,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000841,ACC-SINV-.YYYY.-,Medix District Hospital 11,2025-11-12,2025-12-27,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000842,ACC-SINV-.YYYY.-,Lady Aitchison Specialist Clinic 31,2025-11-12,2025-11-27,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000843,ACC-SINV-.YYYY.-,Surgimed Medical Center 44,2025-11-14,2026-01-13,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000844,ACC-SINV-.YYYY.-,Shaukat Khanum Medical Center 50,2025-11-15,2026-01-14,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000845,ACC-SINV-.YYYY.-,Al-Rehman Tertiary Hospital 08,2025-11-15,2025-12-30,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000846,ACC-SINV-.YYYY.-,National Medical Center 54,2025-11-15,2026-01-14,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000847,ACC-SINV-.YYYY.-,Sheikh Zayed Medical Center 41,2025-11-16,2025-12-16,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000848,ACC-SINV-.YYYY.-,Agha Khan Lab Medical Center 53,2025-11-16,2026-01-15,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000849,ACC-SINV-.YYYY.-,Sir Ganga Ram Medical Center 33,2025-11-18,2026-01-17,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000850,ACC-SINV-.YYYY.-,LifeLine Medical Center 49,2025-11-19,2026-01-03,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000851,ACC-SINV-.YYYY.-,Lahore General District Hospital 13,2025-11-20,2026-01-04,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000852,ACC-SINV-.YYYY.-,National Medical Center 54,2025-11-20,2026-01-04,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000853,ACC-SINV-.YYYY.-,Lahore General District Hospital 13,2025-11-20,2026-01-19,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000854,ACC-SINV-.YYYY.-,Shalimar Tertiary Hospital 04,2025-11-20,2025-12-20,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000855,ACC-SINV-.YYYY.-,Lahore Eye Medical Center 32,2025-11-21,2026-01-20,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000856,ACC-SINV-.YYYY.-,Aziz Fatimah Diagnostic Laboratory 28,2025-11-22,2026-01-06,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000857,ACC-SINV-.YYYY.-,Excel Labs Medical Center 52,2025-11-22,2026-01-06,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000858,ACC-SINV-.YYYY.-,Farooq Maternity Hospital 29,2025-11-23,2026-01-22,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000859,ACC-SINV-.YYYY.-,Agha Khan Lab Medical Center 53,2025-11-24,2026-01-08,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000860,ACC-SINV-.YYYY.-,Sharif Medical Private Hospital 23,2025-11-24,2025-12-24,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000861,ACC-SINV-.YYYY.-,Sir Ganga Ram Teaching Hospital 21,2025-11-24,2025-12-09,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000862,ACC-SINV-.YYYY.-,Jinnah Tertiary Hospital 02,2025-11-24,2026-01-08,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000863,ACC-SINV-.YYYY.-,Medix District Hospital 11,2025-11-25,2025-12-10,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000864,ACC-SINV-.YYYY.-,National Medical Center 54,2025-11-25,2026-01-24,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000865,ACC-SINV-.YYYY.-,Sir Ganga Ram Medical Center 40,2025-11-26,2026-01-10,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000866,ACC-SINV-.YYYY.-,Farooq Maternity Hospital 29,2025-11-28,2026-01-12,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000867,ACC-SINV-.YYYY.-,Shaukat Khanum Medical Center 50,2025-11-29,2026-01-28,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000868,ACC-SINV-.YYYY.-,Hameed Latif District Hospital 15,2025-11-30,2025-12-30,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000869,ACC-SINV-.YYYY.-,Surgimed Diagnostic Laboratory 26,2025-11-30,2025-12-30,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000870,ACC-SINV-.YYYY.-,Shaukat Khanum District Hospital 16,2025-11-30,2026-01-29,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000871,ACC-SINV-.YYYY.-,National Medical Center 48,2025-12-01,2025-12-16,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000872,ACC-SINV-.YYYY.-,Shaukat Khanum Medical Center 50,2025-12-01,2025-12-16,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000873,ACC-SINV-.YYYY.-,Sheikh Zayed District Hospital 14,2025-12-01,2025-12-16,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000874,ACC-SINV-.YYYY.-,Sharif Medical Private Hospital 23,2025-12-02,2025-12-17,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000875,ACC-SINV-.YYYY.-,Punjab District Hospital 12,2025-12-02,2026-01-16,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000876,ACC-SINV-.YYYY.-,Noor Tertiary Hospital 07,2025-12-04,2025-12-19,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000877,ACC-SINV-.YYYY.-,Ittefaq Private Hospital 24,2025-12-05,2026-01-04,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000878,ACC-SINV-.YYYY.-,Sheikh Zayed Medical Center 41,2025-12-05,2026-02-03,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000879,ACC-SINV-.YYYY.-,Surgimed Diagnostic Laboratory 26,2025-12-06,2026-02-04,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000880,ACC-SINV-.YYYY.-,Ghurki Trust Medical Center 45,2025-12-08,2026-02-06,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000881,ACC-SINV-.YYYY.-,Services Tertiary Hospital 03,2025-12-08,2026-01-07,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000882,ACC-SINV-.YYYY.-,Lahore General District Hospital 13,2025-12-10,2026-02-08,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000883,ACC-SINV-.YYYY.-,CMH Medical Center 39,2025-12-11,2026-01-10,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000884,ACC-SINV-.YYYY.-,LifeLine Medical Center 49,2025-12-11,2026-01-25,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000885,ACC-SINV-.YYYY.-,City Care Tertiary Hospital 06,2025-12-12,2025-12-27,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000886,ACC-SINV-.YYYY.-,Services Tertiary Hospital 03,2025-12-12,2026-02-10,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000887,ACC-SINV-.YYYY.-,Surgimed Medical Center 44,2025-12-13,2026-01-27,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000888,ACC-SINV-.YYYY.-,Surgimed Medical Center 34,2025-12-13,2026-01-27,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000889,ACC-SINV-.YYYY.-,Sheikh Zayed Medical Center 37,2025-12-14,2026-02-12,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000890,ACC-SINV-.YYYY.-,Shaukat Khanum District Hospital 16,2025-12-14,2025-12-29,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000891,ACC-SINV-.YYYY.-,National District Hospital 17,2025-12-14,2026-01-13,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000892,ACC-SINV-.YYYY.-,Ghurki Trust Medical Center 42,2025-12-14,2026-01-28,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000893,ACC-SINV-.YYYY.-,Citi Lab Medical Center 38,2025-12-15,2026-01-14,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000894,ACC-SINV-.YYYY.-,Excel Labs Medical Center 52,2025-12-15,2026-01-29,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000895,ACC-SINV-.YYYY.-,Services Tertiary Hospital 03,2025-12-15,2026-01-14,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000896,ACC-SINV-.YYYY.-,Prime Medical Center 47,2025-12-15,2026-02-13,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000897,ACC-SINV-.YYYY.-,Fatima Memorial Private Hospital 22,2025-12-16,2026-02-14,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000898,ACC-SINV-.YYYY.-,Lady Aitchison Specialist Clinic 31,2025-12-16,2025-12-31,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000899,ACC-SINV-.YYYY.-,Al-Rehman Tertiary Hospital 08,2025-12-16,2026-01-15,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000900,ACC-SINV-.YYYY.-,Prime Medical Center 47,2025-12-17,2026-02-15,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000901,ACC-SINV-.YYYY.-,Al-Rehman Tertiary Hospital 08,2025-12-18,2026-01-17,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000902,ACC-SINV-.YYYY.-,National District Hospital 17,2025-12-18,2026-02-01,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000903,ACC-SINV-.YYYY.-,Gulab Devi Teaching Hospital 20,2025-12-19,2026-01-03,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000904,ACC-SINV-.YYYY.-,Lahore Eye Medical Center 32,2025-12-19,2026-02-17,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000905,ACC-SINV-.YYYY.-,Fatima Memorial Private Hospital 22,2025-12-20,2026-01-04,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000906,ACC-SINV-.YYYY.-,LifeLine Medical Center 49,2025-12-22,2026-01-06,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000907,ACC-SINV-.YYYY.-,Ittefaq Private Hospital 24,2025-12-22,2026-01-06,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000908,ACC-SINV-.YYYY.-,Aziz Fatimah Diagnostic Laboratory 28,2025-12-22,2026-02-05,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000909,ACC-SINV-.YYYY.-,Children Maternity Hospital 30,2025-12-23,2026-01-22,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000910,ACC-SINV-.YYYY.-,Ghurki Trust Medical Center 42,2025-12-23,2026-02-06,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000911,ACC-SINV-.YYYY.-,Sir Ganga Ram Medical Center 33,2025-12-25,2026-01-24,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000912,ACC-SINV-.YYYY.-,National District Hospital 17,2025-12-25,2026-02-08,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000913,ACC-SINV-.YYYY.-,Fatima Memorial Private Hospital 22,2025-12-28,2026-02-11,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000914,ACC-SINV-.YYYY.-,National District Hospital 17,2025-12-28,2026-01-27,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000915,ACC-SINV-.YYYY.-,Shalimar Tertiary Hospital 04,2025-12-31,2026-01-15,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000916,ACC-SINV-.YYYY.-,Central Park Medical Center 36,2025-12-31,2026-01-30,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000917,ACC-SINV-.YYYY.-,National District Hospital 17,2026-01-02,2026-02-01,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000918,ACC-SINV-.YYYY.-,Lahore Eye Medical Center 32,2026-01-02,2026-02-16,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000919,ACC-SINV-.YYYY.-,National Medical Center 54,2026-01-04,2026-02-18,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000920,ACC-SINV-.YYYY.-,Central Park Medical Center 36,2026-01-05,2026-02-19,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000921,ACC-SINV-.YYYY.-,Jinnah Tertiary Hospital 02,2026-01-06,2026-02-05,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000922,ACC-SINV-.YYYY.-,Sheikh Zayed Medical Center 41,2026-01-08,2026-02-22,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000923,ACC-SINV-.YYYY.-,Prime Tertiary Hospital 10,2026-01-10,2026-03-11,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000924,ACC-SINV-.YYYY.-,Shalimar Tertiary Hospital 04,2026-01-11,2026-01-26,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000925,ACC-SINV-.YYYY.-,Sheikh Zayed District Hospital 14,2026-01-12,2026-01-27,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000926,ACC-SINV-.YYYY.-,CMH Medical Center 39,2026-01-13,2026-03-14,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000927,ACC-SINV-.YYYY.-,Jinnah Tertiary Hospital 02,2026-01-13,2026-02-12,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000928,ACC-SINV-.YYYY.-,Wapda Teaching Medical Center 55,2026-01-14,2026-03-15,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000929,ACC-SINV-.YYYY.-,Shaukat Khanum District Hospital 16,2026-01-14,2026-01-29,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000930,ACC-SINV-.YYYY.-,Excel Labs Medical Center 52,2026-01-15,2026-03-01,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000931,ACC-SINV-.YYYY.-,Punjab District Hospital 12,2026-01-15,2026-03-16,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000932,ACC-SINV-.YYYY.-,Al-Rehman Tertiary Hospital 08,2026-01-16,2026-02-15,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000933,ACC-SINV-.YYYY.-,Sheikh Zayed District Hospital 14,2026-01-16,2026-01-31,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000934,ACC-SINV-.YYYY.-,Jinnah Tertiary Hospital 02,2026-01-17,2026-03-03,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000935,ACC-SINV-.YYYY.-,Social Security Medical Center 43,2026-01-17,2026-02-16,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000936,ACC-SINV-.YYYY.-,Ghurki Trust Medical Center 45,2026-01-18,2026-03-19,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000937,ACC-SINV-.YYYY.-,Shalimar Tertiary Hospital 04,2026-01-18,2026-03-04,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000938,ACC-SINV-.YYYY.-,Ghurki Trust Medical Center 45,2026-01-18,2026-02-02,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000939,ACC-SINV-.YYYY.-,Sharif Medical Private Hospital 23,2026-01-18,2026-03-04,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000940,ACC-SINV-.YYYY.-,Farooq Maternity Hospital 29,2026-01-19,2026-02-18,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000941,ACC-SINV-.YYYY.-,Farooq Maternity Hospital 29,2026-01-20,2026-03-21,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000942,ACC-SINV-.YYYY.-,Citi Lab Medical Center 38,2026-01-20,2026-02-19,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000943,ACC-SINV-.YYYY.-,Surgimed Medical Center 44,2026-01-21,2026-03-07,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000944,ACC-SINV-.YYYY.-,Noor Tertiary Hospital 07,2026-01-22,2026-03-08,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000945,ACC-SINV-.YYYY.-,Medix District Hospital 11,2026-01-22,2026-03-23,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000946,ACC-SINV-.YYYY.-,Sir Ganga Ram Medical Center 33,2026-01-22,2026-02-21,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000947,ACC-SINV-.YYYY.-,Citi Lab Medical Center 38,2026-01-22,2026-03-08,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000948,ACC-SINV-.YYYY.-,Fatima Memorial Private Hospital 22,2026-01-23,2026-02-22,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000949,ACC-SINV-.YYYY.-,Ghurki Trust Medical Center 42,2026-01-23,2026-03-24,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000950,ACC-SINV-.YYYY.-,Surgimed Medical Center 34,2026-01-24,2026-02-08,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000951,ACC-SINV-.YYYY.-,Services Tertiary Hospital 03,2026-01-24,2026-02-23,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000952,ACC-SINV-.YYYY.-,Sheikh Zayed Medical Center 37,2026-01-25,2026-03-26,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000953,ACC-SINV-.YYYY.-,Wapda Teaching Medical Center 55,2026-01-25,2026-03-11,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000954,ACC-SINV-.YYYY.-,Doctors Private Hospital 25,2026-01-25,2026-02-09,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000955,ACC-SINV-.YYYY.-,Agha Khan Lab Medical Center 53,2026-01-26,2026-03-12,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000956,ACC-SINV-.YYYY.-,Citi Lab Medical Center 38,2026-01-26,2026-02-10,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000957,ACC-SINV-.YYYY.-,Jinnah Tertiary Hospital 02,2026-01-26,2026-02-25,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000958,ACC-SINV-.YYYY.-,Hafeez Diagnostic Laboratory 27,2026-01-28,2026-03-14,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000959,ACC-SINV-.YYYY.-,Jinnah Tertiary Hospital 02,2026-01-28,2026-03-29,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000960,ACC-SINV-.YYYY.-,Ittefaq Private Hospital 24,2026-01-29,2026-03-15,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000961,ACC-SINV-.YYYY.-,Ghurki Trust Medical Center 45,2026-01-30,2026-03-01,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000962,ACC-SINV-.YYYY.-,Sir Ganga Ram Medical Center 33,2026-01-30,2026-02-14,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000963,ACC-SINV-.YYYY.-,LifeLine Medical Center 49,2026-01-31,2026-03-02,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000964,ACC-SINV-.YYYY.-,Farooq Maternity Hospital 29,2026-02-02,2026-03-19,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000965,ACC-SINV-.YYYY.-,National Medical Center 54,2026-02-02,2026-04-03,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000966,ACC-SINV-.YYYY.-,Allied Teaching Hospital 18,2026-02-03,2026-03-20,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000967,ACC-SINV-.YYYY.-,Combined Military Teaching Hospital 19,2026-02-05,2026-02-20,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000968,ACC-SINV-.YYYY.-,Farooq Maternity Hospital 29,2026-02-06,2026-03-08,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000969,ACC-SINV-.YYYY.-,Citi Lab Medical Center 38,2026-02-06,2026-03-08,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000970,ACC-SINV-.YYYY.-,Sir Ganga Ram Medical Center 40,2026-02-10,2026-02-25,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000971,ACC-SINV-.YYYY.-,Children Medical Center 46,2026-02-11,2026-03-28,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000972,ACC-SINV-.YYYY.-,CMH Medical Center 39,2026-02-11,2026-03-28,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000973,ACC-SINV-.YYYY.-,Ghurki Trust Medical Center 45,2026-02-12,2026-04-13,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000974,ACC-SINV-.YYYY.-,Aziz Fatimah Diagnostic Laboratory 28,2026-02-13,2026-04-14,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000975,ACC-SINV-.YYYY.-,Sheikh Zayed Medical Center 37,2026-02-14,2026-03-31,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000976,ACC-SINV-.YYYY.-,Wapda Teaching Medical Center 55,2026-02-16,2026-04-17,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000977,ACC-SINV-.YYYY.-,Ittefaq Private Hospital 24,2026-02-18,2026-03-20,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000978,ACC-SINV-.YYYY.-,Shaukat Khanum Medical Center 50,2026-02-19,2026-04-20,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000979,ACC-SINV-.YYYY.-,Sir Ganga Ram Medical Center 40,2026-02-19,2026-03-06,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000980,ACC-SINV-.YYYY.-,Wapda Teaching Medical Center 51,2026-02-20,2026-03-22,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000981,ACC-SINV-.YYYY.-,Prime Tertiary Hospital 10,2026-02-20,2026-04-21,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000982,ACC-SINV-.YYYY.-,Excel Labs Medical Center 52,2026-02-21,2026-03-08,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000983,ACC-SINV-.YYYY.-,Ghurki Trust Medical Center 45,2026-02-21,2026-03-23,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000984,ACC-SINV-.YYYY.-,Sheikh Zayed Medical Center 41,2026-02-22,2026-03-09,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000985,ACC-SINV-.YYYY.-,Ittefaq Private Hospital 24,2026-02-22,2026-04-08,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000986,ACC-SINV-.YYYY.-,Combined Military Teaching Hospital 19,2026-02-24,2026-04-10,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000987,ACC-SINV-.YYYY.-,National Medical Center 54,2026-02-24,2026-04-10,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000988,ACC-SINV-.YYYY.-,Aziz Fatimah Diagnostic Laboratory 28,2026-02-28,2026-03-30,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000989,ACC-SINV-.YYYY.-,Social Security Medical Center 43,2026-02-28,2026-04-29,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000990,ACC-SINV-.YYYY.-,Sir Ganga Ram Medical Center 33,2026-03-01,2026-03-16,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000991,ACC-SINV-.YYYY.-,LifeLine Medical Center 49,2026-03-02,2026-03-17,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000992,ACC-SINV-.YYYY.-,Jinnah Tertiary Hospital 02,2026-03-02,2026-05-01,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000993,ACC-SINV-.YYYY.-,Lahore General District Hospital 13,2026-03-02,2026-03-17,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000994,ACC-SINV-.YYYY.-,Fatima Memorial Private Hospital 22,2026-03-02,2026-05-01,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000995,ACC-SINV-.YYYY.-,Medix District Hospital 11,2026-03-06,2026-03-21,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000996,ACC-SINV-.YYYY.-,Citi Lab Medical Center 38,2026-03-07,2026-04-06,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000997,ACC-SINV-.YYYY.-,Doctors Private Hospital 25,2026-03-07,2026-03-22,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000998,ACC-SINV-.YYYY.-,Shaukat Khanum District Hospital 16,2026-03-08,2026-03-23,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-000999,ACC-SINV-.YYYY.-,Surgimed Medical Center 34,2026-03-11,2026-04-25,EnXi Biomedical & Waste Management (Pvt) Ltd
+SI-DEMO-001000,ACC-SINV-.YYYY.-,Services Tertiary Hospital 03,2026-03-12,2026-04-26,EnXi Biomedical & Waste Management (Pvt) Ltd

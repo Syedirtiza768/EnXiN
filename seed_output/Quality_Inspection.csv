@@ -1,0 +1,101 @@
+naming_series,inspection_type,item_code,report_date,sample_size,status,company
+QI-.YYYY.-,In Process,BIO-00352,2024-03-13,10,Accepted,EnXi Biomedical & Waste Management (Pvt) Ltd
+QI-.YYYY.-,In Process,BIO-00090,2024-03-15,2,Accepted,EnXi Biomedical & Waste Management (Pvt) Ltd
+QI-.YYYY.-,Outgoing,BIO-00082,2024-03-16,6,Accepted,EnXi Biomedical & Waste Management (Pvt) Ltd
+QI-.YYYY.-,Outgoing,BIO-00144,2024-03-20,1,Accepted,EnXi Biomedical & Waste Management (Pvt) Ltd
+QI-.YYYY.-,Outgoing,BIO-00369,2024-03-24,10,Accepted,EnXi Biomedical & Waste Management (Pvt) Ltd
+QI-.YYYY.-,In Process,BIO-00089,2024-03-25,10,Accepted,EnXi Biomedical & Waste Management (Pvt) Ltd
+QI-.YYYY.-,Incoming,BIO-00016,2024-03-30,8,Accepted,EnXi Biomedical & Waste Management (Pvt) Ltd
+QI-.YYYY.-,In Process,BIO-00177,2024-04-11,4,Accepted,EnXi Biomedical & Waste Management (Pvt) Ltd
+QI-.YYYY.-,In Process,BIO-00056,2024-04-17,4,Accepted,EnXi Biomedical & Waste Management (Pvt) Ltd
+QI-.YYYY.-,In Process,BIO-00129,2024-05-16,6,Accepted,EnXi Biomedical & Waste Management (Pvt) Ltd
+QI-.YYYY.-,Outgoing,BIO-00371,2024-05-17,6,Accepted,EnXi Biomedical & Waste Management (Pvt) Ltd
+QI-.YYYY.-,Incoming,BIO-00444,2024-05-19,10,Accepted,EnXi Biomedical & Waste Management (Pvt) Ltd
+QI-.YYYY.-,In Process,BIO-00025,2024-05-31,4,Accepted,EnXi Biomedical & Waste Management (Pvt) Ltd
+QI-.YYYY.-,In Process,SPR-00007,2024-06-02,8,Accepted,EnXi Biomedical & Waste Management (Pvt) Ltd
+QI-.YYYY.-,Incoming,INC-FLT-EMI,2024-06-16,3,Accepted,EnXi Biomedical & Waste Management (Pvt) Ltd
+QI-.YYYY.-,Outgoing,BIO-00414,2024-06-25,6,Accepted,EnXi Biomedical & Waste Management (Pvt) Ltd
+QI-.YYYY.-,In Process,BIO-00453,2024-07-08,5,Accepted,EnXi Biomedical & Waste Management (Pvt) Ltd
+QI-.YYYY.-,Incoming,BIO-00328,2024-07-20,9,Accepted,EnXi Biomedical & Waste Management (Pvt) Ltd
+QI-.YYYY.-,In Process,BIO-00428,2024-07-20,10,Rejected,EnXi Biomedical & Waste Management (Pvt) Ltd
+QI-.YYYY.-,In Process,BIO-00122,2024-08-01,9,Rejected,EnXi Biomedical & Waste Management (Pvt) Ltd
+QI-.YYYY.-,Incoming,BIO-00484,2024-08-12,2,Accepted,EnXi Biomedical & Waste Management (Pvt) Ltd
+QI-.YYYY.-,In Process,BIO-00142,2024-08-13,8,Accepted,EnXi Biomedical & Waste Management (Pvt) Ltd
+QI-.YYYY.-,Outgoing,SPR-00012,2024-08-22,10,Accepted,EnXi Biomedical & Waste Management (Pvt) Ltd
+QI-.YYYY.-,In Process,SPR-00005,2024-08-26,2,Accepted,EnXi Biomedical & Waste Management (Pvt) Ltd
+QI-.YYYY.-,Outgoing,BIO-00181,2024-08-29,7,Accepted,EnXi Biomedical & Waste Management (Pvt) Ltd
+QI-.YYYY.-,In Process,BIO-00071,2024-09-05,3,Rejected,EnXi Biomedical & Waste Management (Pvt) Ltd
+QI-.YYYY.-,Outgoing,BIO-00379,2024-09-06,2,Accepted,EnXi Biomedical & Waste Management (Pvt) Ltd
+QI-.YYYY.-,Outgoing,BIO-00354,2024-09-21,5,Accepted,EnXi Biomedical & Waste Management (Pvt) Ltd
+QI-.YYYY.-,In Process,BIO-00307,2024-09-25,1,Rejected,EnXi Biomedical & Waste Management (Pvt) Ltd
+QI-.YYYY.-,In Process,BIO-00068,2024-10-02,5,Accepted,EnXi Biomedical & Waste Management (Pvt) Ltd
+QI-.YYYY.-,In Process,BIO-00135,2024-10-06,5,Accepted,EnXi Biomedical & Waste Management (Pvt) Ltd
+QI-.YYYY.-,In Process,BIO-00455,2024-10-09,5,Accepted,EnXi Biomedical & Waste Management (Pvt) Ltd
+QI-.YYYY.-,Outgoing,BIO-00164,2024-10-09,8,Accepted,EnXi Biomedical & Waste Management (Pvt) Ltd
+QI-.YYYY.-,Outgoing,SPR-00010,2024-10-12,2,Accepted,EnXi Biomedical & Waste Management (Pvt) Ltd
+QI-.YYYY.-,In Process,BIO-00122,2024-10-20,9,Accepted,EnXi Biomedical & Waste Management (Pvt) Ltd
+QI-.YYYY.-,In Process,BIO-00176,2024-10-21,6,Accepted,EnXi Biomedical & Waste Management (Pvt) Ltd
+QI-.YYYY.-,Incoming,BIO-00396,2024-11-01,10,Rejected,EnXi Biomedical & Waste Management (Pvt) Ltd
+QI-.YYYY.-,Outgoing,BIO-00376,2024-11-01,10,Accepted,EnXi Biomedical & Waste Management (Pvt) Ltd
+QI-.YYYY.-,In Process,SPR-00005,2024-11-15,8,Accepted,EnXi Biomedical & Waste Management (Pvt) Ltd
+QI-.YYYY.-,Incoming,BIO-00073,2025-01-02,10,Accepted,EnXi Biomedical & Waste Management (Pvt) Ltd
+QI-.YYYY.-,Outgoing,BIO-00398,2025-01-11,10,Accepted,EnXi Biomedical & Waste Management (Pvt) Ltd
+QI-.YYYY.-,Incoming,BIO-00197,2025-01-17,2,Accepted,EnXi Biomedical & Waste Management (Pvt) Ltd
+QI-.YYYY.-,Incoming,BIO-00146,2025-01-21,3,Accepted,EnXi Biomedical & Waste Management (Pvt) Ltd
+QI-.YYYY.-,Outgoing,BIO-00016,2025-01-22,7,Accepted,EnXi Biomedical & Waste Management (Pvt) Ltd
+QI-.YYYY.-,Outgoing,BIO-00415,2025-02-07,4,Accepted,EnXi Biomedical & Waste Management (Pvt) Ltd
+QI-.YYYY.-,In Process,BIO-00380,2025-02-12,8,Accepted,EnXi Biomedical & Waste Management (Pvt) Ltd
+QI-.YYYY.-,Outgoing,BIO-00498,2025-02-17,3,Accepted,EnXi Biomedical & Waste Management (Pvt) Ltd
+QI-.YYYY.-,Incoming,BIO-00072,2025-02-24,4,Rejected,EnXi Biomedical & Waste Management (Pvt) Ltd
+QI-.YYYY.-,Incoming,BIO-00383,2025-03-03,9,Rejected,EnXi Biomedical & Waste Management (Pvt) Ltd
+QI-.YYYY.-,Incoming,BIO-00052,2025-03-08,3,Accepted,EnXi Biomedical & Waste Management (Pvt) Ltd
+QI-.YYYY.-,In Process,BIO-00486,2025-03-29,10,Accepted,EnXi Biomedical & Waste Management (Pvt) Ltd
+QI-.YYYY.-,Outgoing,BIO-00455,2025-04-06,7,Rejected,EnXi Biomedical & Waste Management (Pvt) Ltd
+QI-.YYYY.-,Incoming,PPE-GOG-001,2025-04-10,1,Accepted,EnXi Biomedical & Waste Management (Pvt) Ltd
+QI-.YYYY.-,Incoming,PPE-GWN-DIS,2025-04-13,5,Accepted,EnXi Biomedical & Waste Management (Pvt) Ltd
+QI-.YYYY.-,Incoming,BIO-00276,2025-04-16,7,Accepted,EnXi Biomedical & Waste Management (Pvt) Ltd
+QI-.YYYY.-,Incoming,CLN-SPL-KIT,2025-04-16,8,Accepted,EnXi Biomedical & Waste Management (Pvt) Ltd
+QI-.YYYY.-,In Process,BIO-00315,2025-04-17,1,Accepted,EnXi Biomedical & Waste Management (Pvt) Ltd
+QI-.YYYY.-,Outgoing,BIO-00356,2025-04-18,8,Accepted,EnXi Biomedical & Waste Management (Pvt) Ltd
+QI-.YYYY.-,Incoming,BIO-00448,2025-05-08,10,Accepted,EnXi Biomedical & Waste Management (Pvt) Ltd
+QI-.YYYY.-,Incoming,VPT-TRN-FLD,2025-05-09,6,Accepted,EnXi Biomedical & Waste Management (Pvt) Ltd
+QI-.YYYY.-,Outgoing,BIO-00438,2025-05-09,4,Accepted,EnXi Biomedical & Waste Management (Pvt) Ltd
+QI-.YYYY.-,Outgoing,BIO-00039,2025-05-13,5,Accepted,EnXi Biomedical & Waste Management (Pvt) Ltd
+QI-.YYYY.-,In Process,BIO-00003,2025-05-16,6,Accepted,EnXi Biomedical & Waste Management (Pvt) Ltd
+QI-.YYYY.-,In Process,WC-CHM-050,2025-05-20,9,Accepted,EnXi Biomedical & Waste Management (Pvt) Ltd
+QI-.YYYY.-,In Process,BIO-00124,2025-05-25,1,Accepted,EnXi Biomedical & Waste Management (Pvt) Ltd
+QI-.YYYY.-,In Process,BIO-00283,2025-06-10,7,Accepted,EnXi Biomedical & Waste Management (Pvt) Ltd
+QI-.YYYY.-,Incoming,BIO-00030,2025-06-20,6,Accepted,EnXi Biomedical & Waste Management (Pvt) Ltd
+QI-.YYYY.-,Incoming,BIO-00049,2025-07-02,10,Accepted,EnXi Biomedical & Waste Management (Pvt) Ltd
+QI-.YYYY.-,Outgoing,WC-SHP-010,2025-07-05,3,Accepted,EnXi Biomedical & Waste Management (Pvt) Ltd
+QI-.YYYY.-,In Process,BIO-00272,2025-07-06,1,Accepted,EnXi Biomedical & Waste Management (Pvt) Ltd
+QI-.YYYY.-,Outgoing,BIO-00307,2025-07-21,9,Accepted,EnXi Biomedical & Waste Management (Pvt) Ltd
+QI-.YYYY.-,Incoming,BIO-00008,2025-07-27,5,Accepted,EnXi Biomedical & Waste Management (Pvt) Ltd
+QI-.YYYY.-,Outgoing,BIO-00444,2025-08-08,10,Accepted,EnXi Biomedical & Waste Management (Pvt) Ltd
+QI-.YYYY.-,In Process,BIO-00412,2025-08-11,1,Accepted,EnXi Biomedical & Waste Management (Pvt) Ltd
+QI-.YYYY.-,In Process,BIO-00037,2025-08-21,1,Rejected,EnXi Biomedical & Waste Management (Pvt) Ltd
+QI-.YYYY.-,Incoming,BIO-00492,2025-08-27,8,Accepted,EnXi Biomedical & Waste Management (Pvt) Ltd
+QI-.YYYY.-,Outgoing,BIO-00278,2025-08-30,5,Accepted,EnXi Biomedical & Waste Management (Pvt) Ltd
+QI-.YYYY.-,In Process,BIO-00488,2025-09-16,4,Accepted,EnXi Biomedical & Waste Management (Pvt) Ltd
+QI-.YYYY.-,Outgoing,BIO-00391,2025-10-03,5,Accepted,EnXi Biomedical & Waste Management (Pvt) Ltd
+QI-.YYYY.-,In Process,SPR-00006,2025-10-08,4,Accepted,EnXi Biomedical & Waste Management (Pvt) Ltd
+QI-.YYYY.-,Incoming,BIO-00344,2025-10-29,9,Accepted,EnXi Biomedical & Waste Management (Pvt) Ltd
+QI-.YYYY.-,Incoming,BIO-00054,2025-11-19,2,Accepted,EnXi Biomedical & Waste Management (Pvt) Ltd
+QI-.YYYY.-,In Process,BIO-00163,2025-11-24,7,Accepted,EnXi Biomedical & Waste Management (Pvt) Ltd
+QI-.YYYY.-,Incoming,BIO-00287,2025-12-07,3,Accepted,EnXi Biomedical & Waste Management (Pvt) Ltd
+QI-.YYYY.-,Outgoing,BIO-00007,2025-12-24,5,Accepted,EnXi Biomedical & Waste Management (Pvt) Ltd
+QI-.YYYY.-,In Process,BIO-00357,2025-12-28,5,Accepted,EnXi Biomedical & Waste Management (Pvt) Ltd
+QI-.YYYY.-,Incoming,BIO-00382,2026-01-06,6,Accepted,EnXi Biomedical & Waste Management (Pvt) Ltd
+QI-.YYYY.-,Incoming,BIO-00054,2026-01-12,10,Accepted,EnXi Biomedical & Waste Management (Pvt) Ltd
+QI-.YYYY.-,Outgoing,BIO-00101,2026-01-18,10,Accepted,EnXi Biomedical & Waste Management (Pvt) Ltd
+QI-.YYYY.-,Incoming,BIO-00401,2026-01-21,10,Accepted,EnXi Biomedical & Waste Management (Pvt) Ltd
+QI-.YYYY.-,In Process,BIO-00357,2026-01-23,5,Accepted,EnXi Biomedical & Waste Management (Pvt) Ltd
+QI-.YYYY.-,Outgoing,BIO-00093,2026-01-29,10,Accepted,EnXi Biomedical & Waste Management (Pvt) Ltd
+QI-.YYYY.-,In Process,BIO-00338,2026-02-09,10,Accepted,EnXi Biomedical & Waste Management (Pvt) Ltd
+QI-.YYYY.-,Incoming,BIO-00368,2026-02-13,3,Accepted,EnXi Biomedical & Waste Management (Pvt) Ltd
+QI-.YYYY.-,In Process,BIO-00296,2026-02-17,8,Accepted,EnXi Biomedical & Waste Management (Pvt) Ltd
+QI-.YYYY.-,Outgoing,VPT-BRK-PAD,2026-02-21,7,Accepted,EnXi Biomedical & Waste Management (Pvt) Ltd
+QI-.YYYY.-,Outgoing,BIO-00342,2026-03-02,3,Accepted,EnXi Biomedical & Waste Management (Pvt) Ltd
+QI-.YYYY.-,In Process,BIO-00287,2026-03-08,6,Rejected,EnXi Biomedical & Waste Management (Pvt) Ltd
+QI-.YYYY.-,Incoming,BIO-00447,2026-03-08,4,Accepted,EnXi Biomedical & Waste Management (Pvt) Ltd
+QI-.YYYY.-,Outgoing,BIO-00444,2026-03-09,1,Accepted,EnXi Biomedical & Waste Management (Pvt) Ltd

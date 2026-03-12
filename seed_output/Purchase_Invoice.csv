@@ -1,0 +1,251 @@
+name,naming_series,supplier,posting_date,due_date,company
+PI-DEMO-000001,ACC-PINV-.YYYY.-,Ravi Engineering Works,2024-03-14,2024-04-28,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000002,ACC-PINV-.YYYY.-,National Chemical Corp,2024-03-14,2024-04-28,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000003,ACC-PINV-.YYYY.-,Metropolitan Steel Works,2024-03-20,2024-04-19,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000004,ACC-PINV-.YYYY.-,National Environmental Lab,2024-03-22,2024-05-06,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000005,ACC-PINV-.YYYY.-,Pharma Waste Solutions,2024-03-23,2024-05-07,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000006,ACC-PINV-.YYYY.-,Atlas Honda Parts,2024-04-11,2024-05-11,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000007,ACC-PINV-.YYYY.-,Metropolitan Steel Works,2024-04-14,2024-05-14,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000008,ACC-PINV-.YYYY.-,Hino Pakistan Motors,2024-04-18,2024-05-18,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000009,ACC-PINV-.YYYY.-,Ravi Engineering Works,2024-04-24,2024-06-08,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000010,ACC-PINV-.YYYY.-,Shell Pakistan,2024-04-24,2024-05-24,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000011,ACC-PINV-.YYYY.-,Lahore Container Works,2024-04-25,2024-06-09,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000012,ACC-PINV-.YYYY.-,National Chemical Corp,2024-04-30,2024-05-30,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000013,ACC-PINV-.YYYY.-,Eco-Disposal Systems,2024-05-03,2024-07-02,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000014,ACC-PINV-.YYYY.-,Safety First PPE,2024-05-04,2024-06-18,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000015,ACC-PINV-.YYYY.-,Punjab Auto Parts,2024-05-05,2024-07-04,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000016,ACC-PINV-.YYYY.-,Waste Tech Industries,2024-05-06,2024-07-05,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000017,ACC-PINV-.YYYY.-,Kohinoor Chemical,2024-05-13,2024-07-12,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000018,ACC-PINV-.YYYY.-,Siemens Pakistan,2024-05-15,2024-06-29,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000019,ACC-PINV-.YYYY.-,Clean Environment Services,2024-05-16,2024-07-15,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000020,ACC-PINV-.YYYY.-,Al-Fatah Safety Products,2024-05-16,2024-06-30,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000021,ACC-PINV-.YYYY.-,Pakistan Petroleum Corp,2024-05-19,2024-06-18,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000022,ACC-PINV-.YYYY.-,Fire Safety Equipment Co,2024-05-31,2024-07-15,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000023,ACC-PINV-.YYYY.-,Al-Fatah Safety Products,2024-06-09,2024-07-09,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000024,ACC-PINV-.YYYY.-,Medical Supplies Punjab,2024-06-10,2024-08-09,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000025,ACC-PINV-.YYYY.-,National Chemical Corp,2024-06-14,2024-07-29,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000026,ACC-PINV-.YYYY.-,Waste Tech Industries,2024-06-14,2024-07-29,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000027,ACC-PINV-.YYYY.-,Calibration Services Pakistan,2024-06-15,2024-07-15,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000028,ACC-PINV-.YYYY.-,Philips Healthcare PK,2024-06-15,2024-07-15,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000029,ACC-PINV-.YYYY.-,Siemens Pakistan,2024-06-21,2024-08-05,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000030,ACC-PINV-.YYYY.-,Draeger Safety Pakistan,2024-06-29,2024-08-13,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000031,ACC-PINV-.YYYY.-,Digital Tracking Systems,2024-06-30,2024-07-30,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000032,ACC-PINV-.YYYY.-,Digital Tracking Systems,2024-07-14,2024-08-13,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000033,ACC-PINV-.YYYY.-,Pharma Waste Solutions,2024-07-24,2024-09-22,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000034,ACC-PINV-.YYYY.-,Hino Pakistan Motors,2024-07-28,2024-09-11,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000035,ACC-PINV-.YYYY.-,Philips Healthcare PK,2024-07-29,2024-09-12,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000036,ACC-PINV-.YYYY.-,Atlas Honda Parts,2024-07-30,2024-09-13,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000037,ACC-PINV-.YYYY.-,Lahore Container Works,2024-08-01,2024-08-31,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000038,ACC-PINV-.YYYY.-,Al-Fatah Safety Products,2024-08-06,2024-09-05,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000039,ACC-PINV-.YYYY.-,SafeGuard Uniforms,2024-08-08,2024-10-07,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000040,ACC-PINV-.YYYY.-,Medical Supplies Punjab,2024-08-11,2024-09-25,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000041,ACC-PINV-.YYYY.-,Draeger Safety Pakistan,2024-08-13,2024-09-12,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000042,ACC-PINV-.YYYY.-,Lahore Paper & Packaging,2024-08-15,2024-09-29,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000043,ACC-PINV-.YYYY.-,Pakistan Petroleum Corp,2024-08-24,2024-09-23,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000044,ACC-PINV-.YYYY.-,Total Parco,2024-08-28,2024-10-27,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000045,ACC-PINV-.YYYY.-,Kohinoor Chemical,2024-08-29,2024-10-13,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000046,ACC-PINV-.YYYY.-,Metropolitan Steel Works,2024-08-31,2024-09-30,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000047,ACC-PINV-.YYYY.-,Pharma Waste Solutions,2024-09-01,2024-10-16,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000048,ACC-PINV-.YYYY.-,Waste Tech Industries,2024-09-05,2024-10-05,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000049,ACC-PINV-.YYYY.-,National Environmental Lab,2024-09-09,2024-10-09,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000050,ACC-PINV-.YYYY.-,Draeger Safety Pakistan,2024-09-14,2024-10-29,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000051,ACC-PINV-.YYYY.-,National Environmental Lab,2024-09-17,2024-11-01,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000052,ACC-PINV-.YYYY.-,Pharma Waste Solutions,2024-09-18,2024-11-17,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000053,ACC-PINV-.YYYY.-,Philips Healthcare PK,2024-09-18,2024-11-17,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000054,ACC-PINV-.YYYY.-,Eco-Disposal Systems,2024-09-18,2024-11-02,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000055,ACC-PINV-.YYYY.-,Ravi Engineering Works,2024-09-22,2024-10-22,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000056,ACC-PINV-.YYYY.-,Lahore Container Works,2024-09-25,2024-11-24,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000057,ACC-PINV-.YYYY.-,Digital Tracking Systems,2024-09-26,2024-11-10,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000058,ACC-PINV-.YYYY.-,Punjab Insurance Brokers,2024-09-28,2024-10-28,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000059,ACC-PINV-.YYYY.-,Metropolitan Steel Works,2024-10-06,2024-11-20,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000060,ACC-PINV-.YYYY.-,Refractory Materials Lahore,2024-10-07,2024-11-06,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000061,ACC-PINV-.YYYY.-,Medical Supplies Punjab,2024-10-10,2024-12-09,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000062,ACC-PINV-.YYYY.-,Al-Fatah Safety Products,2024-10-14,2024-11-28,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000063,ACC-PINV-.YYYY.-,MedTech Training Institute,2024-10-17,2024-12-01,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000064,ACC-PINV-.YYYY.-,Philips Healthcare PK,2024-10-20,2024-11-19,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000065,ACC-PINV-.YYYY.-,Isuzu Pakistan,2024-10-20,2024-12-04,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000066,ACC-PINV-.YYYY.-,Pharma Waste Solutions,2024-10-27,2024-12-26,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000067,ACC-PINV-.YYYY.-,GE Health Pakistan,2024-10-29,2024-12-28,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000068,ACC-PINV-.YYYY.-,Shell Pakistan,2024-11-02,2025-01-01,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000069,ACC-PINV-.YYYY.-,Punjab Auto Parts,2024-11-05,2024-12-20,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000070,ACC-PINV-.YYYY.-,Kohinoor Chemical,2024-11-08,2024-12-23,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000071,ACC-PINV-.YYYY.-,Lahore Paper & Packaging,2024-11-10,2025-01-09,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000072,ACC-PINV-.YYYY.-,Clean Environment Services,2024-11-12,2025-01-11,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000073,ACC-PINV-.YYYY.-,Atlas Honda Parts,2024-11-15,2024-12-15,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000074,ACC-PINV-.YYYY.-,Lahore Container Works,2024-11-15,2025-01-14,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000075,ACC-PINV-.YYYY.-,Punjab Auto Parts,2024-11-17,2025-01-01,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000076,ACC-PINV-.YYYY.-,Pakistan Petroleum Corp,2024-11-21,2024-12-21,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000077,ACC-PINV-.YYYY.-,Lahore Rubber Works,2024-11-22,2025-01-21,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000078,ACC-PINV-.YYYY.-,Waste Tech Industries,2024-11-24,2025-01-23,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000079,ACC-PINV-.YYYY.-,Hino Pakistan Motors,2024-11-26,2025-01-25,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000080,ACC-PINV-.YYYY.-,Clean Environment Services,2024-11-28,2025-01-27,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000081,ACC-PINV-.YYYY.-,Waste Tech Industries,2024-11-28,2025-01-12,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000082,ACC-PINV-.YYYY.-,Pakistan Petroleum Corp,2024-11-30,2025-01-14,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000083,ACC-PINV-.YYYY.-,Lahore Rubber Works,2024-11-30,2025-01-14,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000084,ACC-PINV-.YYYY.-,Hino Pakistan Motors,2024-12-04,2025-01-18,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000085,ACC-PINV-.YYYY.-,Fire Safety Equipment Co,2024-12-07,2025-02-05,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000086,ACC-PINV-.YYYY.-,SafeGuard Uniforms,2024-12-08,2025-01-07,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000087,ACC-PINV-.YYYY.-,MedTech Training Institute,2024-12-09,2025-01-08,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000088,ACC-PINV-.YYYY.-,Punjab Insurance Brokers,2024-12-11,2025-01-10,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000089,ACC-PINV-.YYYY.-,Lahore Paper & Packaging,2024-12-13,2025-02-11,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000090,ACC-PINV-.YYYY.-,SafeGuard Uniforms,2024-12-16,2025-02-14,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000091,ACC-PINV-.YYYY.-,Al-Fatah Safety Products,2024-12-16,2025-01-15,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000092,ACC-PINV-.YYYY.-,SafeGuard Uniforms,2024-12-18,2025-01-17,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000093,ACC-PINV-.YYYY.-,Isuzu Pakistan,2024-12-21,2025-02-19,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000094,ACC-PINV-.YYYY.-,Eco-Disposal Systems,2024-12-22,2025-02-20,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000095,ACC-PINV-.YYYY.-,Pakistan Petroleum Corp,2024-12-27,2025-01-26,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000096,ACC-PINV-.YYYY.-,GE Health Pakistan,2024-12-28,2025-02-26,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000097,ACC-PINV-.YYYY.-,National Environmental Lab,2025-01-04,2025-02-18,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000098,ACC-PINV-.YYYY.-,Lahore Rubber Works,2025-01-05,2025-02-04,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000099,ACC-PINV-.YYYY.-,Calibration Services Pakistan,2025-01-07,2025-02-06,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000100,ACC-PINV-.YYYY.-,Siemens Pakistan,2025-01-10,2025-02-09,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000101,ACC-PINV-.YYYY.-,SafeGuard Uniforms,2025-01-12,2025-03-13,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000102,ACC-PINV-.YYYY.-,Digital Tracking Systems,2025-01-14,2025-02-28,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000103,ACC-PINV-.YYYY.-,MedTech Training Institute,2025-01-15,2025-02-14,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000104,ACC-PINV-.YYYY.-,Kohinoor Chemical,2025-01-19,2025-03-05,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000105,ACC-PINV-.YYYY.-,Al-Fatah Safety Products,2025-01-20,2025-03-21,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000106,ACC-PINV-.YYYY.-,Safety First PPE,2025-01-24,2025-03-10,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000107,ACC-PINV-.YYYY.-,Shell Pakistan,2025-01-24,2025-03-10,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000108,ACC-PINV-.YYYY.-,Calibration Services Pakistan,2025-02-08,2025-03-25,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000109,ACC-PINV-.YYYY.-,Draeger Safety Pakistan,2025-02-09,2025-03-26,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000110,ACC-PINV-.YYYY.-,Clean Environment Services,2025-02-09,2025-03-11,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000111,ACC-PINV-.YYYY.-,National Environmental Lab,2025-02-10,2025-03-27,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000112,ACC-PINV-.YYYY.-,Kohinoor Chemical,2025-02-10,2025-04-11,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000113,ACC-PINV-.YYYY.-,Al-Fatah Safety Products,2025-02-12,2025-03-29,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000114,ACC-PINV-.YYYY.-,Ravi Engineering Works,2025-02-13,2025-03-30,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000115,ACC-PINV-.YYYY.-,Atlas Honda Parts,2025-02-17,2025-04-03,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000116,ACC-PINV-.YYYY.-,Pharma Waste Solutions,2025-02-20,2025-04-21,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000117,ACC-PINV-.YYYY.-,Punjab Revenue Board Consultants,2025-03-08,2025-04-07,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000118,ACC-PINV-.YYYY.-,Fire Safety Equipment Co,2025-03-10,2025-04-09,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000119,ACC-PINV-.YYYY.-,Safety First PPE,2025-03-23,2025-04-22,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000120,ACC-PINV-.YYYY.-,Lahore Paper & Packaging,2025-03-25,2025-05-09,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000121,ACC-PINV-.YYYY.-,Al-Fatah Safety Products,2025-03-27,2025-04-26,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000122,ACC-PINV-.YYYY.-,Al-Fatah Safety Products,2025-03-31,2025-05-30,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000123,ACC-PINV-.YYYY.-,Pakistan Petroleum Corp,2025-04-03,2025-05-03,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000124,ACC-PINV-.YYYY.-,Safety First PPE,2025-04-08,2025-05-08,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000125,ACC-PINV-.YYYY.-,Fire Safety Equipment Co,2025-04-09,2025-06-08,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000126,ACC-PINV-.YYYY.-,Digital Tracking Systems,2025-04-10,2025-06-09,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000127,ACC-PINV-.YYYY.-,Kohinoor Chemical,2025-04-10,2025-05-10,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000128,ACC-PINV-.YYYY.-,Draeger Safety Pakistan,2025-04-12,2025-05-27,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000129,ACC-PINV-.YYYY.-,Siemens Pakistan,2025-04-13,2025-06-12,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000130,ACC-PINV-.YYYY.-,Lahore Rubber Works,2025-04-13,2025-05-28,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000131,ACC-PINV-.YYYY.-,Al-Fatah Safety Products,2025-04-15,2025-05-15,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000132,ACC-PINV-.YYYY.-,Pakistan Petroleum Corp,2025-04-21,2025-06-05,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000133,ACC-PINV-.YYYY.-,MedTech Training Institute,2025-04-24,2025-05-24,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000134,ACC-PINV-.YYYY.-,Siemens Pakistan,2025-04-29,2025-06-28,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000135,ACC-PINV-.YYYY.-,Calibration Services Pakistan,2025-04-29,2025-06-28,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000136,ACC-PINV-.YYYY.-,Atlas Honda Parts,2025-04-30,2025-06-29,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000137,ACC-PINV-.YYYY.-,MedTech Training Institute,2025-05-01,2025-06-15,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000138,ACC-PINV-.YYYY.-,Lahore Container Works,2025-05-02,2025-06-16,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000139,ACC-PINV-.YYYY.-,Lahore Rubber Works,2025-05-06,2025-07-05,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000140,ACC-PINV-.YYYY.-,Punjab Auto Parts,2025-05-08,2025-06-22,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000141,ACC-PINV-.YYYY.-,Siemens Pakistan,2025-05-08,2025-07-07,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000142,ACC-PINV-.YYYY.-,Metropolitan Steel Works,2025-05-09,2025-06-08,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000143,ACC-PINV-.YYYY.-,Eco-Disposal Systems,2025-05-10,2025-06-09,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000144,ACC-PINV-.YYYY.-,Clean Environment Services,2025-05-14,2025-06-13,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000145,ACC-PINV-.YYYY.-,Calibration Services Pakistan,2025-05-20,2025-06-19,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000146,ACC-PINV-.YYYY.-,Ravi Engineering Works,2025-05-28,2025-06-27,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000147,ACC-PINV-.YYYY.-,Lahore Paper & Packaging,2025-05-29,2025-07-28,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000148,ACC-PINV-.YYYY.-,MedTech Training Institute,2025-05-30,2025-07-29,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000149,ACC-PINV-.YYYY.-,Hino Pakistan Motors,2025-05-30,2025-06-29,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000150,ACC-PINV-.YYYY.-,Punjab Insurance Brokers,2025-05-31,2025-07-30,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000151,ACC-PINV-.YYYY.-,Medical Supplies Punjab,2025-06-02,2025-08-01,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000152,ACC-PINV-.YYYY.-,Bio-Equipment International,2025-06-07,2025-07-22,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000153,ACC-PINV-.YYYY.-,Total Parco,2025-06-09,2025-08-08,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000154,ACC-PINV-.YYYY.-,Isuzu Pakistan,2025-06-11,2025-07-11,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000155,ACC-PINV-.YYYY.-,Bio-Equipment International,2025-06-13,2025-07-28,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000156,ACC-PINV-.YYYY.-,Fire Safety Equipment Co,2025-06-15,2025-07-30,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000157,ACC-PINV-.YYYY.-,Isuzu Pakistan,2025-06-15,2025-08-14,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000158,ACC-PINV-.YYYY.-,National Chemical Corp,2025-06-18,2025-08-17,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000159,ACC-PINV-.YYYY.-,Punjab Revenue Board Consultants,2025-06-26,2025-08-25,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000160,ACC-PINV-.YYYY.-,Al-Fatah Safety Products,2025-06-29,2025-07-29,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000161,ACC-PINV-.YYYY.-,Atlas Honda Parts,2025-07-03,2025-08-17,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000162,ACC-PINV-.YYYY.-,National Environmental Lab,2025-07-03,2025-08-17,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000163,ACC-PINV-.YYYY.-,Eco-Disposal Systems,2025-07-10,2025-08-09,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000164,ACC-PINV-.YYYY.-,Safety First PPE,2025-07-15,2025-08-14,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000165,ACC-PINV-.YYYY.-,Digital Tracking Systems,2025-07-17,2025-08-16,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000166,ACC-PINV-.YYYY.-,Waste Tech Industries,2025-07-22,2025-09-20,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000167,ACC-PINV-.YYYY.-,Refractory Materials Lahore,2025-07-27,2025-09-10,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000168,ACC-PINV-.YYYY.-,Punjab Insurance Brokers,2025-07-28,2025-08-27,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000169,ACC-PINV-.YYYY.-,Al-Fatah Safety Products,2025-07-31,2025-08-30,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000170,ACC-PINV-.YYYY.-,Lahore Paper & Packaging,2025-08-01,2025-09-30,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000171,ACC-PINV-.YYYY.-,Philips Healthcare PK,2025-08-05,2025-10-04,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000172,ACC-PINV-.YYYY.-,Medical Supplies Punjab,2025-08-07,2025-09-21,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000173,ACC-PINV-.YYYY.-,MedTech Training Institute,2025-08-08,2025-09-07,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000174,ACC-PINV-.YYYY.-,Isuzu Pakistan,2025-08-18,2025-10-02,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000175,ACC-PINV-.YYYY.-,Pharma Waste Solutions,2025-08-21,2025-10-05,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000176,ACC-PINV-.YYYY.-,Lahore Container Works,2025-08-24,2025-10-08,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000177,ACC-PINV-.YYYY.-,National Environmental Lab,2025-08-25,2025-09-24,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000178,ACC-PINV-.YYYY.-,Clean Environment Services,2025-08-25,2025-09-24,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000179,ACC-PINV-.YYYY.-,Siemens Pakistan,2025-08-26,2025-09-25,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000180,ACC-PINV-.YYYY.-,Draeger Safety Pakistan,2025-08-27,2025-09-26,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000181,ACC-PINV-.YYYY.-,Waste Tech Industries,2025-09-02,2025-11-01,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000182,ACC-PINV-.YYYY.-,Digital Tracking Systems,2025-09-03,2025-10-03,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000183,ACC-PINV-.YYYY.-,Pharma Waste Solutions,2025-09-08,2025-10-23,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000184,ACC-PINV-.YYYY.-,National Environmental Lab,2025-09-13,2025-11-12,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000185,ACC-PINV-.YYYY.-,Al-Fatah Safety Products,2025-09-19,2025-10-19,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000186,ACC-PINV-.YYYY.-,SafeGuard Uniforms,2025-09-19,2025-11-03,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000187,ACC-PINV-.YYYY.-,Siemens Pakistan,2025-09-25,2025-11-24,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000188,ACC-PINV-.YYYY.-,Pharma Waste Solutions,2025-10-01,2025-11-15,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000189,ACC-PINV-.YYYY.-,Al-Fatah Safety Products,2025-10-04,2025-11-18,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000190,ACC-PINV-.YYYY.-,Kohinoor Chemical,2025-10-05,2025-12-04,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000191,ACC-PINV-.YYYY.-,Lahore Container Works,2025-10-06,2025-12-05,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000192,ACC-PINV-.YYYY.-,Draeger Safety Pakistan,2025-10-06,2025-11-05,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000193,ACC-PINV-.YYYY.-,Al-Fatah Safety Products,2025-10-06,2025-12-05,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000194,ACC-PINV-.YYYY.-,Waste Tech Industries,2025-10-08,2025-11-07,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000195,ACC-PINV-.YYYY.-,Isuzu Pakistan,2025-10-11,2025-12-10,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000196,ACC-PINV-.YYYY.-,Waste Tech Industries,2025-10-13,2025-11-12,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000197,ACC-PINV-.YYYY.-,Ravi Engineering Works,2025-10-15,2025-11-29,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000198,ACC-PINV-.YYYY.-,Pakistan Petroleum Corp,2025-10-17,2025-12-16,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000199,ACC-PINV-.YYYY.-,Punjab Insurance Brokers,2025-10-23,2025-12-07,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000200,ACC-PINV-.YYYY.-,GE Health Pakistan,2025-10-30,2025-12-29,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000201,ACC-PINV-.YYYY.-,Refractory Materials Lahore,2025-10-31,2025-11-30,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000202,ACC-PINV-.YYYY.-,Ravi Engineering Works,2025-11-03,2026-01-02,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000203,ACC-PINV-.YYYY.-,SafeGuard Uniforms,2025-11-05,2026-01-04,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000204,ACC-PINV-.YYYY.-,Digital Tracking Systems,2025-11-10,2025-12-25,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000205,ACC-PINV-.YYYY.-,Punjab Revenue Board Consultants,2025-11-13,2025-12-13,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000206,ACC-PINV-.YYYY.-,Calibration Services Pakistan,2025-11-15,2025-12-15,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000207,ACC-PINV-.YYYY.-,Al-Fatah Safety Products,2025-11-18,2025-12-18,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000208,ACC-PINV-.YYYY.-,Metropolitan Steel Works,2025-11-26,2026-01-25,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000209,ACC-PINV-.YYYY.-,Refractory Materials Lahore,2025-11-26,2026-01-10,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000210,ACC-PINV-.YYYY.-,Al-Fatah Safety Products,2025-11-27,2026-01-11,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000211,ACC-PINV-.YYYY.-,Al-Fatah Safety Products,2025-12-01,2026-01-30,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000212,ACC-PINV-.YYYY.-,National Chemical Corp,2025-12-01,2025-12-31,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000213,ACC-PINV-.YYYY.-,Siemens Pakistan,2025-12-03,2026-01-02,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000214,ACC-PINV-.YYYY.-,Punjab Revenue Board Consultants,2025-12-13,2026-01-12,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000215,ACC-PINV-.YYYY.-,Draeger Safety Pakistan,2025-12-17,2026-02-15,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000216,ACC-PINV-.YYYY.-,Siemens Pakistan,2025-12-23,2026-01-22,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000217,ACC-PINV-.YYYY.-,Digital Tracking Systems,2025-12-24,2026-01-23,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000218,ACC-PINV-.YYYY.-,Atlas Honda Parts,2025-12-26,2026-01-25,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000219,ACC-PINV-.YYYY.-,Atlas Honda Parts,2026-01-02,2026-02-16,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000220,ACC-PINV-.YYYY.-,SafeGuard Uniforms,2026-01-04,2026-02-18,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000221,ACC-PINV-.YYYY.-,Fire Safety Equipment Co,2026-01-06,2026-02-20,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000222,ACC-PINV-.YYYY.-,Pakistan Petroleum Corp,2026-01-07,2026-03-08,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000223,ACC-PINV-.YYYY.-,Punjab Revenue Board Consultants,2026-01-08,2026-02-22,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000224,ACC-PINV-.YYYY.-,Digital Tracking Systems,2026-01-08,2026-02-22,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000225,ACC-PINV-.YYYY.-,Lahore Rubber Works,2026-01-10,2026-02-24,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000226,ACC-PINV-.YYYY.-,Safety First PPE,2026-01-11,2026-02-25,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000227,ACC-PINV-.YYYY.-,Waste Tech Industries,2026-01-18,2026-03-19,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000228,ACC-PINV-.YYYY.-,Shell Pakistan,2026-01-19,2026-03-20,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000229,ACC-PINV-.YYYY.-,Eco-Disposal Systems,2026-01-20,2026-02-19,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000230,ACC-PINV-.YYYY.-,Lahore Rubber Works,2026-01-21,2026-02-20,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000231,ACC-PINV-.YYYY.-,Siemens Pakistan,2026-01-22,2026-03-08,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000232,ACC-PINV-.YYYY.-,Clean Environment Services,2026-01-23,2026-03-09,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000233,ACC-PINV-.YYYY.-,Punjab Revenue Board Consultants,2026-01-24,2026-03-25,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000234,ACC-PINV-.YYYY.-,Draeger Safety Pakistan,2026-01-26,2026-03-12,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000235,ACC-PINV-.YYYY.-,Total Parco,2026-02-01,2026-04-02,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000236,ACC-PINV-.YYYY.-,Draeger Safety Pakistan,2026-02-01,2026-03-03,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000237,ACC-PINV-.YYYY.-,GE Health Pakistan,2026-02-03,2026-04-04,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000238,ACC-PINV-.YYYY.-,Pakistan Petroleum Corp,2026-02-04,2026-04-05,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000239,ACC-PINV-.YYYY.-,SafeGuard Uniforms,2026-02-09,2026-04-10,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000240,ACC-PINV-.YYYY.-,Isuzu Pakistan,2026-02-10,2026-03-12,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000241,ACC-PINV-.YYYY.-,Clean Environment Services,2026-02-12,2026-03-29,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000242,ACC-PINV-.YYYY.-,Punjab Auto Parts,2026-02-12,2026-04-13,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000243,ACC-PINV-.YYYY.-,Atlas Honda Parts,2026-02-19,2026-03-21,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000244,ACC-PINV-.YYYY.-,Draeger Safety Pakistan,2026-02-26,2026-04-27,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000245,ACC-PINV-.YYYY.-,Metropolitan Steel Works,2026-03-02,2026-04-01,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000246,ACC-PINV-.YYYY.-,Lahore Container Works,2026-03-05,2026-04-19,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000247,ACC-PINV-.YYYY.-,Medical Supplies Punjab,2026-03-05,2026-04-19,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000248,ACC-PINV-.YYYY.-,Refractory Materials Lahore,2026-03-06,2026-05-05,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000249,ACC-PINV-.YYYY.-,Digital Tracking Systems,2026-03-07,2026-04-06,EnXi Biomedical & Waste Management (Pvt) Ltd
+PI-DEMO-000250,ACC-PINV-.YYYY.-,Lahore Paper & Packaging,2026-03-11,2026-05-10,EnXi Biomedical & Waste Management (Pvt) Ltd

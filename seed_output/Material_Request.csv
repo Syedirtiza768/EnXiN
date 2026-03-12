@@ -1,0 +1,151 @@
+name,naming_series,material_request_type,transaction_date,schedule_date,company
+MR-DEMO-000001,MAT-MR-.YYYY.-,Material Transfer,2024-03-16,2024-03-30,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000002,MAT-MR-.YYYY.-,Material Transfer,2024-03-19,2024-03-30,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000003,MAT-MR-.YYYY.-,Purchase,2024-03-21,2024-03-25,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000004,MAT-MR-.YYYY.-,Material Transfer,2024-03-22,2024-03-26,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000005,MAT-MR-.YYYY.-,Material Issue,2024-03-27,2024-03-31,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000006,MAT-MR-.YYYY.-,Material Issue,2024-03-27,2024-03-31,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000007,MAT-MR-.YYYY.-,Material Transfer,2024-03-27,2024-04-01,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000008,MAT-MR-.YYYY.-,Material Transfer,2024-04-01,2024-04-15,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000009,MAT-MR-.YYYY.-,Purchase,2024-04-05,2024-04-15,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000010,MAT-MR-.YYYY.-,Purchase,2024-04-09,2024-04-20,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000011,MAT-MR-.YYYY.-,Material Issue,2024-04-13,2024-04-27,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000012,MAT-MR-.YYYY.-,Material Transfer,2024-04-19,2024-04-26,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000013,MAT-MR-.YYYY.-,Purchase,2024-04-22,2024-04-29,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000014,MAT-MR-.YYYY.-,Material Transfer,2024-04-28,2024-05-05,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000015,MAT-MR-.YYYY.-,Material Transfer,2024-04-28,2024-05-05,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000016,MAT-MR-.YYYY.-,Purchase,2024-05-07,2024-05-12,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000017,MAT-MR-.YYYY.-,Material Transfer,2024-05-08,2024-05-20,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000018,MAT-MR-.YYYY.-,Material Issue,2024-05-18,2024-05-21,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000019,MAT-MR-.YYYY.-,Purchase,2024-05-18,2024-05-21,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000020,MAT-MR-.YYYY.-,Material Issue,2024-05-23,2024-06-04,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000021,MAT-MR-.YYYY.-,Material Transfer,2024-05-25,2024-06-06,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000022,MAT-MR-.YYYY.-,Material Issue,2024-05-27,2024-06-06,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000023,MAT-MR-.YYYY.-,Material Issue,2024-06-11,2024-06-18,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000024,MAT-MR-.YYYY.-,Purchase,2024-06-23,2024-07-03,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000025,MAT-MR-.YYYY.-,Purchase,2024-06-28,2024-07-08,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000026,MAT-MR-.YYYY.-,Material Transfer,2024-06-28,2024-07-06,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000027,MAT-MR-.YYYY.-,Material Transfer,2024-06-29,2024-07-03,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000028,MAT-MR-.YYYY.-,Purchase,2024-07-03,2024-07-12,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000029,MAT-MR-.YYYY.-,Purchase,2024-07-04,2024-07-07,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000030,MAT-MR-.YYYY.-,Purchase,2024-07-05,2024-07-12,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000031,MAT-MR-.YYYY.-,Material Transfer,2024-07-08,2024-07-19,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000032,MAT-MR-.YYYY.-,Material Transfer,2024-07-11,2024-07-14,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000033,MAT-MR-.YYYY.-,Purchase,2024-07-13,2024-07-21,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000034,MAT-MR-.YYYY.-,Material Issue,2024-07-14,2024-07-20,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000035,MAT-MR-.YYYY.-,Material Transfer,2024-07-22,2024-08-03,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000036,MAT-MR-.YYYY.-,Material Transfer,2024-07-28,2024-08-06,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000037,MAT-MR-.YYYY.-,Purchase,2024-07-30,2024-08-13,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000038,MAT-MR-.YYYY.-,Purchase,2024-08-04,2024-08-18,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000039,MAT-MR-.YYYY.-,Purchase,2024-08-07,2024-08-17,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000040,MAT-MR-.YYYY.-,Material Transfer,2024-08-09,2024-08-15,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000041,MAT-MR-.YYYY.-,Material Issue,2024-08-17,2024-08-26,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000042,MAT-MR-.YYYY.-,Purchase,2024-08-19,2024-08-31,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000043,MAT-MR-.YYYY.-,Material Transfer,2024-08-25,2024-09-01,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000044,MAT-MR-.YYYY.-,Material Transfer,2024-09-01,2024-09-10,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000045,MAT-MR-.YYYY.-,Purchase,2024-09-14,2024-09-27,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000046,MAT-MR-.YYYY.-,Purchase,2024-09-18,2024-09-23,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000047,MAT-MR-.YYYY.-,Material Issue,2024-09-26,2024-09-29,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000048,MAT-MR-.YYYY.-,Material Transfer,2024-09-30,2024-10-06,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000049,MAT-MR-.YYYY.-,Purchase,2024-09-30,2024-10-03,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000050,MAT-MR-.YYYY.-,Purchase,2024-10-05,2024-10-09,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000051,MAT-MR-.YYYY.-,Purchase,2024-10-14,2024-10-20,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000052,MAT-MR-.YYYY.-,Purchase,2024-10-16,2024-10-21,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000053,MAT-MR-.YYYY.-,Material Issue,2024-10-20,2024-10-23,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000054,MAT-MR-.YYYY.-,Material Transfer,2024-10-23,2024-10-27,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000055,MAT-MR-.YYYY.-,Material Issue,2024-10-25,2024-11-03,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000056,MAT-MR-.YYYY.-,Material Transfer,2024-10-30,2024-11-08,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000057,MAT-MR-.YYYY.-,Material Transfer,2024-10-30,2024-11-04,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000058,MAT-MR-.YYYY.-,Purchase,2024-11-01,2024-11-13,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000059,MAT-MR-.YYYY.-,Purchase,2024-11-18,2024-11-23,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000060,MAT-MR-.YYYY.-,Material Transfer,2024-11-24,2024-12-04,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000061,MAT-MR-.YYYY.-,Material Issue,2024-11-30,2024-12-03,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000062,MAT-MR-.YYYY.-,Material Transfer,2024-12-01,2024-12-06,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000063,MAT-MR-.YYYY.-,Material Transfer,2024-12-02,2024-12-10,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000064,MAT-MR-.YYYY.-,Purchase,2024-12-25,2025-01-08,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000065,MAT-MR-.YYYY.-,Material Issue,2024-12-30,2025-01-02,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000066,MAT-MR-.YYYY.-,Material Transfer,2025-01-01,2025-01-06,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000067,MAT-MR-.YYYY.-,Material Issue,2025-01-03,2025-01-16,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000068,MAT-MR-.YYYY.-,Material Issue,2025-01-05,2025-01-15,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000069,MAT-MR-.YYYY.-,Material Issue,2025-01-06,2025-01-17,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000070,MAT-MR-.YYYY.-,Material Transfer,2025-01-11,2025-01-20,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000071,MAT-MR-.YYYY.-,Purchase,2025-01-14,2025-01-28,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000072,MAT-MR-.YYYY.-,Purchase,2025-01-29,2025-02-07,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000073,MAT-MR-.YYYY.-,Purchase,2025-02-04,2025-02-17,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000074,MAT-MR-.YYYY.-,Material Transfer,2025-02-21,2025-03-07,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000075,MAT-MR-.YYYY.-,Purchase,2025-03-07,2025-03-11,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000076,MAT-MR-.YYYY.-,Purchase,2025-03-07,2025-03-14,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000077,MAT-MR-.YYYY.-,Purchase,2025-03-12,2025-03-18,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000078,MAT-MR-.YYYY.-,Material Issue,2025-03-19,2025-04-01,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000079,MAT-MR-.YYYY.-,Material Issue,2025-03-20,2025-03-28,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000080,MAT-MR-.YYYY.-,Purchase,2025-03-20,2025-04-03,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000081,MAT-MR-.YYYY.-,Material Transfer,2025-03-22,2025-03-28,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000082,MAT-MR-.YYYY.-,Purchase,2025-03-24,2025-04-05,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000083,MAT-MR-.YYYY.-,Material Issue,2025-04-02,2025-04-07,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000084,MAT-MR-.YYYY.-,Material Transfer,2025-04-07,2025-04-16,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000085,MAT-MR-.YYYY.-,Material Transfer,2025-04-09,2025-04-12,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000086,MAT-MR-.YYYY.-,Material Transfer,2025-04-09,2025-04-14,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000087,MAT-MR-.YYYY.-,Purchase,2025-04-13,2025-04-19,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000088,MAT-MR-.YYYY.-,Purchase,2025-04-13,2025-04-16,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000089,MAT-MR-.YYYY.-,Purchase,2025-04-14,2025-04-23,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000090,MAT-MR-.YYYY.-,Material Transfer,2025-04-16,2025-04-29,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000091,MAT-MR-.YYYY.-,Material Transfer,2025-04-20,2025-04-25,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000092,MAT-MR-.YYYY.-,Purchase,2025-04-23,2025-05-03,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000093,MAT-MR-.YYYY.-,Material Issue,2025-05-02,2025-05-14,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000094,MAT-MR-.YYYY.-,Material Transfer,2025-05-11,2025-05-22,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000095,MAT-MR-.YYYY.-,Material Transfer,2025-05-15,2025-05-20,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000096,MAT-MR-.YYYY.-,Material Issue,2025-05-21,2025-05-30,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000097,MAT-MR-.YYYY.-,Material Issue,2025-05-22,2025-05-28,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000098,MAT-MR-.YYYY.-,Material Issue,2025-06-02,2025-06-11,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000099,MAT-MR-.YYYY.-,Material Issue,2025-06-08,2025-06-16,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000100,MAT-MR-.YYYY.-,Purchase,2025-06-13,2025-06-16,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000101,MAT-MR-.YYYY.-,Purchase,2025-06-21,2025-06-28,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000102,MAT-MR-.YYYY.-,Material Transfer,2025-07-01,2025-07-07,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000103,MAT-MR-.YYYY.-,Material Transfer,2025-07-04,2025-07-13,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000104,MAT-MR-.YYYY.-,Purchase,2025-07-06,2025-07-17,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000105,MAT-MR-.YYYY.-,Material Transfer,2025-07-08,2025-07-18,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000106,MAT-MR-.YYYY.-,Material Transfer,2025-07-12,2025-07-15,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000107,MAT-MR-.YYYY.-,Purchase,2025-07-16,2025-07-30,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000108,MAT-MR-.YYYY.-,Purchase,2025-07-17,2025-07-20,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000109,MAT-MR-.YYYY.-,Purchase,2025-07-21,2025-07-26,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000110,MAT-MR-.YYYY.-,Material Transfer,2025-07-27,2025-07-31,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000111,MAT-MR-.YYYY.-,Material Issue,2025-08-06,2025-08-19,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000112,MAT-MR-.YYYY.-,Material Issue,2025-08-09,2025-08-18,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000113,MAT-MR-.YYYY.-,Material Issue,2025-08-18,2025-08-29,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000114,MAT-MR-.YYYY.-,Purchase,2025-08-29,2025-09-03,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000115,MAT-MR-.YYYY.-,Material Transfer,2025-09-11,2025-09-24,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000116,MAT-MR-.YYYY.-,Purchase,2025-09-14,2025-09-17,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000117,MAT-MR-.YYYY.-,Material Issue,2025-09-17,2025-09-30,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000118,MAT-MR-.YYYY.-,Material Issue,2025-09-23,2025-09-28,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000119,MAT-MR-.YYYY.-,Purchase,2025-09-25,2025-10-05,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000120,MAT-MR-.YYYY.-,Material Issue,2025-09-26,2025-10-04,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000121,MAT-MR-.YYYY.-,Purchase,2025-09-27,2025-10-08,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000122,MAT-MR-.YYYY.-,Material Issue,2025-09-28,2025-10-10,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000123,MAT-MR-.YYYY.-,Material Transfer,2025-10-06,2025-10-19,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000124,MAT-MR-.YYYY.-,Material Issue,2025-10-24,2025-11-05,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000125,MAT-MR-.YYYY.-,Material Transfer,2025-10-24,2025-10-31,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000126,MAT-MR-.YYYY.-,Material Transfer,2025-11-01,2025-11-14,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000127,MAT-MR-.YYYY.-,Material Issue,2025-11-04,2025-11-08,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000128,MAT-MR-.YYYY.-,Material Transfer,2025-11-12,2025-11-25,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000129,MAT-MR-.YYYY.-,Material Issue,2025-11-15,2025-11-18,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000130,MAT-MR-.YYYY.-,Material Issue,2025-11-17,2025-12-01,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000131,MAT-MR-.YYYY.-,Purchase,2025-11-18,2025-11-28,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000132,MAT-MR-.YYYY.-,Material Issue,2025-12-02,2025-12-07,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000133,MAT-MR-.YYYY.-,Material Issue,2025-12-06,2025-12-10,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000134,MAT-MR-.YYYY.-,Material Transfer,2025-12-06,2025-12-17,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000135,MAT-MR-.YYYY.-,Material Issue,2025-12-20,2026-01-01,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000136,MAT-MR-.YYYY.-,Material Transfer,2026-01-05,2026-01-16,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000137,MAT-MR-.YYYY.-,Purchase,2026-01-07,2026-01-21,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000138,MAT-MR-.YYYY.-,Purchase,2026-01-23,2026-01-26,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000139,MAT-MR-.YYYY.-,Material Transfer,2026-01-25,2026-01-31,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000140,MAT-MR-.YYYY.-,Material Issue,2026-01-26,2026-02-02,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000141,MAT-MR-.YYYY.-,Material Issue,2026-01-30,2026-02-06,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000142,MAT-MR-.YYYY.-,Material Transfer,2026-02-03,2026-02-15,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000143,MAT-MR-.YYYY.-,Purchase,2026-02-08,2026-02-18,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000144,MAT-MR-.YYYY.-,Purchase,2026-02-09,2026-02-15,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000145,MAT-MR-.YYYY.-,Material Transfer,2026-02-16,2026-02-19,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000146,MAT-MR-.YYYY.-,Material Issue,2026-02-16,2026-02-27,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000147,MAT-MR-.YYYY.-,Purchase,2026-02-21,2026-02-25,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000148,MAT-MR-.YYYY.-,Material Issue,2026-02-23,2026-03-04,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000149,MAT-MR-.YYYY.-,Material Issue,2026-02-25,2026-03-06,EnXi Biomedical & Waste Management (Pvt) Ltd
+MR-DEMO-000150,MAT-MR-.YYYY.-,Purchase,2026-03-01,2026-03-06,EnXi Biomedical & Waste Management (Pvt) Ltd
