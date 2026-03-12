@@ -219,7 +219,141 @@ def _import_item_prices(rows):
 		if ok:
 			inserted += 1
 		else:
-			errors.append({"doctype": "Item Price", "key": filters, "error": err})
+			errors.append({"doctype": "Item Price", "key": dedup_filters, "error": err})
+
+	return {"inserted": inserted, "skipped": skipped, "errors": errors}
+
+
+def _import_quotations(q_rows, qi_rows, company_currency: str = "PKR"):
+	items_by_parent = defaultdict(list)
+	for row in qi_rows:
+		items_by_parent[row.get("parent")].append(row)
+
+	inserted = 0
+	skipped = 0
+	errors = []
+
+	for row in q_rows:
+		name = row.get("name")
+		if name and frappe.db.exists("Quotation", name):
+			skipped += 1
+			continue
+
+		doc = frappe.new_doc("Quotation")
+		doc.naming_series = row.get("naming_series") or "QTN-.YYYY.-"
+		doc.quotation_to = row.get("quotation_to") or "Customer"
+		doc.party_name = row.get("party_name")
+		doc.transaction_date = row.get("transaction_date")
+		doc.valid_till = row.get("valid_till")
+		doc.company = row.get("company")
+		doc.currency = company_currency
+		doc.conversion_rate = 1.0
+
+		for item in items_by_parent.get(name, []):
+			doc.append(
+				"items",
+				{
+					"item_code": item.get("item_code"),
+					"qty": item.get("qty"),
+					"uom": item.get("uom"),
+					"rate": item.get("rate"),
+				},
+			)
+
+		ok, err = _safe_insert(doc)
+		if ok:
+			inserted += 1
+		else:
+			errors.append({"doctype": "Quotation", "key": name, "error": err})
+
+	return {"inserted": inserted, "skipped": skipped, "errors": errors}
+
+
+def _import_purchase_orders(po_rows, poi_rows, company_currency: str = "PKR"):
+	items_by_parent = defaultdict(list)
+	for row in poi_rows:
+		items_by_parent[row.get("parent")].append(row)
+
+	inserted = 0
+	skipped = 0
+	errors = []
+
+	for row in po_rows:
+		name = row.get("name")
+		if name and frappe.db.exists("Purchase Order", name):
+			skipped += 1
+			continue
+
+		doc = frappe.new_doc("Purchase Order")
+		doc.naming_series = row.get("naming_series") or "PO-.YYYY.-"
+		doc.supplier = row.get("supplier")
+		doc.transaction_date = row.get("transaction_date")
+		doc.schedule_date = row.get("schedule_date")
+		doc.company = row.get("company")
+		doc.currency = company_currency
+		doc.conversion_rate = 1.0
+
+		for item in items_by_parent.get(name, []):
+			doc.append(
+				"items",
+				{
+					"item_code": item.get("item_code"),
+					"qty": item.get("qty"),
+					"uom": item.get("uom"),
+					"warehouse": item.get("warehouse") or None,
+					"rate": item.get("rate"),
+					"schedule_date": item.get("schedule_date"),
+				},
+			)
+
+		ok, err = _safe_insert(doc)
+		if ok:
+			inserted += 1
+		else:
+			errors.append({"doctype": "Purchase Order", "key": name, "error": err})
+
+	return {"inserted": inserted, "skipped": skipped, "errors": errors}
+
+
+def _import_stock_entries(se_rows, sed_rows):
+	items_by_parent = defaultdict(list)
+	for row in sed_rows:
+		items_by_parent[row.get("parent")].append(row)
+
+	inserted = 0
+	skipped = 0
+	errors = []
+
+	for row in se_rows:
+		name = row.get("name")
+		if name and frappe.db.exists("Stock Entry", name):
+			skipped += 1
+			continue
+
+		doc = frappe.new_doc("Stock Entry")
+		doc.naming_series = row.get("naming_series") or "STE-.YYYY.-"
+		doc.purpose = row.get("purpose") or "Material Receipt"
+		doc.posting_date = row.get("posting_date")
+		doc.company = row.get("company")
+
+		for item in items_by_parent.get(name, []):
+			doc.append(
+				"items",
+				{
+					"item_code": item.get("item_code"),
+					"qty": item.get("qty"),
+					"uom": item.get("uom"),
+					"t_warehouse": item.get("t_warehouse") or None,
+					"basic_rate": item.get("basic_rate"),
+					"allow_zero_valuation_rate": 0,
+				},
+			)
+
+		ok, err = _safe_insert(doc)
+		if ok:
+			inserted += 1
+		else:
+			errors.append({"doctype": "Stock Entry", "key": name, "error": err})
 
 	return {"inserted": inserted, "skipped": skipped, "errors": errors}
 
@@ -298,6 +432,13 @@ def import_seed(seed_dir: str = "seed_output", company_override: str | None = No
 	soi_rows = _read_csv(base / "Sales_Order_Item.csv")
 	issue_rows = _read_csv(base / "Issue.csv")
 	address_rows = _read_csv(base / "Address.csv")
+	employee_rows = _read_csv(base / "Employee.csv") if (base / "Employee.csv").exists() else []
+	quotation_rows = _read_csv(base / "Quotation.csv") if (base / "Quotation.csv").exists() else []
+	quotation_item_rows = _read_csv(base / "Quotation_Item.csv") if (base / "Quotation_Item.csv").exists() else []
+	po_rows = _read_csv(base / "Purchase_Order.csv") if (base / "Purchase_Order.csv").exists() else []
+	poi_rows = _read_csv(base / "Purchase_Order_Item.csv") if (base / "Purchase_Order_Item.csv").exists() else []
+	stock_entry_rows = _read_csv(base / "Stock_Entry.csv") if (base / "Stock_Entry.csv").exists() else []
+	stock_entry_detail_rows = _read_csv(base / "Stock_Entry_Detail.csv") if (base / "Stock_Entry_Detail.csv").exists() else []
 
 	seed_company = company_rows[0].get("name") if company_rows else ""
 	seed_abbr = company_rows[0].get("abbr", "") if company_rows else ""
@@ -324,6 +465,22 @@ def import_seed(seed_dir: str = "seed_output", company_override: str | None = No
 			row["company"] = target_company
 	for row in soi_rows:
 		row["warehouse"] = _remap_wh(row.get("warehouse", ""))
+	for row in quotation_rows:
+		if row.get("company") == seed_company:
+			row["company"] = target_company
+	for row in po_rows:
+		if row.get("company") == seed_company:
+			row["company"] = target_company
+	for row in poi_rows:
+		row["warehouse"] = _remap_wh(row.get("warehouse", ""))
+	for row in stock_entry_rows:
+		if row.get("company") == seed_company:
+			row["company"] = target_company
+	for row in stock_entry_detail_rows:
+		row["t_warehouse"] = _remap_wh(row.get("t_warehouse", ""))
+	for row in employee_rows:
+		if row.get("company") == seed_company:
+			row["company"] = target_company
 
 	report["Company Mapping"] = {
 		"seed_company": seed_company, "target_company": target_company,
@@ -350,6 +507,10 @@ def import_seed(seed_dir: str = "seed_output", company_override: str | None = No
 	report["Issue"] = _upsert_simple("Issue", issue_rows, "subject")
 	report["Address"] = _import_addresses(address_rows)
 	report["Sales Order"] = _import_sales_orders(so_rows, soi_rows, company_currency=target_currency)
+	report["Employee"] = _upsert_simple("Employee", employee_rows, "employee_name")
+	report["Quotation"] = _import_quotations(quotation_rows, quotation_item_rows, company_currency=target_currency)
+	report["Purchase Order"] = _import_purchase_orders(po_rows, poi_rows, company_currency=target_currency)
+	report["Stock Entry"] = _import_stock_entries(stock_entry_rows, stock_entry_detail_rows)
 
 	# Optional sidecar data for audit/analytics only.
 	report["Waste Events JSON"] = {

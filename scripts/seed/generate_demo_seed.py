@@ -30,6 +30,10 @@ class VolumeConfig:
     hospitals: int = 40
     items: int = 380
     sales_orders: int = 1200
+    quotations: int = 400
+    purchase_orders: int = 200
+    employees: int = 25
+    stock_entries: int = 150
     waste_events: int = 3200
     service_tickets: int = 260
     financial_transactions: int = 1200
@@ -85,6 +89,27 @@ WASTE_CATEGORIES = [
     "Pharmaceutical Waste",
     "Chemical Waste",
     "General Medical Waste",
+]
+
+DESIGNATIONS = [
+    "Biomedical Engineer",
+    "Sales Executive",
+    "Service Technician",
+    "Operations Manager",
+    "Compliance Officer",
+    "Finance Manager",
+    "Logistics Coordinator",
+    "Customer Support",
+]
+
+EMPLOYEE_FIRST_NAMES = [
+    "Ahmed", "Muhammad", "Ali", "Hassan", "Usman", "Bilal", "Asad",
+    "Zain", "Hamza", "Omar", "Fatima", "Ayesha", "Sana", "Sara", "Hina",
+]
+
+EMPLOYEE_LAST_NAMES = [
+    "Khan", "Malik", "Ahmed", "Hassan", "Sheikh", "Qureshi", "Butt",
+    "Chaudhry", "Rana", "Mirza",
 ]
 
 
@@ -441,6 +466,159 @@ def build_addresses(customers: List[Dict[str, object]], suppliers: List[Dict[str
         idx += 1
     return rows
 
+def build_employees(departments: List[Dict[str, object]], count: int) -> List[Dict[str, object]]:
+    rows = []
+    dept_names = [d["department_name"] for d in departments]
+    for i in range(1, count + 1):
+        first = random.choice(EMPLOYEE_FIRST_NAMES)
+        last = random.choice(EMPLOYEE_LAST_NAMES)
+        dob = date(random.randint(1975, 1998), random.randint(1, 12), random.randint(1, 28))
+        doj = date(random.randint(2018, 2025), random.randint(1, 12), random.randint(1, 28))
+        rows.append(
+            {
+                "employee_name": f"{first} {last} {i:03d}",
+                "first_name": first,
+                "last_name": last,
+                "company": "EnXi Biomedical & Waste Management (Pvt) Ltd",
+                "department": random.choice(dept_names),
+                "designation": random.choice(DESIGNATIONS),
+                "date_of_birth": dob.isoformat(),
+                "date_of_joining": doj.isoformat(),
+                "gender": random.choice(["Male", "Female"]),
+                "employment_type": "Full-time",
+                "status": "Active",
+            }
+        )
+    return rows
+
+
+def build_quotations(
+    customers: List[Dict[str, object]],
+    items: List[Dict[str, object]],
+    count: int,
+    years: int,
+) -> tuple:
+    start = date.today() - timedelta(days=365 * years)
+    end = date.today()
+    dates = daterange(start, end, count)
+    stock_items = [i for i in items if i["is_stock_item"]]
+
+    q_rows: List[Dict[str, object]] = []
+    qi_rows: List[Dict[str, object]] = []
+    for i in range(1, count + 1):
+        name = f"QTN-DEMO-{i:06d}"
+        customer = random.choice(customers)
+        tx_date = dates[i - 1]
+        q_rows.append(
+            {
+                "name": name,
+                "naming_series": "QTN-.YYYY.-",
+                "quotation_to": "Customer",
+                "party_name": customer["customer_name"],
+                "transaction_date": tx_date.isoformat(),
+                "valid_till": (tx_date + timedelta(days=30)).isoformat(),
+                "company": "EnXi Biomedical & Waste Management (Pvt) Ltd",
+            }
+        )
+        eq = random.choice(stock_items)
+        qi_rows.append(
+            {
+                "parent": name,
+                "parenttype": "Quotation",
+                "parentfield": "items",
+                "item_code": eq["item_code"],
+                "qty": random.randint(1, 5),
+                "uom": "Nos",
+                "rate": random.randint(150000, 3500000),
+            }
+        )
+    return q_rows, qi_rows
+
+
+def build_purchase_orders(
+    suppliers: List[Dict[str, object]],
+    items: List[Dict[str, object]],
+    count: int,
+    years: int,
+) -> tuple:
+    start = date.today() - timedelta(days=365 * years)
+    end = date.today()
+    dates = daterange(start, end, count)
+    stock_items = [i for i in items if i["is_purchase_item"]]
+
+    po_rows: List[Dict[str, object]] = []
+    poi_rows: List[Dict[str, object]] = []
+    for i in range(1, count + 1):
+        name = f"PO-DEMO-{i:06d}"
+        supplier = random.choice(suppliers)
+        tx_date = dates[i - 1]
+        sched = (tx_date + timedelta(days=random.randint(7, 30))).isoformat()
+        po_rows.append(
+            {
+                "name": name,
+                "naming_series": "PO-.YYYY.-",
+                "supplier": supplier["supplier_name"],
+                "transaction_date": tx_date.isoformat(),
+                "schedule_date": sched,
+                "company": "EnXi Biomedical & Waste Management (Pvt) Ltd",
+            }
+        )
+        eq = random.choice(stock_items)
+        poi_rows.append(
+            {
+                "parent": name,
+                "parenttype": "Purchase Order",
+                "parentfield": "items",
+                "item_code": eq["item_code"],
+                "qty": random.randint(1, 4),
+                "uom": "Nos",
+                "warehouse": "Central Warehouse - ENXI",
+                "rate": random.randint(100000, 3000000),
+                "schedule_date": sched,
+            }
+        )
+    return po_rows, poi_rows
+
+
+def build_stock_entries(
+    items: List[Dict[str, object]],
+    count: int,
+    years: int,
+    company_abbr: str = "ENXI",
+) -> tuple:
+    start = date.today() - timedelta(days=365 * years)
+    end = date.today()
+    dates = daterange(start, end, count)
+    stock_items = [i for i in items if i["is_stock_item"]]
+
+    se_rows: List[Dict[str, object]] = []
+    sed_rows: List[Dict[str, object]] = []
+    for i in range(1, count + 1):
+        name = f"STE-DEMO-{i:06d}"
+        tx_date = dates[i - 1]
+        se_rows.append(
+            {
+                "name": name,
+                "naming_series": "STE-.YYYY.-",
+                "purpose": "Material Receipt",
+                "posting_date": tx_date.isoformat(),
+                "company": "EnXi Biomedical & Waste Management (Pvt) Ltd",
+            }
+        )
+        item = random.choice(stock_items)
+        sed_rows.append(
+            {
+                "parent": name,
+                "parenttype": "Stock Entry",
+                "parentfield": "items",
+                "item_code": item["item_code"],
+                "qty": random.randint(1, 5),
+                "uom": "Nos",
+                "t_warehouse": f"Central Warehouse - {company_abbr}",
+                "basic_rate": random.randint(100000, 3000000),
+            }
+        )
+    return se_rows, sed_rows
 
 def build_validation_report(cfg: VolumeConfig, outputs: Dict[str, int]) -> Dict[str, object]:
     return {
@@ -491,6 +669,12 @@ def generate(cfg: VolumeConfig, out_dir: Path) -> None:
     waste_events = build_waste_route_events(customers, cfg.waste_events, cfg.years)
     financial_events = build_financial_events(cfg.financial_transactions, cfg.years)
     addresses = build_addresses(customers, suppliers)
+    employees = build_employees(departments, cfg.employees)
+    quotations, quotation_items = build_quotations(customers, items, cfg.quotations, cfg.years)
+    purchase_orders, purchase_order_items = build_purchase_orders(
+        suppliers, items, cfg.purchase_orders, cfg.years
+    )
+    stock_entries, stock_entry_items = build_stock_entries(items, cfg.stock_entries, cfg.years)
 
     write_csv(out_dir / "Company.csv", companies, ["name", "abbr", "country", "default_currency"])
     write_csv(out_dir / "Warehouse.csv", warehouses, ["warehouse_name", "name", "company"])
@@ -548,6 +732,45 @@ def generate(cfg: VolumeConfig, out_dir: Path) -> None:
         addresses,
         ["name", "address_title", "address_type", "address_line1", "city", "country", "links"],
     )
+    write_csv(
+        out_dir / "Employee.csv",
+        employees,
+        [
+            "employee_name", "first_name", "last_name", "company", "department",
+            "designation", "date_of_birth", "date_of_joining", "gender",
+            "employment_type", "status",
+        ],
+    )
+    write_csv(
+        out_dir / "Quotation.csv",
+        quotations,
+        ["name", "naming_series", "quotation_to", "party_name", "transaction_date", "valid_till", "company"],
+    )
+    write_csv(
+        out_dir / "Quotation_Item.csv",
+        quotation_items,
+        ["parent", "parenttype", "parentfield", "item_code", "qty", "uom", "rate"],
+    )
+    write_csv(
+        out_dir / "Purchase_Order.csv",
+        purchase_orders,
+        ["name", "naming_series", "supplier", "transaction_date", "schedule_date", "company"],
+    )
+    write_csv(
+        out_dir / "Purchase_Order_Item.csv",
+        purchase_order_items,
+        ["parent", "parenttype", "parentfield", "item_code", "qty", "uom", "warehouse", "rate", "schedule_date"],
+    )
+    write_csv(
+        out_dir / "Stock_Entry.csv",
+        stock_entries,
+        ["name", "naming_series", "purpose", "posting_date", "company"],
+    )
+    write_csv(
+        out_dir / "Stock_Entry_Detail.csv",
+        stock_entry_items,
+        ["parent", "parenttype", "parentfield", "item_code", "qty", "uom", "t_warehouse", "basic_rate"],
+    )
 
     write_json(out_dir / "waste_collection_events.json", {"events": waste_events})
     write_json(out_dir / "financial_events.json", {"entries": financial_events})
@@ -564,6 +787,13 @@ def generate(cfg: VolumeConfig, out_dir: Path) -> None:
         "Sales Order Item": len(sales_order_items),
         "Issue": len(service_tickets),
         "Address": len(addresses),
+        "Employee": len(employees),
+        "Quotation": len(quotations),
+        "Quotation Item": len(quotation_items),
+        "Purchase Order": len(purchase_orders),
+        "Purchase Order Item": len(purchase_order_items),
+        "Stock Entry": len(stock_entries),
+        "Stock Entry Detail": len(stock_entry_items),
         "Waste Events (JSON)": len(waste_events),
         "Financial Events (JSON)": len(financial_events),
     }
@@ -584,6 +814,10 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--waste-events", type=int, default=3200)
     parser.add_argument("--service-tickets", type=int, default=260)
     parser.add_argument("--financial-transactions", type=int, default=1200)
+    parser.add_argument("--quotations", type=int, default=400)
+    parser.add_argument("--purchase-orders", type=int, default=200)
+    parser.add_argument("--employees", type=int, default=25)
+    parser.add_argument("--stock-entries", type=int, default=150)
     return parser.parse_args()
 
 
@@ -594,6 +828,10 @@ def main() -> None:
         hospitals=args.hospitals,
         items=args.items,
         sales_orders=args.sales_orders,
+        quotations=args.quotations,
+        purchase_orders=args.purchase_orders,
+        employees=args.employees,
+        stock_entries=args.stock_entries,
         waste_events=args.waste_events,
         service_tickets=args.service_tickets,
         financial_transactions=args.financial_transactions,

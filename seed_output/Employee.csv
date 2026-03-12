@@ -1,0 +1,26 @@
+employee_name,first_name,last_name,company,department,designation,date_of_birth,date_of_joining,gender,employment_type,status
+Ali Hassan 001,Ali,Hassan,EnXi Biomedical & Waste Management (Pvt) Ltd,Service,Customer Support,1991-08-05,2022-12-19,Female,Full-time,Active
+Omar Khan 002,Omar,Khan,EnXi Biomedical & Waste Management (Pvt) Ltd,Compliance,Compliance Officer,1975-08-02,2022-06-12,Female,Full-time,Active
+Omar Butt 003,Omar,Butt,EnXi Biomedical & Waste Management (Pvt) Ltd,Service,Operations Manager,1989-05-24,2019-07-14,Female,Full-time,Active
+Sana Butt 004,Sana,Butt,EnXi Biomedical & Waste Management (Pvt) Ltd,Compliance,Operations Manager,1996-08-04,2020-06-12,Female,Full-time,Active
+Hina Khan 005,Hina,Khan,EnXi Biomedical & Waste Management (Pvt) Ltd,Sales,Logistics Coordinator,1980-08-14,2025-05-20,Female,Full-time,Active
+Muhammad Ahmed 006,Muhammad,Ahmed,EnXi Biomedical & Waste Management (Pvt) Ltd,Service,Sales Executive,1979-08-05,2025-07-12,Female,Full-time,Active
+Sara Qureshi 007,Sara,Qureshi,EnXi Biomedical & Waste Management (Pvt) Ltd,Finance,Biomedical Engineer,1978-12-21,2021-05-04,Male,Full-time,Active
+Bilal Sheikh 008,Bilal,Sheikh,EnXi Biomedical & Waste Management (Pvt) Ltd,Operations,Finance Manager,1986-06-18,2021-05-12,Female,Full-time,Active
+Hina Butt 009,Hina,Butt,EnXi Biomedical & Waste Management (Pvt) Ltd,Finance,Logistics Coordinator,1980-02-14,2021-04-12,Female,Full-time,Active
+Hamza Khan 010,Hamza,Khan,EnXi Biomedical & Waste Management (Pvt) Ltd,Compliance,Sales Executive,1992-10-12,2018-05-26,Male,Full-time,Active
+Hamza Butt 011,Hamza,Butt,EnXi Biomedical & Waste Management (Pvt) Ltd,Sales,Finance Manager,1997-01-10,2021-02-16,Female,Full-time,Active
+Fatima Chaudhry 012,Fatima,Chaudhry,EnXi Biomedical & Waste Management (Pvt) Ltd,Compliance,Customer Support,1992-06-25,2020-02-21,Male,Full-time,Active
+Hassan Butt 013,Hassan,Butt,EnXi Biomedical & Waste Management (Pvt) Ltd,Finance,Biomedical Engineer,1992-07-02,2021-02-22,Female,Full-time,Active
+Fatima Khan 014,Fatima,Khan,EnXi Biomedical & Waste Management (Pvt) Ltd,Compliance,Sales Executive,1977-01-12,2023-09-07,Male,Full-time,Active
+Muhammad Qureshi 015,Muhammad,Qureshi,EnXi Biomedical & Waste Management (Pvt) Ltd,Sales,Biomedical Engineer,1981-03-02,2020-07-10,Male,Full-time,Active
+Fatima Hassan 016,Fatima,Hassan,EnXi Biomedical & Waste Management (Pvt) Ltd,Compliance,Biomedical Engineer,1997-04-19,2024-04-16,Male,Full-time,Active
+Hina Khan 017,Hina,Khan,EnXi Biomedical & Waste Management (Pvt) Ltd,Sales,Operations Manager,1996-11-08,2025-09-06,Female,Full-time,Active
+Usman Chaudhry 018,Usman,Chaudhry,EnXi Biomedical & Waste Management (Pvt) Ltd,Finance,Operations Manager,1991-02-25,2024-08-14,Female,Full-time,Active
+Hina Ahmed 019,Hina,Ahmed,EnXi Biomedical & Waste Management (Pvt) Ltd,Sales,Service Technician,1998-01-18,2021-05-17,Female,Full-time,Active
+Ali Butt 020,Ali,Butt,EnXi Biomedical & Waste Management (Pvt) Ltd,Finance,Compliance Officer,1988-05-16,2022-03-24,Female,Full-time,Active
+Sara Khan 021,Sara,Khan,EnXi Biomedical & Waste Management (Pvt) Ltd,Service,Customer Support,1983-08-21,2021-11-25,Female,Full-time,Active
+Asad Hassan 022,Asad,Hassan,EnXi Biomedical & Waste Management (Pvt) Ltd,Compliance,Customer Support,1989-10-26,2023-09-03,Female,Full-time,Active
+Sara Sheikh 023,Sara,Sheikh,EnXi Biomedical & Waste Management (Pvt) Ltd,Compliance,Customer Support,1983-10-19,2020-05-13,Male,Full-time,Active
+Usman Sheikh 024,Usman,Sheikh,EnXi Biomedical & Waste Management (Pvt) Ltd,Operations,Finance Manager,1987-10-07,2023-04-03,Female,Full-time,Active
+Asad Sheikh 025,Asad,Sheikh,EnXi Biomedical & Waste Management (Pvt) Ltd,Finance,Biomedical Engineer,1995-03-07,2022-01-05,Female,Full-time,Active

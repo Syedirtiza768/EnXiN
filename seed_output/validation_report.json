@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-11T21:34:02.362771Z",
+  "generated_at": "2026-03-12T00:43:36.788557Z",
   "location": "Lahore, Pakistan",
   "company_domain": [
     "Biomedical equipment distribution",
@@ -26,6 +26,13 @@
     "Sales Order Item": 2115,
     "Issue": 260,
     "Address": 71,
+    "Employee": 25,
+    "Quotation": 400,
+    "Quotation Item": 400,
+    "Purchase Order": 200,
+    "Purchase Order Item": 200,
+    "Stock Entry": 150,
+    "Stock Entry Detail": 150,
     "Waste Events (JSON)": 3200,
     "Financial Events (JSON)": 1200
   },

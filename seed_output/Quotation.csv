@@ -1,0 +1,401 @@
+name,naming_series,quotation_to,party_name,transaction_date,valid_till,company
+QTN-DEMO-000001,QTN-.YYYY.-,Customer,Services Diagnostic Lab 01,2024-12-11,2025-01-10,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000002,QTN-.YYYY.-,Customer,Prime Hospital 08,2025-11-05,2025-12-05,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000003,QTN-.YYYY.-,Customer,Jinnah Hospital 29,2025-04-13,2025-05-13,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000004,QTN-.YYYY.-,Customer,Jinnah Hospital 10,2025-04-15,2025-05-15,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000005,QTN-.YYYY.-,Customer,Medix Hospital 18,2025-05-14,2025-06-13,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000006,QTN-.YYYY.-,Customer,Medix Clinic 12,2026-01-24,2026-02-23,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000007,QTN-.YYYY.-,Customer,Central Clinic 36,2025-08-25,2025-09-24,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000008,QTN-.YYYY.-,Customer,Al-Rehman Diagnostic Lab 37,2024-05-16,2024-06-15,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000009,QTN-.YYYY.-,Customer,Medix Hospital 35,2024-07-14,2024-08-13,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000010,QTN-.YYYY.-,Customer,Medix Diagnostic Lab 07,2026-01-18,2026-02-17,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000011,QTN-.YYYY.-,Customer,Jinnah Hospital 29,2025-09-13,2025-10-13,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000012,QTN-.YYYY.-,Customer,Medix Clinic 39,2024-09-14,2024-10-14,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000013,QTN-.YYYY.-,Customer,Services Medical College 16,2024-08-01,2024-08-31,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000014,QTN-.YYYY.-,Customer,Jinnah Medical College 02,2025-10-23,2025-11-22,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000015,QTN-.YYYY.-,Customer,Medix Clinic 23,2024-08-08,2024-09-07,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000016,QTN-.YYYY.-,Customer,Noor Diagnostic Lab 06,2024-11-15,2024-12-15,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000017,QTN-.YYYY.-,Customer,Central Clinic 36,2026-01-21,2026-02-20,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000018,QTN-.YYYY.-,Customer,Lahore Diagnostic Hospital 05,2026-01-06,2026-02-05,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000019,QTN-.YYYY.-,Customer,Lahore Diagnostic Diagnostic Lab 25,2025-12-17,2026-01-16,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000020,QTN-.YYYY.-,Customer,Medix Diagnostic Lab 34,2026-01-02,2026-02-01,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000021,QTN-.YYYY.-,Customer,Noor Hospital 20,2024-07-29,2024-08-28,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000022,QTN-.YYYY.-,Customer,Shalimar Diagnostic Lab 19,2024-12-09,2025-01-08,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000023,QTN-.YYYY.-,Customer,Shalimar Medical College 22,2025-04-08,2025-05-08,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000024,QTN-.YYYY.-,Customer,Services Medical College 30,2025-10-06,2025-11-05,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000025,QTN-.YYYY.-,Customer,Central Clinic 24,2025-07-27,2025-08-26,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000026,QTN-.YYYY.-,Customer,Lahore Diagnostic Medical College 26,2024-07-30,2024-08-29,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000027,QTN-.YYYY.-,Customer,Medix Hospital 35,2024-09-18,2024-10-18,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000028,QTN-.YYYY.-,Customer,Jinnah Hospital 10,2024-05-04,2024-06-03,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000029,QTN-.YYYY.-,Customer,Prime Hospital 08,2024-10-29,2024-11-28,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000030,QTN-.YYYY.-,Customer,Jinnah Medical College 02,2025-07-03,2025-08-02,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000031,QTN-.YYYY.-,Customer,Lahore Diagnostic Hospital 05,2024-10-10,2024-11-09,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000032,QTN-.YYYY.-,Customer,LifeLine Hospital 33,2024-11-02,2024-12-02,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000033,QTN-.YYYY.-,Customer,Medix Clinic 39,2025-07-22,2025-08-21,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000034,QTN-.YYYY.-,Customer,LifeLine Hospital 38,2026-03-05,2026-04-04,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000035,QTN-.YYYY.-,Customer,Medix Hospital 18,2025-10-04,2025-11-03,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000036,QTN-.YYYY.-,Customer,Lahore Diagnostic Hospital 05,2024-12-13,2025-01-12,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000037,QTN-.YYYY.-,Customer,Prime Hospital 04,2024-05-05,2024-06-04,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000038,QTN-.YYYY.-,Customer,Lahore Diagnostic Medical College 26,2025-04-12,2025-05-12,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000039,QTN-.YYYY.-,Customer,Jinnah Medical College 02,2026-02-01,2026-03-03,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000040,QTN-.YYYY.-,Customer,Services Medical College 30,2026-03-11,2026-04-10,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000041,QTN-.YYYY.-,Customer,Prime Hospital 04,2024-05-16,2024-06-15,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000042,QTN-.YYYY.-,Customer,LifeLine Hospital 38,2024-10-06,2024-11-05,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000043,QTN-.YYYY.-,Customer,Lahore Diagnostic Diagnostic Lab 25,2025-08-21,2025-09-20,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000044,QTN-.YYYY.-,Customer,Medix Diagnostic Lab 07,2025-05-09,2025-06-08,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000045,QTN-.YYYY.-,Customer,Medix Clinic 39,2025-07-28,2025-08-27,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000046,QTN-.YYYY.-,Customer,Jinnah Medical College 02,2025-01-14,2025-02-13,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000047,QTN-.YYYY.-,Customer,Shalimar Diagnostic Lab 21,2026-03-05,2026-04-04,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000048,QTN-.YYYY.-,Customer,Al-Rehman Diagnostic Lab 37,2025-08-27,2025-09-26,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000049,QTN-.YYYY.-,Customer,Noor Medical College 11,2025-02-09,2025-03-11,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000050,QTN-.YYYY.-,Customer,Prime Hospital 08,2025-08-01,2025-08-31,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000051,QTN-.YYYY.-,Customer,Services Medical College 16,2025-08-07,2025-09-06,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000052,QTN-.YYYY.-,Customer,Services Medical College 30,2024-11-17,2024-12-17,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000053,QTN-.YYYY.-,Customer,Services Clinic 40,2024-05-03,2024-06-02,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000054,QTN-.YYYY.-,Customer,Prime Hospital 04,2024-12-08,2025-01-07,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000055,QTN-.YYYY.-,Customer,Shalimar Medical College 28,2025-02-12,2025-03-14,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000056,QTN-.YYYY.-,Customer,Medix Diagnostic Lab 34,2025-02-10,2025-03-12,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000057,QTN-.YYYY.-,Customer,Central Clinic 24,2025-10-31,2025-11-30,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000058,QTN-.YYYY.-,Customer,Mayo Diagnostic Lab 09,2025-04-10,2025-05-10,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000059,QTN-.YYYY.-,Customer,Noor Medical College 32,2026-02-12,2026-03-14,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000060,QTN-.YYYY.-,Customer,Shalimar Diagnostic Lab 19,2025-02-08,2025-03-10,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000061,QTN-.YYYY.-,Customer,Services Medical College 16,2026-02-01,2026-03-03,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000062,QTN-.YYYY.-,Customer,Shalimar Medical College 22,2025-06-15,2025-07-15,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000063,QTN-.YYYY.-,Customer,Medix Hospital 14,2026-01-19,2026-02-18,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000064,QTN-.YYYY.-,Customer,Lahore Diagnostic Diagnostic Lab 25,2025-04-24,2025-05-24,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000065,QTN-.YYYY.-,Customer,Prime Medical College 31,2026-01-08,2026-02-07,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000066,QTN-.YYYY.-,Customer,Jinnah Hospital 10,2026-01-23,2026-02-22,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000067,QTN-.YYYY.-,Customer,City Care Clinic 13,2025-03-27,2025-04-26,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000068,QTN-.YYYY.-,Customer,Shalimar Medical College 28,2025-06-26,2025-07-26,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000069,QTN-.YYYY.-,Customer,Jinnah Hospital 10,2025-08-08,2025-09-07,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000070,QTN-.YYYY.-,Customer,Al-Rehman Diagnostic Lab 37,2025-04-10,2025-05-10,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000071,QTN-.YYYY.-,Customer,LifeLine Hospital 38,2025-10-08,2025-11-07,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000072,QTN-.YYYY.-,Customer,Central Clinic 24,2026-02-03,2026-03-05,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000073,QTN-.YYYY.-,Customer,Lahore Diagnostic Hospital 05,2024-03-14,2024-04-13,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000074,QTN-.YYYY.-,Customer,Central Clinic 36,2024-05-06,2024-06-05,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000075,QTN-.YYYY.-,Customer,Lahore Diagnostic Medical College 26,2025-03-08,2025-04-07,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000076,QTN-.YYYY.-,Customer,Prime Medical College 31,2025-02-20,2025-03-22,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000077,QTN-.YYYY.-,Customer,Shalimar Medical College 22,2024-05-19,2024-06-18,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000078,QTN-.YYYY.-,Customer,Noor Medical College 11,2024-07-24,2024-08-23,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000079,QTN-.YYYY.-,Customer,Medix Hospital 18,2025-04-21,2025-05-21,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000080,QTN-.YYYY.-,Customer,Prime Medical College 31,2025-12-24,2026-01-23,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000081,QTN-.YYYY.-,Customer,Medix Clinic 12,2025-07-15,2025-08-14,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000082,QTN-.YYYY.-,Customer,LifeLine Hospital 38,2026-01-08,2026-02-07,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000083,QTN-.YYYY.-,Customer,Shalimar Diagnostic Lab 19,2025-05-20,2025-06-19,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000084,QTN-.YYYY.-,Customer,Prime Clinic 15,2024-12-04,2025-01-03,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000085,QTN-.YYYY.-,Customer,Mayo Diagnostic Lab 09,2025-12-26,2026-01-25,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000086,QTN-.YYYY.-,Customer,Jinnah Hospital 29,2024-11-28,2024-12-28,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000087,QTN-.YYYY.-,Customer,Shalimar Medical College 28,2025-11-18,2025-12-18,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000088,QTN-.YYYY.-,Customer,Services Medical College 16,2024-12-07,2025-01-06,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000089,QTN-.YYYY.-,Customer,Jinnah Hospital 29,2024-10-17,2024-11-16,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000090,QTN-.YYYY.-,Customer,Shalimar Diagnostic Lab 21,2025-05-10,2025-06-09,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000091,QTN-.YYYY.-,Customer,Prime Medical College 31,2024-10-27,2024-11-26,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000092,QTN-.YYYY.-,Customer,Noor Hospital 20,2024-08-28,2024-09-27,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000093,QTN-.YYYY.-,Customer,Noor Hospital 20,2025-07-03,2025-08-02,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000094,QTN-.YYYY.-,Customer,Shalimar Diagnostic Lab 21,2024-04-18,2024-05-18,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000095,QTN-.YYYY.-,Customer,LifeLine Hospital 33,2025-03-23,2025-04-22,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000096,QTN-.YYYY.-,Customer,Shalimar Medical College 22,2025-05-06,2025-06-05,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000097,QTN-.YYYY.-,Customer,LifeLine Hospital 38,2024-06-29,2024-07-29,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000098,QTN-.YYYY.-,Customer,Prime Hospital 04,2024-11-28,2024-12-28,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000099,QTN-.YYYY.-,Customer,Jinnah Diagnostic Lab 03,2025-05-30,2025-06-29,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000100,QTN-.YYYY.-,Customer,LifeLine Hospital 38,2025-03-10,2025-04-09,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000101,QTN-.YYYY.-,Customer,Medix Clinic 23,2024-09-25,2024-10-25,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000102,QTN-.YYYY.-,Customer,Central Clinic 17,2024-11-24,2024-12-24,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000103,QTN-.YYYY.-,Customer,Medix Diagnostic Lab 07,2024-11-26,2024-12-26,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000104,QTN-.YYYY.-,Customer,Services Medical College 30,2024-09-09,2024-10-09,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000105,QTN-.YYYY.-,Customer,Shalimar Diagnostic Lab 21,2024-04-24,2024-05-24,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000106,QTN-.YYYY.-,Customer,Al-Rehman Diagnostic Lab 37,2024-05-13,2024-06-12,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000107,QTN-.YYYY.-,Customer,LifeLine Hospital 38,2025-01-04,2025-02-03,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000108,QTN-.YYYY.-,Customer,Medix Diagnostic Lab 07,2024-08-13,2024-09-12,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000109,QTN-.YYYY.-,Customer,Noor Hospital 20,2024-06-09,2024-07-09,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000110,QTN-.YYYY.-,Customer,LifeLine Hospital 38,2026-02-11,2026-03-13,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000111,QTN-.YYYY.-,Customer,City Care Clinic 13,2025-08-16,2025-09-15,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000112,QTN-.YYYY.-,Customer,Jinnah Hospital 10,2025-05-27,2025-06-26,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000113,QTN-.YYYY.-,Customer,Medix Diagnostic Lab 34,2025-06-08,2025-07-08,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000114,QTN-.YYYY.-,Customer,Services Clinic 40,2024-11-23,2024-12-23,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000115,QTN-.YYYY.-,Customer,Prime Hospital 08,2025-06-21,2025-07-21,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000116,QTN-.YYYY.-,Customer,LifeLine Hospital 38,2024-06-22,2024-07-22,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000117,QTN-.YYYY.-,Customer,Shalimar Diagnostic Lab 21,2025-03-24,2025-04-23,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000118,QTN-.YYYY.-,Customer,LifeLine Hospital 33,2024-07-30,2024-08-29,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000119,QTN-.YYYY.-,Customer,Noor Diagnostic Lab 06,2024-05-02,2024-06-01,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000120,QTN-.YYYY.-,Customer,City Care Clinic 13,2024-11-22,2024-12-22,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000121,QTN-.YYYY.-,Customer,Lahore Diagnostic Medical College 26,2025-02-08,2025-03-10,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000122,QTN-.YYYY.-,Customer,Shalimar Diagnostic Lab 19,2024-06-04,2024-07-04,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000123,QTN-.YYYY.-,Customer,Medix Clinic 12,2025-12-18,2026-01-17,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000124,QTN-.YYYY.-,Customer,Shalimar Diagnostic Lab 19,2025-10-21,2025-11-20,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000125,QTN-.YYYY.-,Customer,Medix Clinic 12,2024-06-14,2024-07-14,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000126,QTN-.YYYY.-,Customer,Central Clinic 17,2025-10-18,2025-11-17,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000127,QTN-.YYYY.-,Customer,Noor Medical College 11,2025-09-03,2025-10-03,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000128,QTN-.YYYY.-,Customer,Shalimar Diagnostic Lab 19,2025-03-02,2025-04-01,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000129,QTN-.YYYY.-,Customer,Jinnah Hospital 29,2026-01-27,2026-02-26,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000130,QTN-.YYYY.-,Customer,Medix Hospital 18,2026-01-14,2026-02-13,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000131,QTN-.YYYY.-,Customer,Services Clinic 40,2024-04-03,2024-05-03,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000132,QTN-.YYYY.-,Customer,Prime Hospital 04,2025-02-23,2025-03-25,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000133,QTN-.YYYY.-,Customer,Prime Hospital 04,2025-05-04,2025-06-03,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000134,QTN-.YYYY.-,Customer,Lahore Diagnostic Hospital 05,2025-03-30,2025-04-29,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000135,QTN-.YYYY.-,Customer,Medix Clinic 23,2025-12-14,2026-01-13,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000136,QTN-.YYYY.-,Customer,Shalimar Medical College 22,2024-06-23,2024-07-23,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000137,QTN-.YYYY.-,Customer,Noor Diagnostic Lab 06,2024-11-08,2024-12-08,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000138,QTN-.YYYY.-,Customer,Noor Medical College 11,2024-10-27,2024-11-26,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000139,QTN-.YYYY.-,Customer,Medix Diagnostic Lab 07,2025-01-30,2025-03-01,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000140,QTN-.YYYY.-,Customer,Lahore Diagnostic Hospital 05,2025-09-23,2025-10-23,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000141,QTN-.YYYY.-,Customer,Medix Clinic 39,2025-02-02,2025-03-04,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000142,QTN-.YYYY.-,Customer,Noor Diagnostic Lab 06,2024-05-01,2024-05-31,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000143,QTN-.YYYY.-,Customer,Prime Hospital 08,2025-09-19,2025-10-19,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000144,QTN-.YYYY.-,Customer,City Care Clinic 13,2024-06-09,2024-07-09,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000145,QTN-.YYYY.-,Customer,Services Diagnostic Lab 01,2025-12-12,2026-01-11,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000146,QTN-.YYYY.-,Customer,Medix Clinic 39,2024-12-06,2025-01-05,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000147,QTN-.YYYY.-,Customer,Shalimar Diagnostic Lab 21,2024-09-20,2024-10-20,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000148,QTN-.YYYY.-,Customer,Services Clinic 40,2024-09-18,2024-10-18,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000149,QTN-.YYYY.-,Customer,Prime Medical College 31,2024-09-18,2024-10-18,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000150,QTN-.YYYY.-,Customer,Prime Hospital 04,2026-03-08,2026-04-07,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000151,QTN-.YYYY.-,Customer,Noor Hospital 20,2025-10-09,2025-11-08,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000152,QTN-.YYYY.-,Customer,Noor Diagnostic Lab 06,2025-08-06,2025-09-05,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000153,QTN-.YYYY.-,Customer,Medix Diagnostic Lab 07,2025-07-12,2025-08-11,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000154,QTN-.YYYY.-,Customer,Al-Rehman Diagnostic Lab 37,2025-05-19,2025-06-18,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000155,QTN-.YYYY.-,Customer,LifeLine Hospital 33,2025-05-06,2025-06-05,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000156,QTN-.YYYY.-,Customer,Shalimar Diagnostic Lab 19,2026-03-09,2026-04-08,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000157,QTN-.YYYY.-,Customer,LifeLine Hospital 33,2024-10-07,2024-11-06,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000158,QTN-.YYYY.-,Customer,LifeLine Hospital 38,2024-09-18,2024-10-18,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000159,QTN-.YYYY.-,Customer,Shalimar Diagnostic Lab 19,2025-07-26,2025-08-25,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000160,QTN-.YYYY.-,Customer,Jinnah Hospital 10,2026-01-28,2026-02-27,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000161,QTN-.YYYY.-,Customer,Jinnah Medical College 02,2025-11-07,2025-12-07,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000162,QTN-.YYYY.-,Customer,Jinnah Diagnostic Lab 03,2026-02-18,2026-03-20,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000163,QTN-.YYYY.-,Customer,LifeLine Hospital 33,2024-04-29,2024-05-29,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000164,QTN-.YYYY.-,Customer,Noor Hospital 20,2024-12-22,2025-01-21,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000165,QTN-.YYYY.-,Customer,LifeLine Hospital 33,2024-07-21,2024-08-20,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000166,QTN-.YYYY.-,Customer,Central Clinic 24,2024-10-10,2024-11-09,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000167,QTN-.YYYY.-,Customer,Lahore Diagnostic Hospital 05,2024-10-07,2024-11-06,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000168,QTN-.YYYY.-,Customer,Services Medical College 30,2025-09-24,2025-10-24,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000169,QTN-.YYYY.-,Customer,Services Medical College 16,2024-06-18,2024-07-18,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000170,QTN-.YYYY.-,Customer,Shalimar Diagnostic Lab 21,2024-03-13,2024-04-12,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000171,QTN-.YYYY.-,Customer,Noor Hospital 20,2025-04-27,2025-05-27,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000172,QTN-.YYYY.-,Customer,Shalimar Diagnostic Lab 21,2024-04-22,2024-05-22,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000173,QTN-.YYYY.-,Customer,Prime Hospital 08,2025-08-11,2025-09-10,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000174,QTN-.YYYY.-,Customer,Medix Diagnostic Lab 07,2025-12-02,2026-01-01,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000175,QTN-.YYYY.-,Customer,Shalimar Diagnostic Lab 21,2024-05-30,2024-06-29,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000176,QTN-.YYYY.-,Customer,Medix Clinic 23,2025-07-27,2025-08-26,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000177,QTN-.YYYY.-,Customer,Noor Medical College 11,2024-04-25,2024-05-25,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000178,QTN-.YYYY.-,Customer,Medix Hospital 35,2024-04-20,2024-05-20,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000179,QTN-.YYYY.-,Customer,Mayo Diagnostic Lab 09,2025-03-19,2025-04-18,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000180,QTN-.YYYY.-,Customer,Medix Clinic 12,2024-08-13,2024-09-12,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000181,QTN-.YYYY.-,Customer,Services Medical College 16,2024-07-19,2024-08-18,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000182,QTN-.YYYY.-,Customer,Shalimar Diagnostic Lab 21,2025-11-19,2025-12-19,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000183,QTN-.YYYY.-,Customer,Services Medical College 16,2024-06-03,2024-07-03,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000184,QTN-.YYYY.-,Customer,Jinnah Diagnostic Lab 03,2025-09-04,2025-10-04,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000185,QTN-.YYYY.-,Customer,Jinnah Medical College 02,2024-12-10,2025-01-09,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000186,QTN-.YYYY.-,Customer,City Care Clinic 13,2025-03-04,2025-04-03,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000187,QTN-.YYYY.-,Customer,Medix Hospital 35,2025-06-25,2025-07-25,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000188,QTN-.YYYY.-,Customer,Lahore Diagnostic Medical College 26,2026-01-11,2026-02-10,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000189,QTN-.YYYY.-,Customer,Medix Hospital 35,2025-01-08,2025-02-07,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000190,QTN-.YYYY.-,Customer,Mayo Diagnostic Lab 09,2025-10-27,2025-11-26,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000191,QTN-.YYYY.-,Customer,Shalimar Medical College 22,2025-05-02,2025-06-01,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000192,QTN-.YYYY.-,Customer,Prime Hospital 04,2025-03-17,2025-04-16,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000193,QTN-.YYYY.-,Customer,Jinnah Diagnostic Lab 03,2025-12-04,2026-01-03,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000194,QTN-.YYYY.-,Customer,Medix Clinic 39,2025-11-14,2025-12-14,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000195,QTN-.YYYY.-,Customer,Shalimar Diagnostic Lab 19,2024-04-02,2024-05-02,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000196,QTN-.YYYY.-,Customer,Medix Hospital 18,2025-02-16,2025-03-18,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000197,QTN-.YYYY.-,Customer,Shalimar Diagnostic Lab 19,2024-07-25,2024-08-24,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000198,QTN-.YYYY.-,Customer,Medix Hospital 35,2025-07-09,2025-08-08,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000199,QTN-.YYYY.-,Customer,Medix Clinic 12,2024-03-31,2024-04-30,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000200,QTN-.YYYY.-,Customer,Prime Clinic 15,2026-03-02,2026-04-01,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000201,QTN-.YYYY.-,Customer,Medix Clinic 12,2024-09-12,2024-10-12,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000202,QTN-.YYYY.-,Customer,Medix Diagnostic Lab 07,2025-03-06,2025-04-05,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000203,QTN-.YYYY.-,Customer,LifeLine Hospital 33,2025-12-03,2026-01-02,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000204,QTN-.YYYY.-,Customer,City Care Clinic 13,2025-12-07,2026-01-06,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000205,QTN-.YYYY.-,Customer,Services Medical College 30,2025-05-25,2025-06-24,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000206,QTN-.YYYY.-,Customer,Jinnah Medical College 02,2024-06-17,2024-07-17,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000207,QTN-.YYYY.-,Customer,Medix Clinic 12,2024-07-05,2024-08-04,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000208,QTN-.YYYY.-,Customer,Services Medical College 30,2025-01-02,2025-02-01,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000209,QTN-.YYYY.-,Customer,Medix Diagnostic Lab 34,2024-10-18,2024-11-17,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000210,QTN-.YYYY.-,Customer,LifeLine Hospital 38,2025-01-30,2025-03-01,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000211,QTN-.YYYY.-,Customer,Shalimar Medical College 28,2025-08-09,2025-09-08,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000212,QTN-.YYYY.-,Customer,Medix Clinic 12,2024-09-26,2024-10-26,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000213,QTN-.YYYY.-,Customer,City Care Clinic 13,2024-04-26,2024-05-26,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000214,QTN-.YYYY.-,Customer,Services Medical College 30,2025-01-25,2025-02-24,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000215,QTN-.YYYY.-,Customer,Services Diagnostic Lab 01,2024-03-18,2024-04-17,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000216,QTN-.YYYY.-,Customer,Prime Medical College 31,2025-12-14,2026-01-13,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000217,QTN-.YYYY.-,Customer,Central Clinic 36,2025-07-20,2025-08-19,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000218,QTN-.YYYY.-,Customer,Shalimar Diagnostic Lab 19,2025-07-15,2025-08-14,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000219,QTN-.YYYY.-,Customer,Services Clinic 40,2025-03-22,2025-04-21,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000220,QTN-.YYYY.-,Customer,Medix Clinic 23,2024-07-16,2024-08-15,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000221,QTN-.YYYY.-,Customer,Prime Diagnostic Lab 27,2024-10-24,2024-11-23,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000222,QTN-.YYYY.-,Customer,Lahore Diagnostic Hospital 05,2024-04-22,2024-05-22,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000223,QTN-.YYYY.-,Customer,Shalimar Diagnostic Lab 21,2025-05-24,2025-06-23,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000224,QTN-.YYYY.-,Customer,Services Clinic 40,2024-05-29,2024-06-28,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000225,QTN-.YYYY.-,Customer,Medix Clinic 23,2024-03-23,2024-04-22,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000226,QTN-.YYYY.-,Customer,Central Clinic 24,2025-11-11,2025-12-11,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000227,QTN-.YYYY.-,Customer,Medix Diagnostic Lab 07,2024-08-15,2024-09-14,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000228,QTN-.YYYY.-,Customer,Jinnah Diagnostic Lab 03,2024-08-02,2024-09-01,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000229,QTN-.YYYY.-,Customer,Medix Clinic 23,2024-07-01,2024-07-31,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000230,QTN-.YYYY.-,Customer,Prime Diagnostic Lab 27,2025-04-27,2025-05-27,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000231,QTN-.YYYY.-,Customer,Medix Diagnostic Lab 07,2025-09-25,2025-10-25,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000232,QTN-.YYYY.-,Customer,Noor Medical College 32,2025-11-03,2025-12-03,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000233,QTN-.YYYY.-,Customer,Prime Clinic 15,2025-06-21,2025-07-21,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000234,QTN-.YYYY.-,Customer,Medix Clinic 23,2024-12-31,2025-01-30,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000235,QTN-.YYYY.-,Customer,Shalimar Medical College 22,2025-02-22,2025-03-24,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000236,QTN-.YYYY.-,Customer,Lahore Diagnostic Hospital 05,2024-10-03,2024-11-02,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000237,QTN-.YYYY.-,Customer,Jinnah Hospital 10,2025-06-25,2025-07-25,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000238,QTN-.YYYY.-,Customer,Mayo Diagnostic Lab 09,2024-07-02,2024-08-01,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000239,QTN-.YYYY.-,Customer,Services Medical College 30,2024-12-26,2025-01-25,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000240,QTN-.YYYY.-,Customer,Medix Clinic 12,2025-06-12,2025-07-12,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000241,QTN-.YYYY.-,Customer,Mayo Diagnostic Lab 09,2024-11-11,2024-12-11,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000242,QTN-.YYYY.-,Customer,Lahore Diagnostic Hospital 05,2024-08-17,2024-09-16,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000243,QTN-.YYYY.-,Customer,Al-Rehman Diagnostic Lab 37,2024-04-25,2024-05-25,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000244,QTN-.YYYY.-,Customer,Jinnah Hospital 29,2024-12-27,2025-01-26,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000245,QTN-.YYYY.-,Customer,Prime Hospital 08,2024-11-18,2024-12-18,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000246,QTN-.YYYY.-,Customer,Shalimar Diagnostic Lab 21,2024-06-04,2024-07-04,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000247,QTN-.YYYY.-,Customer,Noor Medical College 32,2025-11-26,2025-12-26,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000248,QTN-.YYYY.-,Customer,Noor Hospital 20,2024-07-19,2024-08-18,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000249,QTN-.YYYY.-,Customer,Medix Diagnostic Lab 07,2025-06-09,2025-07-09,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000250,QTN-.YYYY.-,Customer,Lahore Diagnostic Medical College 26,2024-12-25,2025-01-24,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000251,QTN-.YYYY.-,Customer,Shalimar Medical College 28,2024-11-21,2024-12-21,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000252,QTN-.YYYY.-,Customer,LifeLine Hospital 38,2024-06-09,2024-07-09,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000253,QTN-.YYYY.-,Customer,Services Medical College 16,2024-09-11,2024-10-11,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000254,QTN-.YYYY.-,Customer,Jinnah Medical College 02,2025-05-09,2025-06-08,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000255,QTN-.YYYY.-,Customer,Central Clinic 36,2025-05-21,2025-06-20,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000256,QTN-.YYYY.-,Customer,Jinnah Diagnostic Lab 03,2025-05-07,2025-06-06,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000257,QTN-.YYYY.-,Customer,LifeLine Hospital 33,2025-03-06,2025-04-05,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000258,QTN-.YYYY.-,Customer,Central Clinic 17,2025-04-23,2025-05-23,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000259,QTN-.YYYY.-,Customer,Jinnah Hospital 29,2024-04-25,2024-05-25,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000260,QTN-.YYYY.-,Customer,Central Clinic 17,2024-09-07,2024-10-07,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000261,QTN-.YYYY.-,Customer,Central Clinic 36,2024-10-24,2024-11-23,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000262,QTN-.YYYY.-,Customer,City Care Clinic 13,2024-10-04,2024-11-03,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000263,QTN-.YYYY.-,Customer,Al-Rehman Diagnostic Lab 37,2025-04-27,2025-05-27,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000264,QTN-.YYYY.-,Customer,Services Diagnostic Lab 01,2024-06-08,2024-07-08,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000265,QTN-.YYYY.-,Customer,Medix Hospital 18,2025-05-09,2025-06-08,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000266,QTN-.YYYY.-,Customer,Noor Medical College 32,2025-03-11,2025-04-10,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000267,QTN-.YYYY.-,Customer,Medix Hospital 14,2025-02-22,2025-03-24,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000268,QTN-.YYYY.-,Customer,Medix Diagnostic Lab 07,2025-08-16,2025-09-15,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000269,QTN-.YYYY.-,Customer,Lahore Diagnostic Hospital 05,2024-04-03,2024-05-03,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000270,QTN-.YYYY.-,Customer,Lahore Diagnostic Medical College 26,2025-05-14,2025-06-13,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000271,QTN-.YYYY.-,Customer,Shalimar Diagnostic Lab 19,2024-08-08,2024-09-07,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000272,QTN-.YYYY.-,Customer,Services Medical College 16,2024-11-23,2024-12-23,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000273,QTN-.YYYY.-,Customer,Services Medical College 30,2025-06-19,2025-07-19,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000274,QTN-.YYYY.-,Customer,Prime Hospital 04,2025-02-08,2025-03-10,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000275,QTN-.YYYY.-,Customer,Jinnah Hospital 10,2025-02-14,2025-03-16,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000276,QTN-.YYYY.-,Customer,Prime Clinic 15,2025-02-21,2025-03-23,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000277,QTN-.YYYY.-,Customer,Services Medical College 30,2024-08-12,2024-09-11,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000278,QTN-.YYYY.-,Customer,Lahore Diagnostic Diagnostic Lab 25,2025-05-17,2025-06-16,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000279,QTN-.YYYY.-,Customer,Medix Clinic 39,2025-06-22,2025-07-22,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000280,QTN-.YYYY.-,Customer,Noor Medical College 32,2024-08-01,2024-08-31,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000281,QTN-.YYYY.-,Customer,Noor Medical College 32,2024-05-06,2024-06-05,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000282,QTN-.YYYY.-,Customer,Jinnah Hospital 29,2026-01-31,2026-03-02,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000283,QTN-.YYYY.-,Customer,LifeLine Hospital 33,2024-11-14,2024-12-14,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000284,QTN-.YYYY.-,Customer,Lahore Diagnostic Hospital 05,2025-04-30,2025-05-30,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000285,QTN-.YYYY.-,Customer,Medix Hospital 35,2025-12-16,2026-01-15,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000286,QTN-.YYYY.-,Customer,Prime Clinic 15,2025-07-09,2025-08-08,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000287,QTN-.YYYY.-,Customer,Noor Medical College 11,2024-05-09,2024-06-08,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000288,QTN-.YYYY.-,Customer,Prime Medical College 31,2024-08-06,2024-09-05,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000289,QTN-.YYYY.-,Customer,Central Clinic 24,2025-06-20,2025-07-20,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000290,QTN-.YYYY.-,Customer,Shalimar Diagnostic Lab 21,2025-01-27,2025-02-26,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000291,QTN-.YYYY.-,Customer,LifeLine Hospital 33,2024-07-05,2024-08-04,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000292,QTN-.YYYY.-,Customer,Prime Clinic 15,2024-03-19,2024-04-18,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000293,QTN-.YYYY.-,Customer,Central Clinic 36,2024-03-19,2024-04-18,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000294,QTN-.YYYY.-,Customer,LifeLine Hospital 38,2025-03-11,2025-04-10,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000295,QTN-.YYYY.-,Customer,Noor Hospital 20,2026-02-11,2026-03-13,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000296,QTN-.YYYY.-,Customer,Medix Diagnostic Lab 07,2025-06-02,2025-07-02,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000297,QTN-.YYYY.-,Customer,LifeLine Hospital 33,2025-09-26,2025-10-26,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000298,QTN-.YYYY.-,Customer,Al-Rehman Diagnostic Lab 37,2025-07-24,2025-08-23,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000299,QTN-.YYYY.-,Customer,Shalimar Diagnostic Lab 21,2024-04-23,2024-05-23,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000300,QTN-.YYYY.-,Customer,Mayo Diagnostic Lab 09,2025-05-22,2025-06-21,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000301,QTN-.YYYY.-,Customer,Noor Hospital 20,2025-10-25,2025-11-24,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000302,QTN-.YYYY.-,Customer,Services Medical College 16,2024-03-14,2024-04-13,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000303,QTN-.YYYY.-,Customer,Noor Diagnostic Lab 06,2025-02-01,2025-03-03,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000304,QTN-.YYYY.-,Customer,Central Clinic 17,2025-06-28,2025-07-28,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000305,QTN-.YYYY.-,Customer,Medix Diagnostic Lab 34,2024-05-28,2024-06-27,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000306,QTN-.YYYY.-,Customer,Services Diagnostic Lab 01,2024-05-23,2024-06-22,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000307,QTN-.YYYY.-,Customer,Services Medical College 30,2024-09-10,2024-10-10,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000308,QTN-.YYYY.-,Customer,Medix Clinic 23,2024-06-05,2024-07-05,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000309,QTN-.YYYY.-,Customer,Medix Hospital 18,2026-02-24,2026-03-26,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000310,QTN-.YYYY.-,Customer,Medix Clinic 23,2025-08-29,2025-09-28,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000311,QTN-.YYYY.-,Customer,Shalimar Medical College 22,2024-06-13,2024-07-13,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000312,QTN-.YYYY.-,Customer,Shalimar Diagnostic Lab 19,2025-04-08,2025-05-08,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000313,QTN-.YYYY.-,Customer,Medix Diagnostic Lab 34,2025-06-19,2025-07-19,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000314,QTN-.YYYY.-,Customer,Prime Diagnostic Lab 27,2026-02-14,2026-03-16,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000315,QTN-.YYYY.-,Customer,LifeLine Hospital 33,2025-11-15,2025-12-15,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000316,QTN-.YYYY.-,Customer,Noor Medical College 11,2024-10-05,2024-11-04,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000317,QTN-.YYYY.-,Customer,Jinnah Diagnostic Lab 03,2024-09-12,2024-10-12,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000318,QTN-.YYYY.-,Customer,Mayo Diagnostic Lab 09,2024-11-13,2024-12-13,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000319,QTN-.YYYY.-,Customer,Jinnah Medical College 02,2025-03-20,2025-04-19,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000320,QTN-.YYYY.-,Customer,Lahore Diagnostic Hospital 05,2024-09-20,2024-10-20,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000321,QTN-.YYYY.-,Customer,Lahore Diagnostic Medical College 26,2025-10-21,2025-11-20,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000322,QTN-.YYYY.-,Customer,Noor Medical College 32,2024-11-02,2024-12-02,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000323,QTN-.YYYY.-,Customer,Medix Diagnostic Lab 07,2026-02-22,2026-03-24,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000324,QTN-.YYYY.-,Customer,Shalimar Medical College 28,2024-11-03,2024-12-03,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000325,QTN-.YYYY.-,Customer,Medix Diagnostic Lab 34,2024-03-29,2024-04-28,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000326,QTN-.YYYY.-,Customer,Jinnah Hospital 10,2025-12-16,2026-01-15,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000327,QTN-.YYYY.-,Customer,Shalimar Diagnostic Lab 19,2025-03-26,2025-04-25,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000328,QTN-.YYYY.-,Customer,Central Clinic 17,2024-12-16,2025-01-15,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000329,QTN-.YYYY.-,Customer,Prime Medical College 31,2025-09-05,2025-10-05,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000330,QTN-.YYYY.-,Customer,Prime Hospital 08,2024-12-25,2025-01-24,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000331,QTN-.YYYY.-,Customer,Services Diagnostic Lab 01,2025-10-29,2025-11-28,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000332,QTN-.YYYY.-,Customer,Shalimar Diagnostic Lab 21,2026-02-27,2026-03-29,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000333,QTN-.YYYY.-,Customer,Shalimar Diagnostic Lab 19,2025-02-02,2025-03-04,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000334,QTN-.YYYY.-,Customer,Jinnah Medical College 02,2024-06-03,2024-07-03,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000335,QTN-.YYYY.-,Customer,Noor Hospital 20,2025-05-14,2025-06-13,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000336,QTN-.YYYY.-,Customer,Medix Diagnostic Lab 34,2025-02-13,2025-03-15,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000337,QTN-.YYYY.-,Customer,Central Clinic 17,2025-07-09,2025-08-08,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000338,QTN-.YYYY.-,Customer,Medix Hospital 14,2024-05-08,2024-06-07,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000339,QTN-.YYYY.-,Customer,Prime Clinic 15,2025-06-07,2025-07-07,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000340,QTN-.YYYY.-,Customer,Jinnah Hospital 29,2025-10-28,2025-11-27,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000341,QTN-.YYYY.-,Customer,LifeLine Hospital 33,2025-01-09,2025-02-08,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000342,QTN-.YYYY.-,Customer,Central Clinic 17,2024-09-20,2024-10-20,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000343,QTN-.YYYY.-,Customer,Shalimar Diagnostic Lab 19,2024-08-07,2024-09-06,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000344,QTN-.YYYY.-,Customer,Medix Diagnostic Lab 34,2024-06-30,2024-07-30,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000345,QTN-.YYYY.-,Customer,City Care Clinic 13,2026-03-05,2026-04-04,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000346,QTN-.YYYY.-,Customer,Shalimar Medical College 28,2025-09-03,2025-10-03,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000347,QTN-.YYYY.-,Customer,Services Medical College 16,2024-10-30,2024-11-29,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000348,QTN-.YYYY.-,Customer,Lahore Diagnostic Diagnostic Lab 25,2024-04-13,2024-05-13,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000349,QTN-.YYYY.-,Customer,Prime Hospital 08,2024-08-10,2024-09-09,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000350,QTN-.YYYY.-,Customer,Medix Clinic 39,2024-12-14,2025-01-13,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000351,QTN-.YYYY.-,Customer,Jinnah Medical College 02,2024-09-08,2024-10-08,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000352,QTN-.YYYY.-,Customer,Services Medical College 30,2025-04-21,2025-05-21,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000353,QTN-.YYYY.-,Customer,Jinnah Hospital 10,2026-02-09,2026-03-11,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000354,QTN-.YYYY.-,Customer,Prime Medical College 31,2024-12-08,2025-01-07,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000355,QTN-.YYYY.-,Customer,Shalimar Medical College 22,2025-05-08,2025-06-07,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000356,QTN-.YYYY.-,Customer,Shalimar Diagnostic Lab 21,2025-09-04,2025-10-04,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000357,QTN-.YYYY.-,Customer,Prime Hospital 08,2025-02-17,2025-03-19,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000358,QTN-.YYYY.-,Customer,Medix Diagnostic Lab 07,2025-12-15,2026-01-14,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000359,QTN-.YYYY.-,Customer,LifeLine Hospital 38,2026-02-10,2026-03-12,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000360,QTN-.YYYY.-,Customer,Lahore Diagnostic Diagnostic Lab 25,2025-02-13,2025-03-15,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000361,QTN-.YYYY.-,Customer,Services Medical College 16,2024-07-03,2024-08-02,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000362,QTN-.YYYY.-,Customer,LifeLine Hospital 38,2025-10-20,2025-11-19,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000363,QTN-.YYYY.-,Customer,Jinnah Diagnostic Lab 03,2024-04-06,2024-05-06,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000364,QTN-.YYYY.-,Customer,Lahore Diagnostic Hospital 05,2024-08-05,2024-09-04,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000365,QTN-.YYYY.-,Customer,Noor Medical College 11,2024-04-16,2024-05-16,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000366,QTN-.YYYY.-,Customer,Jinnah Hospital 29,2025-01-17,2025-02-16,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000367,QTN-.YYYY.-,Customer,Central Clinic 24,2024-05-21,2024-06-20,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000368,QTN-.YYYY.-,Customer,Mayo Diagnostic Lab 09,2026-01-09,2026-02-08,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000369,QTN-.YYYY.-,Customer,Prime Hospital 08,2024-05-17,2024-06-16,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000370,QTN-.YYYY.-,Customer,Shalimar Diagnostic Lab 21,2025-02-05,2025-03-07,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000371,QTN-.YYYY.-,Customer,Services Clinic 40,2026-03-09,2026-04-08,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000372,QTN-.YYYY.-,Customer,Jinnah Hospital 10,2025-01-18,2025-02-17,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000373,QTN-.YYYY.-,Customer,Medix Hospital 18,2025-09-20,2025-10-20,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000374,QTN-.YYYY.-,Customer,Jinnah Hospital 29,2025-08-10,2025-09-09,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000375,QTN-.YYYY.-,Customer,Lahore Diagnostic Medical College 26,2024-04-14,2024-05-14,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000376,QTN-.YYYY.-,Customer,Services Clinic 40,2025-01-29,2025-02-28,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000377,QTN-.YYYY.-,Customer,Medix Diagnostic Lab 07,2024-06-20,2024-07-20,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000378,QTN-.YYYY.-,Customer,Noor Hospital 20,2024-05-02,2024-06-01,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000379,QTN-.YYYY.-,Customer,Mayo Diagnostic Lab 09,2025-11-23,2025-12-23,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000380,QTN-.YYYY.-,Customer,Central Clinic 24,2024-10-24,2024-11-23,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000381,QTN-.YYYY.-,Customer,LifeLine Hospital 33,2024-09-22,2024-10-22,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000382,QTN-.YYYY.-,Customer,Shalimar Medical College 22,2024-12-28,2025-01-27,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000383,QTN-.YYYY.-,Customer,Medix Diagnostic Lab 34,2025-04-16,2025-05-16,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000384,QTN-.YYYY.-,Customer,Noor Medical College 32,2025-03-20,2025-04-19,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000385,QTN-.YYYY.-,Customer,LifeLine Hospital 33,2024-11-20,2024-12-20,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000386,QTN-.YYYY.-,Customer,Jinnah Hospital 29,2024-10-27,2024-11-26,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000387,QTN-.YYYY.-,Customer,Shalimar Diagnostic Lab 19,2025-05-12,2025-06-11,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000388,QTN-.YYYY.-,Customer,Medix Hospital 18,2024-10-05,2024-11-04,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000389,QTN-.YYYY.-,Customer,Noor Medical College 32,2024-11-10,2024-12-10,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000390,QTN-.YYYY.-,Customer,Medix Hospital 18,2024-03-18,2024-04-17,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000391,QTN-.YYYY.-,Customer,LifeLine Hospital 38,2025-01-29,2025-02-28,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000392,QTN-.YYYY.-,Customer,Shalimar Medical College 28,2025-07-18,2025-08-17,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000393,QTN-.YYYY.-,Customer,Shalimar Medical College 28,2026-03-07,2026-04-06,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000394,QTN-.YYYY.-,Customer,Medix Hospital 35,2025-03-24,2025-04-23,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000395,QTN-.YYYY.-,Customer,Noor Hospital 20,2026-02-26,2026-03-28,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000396,QTN-.YYYY.-,Customer,Services Medical College 30,2025-01-15,2025-02-14,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000397,QTN-.YYYY.-,Customer,Noor Medical College 32,2024-09-26,2024-10-26,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000398,QTN-.YYYY.-,Customer,Central Clinic 36,2025-07-01,2025-07-31,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000399,QTN-.YYYY.-,Customer,Lahore Diagnostic Diagnostic Lab 25,2026-02-27,2026-03-29,EnXi Biomedical & Waste Management (Pvt) Ltd
+QTN-DEMO-000400,QTN-.YYYY.-,Customer,Mayo Diagnostic Lab 09,2024-05-05,2024-06-04,EnXi Biomedical & Waste Management (Pvt) Ltd

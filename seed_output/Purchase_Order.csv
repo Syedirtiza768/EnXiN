@@ -1,0 +1,201 @@
+name,naming_series,supplier,transaction_date,schedule_date,company
+PO-DEMO-000001,PO-.YYYY.-,BioMed Supplier 022,2024-04-05,2024-04-24,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000002,PO-.YYYY.-,BioMed Supplier 003,2025-07-04,2025-07-22,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000003,PO-.YYYY.-,BioMed Supplier 004,2024-08-19,2024-08-26,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000004,PO-.YYYY.-,BioMed Supplier 018,2025-03-16,2025-04-10,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000005,PO-.YYYY.-,BioMed Supplier 018,2024-11-26,2024-12-17,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000006,PO-.YYYY.-,Waste Disposal Partner 001,2025-03-09,2025-04-03,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000007,PO-.YYYY.-,BioMed Supplier 020,2024-09-30,2024-10-13,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000008,PO-.YYYY.-,Waste Disposal Partner 003,2025-11-19,2025-12-03,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000009,PO-.YYYY.-,BioMed Supplier 016,2025-05-31,2025-06-13,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000010,PO-.YYYY.-,BioMed Supplier 017,2024-04-25,2024-05-12,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000011,PO-.YYYY.-,BioMed Supplier 023,2024-06-14,2024-07-05,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000012,PO-.YYYY.-,BioMed Supplier 021,2025-05-30,2025-06-28,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000013,PO-.YYYY.-,BioMed Supplier 018,2024-05-12,2024-06-10,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000014,PO-.YYYY.-,BioMed Supplier 002,2025-10-20,2025-11-11,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000015,PO-.YYYY.-,BioMed Supplier 018,2025-12-01,2025-12-28,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000016,PO-.YYYY.-,Waste Disposal Partner 003,2024-10-25,2024-11-06,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000017,PO-.YYYY.-,BioMed Supplier 006,2024-08-03,2024-08-17,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000018,PO-.YYYY.-,BioMed Supplier 014,2025-12-19,2025-12-27,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000019,PO-.YYYY.-,BioMed Supplier 003,2024-11-25,2024-12-12,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000020,PO-.YYYY.-,BioMed Supplier 004,2025-07-04,2025-07-25,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000021,PO-.YYYY.-,BioMed Supplier 001,2024-04-12,2024-04-25,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000022,PO-.YYYY.-,Waste Disposal Partner 002,2025-06-05,2025-06-29,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000023,PO-.YYYY.-,Waste Disposal Partner 003,2025-10-10,2025-10-17,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000024,PO-.YYYY.-,BioMed Supplier 015,2024-08-05,2024-08-22,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000025,PO-.YYYY.-,BioMed Supplier 004,2025-04-22,2025-05-06,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000026,PO-.YYYY.-,BioMed Supplier 017,2024-07-29,2024-08-25,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000027,PO-.YYYY.-,BioMed Supplier 021,2025-03-16,2025-04-03,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000028,PO-.YYYY.-,BioMed Supplier 011,2026-01-25,2026-02-22,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000029,PO-.YYYY.-,BioMed Supplier 019,2024-06-26,2024-07-13,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000030,PO-.YYYY.-,BioMed Supplier 011,2026-03-05,2026-03-13,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000031,PO-.YYYY.-,Waste Disposal Partner 004,2025-07-13,2025-07-27,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000032,PO-.YYYY.-,BioMed Supplier 010,2025-01-09,2025-02-06,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000033,PO-.YYYY.-,BioMed Supplier 006,2024-10-04,2024-10-27,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000034,PO-.YYYY.-,BioMed Supplier 018,2024-07-17,2024-07-27,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000035,PO-.YYYY.-,BioMed Supplier 010,2026-02-12,2026-02-26,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000036,PO-.YYYY.-,BioMed Supplier 011,2025-04-19,2025-04-27,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000037,PO-.YYYY.-,BioMed Supplier 005,2024-05-09,2024-05-19,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000038,PO-.YYYY.-,BioMed Supplier 022,2024-10-20,2024-11-02,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000039,PO-.YYYY.-,Waste Disposal Partner 004,2024-07-24,2024-08-09,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000040,PO-.YYYY.-,BioMed Supplier 015,2025-03-27,2025-04-11,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000041,PO-.YYYY.-,Waste Disposal Partner 004,2024-05-11,2024-06-08,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000042,PO-.YYYY.-,BioMed Supplier 017,2026-01-05,2026-02-04,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000043,PO-.YYYY.-,BioMed Supplier 011,2024-11-03,2024-11-24,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000044,PO-.YYYY.-,BioMed Supplier 002,2026-02-06,2026-02-25,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000045,PO-.YYYY.-,BioMed Supplier 021,2026-02-19,2026-03-02,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000046,PO-.YYYY.-,BioMed Supplier 017,2025-10-31,2025-11-21,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000047,PO-.YYYY.-,BioMed Supplier 019,2025-01-10,2025-01-31,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000048,PO-.YYYY.-,BioMed Supplier 015,2024-11-19,2024-12-11,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000049,PO-.YYYY.-,BioMed Supplier 009,2026-01-31,2026-02-25,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000050,PO-.YYYY.-,BioMed Supplier 024,2025-12-21,2026-01-05,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000051,PO-.YYYY.-,BioMed Supplier 008,2025-11-13,2025-12-04,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000052,PO-.YYYY.-,BioMed Supplier 015,2025-08-14,2025-08-21,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000053,PO-.YYYY.-,BioMed Supplier 021,2025-09-06,2025-10-01,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000054,PO-.YYYY.-,BioMed Supplier 003,2024-12-01,2024-12-24,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000055,PO-.YYYY.-,Waste Disposal Partner 001,2024-12-10,2025-01-04,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000056,PO-.YYYY.-,BioMed Supplier 005,2024-08-17,2024-08-25,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000057,PO-.YYYY.-,Waste Disposal Partner 006,2025-06-25,2025-07-08,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000058,PO-.YYYY.-,BioMed Supplier 005,2025-10-03,2025-10-21,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000059,PO-.YYYY.-,BioMed Supplier 003,2025-10-19,2025-10-30,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000060,PO-.YYYY.-,BioMed Supplier 018,2025-03-13,2025-03-30,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000061,PO-.YYYY.-,BioMed Supplier 004,2024-08-18,2024-09-05,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000062,PO-.YYYY.-,BioMed Supplier 006,2026-02-12,2026-03-01,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000063,PO-.YYYY.-,BioMed Supplier 001,2024-11-15,2024-12-10,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000064,PO-.YYYY.-,Waste Disposal Partner 005,2025-05-23,2025-06-14,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000065,PO-.YYYY.-,BioMed Supplier 021,2024-06-12,2024-07-08,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000066,PO-.YYYY.-,BioMed Supplier 007,2025-08-05,2025-08-20,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000067,PO-.YYYY.-,BioMed Supplier 013,2025-11-07,2025-11-24,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000068,PO-.YYYY.-,BioMed Supplier 019,2024-12-07,2024-12-30,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000069,PO-.YYYY.-,BioMed Supplier 009,2025-10-16,2025-11-11,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000070,PO-.YYYY.-,Waste Disposal Partner 002,2025-05-10,2025-05-17,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000071,PO-.YYYY.-,BioMed Supplier 014,2024-12-05,2024-12-13,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000072,PO-.YYYY.-,Waste Disposal Partner 006,2025-02-19,2025-03-10,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000073,PO-.YYYY.-,BioMed Supplier 008,2025-01-19,2025-02-09,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000074,PO-.YYYY.-,BioMed Supplier 024,2025-11-21,2025-12-16,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000075,PO-.YYYY.-,Waste Disposal Partner 004,2026-02-25,2026-03-13,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000076,PO-.YYYY.-,BioMed Supplier 015,2025-03-09,2025-03-18,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000077,PO-.YYYY.-,BioMed Supplier 017,2026-03-10,2026-04-08,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000078,PO-.YYYY.-,Waste Disposal Partner 003,2025-12-10,2025-12-19,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000079,PO-.YYYY.-,Waste Disposal Partner 001,2025-03-09,2025-03-25,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000080,PO-.YYYY.-,BioMed Supplier 012,2025-06-22,2025-07-15,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000081,PO-.YYYY.-,BioMed Supplier 017,2025-08-13,2025-08-24,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000082,PO-.YYYY.-,BioMed Supplier 003,2024-07-08,2024-07-23,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000083,PO-.YYYY.-,BioMed Supplier 012,2024-09-05,2024-09-19,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000084,PO-.YYYY.-,BioMed Supplier 004,2025-06-14,2025-07-14,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000085,PO-.YYYY.-,BioMed Supplier 014,2024-09-25,2024-10-08,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000086,PO-.YYYY.-,BioMed Supplier 019,2024-07-01,2024-07-13,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000087,PO-.YYYY.-,BioMed Supplier 007,2025-07-29,2025-08-27,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000088,PO-.YYYY.-,BioMed Supplier 011,2026-03-08,2026-04-02,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000089,PO-.YYYY.-,BioMed Supplier 023,2024-12-31,2025-01-10,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000090,PO-.YYYY.-,BioMed Supplier 023,2026-02-07,2026-02-14,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000091,PO-.YYYY.-,BioMed Supplier 009,2026-01-15,2026-02-02,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000092,PO-.YYYY.-,BioMed Supplier 003,2024-08-06,2024-08-24,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000093,PO-.YYYY.-,BioMed Supplier 024,2025-06-04,2025-06-25,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000094,PO-.YYYY.-,BioMed Supplier 001,2024-06-29,2024-07-15,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000095,PO-.YYYY.-,BioMed Supplier 019,2025-09-04,2025-09-18,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000096,PO-.YYYY.-,BioMed Supplier 013,2024-11-01,2024-11-29,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000097,PO-.YYYY.-,BioMed Supplier 015,2024-07-25,2024-08-21,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000098,PO-.YYYY.-,Waste Disposal Partner 006,2024-08-07,2024-08-28,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000099,PO-.YYYY.-,BioMed Supplier 024,2026-02-09,2026-03-01,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000100,PO-.YYYY.-,BioMed Supplier 016,2024-12-23,2025-01-11,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000101,PO-.YYYY.-,BioMed Supplier 001,2024-04-05,2024-04-28,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000102,PO-.YYYY.-,BioMed Supplier 005,2024-08-24,2024-09-18,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000103,PO-.YYYY.-,Waste Disposal Partner 004,2024-10-16,2024-11-02,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000104,PO-.YYYY.-,BioMed Supplier 012,2025-11-16,2025-11-24,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000105,PO-.YYYY.-,BioMed Supplier 005,2024-10-11,2024-11-05,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000106,PO-.YYYY.-,BioMed Supplier 015,2025-04-19,2025-05-07,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000107,PO-.YYYY.-,BioMed Supplier 006,2026-01-22,2026-01-29,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000108,PO-.YYYY.-,BioMed Supplier 023,2024-07-22,2024-08-15,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000109,PO-.YYYY.-,Waste Disposal Partner 004,2025-07-12,2025-08-07,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000110,PO-.YYYY.-,BioMed Supplier 008,2025-04-12,2025-05-09,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000111,PO-.YYYY.-,BioMed Supplier 009,2024-06-24,2024-07-02,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000112,PO-.YYYY.-,BioMed Supplier 005,2025-06-27,2025-07-13,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000113,PO-.YYYY.-,BioMed Supplier 019,2025-05-04,2025-05-12,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000114,PO-.YYYY.-,BioMed Supplier 009,2024-12-14,2024-12-28,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000115,PO-.YYYY.-,BioMed Supplier 018,2026-03-09,2026-04-07,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000116,PO-.YYYY.-,Waste Disposal Partner 002,2024-04-12,2024-04-19,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000117,PO-.YYYY.-,Waste Disposal Partner 001,2026-01-23,2026-02-15,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000118,PO-.YYYY.-,BioMed Supplier 012,2024-12-20,2025-01-04,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000119,PO-.YYYY.-,BioMed Supplier 017,2024-04-22,2024-05-14,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000120,PO-.YYYY.-,BioMed Supplier 023,2024-12-21,2025-01-06,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000121,PO-.YYYY.-,BioMed Supplier 013,2025-04-14,2025-04-24,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000122,PO-.YYYY.-,BioMed Supplier 007,2025-02-19,2025-03-11,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000123,PO-.YYYY.-,BioMed Supplier 012,2026-01-20,2026-02-10,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000124,PO-.YYYY.-,BioMed Supplier 003,2025-03-22,2025-04-12,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000125,PO-.YYYY.-,BioMed Supplier 017,2024-06-21,2024-07-12,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000126,PO-.YYYY.-,BioMed Supplier 008,2024-06-02,2024-06-19,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000127,PO-.YYYY.-,Waste Disposal Partner 005,2024-08-26,2024-09-21,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000128,PO-.YYYY.-,BioMed Supplier 007,2025-09-28,2025-10-22,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000129,PO-.YYYY.-,BioMed Supplier 014,2025-04-02,2025-04-30,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000130,PO-.YYYY.-,BioMed Supplier 021,2024-11-03,2024-11-27,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000131,PO-.YYYY.-,BioMed Supplier 013,2025-08-10,2025-08-18,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000132,PO-.YYYY.-,BioMed Supplier 020,2024-06-01,2024-07-01,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000133,PO-.YYYY.-,BioMed Supplier 005,2024-07-15,2024-07-30,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000134,PO-.YYYY.-,BioMed Supplier 016,2024-03-28,2024-04-17,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000135,PO-.YYYY.-,BioMed Supplier 007,2025-03-05,2025-03-24,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000136,PO-.YYYY.-,BioMed Supplier 014,2024-03-18,2024-04-10,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000137,PO-.YYYY.-,Waste Disposal Partner 006,2024-07-29,2024-08-23,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000138,PO-.YYYY.-,BioMed Supplier 016,2026-03-06,2026-03-31,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000139,PO-.YYYY.-,Waste Disposal Partner 002,2024-07-24,2024-07-31,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000140,PO-.YYYY.-,BioMed Supplier 020,2025-09-07,2025-09-15,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000141,PO-.YYYY.-,Waste Disposal Partner 003,2025-11-19,2025-11-30,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000142,PO-.YYYY.-,Waste Disposal Partner 006,2024-08-24,2024-09-21,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000143,PO-.YYYY.-,Waste Disposal Partner 005,2024-04-19,2024-04-30,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000144,PO-.YYYY.-,BioMed Supplier 003,2025-07-13,2025-08-07,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000145,PO-.YYYY.-,BioMed Supplier 024,2026-01-06,2026-01-25,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000146,PO-.YYYY.-,BioMed Supplier 014,2025-01-04,2025-02-02,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000147,PO-.YYYY.-,BioMed Supplier 004,2026-02-05,2026-02-24,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000148,PO-.YYYY.-,BioMed Supplier 007,2025-12-23,2026-01-19,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000149,PO-.YYYY.-,BioMed Supplier 012,2025-02-21,2025-03-01,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000150,PO-.YYYY.-,BioMed Supplier 007,2025-11-03,2025-12-03,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000151,PO-.YYYY.-,BioMed Supplier 011,2025-03-12,2025-03-26,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000152,PO-.YYYY.-,BioMed Supplier 001,2024-09-01,2024-09-15,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000153,PO-.YYYY.-,BioMed Supplier 011,2025-09-01,2025-09-27,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000154,PO-.YYYY.-,BioMed Supplier 022,2024-07-28,2024-08-12,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000155,PO-.YYYY.-,Waste Disposal Partner 004,2025-06-07,2025-06-23,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000156,PO-.YYYY.-,BioMed Supplier 025,2025-05-16,2025-06-03,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000157,PO-.YYYY.-,BioMed Supplier 012,2025-07-27,2025-08-03,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000158,PO-.YYYY.-,Waste Disposal Partner 006,2025-07-18,2025-07-30,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000159,PO-.YYYY.-,BioMed Supplier 021,2024-12-16,2025-01-10,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000160,PO-.YYYY.-,BioMed Supplier 005,2024-09-14,2024-09-29,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000161,PO-.YYYY.-,Waste Disposal Partner 005,2024-10-09,2024-10-22,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000162,PO-.YYYY.-,BioMed Supplier 001,2025-12-11,2026-01-01,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000163,PO-.YYYY.-,BioMed Supplier 018,2024-10-13,2024-10-25,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000164,PO-.YYYY.-,BioMed Supplier 008,2025-01-31,2025-02-11,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000165,PO-.YYYY.-,BioMed Supplier 021,2026-02-25,2026-03-11,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000166,PO-.YYYY.-,BioMed Supplier 011,2024-12-08,2024-12-23,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000167,PO-.YYYY.-,BioMed Supplier 015,2024-10-20,2024-10-31,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000168,PO-.YYYY.-,Waste Disposal Partner 006,2024-11-01,2024-11-15,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000169,PO-.YYYY.-,BioMed Supplier 018,2025-12-26,2026-01-05,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000170,PO-.YYYY.-,BioMed Supplier 006,2025-06-22,2025-07-11,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000171,PO-.YYYY.-,BioMed Supplier 011,2024-09-26,2024-10-24,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000172,PO-.YYYY.-,BioMed Supplier 024,2024-07-26,2024-08-06,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000173,PO-.YYYY.-,BioMed Supplier 015,2025-06-06,2025-07-05,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000174,PO-.YYYY.-,BioMed Supplier 012,2025-08-26,2025-09-03,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000175,PO-.YYYY.-,Waste Disposal Partner 004,2024-10-19,2024-11-03,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000176,PO-.YYYY.-,BioMed Supplier 002,2025-11-24,2025-12-14,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000177,PO-.YYYY.-,Waste Disposal Partner 003,2025-05-14,2025-06-13,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000178,PO-.YYYY.-,BioMed Supplier 006,2025-10-25,2025-11-10,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000179,PO-.YYYY.-,BioMed Supplier 007,2024-09-19,2024-10-18,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000180,PO-.YYYY.-,BioMed Supplier 020,2024-06-01,2024-06-27,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000181,PO-.YYYY.-,Waste Disposal Partner 005,2025-02-27,2025-03-09,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000182,PO-.YYYY.-,BioMed Supplier 015,2024-07-12,2024-07-30,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000183,PO-.YYYY.-,BioMed Supplier 023,2024-04-23,2024-05-11,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000184,PO-.YYYY.-,Waste Disposal Partner 005,2024-03-24,2024-04-02,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000185,PO-.YYYY.-,Waste Disposal Partner 001,2024-07-31,2024-08-30,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000186,PO-.YYYY.-,BioMed Supplier 006,2025-04-04,2025-04-16,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000187,PO-.YYYY.-,BioMed Supplier 024,2024-03-13,2024-04-10,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000188,PO-.YYYY.-,BioMed Supplier 001,2025-07-26,2025-08-24,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000189,PO-.YYYY.-,BioMed Supplier 013,2025-06-06,2025-06-21,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000190,PO-.YYYY.-,BioMed Supplier 010,2024-08-28,2024-09-12,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000191,PO-.YYYY.-,Waste Disposal Partner 001,2024-05-20,2024-06-09,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000192,PO-.YYYY.-,BioMed Supplier 005,2024-11-30,2024-12-12,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000193,PO-.YYYY.-,BioMed Supplier 002,2024-09-26,2024-10-17,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000194,PO-.YYYY.-,Waste Disposal Partner 005,2025-12-15,2026-01-05,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000195,PO-.YYYY.-,BioMed Supplier 006,2025-12-13,2026-01-03,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000196,PO-.YYYY.-,BioMed Supplier 017,2024-11-24,2024-12-15,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000197,PO-.YYYY.-,BioMed Supplier 016,2026-02-23,2026-03-05,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000198,PO-.YYYY.-,BioMed Supplier 018,2025-08-28,2025-09-15,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000199,PO-.YYYY.-,BioMed Supplier 002,2025-04-10,2025-05-05,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000200,PO-.YYYY.-,BioMed Supplier 014,2025-10-15,2025-10-28,EnXi Biomedical & Waste Management (Pvt) Ltd
