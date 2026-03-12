@@ -809,6 +809,65 @@ def _ensure_custom_doctypes():
 	else:
 		_log("  ✓ Custom DocTypes already exist")
 
+	# ── create Workspace so the module appears in the sidebar ──
+	if not frappe.db.exists("Workspace", MODULE_NAME):
+		# Build links child table: one Card Break then one Link per DocType
+		ws_links = [{"type": "Card Break", "label": "Waste Operations", "hidden": 0}]
+		for defn in doctypes:
+			ws_links.append({
+				"type": "Link", "link_type": "DocType",
+				"link_to": defn["name"], "label": defn["name"],
+				"hidden": 0, "onboard": 1,
+			})
+		# content JSON – a header + a single card referencing the Card Break above
+		import json as _json
+		content_blocks = [
+			{"id": "hdr1", "type": "header",
+			 "data": {"text": '<span class="h4"><b>Waste Management</b></span>', "col": 12}},
+			{"id": "card1", "type": "card",
+			 "data": {"card_name": "Waste Operations", "col": 12}},
+		]
+		try:
+			frappe.get_doc({
+				"doctype": "Workspace",
+				"label": MODULE_NAME,
+				"module": MODULE_NAME,
+				"icon": "healthcare",
+				"content": _json.dumps(content_blocks),
+				"links": ws_links,
+				"is_hidden": 0,
+			}).insert(ignore_permissions=True)
+			frappe.db.commit()
+			_log(f"  ✓ Created Workspace '{MODULE_NAME}'")
+		except Exception:
+			_log(f"  ⚠ Could not create Workspace: {frappe.get_traceback().strip().split(chr(10))[-1][:120]}")
+
+	# ── create Workspace Sidebar so it shows in left navigation ──
+	sidebar_name = "waste-management"
+	if not frappe.db.exists("Workspace Sidebar", sidebar_name):
+		sidebar_items = [
+			{"type": "Link", "label": "Home", "link_type": "Workspace",
+			 "link_to": MODULE_NAME, "icon": "healthcare", "indent": 0,
+			 "child": 0, "collapsible": 1, "keep_closed": 0, "show_arrow": 0},
+		]
+		for defn in doctypes:
+			sidebar_items.append({
+				"type": "Link", "label": defn["name"], "link_type": "DocType",
+				"link_to": defn["name"], "indent": 0,
+				"child": 0, "collapsible": 1, "keep_closed": 0, "show_arrow": 0,
+			})
+		try:
+			frappe.get_doc({
+				"doctype": "Workspace Sidebar",
+				"name": sidebar_name,
+				"header_icon": "healthcare",
+				"items": sidebar_items,
+			}).insert(ignore_permissions=True)
+			frappe.db.commit()
+			_log(f"  ✓ Created Workspace Sidebar '{sidebar_name}'")
+		except Exception:
+			_log(f"  ⚠ Could not create Sidebar: {frappe.get_traceback().strip().split(chr(10))[-1][:120]}")
+
 
 def _auto_create_company(name: str, country: str = "Pakistan", currency: str = "PKR"):
 	"""Create a minimal Company record so the seed import can proceed."""
