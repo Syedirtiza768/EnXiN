@@ -1,13 +1,13 @@
 item_group_name,parent_item_group,is_group
-Biomedical Equipment,All Item Groups,1
-Biomedical Spare Parts,All Item Groups,0
-Waste Containers,All Item Groups,0
-PPE & Safety,All Item Groups,0
-Cleaning & Disinfection,All Item Groups,0
-Incinerator Supplies,All Item Groups,0
-Vehicle Parts & Supplies,All Item Groups,0
 Waste Management Services,All Item Groups,0
-Biomedical Services,All Item Groups,0
+Biomedical Equipment,All Item Groups,0
+Waste Containers,All Item Groups,0
+PPE,All Item Groups,0
+Cleaning Supplies,All Item Groups,0
+Incinerator Spare Parts,All Item Groups,0
+Vehicle Parts,All Item Groups,0
+Fuel,All Item Groups,0
+Janitorial Services,All Item Groups,0
 Training Services,All Item Groups,0
-Installation Services,All Item Groups,0
-Compliance Services,All Item Groups,0
+Spare Parts,All Item Groups,1
+Consumables,All Item Groups,1

@@ -1,36 +1,41 @@
 supplier_name,supplier_type,supplier_group,country,default_currency
-Medical Supplies Punjab,Company,Raw Material,Pakistan,PKR
-Bio-Equipment International,Company,Equipment Vendor,Pakistan,PKR
-Safety First PPE,Company,Raw Material,Pakistan,PKR
-Lahore Container Works,Company,Raw Material,Pakistan,PKR
-Eco-Disposal Systems,Company,Services,Pakistan,PKR
-Punjab Auto Parts,Company,Vehicle Parts,Pakistan,PKR
+Ravi Engineering Works,Company,Equipment Vendor,Pakistan,PKR
 National Chemical Corp,Company,Raw Material,Pakistan,PKR
-Al-Fatah Safety Products,Company,Raw Material,Pakistan,PKR
+Punjab Safety Equipment,Company,Equipment Vendor,Pakistan,PKR
+Lahore Steel Fabricators,Company,Equipment Vendor,Pakistan,PKR
+Allied Medical Supplies,Company,Raw Material,Pakistan,PKR
+Metro Fuel Distributors,Company,Fuel Supplier,Pakistan,PKR
+City Diesel Station,Company,Fuel Supplier,Pakistan,PKR
+Pakistan Refinery Fuels,Company,Fuel Supplier,Pakistan,PKR
+National Tire House,Company,Vehicle Parts,Pakistan,PKR
+Auto Zone Pakistan,Company,Vehicle Parts,Pakistan,PKR
+Refractory Solutions Pvt,Company,Equipment Vendor,Pakistan,PKR
+Punjab Plastics Industries,Company,Raw Material,Pakistan,PKR
+Eco Packaging Solutions,Company,Raw Material,Pakistan,PKR
+SafeHands PPE,Company,Raw Material,Pakistan,PKR
+CleanTech Supplies,Company,Raw Material,Pakistan,PKR
 Siemens Pakistan,Company,Equipment Vendor,Pakistan,PKR
-Philips Healthcare PK,Company,Equipment Vendor,Pakistan,PKR
-GE Health Pakistan,Company,Equipment Vendor,Pakistan,PKR
-Draeger Safety Pakistan,Company,Equipment Vendor,Pakistan,PKR
-Pakistan Petroleum Corp,Company,Fuel Supplier,Pakistan,PKR
-Shell Pakistan,Company,Fuel Supplier,Pakistan,PKR
-Total Parco,Company,Fuel Supplier,Pakistan,PKR
 Atlas Honda Parts,Company,Vehicle Parts,Pakistan,PKR
-Hino Pakistan Motors,Company,Vehicle Parts,Pakistan,PKR
-Isuzu Pakistan,Company,Vehicle Parts,Pakistan,PKR
-Waste Tech Industries,Company,Equipment Vendor,Pakistan,PKR
-Refractory Materials Lahore,Company,Raw Material,Pakistan,PKR
-Metropolitan Steel Works,Company,Raw Material,Pakistan,PKR
-Pharma Waste Solutions,Company,Services,Pakistan,PKR
-Clean Environment Services,Company,Services,Pakistan,PKR
-Kohinoor Chemical,Company,Raw Material,Pakistan,PKR
-Lahore Paper & Packaging,Company,Raw Material,Pakistan,PKR
-Digital Tracking Systems,Company,IT Services,Pakistan,PKR
-Punjab Insurance Brokers,Company,Insurance,Pakistan,PKR
-SafeGuard Uniforms,Company,Raw Material,Pakistan,PKR
-MedTech Training Institute,Company,Services,Pakistan,PKR
-Calibration Services Pakistan,Company,Services,Pakistan,PKR
-Fire Safety Equipment Co,Company,Raw Material,Pakistan,PKR
-Lahore Rubber Works,Company,Raw Material,Pakistan,PKR
-Ravi Engineering Works,Company,Services,Pakistan,PKR
-National Environmental Lab,Company,Services,Pakistan,PKR
-Punjab Revenue Board Consultants,Company,Services,Pakistan,PKR
+Shell Lubricants Pakistan,Company,Fuel Supplier,Pakistan,PKR
+Total Parco,Company,Fuel Supplier,Pakistan,PKR
+Descon Engineering,Company,Services,Pakistan,PKR
+NHA Maintenance Services,Company,Services,Pakistan,PKR
+Punjab IT Solutions,Company,IT Services,Pakistan,PKR
+SecureTrack GPS,Company,IT Services,Pakistan,PKR
+Mobilink Business Solutions,Company,IT Services,Pakistan,PKR
+State Life Insurance,Company,Insurance,Pakistan,PKR
+EFU General Insurance,Company,Insurance,Pakistan,PKR
+Adamjee Insurance,Company,Insurance,Pakistan,PKR
+Bank Alfalah Leasing,Company,Services,Pakistan,PKR
+Meezan Bank Leasing,Company,Services,Pakistan,PKR
+UBL Fund Managers,Company,Services,Pakistan,PKR
+Ernst & Young Pakistan,Company,Services,Pakistan,PKR
+KPMG Taseer Hadi,Company,Services,Pakistan,PKR
+Punjab Revenue Authority,Company,Services,Pakistan,PKR
+Pakistan Oxygen Ltd,Company,Raw Material,Pakistan,PKR
+ICI Pakistan,Company,Raw Material,Pakistan,PKR
+Sitara Chemical Industries,Company,Raw Material,Pakistan,PKR
+Diamond Tyres Ltd,Company,Vehicle Parts,Pakistan,PKR
+General Tyre Pakistan,Company,Vehicle Parts,Pakistan,PKR
+Millat Tractors Parts,Company,Vehicle Parts,Pakistan,PKR
+Sapphire Textiles (Uniforms),Company,Raw Material,Pakistan,PKR

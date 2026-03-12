@@ -2,895 +2,523 @@
   "routes": [
     {
       "route_code": "LHR-R01",
-      "route_name": "Lahore Route 01 - Johar Town",
-      "day_of_week": "Wednesday",
-      "frequency": "Daily",
-      "stops": [
-        {
-          "stop_order": 1,
-          "customer": "Ittefaq Private Hospital 24"
-        },
-        {
-          "stop_order": 2,
-          "customer": "Lady Aitchison Specialist Clinic 31"
-        },
-        {
-          "stop_order": 3,
-          "customer": "Social Security Medical Center 43"
-        },
-        {
-          "stop_order": 4,
-          "customer": "Children Maternity Hospital 30"
-        },
-        {
-          "stop_order": 5,
-          "customer": "Prime Tertiary Hospital 10"
-        },
-        {
-          "stop_order": 6,
-          "customer": "Shalimar Tertiary Hospital 04"
-        },
-        {
-          "stop_order": 7,
-          "customer": "Mayo Tertiary Hospital 01"
-        },
-        {
-          "stop_order": 8,
-          "customer": "Central Park Medical Center 36"
-        }
-      ],
-      "estimated_duration_hrs": 7.8,
-      "vehicle_type": "Hyundai H-100"
+      "route_name": "Lahore Route R01",
+      "day_of_week": "Mon/Wed/Fri",
+      "frequency": "Weekly",
+      "stops": 10,
+      "estimated_duration_hrs": 3.4,
+      "vehicle_type": "Hino 300",
+      "region": "Lahore"
     },
     {
       "route_code": "LHR-R02",
-      "route_name": "Lahore Route 02 - Gulshan-e-Ravi",
-      "day_of_week": "Wednesday",
+      "route_name": "Lahore Route R02",
+      "day_of_week": "Mon/Wed/Fri",
       "frequency": "2x/week",
-      "stops": [
-        {
-          "stop_order": 1,
-          "customer": "National District Hospital 17"
-        },
-        {
-          "stop_order": 2,
-          "customer": "Sharif Medical Private Hospital 23"
-        },
-        {
-          "stop_order": 3,
-          "customer": "Allied Medical Center 35"
-        }
-      ],
-      "estimated_duration_hrs": 3.8,
-      "vehicle_type": "Isuzu NPR"
+      "stops": 11,
+      "estimated_duration_hrs": 6.1,
+      "vehicle_type": "Mitsubishi Canter",
+      "region": "Lahore"
     },
     {
       "route_code": "LHR-R03",
-      "route_name": "Lahore Route 03 - Cavalry Ground",
-      "day_of_week": "Friday",
-      "frequency": "3x/week",
-      "stops": [
-        {
-          "stop_order": 1,
-          "customer": "Sheikh Zayed District Hospital 14"
-        },
-        {
-          "stop_order": 2,
-          "customer": "City Care Tertiary Hospital 06"
-        },
-        {
-          "stop_order": 3,
-          "customer": "Sir Ganga Ram Teaching Hospital 21"
-        },
-        {
-          "stop_order": 4,
-          "customer": "Allied Medical Center 35"
-        }
-      ],
-      "estimated_duration_hrs": 6.4,
-      "vehicle_type": "Hino 300"
+      "route_name": "Lahore Route R03",
+      "day_of_week": "Mon/Wed/Fri",
+      "frequency": "2x/week",
+      "stops": 11,
+      "estimated_duration_hrs": 5.4,
+      "vehicle_type": "Isuzu NQR",
+      "region": "Lahore"
     },
     {
       "route_code": "LHR-R04",
-      "route_name": "Lahore Route 04 - Cantt",
-      "day_of_week": "Friday",
-      "frequency": "Weekly",
-      "stops": [
-        {
-          "stop_order": 1,
-          "customer": "Medix District Hospital 11"
-        },
-        {
-          "stop_order": 2,
-          "customer": "Central Park Medical Center 36"
-        },
-        {
-          "stop_order": 3,
-          "customer": "National District Hospital 17"
-        },
-        {
-          "stop_order": 4,
-          "customer": "Citi Lab Medical Center 38"
-        },
-        {
-          "stop_order": 5,
-          "customer": "Farooq Maternity Hospital 29"
-        }
-      ],
-      "estimated_duration_hrs": 5.1,
-      "vehicle_type": "Hino 300"
+      "route_name": "Lahore Route R04",
+      "day_of_week": "Mon/Wed/Fri",
+      "frequency": "2x/week",
+      "stops": 5,
+      "estimated_duration_hrs": 2.9,
+      "vehicle_type": "Hino 300",
+      "region": "Lahore"
     },
     {
       "route_code": "LHR-R05",
-      "route_name": "Lahore Route 05 - Shadman",
-      "day_of_week": "Saturday",
-      "frequency": "2x/week",
-      "stops": [
-        {
-          "stop_order": 1,
-          "customer": "Shaukat Khanum Medical Center 50"
-        },
-        {
-          "stop_order": 2,
-          "customer": "Jinnah Tertiary Hospital 02"
-        },
-        {
-          "stop_order": 3,
-          "customer": "Central Park Tertiary Hospital 05"
-        },
-        {
-          "stop_order": 4,
-          "customer": "Services Tertiary Hospital 03"
-        },
-        {
-          "stop_order": 5,
-          "customer": "Children Maternity Hospital 30"
-        },
-        {
-          "stop_order": 6,
-          "customer": "Sir Ganga Ram Medical Center 40"
-        }
-      ],
-      "estimated_duration_hrs": 7.8,
-      "vehicle_type": "Hyundai H-100"
+      "route_name": "Lahore Route R05",
+      "day_of_week": "Monday-Saturday",
+      "frequency": "Weekly",
+      "stops": 9,
+      "estimated_duration_hrs": 4.3,
+      "vehicle_type": "Toyota Dyna",
+      "region": "Lahore"
     },
     {
       "route_code": "LHR-R06",
-      "route_name": "Lahore Route 06 - Valencia Town",
-      "day_of_week": "Friday",
+      "route_name": "Lahore Route R06",
+      "day_of_week": "Monday-Saturday",
       "frequency": "2x/week",
-      "stops": [
-        {
-          "stop_order": 1,
-          "customer": "Allied Medical Center 35"
-        },
-        {
-          "stop_order": 2,
-          "customer": "National Medical Center 54"
-        },
-        {
-          "stop_order": 3,
-          "customer": "Sharif Medical Private Hospital 23"
-        },
-        {
-          "stop_order": 4,
-          "customer": "National District Hospital 17"
-        },
-        {
-          "stop_order": 5,
-          "customer": "Sir Ganga Ram Medical Center 40"
-        },
-        {
-          "stop_order": 6,
-          "customer": "Citi Lab Medical Center 38"
-        },
-        {
-          "stop_order": 7,
-          "customer": "City Care Tertiary Hospital 06"
-        },
-        {
-          "stop_order": 8,
-          "customer": "Ittefaq Private Hospital 24"
-        }
-      ],
-      "estimated_duration_hrs": 5.0,
-      "vehicle_type": "Hino 300"
+      "stops": 7,
+      "estimated_duration_hrs": 2.7,
+      "vehicle_type": "Isuzu NQR",
+      "region": "Lahore"
     },
     {
       "route_code": "LHR-R07",
-      "route_name": "Lahore Route 07 - EME Society",
-      "day_of_week": "Friday",
-      "frequency": "2x/week",
-      "stops": [
-        {
-          "stop_order": 1,
-          "customer": "Sir Ganga Ram Teaching Hospital 21"
-        },
-        {
-          "stop_order": 2,
-          "customer": "Lady Aitchison Specialist Clinic 31"
-        },
-        {
-          "stop_order": 3,
-          "customer": "Punjab District Hospital 12"
-        },
-        {
-          "stop_order": 4,
-          "customer": "Noor Tertiary Hospital 07"
-        },
-        {
-          "stop_order": 5,
-          "customer": "LifeLine Medical Center 49"
-        },
-        {
-          "stop_order": 6,
-          "customer": "Ghurki Trust Medical Center 45"
-        },
-        {
-          "stop_order": 7,
-          "customer": "National Medical Center 54"
-        }
-      ],
-      "estimated_duration_hrs": 7.9,
-      "vehicle_type": "Hino 300"
+      "route_name": "Lahore Route R07",
+      "day_of_week": "Tue/Thu/Sat",
+      "frequency": "Weekly",
+      "stops": 6,
+      "estimated_duration_hrs": 3.5,
+      "vehicle_type": "Toyota Dyna",
+      "region": "Lahore"
     },
     {
       "route_code": "LHR-R08",
-      "route_name": "Lahore Route 08 - Valencia Town",
-      "day_of_week": "Saturday",
-      "frequency": "Weekly",
-      "stops": [
-        {
-          "stop_order": 1,
-          "customer": "Children Medical Center 46"
-        },
-        {
-          "stop_order": 2,
-          "customer": "Doctors Private Hospital 25"
-        },
-        {
-          "stop_order": 3,
-          "customer": "Ghurki Trust Medical Center 45"
-        },
-        {
-          "stop_order": 4,
-          "customer": "Surgimed Diagnostic Laboratory 26"
-        }
-      ],
-      "estimated_duration_hrs": 4.6,
-      "vehicle_type": "Hino 300"
+      "route_name": "Lahore Route R08",
+      "day_of_week": "Monday-Saturday",
+      "frequency": "3x/week",
+      "stops": 12,
+      "estimated_duration_hrs": 3.9,
+      "vehicle_type": "Isuzu NQR",
+      "region": "Lahore"
     },
     {
       "route_code": "LHR-R09",
-      "route_name": "Lahore Route 09 - Cantt",
-      "day_of_week": "Wednesday",
-      "frequency": "3x/week",
-      "stops": [
-        {
-          "stop_order": 1,
-          "customer": "Sir Ganga Ram Medical Center 33"
-        },
-        {
-          "stop_order": 2,
-          "customer": "Sir Ganga Ram Teaching Hospital 21"
-        },
-        {
-          "stop_order": 3,
-          "customer": "Lahore General District Hospital 13"
-        },
-        {
-          "stop_order": 4,
-          "customer": "Wapda Teaching Medical Center 55"
-        },
-        {
-          "stop_order": 5,
-          "customer": "Services Tertiary Hospital 03"
-        },
-        {
-          "stop_order": 6,
-          "customer": "National Medical Center 54"
-        },
-        {
-          "stop_order": 7,
-          "customer": "Agha Khan Lab Medical Center 53"
-        }
-      ],
-      "estimated_duration_hrs": 3.8,
-      "vehicle_type": "Isuzu NPR"
+      "route_name": "Lahore Route R09",
+      "day_of_week": "Monday-Saturday",
+      "frequency": "Weekly",
+      "stops": 5,
+      "estimated_duration_hrs": 1.5,
+      "vehicle_type": "Toyota Dyna",
+      "region": "Lahore"
     },
     {
       "route_code": "LHR-R10",
-      "route_name": "Lahore Route 10 - DHA Phase 1",
-      "day_of_week": "Wednesday",
-      "frequency": "Daily",
-      "stops": [
-        {
-          "stop_order": 1,
-          "customer": "Wapda Teaching Medical Center 55"
-        },
-        {
-          "stop_order": 2,
-          "customer": "Sir Ganga Ram Medical Center 33"
-        },
-        {
-          "stop_order": 3,
-          "customer": "Central Park Medical Center 36"
-        },
-        {
-          "stop_order": 4,
-          "customer": "Punjab District Hospital 12"
-        },
-        {
-          "stop_order": 5,
-          "customer": "Lady Aitchison Specialist Clinic 31"
-        },
-        {
-          "stop_order": 6,
-          "customer": "Hafeez Diagnostic Laboratory 27"
-        },
-        {
-          "stop_order": 7,
-          "customer": "National Medical Center 54"
-        },
-        {
-          "stop_order": 8,
-          "customer": "Allied Medical Center 35"
-        }
-      ],
-      "estimated_duration_hrs": 6.9,
-      "vehicle_type": "Hyundai H-100"
+      "route_name": "Lahore Route R10",
+      "day_of_week": "Monday-Saturday",
+      "frequency": "2x/week",
+      "stops": 9,
+      "estimated_duration_hrs": 3.1,
+      "vehicle_type": "Toyota Dyna",
+      "region": "Lahore"
     },
     {
       "route_code": "LHR-R11",
-      "route_name": "Lahore Route 11 - Gulberg",
-      "day_of_week": "Thursday",
+      "route_name": "Lahore Route R11",
+      "day_of_week": "Monday-Friday",
       "frequency": "Weekly",
-      "stops": [
-        {
-          "stop_order": 1,
-          "customer": "Sharif Medical Private Hospital 23"
-        },
-        {
-          "stop_order": 2,
-          "customer": "Shalimar Tertiary Hospital 04"
-        },
-        {
-          "stop_order": 3,
-          "customer": "National Medical Center 54"
-        },
-        {
-          "stop_order": 4,
-          "customer": "Medix District Hospital 11"
-        },
-        {
-          "stop_order": 5,
-          "customer": "CMH Medical Center 39"
-        },
-        {
-          "stop_order": 6,
-          "customer": "Sir Ganga Ram Medical Center 40"
-        },
-        {
-          "stop_order": 7,
-          "customer": "Shaukat Khanum Medical Center 50"
-        }
-      ],
-      "estimated_duration_hrs": 5.1,
-      "vehicle_type": "Hyundai H-100"
+      "stops": 10,
+      "estimated_duration_hrs": 4.6,
+      "vehicle_type": "Isuzu NQR",
+      "region": "Lahore"
     },
     {
       "route_code": "LHR-R12",
-      "route_name": "Lahore Route 12 - DHA Phase 5",
-      "day_of_week": "Thursday",
-      "frequency": "3x/week",
-      "stops": [
-        {
-          "stop_order": 1,
-          "customer": "Allied Medical Center 35"
-        },
-        {
-          "stop_order": 2,
-          "customer": "Shalimar Tertiary Hospital 04"
-        },
-        {
-          "stop_order": 3,
-          "customer": "Ghurki Trust Medical Center 42"
-        },
-        {
-          "stop_order": 4,
-          "customer": "Children Maternity Hospital 30"
-        }
-      ],
-      "estimated_duration_hrs": 4.9,
-      "vehicle_type": "Isuzu NPR"
+      "route_name": "Lahore Route R12",
+      "day_of_week": "Tue/Thu/Sat",
+      "frequency": "Weekly",
+      "stops": 10,
+      "estimated_duration_hrs": 4.2,
+      "vehicle_type": "Hino 300",
+      "region": "Lahore"
     },
     {
       "route_code": "LHR-R13",
-      "route_name": "Lahore Route 13 - EME Society",
-      "day_of_week": "Friday",
+      "route_name": "Lahore Route R13",
+      "day_of_week": "Mon/Wed/Fri",
       "frequency": "Weekly",
-      "stops": [
-        {
-          "stop_order": 1,
-          "customer": "Gulab Devi Teaching Hospital 20"
-        },
-        {
-          "stop_order": 2,
-          "customer": "Prime Tertiary Hospital 10"
-        },
-        {
-          "stop_order": 3,
-          "customer": "Surgimed Medical Center 34"
-        },
-        {
-          "stop_order": 4,
-          "customer": "Services Tertiary Hospital 03"
-        },
-        {
-          "stop_order": 5,
-          "customer": "Prime Medical Center 47"
-        },
-        {
-          "stop_order": 6,
-          "customer": "Fatima Memorial Private Hospital 22"
-        }
-      ],
-      "estimated_duration_hrs": 5.8,
-      "vehicle_type": "Isuzu NPR"
+      "stops": 10,
+      "estimated_duration_hrs": 4.7,
+      "vehicle_type": "Isuzu NQR",
+      "region": "Lahore"
     },
     {
       "route_code": "LHR-R14",
-      "route_name": "Lahore Route 14 - Johar Town",
-      "day_of_week": "Friday",
-      "frequency": "Daily",
-      "stops": [
-        {
-          "stop_order": 1,
-          "customer": "Wapda Teaching Medical Center 55"
-        },
-        {
-          "stop_order": 2,
-          "customer": "Excel Labs Medical Center 52"
-        },
-        {
-          "stop_order": 3,
-          "customer": "Lahore General District Hospital 13"
-        }
-      ],
-      "estimated_duration_hrs": 6.1,
-      "vehicle_type": "Isuzu NPR"
+      "route_name": "Lahore Route R14",
+      "day_of_week": "Tue/Thu/Sat",
+      "frequency": "Weekly",
+      "stops": 12,
+      "estimated_duration_hrs": 6.5,
+      "vehicle_type": "Hino 300",
+      "region": "Lahore"
     },
     {
       "route_code": "LHR-R15",
-      "route_name": "Lahore Route 15 - Askari 10",
-      "day_of_week": "Tuesday",
-      "frequency": "Weekly",
-      "stops": [
-        {
-          "stop_order": 1,
-          "customer": "Prime Medical Center 47"
-        },
-        {
-          "stop_order": 2,
-          "customer": "Wapda Teaching Medical Center 55"
-        },
-        {
-          "stop_order": 3,
-          "customer": "Medix District Hospital 11"
-        }
-      ],
-      "estimated_duration_hrs": 6.0,
-      "vehicle_type": "Hino 300"
+      "route_name": "Lahore Route R15",
+      "day_of_week": "Monday-Saturday",
+      "frequency": "Daily",
+      "stops": 6,
+      "estimated_duration_hrs": 2.5,
+      "vehicle_type": "Isuzu NQR",
+      "region": "Lahore"
     },
     {
       "route_code": "LHR-R16",
-      "route_name": "Lahore Route 16 - Allama Iqbal Town",
-      "day_of_week": "Tuesday",
-      "frequency": "Weekly",
-      "stops": [
-        {
-          "stop_order": 1,
-          "customer": "Prime Tertiary Hospital 10"
-        },
-        {
-          "stop_order": 2,
-          "customer": "Lahore Eye Medical Center 32"
-        },
-        {
-          "stop_order": 3,
-          "customer": "Lahore General District Hospital 13"
-        }
-      ],
-      "estimated_duration_hrs": 6.2,
-      "vehicle_type": "Hino 300"
+      "route_name": "Lahore Route R16",
+      "day_of_week": "Daily",
+      "frequency": "Daily",
+      "stops": 7,
+      "estimated_duration_hrs": 3.8,
+      "vehicle_type": "Toyota Dyna",
+      "region": "Lahore"
     },
     {
       "route_code": "LHR-R17",
-      "route_name": "Lahore Route 17 - Wapda Town",
-      "day_of_week": "Saturday",
-      "frequency": "Daily",
-      "stops": [
-        {
-          "stop_order": 1,
-          "customer": "Ghurki Trust Medical Center 45"
-        },
-        {
-          "stop_order": 2,
-          "customer": "Allied Medical Center 35"
-        },
-        {
-          "stop_order": 3,
-          "customer": "LifeLine Medical Center 49"
-        },
-        {
-          "stop_order": 4,
-          "customer": "Citi Lab Medical Center 38"
-        },
-        {
-          "stop_order": 5,
-          "customer": "Combined Military Teaching Hospital 19"
-        }
-      ],
-      "estimated_duration_hrs": 4.3,
-      "vehicle_type": "Isuzu NPR"
+      "route_name": "Lahore Route R17",
+      "day_of_week": "Daily",
+      "frequency": "3x/week",
+      "stops": 9,
+      "estimated_duration_hrs": 4.1,
+      "vehicle_type": "Mitsubishi Canter",
+      "region": "Lahore"
     },
     {
       "route_code": "LHR-R18",
-      "route_name": "Lahore Route 18 - Cavalry Ground",
-      "day_of_week": "Wednesday",
-      "frequency": "Daily",
-      "stops": [
-        {
-          "stop_order": 1,
-          "customer": "Fatima Memorial Private Hospital 22"
-        },
-        {
-          "stop_order": 2,
-          "customer": "CMH Medical Center 39"
-        },
-        {
-          "stop_order": 3,
-          "customer": "Sir Ganga Ram Medical Center 33"
-        },
-        {
-          "stop_order": 4,
-          "customer": "National District Hospital 17"
-        }
-      ],
-      "estimated_duration_hrs": 7.8,
-      "vehicle_type": "Hino 300"
+      "route_name": "Lahore Route R18",
+      "day_of_week": "Monday-Friday",
+      "frequency": "2x/week",
+      "stops": 12,
+      "estimated_duration_hrs": 6.8,
+      "vehicle_type": "Hino 300",
+      "region": "Lahore"
     },
     {
       "route_code": "LHR-R19",
-      "route_name": "Lahore Route 19 - Askari 10",
-      "day_of_week": "Saturday",
+      "route_name": "Lahore Route R19",
+      "day_of_week": "Monday-Saturday",
       "frequency": "2x/week",
-      "stops": [
-        {
-          "stop_order": 1,
-          "customer": "Agha Khan Lab Medical Center 53"
-        },
-        {
-          "stop_order": 2,
-          "customer": "Sir Ganga Ram Medical Center 33"
-        },
-        {
-          "stop_order": 3,
-          "customer": "Sheikh Zayed Medical Center 37"
-        },
-        {
-          "stop_order": 4,
-          "customer": "Prime Tertiary Hospital 10"
-        }
-      ],
-      "estimated_duration_hrs": 6.7,
-      "vehicle_type": "Hino 300"
+      "stops": 9,
+      "estimated_duration_hrs": 4.3,
+      "vehicle_type": "Mitsubishi Canter",
+      "region": "Lahore"
     },
     {
       "route_code": "LHR-R20",
-      "route_name": "Lahore Route 20 - Gulshan-e-Ravi",
-      "day_of_week": "Wednesday",
-      "frequency": "Daily",
-      "stops": [
-        {
-          "stop_order": 1,
-          "customer": "Lady Aitchison Specialist Clinic 31"
-        },
-        {
-          "stop_order": 2,
-          "customer": "Allied Teaching Hospital 18"
-        },
-        {
-          "stop_order": 3,
-          "customer": "Prime Medical Center 47"
-        },
-        {
-          "stop_order": 4,
-          "customer": "Ghurki Trust Medical Center 45"
-        }
-      ],
-      "estimated_duration_hrs": 5.1,
-      "vehicle_type": "Hyundai H-100"
+      "route_name": "Lahore Route R20",
+      "day_of_week": "Mon/Wed/Fri",
+      "frequency": "Weekly",
+      "stops": 4,
+      "estimated_duration_hrs": 1.3,
+      "vehicle_type": "Toyota Dyna",
+      "region": "Lahore"
     },
     {
       "route_code": "LHR-R21",
-      "route_name": "Lahore Route 21 - EME Society",
-      "day_of_week": "Tuesday",
-      "frequency": "Weekly",
-      "stops": [
-        {
-          "stop_order": 1,
-          "customer": "Surgimed Diagnostic Laboratory 26"
-        },
-        {
-          "stop_order": 2,
-          "customer": "Farooq Maternity Hospital 29"
-        },
-        {
-          "stop_order": 3,
-          "customer": "National Medical Center 54"
-        }
-      ],
-      "estimated_duration_hrs": 7.1,
-      "vehicle_type": "Hino 300"
+      "route_name": "Lahore Route R21",
+      "day_of_week": "Daily",
+      "frequency": "2x/week",
+      "stops": 8,
+      "estimated_duration_hrs": 4.4,
+      "vehicle_type": "Isuzu NQR",
+      "region": "Lahore"
     },
     {
       "route_code": "LHR-R22",
-      "route_name": "Lahore Route 22 - Samanabad",
-      "day_of_week": "Saturday",
+      "route_name": "Lahore Route R22",
+      "day_of_week": "Monday-Friday",
       "frequency": "Weekly",
-      "stops": [
-        {
-          "stop_order": 1,
-          "customer": "Sir Ganga Ram Medical Center 40"
-        },
-        {
-          "stop_order": 2,
-          "customer": "Lahore General District Hospital 13"
-        },
-        {
-          "stop_order": 3,
-          "customer": "Wapda Teaching Medical Center 51"
-        },
-        {
-          "stop_order": 4,
-          "customer": "CMH Medical Center 39"
-        }
-      ],
-      "estimated_duration_hrs": 6.6,
-      "vehicle_type": "Isuzu NPR"
+      "stops": 5,
+      "estimated_duration_hrs": 2.5,
+      "vehicle_type": "Hino 300",
+      "region": "Lahore"
     },
     {
       "route_code": "LHR-R23",
-      "route_name": "Lahore Route 23 - Bahria Town",
-      "day_of_week": "Tuesday",
-      "frequency": "3x/week",
-      "stops": [
-        {
-          "stop_order": 1,
-          "customer": "Punjab District Hospital 12"
-        },
-        {
-          "stop_order": 2,
-          "customer": "Prime Tertiary Hospital 10"
-        },
-        {
-          "stop_order": 3,
-          "customer": "Lahore General District Hospital 13"
-        }
-      ],
-      "estimated_duration_hrs": 7.6,
-      "vehicle_type": "Hino 300"
+      "route_name": "Lahore Route R23",
+      "day_of_week": "Monday-Saturday",
+      "frequency": "Weekly",
+      "stops": 11,
+      "estimated_duration_hrs": 5.6,
+      "vehicle_type": "Hino 300",
+      "region": "Lahore"
     },
     {
       "route_code": "LHR-R24",
-      "route_name": "Lahore Route 24 - Johar Town",
-      "day_of_week": "Saturday",
+      "route_name": "Lahore Route R24",
+      "day_of_week": "Tue/Thu/Sat",
       "frequency": "2x/week",
-      "stops": [
-        {
-          "stop_order": 1,
-          "customer": "Sheikh Zayed Medical Center 41"
-        },
-        {
-          "stop_order": 2,
-          "customer": "Shalimar Tertiary Hospital 04"
-        },
-        {
-          "stop_order": 3,
-          "customer": "Children Maternity Hospital 30"
-        },
-        {
-          "stop_order": 4,
-          "customer": "Ittefaq Private Hospital 24"
-        }
-      ],
-      "estimated_duration_hrs": 7.0,
-      "vehicle_type": "Isuzu NPR"
+      "stops": 9,
+      "estimated_duration_hrs": 3.7,
+      "vehicle_type": "Isuzu NQR",
+      "region": "Lahore"
     },
     {
       "route_code": "LHR-R25",
-      "route_name": "Lahore Route 25 - Allama Iqbal Town",
-      "day_of_week": "Monday",
-      "frequency": "Weekly",
-      "stops": [
-        {
-          "stop_order": 1,
-          "customer": "LifeLine Tertiary Hospital 09"
-        },
-        {
-          "stop_order": 2,
-          "customer": "Aziz Fatimah Diagnostic Laboratory 28"
-        },
-        {
-          "stop_order": 3,
-          "customer": "National Medical Center 54"
-        }
-      ],
-      "estimated_duration_hrs": 7.4,
-      "vehicle_type": "Hyundai H-100"
+      "route_name": "Lahore Route R25",
+      "day_of_week": "Monday-Friday",
+      "frequency": "2x/week",
+      "stops": 10,
+      "estimated_duration_hrs": 4.4,
+      "vehicle_type": "Hino 300",
+      "region": "Lahore"
     },
     {
       "route_code": "LHR-R26",
-      "route_name": "Lahore Route 26 - Gulberg",
-      "day_of_week": "Thursday",
+      "route_name": "Lahore Route R26",
+      "day_of_week": "Mon/Wed/Fri",
       "frequency": "Daily",
-      "stops": [
-        {
-          "stop_order": 1,
-          "customer": "Punjab District Hospital 12"
-        },
-        {
-          "stop_order": 2,
-          "customer": "Sir Ganga Ram Medical Center 40"
-        },
-        {
-          "stop_order": 3,
-          "customer": "Surgimed Medical Center 34"
-        }
-      ],
-      "estimated_duration_hrs": 3.8,
-      "vehicle_type": "Hyundai H-100"
+      "stops": 6,
+      "estimated_duration_hrs": 3.1,
+      "vehicle_type": "Toyota Dyna",
+      "region": "Lahore"
     },
     {
       "route_code": "LHR-R27",
-      "route_name": "Lahore Route 27 - DHA Phase 1",
-      "day_of_week": "Friday",
+      "route_name": "Lahore Route R27",
+      "day_of_week": "Daily",
       "frequency": "3x/week",
-      "stops": [
-        {
-          "stop_order": 1,
-          "customer": "City Care Tertiary Hospital 06"
-        },
-        {
-          "stop_order": 2,
-          "customer": "Surgimed Diagnostic Laboratory 26"
-        },
-        {
-          "stop_order": 3,
-          "customer": "Jinnah Tertiary Hospital 02"
-        },
-        {
-          "stop_order": 4,
-          "customer": "Gulab Devi Teaching Hospital 20"
-        },
-        {
-          "stop_order": 5,
-          "customer": "Wapda Teaching Medical Center 51"
-        },
-        {
-          "stop_order": 6,
-          "customer": "Children Medical Center 46"
-        },
-        {
-          "stop_order": 7,
-          "customer": "Citi Lab Medical Center 38"
-        },
-        {
-          "stop_order": 8,
-          "customer": "Services Tertiary Hospital 03"
-        }
-      ],
-      "estimated_duration_hrs": 7.8,
-      "vehicle_type": "Isuzu NPR"
+      "stops": 8,
+      "estimated_duration_hrs": 4.1,
+      "vehicle_type": "Hino 300",
+      "region": "Lahore"
     },
     {
       "route_code": "LHR-R28",
-      "route_name": "Lahore Route 28 - Model Town",
-      "day_of_week": "Wednesday",
+      "route_name": "Lahore Route R28",
+      "day_of_week": "Tue/Thu/Sat",
       "frequency": "Weekly",
-      "stops": [
-        {
-          "stop_order": 1,
-          "customer": "Shalimar Tertiary Hospital 04"
-        },
-        {
-          "stop_order": 2,
-          "customer": "Services Tertiary Hospital 03"
-        },
-        {
-          "stop_order": 3,
-          "customer": "Hameed Latif District Hospital 15"
-        },
-        {
-          "stop_order": 4,
-          "customer": "Sir Ganga Ram Medical Center 40"
-        },
-        {
-          "stop_order": 5,
-          "customer": "Sheikh Zayed Medical Center 37"
-        }
-      ],
-      "estimated_duration_hrs": 5.7,
-      "vehicle_type": "Hino 300"
+      "stops": 12,
+      "estimated_duration_hrs": 5.4,
+      "vehicle_type": "Hino 300",
+      "region": "Lahore"
     },
     {
       "route_code": "LHR-R29",
-      "route_name": "Lahore Route 29 - DHA Phase 1",
-      "day_of_week": "Tuesday",
+      "route_name": "Lahore Route R29",
+      "day_of_week": "Daily",
       "frequency": "2x/week",
-      "stops": [
-        {
-          "stop_order": 1,
-          "customer": "Sheikh Zayed District Hospital 14"
-        },
-        {
-          "stop_order": 2,
-          "customer": "Allied Teaching Hospital 18"
-        },
-        {
-          "stop_order": 3,
-          "customer": "Farooq Maternity Hospital 29"
-        },
-        {
-          "stop_order": 4,
-          "customer": "Noor Tertiary Hospital 07"
-        },
-        {
-          "stop_order": 5,
-          "customer": "Excel Labs Medical Center 52"
-        }
-      ],
-      "estimated_duration_hrs": 6.3,
-      "vehicle_type": "Hino 300"
+      "stops": 12,
+      "estimated_duration_hrs": 5.6,
+      "vehicle_type": "Isuzu NQR",
+      "region": "Lahore"
     },
     {
       "route_code": "LHR-R30",
-      "route_name": "Lahore Route 30 - Samanabad",
-      "day_of_week": "Friday",
+      "route_name": "Lahore Route R30",
+      "day_of_week": "Monday-Saturday",
       "frequency": "Daily",
-      "stops": [
-        {
-          "stop_order": 1,
-          "customer": "Sharif Medical Private Hospital 23"
-        },
-        {
-          "stop_order": 2,
-          "customer": "Children Medical Center 46"
-        },
-        {
-          "stop_order": 3,
-          "customer": "CMH Medical Center 39"
-        },
-        {
-          "stop_order": 4,
-          "customer": "Prime Tertiary Hospital 10"
-        },
-        {
-          "stop_order": 5,
-          "customer": "Lahore Eye Medical Center 32"
-        },
-        {
-          "stop_order": 6,
-          "customer": "National Medical Center 48"
-        },
-        {
-          "stop_order": 7,
-          "customer": "National District Hospital 17"
-        }
-      ],
+      "stops": 10,
+      "estimated_duration_hrs": 3.2,
+      "vehicle_type": "Mitsubishi Canter",
+      "region": "Lahore"
+    },
+    {
+      "route_code": "RWP-R01",
+      "route_name": "Rawalpindi Route R01",
+      "day_of_week": "Monday-Friday",
+      "frequency": "2x/week",
+      "stops": 7,
+      "estimated_duration_hrs": 2.9,
+      "vehicle_type": "Toyota Dyna",
+      "region": "Rawalpindi"
+    },
+    {
+      "route_code": "RWP-R02",
+      "route_name": "Rawalpindi Route R02",
+      "day_of_week": "Monday-Saturday",
+      "frequency": "3x/week",
+      "stops": 12,
+      "estimated_duration_hrs": 6.4,
+      "vehicle_type": "Hino 300",
+      "region": "Rawalpindi"
+    },
+    {
+      "route_code": "RWP-R03",
+      "route_name": "Rawalpindi Route R03",
+      "day_of_week": "Daily",
+      "frequency": "Daily",
+      "stops": 4,
+      "estimated_duration_hrs": 1.5,
+      "vehicle_type": "Toyota Dyna",
+      "region": "Rawalpindi"
+    },
+    {
+      "route_code": "RWP-R04",
+      "route_name": "Rawalpindi Route R04",
+      "day_of_week": "Monday-Friday",
+      "frequency": "Weekly",
+      "stops": 10,
+      "estimated_duration_hrs": 5.9,
+      "vehicle_type": "Toyota Dyna",
+      "region": "Rawalpindi"
+    },
+    {
+      "route_code": "RWP-R05",
+      "route_name": "Rawalpindi Route R05",
+      "day_of_week": "Daily",
+      "frequency": "Daily",
+      "stops": 12,
+      "estimated_duration_hrs": 5.5,
+      "vehicle_type": "Isuzu NQR",
+      "region": "Rawalpindi"
+    },
+    {
+      "route_code": "RWP-R06",
+      "route_name": "Rawalpindi Route R06",
+      "day_of_week": "Monday-Saturday",
+      "frequency": "3x/week",
+      "stops": 5,
+      "estimated_duration_hrs": 1.6,
+      "vehicle_type": "Mitsubishi Canter",
+      "region": "Rawalpindi"
+    },
+    {
+      "route_code": "RWP-R07",
+      "route_name": "Rawalpindi Route R07",
+      "day_of_week": "Tue/Thu/Sat",
+      "frequency": "Weekly",
+      "stops": 9,
+      "estimated_duration_hrs": 4.0,
+      "vehicle_type": "Hino 300",
+      "region": "Rawalpindi"
+    },
+    {
+      "route_code": "RWP-R08",
+      "route_name": "Rawalpindi Route R08",
+      "day_of_week": "Mon/Wed/Fri",
+      "frequency": "3x/week",
+      "stops": 7,
+      "estimated_duration_hrs": 2.8,
+      "vehicle_type": "Isuzu NQR",
+      "region": "Rawalpindi"
+    },
+    {
+      "route_code": "RWP-R09",
+      "route_name": "Rawalpindi Route R09",
+      "day_of_week": "Tue/Thu/Sat",
+      "frequency": "3x/week",
+      "stops": 12,
+      "estimated_duration_hrs": 5.6,
+      "vehicle_type": "Mitsubishi Canter",
+      "region": "Rawalpindi"
+    },
+    {
+      "route_code": "RWP-R10",
+      "route_name": "Rawalpindi Route R10",
+      "day_of_week": "Tue/Thu/Sat",
+      "frequency": "3x/week",
+      "stops": 4,
+      "estimated_duration_hrs": 2.1,
+      "vehicle_type": "Isuzu NQR",
+      "region": "Rawalpindi"
+    },
+    {
+      "route_code": "FSD-R01",
+      "route_name": "Faisalabad Route R01",
+      "day_of_week": "Mon/Wed/Fri",
+      "frequency": "2x/week",
+      "stops": 5,
+      "estimated_duration_hrs": 2.3,
+      "vehicle_type": "Mitsubishi Canter",
+      "region": "Faisalabad"
+    },
+    {
+      "route_code": "FSD-R02",
+      "route_name": "Faisalabad Route R02",
+      "day_of_week": "Tue/Thu/Sat",
+      "frequency": "Weekly",
+      "stops": 10,
+      "estimated_duration_hrs": 3.9,
+      "vehicle_type": "Toyota Dyna",
+      "region": "Faisalabad"
+    },
+    {
+      "route_code": "FSD-R03",
+      "route_name": "Faisalabad Route R03",
+      "day_of_week": "Mon/Wed/Fri",
+      "frequency": "Daily",
+      "stops": 5,
+      "estimated_duration_hrs": 1.6,
+      "vehicle_type": "Toyota Dyna",
+      "region": "Faisalabad"
+    },
+    {
+      "route_code": "FSD-R04",
+      "route_name": "Faisalabad Route R04",
+      "day_of_week": "Mon/Wed/Fri",
+      "frequency": "3x/week",
+      "stops": 7,
+      "estimated_duration_hrs": 2.6,
+      "vehicle_type": "Toyota Dyna",
+      "region": "Faisalabad"
+    },
+    {
+      "route_code": "FSD-R05",
+      "route_name": "Faisalabad Route R05",
+      "day_of_week": "Mon/Wed/Fri",
+      "frequency": "Weekly",
+      "stops": 10,
+      "estimated_duration_hrs": 5.3,
+      "vehicle_type": "Mitsubishi Canter",
+      "region": "Faisalabad"
+    },
+    {
+      "route_code": "FSD-R06",
+      "route_name": "Faisalabad Route R06",
+      "day_of_week": "Monday-Friday",
+      "frequency": "2x/week",
+      "stops": 4,
+      "estimated_duration_hrs": 1.5,
+      "vehicle_type": "Hino 300",
+      "region": "Faisalabad"
+    },
+    {
+      "route_code": "FSD-R07",
+      "route_name": "Faisalabad Route R07",
+      "day_of_week": "Mon/Wed/Fri",
+      "frequency": "Daily",
+      "stops": 12,
+      "estimated_duration_hrs": 3.8,
+      "vehicle_type": "Mitsubishi Canter",
+      "region": "Faisalabad"
+    },
+    {
+      "route_code": "MLT-R01",
+      "route_name": "Multan Route R01",
+      "day_of_week": "Tue/Thu/Sat",
+      "frequency": "Weekly",
+      "stops": 9,
       "estimated_duration_hrs": 5.1,
-      "vehicle_type": "Hino 300"
+      "vehicle_type": "Isuzu NQR",
+      "region": "Multan"
+    },
+    {
+      "route_code": "MLT-R02",
+      "route_name": "Multan Route R02",
+      "day_of_week": "Monday-Friday",
+      "frequency": "2x/week",
+      "stops": 10,
+      "estimated_duration_hrs": 4.5,
+      "vehicle_type": "Hino 300",
+      "region": "Multan"
+    },
+    {
+      "route_code": "MLT-R03",
+      "route_name": "Multan Route R03",
+      "day_of_week": "Tue/Thu/Sat",
+      "frequency": "2x/week",
+      "stops": 11,
+      "estimated_duration_hrs": 5.0,
+      "vehicle_type": "Hino 300",
+      "region": "Multan"
+    },
+    {
+      "route_code": "MLT-R04",
+      "route_name": "Multan Route R04",
+      "day_of_week": "Monday-Friday",
+      "frequency": "Daily",
+      "stops": 9,
+      "estimated_duration_hrs": 3.6,
+      "vehicle_type": "Toyota Dyna",
+      "region": "Multan"
+    },
+    {
+      "route_code": "MLT-R05",
+      "route_name": "Multan Route R05",
+      "day_of_week": "Mon/Wed/Fri",
+      "frequency": "Weekly",
+      "stops": 11,
+      "estimated_duration_hrs": 3.4,
+      "vehicle_type": "Toyota Dyna",
+      "region": "Multan"
     }
   ]
 }

@@ -1,3 +1,2404 @@
 {
-  "entries": []
+  "entries": [
+    {
+      "journal_ref": "JV-DEMO-000001",
+      "posting_date": "2023-03-10",
+      "voucher_type": "Journal Entry",
+      "amount_pkr": 1088326,
+      "cost_center": "Fleet & Transport - ENXI",
+      "remarks": "Fuel and logistics expense"
+    },
+    {
+      "journal_ref": "JV-DEMO-000002",
+      "posting_date": "2023-03-12",
+      "voucher_type": "Cash Entry",
+      "amount_pkr": 1060658,
+      "cost_center": "Waste Operations - ENXI",
+      "remarks": "PPE and safety supplies"
+    },
+    {
+      "journal_ref": "JV-DEMO-000003",
+      "posting_date": "2023-03-13",
+      "voucher_type": "Cash Entry",
+      "amount_pkr": 475292,
+      "cost_center": "HR & Payroll - ENXI",
+      "remarks": "Payroll processing"
+    },
+    {
+      "journal_ref": "JV-DEMO-000004",
+      "posting_date": "2023-03-17",
+      "voucher_type": "Cash Entry",
+      "amount_pkr": 1918611,
+      "cost_center": "Administration - ENXI",
+      "remarks": "Bank charges"
+    },
+    {
+      "journal_ref": "JV-DEMO-000005",
+      "posting_date": "2023-03-20",
+      "voucher_type": "Cash Entry",
+      "amount_pkr": 646879,
+      "cost_center": "Administration - ENXI",
+      "remarks": "Insurance premium payment"
+    },
+    {
+      "journal_ref": "JV-DEMO-000006",
+      "posting_date": "2023-03-23",
+      "voucher_type": "Journal Entry",
+      "amount_pkr": 499637,
+      "cost_center": "Administration - ENXI",
+      "remarks": "Insurance premium payment"
+    },
+    {
+      "journal_ref": "JV-DEMO-000007",
+      "posting_date": "2023-03-24",
+      "voucher_type": "Cash Entry",
+      "amount_pkr": 1550223,
+      "cost_center": "Administration - ENXI",
+      "remarks": "Insurance premium payment"
+    },
+    {
+      "journal_ref": "JV-DEMO-000008",
+      "posting_date": "2023-03-31",
+      "voucher_type": "Cash Entry",
+      "amount_pkr": 1150863,
+      "cost_center": "Janitorial Services - ENXI",
+      "remarks": "Revenue accrual - janitorial"
+    },
+    {
+      "journal_ref": "JV-DEMO-000009",
+      "posting_date": "2023-04-06",
+      "voucher_type": "Cash Entry",
+      "amount_pkr": 1135369,
+      "cost_center": "Administration - ENXI",
+      "remarks": "Insurance premium payment"
+    },
+    {
+      "journal_ref": "JV-DEMO-000010",
+      "posting_date": "2023-04-10",
+      "voucher_type": "Journal Entry",
+      "amount_pkr": 1254018,
+      "cost_center": "Incinerator Ops - ENXI",
+      "remarks": "Facility operating cost"
+    },
+    {
+      "journal_ref": "JV-DEMO-000011",
+      "posting_date": "2023-04-11",
+      "voucher_type": "Cash Entry",
+      "amount_pkr": 1577062,
+      "cost_center": "HR & Payroll - ENXI",
+      "remarks": "Payroll processing"
+    },
+    {
+      "journal_ref": "JV-DEMO-000012",
+      "posting_date": "2023-04-21",
+      "voucher_type": "Journal Entry",
+      "amount_pkr": 1070581,
+      "cost_center": "Administration - ENXI",
+      "remarks": "IT infrastructure cost"
+    },
+    {
+      "journal_ref": "JV-DEMO-000013",
+      "posting_date": "2023-04-23",
+      "voucher_type": "Bank Entry",
+      "amount_pkr": 509429,
+      "cost_center": "Administration - ENXI",
+      "remarks": "Insurance premium payment"
+    },
+    {
+      "journal_ref": "JV-DEMO-000014",
+      "posting_date": "2023-04-25",
+      "voucher_type": "Journal Entry",
+      "amount_pkr": 1629698,
+      "cost_center": "Janitorial Services - ENXI",
+      "remarks": "Revenue accrual - janitorial"
+    },
+    {
+      "journal_ref": "JV-DEMO-000015",
+      "posting_date": "2023-05-01",
+      "voucher_type": "Cash Entry",
+      "amount_pkr": 828774,
+      "cost_center": "Incinerator Ops - ENXI",
+      "remarks": "Incinerator fuel procurement"
+    },
+    {
+      "journal_ref": "JV-DEMO-000016",
+      "posting_date": "2023-05-03",
+      "voucher_type": "Bank Entry",
+      "amount_pkr": 788906,
+      "cost_center": "Fleet & Transport - ENXI",
+      "remarks": "Vehicle maintenance expense"
+    },
+    {
+      "journal_ref": "JV-DEMO-000017",
+      "posting_date": "2023-05-05",
+      "voucher_type": "Bank Entry",
+      "amount_pkr": 1797347,
+      "cost_center": "Fleet & Transport - ENXI",
+      "remarks": "Vehicle maintenance expense"
+    },
+    {
+      "journal_ref": "JV-DEMO-000018",
+      "posting_date": "2023-05-10",
+      "voucher_type": "Journal Entry",
+      "amount_pkr": 1418147,
+      "cost_center": "Training - ENXI",
+      "remarks": "Training program cost"
+    },
+    {
+      "journal_ref": "JV-DEMO-000019",
+      "posting_date": "2023-05-10",
+      "voucher_type": "Bank Entry",
+      "amount_pkr": 552974,
+      "cost_center": "Administration - ENXI",
+      "remarks": "Office rent and utilities"
+    },
+    {
+      "journal_ref": "JV-DEMO-000020",
+      "posting_date": "2023-05-15",
+      "voucher_type": "Journal Entry",
+      "amount_pkr": 1719415,
+      "cost_center": "Administration - ENXI",
+      "remarks": "Bank charges"
+    },
+    {
+      "journal_ref": "JV-DEMO-000021",
+      "posting_date": "2023-05-18",
+      "voucher_type": "Bank Entry",
+      "amount_pkr": 105136,
+      "cost_center": "Administration - ENXI",
+      "remarks": "Insurance premium payment"
+    },
+    {
+      "journal_ref": "JV-DEMO-000022",
+      "posting_date": "2023-05-21",
+      "voucher_type": "Cash Entry",
+      "amount_pkr": 930684,
+      "cost_center": "Biomedical Equipment - ENXI",
+      "remarks": "Equipment depreciation entry"
+    },
+    {
+      "journal_ref": "JV-DEMO-000023",
+      "posting_date": "2023-05-25",
+      "voucher_type": "Bank Entry",
+      "amount_pkr": 718468,
+      "cost_center": "Administration - ENXI",
+      "remarks": "Insurance premium payment"
+    },
+    {
+      "journal_ref": "JV-DEMO-000024",
+      "posting_date": "2023-05-29",
+      "voucher_type": "Journal Entry",
+      "amount_pkr": 362515,
+      "cost_center": "Administration - ENXI",
+      "remarks": "Insurance premium payment"
+    },
+    {
+      "journal_ref": "JV-DEMO-000025",
+      "posting_date": "2023-05-29",
+      "voucher_type": "Cash Entry",
+      "amount_pkr": 1355527,
+      "cost_center": "HR & Payroll - ENXI",
+      "remarks": "Payroll processing"
+    },
+    {
+      "journal_ref": "JV-DEMO-000026",
+      "posting_date": "2023-06-04",
+      "voucher_type": "Journal Entry",
+      "amount_pkr": 1866262,
+      "cost_center": "Waste Operations - ENXI",
+      "remarks": "PPE and safety supplies"
+    },
+    {
+      "journal_ref": "JV-DEMO-000027",
+      "posting_date": "2023-06-09",
+      "voucher_type": "Bank Entry",
+      "amount_pkr": 1075221,
+      "cost_center": "Fleet & Transport - ENXI",
+      "remarks": "Vehicle maintenance expense"
+    },
+    {
+      "journal_ref": "JV-DEMO-000028",
+      "posting_date": "2023-06-10",
+      "voucher_type": "Cash Entry",
+      "amount_pkr": 555712,
+      "cost_center": "Waste Operations - ENXI",
+      "remarks": "Revenue accrual - waste services"
+    },
+    {
+      "journal_ref": "JV-DEMO-000029",
+      "posting_date": "2023-06-11",
+      "voucher_type": "Journal Entry",
+      "amount_pkr": 1727682,
+      "cost_center": "Incinerator Ops - ENXI",
+      "remarks": "Facility operating cost"
+    },
+    {
+      "journal_ref": "JV-DEMO-000030",
+      "posting_date": "2023-06-14",
+      "voucher_type": "Cash Entry",
+      "amount_pkr": 1096421,
+      "cost_center": "Fleet & Transport - ENXI",
+      "remarks": "Fuel and logistics expense"
+    },
+    {
+      "journal_ref": "JV-DEMO-000031",
+      "posting_date": "2023-06-14",
+      "voucher_type": "Cash Entry",
+      "amount_pkr": 1205031,
+      "cost_center": "Fleet & Transport - ENXI",
+      "remarks": "Vehicle maintenance expense"
+    },
+    {
+      "journal_ref": "JV-DEMO-000032",
+      "posting_date": "2023-06-17",
+      "voucher_type": "Bank Entry",
+      "amount_pkr": 1853752,
+      "cost_center": "Training - ENXI",
+      "remarks": "Training program cost"
+    },
+    {
+      "journal_ref": "JV-DEMO-000033",
+      "posting_date": "2023-06-17",
+      "voucher_type": "Journal Entry",
+      "amount_pkr": 1999813,
+      "cost_center": "Administration - ENXI",
+      "remarks": "Office rent and utilities"
+    },
+    {
+      "journal_ref": "JV-DEMO-000034",
+      "posting_date": "2023-06-19",
+      "voucher_type": "Cash Entry",
+      "amount_pkr": 425520,
+      "cost_center": "Fleet & Transport - ENXI",
+      "remarks": "Vehicle maintenance expense"
+    },
+    {
+      "journal_ref": "JV-DEMO-000035",
+      "posting_date": "2023-06-26",
+      "voucher_type": "Journal Entry",
+      "amount_pkr": 1077929,
+      "cost_center": "Administration - ENXI",
+      "remarks": "Bank charges"
+    },
+    {
+      "journal_ref": "JV-DEMO-000036",
+      "posting_date": "2023-06-26",
+      "voucher_type": "Cash Entry",
+      "amount_pkr": 1791036,
+      "cost_center": "Training - ENXI",
+      "remarks": "Training program cost"
+    },
+    {
+      "journal_ref": "JV-DEMO-000037",
+      "posting_date": "2023-06-27",
+      "voucher_type": "Cash Entry",
+      "amount_pkr": 352618,
+      "cost_center": "Administration - ENXI",
+      "remarks": "Office rent and utilities"
+    },
+    {
+      "journal_ref": "JV-DEMO-000038",
+      "posting_date": "2023-07-07",
+      "voucher_type": "Journal Entry",
+      "amount_pkr": 1532246,
+      "cost_center": "Administration - ENXI",
+      "remarks": "Insurance premium payment"
+    },
+    {
+      "journal_ref": "JV-DEMO-000039",
+      "posting_date": "2023-07-15",
+      "voucher_type": "Bank Entry",
+      "amount_pkr": 742599,
+      "cost_center": "Fleet & Transport - ENXI",
+      "remarks": "Fuel and logistics expense"
+    },
+    {
+      "journal_ref": "JV-DEMO-000040",
+      "posting_date": "2023-07-19",
+      "voucher_type": "Cash Entry",
+      "amount_pkr": 1262944,
+      "cost_center": "Administration - ENXI",
+      "remarks": "Professional services fee"
+    },
+    {
+      "journal_ref": "JV-DEMO-000041",
+      "posting_date": "2023-07-23",
+      "voucher_type": "Cash Entry",
+      "amount_pkr": 160530,
+      "cost_center": "Training - ENXI",
+      "remarks": "Training program cost"
+    },
+    {
+      "journal_ref": "JV-DEMO-000042",
+      "posting_date": "2023-07-28",
+      "voucher_type": "Bank Entry",
+      "amount_pkr": 1832998,
+      "cost_center": "Administration - ENXI",
+      "remarks": "IT infrastructure cost"
+    },
+    {
+      "journal_ref": "JV-DEMO-000043",
+      "posting_date": "2023-07-28",
+      "voucher_type": "Bank Entry",
+      "amount_pkr": 1988591,
+      "cost_center": "Training - ENXI",
+      "remarks": "Training program cost"
+    },
+    {
+      "journal_ref": "JV-DEMO-000044",
+      "posting_date": "2023-08-09",
+      "voucher_type": "Cash Entry",
+      "amount_pkr": 627993,
+      "cost_center": "Training - ENXI",
+      "remarks": "Training program cost"
+    },
+    {
+      "journal_ref": "JV-DEMO-000045",
+      "posting_date": "2023-08-09",
+      "voucher_type": "Journal Entry",
+      "amount_pkr": 124551,
+      "cost_center": "Administration - ENXI",
+      "remarks": "Insurance premium payment"
+    },
+    {
+      "journal_ref": "JV-DEMO-000046",
+      "posting_date": "2023-08-12",
+      "voucher_type": "Cash Entry",
+      "amount_pkr": 1672723,
+      "cost_center": "Administration - ENXI",
+      "remarks": "Professional services fee"
+    },
+    {
+      "journal_ref": "JV-DEMO-000047",
+      "posting_date": "2023-08-14",
+      "voucher_type": "Cash Entry",
+      "amount_pkr": 1108130,
+      "cost_center": "Waste Operations - ENXI",
+      "remarks": "PPE and safety supplies"
+    },
+    {
+      "journal_ref": "JV-DEMO-000048",
+      "posting_date": "2023-08-15",
+      "voucher_type": "Journal Entry",
+      "amount_pkr": 1070197,
+      "cost_center": "Incinerator Ops - ENXI",
+      "remarks": "Incinerator fuel procurement"
+    },
+    {
+      "journal_ref": "JV-DEMO-000049",
+      "posting_date": "2023-08-24",
+      "voucher_type": "Bank Entry",
+      "amount_pkr": 494277,
+      "cost_center": "HR & Payroll - ENXI",
+      "remarks": "Payroll processing"
+    },
+    {
+      "journal_ref": "JV-DEMO-000050",
+      "posting_date": "2023-08-26",
+      "voucher_type": "Bank Entry",
+      "amount_pkr": 172619,
+      "cost_center": "Waste Operations - ENXI",
+      "remarks": "PPE and safety supplies"
+    },
+    {
+      "journal_ref": "JV-DEMO-000051",
+      "posting_date": "2023-08-28",
+      "voucher_type": "Bank Entry",
+      "amount_pkr": 1495894,
+      "cost_center": "Fleet & Transport - ENXI",
+      "remarks": "Fuel and logistics expense"
+    },
+    {
+      "journal_ref": "JV-DEMO-000052",
+      "posting_date": "2023-08-31",
+      "voucher_type": "Bank Entry",
+      "amount_pkr": 627714,
+      "cost_center": "Fleet & Transport - ENXI",
+      "remarks": "Fuel and logistics expense"
+    },
+    {
+      "journal_ref": "JV-DEMO-000053",
+      "posting_date": "2023-09-06",
+      "voucher_type": "Cash Entry",
+      "amount_pkr": 893986,
+      "cost_center": "Waste Operations - ENXI",
+      "remarks": "Revenue accrual - waste services"
+    },
+    {
+      "journal_ref": "JV-DEMO-000054",
+      "posting_date": "2023-09-17",
+      "voucher_type": "Journal Entry",
+      "amount_pkr": 404006,
+      "cost_center": "Training - ENXI",
+      "remarks": "Training program cost"
+    },
+    {
+      "journal_ref": "JV-DEMO-000055",
+      "posting_date": "2023-09-19",
+      "voucher_type": "Cash Entry",
+      "amount_pkr": 1757718,
+      "cost_center": "Janitorial Services - ENXI",
+      "remarks": "Revenue accrual - janitorial"
+    },
+    {
+      "journal_ref": "JV-DEMO-000056",
+      "posting_date": "2023-09-25",
+      "voucher_type": "Bank Entry",
+      "amount_pkr": 1865304,
+      "cost_center": "Waste Operations - ENXI",
+      "remarks": "Revenue accrual - waste services"
+    },
+    {
+      "journal_ref": "JV-DEMO-000057",
+      "posting_date": "2023-09-25",
+      "voucher_type": "Bank Entry",
+      "amount_pkr": 1235819,
+      "cost_center": "Biomedical Equipment - ENXI",
+      "remarks": "Equipment depreciation entry"
+    },
+    {
+      "journal_ref": "JV-DEMO-000058",
+      "posting_date": "2023-09-25",
+      "voucher_type": "Journal Entry",
+      "amount_pkr": 383754,
+      "cost_center": "Biomedical Equipment - ENXI",
+      "remarks": "Equipment depreciation entry"
+    },
+    {
+      "journal_ref": "JV-DEMO-000059",
+      "posting_date": "2023-10-03",
+      "voucher_type": "Cash Entry",
+      "amount_pkr": 853577,
+      "cost_center": "Incinerator Ops - ENXI",
+      "remarks": "Incinerator fuel procurement"
+    },
+    {
+      "journal_ref": "JV-DEMO-000060",
+      "posting_date": "2023-10-14",
+      "voucher_type": "Bank Entry",
+      "amount_pkr": 1059743,
+      "cost_center": "Waste Operations - ENXI",
+      "remarks": "PPE and safety supplies"
+    },
+    {
+      "journal_ref": "JV-DEMO-000061",
+      "posting_date": "2023-10-20",
+      "voucher_type": "Cash Entry",
+      "amount_pkr": 1475685,
+      "cost_center": "Administration - ENXI",
+      "remarks": "Insurance premium payment"
+    },
+    {
+      "journal_ref": "JV-DEMO-000062",
+      "posting_date": "2023-10-21",
+      "voucher_type": "Bank Entry",
+      "amount_pkr": 727130,
+      "cost_center": "Administration - ENXI",
+      "remarks": "Professional services fee"
+    },
+    {
+      "journal_ref": "JV-DEMO-000063",
+      "posting_date": "2023-10-21",
+      "voucher_type": "Cash Entry",
+      "amount_pkr": 412214,
+      "cost_center": "Administration - ENXI",
+      "remarks": "IT infrastructure cost"
+    },
+    {
+      "journal_ref": "JV-DEMO-000064",
+      "posting_date": "2023-10-23",
+      "voucher_type": "Cash Entry",
+      "amount_pkr": 916587,
+      "cost_center": "Incinerator Ops - ENXI",
+      "remarks": "Facility operating cost"
+    },
+    {
+      "journal_ref": "JV-DEMO-000065",
+      "posting_date": "2023-11-06",
+      "voucher_type": "Bank Entry",
+      "amount_pkr": 1735009,
+      "cost_center": "Administration - ENXI",
+      "remarks": "Bank charges"
+    },
+    {
+      "journal_ref": "JV-DEMO-000066",
+      "posting_date": "2023-11-08",
+      "voucher_type": "Journal Entry",
+      "amount_pkr": 212690,
+      "cost_center": "Incinerator Ops - ENXI",
+      "remarks": "Incinerator fuel procurement"
+    },
+    {
+      "journal_ref": "JV-DEMO-000067",
+      "posting_date": "2023-11-12",
+      "voucher_type": "Bank Entry",
+      "amount_pkr": 1567479,
+      "cost_center": "Fleet & Transport - ENXI",
+      "remarks": "Vehicle maintenance expense"
+    },
+    {
+      "journal_ref": "JV-DEMO-000068",
+      "posting_date": "2023-11-13",
+      "voucher_type": "Cash Entry",
+      "amount_pkr": 957548,
+      "cost_center": "Administration - ENXI",
+      "remarks": "IT infrastructure cost"
+    },
+    {
+      "journal_ref": "JV-DEMO-000069",
+      "posting_date": "2023-11-16",
+      "voucher_type": "Cash Entry",
+      "amount_pkr": 1622050,
+      "cost_center": "Administration - ENXI",
+      "remarks": "Bank charges"
+    },
+    {
+      "journal_ref": "JV-DEMO-000070",
+      "posting_date": "2023-11-17",
+      "voucher_type": "Journal Entry",
+      "amount_pkr": 1249912,
+      "cost_center": "Waste Operations - ENXI",
+      "remarks": "Revenue accrual - waste services"
+    },
+    {
+      "journal_ref": "JV-DEMO-000071",
+      "posting_date": "2023-11-18",
+      "voucher_type": "Cash Entry",
+      "amount_pkr": 659714,
+      "cost_center": "Fleet & Transport - ENXI",
+      "remarks": "Fuel and logistics expense"
+    },
+    {
+      "journal_ref": "JV-DEMO-000072",
+      "posting_date": "2023-11-19",
+      "voucher_type": "Cash Entry",
+      "amount_pkr": 1464150,
+      "cost_center": "Administration - ENXI",
+      "remarks": "Insurance premium payment"
+    },
+    {
+      "journal_ref": "JV-DEMO-000073",
+      "posting_date": "2023-11-24",
+      "voucher_type": "Cash Entry",
+      "amount_pkr": 1627381,
+      "cost_center": "Administration - ENXI",
+      "remarks": "Office rent and utilities"
+    },
+    {
+      "journal_ref": "JV-DEMO-000074",
+      "posting_date": "2023-11-25",
+      "voucher_type": "Bank Entry",
+      "amount_pkr": 666153,
+      "cost_center": "Administration - ENXI",
+      "remarks": "Bank charges"
+    },
+    {
+      "journal_ref": "JV-DEMO-000075",
+      "posting_date": "2023-12-13",
+      "voucher_type": "Cash Entry",
+      "amount_pkr": 1483990,
+      "cost_center": "Administration - ENXI",
+      "remarks": "Insurance premium payment"
+    },
+    {
+      "journal_ref": "JV-DEMO-000076",
+      "posting_date": "2023-12-18",
+      "voucher_type": "Cash Entry",
+      "amount_pkr": 878040,
+      "cost_center": "Administration - ENXI",
+      "remarks": "Office rent and utilities"
+    },
+    {
+      "journal_ref": "JV-DEMO-000077",
+      "posting_date": "2023-12-20",
+      "voucher_type": "Bank Entry",
+      "amount_pkr": 1658641,
+      "cost_center": "Janitorial Services - ENXI",
+      "remarks": "Revenue accrual - janitorial"
+    },
+    {
+      "journal_ref": "JV-DEMO-000078",
+      "posting_date": "2023-12-21",
+      "voucher_type": "Journal Entry",
+      "amount_pkr": 819210,
+      "cost_center": "Fleet & Transport - ENXI",
+      "remarks": "Vehicle maintenance expense"
+    },
+    {
+      "journal_ref": "JV-DEMO-000079",
+      "posting_date": "2023-12-28",
+      "voucher_type": "Journal Entry",
+      "amount_pkr": 1253320,
+      "cost_center": "Waste Operations - ENXI",
+      "remarks": "Revenue accrual - waste services"
+    },
+    {
+      "journal_ref": "JV-DEMO-000080",
+      "posting_date": "2024-01-11",
+      "voucher_type": "Journal Entry",
+      "amount_pkr": 1824527,
+      "cost_center": "Janitorial Services - ENXI",
+      "remarks": "Revenue accrual - janitorial"
+    },
+    {
+      "journal_ref": "JV-DEMO-000081",
+      "posting_date": "2024-01-13",
+      "voucher_type": "Bank Entry",
+      "amount_pkr": 1408414,
+      "cost_center": "Administration - ENXI",
+      "remarks": "Professional services fee"
+    },
+    {
+      "journal_ref": "JV-DEMO-000082",
+      "posting_date": "2024-01-16",
+      "voucher_type": "Bank Entry",
+      "amount_pkr": 42543,
+      "cost_center": "Janitorial Services - ENXI",
+      "remarks": "Revenue accrual - janitorial"
+    },
+    {
+      "journal_ref": "JV-DEMO-000083",
+      "posting_date": "2024-01-17",
+      "voucher_type": "Cash Entry",
+      "amount_pkr": 1842683,
+      "cost_center": "Incinerator Ops - ENXI",
+      "remarks": "Incinerator fuel procurement"
+    },
+    {
+      "journal_ref": "JV-DEMO-000084",
+      "posting_date": "2024-01-20",
+      "voucher_type": "Journal Entry",
+      "amount_pkr": 1354662,
+      "cost_center": "Biomedical Equipment - ENXI",
+      "remarks": "Equipment depreciation entry"
+    },
+    {
+      "journal_ref": "JV-DEMO-000085",
+      "posting_date": "2024-01-21",
+      "voucher_type": "Cash Entry",
+      "amount_pkr": 234818,
+      "cost_center": "Administration - ENXI",
+      "remarks": "Bank charges"
+    },
+    {
+      "journal_ref": "JV-DEMO-000086",
+      "posting_date": "2024-01-31",
+      "voucher_type": "Bank Entry",
+      "amount_pkr": 628768,
+      "cost_center": "Administration - ENXI",
+      "remarks": "IT infrastructure cost"
+    },
+    {
+      "journal_ref": "JV-DEMO-000087",
+      "posting_date": "2024-02-02",
+      "voucher_type": "Cash Entry",
+      "amount_pkr": 846387,
+      "cost_center": "Administration - ENXI",
+      "remarks": "Professional services fee"
+    },
+    {
+      "journal_ref": "JV-DEMO-000088",
+      "posting_date": "2024-02-03",
+      "voucher_type": "Bank Entry",
+      "amount_pkr": 454285,
+      "cost_center": "Incinerator Ops - ENXI",
+      "remarks": "Incinerator fuel procurement"
+    },
+    {
+      "journal_ref": "JV-DEMO-000089",
+      "posting_date": "2024-02-07",
+      "voucher_type": "Cash Entry",
+      "amount_pkr": 400470,
+      "cost_center": "Administration - ENXI",
+      "remarks": "Office rent and utilities"
+    },
+    {
+      "journal_ref": "JV-DEMO-000090",
+      "posting_date": "2024-02-14",
+      "voucher_type": "Journal Entry",
+      "amount_pkr": 1918550,
+      "cost_center": "Training - ENXI",
+      "remarks": "Training program cost"
+    },
+    {
+      "journal_ref": "JV-DEMO-000091",
+      "posting_date": "2024-02-15",
+      "voucher_type": "Cash Entry",
+      "amount_pkr": 1320014,
+      "cost_center": "Administration - ENXI",
+      "remarks": "Office rent and utilities"
+    },
+    {
+      "journal_ref": "JV-DEMO-000092",
+      "posting_date": "2024-02-19",
+      "voucher_type": "Cash Entry",
+      "amount_pkr": 298530,
+      "cost_center": "Incinerator Ops - ENXI",
+      "remarks": "Incinerator fuel procurement"
+    },
+    {
+      "journal_ref": "JV-DEMO-000093",
+      "posting_date": "2024-02-22",
+      "voucher_type": "Journal Entry",
+      "amount_pkr": 269979,
+      "cost_center": "Administration - ENXI",
+      "remarks": "Professional services fee"
+    },
+    {
+      "journal_ref": "JV-DEMO-000094",
+      "posting_date": "2024-02-24",
+      "voucher_type": "Bank Entry",
+      "amount_pkr": 1133337,
+      "cost_center": "Incinerator Ops - ENXI",
+      "remarks": "Incinerator fuel procurement"
+    },
+    {
+      "journal_ref": "JV-DEMO-000095",
+      "posting_date": "2024-02-26",
+      "voucher_type": "Journal Entry",
+      "amount_pkr": 1029933,
+      "cost_center": "Fleet & Transport - ENXI",
+      "remarks": "Fuel and logistics expense"
+    },
+    {
+      "journal_ref": "JV-DEMO-000096",
+      "posting_date": "2024-02-27",
+      "voucher_type": "Bank Entry",
+      "amount_pkr": 377936,
+      "cost_center": "Incinerator Ops - ENXI",
+      "remarks": "Facility operating cost"
+    },
+    {
+      "journal_ref": "JV-DEMO-000097",
+      "posting_date": "2024-03-02",
+      "voucher_type": "Journal Entry",
+      "amount_pkr": 692556,
+      "cost_center": "HR & Payroll - ENXI",
+      "remarks": "Payroll processing"
+    },
+    {
+      "journal_ref": "JV-DEMO-000098",
+      "posting_date": "2024-03-14",
+      "voucher_type": "Bank Entry",
+      "amount_pkr": 1209376,
+      "cost_center": "Administration - ENXI",
+      "remarks": "Insurance premium payment"
+    },
+    {
+      "journal_ref": "JV-DEMO-000099",
+      "posting_date": "2024-03-17",
+      "voucher_type": "Cash Entry",
+      "amount_pkr": 921207,
+      "cost_center": "Incinerator Ops - ENXI",
+      "remarks": "Facility operating cost"
+    },
+    {
+      "journal_ref": "JV-DEMO-000100",
+      "posting_date": "2024-03-19",
+      "voucher_type": "Bank Entry",
+      "amount_pkr": 34150,
+      "cost_center": "Waste Operations - ENXI",
+      "remarks": "PPE and safety supplies"
+    },
+    {
+      "journal_ref": "JV-DEMO-000101",
+      "posting_date": "2024-03-21",
+      "voucher_type": "Journal Entry",
+      "amount_pkr": 1786250,
+      "cost_center": "Waste Operations - ENXI",
+      "remarks": "Revenue accrual - waste services"
+    },
+    {
+      "journal_ref": "JV-DEMO-000102",
+      "posting_date": "2024-03-23",
+      "voucher_type": "Cash Entry",
+      "amount_pkr": 696203,
+      "cost_center": "Biomedical Equipment - ENXI",
+      "remarks": "Equipment depreciation entry"
+    },
+    {
+      "journal_ref": "JV-DEMO-000103",
+      "posting_date": "2024-04-04",
+      "voucher_type": "Journal Entry",
+      "amount_pkr": 854728,
+      "cost_center": "Incinerator Ops - ENXI",
+      "remarks": "Incinerator fuel procurement"
+    },
+    {
+      "journal_ref": "JV-DEMO-000104",
+      "posting_date": "2024-04-07",
+      "voucher_type": "Journal Entry",
+      "amount_pkr": 1929132,
+      "cost_center": "Incinerator Ops - ENXI",
+      "remarks": "Incinerator fuel procurement"
+    },
+    {
+      "journal_ref": "JV-DEMO-000105",
+      "posting_date": "2024-04-08",
+      "voucher_type": "Bank Entry",
+      "amount_pkr": 474513,
+      "cost_center": "Administration - ENXI",
+      "remarks": "Office rent and utilities"
+    },
+    {
+      "journal_ref": "JV-DEMO-000106",
+      "posting_date": "2024-04-08",
+      "voucher_type": "Bank Entry",
+      "amount_pkr": 1805514,
+      "cost_center": "Administration - ENXI",
+      "remarks": "IT infrastructure cost"
+    },
+    {
+      "journal_ref": "JV-DEMO-000107",
+      "posting_date": "2024-04-13",
+      "voucher_type": "Journal Entry",
+      "amount_pkr": 739088,
+      "cost_center": "Waste Operations - ENXI",
+      "remarks": "Revenue accrual - waste services"
+    },
+    {
+      "journal_ref": "JV-DEMO-000108",
+      "posting_date": "2024-04-20",
+      "voucher_type": "Bank Entry",
+      "amount_pkr": 1396826,
+      "cost_center": "HR & Payroll - ENXI",
+      "remarks": "Payroll processing"
+    },
+    {
+      "journal_ref": "JV-DEMO-000109",
+      "posting_date": "2024-04-26",
+      "voucher_type": "Cash Entry",
+      "amount_pkr": 723914,
+      "cost_center": "Administration - ENXI",
+      "remarks": "Insurance premium payment"
+    },
+    {
+      "journal_ref": "JV-DEMO-000110",
+      "posting_date": "2024-05-02",
+      "voucher_type": "Cash Entry",
+      "amount_pkr": 851935,
+      "cost_center": "HR & Payroll - ENXI",
+      "remarks": "Payroll processing"
+    },
+    {
+      "journal_ref": "JV-DEMO-000111",
+      "posting_date": "2024-05-05",
+      "voucher_type": "Journal Entry",
+      "amount_pkr": 1760328,
+      "cost_center": "Waste Operations - ENXI",
+      "remarks": "PPE and safety supplies"
+    },
+    {
+      "journal_ref": "JV-DEMO-000112",
+      "posting_date": "2024-05-08",
+      "voucher_type": "Journal Entry",
+      "amount_pkr": 1807541,
+      "cost_center": "Fleet & Transport - ENXI",
+      "remarks": "Fuel and logistics expense"
+    },
+    {
+      "journal_ref": "JV-DEMO-000113",
+      "posting_date": "2024-05-08",
+      "voucher_type": "Cash Entry",
+      "amount_pkr": 1407748,
+      "cost_center": "Administration - ENXI",
+      "remarks": "Bank charges"
+    },
+    {
+      "journal_ref": "JV-DEMO-000114",
+      "posting_date": "2024-05-14",
+      "voucher_type": "Cash Entry",
+      "amount_pkr": 1160150,
+      "cost_center": "Administration - ENXI",
+      "remarks": "IT infrastructure cost"
+    },
+    {
+      "journal_ref": "JV-DEMO-000115",
+      "posting_date": "2024-05-26",
+      "voucher_type": "Bank Entry",
+      "amount_pkr": 713029,
+      "cost_center": "Fleet & Transport - ENXI",
+      "remarks": "Fuel and logistics expense"
+    },
+    {
+      "journal_ref": "JV-DEMO-000116",
+      "posting_date": "2024-06-15",
+      "voucher_type": "Cash Entry",
+      "amount_pkr": 867765,
+      "cost_center": "Administration - ENXI",
+      "remarks": "IT infrastructure cost"
+    },
+    {
+      "journal_ref": "JV-DEMO-000117",
+      "posting_date": "2024-06-19",
+      "voucher_type": "Journal Entry",
+      "amount_pkr": 375495,
+      "cost_center": "Training - ENXI",
+      "remarks": "Training program cost"
+    },
+    {
+      "journal_ref": "JV-DEMO-000118",
+      "posting_date": "2024-06-22",
+      "voucher_type": "Cash Entry",
+      "amount_pkr": 1824769,
+      "cost_center": "Administration - ENXI",
+      "remarks": "Bank charges"
+    },
+    {
+      "journal_ref": "JV-DEMO-000119",
+      "posting_date": "2024-06-23",
+      "voucher_type": "Bank Entry",
+      "amount_pkr": 1701837,
+      "cost_center": "Administration - ENXI",
+      "remarks": "Office rent and utilities"
+    },
+    {
+      "journal_ref": "JV-DEMO-000120",
+      "posting_date": "2024-06-27",
+      "voucher_type": "Bank Entry",
+      "amount_pkr": 1910011,
+      "cost_center": "Administration - ENXI",
+      "remarks": "IT infrastructure cost"
+    },
+    {
+      "journal_ref": "JV-DEMO-000121",
+      "posting_date": "2024-06-28",
+      "voucher_type": "Bank Entry",
+      "amount_pkr": 223795,
+      "cost_center": "Administration - ENXI",
+      "remarks": "Professional services fee"
+    },
+    {
+      "journal_ref": "JV-DEMO-000122",
+      "posting_date": "2024-06-30",
+      "voucher_type": "Journal Entry",
+      "amount_pkr": 1388723,
+      "cost_center": "Administration - ENXI",
+      "remarks": "Insurance premium payment"
+    },
+    {
+      "journal_ref": "JV-DEMO-000123",
+      "posting_date": "2024-07-04",
+      "voucher_type": "Cash Entry",
+      "amount_pkr": 1697988,
+      "cost_center": "Incinerator Ops - ENXI",
+      "remarks": "Incinerator fuel procurement"
+    },
+    {
+      "journal_ref": "JV-DEMO-000124",
+      "posting_date": "2024-07-14",
+      "voucher_type": "Cash Entry",
+      "amount_pkr": 466168,
+      "cost_center": "Waste Operations - ENXI",
+      "remarks": "Revenue accrual - waste services"
+    },
+    {
+      "journal_ref": "JV-DEMO-000125",
+      "posting_date": "2024-07-15",
+      "voucher_type": "Journal Entry",
+      "amount_pkr": 1738194,
+      "cost_center": "Incinerator Ops - ENXI",
+      "remarks": "Incinerator fuel procurement"
+    },
+    {
+      "journal_ref": "JV-DEMO-000126",
+      "posting_date": "2024-07-20",
+      "voucher_type": "Bank Entry",
+      "amount_pkr": 1714244,
+      "cost_center": "Administration - ENXI",
+      "remarks": "Bank charges"
+    },
+    {
+      "journal_ref": "JV-DEMO-000127",
+      "posting_date": "2024-07-21",
+      "voucher_type": "Journal Entry",
+      "amount_pkr": 104161,
+      "cost_center": "Administration - ENXI",
+      "remarks": "Office rent and utilities"
+    },
+    {
+      "journal_ref": "JV-DEMO-000128",
+      "posting_date": "2024-08-04",
+      "voucher_type": "Bank Entry",
+      "amount_pkr": 133034,
+      "cost_center": "Training - ENXI",
+      "remarks": "Training program cost"
+    },
+    {
+      "journal_ref": "JV-DEMO-000129",
+      "posting_date": "2024-08-08",
+      "voucher_type": "Cash Entry",
+      "amount_pkr": 179718,
+      "cost_center": "Administration - ENXI",
+      "remarks": "IT infrastructure cost"
+    },
+    {
+      "journal_ref": "JV-DEMO-000130",
+      "posting_date": "2024-08-13",
+      "voucher_type": "Journal Entry",
+      "amount_pkr": 139241,
+      "cost_center": "Janitorial Services - ENXI",
+      "remarks": "Revenue accrual - janitorial"
+    },
+    {
+      "journal_ref": "JV-DEMO-000131",
+      "posting_date": "2024-08-14",
+      "voucher_type": "Journal Entry",
+      "amount_pkr": 1510741,
+      "cost_center": "Janitorial Services - ENXI",
+      "remarks": "Revenue accrual - janitorial"
+    },
+    {
+      "journal_ref": "JV-DEMO-000132",
+      "posting_date": "2024-08-16",
+      "voucher_type": "Journal Entry",
+      "amount_pkr": 1294385,
+      "cost_center": "Fleet & Transport - ENXI",
+      "remarks": "Fuel and logistics expense"
+    },
+    {
+      "journal_ref": "JV-DEMO-000133",
+      "posting_date": "2024-08-16",
+      "voucher_type": "Bank Entry",
+      "amount_pkr": 1072022,
+      "cost_center": "Waste Operations - ENXI",
+      "remarks": "Revenue accrual - waste services"
+    },
+    {
+      "journal_ref": "JV-DEMO-000134",
+      "posting_date": "2024-08-18",
+      "voucher_type": "Bank Entry",
+      "amount_pkr": 432514,
+      "cost_center": "Incinerator Ops - ENXI",
+      "remarks": "Incinerator fuel procurement"
+    },
+    {
+      "journal_ref": "JV-DEMO-000135",
+      "posting_date": "2024-08-20",
+      "voucher_type": "Journal Entry",
+      "amount_pkr": 1316042,
+      "cost_center": "HR & Payroll - ENXI",
+      "remarks": "Payroll processing"
+    },
+    {
+      "journal_ref": "JV-DEMO-000136",
+      "posting_date": "2024-08-23",
+      "voucher_type": "Journal Entry",
+      "amount_pkr": 1599684,
+      "cost_center": "HR & Payroll - ENXI",
+      "remarks": "Payroll processing"
+    },
+    {
+      "journal_ref": "JV-DEMO-000137",
+      "posting_date": "2024-09-01",
+      "voucher_type": "Bank Entry",
+      "amount_pkr": 712372,
+      "cost_center": "Fleet & Transport - ENXI",
+      "remarks": "Vehicle maintenance expense"
+    },
+    {
+      "journal_ref": "JV-DEMO-000138",
+      "posting_date": "2024-09-02",
+      "voucher_type": "Cash Entry",
+      "amount_pkr": 45123,
+      "cost_center": "Waste Operations - ENXI",
+      "remarks": "PPE and safety supplies"
+    },
+    {
+      "journal_ref": "JV-DEMO-000139",
+      "posting_date": "2024-09-04",
+      "voucher_type": "Cash Entry",
+      "amount_pkr": 1562972,
+      "cost_center": "Administration - ENXI",
+      "remarks": "Office rent and utilities"
+    },
+    {
+      "journal_ref": "JV-DEMO-000140",
+      "posting_date": "2024-09-08",
+      "voucher_type": "Journal Entry",
+      "amount_pkr": 119952,
+      "cost_center": "Administration - ENXI",
+      "remarks": "Office rent and utilities"
+    },
+    {
+      "journal_ref": "JV-DEMO-000141",
+      "posting_date": "2024-09-10",
+      "voucher_type": "Bank Entry",
+      "amount_pkr": 539932,
+      "cost_center": "Administration - ENXI",
+      "remarks": "Office rent and utilities"
+    },
+    {
+      "journal_ref": "JV-DEMO-000142",
+      "posting_date": "2024-09-13",
+      "voucher_type": "Journal Entry",
+      "amount_pkr": 360564,
+      "cost_center": "Administration - ENXI",
+      "remarks": "IT infrastructure cost"
+    },
+    {
+      "journal_ref": "JV-DEMO-000143",
+      "posting_date": "2024-09-14",
+      "voucher_type": "Journal Entry",
+      "amount_pkr": 1420404,
+      "cost_center": "Administration - ENXI",
+      "remarks": "Professional services fee"
+    },
+    {
+      "journal_ref": "JV-DEMO-000144",
+      "posting_date": "2024-09-15",
+      "voucher_type": "Journal Entry",
+      "amount_pkr": 1432776,
+      "cost_center": "Administration - ENXI",
+      "remarks": "Bank charges"
+    },
+    {
+      "journal_ref": "JV-DEMO-000145",
+      "posting_date": "2024-09-15",
+      "voucher_type": "Journal Entry",
+      "amount_pkr": 1523088,
+      "cost_center": "Biomedical Equipment - ENXI",
+      "remarks": "Equipment depreciation entry"
+    },
+    {
+      "journal_ref": "JV-DEMO-000146",
+      "posting_date": "2024-09-16",
+      "voucher_type": "Journal Entry",
+      "amount_pkr": 1886444,
+      "cost_center": "Waste Operations - ENXI",
+      "remarks": "PPE and safety supplies"
+    },
+    {
+      "journal_ref": "JV-DEMO-000147",
+      "posting_date": "2024-09-20",
+      "voucher_type": "Cash Entry",
+      "amount_pkr": 1799818,
+      "cost_center": "Administration - ENXI",
+      "remarks": "Office rent and utilities"
+    },
+    {
+      "journal_ref": "JV-DEMO-000148",
+      "posting_date": "2024-09-27",
+      "voucher_type": "Journal Entry",
+      "amount_pkr": 1539623,
+      "cost_center": "Incinerator Ops - ENXI",
+      "remarks": "Incinerator fuel procurement"
+    },
+    {
+      "journal_ref": "JV-DEMO-000149",
+      "posting_date": "2024-10-01",
+      "voucher_type": "Journal Entry",
+      "amount_pkr": 88842,
+      "cost_center": "Administration - ENXI",
+      "remarks": "Office rent and utilities"
+    },
+    {
+      "journal_ref": "JV-DEMO-000150",
+      "posting_date": "2024-10-06",
+      "voucher_type": "Bank Entry",
+      "amount_pkr": 878973,
+      "cost_center": "Incinerator Ops - ENXI",
+      "remarks": "Incinerator fuel procurement"
+    },
+    {
+      "journal_ref": "JV-DEMO-000151",
+      "posting_date": "2024-10-11",
+      "voucher_type": "Journal Entry",
+      "amount_pkr": 1582525,
+      "cost_center": "Incinerator Ops - ENXI",
+      "remarks": "Incinerator fuel procurement"
+    },
+    {
+      "journal_ref": "JV-DEMO-000152",
+      "posting_date": "2024-10-15",
+      "voucher_type": "Journal Entry",
+      "amount_pkr": 135999,
+      "cost_center": "Administration - ENXI",
+      "remarks": "Office rent and utilities"
+    },
+    {
+      "journal_ref": "JV-DEMO-000153",
+      "posting_date": "2024-10-17",
+      "voucher_type": "Bank Entry",
+      "amount_pkr": 1628129,
+      "cost_center": "Fleet & Transport - ENXI",
+      "remarks": "Vehicle maintenance expense"
+    },
+    {
+      "journal_ref": "JV-DEMO-000154",
+      "posting_date": "2024-10-17",
+      "voucher_type": "Cash Entry",
+      "amount_pkr": 990417,
+      "cost_center": "Incinerator Ops - ENXI",
+      "remarks": "Facility operating cost"
+    },
+    {
+      "journal_ref": "JV-DEMO-000155",
+      "posting_date": "2024-10-19",
+      "voucher_type": "Journal Entry",
+      "amount_pkr": 1262265,
+      "cost_center": "Administration - ENXI",
+      "remarks": "Office rent and utilities"
+    },
+    {
+      "journal_ref": "JV-DEMO-000156",
+      "posting_date": "2024-10-23",
+      "voucher_type": "Cash Entry",
+      "amount_pkr": 1007121,
+      "cost_center": "Training - ENXI",
+      "remarks": "Training program cost"
+    },
+    {
+      "journal_ref": "JV-DEMO-000157",
+      "posting_date": "2024-10-24",
+      "voucher_type": "Bank Entry",
+      "amount_pkr": 1608316,
+      "cost_center": "Administration - ENXI",
+      "remarks": "Insurance premium payment"
+    },
+    {
+      "journal_ref": "JV-DEMO-000158",
+      "posting_date": "2024-10-25",
+      "voucher_type": "Cash Entry",
+      "amount_pkr": 1120325,
+      "cost_center": "Administration - ENXI",
+      "remarks": "Office rent and utilities"
+    },
+    {
+      "journal_ref": "JV-DEMO-000159",
+      "posting_date": "2024-10-29",
+      "voucher_type": "Cash Entry",
+      "amount_pkr": 663756,
+      "cost_center": "Administration - ENXI",
+      "remarks": "IT infrastructure cost"
+    },
+    {
+      "journal_ref": "JV-DEMO-000160",
+      "posting_date": "2024-11-16",
+      "voucher_type": "Bank Entry",
+      "amount_pkr": 457024,
+      "cost_center": "Janitorial Services - ENXI",
+      "remarks": "Revenue accrual - janitorial"
+    },
+    {
+      "journal_ref": "JV-DEMO-000161",
+      "posting_date": "2024-11-18",
+      "voucher_type": "Cash Entry",
+      "amount_pkr": 1222907,
+      "cost_center": "Fleet & Transport - ENXI",
+      "remarks": "Vehicle maintenance expense"
+    },
+    {
+      "journal_ref": "JV-DEMO-000162",
+      "posting_date": "2024-11-19",
+      "voucher_type": "Journal Entry",
+      "amount_pkr": 1422025,
+      "cost_center": "HR & Payroll - ENXI",
+      "remarks": "Payroll processing"
+    },
+    {
+      "journal_ref": "JV-DEMO-000163",
+      "posting_date": "2024-11-30",
+      "voucher_type": "Cash Entry",
+      "amount_pkr": 381382,
+      "cost_center": "Training - ENXI",
+      "remarks": "Training program cost"
+    },
+    {
+      "journal_ref": "JV-DEMO-000164",
+      "posting_date": "2024-12-02",
+      "voucher_type": "Journal Entry",
+      "amount_pkr": 1765599,
+      "cost_center": "Administration - ENXI",
+      "remarks": "IT infrastructure cost"
+    },
+    {
+      "journal_ref": "JV-DEMO-000165",
+      "posting_date": "2024-12-10",
+      "voucher_type": "Bank Entry",
+      "amount_pkr": 517054,
+      "cost_center": "Fleet & Transport - ENXI",
+      "remarks": "Fuel and logistics expense"
+    },
+    {
+      "journal_ref": "JV-DEMO-000166",
+      "posting_date": "2024-12-13",
+      "voucher_type": "Cash Entry",
+      "amount_pkr": 89530,
+      "cost_center": "Incinerator Ops - ENXI",
+      "remarks": "Incinerator fuel procurement"
+    },
+    {
+      "journal_ref": "JV-DEMO-000167",
+      "posting_date": "2024-12-17",
+      "voucher_type": "Journal Entry",
+      "amount_pkr": 491261,
+      "cost_center": "Administration - ENXI",
+      "remarks": "Professional services fee"
+    },
+    {
+      "journal_ref": "JV-DEMO-000168",
+      "posting_date": "2024-12-22",
+      "voucher_type": "Cash Entry",
+      "amount_pkr": 1845195,
+      "cost_center": "HR & Payroll - ENXI",
+      "remarks": "Payroll processing"
+    },
+    {
+      "journal_ref": "JV-DEMO-000169",
+      "posting_date": "2024-12-25",
+      "voucher_type": "Cash Entry",
+      "amount_pkr": 1045080,
+      "cost_center": "Fleet & Transport - ENXI",
+      "remarks": "Vehicle maintenance expense"
+    },
+    {
+      "journal_ref": "JV-DEMO-000170",
+      "posting_date": "2024-12-28",
+      "voucher_type": "Journal Entry",
+      "amount_pkr": 578309,
+      "cost_center": "Administration - ENXI",
+      "remarks": "Bank charges"
+    },
+    {
+      "journal_ref": "JV-DEMO-000171",
+      "posting_date": "2024-12-28",
+      "voucher_type": "Cash Entry",
+      "amount_pkr": 284215,
+      "cost_center": "Administration - ENXI",
+      "remarks": "Insurance premium payment"
+    },
+    {
+      "journal_ref": "JV-DEMO-000172",
+      "posting_date": "2024-12-29",
+      "voucher_type": "Cash Entry",
+      "amount_pkr": 183418,
+      "cost_center": "Administration - ENXI",
+      "remarks": "Insurance premium payment"
+    },
+    {
+      "journal_ref": "JV-DEMO-000173",
+      "posting_date": "2025-01-07",
+      "voucher_type": "Journal Entry",
+      "amount_pkr": 1690323,
+      "cost_center": "Fleet & Transport - ENXI",
+      "remarks": "Fuel and logistics expense"
+    },
+    {
+      "journal_ref": "JV-DEMO-000174",
+      "posting_date": "2025-01-15",
+      "voucher_type": "Cash Entry",
+      "amount_pkr": 492226,
+      "cost_center": "HR & Payroll - ENXI",
+      "remarks": "Payroll processing"
+    },
+    {
+      "journal_ref": "JV-DEMO-000175",
+      "posting_date": "2025-01-16",
+      "voucher_type": "Journal Entry",
+      "amount_pkr": 1854578,
+      "cost_center": "Waste Operations - ENXI",
+      "remarks": "PPE and safety supplies"
+    },
+    {
+      "journal_ref": "JV-DEMO-000176",
+      "posting_date": "2025-01-20",
+      "voucher_type": "Cash Entry",
+      "amount_pkr": 976161,
+      "cost_center": "Fleet & Transport - ENXI",
+      "remarks": "Vehicle maintenance expense"
+    },
+    {
+      "journal_ref": "JV-DEMO-000177",
+      "posting_date": "2025-01-21",
+      "voucher_type": "Cash Entry",
+      "amount_pkr": 455418,
+      "cost_center": "Fleet & Transport - ENXI",
+      "remarks": "Fuel and logistics expense"
+    },
+    {
+      "journal_ref": "JV-DEMO-000178",
+      "posting_date": "2025-01-26",
+      "voucher_type": "Journal Entry",
+      "amount_pkr": 267655,
+      "cost_center": "Waste Operations - ENXI",
+      "remarks": "Revenue accrual - waste services"
+    },
+    {
+      "journal_ref": "JV-DEMO-000179",
+      "posting_date": "2025-02-03",
+      "voucher_type": "Cash Entry",
+      "amount_pkr": 1925658,
+      "cost_center": "Janitorial Services - ENXI",
+      "remarks": "Revenue accrual - janitorial"
+    },
+    {
+      "journal_ref": "JV-DEMO-000180",
+      "posting_date": "2025-02-07",
+      "voucher_type": "Bank Entry",
+      "amount_pkr": 1607021,
+      "cost_center": "Janitorial Services - ENXI",
+      "remarks": "Revenue accrual - janitorial"
+    },
+    {
+      "journal_ref": "JV-DEMO-000181",
+      "posting_date": "2025-02-07",
+      "voucher_type": "Bank Entry",
+      "amount_pkr": 1831141,
+      "cost_center": "Janitorial Services - ENXI",
+      "remarks": "Revenue accrual - janitorial"
+    },
+    {
+      "journal_ref": "JV-DEMO-000182",
+      "posting_date": "2025-02-12",
+      "voucher_type": "Bank Entry",
+      "amount_pkr": 1199368,
+      "cost_center": "Waste Operations - ENXI",
+      "remarks": "PPE and safety supplies"
+    },
+    {
+      "journal_ref": "JV-DEMO-000183",
+      "posting_date": "2025-02-18",
+      "voucher_type": "Bank Entry",
+      "amount_pkr": 342334,
+      "cost_center": "Incinerator Ops - ENXI",
+      "remarks": "Incinerator fuel procurement"
+    },
+    {
+      "journal_ref": "JV-DEMO-000184",
+      "posting_date": "2025-02-24",
+      "voucher_type": "Cash Entry",
+      "amount_pkr": 1361058,
+      "cost_center": "Fleet & Transport - ENXI",
+      "remarks": "Fuel and logistics expense"
+    },
+    {
+      "journal_ref": "JV-DEMO-000185",
+      "posting_date": "2025-02-24",
+      "voucher_type": "Bank Entry",
+      "amount_pkr": 727804,
+      "cost_center": "Administration - ENXI",
+      "remarks": "Professional services fee"
+    },
+    {
+      "journal_ref": "JV-DEMO-000186",
+      "posting_date": "2025-03-09",
+      "voucher_type": "Bank Entry",
+      "amount_pkr": 1929646,
+      "cost_center": "Incinerator Ops - ENXI",
+      "remarks": "Incinerator fuel procurement"
+    },
+    {
+      "journal_ref": "JV-DEMO-000187",
+      "posting_date": "2025-03-14",
+      "voucher_type": "Journal Entry",
+      "amount_pkr": 1874282,
+      "cost_center": "Administration - ENXI",
+      "remarks": "IT infrastructure cost"
+    },
+    {
+      "journal_ref": "JV-DEMO-000188",
+      "posting_date": "2025-03-14",
+      "voucher_type": "Bank Entry",
+      "amount_pkr": 1582433,
+      "cost_center": "Administration - ENXI",
+      "remarks": "IT infrastructure cost"
+    },
+    {
+      "journal_ref": "JV-DEMO-000189",
+      "posting_date": "2025-03-21",
+      "voucher_type": "Bank Entry",
+      "amount_pkr": 945096,
+      "cost_center": "Administration - ENXI",
+      "remarks": "IT infrastructure cost"
+    },
+    {
+      "journal_ref": "JV-DEMO-000190",
+      "posting_date": "2025-03-29",
+      "voucher_type": "Journal Entry",
+      "amount_pkr": 1900112,
+      "cost_center": "Incinerator Ops - ENXI",
+      "remarks": "Facility operating cost"
+    },
+    {
+      "journal_ref": "JV-DEMO-000191",
+      "posting_date": "2025-03-31",
+      "voucher_type": "Bank Entry",
+      "amount_pkr": 744936,
+      "cost_center": "Janitorial Services - ENXI",
+      "remarks": "Revenue accrual - janitorial"
+    },
+    {
+      "journal_ref": "JV-DEMO-000192",
+      "posting_date": "2025-04-01",
+      "voucher_type": "Bank Entry",
+      "amount_pkr": 576450,
+      "cost_center": "Administration - ENXI",
+      "remarks": "Insurance premium payment"
+    },
+    {
+      "journal_ref": "JV-DEMO-000193",
+      "posting_date": "2025-04-04",
+      "voucher_type": "Journal Entry",
+      "amount_pkr": 1998767,
+      "cost_center": "Administration - ENXI",
+      "remarks": "Bank charges"
+    },
+    {
+      "journal_ref": "JV-DEMO-000194",
+      "posting_date": "2025-04-07",
+      "voucher_type": "Bank Entry",
+      "amount_pkr": 1858080,
+      "cost_center": "Waste Operations - ENXI",
+      "remarks": "Revenue accrual - waste services"
+    },
+    {
+      "journal_ref": "JV-DEMO-000195",
+      "posting_date": "2025-04-08",
+      "voucher_type": "Cash Entry",
+      "amount_pkr": 366568,
+      "cost_center": "Waste Operations - ENXI",
+      "remarks": "PPE and safety supplies"
+    },
+    {
+      "journal_ref": "JV-DEMO-000196",
+      "posting_date": "2025-04-12",
+      "voucher_type": "Journal Entry",
+      "amount_pkr": 758000,
+      "cost_center": "Waste Operations - ENXI",
+      "remarks": "PPE and safety supplies"
+    },
+    {
+      "journal_ref": "JV-DEMO-000197",
+      "posting_date": "2025-04-13",
+      "voucher_type": "Bank Entry",
+      "amount_pkr": 1035014,
+      "cost_center": "Administration - ENXI",
+      "remarks": "Insurance premium payment"
+    },
+    {
+      "journal_ref": "JV-DEMO-000198",
+      "posting_date": "2025-04-19",
+      "voucher_type": "Bank Entry",
+      "amount_pkr": 405986,
+      "cost_center": "Administration - ENXI",
+      "remarks": "Professional services fee"
+    },
+    {
+      "journal_ref": "JV-DEMO-000199",
+      "posting_date": "2025-04-20",
+      "voucher_type": "Bank Entry",
+      "amount_pkr": 1310946,
+      "cost_center": "Janitorial Services - ENXI",
+      "remarks": "Revenue accrual - janitorial"
+    },
+    {
+      "journal_ref": "JV-DEMO-000200",
+      "posting_date": "2025-04-21",
+      "voucher_type": "Journal Entry",
+      "amount_pkr": 951846,
+      "cost_center": "Administration - ENXI",
+      "remarks": "IT infrastructure cost"
+    },
+    {
+      "journal_ref": "JV-DEMO-000201",
+      "posting_date": "2025-04-23",
+      "voucher_type": "Cash Entry",
+      "amount_pkr": 1777392,
+      "cost_center": "Administration - ENXI",
+      "remarks": "Bank charges"
+    },
+    {
+      "journal_ref": "JV-DEMO-000202",
+      "posting_date": "2025-04-24",
+      "voucher_type": "Cash Entry",
+      "amount_pkr": 279657,
+      "cost_center": "Incinerator Ops - ENXI",
+      "remarks": "Incinerator fuel procurement"
+    },
+    {
+      "journal_ref": "JV-DEMO-000203",
+      "posting_date": "2025-04-25",
+      "voucher_type": "Journal Entry",
+      "amount_pkr": 1497900,
+      "cost_center": "Administration - ENXI",
+      "remarks": "IT infrastructure cost"
+    },
+    {
+      "journal_ref": "JV-DEMO-000204",
+      "posting_date": "2025-04-25",
+      "voucher_type": "Bank Entry",
+      "amount_pkr": 118733,
+      "cost_center": "Biomedical Equipment - ENXI",
+      "remarks": "Equipment depreciation entry"
+    },
+    {
+      "journal_ref": "JV-DEMO-000205",
+      "posting_date": "2025-04-27",
+      "voucher_type": "Journal Entry",
+      "amount_pkr": 1832743,
+      "cost_center": "Incinerator Ops - ENXI",
+      "remarks": "Facility operating cost"
+    },
+    {
+      "journal_ref": "JV-DEMO-000206",
+      "posting_date": "2025-05-07",
+      "voucher_type": "Cash Entry",
+      "amount_pkr": 40445,
+      "cost_center": "Fleet & Transport - ENXI",
+      "remarks": "Fuel and logistics expense"
+    },
+    {
+      "journal_ref": "JV-DEMO-000207",
+      "posting_date": "2025-05-13",
+      "voucher_type": "Cash Entry",
+      "amount_pkr": 867931,
+      "cost_center": "Incinerator Ops - ENXI",
+      "remarks": "Facility operating cost"
+    },
+    {
+      "journal_ref": "JV-DEMO-000208",
+      "posting_date": "2025-05-13",
+      "voucher_type": "Journal Entry",
+      "amount_pkr": 1234691,
+      "cost_center": "Incinerator Ops - ENXI",
+      "remarks": "Incinerator fuel procurement"
+    },
+    {
+      "journal_ref": "JV-DEMO-000209",
+      "posting_date": "2025-05-15",
+      "voucher_type": "Bank Entry",
+      "amount_pkr": 1012662,
+      "cost_center": "Fleet & Transport - ENXI",
+      "remarks": "Vehicle maintenance expense"
+    },
+    {
+      "journal_ref": "JV-DEMO-000210",
+      "posting_date": "2025-05-18",
+      "voucher_type": "Journal Entry",
+      "amount_pkr": 228255,
+      "cost_center": "HR & Payroll - ENXI",
+      "remarks": "Payroll processing"
+    },
+    {
+      "journal_ref": "JV-DEMO-000211",
+      "posting_date": "2025-05-22",
+      "voucher_type": "Bank Entry",
+      "amount_pkr": 1198966,
+      "cost_center": "Janitorial Services - ENXI",
+      "remarks": "Revenue accrual - janitorial"
+    },
+    {
+      "journal_ref": "JV-DEMO-000212",
+      "posting_date": "2025-05-25",
+      "voucher_type": "Cash Entry",
+      "amount_pkr": 1939293,
+      "cost_center": "Administration - ENXI",
+      "remarks": "Insurance premium payment"
+    },
+    {
+      "journal_ref": "JV-DEMO-000213",
+      "posting_date": "2025-05-27",
+      "voucher_type": "Bank Entry",
+      "amount_pkr": 1180439,
+      "cost_center": "Administration - ENXI",
+      "remarks": "Professional services fee"
+    },
+    {
+      "journal_ref": "JV-DEMO-000214",
+      "posting_date": "2025-05-27",
+      "voucher_type": "Cash Entry",
+      "amount_pkr": 57450,
+      "cost_center": "Fleet & Transport - ENXI",
+      "remarks": "Vehicle maintenance expense"
+    },
+    {
+      "journal_ref": "JV-DEMO-000215",
+      "posting_date": "2025-05-27",
+      "voucher_type": "Bank Entry",
+      "amount_pkr": 1711523,
+      "cost_center": "Administration - ENXI",
+      "remarks": "IT infrastructure cost"
+    },
+    {
+      "journal_ref": "JV-DEMO-000216",
+      "posting_date": "2025-05-30",
+      "voucher_type": "Bank Entry",
+      "amount_pkr": 352497,
+      "cost_center": "Fleet & Transport - ENXI",
+      "remarks": "Fuel and logistics expense"
+    },
+    {
+      "journal_ref": "JV-DEMO-000217",
+      "posting_date": "2025-05-31",
+      "voucher_type": "Bank Entry",
+      "amount_pkr": 674687,
+      "cost_center": "Training - ENXI",
+      "remarks": "Training program cost"
+    },
+    {
+      "journal_ref": "JV-DEMO-000218",
+      "posting_date": "2025-06-02",
+      "voucher_type": "Journal Entry",
+      "amount_pkr": 1211112,
+      "cost_center": "Administration - ENXI",
+      "remarks": "Bank charges"
+    },
+    {
+      "journal_ref": "JV-DEMO-000219",
+      "posting_date": "2025-06-02",
+      "voucher_type": "Bank Entry",
+      "amount_pkr": 1753008,
+      "cost_center": "Waste Operations - ENXI",
+      "remarks": "PPE and safety supplies"
+    },
+    {
+      "journal_ref": "JV-DEMO-000220",
+      "posting_date": "2025-06-04",
+      "voucher_type": "Cash Entry",
+      "amount_pkr": 1140001,
+      "cost_center": "Administration - ENXI",
+      "remarks": "Professional services fee"
+    },
+    {
+      "journal_ref": "JV-DEMO-000221",
+      "posting_date": "2025-06-05",
+      "voucher_type": "Cash Entry",
+      "amount_pkr": 1551711,
+      "cost_center": "Administration - ENXI",
+      "remarks": "IT infrastructure cost"
+    },
+    {
+      "journal_ref": "JV-DEMO-000222",
+      "posting_date": "2025-06-06",
+      "voucher_type": "Journal Entry",
+      "amount_pkr": 1365130,
+      "cost_center": "Janitorial Services - ENXI",
+      "remarks": "Revenue accrual - janitorial"
+    },
+    {
+      "journal_ref": "JV-DEMO-000223",
+      "posting_date": "2025-06-12",
+      "voucher_type": "Bank Entry",
+      "amount_pkr": 732627,
+      "cost_center": "Incinerator Ops - ENXI",
+      "remarks": "Incinerator fuel procurement"
+    },
+    {
+      "journal_ref": "JV-DEMO-000224",
+      "posting_date": "2025-06-13",
+      "voucher_type": "Cash Entry",
+      "amount_pkr": 1932157,
+      "cost_center": "Administration - ENXI",
+      "remarks": "Professional services fee"
+    },
+    {
+      "journal_ref": "JV-DEMO-000225",
+      "posting_date": "2025-06-21",
+      "voucher_type": "Journal Entry",
+      "amount_pkr": 1026379,
+      "cost_center": "Fleet & Transport - ENXI",
+      "remarks": "Fuel and logistics expense"
+    },
+    {
+      "journal_ref": "JV-DEMO-000226",
+      "posting_date": "2025-06-26",
+      "voucher_type": "Cash Entry",
+      "amount_pkr": 724382,
+      "cost_center": "Administration - ENXI",
+      "remarks": "Insurance premium payment"
+    },
+    {
+      "journal_ref": "JV-DEMO-000227",
+      "posting_date": "2025-06-28",
+      "voucher_type": "Bank Entry",
+      "amount_pkr": 1747774,
+      "cost_center": "Waste Operations - ENXI",
+      "remarks": "PPE and safety supplies"
+    },
+    {
+      "journal_ref": "JV-DEMO-000228",
+      "posting_date": "2025-06-29",
+      "voucher_type": "Bank Entry",
+      "amount_pkr": 882945,
+      "cost_center": "Janitorial Services - ENXI",
+      "remarks": "Revenue accrual - janitorial"
+    },
+    {
+      "journal_ref": "JV-DEMO-000229",
+      "posting_date": "2025-07-04",
+      "voucher_type": "Journal Entry",
+      "amount_pkr": 878507,
+      "cost_center": "Administration - ENXI",
+      "remarks": "Office rent and utilities"
+    },
+    {
+      "journal_ref": "JV-DEMO-000230",
+      "posting_date": "2025-07-09",
+      "voucher_type": "Cash Entry",
+      "amount_pkr": 1609545,
+      "cost_center": "Training - ENXI",
+      "remarks": "Training program cost"
+    },
+    {
+      "journal_ref": "JV-DEMO-000231",
+      "posting_date": "2025-07-10",
+      "voucher_type": "Bank Entry",
+      "amount_pkr": 566281,
+      "cost_center": "Waste Operations - ENXI",
+      "remarks": "PPE and safety supplies"
+    },
+    {
+      "journal_ref": "JV-DEMO-000232",
+      "posting_date": "2025-07-11",
+      "voucher_type": "Journal Entry",
+      "amount_pkr": 447400,
+      "cost_center": "Administration - ENXI",
+      "remarks": "Bank charges"
+    },
+    {
+      "journal_ref": "JV-DEMO-000233",
+      "posting_date": "2025-07-12",
+      "voucher_type": "Cash Entry",
+      "amount_pkr": 622223,
+      "cost_center": "Fleet & Transport - ENXI",
+      "remarks": "Vehicle maintenance expense"
+    },
+    {
+      "journal_ref": "JV-DEMO-000234",
+      "posting_date": "2025-07-15",
+      "voucher_type": "Cash Entry",
+      "amount_pkr": 462543,
+      "cost_center": "Waste Operations - ENXI",
+      "remarks": "Revenue accrual - waste services"
+    },
+    {
+      "journal_ref": "JV-DEMO-000235",
+      "posting_date": "2025-07-16",
+      "voucher_type": "Cash Entry",
+      "amount_pkr": 1655627,
+      "cost_center": "Fleet & Transport - ENXI",
+      "remarks": "Vehicle maintenance expense"
+    },
+    {
+      "journal_ref": "JV-DEMO-000236",
+      "posting_date": "2025-07-27",
+      "voucher_type": "Journal Entry",
+      "amount_pkr": 434498,
+      "cost_center": "Janitorial Services - ENXI",
+      "remarks": "Revenue accrual - janitorial"
+    },
+    {
+      "journal_ref": "JV-DEMO-000237",
+      "posting_date": "2025-07-30",
+      "voucher_type": "Journal Entry",
+      "amount_pkr": 848337,
+      "cost_center": "Administration - ENXI",
+      "remarks": "Bank charges"
+    },
+    {
+      "journal_ref": "JV-DEMO-000238",
+      "posting_date": "2025-08-03",
+      "voucher_type": "Bank Entry",
+      "amount_pkr": 1732772,
+      "cost_center": "Fleet & Transport - ENXI",
+      "remarks": "Vehicle maintenance expense"
+    },
+    {
+      "journal_ref": "JV-DEMO-000239",
+      "posting_date": "2025-08-12",
+      "voucher_type": "Journal Entry",
+      "amount_pkr": 1379990,
+      "cost_center": "HR & Payroll - ENXI",
+      "remarks": "Payroll processing"
+    },
+    {
+      "journal_ref": "JV-DEMO-000240",
+      "posting_date": "2025-08-14",
+      "voucher_type": "Journal Entry",
+      "amount_pkr": 1755067,
+      "cost_center": "Waste Operations - ENXI",
+      "remarks": "Revenue accrual - waste services"
+    },
+    {
+      "journal_ref": "JV-DEMO-000241",
+      "posting_date": "2025-08-17",
+      "voucher_type": "Bank Entry",
+      "amount_pkr": 1942888,
+      "cost_center": "Fleet & Transport - ENXI",
+      "remarks": "Fuel and logistics expense"
+    },
+    {
+      "journal_ref": "JV-DEMO-000242",
+      "posting_date": "2025-08-22",
+      "voucher_type": "Journal Entry",
+      "amount_pkr": 934228,
+      "cost_center": "Administration - ENXI",
+      "remarks": "Office rent and utilities"
+    },
+    {
+      "journal_ref": "JV-DEMO-000243",
+      "posting_date": "2025-08-25",
+      "voucher_type": "Cash Entry",
+      "amount_pkr": 1997976,
+      "cost_center": "Administration - ENXI",
+      "remarks": "Bank charges"
+    },
+    {
+      "journal_ref": "JV-DEMO-000244",
+      "posting_date": "2025-08-26",
+      "voucher_type": "Journal Entry",
+      "amount_pkr": 1685847,
+      "cost_center": "HR & Payroll - ENXI",
+      "remarks": "Payroll processing"
+    },
+    {
+      "journal_ref": "JV-DEMO-000245",
+      "posting_date": "2025-08-30",
+      "voucher_type": "Bank Entry",
+      "amount_pkr": 1779611,
+      "cost_center": "Incinerator Ops - ENXI",
+      "remarks": "Incinerator fuel procurement"
+    },
+    {
+      "journal_ref": "JV-DEMO-000246",
+      "posting_date": "2025-09-01",
+      "voucher_type": "Cash Entry",
+      "amount_pkr": 1630947,
+      "cost_center": "Fleet & Transport - ENXI",
+      "remarks": "Vehicle maintenance expense"
+    },
+    {
+      "journal_ref": "JV-DEMO-000247",
+      "posting_date": "2025-09-03",
+      "voucher_type": "Bank Entry",
+      "amount_pkr": 569515,
+      "cost_center": "Waste Operations - ENXI",
+      "remarks": "Revenue accrual - waste services"
+    },
+    {
+      "journal_ref": "JV-DEMO-000248",
+      "posting_date": "2025-09-05",
+      "voucher_type": "Journal Entry",
+      "amount_pkr": 1167360,
+      "cost_center": "Incinerator Ops - ENXI",
+      "remarks": "Incinerator fuel procurement"
+    },
+    {
+      "journal_ref": "JV-DEMO-000249",
+      "posting_date": "2025-09-06",
+      "voucher_type": "Journal Entry",
+      "amount_pkr": 64353,
+      "cost_center": "Incinerator Ops - ENXI",
+      "remarks": "Facility operating cost"
+    },
+    {
+      "journal_ref": "JV-DEMO-000250",
+      "posting_date": "2025-09-09",
+      "voucher_type": "Bank Entry",
+      "amount_pkr": 877804,
+      "cost_center": "Fleet & Transport - ENXI",
+      "remarks": "Vehicle maintenance expense"
+    },
+    {
+      "journal_ref": "JV-DEMO-000251",
+      "posting_date": "2025-09-12",
+      "voucher_type": "Journal Entry",
+      "amount_pkr": 1859272,
+      "cost_center": "Biomedical Equipment - ENXI",
+      "remarks": "Equipment depreciation entry"
+    },
+    {
+      "journal_ref": "JV-DEMO-000252",
+      "posting_date": "2025-09-13",
+      "voucher_type": "Bank Entry",
+      "amount_pkr": 1939911,
+      "cost_center": "Janitorial Services - ENXI",
+      "remarks": "Revenue accrual - janitorial"
+    },
+    {
+      "journal_ref": "JV-DEMO-000253",
+      "posting_date": "2025-09-14",
+      "voucher_type": "Cash Entry",
+      "amount_pkr": 1735381,
+      "cost_center": "Biomedical Equipment - ENXI",
+      "remarks": "Equipment depreciation entry"
+    },
+    {
+      "journal_ref": "JV-DEMO-000254",
+      "posting_date": "2025-09-17",
+      "voucher_type": "Journal Entry",
+      "amount_pkr": 1332194,
+      "cost_center": "Administration - ENXI",
+      "remarks": "Professional services fee"
+    },
+    {
+      "journal_ref": "JV-DEMO-000255",
+      "posting_date": "2025-09-22",
+      "voucher_type": "Journal Entry",
+      "amount_pkr": 202740,
+      "cost_center": "Fleet & Transport - ENXI",
+      "remarks": "Vehicle maintenance expense"
+    },
+    {
+      "journal_ref": "JV-DEMO-000256",
+      "posting_date": "2025-10-12",
+      "voucher_type": "Bank Entry",
+      "amount_pkr": 1085149,
+      "cost_center": "Incinerator Ops - ENXI",
+      "remarks": "Facility operating cost"
+    },
+    {
+      "journal_ref": "JV-DEMO-000257",
+      "posting_date": "2025-10-19",
+      "voucher_type": "Journal Entry",
+      "amount_pkr": 1977285,
+      "cost_center": "Fleet & Transport - ENXI",
+      "remarks": "Vehicle maintenance expense"
+    },
+    {
+      "journal_ref": "JV-DEMO-000258",
+      "posting_date": "2025-10-27",
+      "voucher_type": "Journal Entry",
+      "amount_pkr": 563352,
+      "cost_center": "HR & Payroll - ENXI",
+      "remarks": "Payroll processing"
+    },
+    {
+      "journal_ref": "JV-DEMO-000259",
+      "posting_date": "2025-10-28",
+      "voucher_type": "Bank Entry",
+      "amount_pkr": 1424342,
+      "cost_center": "Incinerator Ops - ENXI",
+      "remarks": "Facility operating cost"
+    },
+    {
+      "journal_ref": "JV-DEMO-000260",
+      "posting_date": "2025-10-29",
+      "voucher_type": "Bank Entry",
+      "amount_pkr": 416587,
+      "cost_center": "Incinerator Ops - ENXI",
+      "remarks": "Incinerator fuel procurement"
+    },
+    {
+      "journal_ref": "JV-DEMO-000261",
+      "posting_date": "2025-11-02",
+      "voucher_type": "Bank Entry",
+      "amount_pkr": 1048037,
+      "cost_center": "Waste Operations - ENXI",
+      "remarks": "PPE and safety supplies"
+    },
+    {
+      "journal_ref": "JV-DEMO-000262",
+      "posting_date": "2025-11-02",
+      "voucher_type": "Bank Entry",
+      "amount_pkr": 1943932,
+      "cost_center": "Administration - ENXI",
+      "remarks": "IT infrastructure cost"
+    },
+    {
+      "journal_ref": "JV-DEMO-000263",
+      "posting_date": "2025-11-08",
+      "voucher_type": "Journal Entry",
+      "amount_pkr": 1173332,
+      "cost_center": "Administration - ENXI",
+      "remarks": "Bank charges"
+    },
+    {
+      "journal_ref": "JV-DEMO-000264",
+      "posting_date": "2025-11-12",
+      "voucher_type": "Journal Entry",
+      "amount_pkr": 1791808,
+      "cost_center": "Janitorial Services - ENXI",
+      "remarks": "Revenue accrual - janitorial"
+    },
+    {
+      "journal_ref": "JV-DEMO-000265",
+      "posting_date": "2025-11-17",
+      "voucher_type": "Cash Entry",
+      "amount_pkr": 1173938,
+      "cost_center": "Administration - ENXI",
+      "remarks": "IT infrastructure cost"
+    },
+    {
+      "journal_ref": "JV-DEMO-000266",
+      "posting_date": "2025-11-20",
+      "voucher_type": "Bank Entry",
+      "amount_pkr": 1133801,
+      "cost_center": "Fleet & Transport - ENXI",
+      "remarks": "Vehicle maintenance expense"
+    },
+    {
+      "journal_ref": "JV-DEMO-000267",
+      "posting_date": "2025-11-21",
+      "voucher_type": "Bank Entry",
+      "amount_pkr": 557920,
+      "cost_center": "Administration - ENXI",
+      "remarks": "Professional services fee"
+    },
+    {
+      "journal_ref": "JV-DEMO-000268",
+      "posting_date": "2025-11-25",
+      "voucher_type": "Bank Entry",
+      "amount_pkr": 1945715,
+      "cost_center": "Incinerator Ops - ENXI",
+      "remarks": "Facility operating cost"
+    },
+    {
+      "journal_ref": "JV-DEMO-000269",
+      "posting_date": "2025-11-27",
+      "voucher_type": "Journal Entry",
+      "amount_pkr": 649984,
+      "cost_center": "Administration - ENXI",
+      "remarks": "Insurance premium payment"
+    },
+    {
+      "journal_ref": "JV-DEMO-000270",
+      "posting_date": "2025-12-02",
+      "voucher_type": "Bank Entry",
+      "amount_pkr": 130526,
+      "cost_center": "Administration - ENXI",
+      "remarks": "Insurance premium payment"
+    },
+    {
+      "journal_ref": "JV-DEMO-000271",
+      "posting_date": "2025-12-04",
+      "voucher_type": "Journal Entry",
+      "amount_pkr": 182016,
+      "cost_center": "Administration - ENXI",
+      "remarks": "Bank charges"
+    },
+    {
+      "journal_ref": "JV-DEMO-000272",
+      "posting_date": "2025-12-09",
+      "voucher_type": "Cash Entry",
+      "amount_pkr": 535569,
+      "cost_center": "Administration - ENXI",
+      "remarks": "Insurance premium payment"
+    },
+    {
+      "journal_ref": "JV-DEMO-000273",
+      "posting_date": "2025-12-10",
+      "voucher_type": "Cash Entry",
+      "amount_pkr": 563117,
+      "cost_center": "HR & Payroll - ENXI",
+      "remarks": "Payroll processing"
+    },
+    {
+      "journal_ref": "JV-DEMO-000274",
+      "posting_date": "2025-12-13",
+      "voucher_type": "Bank Entry",
+      "amount_pkr": 790956,
+      "cost_center": "Administration - ENXI",
+      "remarks": "Bank charges"
+    },
+    {
+      "journal_ref": "JV-DEMO-000275",
+      "posting_date": "2025-12-19",
+      "voucher_type": "Journal Entry",
+      "amount_pkr": 581033,
+      "cost_center": "Administration - ENXI",
+      "remarks": "Professional services fee"
+    },
+    {
+      "journal_ref": "JV-DEMO-000276",
+      "posting_date": "2025-12-21",
+      "voucher_type": "Cash Entry",
+      "amount_pkr": 1911350,
+      "cost_center": "Biomedical Equipment - ENXI",
+      "remarks": "Equipment depreciation entry"
+    },
+    {
+      "journal_ref": "JV-DEMO-000277",
+      "posting_date": "2025-12-22",
+      "voucher_type": "Cash Entry",
+      "amount_pkr": 1370572,
+      "cost_center": "Waste Operations - ENXI",
+      "remarks": "Revenue accrual - waste services"
+    },
+    {
+      "journal_ref": "JV-DEMO-000278",
+      "posting_date": "2025-12-28",
+      "voucher_type": "Journal Entry",
+      "amount_pkr": 1605532,
+      "cost_center": "Administration - ENXI",
+      "remarks": "Insurance premium payment"
+    },
+    {
+      "journal_ref": "JV-DEMO-000279",
+      "posting_date": "2026-01-01",
+      "voucher_type": "Cash Entry",
+      "amount_pkr": 901553,
+      "cost_center": "Waste Operations - ENXI",
+      "remarks": "Revenue accrual - waste services"
+    },
+    {
+      "journal_ref": "JV-DEMO-000280",
+      "posting_date": "2026-01-05",
+      "voucher_type": "Bank Entry",
+      "amount_pkr": 1423212,
+      "cost_center": "Incinerator Ops - ENXI",
+      "remarks": "Facility operating cost"
+    },
+    {
+      "journal_ref": "JV-DEMO-000281",
+      "posting_date": "2026-01-05",
+      "voucher_type": "Cash Entry",
+      "amount_pkr": 311184,
+      "cost_center": "Incinerator Ops - ENXI",
+      "remarks": "Facility operating cost"
+    },
+    {
+      "journal_ref": "JV-DEMO-000282",
+      "posting_date": "2026-01-06",
+      "voucher_type": "Journal Entry",
+      "amount_pkr": 1357719,
+      "cost_center": "Waste Operations - ENXI",
+      "remarks": "PPE and safety supplies"
+    },
+    {
+      "journal_ref": "JV-DEMO-000283",
+      "posting_date": "2026-01-09",
+      "voucher_type": "Cash Entry",
+      "amount_pkr": 1351585,
+      "cost_center": "Administration - ENXI",
+      "remarks": "Insurance premium payment"
+    },
+    {
+      "journal_ref": "JV-DEMO-000284",
+      "posting_date": "2026-01-10",
+      "voucher_type": "Journal Entry",
+      "amount_pkr": 1779425,
+      "cost_center": "Fleet & Transport - ENXI",
+      "remarks": "Vehicle maintenance expense"
+    },
+    {
+      "journal_ref": "JV-DEMO-000285",
+      "posting_date": "2026-01-11",
+      "voucher_type": "Bank Entry",
+      "amount_pkr": 689150,
+      "cost_center": "Waste Operations - ENXI",
+      "remarks": "PPE and safety supplies"
+    },
+    {
+      "journal_ref": "JV-DEMO-000286",
+      "posting_date": "2026-01-18",
+      "voucher_type": "Cash Entry",
+      "amount_pkr": 1006158,
+      "cost_center": "Fleet & Transport - ENXI",
+      "remarks": "Vehicle maintenance expense"
+    },
+    {
+      "journal_ref": "JV-DEMO-000287",
+      "posting_date": "2026-01-19",
+      "voucher_type": "Cash Entry",
+      "amount_pkr": 293985,
+      "cost_center": "Administration - ENXI",
+      "remarks": "IT infrastructure cost"
+    },
+    {
+      "journal_ref": "JV-DEMO-000288",
+      "posting_date": "2026-01-27",
+      "voucher_type": "Journal Entry",
+      "amount_pkr": 1582452,
+      "cost_center": "Incinerator Ops - ENXI",
+      "remarks": "Incinerator fuel procurement"
+    },
+    {
+      "journal_ref": "JV-DEMO-000289",
+      "posting_date": "2026-01-28",
+      "voucher_type": "Cash Entry",
+      "amount_pkr": 676319,
+      "cost_center": "Incinerator Ops - ENXI",
+      "remarks": "Facility operating cost"
+    },
+    {
+      "journal_ref": "JV-DEMO-000290",
+      "posting_date": "2026-01-29",
+      "voucher_type": "Journal Entry",
+      "amount_pkr": 957254,
+      "cost_center": "Incinerator Ops - ENXI",
+      "remarks": "Facility operating cost"
+    },
+    {
+      "journal_ref": "JV-DEMO-000291",
+      "posting_date": "2026-02-02",
+      "voucher_type": "Journal Entry",
+      "amount_pkr": 590677,
+      "cost_center": "Fleet & Transport - ENXI",
+      "remarks": "Vehicle maintenance expense"
+    },
+    {
+      "journal_ref": "JV-DEMO-000292",
+      "posting_date": "2026-02-03",
+      "voucher_type": "Cash Entry",
+      "amount_pkr": 368648,
+      "cost_center": "Incinerator Ops - ENXI",
+      "remarks": "Incinerator fuel procurement"
+    },
+    {
+      "journal_ref": "JV-DEMO-000293",
+      "posting_date": "2026-02-10",
+      "voucher_type": "Journal Entry",
+      "amount_pkr": 1139585,
+      "cost_center": "Administration - ENXI",
+      "remarks": "Insurance premium payment"
+    },
+    {
+      "journal_ref": "JV-DEMO-000294",
+      "posting_date": "2026-02-11",
+      "voucher_type": "Journal Entry",
+      "amount_pkr": 422280,
+      "cost_center": "Fleet & Transport - ENXI",
+      "remarks": "Fuel and logistics expense"
+    },
+    {
+      "journal_ref": "JV-DEMO-000295",
+      "posting_date": "2026-02-15",
+      "voucher_type": "Journal Entry",
+      "amount_pkr": 1555876,
+      "cost_center": "Waste Operations - ENXI",
+      "remarks": "Revenue accrual - waste services"
+    },
+    {
+      "journal_ref": "JV-DEMO-000296",
+      "posting_date": "2026-02-22",
+      "voucher_type": "Bank Entry",
+      "amount_pkr": 1202225,
+      "cost_center": "Administration - ENXI",
+      "remarks": "Professional services fee"
+    },
+    {
+      "journal_ref": "JV-DEMO-000297",
+      "posting_date": "2026-02-26",
+      "voucher_type": "Journal Entry",
+      "amount_pkr": 1141735,
+      "cost_center": "HR & Payroll - ENXI",
+      "remarks": "Payroll processing"
+    },
+    {
+      "journal_ref": "JV-DEMO-000298",
+      "posting_date": "2026-03-01",
+      "voucher_type": "Bank Entry",
+      "amount_pkr": 1609118,
+      "cost_center": "Waste Operations - ENXI",
+      "remarks": "Revenue accrual - waste services"
+    },
+    {
+      "journal_ref": "JV-DEMO-000299",
+      "posting_date": "2026-03-04",
+      "voucher_type": "Bank Entry",
+      "amount_pkr": 1377667,
+      "cost_center": "Janitorial Services - ENXI",
+      "remarks": "Revenue accrual - janitorial"
+    },
+    {
+      "journal_ref": "JV-DEMO-000300",
+      "posting_date": "2026-03-12",
+      "voucher_type": "Cash Entry",
+      "amount_pkr": 1586305,
+      "cost_center": "Fleet & Transport - ENXI",
+      "remarks": "Vehicle maintenance expense"
+    }
+  ]
 }

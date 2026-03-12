@@ -23,11 +23,11 @@ def import_demo_seed(context, seed_dir, company):
 		for doctype, stats in report.items():
 			if isinstance(stats, dict) and "inserted" in stats:
 				err_count = len(stats.get("errors", []))
-				line = f"  {doctype:20s}  inserted={stats['inserted']}  skipped={stats['skipped']}  errors={err_count}"
+				line = f"  {doctype:25s}  inserted={stats['inserted']}  skipped={stats['skipped']}  errors={err_count}"
 				color = "red" if err_count else "white"
 				click.echo(click.style(line, fg=color))
 			elif isinstance(stats, dict):
-				click.echo(f"  {doctype:20s}  {stats}")
+				click.echo(f"  {doctype:25s}  {stats}")
 		click.echo()
 	finally:
 		frappe.destroy()

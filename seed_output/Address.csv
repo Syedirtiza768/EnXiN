@@ -1,91 +1,251 @@
 name,address_title,address_type,address_line1,city,country,links
-ADDR-CUST-0001,Mayo Tertiary Hospital 01,Billing,"Block 10, Gulberg",Lahore,Pakistan,Customer::Mayo Tertiary Hospital 01
-ADDR-CUST-0002,Jinnah Tertiary Hospital 02,Billing,"Block 2, Cantt",Lahore,Pakistan,Customer::Jinnah Tertiary Hospital 02
-ADDR-CUST-0003,Services Tertiary Hospital 03,Billing,"Block 4, Faisal Town",Lahore,Pakistan,Customer::Services Tertiary Hospital 03
-ADDR-CUST-0004,Shalimar Tertiary Hospital 04,Billing,"Block 24, Gulshan-e-Ravi",Lahore,Pakistan,Customer::Shalimar Tertiary Hospital 04
-ADDR-CUST-0005,Central Park Tertiary Hospital 05,Billing,"Block 24, Askari 10",Lahore,Pakistan,Customer::Central Park Tertiary Hospital 05
-ADDR-CUST-0006,City Care Tertiary Hospital 06,Billing,"Block 17, Askari 10",Lahore,Pakistan,Customer::City Care Tertiary Hospital 06
-ADDR-CUST-0007,Noor Tertiary Hospital 07,Billing,"Block 2, Shadman",Lahore,Pakistan,Customer::Noor Tertiary Hospital 07
-ADDR-CUST-0008,Al-Rehman Tertiary Hospital 08,Billing,"Block 22, Samanabad",Lahore,Pakistan,Customer::Al-Rehman Tertiary Hospital 08
-ADDR-CUST-0009,LifeLine Tertiary Hospital 09,Billing,"Block 2, Township",Lahore,Pakistan,Customer::LifeLine Tertiary Hospital 09
-ADDR-CUST-0010,Prime Tertiary Hospital 10,Billing,"Block 7, Johar Town",Lahore,Pakistan,Customer::Prime Tertiary Hospital 10
-ADDR-CUST-0011,Medix District Hospital 11,Billing,"Block 15, Gulshan-e-Ravi",Lahore,Pakistan,Customer::Medix District Hospital 11
-ADDR-CUST-0012,Punjab District Hospital 12,Billing,"Block 23, Garden Town",Lahore,Pakistan,Customer::Punjab District Hospital 12
-ADDR-CUST-0013,Lahore General District Hospital 13,Billing,"Block 18, Faisal Town",Lahore,Pakistan,Customer::Lahore General District Hospital 13
-ADDR-CUST-0014,Sheikh Zayed District Hospital 14,Billing,"Block 10, Gulshan-e-Ravi",Rawalpindi,Pakistan,Customer::Sheikh Zayed District Hospital 14
-ADDR-CUST-0015,Hameed Latif District Hospital 15,Billing,"Block 6, Bahria Town",Lahore,Pakistan,Customer::Hameed Latif District Hospital 15
-ADDR-CUST-0016,Shaukat Khanum District Hospital 16,Billing,"Block 4, Iqbal Town",Lahore,Pakistan,Customer::Shaukat Khanum District Hospital 16
-ADDR-CUST-0017,National District Hospital 17,Billing,"Block 18, Samanabad",Faisalabad,Pakistan,Customer::National District Hospital 17
-ADDR-CUST-0018,Allied Teaching Hospital 18,Billing,"Block 1, Wapda Town",Faisalabad,Pakistan,Customer::Allied Teaching Hospital 18
-ADDR-CUST-0019,Combined Military Teaching Hospital 19,Billing,"Block 5, Township",Lahore,Pakistan,Customer::Combined Military Teaching Hospital 19
-ADDR-CUST-0020,Gulab Devi Teaching Hospital 20,Billing,"Block 20, Gulberg",Faisalabad,Pakistan,Customer::Gulab Devi Teaching Hospital 20
-ADDR-CUST-0021,Sir Ganga Ram Teaching Hospital 21,Billing,"Block 21, Gulberg",Lahore,Pakistan,Customer::Sir Ganga Ram Teaching Hospital 21
-ADDR-CUST-0022,Fatima Memorial Private Hospital 22,Billing,"Block 10, Gulshan-e-Ravi",Lahore,Pakistan,Customer::Fatima Memorial Private Hospital 22
-ADDR-CUST-0023,Sharif Medical Private Hospital 23,Billing,"Block 18, Valencia Town",Lahore,Pakistan,Customer::Sharif Medical Private Hospital 23
-ADDR-CUST-0024,Ittefaq Private Hospital 24,Billing,"Block 17, Faisal Town",Faisalabad,Pakistan,Customer::Ittefaq Private Hospital 24
-ADDR-CUST-0025,Doctors Private Hospital 25,Billing,"Block 17, Garden Town",Lahore,Pakistan,Customer::Doctors Private Hospital 25
-ADDR-CUST-0026,Surgimed Diagnostic Laboratory 26,Billing,"Block 6, Model Town",Lahore,Pakistan,Customer::Surgimed Diagnostic Laboratory 26
-ADDR-CUST-0027,Hafeez Diagnostic Laboratory 27,Billing,"Block 13, Allama Iqbal Town",Lahore,Pakistan,Customer::Hafeez Diagnostic Laboratory 27
-ADDR-CUST-0028,Aziz Fatimah Diagnostic Laboratory 28,Billing,"Block 7, Model Town",Lahore,Pakistan,Customer::Aziz Fatimah Diagnostic Laboratory 28
-ADDR-CUST-0029,Farooq Maternity Hospital 29,Billing,"Block 10, Township",Lahore,Pakistan,Customer::Farooq Maternity Hospital 29
-ADDR-CUST-0030,Children Maternity Hospital 30,Billing,"Block 20, Cantt",Lahore,Pakistan,Customer::Children Maternity Hospital 30
-ADDR-CUST-0031,Lady Aitchison Specialist Clinic 31,Billing,"Block 18, EME Society",Lahore,Pakistan,Customer::Lady Aitchison Specialist Clinic 31
-ADDR-CUST-0032,Lahore Eye Medical Center 32,Billing,"Block 15, Johar Town",Faisalabad,Pakistan,Customer::Lahore Eye Medical Center 32
-ADDR-CUST-0033,Sir Ganga Ram Medical Center 33,Billing,"Block 20, Garden Town",Lahore,Pakistan,Customer::Sir Ganga Ram Medical Center 33
-ADDR-CUST-0034,Surgimed Medical Center 34,Billing,"Block 22, Gulshan-e-Ravi",Lahore,Pakistan,Customer::Surgimed Medical Center 34
-ADDR-CUST-0035,Allied Medical Center 35,Billing,"Block 4, Township",Lahore,Pakistan,Customer::Allied Medical Center 35
-ADDR-CUST-0036,Central Park Medical Center 36,Billing,"Block 1, Samanabad",Faisalabad,Pakistan,Customer::Central Park Medical Center 36
-ADDR-CUST-0037,Sheikh Zayed Medical Center 37,Billing,"Block 12, EME Society",Lahore,Pakistan,Customer::Sheikh Zayed Medical Center 37
-ADDR-CUST-0038,Citi Lab Medical Center 38,Billing,"Block 15, EME Society",Lahore,Pakistan,Customer::Citi Lab Medical Center 38
-ADDR-CUST-0039,CMH Medical Center 39,Billing,"Block 11, Valencia Town",Rawalpindi,Pakistan,Customer::CMH Medical Center 39
-ADDR-CUST-0040,Sir Ganga Ram Medical Center 40,Billing,"Block 6, EME Society",Lahore,Pakistan,Customer::Sir Ganga Ram Medical Center 40
-ADDR-CUST-0041,Sheikh Zayed Medical Center 41,Billing,"Block 21, Askari 10",Lahore,Pakistan,Customer::Sheikh Zayed Medical Center 41
-ADDR-CUST-0042,Ghurki Trust Medical Center 42,Billing,"Block 22, Model Town",Rawalpindi,Pakistan,Customer::Ghurki Trust Medical Center 42
-ADDR-CUST-0043,Social Security Medical Center 43,Billing,"Block 7, Allama Iqbal Town",Lahore,Pakistan,Customer::Social Security Medical Center 43
-ADDR-CUST-0044,Surgimed Medical Center 44,Billing,"Block 24, Askari 10",Lahore,Pakistan,Customer::Surgimed Medical Center 44
-ADDR-CUST-0045,Ghurki Trust Medical Center 45,Billing,"Block 3, Allama Iqbal Town",Lahore,Pakistan,Customer::Ghurki Trust Medical Center 45
-ADDR-CUST-0046,Children Medical Center 46,Billing,"Block 2, DHA Phase 5",Faisalabad,Pakistan,Customer::Children Medical Center 46
-ADDR-CUST-0047,Prime Medical Center 47,Billing,"Block 9, Model Town",Rawalpindi,Pakistan,Customer::Prime Medical Center 47
-ADDR-CUST-0048,National Medical Center 48,Billing,"Block 9, Askari 10",Rawalpindi,Pakistan,Customer::National Medical Center 48
-ADDR-CUST-0049,LifeLine Medical Center 49,Billing,"Block 21, Allama Iqbal Town",Lahore,Pakistan,Customer::LifeLine Medical Center 49
-ADDR-CUST-0050,Shaukat Khanum Medical Center 50,Billing,"Block 1, Samanabad",Lahore,Pakistan,Customer::Shaukat Khanum Medical Center 50
-ADDR-CUST-0051,Wapda Teaching Medical Center 51,Billing,"Block 18, Samanabad",Lahore,Pakistan,Customer::Wapda Teaching Medical Center 51
-ADDR-CUST-0052,Excel Labs Medical Center 52,Billing,"Block 20, Johar Town",Lahore,Pakistan,Customer::Excel Labs Medical Center 52
-ADDR-CUST-0053,Agha Khan Lab Medical Center 53,Billing,"Block 19, Model Town",Lahore,Pakistan,Customer::Agha Khan Lab Medical Center 53
-ADDR-CUST-0054,National Medical Center 54,Billing,"Block 3, Gulberg",Lahore,Pakistan,Customer::National Medical Center 54
-ADDR-CUST-0055,Wapda Teaching Medical Center 55,Billing,"Block 4, Faisal Town",Lahore,Pakistan,Customer::Wapda Teaching Medical Center 55
-ADDR-SUP-0056,Medical Supplies Punjab,Office,"Plot 176, Shadman",Lahore,Pakistan,Supplier::Medical Supplies Punjab
-ADDR-SUP-0057,Bio-Equipment International,Office,"Plot 156, Shadman",Lahore,Pakistan,Supplier::Bio-Equipment International
-ADDR-SUP-0058,Safety First PPE,Office,"Plot 73, Model Town",Lahore,Pakistan,Supplier::Safety First PPE
-ADDR-SUP-0059,Lahore Container Works,Office,"Plot 98, Bahria Town",Lahore,Pakistan,Supplier::Lahore Container Works
-ADDR-SUP-0060,Eco-Disposal Systems,Office,"Plot 170, Samanabad",Lahore,Pakistan,Supplier::Eco-Disposal Systems
-ADDR-SUP-0061,Punjab Auto Parts,Office,"Plot 122, Johar Town",Lahore,Pakistan,Supplier::Punjab Auto Parts
-ADDR-SUP-0062,National Chemical Corp,Office,"Plot 137, Iqbal Town",Lahore,Pakistan,Supplier::National Chemical Corp
-ADDR-SUP-0063,Al-Fatah Safety Products,Office,"Plot 35, Garden Town",Lahore,Pakistan,Supplier::Al-Fatah Safety Products
-ADDR-SUP-0064,Siemens Pakistan,Office,"Plot 140, Samanabad",Lahore,Pakistan,Supplier::Siemens Pakistan
-ADDR-SUP-0065,Philips Healthcare PK,Office,"Plot 163, Shadman",Lahore,Pakistan,Supplier::Philips Healthcare PK
-ADDR-SUP-0066,GE Health Pakistan,Office,"Plot 77, DHA Phase 5",Lahore,Pakistan,Supplier::GE Health Pakistan
-ADDR-SUP-0067,Draeger Safety Pakistan,Office,"Plot 3, Faisal Town",Lahore,Pakistan,Supplier::Draeger Safety Pakistan
-ADDR-SUP-0068,Pakistan Petroleum Corp,Office,"Plot 143, Askari 10",Lahore,Pakistan,Supplier::Pakistan Petroleum Corp
-ADDR-SUP-0069,Shell Pakistan,Office,"Plot 32, DHA Phase 5",Lahore,Pakistan,Supplier::Shell Pakistan
-ADDR-SUP-0070,Total Parco,Office,"Plot 2, Gulberg",Lahore,Pakistan,Supplier::Total Parco
-ADDR-SUP-0071,Atlas Honda Parts,Office,"Plot 153, Cavalry Ground",Lahore,Pakistan,Supplier::Atlas Honda Parts
-ADDR-SUP-0072,Hino Pakistan Motors,Office,"Plot 138, Samanabad",Lahore,Pakistan,Supplier::Hino Pakistan Motors
-ADDR-SUP-0073,Isuzu Pakistan,Office,"Plot 22, Askari 10",Lahore,Pakistan,Supplier::Isuzu Pakistan
-ADDR-SUP-0074,Waste Tech Industries,Office,"Plot 54, Shadman",Lahore,Pakistan,Supplier::Waste Tech Industries
-ADDR-SUP-0075,Refractory Materials Lahore,Office,"Plot 55, Faisal Town",Lahore,Pakistan,Supplier::Refractory Materials Lahore
-ADDR-SUP-0076,Metropolitan Steel Works,Office,"Plot 166, Allama Iqbal Town",Lahore,Pakistan,Supplier::Metropolitan Steel Works
-ADDR-SUP-0077,Pharma Waste Solutions,Office,"Plot 37, EME Society",Lahore,Pakistan,Supplier::Pharma Waste Solutions
-ADDR-SUP-0078,Clean Environment Services,Office,"Plot 48, Iqbal Town",Lahore,Pakistan,Supplier::Clean Environment Services
-ADDR-SUP-0079,Kohinoor Chemical,Office,"Plot 158, Garden Town",Lahore,Pakistan,Supplier::Kohinoor Chemical
-ADDR-SUP-0080,Lahore Paper & Packaging,Office,"Plot 50, Wapda Town",Lahore,Pakistan,Supplier::Lahore Paper & Packaging
-ADDR-SUP-0081,Digital Tracking Systems,Office,"Plot 47, DHA Phase 1",Lahore,Pakistan,Supplier::Digital Tracking Systems
-ADDR-SUP-0082,Punjab Insurance Brokers,Office,"Plot 14, Cavalry Ground",Lahore,Pakistan,Supplier::Punjab Insurance Brokers
-ADDR-SUP-0083,SafeGuard Uniforms,Office,"Plot 119, Askari 10",Lahore,Pakistan,Supplier::SafeGuard Uniforms
-ADDR-SUP-0084,MedTech Training Institute,Office,"Plot 19, Askari 10",Lahore,Pakistan,Supplier::MedTech Training Institute
-ADDR-SUP-0085,Calibration Services Pakistan,Office,"Plot 172, Shadman",Lahore,Pakistan,Supplier::Calibration Services Pakistan
-ADDR-SUP-0086,Fire Safety Equipment Co,Office,"Plot 65, Model Town",Lahore,Pakistan,Supplier::Fire Safety Equipment Co
-ADDR-SUP-0087,Lahore Rubber Works,Office,"Plot 51, DHA Phase 1",Lahore,Pakistan,Supplier::Lahore Rubber Works
-ADDR-SUP-0088,Ravi Engineering Works,Office,"Plot 125, Cavalry Ground",Lahore,Pakistan,Supplier::Ravi Engineering Works
-ADDR-SUP-0089,National Environmental Lab,Office,"Plot 92, Township",Lahore,Pakistan,Supplier::National Environmental Lab
-ADDR-SUP-0090,Punjab Revenue Board Consultants,Office,"Plot 172, DHA Phase 5",Lahore,Pakistan,Supplier::Punjab Revenue Board Consultants
+ADDR-0001,Mayo District Hospital 01,Billing,"Block 21, Valencia Town",Lahore,Pakistan,Customer::Mayo District Hospital 01
+ADDR-0002,Mayo District Hospital 01 - Service,Shipping,"Building 15, Valencia Town",Lahore,Pakistan,Customer::Mayo District Hospital 01
+ADDR-0003,City Care Tertiary Hospital 02,Billing,"Block 18, DHA Phase 1",Lahore,Pakistan,Customer::City Care Tertiary Hospital 02
+ADDR-0004,City Care Tertiary Hospital 02 - Service,Shipping,"Building 5, DHA Phase 1",Lahore,Pakistan,Customer::City Care Tertiary Hospital 02
+ADDR-0005,Sharif Medical General Hospital 03,Billing,"Block 18, Iqbal Town",Lahore,Pakistan,Customer::Sharif Medical General Hospital 03
+ADDR-0006,Sharif Medical General Hospital 03 - Service,Shipping,"Building 4, Iqbal Town",Lahore,Pakistan,Customer::Sharif Medical General Hospital 03
+ADDR-0007,Services Specialized Hospital 04,Billing,"Block 40, Johar Town",Lahore,Pakistan,Customer::Services Specialized Hospital 04
+ADDR-0008,Services Specialized Hospital 04 - Service,Shipping,"Building 18, Johar Town",Lahore,Pakistan,Customer::Services Specialized Hospital 04
+ADDR-0009,Mayo Teaching Hospital 05,Billing,"Block 7, EME Society",Lahore,Pakistan,Customer::Mayo Teaching Hospital 05
+ADDR-0010,Mayo Teaching Hospital 05 - Service,Shipping,"Building 7, EME Society",Lahore,Pakistan,Customer::Mayo Teaching Hospital 05
+ADDR-0011,Lady Willingdon Tertiary Hospital 06,Billing,"Block 23, Valencia Town",Lahore,Pakistan,Customer::Lady Willingdon Tertiary Hospital 06
+ADDR-0012,Lady Willingdon Tertiary Hospital 06 - Service,Shipping,"Building 18, Valencia Town",Lahore,Pakistan,Customer::Lady Willingdon Tertiary Hospital 06
+ADDR-0013,Central Tertiary Hospital 07,Billing,"Block 18, Township",Lahore,Pakistan,Customer::Central Tertiary Hospital 07
+ADDR-0014,Central Tertiary Hospital 07 - Service,Shipping,"Building 5, Township",Lahore,Pakistan,Customer::Central Tertiary Hospital 07
+ADDR-0015,Sir Ganga Ram District Hospital 08,Billing,"Block 37, Shadman",Lahore,Pakistan,Customer::Sir Ganga Ram District Hospital 08
+ADDR-0016,Sir Ganga Ram District Hospital 08 - Service,Shipping,"Building 8, Shadman",Lahore,Pakistan,Customer::Sir Ganga Ram District Hospital 08
+ADDR-0017,Fatima Memorial Tertiary Hospital 09,Billing,"Block 5, Iqbal Town",Lahore,Pakistan,Customer::Fatima Memorial Tertiary Hospital 09
+ADDR-0018,Fatima Memorial Tertiary Hospital 09 - Service,Shipping,"Building 10, Iqbal Town",Lahore,Pakistan,Customer::Fatima Memorial Tertiary Hospital 09
+ADDR-0019,Mayo Specialized Hospital 10,Billing,"Block 22, Faisal Town",Lahore,Pakistan,Customer::Mayo Specialized Hospital 10
+ADDR-0020,Mayo Specialized Hospital 10 - Service,Shipping,"Building 18, Faisal Town",Lahore,Pakistan,Customer::Mayo Specialized Hospital 10
+ADDR-0021,LifeLine General Hospital 11,Billing,"Block 4, Bahria Town",Lahore,Pakistan,Customer::LifeLine General Hospital 11
+ADDR-0022,LifeLine General Hospital 11 - Service,Shipping,"Building 5, Bahria Town",Lahore,Pakistan,Customer::LifeLine General Hospital 11
+ADDR-0023,Ghurki Trust Tertiary Hospital 12,Billing,"Block 31, Johar Town",Lahore,Pakistan,Customer::Ghurki Trust Tertiary Hospital 12
+ADDR-0024,Ghurki Trust Tertiary Hospital 12 - Service,Shipping,"Building 2, Johar Town",Lahore,Pakistan,Customer::Ghurki Trust Tertiary Hospital 12
+ADDR-0025,Gulab Devi Tertiary Hospital 13,Billing,"Block 25, DHA Phase 1",Lahore,Pakistan,Customer::Gulab Devi Tertiary Hospital 13
+ADDR-0026,Gulab Devi Tertiary Hospital 13 - Service,Shipping,"Building 2, DHA Phase 1",Lahore,Pakistan,Customer::Gulab Devi Tertiary Hospital 13
+ADDR-0027,Prime Teaching Hospital 14,Billing,"Block 28, Model Town",Lahore,Pakistan,Customer::Prime Teaching Hospital 14
+ADDR-0028,Prime Teaching Hospital 14 - Service,Shipping,"Building 13, Model Town",Lahore,Pakistan,Customer::Prime Teaching Hospital 14
+ADDR-0029,Jinnah Tertiary Hospital 15,Billing,"Block 46, Iqbal Town",Lahore,Pakistan,Customer::Jinnah Tertiary Hospital 15
+ADDR-0030,Jinnah Tertiary Hospital 15 - Service,Shipping,"Building 20, Iqbal Town",Lahore,Pakistan,Customer::Jinnah Tertiary Hospital 15
+ADDR-0031,Shalimar District Hospital 16,Billing,"Block 41, Lake City",Lahore,Pakistan,Customer::Shalimar District Hospital 16
+ADDR-0032,Shalimar District Hospital 16 - Service,Shipping,"Building 15, Lake City",Lahore,Pakistan,Customer::Shalimar District Hospital 16
+ADDR-0033,Al-Rehman Tertiary Hospital 17,Billing,"Block 23, Faisal Town",Lahore,Pakistan,Customer::Al-Rehman Tertiary Hospital 17
+ADDR-0034,Al-Rehman Tertiary Hospital 17 - Service,Shipping,"Building 10, Faisal Town",Lahore,Pakistan,Customer::Al-Rehman Tertiary Hospital 17
+ADDR-0035,National District Hospital 18,Billing,"Block 13, Township",Lahore,Pakistan,Customer::National District Hospital 18
+ADDR-0036,National District Hospital 18 - Service,Shipping,"Building 18, Township",Lahore,Pakistan,Customer::National District Hospital 18
+ADDR-0037,Ittefaq District Hospital 19,Billing,"Block 49, Model Town",Lahore,Pakistan,Customer::Ittefaq District Hospital 19
+ADDR-0038,Ittefaq District Hospital 19 - Service,Shipping,"Building 15, Model Town",Lahore,Pakistan,Customer::Ittefaq District Hospital 19
+ADDR-0039,City Care Tertiary Hospital 20,Billing,"Block 9, Lake City",Lahore,Pakistan,Customer::City Care Tertiary Hospital 20
+ADDR-0040,City Care Tertiary Hospital 20 - Service,Shipping,"Building 3, Lake City",Lahore,Pakistan,Customer::City Care Tertiary Hospital 20
+ADDR-0041,National Private Hospital 21,Billing,"Block 7, Bahria Town",Lahore,Pakistan,Customer::National Private Hospital 21
+ADDR-0042,National Private Hospital 21 - Service,Shipping,"Building 15, Bahria Town",Lahore,Pakistan,Customer::National Private Hospital 21
+ADDR-0043,Gulab Devi Specialized Hospital 22,Billing,"Block 44, Shadman",Lahore,Pakistan,Customer::Gulab Devi Specialized Hospital 22
+ADDR-0044,Gulab Devi Specialized Hospital 22 - Service,Shipping,"Building 15, Shadman",Lahore,Pakistan,Customer::Gulab Devi Specialized Hospital 22
+ADDR-0045,Surgimed District Hospital 23,Billing,"Block 15, Askari 10",Lahore,Pakistan,Customer::Surgimed District Hospital 23
+ADDR-0046,Surgimed District Hospital 23 - Service,Shipping,"Building 8, Askari 10",Lahore,Pakistan,Customer::Surgimed District Hospital 23
+ADDR-0047,Prime Tertiary Hospital 24,Billing,"Block 40, DHA Phase 5",Lahore,Pakistan,Customer::Prime Tertiary Hospital 24
+ADDR-0048,Prime Tertiary Hospital 24 - Service,Shipping,"Building 9, DHA Phase 5",Lahore,Pakistan,Customer::Prime Tertiary Hospital 24
+ADDR-0049,Ittefaq General Hospital 25,Billing,"Block 26, Gulshan-e-Ravi",Lahore,Pakistan,Customer::Ittefaq General Hospital 25
+ADDR-0050,Ittefaq General Hospital 25 - Service,Shipping,"Building 6, Gulshan-e-Ravi",Lahore,Pakistan,Customer::Ittefaq General Hospital 25
+ADDR-0051,Hameed Latif District Hospital 26,Billing,"Block 21, Township",Lahore,Pakistan,Customer::Hameed Latif District Hospital 26
+ADDR-0052,Hameed Latif District Hospital 26 - Service,Shipping,"Building 15, Township",Lahore,Pakistan,Customer::Hameed Latif District Hospital 26
+ADDR-0053,Lahore General Tertiary Hospital 27,Billing,"Block 2, Askari 10",Lahore,Pakistan,Customer::Lahore General Tertiary Hospital 27
+ADDR-0054,Lahore General Tertiary Hospital 27 - Service,Shipping,"Building 3, Askari 10",Lahore,Pakistan,Customer::Lahore General Tertiary Hospital 27
+ADDR-0055,Gulab Devi Tertiary Hospital 28,Billing,"Block 8, Askari 10",Lahore,Pakistan,Customer::Gulab Devi Tertiary Hospital 28
+ADDR-0056,Gulab Devi Tertiary Hospital 28 - Service,Shipping,"Building 12, Askari 10",Lahore,Pakistan,Customer::Gulab Devi Tertiary Hospital 28
+ADDR-0057,Doctors Private Hospital 29,Billing,"Block 30, Askari 10",Lahore,Pakistan,Customer::Doctors Private Hospital 29
+ADDR-0058,Doctors Private Hospital 29 - Service,Shipping,"Building 6, Askari 10",Lahore,Pakistan,Customer::Doctors Private Hospital 29
+ADDR-0059,Sharif Medical District Hospital 30,Billing,"Block 50, Shadman",Lahore,Pakistan,Customer::Sharif Medical District Hospital 30
+ADDR-0060,Sharif Medical District Hospital 30 - Service,Shipping,"Building 12, Shadman",Lahore,Pakistan,Customer::Sharif Medical District Hospital 30
+ADDR-0061,Ghurki Trust Specialized Hospital 31,Billing,"Block 37, Faisal Town",Lahore,Pakistan,Customer::Ghurki Trust Specialized Hospital 31
+ADDR-0062,Ghurki Trust Specialized Hospital 31 - Service,Shipping,"Building 5, Faisal Town",Lahore,Pakistan,Customer::Ghurki Trust Specialized Hospital 31
+ADDR-0063,Jinnah Tertiary Hospital 32,Billing,"Block 7, EME Society",Lahore,Pakistan,Customer::Jinnah Tertiary Hospital 32
+ADDR-0064,Jinnah Tertiary Hospital 32 - Service,Shipping,"Building 13, EME Society",Lahore,Pakistan,Customer::Jinnah Tertiary Hospital 32
+ADDR-0065,Services Teaching Hospital 33,Billing,"Block 21, DHA Phase 1",Lahore,Pakistan,Customer::Services Teaching Hospital 33
+ADDR-0066,Services Teaching Hospital 33 - Service,Shipping,"Building 18, DHA Phase 1",Lahore,Pakistan,Customer::Services Teaching Hospital 33
+ADDR-0067,Fatima Memorial Private Hospital 34,Billing,"Block 20, Model Town",Lahore,Pakistan,Customer::Fatima Memorial Private Hospital 34
+ADDR-0068,Fatima Memorial Private Hospital 34 - Service,Shipping,"Building 18, Model Town",Lahore,Pakistan,Customer::Fatima Memorial Private Hospital 34
+ADDR-0069,Doctors Teaching Hospital 35,Billing,"Block 26, Bahria Town",Lahore,Pakistan,Customer::Doctors Teaching Hospital 35
+ADDR-0070,Doctors Teaching Hospital 35 - Service,Shipping,"Building 19, Bahria Town",Lahore,Pakistan,Customer::Doctors Teaching Hospital 35
+ADDR-0071,Doctors Teaching Hospital 36,Billing,"Block 16, Allama Iqbal Town",Lahore,Pakistan,Customer::Doctors Teaching Hospital 36
+ADDR-0072,Doctors Teaching Hospital 36 - Service,Shipping,"Building 20, Allama Iqbal Town",Lahore,Pakistan,Customer::Doctors Teaching Hospital 36
+ADDR-0073,Punjab Tertiary Hospital 37,Billing,"Block 36, Garden Town",Lahore,Pakistan,Customer::Punjab Tertiary Hospital 37
+ADDR-0074,Punjab Tertiary Hospital 37 - Service,Shipping,"Building 6, Garden Town",Lahore,Pakistan,Customer::Punjab Tertiary Hospital 37
+ADDR-0075,Sir Ganga Ram General Hospital 38,Billing,"Block 25, Askari 10",Lahore,Pakistan,Customer::Sir Ganga Ram General Hospital 38
+ADDR-0076,Sir Ganga Ram General Hospital 38 - Service,Shipping,"Building 3, Askari 10",Lahore,Pakistan,Customer::Sir Ganga Ram General Hospital 38
+ADDR-0077,Sheikh Zayed General Hospital 39,Billing,"Block 14, Township",Lahore,Pakistan,Customer::Sheikh Zayed General Hospital 39
+ADDR-0078,Sheikh Zayed General Hospital 39 - Service,Shipping,"Building 19, Township",Lahore,Pakistan,Customer::Sheikh Zayed General Hospital 39
+ADDR-0079,City Care Teaching Hospital 40,Billing,"Block 28, Allama Iqbal Town",Lahore,Pakistan,Customer::City Care Teaching Hospital 40
+ADDR-0080,City Care Teaching Hospital 40 - Service,Shipping,"Building 19, Allama Iqbal Town",Lahore,Pakistan,Customer::City Care Teaching Hospital 40
+ADDR-0081,Services District Hospital 41,Billing,"Block 35, Township",Lahore,Pakistan,Customer::Services District Hospital 41
+ADDR-0082,Services District Hospital 41 - Service,Shipping,"Building 8, Township",Lahore,Pakistan,Customer::Services District Hospital 41
+ADDR-0083,Punjab Specialized Hospital 42,Billing,"Block 43, Iqbal Town",Lahore,Pakistan,Customer::Punjab Specialized Hospital 42
+ADDR-0084,Punjab Specialized Hospital 42 - Service,Shipping,"Building 3, Iqbal Town",Lahore,Pakistan,Customer::Punjab Specialized Hospital 42
+ADDR-0085,Sharif Medical Tertiary Hospital 43,Billing,"Block 32, Lake City",Lahore,Pakistan,Customer::Sharif Medical Tertiary Hospital 43
+ADDR-0086,Sharif Medical Tertiary Hospital 43 - Service,Shipping,"Building 4, Lake City",Lahore,Pakistan,Customer::Sharif Medical Tertiary Hospital 43
+ADDR-0087,Gulab Devi District Hospital 44,Billing,"Block 39, Lake City",Lahore,Pakistan,Customer::Gulab Devi District Hospital 44
+ADDR-0088,Gulab Devi District Hospital 44 - Service,Shipping,"Building 15, Lake City",Lahore,Pakistan,Customer::Gulab Devi District Hospital 44
+ADDR-0089,Shaukat Khanum District Hospital 45,Billing,"Block 36, Township",Lahore,Pakistan,Customer::Shaukat Khanum District Hospital 45
+ADDR-0090,Shaukat Khanum District Hospital 45 - Service,Shipping,"Building 4, Township",Lahore,Pakistan,Customer::Shaukat Khanum District Hospital 45
+ADDR-0091,Sir Ganga Ram Tertiary Hospital 46,Billing,"Block 12, Bahria Town",Lahore,Pakistan,Customer::Sir Ganga Ram Tertiary Hospital 46
+ADDR-0092,Sir Ganga Ram Tertiary Hospital 46 - Service,Shipping,"Building 10, Bahria Town",Lahore,Pakistan,Customer::Sir Ganga Ram Tertiary Hospital 46
+ADDR-0093,Shalimar General Hospital 47,Billing,"Block 5, Samanabad",Lahore,Pakistan,Customer::Shalimar General Hospital 47
+ADDR-0094,Shalimar General Hospital 47 - Service,Shipping,"Building 20, Samanabad",Lahore,Pakistan,Customer::Shalimar General Hospital 47
+ADDR-0095,Ghurki Trust Specialized Hospital 48,Billing,"Block 44, DHA Phase 1",Lahore,Pakistan,Customer::Ghurki Trust Specialized Hospital 48
+ADDR-0096,Ghurki Trust Specialized Hospital 48 - Service,Shipping,"Building 20, DHA Phase 1",Lahore,Pakistan,Customer::Ghurki Trust Specialized Hospital 48
+ADDR-0097,LifeLine General Hospital 49,Billing,"Block 21, Samanabad",Faisalabad,Pakistan,Customer::LifeLine General Hospital 49
+ADDR-0098,LifeLine General Hospital 49 - Service,Shipping,"Building 16, Samanabad",Faisalabad,Pakistan,Customer::LifeLine General Hospital 49
+ADDR-0099,Shaukat Khanum Teaching Hospital 50,Billing,"Block 6, Gulberg",Rawalpindi,Pakistan,Customer::Shaukat Khanum Teaching Hospital 50
+ADDR-0100,Shaukat Khanum Teaching Hospital 50 - Service,Shipping,"Building 7, Gulberg",Rawalpindi,Pakistan,Customer::Shaukat Khanum Teaching Hospital 50
+ADDR-0101,Noor Specialized Hospital 51,Billing,"Block 38, DHA Phase 5",Sheikhupura,Pakistan,Customer::Noor Specialized Hospital 51
+ADDR-0102,Noor Specialized Hospital 51 - Service,Shipping,"Building 1, DHA Phase 5",Sheikhupura,Pakistan,Customer::Noor Specialized Hospital 51
+ADDR-0103,Shalimar District Hospital 52,Billing,"Block 43, DHA Phase 5",Sialkot,Pakistan,Customer::Shalimar District Hospital 52
+ADDR-0104,Shalimar District Hospital 52 - Service,Shipping,"Building 5, DHA Phase 5",Sialkot,Pakistan,Customer::Shalimar District Hospital 52
+ADDR-0105,Central District Hospital 53,Billing,"Block 35, Bahria Town",Multan,Pakistan,Customer::Central District Hospital 53
+ADDR-0106,Central District Hospital 53 - Service,Shipping,"Building 10, Bahria Town",Multan,Pakistan,Customer::Central District Hospital 53
+ADDR-0107,Sir Ganga Ram General Hospital 54,Billing,"Block 40, Samanabad",Sheikhupura,Pakistan,Customer::Sir Ganga Ram General Hospital 54
+ADDR-0108,Sir Ganga Ram General Hospital 54 - Service,Shipping,"Building 19, Samanabad",Sheikhupura,Pakistan,Customer::Sir Ganga Ram General Hospital 54
+ADDR-0109,Children District Hospital 55,Billing,"Block 13, Bahria Town",Rawalpindi,Pakistan,Customer::Children District Hospital 55
+ADDR-0110,Children District Hospital 55 - Service,Shipping,"Building 7, Bahria Town",Rawalpindi,Pakistan,Customer::Children District Hospital 55
+ADDR-0111,Chughtai Private Hospital 56,Billing,"Block 20, Township",Sialkot,Pakistan,Customer::Chughtai Private Hospital 56
+ADDR-0112,Chughtai Private Hospital 56 - Service,Shipping,"Building 19, Township",Sialkot,Pakistan,Customer::Chughtai Private Hospital 56
+ADDR-0113,Chughtai Tertiary Hospital 57,Billing,"Block 28, Shadman",Faisalabad,Pakistan,Customer::Chughtai Tertiary Hospital 57
+ADDR-0114,Chughtai Tertiary Hospital 57 - Service,Shipping,"Building 12, Shadman",Faisalabad,Pakistan,Customer::Chughtai Tertiary Hospital 57
+ADDR-0115,Surgimed General Hospital 58,Billing,"Block 38, Model Town",Faisalabad,Pakistan,Customer::Surgimed General Hospital 58
+ADDR-0116,Surgimed General Hospital 58 - Service,Shipping,"Building 1, Model Town",Faisalabad,Pakistan,Customer::Surgimed General Hospital 58
+ADDR-0117,Punjab General Hospital 59,Billing,"Block 33, Faisal Town",Sahiwal,Pakistan,Customer::Punjab General Hospital 59
+ADDR-0118,Punjab General Hospital 59 - Service,Shipping,"Building 13, Faisal Town",Sahiwal,Pakistan,Customer::Punjab General Hospital 59
+ADDR-0119,Lady Willingdon Tertiary Hospital 60,Billing,"Block 19, DHA Phase 5",Sargodha,Pakistan,Customer::Lady Willingdon Tertiary Hospital 60
+ADDR-0120,Lady Willingdon Tertiary Hospital 60 - Service,Shipping,"Building 2, DHA Phase 5",Sargodha,Pakistan,Customer::Lady Willingdon Tertiary Hospital 60
+ADDR-0121,Ghurki Trust Private Hospital 61,Billing,"Block 36, Gulshan-e-Ravi",Gujranwala,Pakistan,Customer::Ghurki Trust Private Hospital 61
+ADDR-0122,Ghurki Trust Private Hospital 61 - Service,Shipping,"Building 2, Gulshan-e-Ravi",Gujranwala,Pakistan,Customer::Ghurki Trust Private Hospital 61
+ADDR-0123,Sharif Medical Teaching Hospital 62,Billing,"Block 46, Johar Town",Bahawalpur,Pakistan,Customer::Sharif Medical Teaching Hospital 62
+ADDR-0124,Sharif Medical Teaching Hospital 62 - Service,Shipping,"Building 18, Johar Town",Bahawalpur,Pakistan,Customer::Sharif Medical Teaching Hospital 62
+ADDR-0125,Shaukat Khanum Specialized Hospital 63,Billing,"Block 8, Gulshan-e-Ravi",Faisalabad,Pakistan,Customer::Shaukat Khanum Specialized Hospital 63
+ADDR-0126,Shaukat Khanum Specialized Hospital 63 - Service,Shipping,"Building 10, Gulshan-e-Ravi",Faisalabad,Pakistan,Customer::Shaukat Khanum Specialized Hospital 63
+ADDR-0127,LifeLine Tertiary Hospital 64,Billing,"Block 16, Johar Town",Rawalpindi,Pakistan,Customer::LifeLine Tertiary Hospital 64
+ADDR-0128,LifeLine Tertiary Hospital 64 - Service,Shipping,"Building 14, Johar Town",Rawalpindi,Pakistan,Customer::LifeLine Tertiary Hospital 64
+ADDR-0129,Fatima Memorial District Hospital 65,Billing,"Block 26, Lake City",Gujranwala,Pakistan,Customer::Fatima Memorial District Hospital 65
+ADDR-0130,Fatima Memorial District Hospital 65 - Service,Shipping,"Building 11, Lake City",Gujranwala,Pakistan,Customer::Fatima Memorial District Hospital 65
+ADDR-0131,Doctors Tertiary Hospital 66,Billing,"Block 26, Samanabad",Rawalpindi,Pakistan,Customer::Doctors Tertiary Hospital 66
+ADDR-0132,Doctors Tertiary Hospital 66 - Service,Shipping,"Building 13, Samanabad",Rawalpindi,Pakistan,Customer::Doctors Tertiary Hospital 66
+ADDR-0133,Jinnah Tertiary Hospital 67,Billing,"Block 35, Allama Iqbal Town",Bahawalpur,Pakistan,Customer::Jinnah Tertiary Hospital 67
+ADDR-0134,Jinnah Tertiary Hospital 67 - Service,Shipping,"Building 7, Allama Iqbal Town",Bahawalpur,Pakistan,Customer::Jinnah Tertiary Hospital 67
+ADDR-0135,Noor District Hospital 68,Billing,"Block 31, Iqbal Town",Sahiwal,Pakistan,Customer::Noor District Hospital 68
+ADDR-0136,Noor District Hospital 68 - Service,Shipping,"Building 5, Iqbal Town",Sahiwal,Pakistan,Customer::Noor District Hospital 68
+ADDR-0137,Lahore General District Hospital 69,Billing,"Block 36, Cantt",Sahiwal,Pakistan,Customer::Lahore General District Hospital 69
+ADDR-0138,Lahore General District Hospital 69 - Service,Shipping,"Building 13, Cantt",Sahiwal,Pakistan,Customer::Lahore General District Hospital 69
+ADDR-0139,Farooq General Hospital 70,Billing,"Block 27, Gulshan-e-Ravi",Sargodha,Pakistan,Customer::Farooq General Hospital 70
+ADDR-0140,Farooq General Hospital 70 - Service,Shipping,"Building 5, Gulshan-e-Ravi",Sargodha,Pakistan,Customer::Farooq General Hospital 70
+ADDR-0141,Sharif Medical Tertiary Hospital 71,Billing,"Block 43, Shadman",Sargodha,Pakistan,Customer::Sharif Medical Tertiary Hospital 71
+ADDR-0142,Sharif Medical Tertiary Hospital 71 - Service,Shipping,"Building 5, Shadman",Sargodha,Pakistan,Customer::Sharif Medical Tertiary Hospital 71
+ADDR-0143,Shaukat Khanum Teaching Hospital 72,Billing,"Block 1, DHA Phase 5",Rawalpindi,Pakistan,Customer::Shaukat Khanum Teaching Hospital 72
+ADDR-0144,Shaukat Khanum Teaching Hospital 72 - Service,Shipping,"Building 3, DHA Phase 5",Rawalpindi,Pakistan,Customer::Shaukat Khanum Teaching Hospital 72
+ADDR-0145,Doctors General Hospital 73,Billing,"Block 10, Johar Town",Faisalabad,Pakistan,Customer::Doctors General Hospital 73
+ADDR-0146,Doctors General Hospital 73 - Service,Shipping,"Building 16, Johar Town",Faisalabad,Pakistan,Customer::Doctors General Hospital 73
+ADDR-0147,LifeLine Teaching Hospital 74,Billing,"Block 9, Allama Iqbal Town",Faisalabad,Pakistan,Customer::LifeLine Teaching Hospital 74
+ADDR-0148,LifeLine Teaching Hospital 74 - Service,Shipping,"Building 3, Allama Iqbal Town",Faisalabad,Pakistan,Customer::LifeLine Teaching Hospital 74
+ADDR-0149,Sir Ganga Ram Tertiary Hospital 75,Billing,"Block 42, DHA Phase 5",Sahiwal,Pakistan,Customer::Sir Ganga Ram Tertiary Hospital 75
+ADDR-0150,Sir Ganga Ram Tertiary Hospital 75 - Service,Shipping,"Building 14, DHA Phase 5",Sahiwal,Pakistan,Customer::Sir Ganga Ram Tertiary Hospital 75
+ADDR-0151,Noor Teaching Hospital 76,Billing,"Block 45, Bahria Town",Sahiwal,Pakistan,Customer::Noor Teaching Hospital 76
+ADDR-0152,Noor Teaching Hospital 76 - Service,Shipping,"Building 20, Bahria Town",Sahiwal,Pakistan,Customer::Noor Teaching Hospital 76
+ADDR-0153,Services Specialized Hospital 77,Billing,"Block 40, Allama Iqbal Town",Sahiwal,Pakistan,Customer::Services Specialized Hospital 77
+ADDR-0154,Services Specialized Hospital 77 - Service,Shipping,"Building 6, Allama Iqbal Town",Sahiwal,Pakistan,Customer::Services Specialized Hospital 77
+ADDR-0155,Doctors Tertiary Hospital 78,Billing,"Block 33, Bahria Town",Sheikhupura,Pakistan,Customer::Doctors Tertiary Hospital 78
+ADDR-0156,Doctors Tertiary Hospital 78 - Service,Shipping,"Building 14, Bahria Town",Sheikhupura,Pakistan,Customer::Doctors Tertiary Hospital 78
+ADDR-0157,Ghurki Trust Private Hospital 79,Billing,"Block 29, Valencia Town",Gujranwala,Pakistan,Customer::Ghurki Trust Private Hospital 79
+ADDR-0158,Ghurki Trust Private Hospital 79 - Service,Shipping,"Building 13, Valencia Town",Gujranwala,Pakistan,Customer::Ghurki Trust Private Hospital 79
+ADDR-0159,Children Teaching Hospital 80,Billing,"Block 15, Gulshan-e-Ravi",Gujranwala,Pakistan,Customer::Children Teaching Hospital 80
+ADDR-0160,Children Teaching Hospital 80 - Service,Shipping,"Building 6, Gulshan-e-Ravi",Gujranwala,Pakistan,Customer::Children Teaching Hospital 80
+ADDR-0161,Chughtai Lab,Billing,"Block 39, Allama Iqbal Town",Lahore,Pakistan,Customer::Chughtai Lab
+ADDR-0162,Shaukat Khanum Lab,Billing,"Block 37, Johar Town",Rawalpindi,Pakistan,Customer::Shaukat Khanum Lab
+ADDR-0163,IDC Lab,Billing,"Block 47, Askari 10",Multan,Pakistan,Customer::IDC Lab
+ADDR-0164,Excel Labs,Billing,"Block 46, Garden Town",Lahore,Pakistan,Customer::Excel Labs
+ADDR-0165,Islamabad Diagnostics,Billing,"Block 18, EME Society",Multan,Pakistan,Customer::Islamabad Diagnostics
+ADDR-0166,Lahore Diagnostics,Billing,"Block 35, Allama Iqbal Town",Faisalabad,Pakistan,Customer::Lahore Diagnostics
+ADDR-0167,City Lab,Billing,"Block 24, Lake City",Multan,Pakistan,Customer::City Lab
+ADDR-0168,Metro Diagnostics,Billing,"Block 3, Gulberg",Faisalabad,Pakistan,Customer::Metro Diagnostics
+ADDR-0169,Al-Razi Clinic,Billing,"Block 31, Lake City",Multan,Pakistan,Customer::Al-Razi Clinic
+ADDR-0170,Medicare Clinic,Billing,"Block 8, Gulshan-e-Ravi",Gujranwala,Pakistan,Customer::Medicare Clinic
+ADDR-0171,Health First Clinic,Billing,"Block 31, Lake City",Multan,Pakistan,Customer::Health First Clinic
+ADDR-0172,Medix Clinic,Billing,"Block 10, Model Town",Rawalpindi,Pakistan,Customer::Medix Clinic
+ADDR-0173,Punjab Diagnostic Center,Billing,"Block 49, EME Society",Rawalpindi,Pakistan,Customer::Punjab Diagnostic Center
+ADDR-0174,Allied Lab,Billing,"Block 30, Wapda Town",Faisalabad,Pakistan,Customer::Allied Lab
+ADDR-0175,Agha Khan Lab Lahore,Billing,"Block 6, EME Society",Rawalpindi,Pakistan,Customer::Agha Khan Lab Lahore
+ADDR-0176,Dr. Essa Lab,Billing,"Block 40, EME Society",Lahore,Pakistan,Customer::Dr. Essa Lab
+ADDR-0177,One Health Lab,Billing,"Block 16, Model Town",Gujranwala,Pakistan,Customer::One Health Lab
+ADDR-0178,Rehman Diagnostics,Billing,"Block 41, Askari 10",Gujranwala,Pakistan,Customer::Rehman Diagnostics
+ADDR-0179,Saleem Lab,Billing,"Block 44, Model Town",Lahore,Pakistan,Customer::Saleem Lab
+ADDR-0180,Qamar Lab,Billing,"Block 38, Valencia Town",Faisalabad,Pakistan,Customer::Qamar Lab
+ADDR-0181,Chughtai Lab 101,Billing,"Block 40, Shadman",Lahore,Pakistan,Customer::Chughtai Lab 101
+ADDR-0182,Shaukat Khanum Lab 102,Billing,"Block 22, Gulberg",Lahore,Pakistan,Customer::Shaukat Khanum Lab 102
+ADDR-0183,IDC Lab 103,Billing,"Block 50, Valencia Town",Gujranwala,Pakistan,Customer::IDC Lab 103
+ADDR-0184,Excel Labs 104,Billing,"Block 31, Johar Town",Multan,Pakistan,Customer::Excel Labs 104
+ADDR-0185,Islamabad Diagnostics 105,Billing,"Block 33, Bahria Town",Gujranwala,Pakistan,Customer::Islamabad Diagnostics 105
+ADDR-0186,Lahore Diagnostics 106,Billing,"Block 37, Askari 10",Gujranwala,Pakistan,Customer::Lahore Diagnostics 106
+ADDR-0187,City Lab 107,Billing,"Block 27, Township",Rawalpindi,Pakistan,Customer::City Lab 107
+ADDR-0188,Metro Diagnostics 108,Billing,"Block 19, Gulshan-e-Ravi",Lahore,Pakistan,Customer::Metro Diagnostics 108
+ADDR-0189,Al-Razi Clinic 109,Billing,"Block 11, Shadman",Gujranwala,Pakistan,Customer::Al-Razi Clinic 109
+ADDR-0190,Medicare Clinic 110,Billing,"Block 45, Gulberg",Lahore,Pakistan,Customer::Medicare Clinic 110
+ADDR-0191,Health First Clinic 111,Billing,"Block 48, Faisal Town",Rawalpindi,Pakistan,Customer::Health First Clinic 111
+ADDR-0192,Medix Clinic 112,Billing,"Block 47, Shadman",Lahore,Pakistan,Customer::Medix Clinic 112
+ADDR-0193,Punjab Diagnostic Center 113,Billing,"Block 17, Lake City",Gujranwala,Pakistan,Customer::Punjab Diagnostic Center 113
+ADDR-0194,Allied Lab 114,Billing,"Block 41, Gulberg",Lahore,Pakistan,Customer::Allied Lab 114
+ADDR-0195,Agha Khan Lab Lahore 115,Billing,"Block 38, Askari 10",Rawalpindi,Pakistan,Customer::Agha Khan Lab Lahore 115
+ADDR-0196,Dr. Essa Lab 116,Billing,"Block 37, Iqbal Town",Multan,Pakistan,Customer::Dr. Essa Lab 116
+ADDR-0197,One Health Lab 117,Billing,"Block 43, Gulberg",Lahore,Pakistan,Customer::One Health Lab 117
+ADDR-0198,Rehman Diagnostics 118,Billing,"Block 48, Shadman",Gujranwala,Pakistan,Customer::Rehman Diagnostics 118
+ADDR-0199,Saleem Lab 119,Billing,"Block 2, Faisal Town",Rawalpindi,Pakistan,Customer::Saleem Lab 119
+ADDR-0200,Qamar Lab 120,Billing,"Block 32, Shadman",Gujranwala,Pakistan,Customer::Qamar Lab 120
+ADDR-0201,Punjab Health Department,Billing,"Block 9, Model Town",Lahore,Pakistan,Customer::Punjab Health Department
+ADDR-0202,Directorate of Health Services Lahore,Billing,"Block 5, EME Society",Lahore,Pakistan,Customer::Directorate of Health Services Lahore
+ADDR-0203,Punjab Environmental Protection Agency,Billing,"Block 17, Wapda Town",Lahore,Pakistan,Customer::Punjab Environmental Protection Agency
+ADDR-0204,Primary & Secondary Healthcare Dept,Billing,"Block 40, DHA Phase 5",Lahore,Pakistan,Customer::Primary & Secondary Healthcare Dept
+ADDR-0205,District Health Authority Lahore,Billing,"Block 18, Wapda Town",Lahore,Pakistan,Customer::District Health Authority Lahore
+ADDR-0206,Punjab Medical Faculty,Billing,"Block 1, Wapda Town",Lahore,Pakistan,Customer::Punjab Medical Faculty
+ADDR-0207,Punjab Healthcare Commission,Billing,"Block 39, DHA Phase 1",Lahore,Pakistan,Customer::Punjab Healthcare Commission
+ADDR-0208,Specialized Healthcare & Medical Education,Billing,"Block 38, Iqbal Town",Lahore,Pakistan,Customer::Specialized Healthcare & Medical Education
+ADDR-0209,Punjab Emergency Service (Rescue 1122),Billing,"Block 43, DHA Phase 5",Lahore,Pakistan,Customer::Punjab Emergency Service (Rescue 1122)
+ADDR-0210,Punjab AIDS Control Program,Billing,"Block 24, Bahria Town",Lahore,Pakistan,Customer::Punjab AIDS Control Program
+ADDR-0211,Ravi Engineering Works,Office,"Plot 67, Garden Town",Lahore,Pakistan,Supplier::Ravi Engineering Works
+ADDR-0212,National Chemical Corp,Office,"Plot 47, EME Society",Lahore,Pakistan,Supplier::National Chemical Corp
+ADDR-0213,Punjab Safety Equipment,Office,"Plot 88, Model Town",Lahore,Pakistan,Supplier::Punjab Safety Equipment
+ADDR-0214,Lahore Steel Fabricators,Office,"Plot 153, DHA Phase 5",Lahore,Pakistan,Supplier::Lahore Steel Fabricators
+ADDR-0215,Allied Medical Supplies,Office,"Plot 193, Allama Iqbal Town",Lahore,Pakistan,Supplier::Allied Medical Supplies
+ADDR-0216,Metro Fuel Distributors,Office,"Plot 61, Bahria Town",Lahore,Pakistan,Supplier::Metro Fuel Distributors
+ADDR-0217,City Diesel Station,Office,"Plot 54, Lake City",Lahore,Pakistan,Supplier::City Diesel Station
+ADDR-0218,Pakistan Refinery Fuels,Office,"Plot 14, Wapda Town",Lahore,Pakistan,Supplier::Pakistan Refinery Fuels
+ADDR-0219,National Tire House,Office,"Plot 14, Iqbal Town",Lahore,Pakistan,Supplier::National Tire House
+ADDR-0220,Auto Zone Pakistan,Office,"Plot 103, Askari 10",Lahore,Pakistan,Supplier::Auto Zone Pakistan
+ADDR-0221,Refractory Solutions Pvt,Office,"Plot 122, Valencia Town",Lahore,Pakistan,Supplier::Refractory Solutions Pvt
+ADDR-0222,Punjab Plastics Industries,Office,"Plot 98, Samanabad",Lahore,Pakistan,Supplier::Punjab Plastics Industries
+ADDR-0223,Eco Packaging Solutions,Office,"Plot 68, DHA Phase 5",Lahore,Pakistan,Supplier::Eco Packaging Solutions
+ADDR-0224,SafeHands PPE,Office,"Plot 112, Johar Town",Lahore,Pakistan,Supplier::SafeHands PPE
+ADDR-0225,CleanTech Supplies,Office,"Plot 115, Samanabad",Lahore,Pakistan,Supplier::CleanTech Supplies
+ADDR-0226,Siemens Pakistan,Office,"Plot 136, Gulberg",Lahore,Pakistan,Supplier::Siemens Pakistan
+ADDR-0227,Atlas Honda Parts,Office,"Plot 137, Gulshan-e-Ravi",Lahore,Pakistan,Supplier::Atlas Honda Parts
+ADDR-0228,Shell Lubricants Pakistan,Office,"Plot 157, Wapda Town",Lahore,Pakistan,Supplier::Shell Lubricants Pakistan
+ADDR-0229,Total Parco,Office,"Plot 70, Wapda Town",Lahore,Pakistan,Supplier::Total Parco
+ADDR-0230,Descon Engineering,Office,"Plot 66, Lake City",Lahore,Pakistan,Supplier::Descon Engineering
+ADDR-0231,NHA Maintenance Services,Office,"Plot 119, Garden Town",Lahore,Pakistan,Supplier::NHA Maintenance Services
+ADDR-0232,Punjab IT Solutions,Office,"Plot 198, Cantt",Lahore,Pakistan,Supplier::Punjab IT Solutions
+ADDR-0233,SecureTrack GPS,Office,"Plot 87, Iqbal Town",Lahore,Pakistan,Supplier::SecureTrack GPS
+ADDR-0234,Mobilink Business Solutions,Office,"Plot 141, Johar Town",Lahore,Pakistan,Supplier::Mobilink Business Solutions
+ADDR-0235,State Life Insurance,Office,"Plot 18, Johar Town",Lahore,Pakistan,Supplier::State Life Insurance
+ADDR-0236,EFU General Insurance,Office,"Plot 26, EME Society",Lahore,Pakistan,Supplier::EFU General Insurance
+ADDR-0237,Adamjee Insurance,Office,"Plot 176, Bahria Town",Lahore,Pakistan,Supplier::Adamjee Insurance
+ADDR-0238,Bank Alfalah Leasing,Office,"Plot 57, Shadman",Lahore,Pakistan,Supplier::Bank Alfalah Leasing
+ADDR-0239,Meezan Bank Leasing,Office,"Plot 50, Gulberg",Lahore,Pakistan,Supplier::Meezan Bank Leasing
+ADDR-0240,UBL Fund Managers,Office,"Plot 159, Model Town",Lahore,Pakistan,Supplier::UBL Fund Managers
+ADDR-0241,Ernst & Young Pakistan,Office,"Plot 153, Cantt",Lahore,Pakistan,Supplier::Ernst & Young Pakistan
+ADDR-0242,KPMG Taseer Hadi,Office,"Plot 164, DHA Phase 1",Lahore,Pakistan,Supplier::KPMG Taseer Hadi
+ADDR-0243,Punjab Revenue Authority,Office,"Plot 23, Faisal Town",Lahore,Pakistan,Supplier::Punjab Revenue Authority
+ADDR-0244,Pakistan Oxygen Ltd,Office,"Plot 97, Lake City",Lahore,Pakistan,Supplier::Pakistan Oxygen Ltd
+ADDR-0245,ICI Pakistan,Office,"Plot 29, Iqbal Town",Lahore,Pakistan,Supplier::ICI Pakistan
+ADDR-0246,Sitara Chemical Industries,Office,"Plot 76, Bahria Town",Lahore,Pakistan,Supplier::Sitara Chemical Industries
+ADDR-0247,Diamond Tyres Ltd,Office,"Plot 164, Bahria Town",Lahore,Pakistan,Supplier::Diamond Tyres Ltd
+ADDR-0248,General Tyre Pakistan,Office,"Plot 197, Allama Iqbal Town",Lahore,Pakistan,Supplier::General Tyre Pakistan
+ADDR-0249,Millat Tractors Parts,Office,"Plot 66, Iqbal Town",Lahore,Pakistan,Supplier::Millat Tractors Parts
+ADDR-0250,Sapphire Textiles (Uniforms),Office,"Plot 71, Gulberg",Lahore,Pakistan,Supplier::Sapphire Textiles (Uniforms)

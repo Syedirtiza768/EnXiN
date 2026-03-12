@@ -101,6 +101,11 @@ if docker compose ps backend >/dev/null 2>&1; then
     docker compose cp "${SEED_DIR}/." backend:/home/frappe/frappe-bench/apps/erpnext/${SEED_DIR}/
   fi
 
+  # Purge Python bytecache so the container uses the freshly-copied .py files
+  # instead of stale .pyc compiled from the original Docker image build.
+  docker compose exec -T backend bash -c \
+    "find /home/frappe/frappe-bench/apps/erpnext/erpnext/seed /home/frappe/frappe-bench/apps/erpnext/erpnext/commands -name '__pycache__' -exec rm -rf {} + 2>/dev/null || true"
+
   docker compose exec -T backend bash -c \
     "cd /home/frappe/frappe-bench && bench --site $SITE_NAME $BENCH_ARGS"
 else

@@ -1,81 +1,121 @@
-first_name,company_name,email_id,phone,source,territory,status,company
-Bahria International,Bahria International Healthcare Township,lead0001@healthcare.pk,+92427859282,Referral,Lahore,Lead,EnXi Biomedical & Waste Management (Pvt) Ltd
-Prime,Prime Healthcare Allama Iqbal Town,lead0002@healthcare.pk,+92425255251,Referral,Lahore,Interested,EnXi Biomedical & Waste Management (Pvt) Ltd
-Aziz Fatimah,Aziz Fatimah Healthcare Cavalry Ground,lead0003@healthcare.pk,+92427134489,Cold Calling,Lahore,Replied,EnXi Biomedical & Waste Management (Pvt) Ltd
-Mian Muhammad Trust,Mian Muhammad Trust Healthcare Samanabad,lead0004@healthcare.pk,+92424417412,Campaign,Lahore,Interested,EnXi Biomedical & Waste Management (Pvt) Ltd
-Punjab Institute of Cardiology,Punjab Institute of Cardiology Healthcare Askari 10,lead0005@healthcare.pk,+92429094465,Website,Lahore,Replied,EnXi Biomedical & Waste Management (Pvt) Ltd
-Excel Labs,Excel Labs Healthcare Askari 10,lead0006@healthcare.pk,+92429116148,Referral,Lahore,Replied,EnXi Biomedical & Waste Management (Pvt) Ltd
-Citi Lab,Citi Lab Healthcare Faisal Town,lead0007@healthcare.pk,+92427679508,Website,Lahore,Lead,EnXi Biomedical & Waste Management (Pvt) Ltd
-Wapda Teaching,Wapda Teaching Healthcare Garden Town,lead0008@healthcare.pk,+92428492618,Website,Lahore,Lead,EnXi Biomedical & Waste Management (Pvt) Ltd
-Sheikh Zayed,Sheikh Zayed Healthcare EME Society,lead0009@healthcare.pk,+92427720296,Referral,Lahore,Interested,EnXi Biomedical & Waste Management (Pvt) Ltd
-Al-Naeem,Al-Naeem Healthcare Gulberg,lead0010@healthcare.pk,+92423696736,Campaign,Lahore,Lead,EnXi Biomedical & Waste Management (Pvt) Ltd
-Lahore Eye,Lahore Eye Healthcare Model Town,lead0011@healthcare.pk,+92423438206,Campaign,Lahore,Interested,EnXi Biomedical & Waste Management (Pvt) Ltd
-Aziz Fatimah,Aziz Fatimah Healthcare Model Town,lead0012@healthcare.pk,+92422075091,Referral,Lahore,Open,EnXi Biomedical & Waste Management (Pvt) Ltd
-Ittefaq,Ittefaq Healthcare Model Town,lead0013@healthcare.pk,+92421633429,Campaign,Lahore,Opportunity,EnXi Biomedical & Waste Management (Pvt) Ltd
-Al-Naeem,Al-Naeem Healthcare EME Society,lead0014@healthcare.pk,+92425806156,Cold Calling,Lahore,Lead,EnXi Biomedical & Waste Management (Pvt) Ltd
-Institute of Nuclear Medicine,Institute of Nuclear Medicine Healthcare Iqbal Town,lead0015@healthcare.pk,+92429294125,Campaign,Lahore,Lead,EnXi Biomedical & Waste Management (Pvt) Ltd
-Lahore General,Lahore General Healthcare EME Society,lead0016@healthcare.pk,+92425798393,Website,Lahore,Lead,EnXi Biomedical & Waste Management (Pvt) Ltd
-Punjab Institute of Cardiology,Punjab Institute of Cardiology Healthcare Gulshan-e-Ravi,lead0017@healthcare.pk,+92429565571,Cold Calling,Lahore,Open,EnXi Biomedical & Waste Management (Pvt) Ltd
-Al-Naeem,Al-Naeem Healthcare Iqbal Town,lead0018@healthcare.pk,+92421605005,Referral,Lahore,Open,EnXi Biomedical & Waste Management (Pvt) Ltd
-Ghurki Trust,Ghurki Trust Healthcare Johar Town,lead0019@healthcare.pk,+92423641484,Walk In,Lahore,Replied,EnXi Biomedical & Waste Management (Pvt) Ltd
-Institute of Nuclear Medicine,Institute of Nuclear Medicine Healthcare Samanabad,lead0020@healthcare.pk,+92426924499,Campaign,Lahore,Opportunity,EnXi Biomedical & Waste Management (Pvt) Ltd
-Data Darbar Medical,Data Darbar Medical Healthcare Cantt,lead0021@healthcare.pk,+92429686281,Walk In,Lahore,Lead,EnXi Biomedical & Waste Management (Pvt) Ltd
-City Care,City Care Healthcare Askari 10,lead0022@healthcare.pk,+92425773013,Cold Calling,Lahore,Interested,EnXi Biomedical & Waste Management (Pvt) Ltd
-Sharif Medical,Sharif Medical Healthcare Faisal Town,lead0023@healthcare.pk,+92425639031,Website,Lahore,Interested,EnXi Biomedical & Waste Management (Pvt) Ltd
-Lahore General,Lahore General Healthcare Bahria Town,lead0024@healthcare.pk,+92427777264,Cold Calling,Lahore,Lead,EnXi Biomedical & Waste Management (Pvt) Ltd
-National,National Healthcare Iqbal Town,lead0025@healthcare.pk,+92427830585,Cold Calling,Lahore,Lead,EnXi Biomedical & Waste Management (Pvt) Ltd
-Excel Labs,Excel Labs Healthcare Model Town,lead0026@healthcare.pk,+92429441777,Referral,Lahore,Replied,EnXi Biomedical & Waste Management (Pvt) Ltd
-Al-Rehman,Al-Rehman Healthcare EME Society,lead0027@healthcare.pk,+92425323377,Cold Calling,Lahore,Interested,EnXi Biomedical & Waste Management (Pvt) Ltd
-National,National Healthcare Bahria Town,lead0028@healthcare.pk,+92427326357,Cold Calling,Lahore,Opportunity,EnXi Biomedical & Waste Management (Pvt) Ltd
-Institute of Nuclear Medicine,Institute of Nuclear Medicine Healthcare Garden Town,lead0029@healthcare.pk,+92426698561,Campaign,Lahore,Opportunity,EnXi Biomedical & Waste Management (Pvt) Ltd
-Data Darbar Medical,Data Darbar Medical Healthcare Johar Town,lead0030@healthcare.pk,+92429086117,Walk In,Lahore,Replied,EnXi Biomedical & Waste Management (Pvt) Ltd
-Central Park,Central Park Healthcare Samanabad,lead0031@healthcare.pk,+92424697401,Website,Lahore,Replied,EnXi Biomedical & Waste Management (Pvt) Ltd
-Hafeez,Hafeez Healthcare Faisal Town,lead0032@healthcare.pk,+92429665502,Cold Calling,Lahore,Lead,EnXi Biomedical & Waste Management (Pvt) Ltd
-Bahria International,Bahria International Healthcare Wapda Town,lead0033@healthcare.pk,+92425165071,Referral,Lahore,Lead,EnXi Biomedical & Waste Management (Pvt) Ltd
-Surgimed,Surgimed Healthcare Township,lead0034@healthcare.pk,+92422275551,Cold Calling,Lahore,Open,EnXi Biomedical & Waste Management (Pvt) Ltd
-Lady Aitchison,Lady Aitchison Healthcare Township,lead0035@healthcare.pk,+92426931382,Website,Lahore,Interested,EnXi Biomedical & Waste Management (Pvt) Ltd
-Allied,Allied Healthcare Iqbal Town,lead0036@healthcare.pk,+92424190481,Campaign,Lahore,Open,EnXi Biomedical & Waste Management (Pvt) Ltd
-Shaukat Khanum,Shaukat Khanum Healthcare Garden Town,lead0037@healthcare.pk,+92425452763,Website,Lahore,Open,EnXi Biomedical & Waste Management (Pvt) Ltd
-Lahore General,Lahore General Healthcare Garden Town,lead0038@healthcare.pk,+92426973148,Website,Lahore,Lead,EnXi Biomedical & Waste Management (Pvt) Ltd
-Al-Rehman,Al-Rehman Healthcare Model Town,lead0039@healthcare.pk,+92429265544,Cold Calling,Lahore,Lead,EnXi Biomedical & Waste Management (Pvt) Ltd
-PGMI,PGMI Healthcare Askari 10,lead0040@healthcare.pk,+92421709057,Campaign,Lahore,Replied,EnXi Biomedical & Waste Management (Pvt) Ltd
-Al-Naeem,Al-Naeem Healthcare Township,lead0041@healthcare.pk,+92429260100,Cold Calling,Lahore,Replied,EnXi Biomedical & Waste Management (Pvt) Ltd
-Social Security,Social Security Healthcare Iqbal Town,lead0042@healthcare.pk,+92429575399,Referral,Lahore,Opportunity,EnXi Biomedical & Waste Management (Pvt) Ltd
-Hameed Latif,Hameed Latif Healthcare Cavalry Ground,lead0043@healthcare.pk,+92423151610,Walk In,Lahore,Interested,EnXi Biomedical & Waste Management (Pvt) Ltd
-Lahore Eye,Lahore Eye Healthcare Allama Iqbal Town,lead0044@healthcare.pk,+92429024879,Cold Calling,Lahore,Lead,EnXi Biomedical & Waste Management (Pvt) Ltd
-Chughtai Lab,Chughtai Lab Healthcare Faisal Town,lead0045@healthcare.pk,+92427605473,Website,Lahore,Opportunity,EnXi Biomedical & Waste Management (Pvt) Ltd
-Al-Rehman,Al-Rehman Healthcare EME Society,lead0046@healthcare.pk,+92428718703,Referral,Lahore,Lead,EnXi Biomedical & Waste Management (Pvt) Ltd
-Mayo,Mayo Healthcare Cantt,lead0047@healthcare.pk,+92427365745,Cold Calling,Lahore,Lead,EnXi Biomedical & Waste Management (Pvt) Ltd
-Sir Ganga Ram,Sir Ganga Ram Healthcare Faisal Town,lead0048@healthcare.pk,+92425357055,Website,Lahore,Interested,EnXi Biomedical & Waste Management (Pvt) Ltd
-National,National Healthcare Garden Town,lead0049@healthcare.pk,+92425519920,Campaign,Lahore,Interested,EnXi Biomedical & Waste Management (Pvt) Ltd
-Fatima Memorial,Fatima Memorial Healthcare Faisal Town,lead0050@healthcare.pk,+92424085559,Campaign,Lahore,Opportunity,EnXi Biomedical & Waste Management (Pvt) Ltd
-Sheikh Zayed,Sheikh Zayed Healthcare Allama Iqbal Town,lead0051@healthcare.pk,+92427246319,Referral,Lahore,Opportunity,EnXi Biomedical & Waste Management (Pvt) Ltd
-Allied,Allied Healthcare Bahria Town,lead0052@healthcare.pk,+92424018040,Cold Calling,Lahore,Open,EnXi Biomedical & Waste Management (Pvt) Ltd
-Citi Lab,Citi Lab Healthcare Garden Town,lead0053@healthcare.pk,+92422675536,Referral,Lahore,Open,EnXi Biomedical & Waste Management (Pvt) Ltd
-Excel Labs,Excel Labs Healthcare Allama Iqbal Town,lead0054@healthcare.pk,+92427390162,Website,Lahore,Open,EnXi Biomedical & Waste Management (Pvt) Ltd
-Lahore Eye,Lahore Eye Healthcare DHA Phase 5,lead0055@healthcare.pk,+92428935405,Walk In,Lahore,Open,EnXi Biomedical & Waste Management (Pvt) Ltd
-Hafeez,Hafeez Healthcare Valencia Town,lead0056@healthcare.pk,+92423256060,Cold Calling,Lahore,Interested,EnXi Biomedical & Waste Management (Pvt) Ltd
-PAF,PAF Healthcare Township,lead0057@healthcare.pk,+92429164132,Referral,Lahore,Replied,EnXi Biomedical & Waste Management (Pvt) Ltd
-Excel Labs,Excel Labs Healthcare Cavalry Ground,lead0058@healthcare.pk,+92421800429,Campaign,Lahore,Lead,EnXi Biomedical & Waste Management (Pvt) Ltd
-Bahria International,Bahria International Healthcare Iqbal Town,lead0059@healthcare.pk,+92422007243,Website,Lahore,Replied,EnXi Biomedical & Waste Management (Pvt) Ltd
-Lady Aitchison,Lady Aitchison Healthcare DHA Phase 1,lead0060@healthcare.pk,+92428547311,Referral,Lahore,Replied,EnXi Biomedical & Waste Management (Pvt) Ltd
-Ittefaq,Ittefaq Healthcare Faisal Town,lead0061@healthcare.pk,+92425323737,Referral,Lahore,Lead,EnXi Biomedical & Waste Management (Pvt) Ltd
-Hafeez,Hafeez Healthcare DHA Phase 1,lead0062@healthcare.pk,+92426890320,Cold Calling,Lahore,Open,EnXi Biomedical & Waste Management (Pvt) Ltd
-Citi Lab,Citi Lab Healthcare Cavalry Ground,lead0063@healthcare.pk,+92423928275,Referral,Lahore,Replied,EnXi Biomedical & Waste Management (Pvt) Ltd
-Sir Ganga Ram,Sir Ganga Ram Healthcare EME Society,lead0064@healthcare.pk,+92429178787,Campaign,Lahore,Lead,EnXi Biomedical & Waste Management (Pvt) Ltd
-Doctors,Doctors Healthcare Gulshan-e-Ravi,lead0065@healthcare.pk,+92425807067,Campaign,Lahore,Open,EnXi Biomedical & Waste Management (Pvt) Ltd
-Medix,Medix Healthcare Township,lead0066@healthcare.pk,+92428076906,Cold Calling,Lahore,Interested,EnXi Biomedical & Waste Management (Pvt) Ltd
-Surgimed,Surgimed Healthcare Model Town,lead0067@healthcare.pk,+92422327277,Website,Lahore,Replied,EnXi Biomedical & Waste Management (Pvt) Ltd
-Hameed Latif,Hameed Latif Healthcare Township,lead0068@healthcare.pk,+92426316334,Referral,Lahore,Replied,EnXi Biomedical & Waste Management (Pvt) Ltd
-Pak Medical,Pak Medical Healthcare Samanabad,lead0069@healthcare.pk,+92425550787,Campaign,Lahore,Replied,EnXi Biomedical & Waste Management (Pvt) Ltd
-Wapda Teaching,Wapda Teaching Healthcare Cavalry Ground,lead0070@healthcare.pk,+92429739850,Campaign,Lahore,Opportunity,EnXi Biomedical & Waste Management (Pvt) Ltd
-Medix,Medix Healthcare Iqbal Town,lead0071@healthcare.pk,+92421387572,Website,Lahore,Open,EnXi Biomedical & Waste Management (Pvt) Ltd
-Nawaz Sharif,Nawaz Sharif Healthcare Wapda Town,lead0072@healthcare.pk,+92422343263,Website,Lahore,Open,EnXi Biomedical & Waste Management (Pvt) Ltd
-Surgimed,Surgimed Healthcare DHA Phase 1,lead0073@healthcare.pk,+92422603125,Walk In,Lahore,Opportunity,EnXi Biomedical & Waste Management (Pvt) Ltd
-Excel Labs,Excel Labs Healthcare Gulberg,lead0074@healthcare.pk,+92421442329,Campaign,Lahore,Interested,EnXi Biomedical & Waste Management (Pvt) Ltd
-PGMI,PGMI Healthcare Model Town,lead0075@healthcare.pk,+92422743629,Referral,Lahore,Interested,EnXi Biomedical & Waste Management (Pvt) Ltd
-Prime,Prime Healthcare Model Town,lead0076@healthcare.pk,+92427540534,Referral,Lahore,Open,EnXi Biomedical & Waste Management (Pvt) Ltd
-Shaukat Khanum,Shaukat Khanum Healthcare Shadman,lead0077@healthcare.pk,+92428434998,Website,Lahore,Open,EnXi Biomedical & Waste Management (Pvt) Ltd
-IDC,IDC Healthcare Iqbal Town,lead0078@healthcare.pk,+92421479346,Walk In,Lahore,Replied,EnXi Biomedical & Waste Management (Pvt) Ltd
-Sir Ganga Ram,Sir Ganga Ram Healthcare Valencia Town,lead0079@healthcare.pk,+92428838205,Cold Calling,Lahore,Replied,EnXi Biomedical & Waste Management (Pvt) Ltd
-Excel Labs,Excel Labs Healthcare Bahria Town,lead0080@healthcare.pk,+92423266851,Cold Calling,Lahore,Open,EnXi Biomedical & Waste Management (Pvt) Ltd
+company_name,lead_name,source,status,territory,email_id,mobile_no
+Lead Hospital 001,Omar Hussain,Exhibition,Lead,Gujranwala,lead001@hospital.pk,+923414181288
+Lead Hospital 002,Atif Hussain,Exhibition,Open,Lahore,lead002@hospital.pk,+923101313549
+Lead Hospital 003,Hamza Mirza,Exhibition,Lead,Gujranwala,lead003@hospital.pk,+923323959338
+Lead Hospital 004,Atif Chaudhry,Website,Lead,Gujranwala,lead004@hospital.pk,+923364704323
+Lead Hospital 005,Waqar Mughal,Government Tender,Opportunity,Sheikhupura,lead005@hospital.pk,+923334112498
+Lead Hospital 006,Sohail Sharif,Website,Replied,Sahiwal,lead006@hospital.pk,+923493503437
+Lead Hospital 007,Salman Rana,Referral,Converted,Lahore,lead007@hospital.pk,+923178456770
+Lead Hospital 008,Kashif Sheikh,Cold Call,Open,Lahore,lead008@hospital.pk,+923246388781
+Lead Hospital 009,Tariq Mughal,Website,Replied,Gujranwala,lead009@hospital.pk,+923384333455
+Lead Hospital 010,Naveed Butt,Referral,Lead,Sheikhupura,lead010@hospital.pk,+923189730412
+Lead Hospital 011,Salman Aslam,Cold Call,Replied,Sialkot,lead011@hospital.pk,+923151450169
+Lead Hospital 012,Rizwan Mughal,Referral,Lead,Faisalabad,lead012@hospital.pk,+923378190802
+Lead Hospital 013,Imran Sharif,Exhibition,Replied,Faisalabad,lead013@hospital.pk,+923154985169
+Lead Hospital 014,Usman Akhtar,Referral,Open,Sahiwal,lead014@hospital.pk,+923429331840
+Lead Hospital 015,Salman Hussain,Government Tender,Do Not Contact,Rawalpindi,lead015@hospital.pk,+923324061066
+Lead Hospital 016,Irfan Ahmed,Website,Open,Lahore,lead016@hospital.pk,+923357439391
+Lead Hospital 017,Omar Mughal,Referral,Opportunity,Sheikhupura,lead017@hospital.pk,+923380848505
+Lead Hospital 018,Bilal Mirza,Website,Do Not Contact,Rawalpindi,lead018@hospital.pk,+923219377461
+Lead Hospital 019,Salman Sheikh,Referral,Replied,Faisalabad,lead019@hospital.pk,+923212657532
+Lead Hospital 020,Ali Gill,Website,Lead,Lahore,lead020@hospital.pk,+923359982366
+Lead Hospital 021,Muhammad Butt,Website,Lead,Sahiwal,lead021@hospital.pk,+923418459033
+Lead Hospital 022,Atif Hassan,Cold Call,Lead,Rawalpindi,lead022@hospital.pk,+923261944858
+Lead Hospital 023,Fahad Hassan,Website,Converted,Multan,lead023@hospital.pk,+923415466982
+Lead Hospital 024,Bilal Mughal,Website,Lead,Faisalabad,lead024@hospital.pk,+923248914922
+Lead Hospital 025,Imran Qureshi,Government Tender,Do Not Contact,Sheikhupura,lead025@hospital.pk,+923229827477
+Lead Hospital 026,Rizwan Ahmed,Website,Converted,Lahore,lead026@hospital.pk,+923383918139
+Lead Hospital 027,Adnan Butt,Cold Call,Open,Sahiwal,lead027@hospital.pk,+923102324073
+Lead Hospital 028,Irfan Butt,Government Tender,Do Not Contact,Sargodha,lead028@hospital.pk,+923296743339
+Lead Hospital 029,Kashif Hassan,Referral,Replied,Bahawalpur,lead029@hospital.pk,+923327682576
+Lead Hospital 030,Naveed Chaudhry,Exhibition,Lead,Sialkot,lead030@hospital.pk,+923166365514
+Lead Hospital 031,Hassan Akhtar,Referral,Opportunity,Sialkot,lead031@hospital.pk,+923478349528
+Lead Hospital 032,Shahid Malik,Website,Replied,Sargodha,lead032@hospital.pk,+923162128100
+Lead Hospital 033,Omar Siddiqui,Government Tender,Do Not Contact,Gujranwala,lead033@hospital.pk,+923468855311
+Lead Hospital 034,Zain Hussain,Exhibition,Replied,Bahawalpur,lead034@hospital.pk,+923201353165
+Lead Hospital 035,Naeem Sharif,Cold Call,Open,Lahore,lead035@hospital.pk,+923461936310
+Lead Hospital 036,Kamran Hassan,Exhibition,Opportunity,Sahiwal,lead036@hospital.pk,+923453555406
+Lead Hospital 037,Hassan Sheikh,Exhibition,Opportunity,Sheikhupura,lead037@hospital.pk,+923154611664
+Lead Hospital 038,Ali Mughal,Referral,Replied,Multan,lead038@hospital.pk,+923419417162
+Lead Hospital 039,Hassan Chaudhry,Exhibition,Do Not Contact,Sargodha,lead039@hospital.pk,+923249528389
+Lead Hospital 040,Fahad Dar,Cold Call,Opportunity,Sheikhupura,lead040@hospital.pk,+923317134002
+Lead Hospital 041,Naveed Rana,Referral,Opportunity,Rawalpindi,lead041@hospital.pk,+923165600288
+Lead Hospital 042,Atif Sharif,Referral,Do Not Contact,Faisalabad,lead042@hospital.pk,+923115957692
+Lead Hospital 043,Junaid Malik,Website,Opportunity,Lahore,lead043@hospital.pk,+923196151267
+Lead Hospital 044,Waqar Aslam,Referral,Replied,Sheikhupura,lead044@hospital.pk,+923434595466
+Lead Hospital 045,Fahad Ahmed,Government Tender,Opportunity,Sargodha,lead045@hospital.pk,+923208411284
+Lead Hospital 046,Kamran Sharif,Exhibition,Converted,Gujranwala,lead046@hospital.pk,+923391219246
+Lead Hospital 047,Arslan Hussain,Government Tender,Lead,Lahore,lead047@hospital.pk,+923331072679
+Lead Hospital 048,Faisal Siddiqui,Cold Call,Opportunity,Sargodha,lead048@hospital.pk,+923346776067
+Lead Hospital 049,Muhammad Qureshi,Government Tender,Do Not Contact,Gujranwala,lead049@hospital.pk,+923479062651
+Lead Hospital 050,Atif Gill,Referral,Replied,Bahawalpur,lead050@hospital.pk,+923361700368
+Lead Hospital 051,Rizwan Sharif,Government Tender,Do Not Contact,Sahiwal,lead051@hospital.pk,+923407203028
+Lead Hospital 052,Atif Hussain,Referral,Converted,Lahore,lead052@hospital.pk,+923310123127
+Lead Hospital 053,Atif Raza,Exhibition,Converted,Sialkot,lead053@hospital.pk,+923252706240
+Lead Hospital 054,Muhammad Khan,Government Tender,Lead,Faisalabad,lead054@hospital.pk,+923296714920
+Lead Hospital 055,Arslan Raza,Website,Do Not Contact,Sialkot,lead055@hospital.pk,+923304318777
+Lead Hospital 056,Tariq Mughal,Cold Call,Opportunity,Sialkot,lead056@hospital.pk,+923130305956
+Lead Hospital 057,Zain Chaudhry,Cold Call,Converted,Rawalpindi,lead057@hospital.pk,+923469362499
+Lead Hospital 058,Salman Mirza,Website,Replied,Faisalabad,lead058@hospital.pk,+923110582793
+Lead Hospital 059,Saad Malik,Exhibition,Do Not Contact,Bahawalpur,lead059@hospital.pk,+923404969200
+Lead Hospital 060,Naeem Gill,Cold Call,Lead,Sargodha,lead060@hospital.pk,+923415674318
+Lead Hospital 061,Saad Dar,Government Tender,Opportunity,Sialkot,lead061@hospital.pk,+923407379346
+Lead Hospital 062,Arslan Sharif,Website,Do Not Contact,Multan,lead062@hospital.pk,+923280371156
+Lead Hospital 063,Naveed Aslam,Referral,Converted,Gujranwala,lead063@hospital.pk,+923295063616
+Lead Hospital 064,Asad Sharif,Website,Converted,Multan,lead064@hospital.pk,+923254272843
+Lead Hospital 065,Muhammad Mirza,Government Tender,Opportunity,Multan,lead065@hospital.pk,+923435314692
+Lead Hospital 066,Adnan Raza,Website,Converted,Sialkot,lead066@hospital.pk,+923246761681
+Lead Hospital 067,Rizwan Akhtar,Exhibition,Opportunity,Multan,lead067@hospital.pk,+923286464117
+Lead Hospital 068,Sohail Mirza,Government Tender,Replied,Bahawalpur,lead068@hospital.pk,+923456190601
+Lead Hospital 069,Saad Butt,Exhibition,Opportunity,Gujranwala,lead069@hospital.pk,+923435524924
+Lead Hospital 070,Kashif Hussain,Referral,Lead,Sahiwal,lead070@hospital.pk,+923200147328
+Lead Hospital 071,Asad Siddiqui,Cold Call,Do Not Contact,Sahiwal,lead071@hospital.pk,+923429865457
+Lead Hospital 072,Irfan Raza,Website,Converted,Multan,lead072@hospital.pk,+923295568472
+Lead Hospital 073,Usman Chaudhry,Referral,Do Not Contact,Gujranwala,lead073@hospital.pk,+923333747574
+Lead Hospital 074,Saad Ahmed,Referral,Opportunity,Gujranwala,lead074@hospital.pk,+923254105895
+Lead Hospital 075,Hamza Javed,Referral,Opportunity,Multan,lead075@hospital.pk,+923160966297
+Lead Hospital 076,Asad Khan,Referral,Replied,Sargodha,lead076@hospital.pk,+923360587666
+Lead Hospital 077,Tariq Malik,Referral,Open,Gujranwala,lead077@hospital.pk,+923173245636
+Lead Hospital 078,Hamza Rana,Government Tender,Open,Lahore,lead078@hospital.pk,+923487875275
+Lead Hospital 079,Arslan Khan,Website,Lead,Sialkot,lead079@hospital.pk,+923422981403
+Lead Hospital 080,Salman Ahmed,Exhibition,Replied,Rawalpindi,lead080@hospital.pk,+923313081406
+Lead Hospital 081,Zain Hassan,Government Tender,Do Not Contact,Sahiwal,lead081@hospital.pk,+923164769511
+Lead Hospital 082,Kamran Raza,Government Tender,Replied,Sargodha,lead082@hospital.pk,+923148451948
+Lead Hospital 083,Waqar Hassan,Cold Call,Replied,Sheikhupura,lead083@hospital.pk,+923495800755
+Lead Hospital 084,Arslan Chaudhry,Exhibition,Open,Faisalabad,lead084@hospital.pk,+923157345337
+Lead Hospital 085,Asad Rana,Exhibition,Opportunity,Gujranwala,lead085@hospital.pk,+923416475172
+Lead Hospital 086,Atif Hussain,Cold Call,Do Not Contact,Rawalpindi,lead086@hospital.pk,+923269914246
+Lead Hospital 087,Atif Chaudhry,Cold Call,Open,Sialkot,lead087@hospital.pk,+923355132749
+Lead Hospital 088,Amir Mirza,Website,Do Not Contact,Sheikhupura,lead088@hospital.pk,+923118688169
+Lead Hospital 089,Adnan Chaudhry,Cold Call,Converted,Bahawalpur,lead089@hospital.pk,+923266037261
+Lead Hospital 090,Naeem Hassan,Government Tender,Open,Sargodha,lead090@hospital.pk,+923308558790
+Lead Hospital 091,Irfan Dar,Cold Call,Replied,Rawalpindi,lead091@hospital.pk,+923226411870
+Lead Hospital 092,Asad Qureshi,Exhibition,Do Not Contact,Sialkot,lead092@hospital.pk,+923445975455
+Lead Hospital 093,Arslan Malik,Cold Call,Lead,Sargodha,lead093@hospital.pk,+923352915206
+Lead Hospital 094,Irfan Aslam,Exhibition,Lead,Faisalabad,lead094@hospital.pk,+923474994769
+Lead Hospital 095,Naveed Ahmed,Cold Call,Opportunity,Sheikhupura,lead095@hospital.pk,+923491503231
+Lead Hospital 096,Kashif Khan,Website,Do Not Contact,Faisalabad,lead096@hospital.pk,+923438312608
+Lead Hospital 097,Arslan Sheikh,Website,Opportunity,Multan,lead097@hospital.pk,+923437313994
+Lead Hospital 098,Saad Raza,Website,Lead,Faisalabad,lead098@hospital.pk,+923234004894
+Lead Hospital 099,Adnan Sheikh,Government Tender,Do Not Contact,Bahawalpur,lead099@hospital.pk,+923271476103
+Lead Hospital 100,Atif Sheikh,Cold Call,Open,Sheikhupura,lead100@hospital.pk,+923275868405
+Lead Hospital 101,Asad Ahmed,Exhibition,Replied,Faisalabad,lead101@hospital.pk,+923311255577
+Lead Hospital 102,Amir Raza,Referral,Lead,Lahore,lead102@hospital.pk,+923399858501
+Lead Hospital 103,Irfan Ahmed,Exhibition,Open,Gujranwala,lead103@hospital.pk,+923476486715
+Lead Hospital 104,Muhammad Dar,Government Tender,Opportunity,Sheikhupura,lead104@hospital.pk,+923239671146
+Lead Hospital 105,Ali Mughal,Referral,Converted,Rawalpindi,lead105@hospital.pk,+923107577882
+Lead Hospital 106,Tariq Siddiqui,Exhibition,Lead,Multan,lead106@hospital.pk,+923483091601
+Lead Hospital 107,Asad Rana,Cold Call,Do Not Contact,Sargodha,lead107@hospital.pk,+923305124159
+Lead Hospital 108,Tariq Butt,Government Tender,Open,Gujranwala,lead108@hospital.pk,+923490148420
+Lead Hospital 109,Tariq Qureshi,Exhibition,Open,Lahore,lead109@hospital.pk,+923255796157
+Lead Hospital 110,Zain Javed,Exhibition,Open,Sialkot,lead110@hospital.pk,+923412943704
+Lead Hospital 111,Ali Khan,Exhibition,Open,Sialkot,lead111@hospital.pk,+923472064189
+Lead Hospital 112,Kamran Butt,Exhibition,Do Not Contact,Bahawalpur,lead112@hospital.pk,+923495192880
+Lead Hospital 113,Ali Hassan,Government Tender,Lead,Lahore,lead113@hospital.pk,+923278704214
+Lead Hospital 114,Atif Mughal,Government Tender,Do Not Contact,Sheikhupura,lead114@hospital.pk,+923480945324
+Lead Hospital 115,Ahmed Rana,Government Tender,Converted,Bahawalpur,lead115@hospital.pk,+923262407397
+Lead Hospital 116,Kamran Mughal,Referral,Converted,Lahore,lead116@hospital.pk,+923411646536
+Lead Hospital 117,Hamza Qureshi,Government Tender,Opportunity,Sialkot,lead117@hospital.pk,+923351301149
+Lead Hospital 118,Ali Aslam,Government Tender,Opportunity,Faisalabad,lead118@hospital.pk,+923239804412
+Lead Hospital 119,Saad Malik,Referral,Opportunity,Gujranwala,lead119@hospital.pk,+923293591467
+Lead Hospital 120,Omar Rana,Government Tender,Replied,Sahiwal,lead120@hospital.pk,+923268046135

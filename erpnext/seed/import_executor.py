@@ -580,6 +580,10 @@ def import_seed(seed_dir: str = "seed_output", company_override: str | None = No
 	mv_rows = _csv("Maintenance_Visit.csv")
 	mvp_rows = _csv("Maintenance_Visit_Purpose.csv")
 	qi_rows = _csv("Quality_Inspection.csv")
+	dt_rows = _csv("Delivery_Trip.csv")
+	ds_rows = _csv("Delivery_Stop.csv")
+	ms_rows = _csv("Maintenance_Schedule.csv")
+	msi_rows = _csv("Maintenance_Schedule_Item.csv")
 
 	# ── Resolve company ──
 	seed_company = company_rows[0].get("name") if company_rows else ""
@@ -601,6 +605,7 @@ def import_seed(seed_dir: str = "seed_output", company_override: str | None = No
 		mr_rows, pr_rows, dn_rows, si_rows, pi_rows,
 		project_rows, task_rows, mv_rows, qi_rows,
 		lead_rows, opportunity_rows, holiday_list_rows,
+		dt_rows, ms_rows,
 	]
 	for rows_list in all_company_rows:
 		for row in rows_list:
@@ -626,6 +631,15 @@ def import_seed(seed_dir: str = "seed_output", company_override: str | None = No
 
 	for row in cost_center_rows:
 		row["parent_cost_center"] = _remap_wh(row.get("parent_cost_center", ""))
+
+	# Department names in ERPNext include company abbreviation (e.g. "Waste Operations - GBC").
+	# The seed CSVs store plain names. Append target abbreviation to department references.
+	if target_abbr:
+		for rows_list in [employee_rows, project_rows, task_rows]:
+			for row in rows_list:
+				dept = row.get("department", "")
+				if dept and " - " not in dept:
+					row["department"] = f"{dept} - {target_abbr}"
 
 	report = {}
 	report["Company Mapping"] = {
@@ -687,6 +701,8 @@ def import_seed(seed_dir: str = "seed_output", company_override: str | None = No
 	report["Purchase Invoice"] = _import_with_children("Purchase Invoice", pi_rows, pii_rows, "items", _set_currency)
 	report["Issue"] = _upsert_simple("Issue", issue_rows, "subject")
 	report["Maintenance Visit"] = _import_with_children("Maintenance Visit", mv_rows, mvp_rows, "purposes")
+	report["Delivery Trip"] = _import_with_children("Delivery Trip", dt_rows, ds_rows, "delivery_stops")
+	report["Maintenance Schedule"] = _import_with_children("Maintenance Schedule", ms_rows, msi_rows, "items")
 	report["Quality Inspection"] = _import_bulk("Quality Inspection", qi_rows)
 
 	# ── JSON sidecars (for audit/analytics) ──

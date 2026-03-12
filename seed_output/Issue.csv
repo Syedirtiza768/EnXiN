@@ -1,401 +1,801 @@
 subject,customer,raised_by,status,priority,opening_date
-Equipment Malfunction - Allied Teaching Hospital 18 #00001,Allied Teaching Hospital 18,support0001@enxi.pk,Resolved,Urgent,2024-03-13
-Preventive Maintenance Due - LifeLine Medical Center 49 #00002,LifeLine Medical Center 49,support0002@enxi.pk,Open,Medium,2024-03-20
-Billing Inquiry - Combined Military Teaching Hos #00003,Combined Military Teaching Hospital 19,support0003@enxi.pk,Open,Urgent,2024-03-21
-Incinerator Issue - Ittefaq Private Hospital 24 #00004,Ittefaq Private Hospital 24,support0004@enxi.pk,Closed,Low,2024-03-22
-Preventive Maintenance Due - Allied Teaching Hospital 18 #00005,Allied Teaching Hospital 18,support0005@enxi.pk,Open,High,2024-03-23
-Billing Inquiry - Central Park Medical Center 36 #00006,Central Park Medical Center 36,support0006@enxi.pk,Closed,Urgent,2024-03-23
-Training Request - City Care Tertiary Hospital 06 #00007,City Care Tertiary Hospital 06,support0007@enxi.pk,Closed,High,2024-03-24
-Calibration Required - Allied Teaching Hospital 18 #00008,Allied Teaching Hospital 18,support0008@enxi.pk,Closed,Medium,2024-03-28
-Pickup Schedule Change - Shaukat Khanum Medical Center  #00009,Shaukat Khanum Medical Center 50,support0009@enxi.pk,Resolved,Urgent,2024-03-31
-Fleet Breakdown - Shalimar Tertiary Hospital 04 #00010,Shalimar Tertiary Hospital 04,support0010@enxi.pk,Resolved,Urgent,2024-04-02
-Preventive Maintenance Due - Lady Aitchison Specialist Clin #00011,Lady Aitchison Specialist Clinic 31,support0011@enxi.pk,Open,Low,2024-04-02
-Training Request - Al-Rehman Tertiary Hospital 08 #00012,Al-Rehman Tertiary Hospital 08,support0012@enxi.pk,Closed,Urgent,2024-04-05
-Equipment Malfunction - Shaukat Khanum Medical Center  #00013,Shaukat Khanum Medical Center 50,support0013@enxi.pk,Replied,Medium,2024-04-07
-Compliance Query - Medix District Hospital 11 #00014,Medix District Hospital 11,support0014@enxi.pk,Closed,Low,2024-04-07
-Pickup Schedule Change - Ghurki Trust Medical Center 45 #00015,Ghurki Trust Medical Center 45,support0015@enxi.pk,Resolved,Medium,2024-04-08
-Equipment Malfunction - Wapda Teaching Medical Center  #00016,Wapda Teaching Medical Center 51,support0016@enxi.pk,Closed,Medium,2024-04-12
-Pickup Schedule Change - LifeLine Tertiary Hospital 09 #00017,LifeLine Tertiary Hospital 09,support0017@enxi.pk,Closed,Urgent,2024-04-12
-Training Request - Shaukat Khanum Medical Center  #00018,Shaukat Khanum Medical Center 50,support0018@enxi.pk,Closed,High,2024-04-12
-Incinerator Issue - CMH Medical Center 39 #00019,CMH Medical Center 39,support0019@enxi.pk,Open,Medium,2024-04-13
-Equipment Malfunction - Sheikh Zayed Medical Center 41 #00020,Sheikh Zayed Medical Center 41,support0020@enxi.pk,Resolved,Medium,2024-04-14
-Preventive Maintenance Due - Sir Ganga Ram Medical Center 3 #00021,Sir Ganga Ram Medical Center 33,support0021@enxi.pk,Closed,Urgent,2024-04-16
-Emergency Waste Pickup - Sir Ganga Ram Medical Center 4 #00022,Sir Ganga Ram Medical Center 40,support0022@enxi.pk,Replied,High,2024-04-17
-Emergency Waste Pickup - Surgimed Diagnostic Laboratory #00023,Surgimed Diagnostic Laboratory 26,support0023@enxi.pk,Replied,High,2024-04-19
-Equipment Malfunction - Children Maternity Hospital 30 #00024,Children Maternity Hospital 30,support0024@enxi.pk,Resolved,Low,2024-04-20
-Incinerator Issue - Noor Tertiary Hospital 07 #00025,Noor Tertiary Hospital 07,support0025@enxi.pk,Replied,Low,2024-04-20
-Training Request - City Care Tertiary Hospital 06 #00026,City Care Tertiary Hospital 06,support0026@enxi.pk,Closed,High,2024-04-21
-Calibration Required - Shaukat Khanum District Hospit #00027,Shaukat Khanum District Hospital 16,support0027@enxi.pk,Replied,Low,2024-04-22
-Pickup Schedule Change - Agha Khan Lab Medical Center 5 #00028,Agha Khan Lab Medical Center 53,support0028@enxi.pk,Resolved,Urgent,2024-04-23
-Compliance Query - Agha Khan Lab Medical Center 5 #00029,Agha Khan Lab Medical Center 53,support0029@enxi.pk,Open,Low,2024-04-25
-Installation Support - Medix District Hospital 11 #00030,Medix District Hospital 11,support0030@enxi.pk,Resolved,Low,2024-04-26
-Installation Support - Agha Khan Lab Medical Center 5 #00031,Agha Khan Lab Medical Center 53,support0031@enxi.pk,Open,Low,2024-04-27
-Pickup Schedule Change - Shaukat Khanum District Hospit #00032,Shaukat Khanum District Hospital 16,support0032@enxi.pk,Replied,Urgent,2024-04-27
-Waste Container Replacement - Allied Teaching Hospital 18 #00033,Allied Teaching Hospital 18,support0033@enxi.pk,Replied,High,2024-04-29
-Incinerator Issue - Doctors Private Hospital 25 #00034,Doctors Private Hospital 25,support0034@enxi.pk,Closed,High,2024-05-06
-Fleet Breakdown - Jinnah Tertiary Hospital 02 #00035,Jinnah Tertiary Hospital 02,support0035@enxi.pk,Resolved,Medium,2024-05-06
-Calibration Required - Doctors Private Hospital 25 #00036,Doctors Private Hospital 25,support0036@enxi.pk,Resolved,Low,2024-05-07
-Incinerator Issue - Ghurki Trust Medical Center 42 #00037,Ghurki Trust Medical Center 42,support0037@enxi.pk,Replied,Medium,2024-05-15
-Preventive Maintenance Due - Al-Rehman Tertiary Hospital 08 #00038,Al-Rehman Tertiary Hospital 08,support0038@enxi.pk,Resolved,High,2024-05-15
-Incinerator Issue - Noor Tertiary Hospital 07 #00039,Noor Tertiary Hospital 07,support0039@enxi.pk,Open,Low,2024-05-16
-Equipment Malfunction - Citi Lab Medical Center 38 #00040,Citi Lab Medical Center 38,support0040@enxi.pk,Replied,Low,2024-05-16
-Equipment Malfunction - Doctors Private Hospital 25 #00041,Doctors Private Hospital 25,support0041@enxi.pk,Closed,Low,2024-05-17
-Fleet Breakdown - Shaukat Khanum District Hospit #00042,Shaukat Khanum District Hospital 16,support0042@enxi.pk,Closed,Medium,2024-05-18
-Equipment Malfunction - Shalimar Tertiary Hospital 04 #00043,Shalimar Tertiary Hospital 04,support0043@enxi.pk,Resolved,Medium,2024-05-18
-Preventive Maintenance Due - Punjab District Hospital 12 #00044,Punjab District Hospital 12,support0044@enxi.pk,Resolved,High,2024-05-19
-Incinerator Issue - Medix District Hospital 11 #00045,Medix District Hospital 11,support0045@enxi.pk,Closed,Urgent,2024-05-20
-Waste Container Replacement - Ghurki Trust Medical Center 42 #00046,Ghurki Trust Medical Center 42,support0046@enxi.pk,Resolved,Medium,2024-05-23
-Pickup Schedule Change - Central Park Medical Center 36 #00047,Central Park Medical Center 36,support0047@enxi.pk,Replied,High,2024-05-23
-Billing Inquiry - Shaukat Khanum Medical Center  #00048,Shaukat Khanum Medical Center 50,support0048@enxi.pk,Open,Low,2024-05-23
-Billing Inquiry - National Medical Center 54 #00049,National Medical Center 54,support0049@enxi.pk,Open,High,2024-05-25
-Emergency Waste Pickup - Social Security Medical Center #00050,Social Security Medical Center 43,support0050@enxi.pk,Resolved,High,2024-05-27
-Calibration Required - National Medical Center 48 #00051,National Medical Center 48,support0051@enxi.pk,Closed,Low,2024-05-28
-Pickup Schedule Change - Allied Medical Center 35 #00052,Allied Medical Center 35,support0052@enxi.pk,Resolved,High,2024-05-29
-Installation Support - Sheikh Zayed District Hospital #00053,Sheikh Zayed District Hospital 14,support0053@enxi.pk,Resolved,Medium,2024-05-29
-Training Request - Surgimed Diagnostic Laboratory #00054,Surgimed Diagnostic Laboratory 26,support0054@enxi.pk,Replied,High,2024-06-02
-Training Request - Shalimar Tertiary Hospital 04 #00055,Shalimar Tertiary Hospital 04,support0055@enxi.pk,Open,High,2024-06-03
-Emergency Waste Pickup - Wapda Teaching Medical Center  #00056,Wapda Teaching Medical Center 55,support0056@enxi.pk,Resolved,Low,2024-06-06
-Waste Container Replacement - Punjab District Hospital 12 #00057,Punjab District Hospital 12,support0057@enxi.pk,Replied,Medium,2024-06-06
-Training Request - Sharif Medical Private Hospita #00058,Sharif Medical Private Hospital 23,support0058@enxi.pk,Resolved,Medium,2024-06-07
-Compliance Query - Agha Khan Lab Medical Center 5 #00059,Agha Khan Lab Medical Center 53,support0059@enxi.pk,Open,Medium,2024-06-09
-Fleet Breakdown - Social Security Medical Center #00060,Social Security Medical Center 43,support0060@enxi.pk,Resolved,Medium,2024-06-09
-Training Request - Sir Ganga Ram Medical Center 3 #00061,Sir Ganga Ram Medical Center 33,support0061@enxi.pk,Open,High,2024-06-14
-Installation Support - Jinnah Tertiary Hospital 02 #00062,Jinnah Tertiary Hospital 02,support0062@enxi.pk,Resolved,Low,2024-06-17
-Fleet Breakdown - Lahore Eye Medical Center 32 #00063,Lahore Eye Medical Center 32,support0063@enxi.pk,Open,Urgent,2024-06-18
-Waste Container Replacement - Excel Labs Medical Center 52 #00064,Excel Labs Medical Center 52,support0064@enxi.pk,Resolved,High,2024-06-21
-Pickup Schedule Change - Wapda Teaching Medical Center  #00065,Wapda Teaching Medical Center 51,support0065@enxi.pk,Replied,High,2024-06-23
-Pickup Schedule Change - Punjab District Hospital 12 #00066,Punjab District Hospital 12,support0066@enxi.pk,Closed,Urgent,2024-06-26
-Installation Support - Lahore Eye Medical Center 32 #00067,Lahore Eye Medical Center 32,support0067@enxi.pk,Resolved,High,2024-06-27
-Pickup Schedule Change - Shaukat Khanum Medical Center  #00068,Shaukat Khanum Medical Center 50,support0068@enxi.pk,Closed,High,2024-06-28
-Emergency Waste Pickup - Wapda Teaching Medical Center  #00069,Wapda Teaching Medical Center 51,support0069@enxi.pk,Replied,Low,2024-06-28
-Billing Inquiry - Gulab Devi Teaching Hospital 2 #00070,Gulab Devi Teaching Hospital 20,support0070@enxi.pk,Resolved,Low,2024-06-29
-Billing Inquiry - Shalimar Tertiary Hospital 04 #00071,Shalimar Tertiary Hospital 04,support0071@enxi.pk,Open,Urgent,2024-06-29
-Training Request - Sheikh Zayed Medical Center 37 #00072,Sheikh Zayed Medical Center 37,support0072@enxi.pk,Replied,Urgent,2024-07-02
-Training Request - Gulab Devi Teaching Hospital 2 #00073,Gulab Devi Teaching Hospital 20,support0073@enxi.pk,Closed,Medium,2024-07-03
-Incinerator Issue - National Medical Center 48 #00074,National Medical Center 48,support0074@enxi.pk,Closed,High,2024-07-04
-Compliance Query - Excel Labs Medical Center 52 #00075,Excel Labs Medical Center 52,support0075@enxi.pk,Replied,Urgent,2024-07-06
-Emergency Waste Pickup - Children Maternity Hospital 30 #00076,Children Maternity Hospital 30,support0076@enxi.pk,Replied,High,2024-07-09
-Pickup Schedule Change - Ghurki Trust Medical Center 42 #00077,Ghurki Trust Medical Center 42,support0077@enxi.pk,Closed,Low,2024-07-12
-Preventive Maintenance Due - Citi Lab Medical Center 38 #00078,Citi Lab Medical Center 38,support0078@enxi.pk,Replied,Low,2024-07-14
-Pickup Schedule Change - Jinnah Tertiary Hospital 02 #00079,Jinnah Tertiary Hospital 02,support0079@enxi.pk,Open,Urgent,2024-07-18
-Compliance Query - Medix District Hospital 11 #00080,Medix District Hospital 11,support0080@enxi.pk,Resolved,High,2024-07-20
-Waste Container Replacement - Prime Medical Center 47 #00081,Prime Medical Center 47,support0081@enxi.pk,Closed,Low,2024-07-21
-Billing Inquiry - City Care Tertiary Hospital 06 #00082,City Care Tertiary Hospital 06,support0082@enxi.pk,Open,Medium,2024-07-21
-Incinerator Issue - Prime Tertiary Hospital 10 #00083,Prime Tertiary Hospital 10,support0083@enxi.pk,Resolved,Urgent,2024-07-22
-Installation Support - Jinnah Tertiary Hospital 02 #00084,Jinnah Tertiary Hospital 02,support0084@enxi.pk,Replied,Urgent,2024-07-22
-Compliance Query - LifeLine Tertiary Hospital 09 #00085,LifeLine Tertiary Hospital 09,support0085@enxi.pk,Open,Urgent,2024-07-23
-Waste Container Replacement - Combined Military Teaching Hos #00086,Combined Military Teaching Hospital 19,support0086@enxi.pk,Open,Urgent,2024-07-26
-Equipment Malfunction - Shaukat Khanum Medical Center  #00087,Shaukat Khanum Medical Center 50,support0087@enxi.pk,Replied,Medium,2024-07-27
-Equipment Malfunction - Ittefaq Private Hospital 24 #00088,Ittefaq Private Hospital 24,support0088@enxi.pk,Replied,High,2024-07-27
-Incinerator Issue - Shaukat Khanum District Hospit #00089,Shaukat Khanum District Hospital 16,support0089@enxi.pk,Resolved,High,2024-07-28
-Installation Support - Prime Tertiary Hospital 10 #00090,Prime Tertiary Hospital 10,support0090@enxi.pk,Resolved,Medium,2024-08-01
-Waste Container Replacement - Surgimed Medical Center 44 #00091,Surgimed Medical Center 44,support0091@enxi.pk,Closed,Low,2024-08-02
-Installation Support - Wapda Teaching Medical Center  #00092,Wapda Teaching Medical Center 51,support0092@enxi.pk,Resolved,Urgent,2024-08-02
-Pickup Schedule Change - Prime Medical Center 47 #00093,Prime Medical Center 47,support0093@enxi.pk,Resolved,High,2024-08-02
-Fleet Breakdown - CMH Medical Center 39 #00094,CMH Medical Center 39,support0094@enxi.pk,Resolved,High,2024-08-02
-Installation Support - National Medical Center 54 #00095,National Medical Center 54,support0095@enxi.pk,Open,Medium,2024-08-03
-Fleet Breakdown - Farooq Maternity Hospital 29 #00096,Farooq Maternity Hospital 29,support0096@enxi.pk,Replied,Low,2024-08-04
-Fleet Breakdown - Lahore Eye Medical Center 32 #00097,Lahore Eye Medical Center 32,support0097@enxi.pk,Resolved,Medium,2024-08-09
-Fleet Breakdown - Farooq Maternity Hospital 29 #00098,Farooq Maternity Hospital 29,support0098@enxi.pk,Open,Medium,2024-08-15
-Calibration Required - LifeLine Tertiary Hospital 09 #00099,LifeLine Tertiary Hospital 09,support0099@enxi.pk,Resolved,Low,2024-08-23
-Waste Container Replacement - Medix District Hospital 11 #00100,Medix District Hospital 11,support0100@enxi.pk,Replied,Urgent,2024-08-24
-Calibration Required - Social Security Medical Center #00101,Social Security Medical Center 43,support0101@enxi.pk,Closed,Urgent,2024-08-24
-Installation Support - Noor Tertiary Hospital 07 #00102,Noor Tertiary Hospital 07,support0102@enxi.pk,Closed,High,2024-08-25
-Equipment Malfunction - Children Medical Center 46 #00103,Children Medical Center 46,support0103@enxi.pk,Resolved,Low,2024-08-27
-Fleet Breakdown - Allied Teaching Hospital 18 #00104,Allied Teaching Hospital 18,support0104@enxi.pk,Closed,High,2024-09-03
-Compliance Query - Social Security Medical Center #00105,Social Security Medical Center 43,support0105@enxi.pk,Open,Low,2024-09-04
-Training Request - Medix District Hospital 11 #00106,Medix District Hospital 11,support0106@enxi.pk,Closed,Medium,2024-09-15
-Preventive Maintenance Due - Sir Ganga Ram Medical Center 3 #00107,Sir Ganga Ram Medical Center 33,support0107@enxi.pk,Open,Low,2024-09-16
-Equipment Malfunction - Sharif Medical Private Hospita #00108,Sharif Medical Private Hospital 23,support0108@enxi.pk,Replied,Medium,2024-09-18
-Fleet Breakdown - Allied Medical Center 35 #00109,Allied Medical Center 35,support0109@enxi.pk,Replied,Low,2024-09-20
-Incinerator Issue - Lady Aitchison Specialist Clin #00110,Lady Aitchison Specialist Clinic 31,support0110@enxi.pk,Resolved,High,2024-09-21
-Compliance Query - Citi Lab Medical Center 38 #00111,Citi Lab Medical Center 38,support0111@enxi.pk,Replied,Medium,2024-09-23
-Billing Inquiry - Farooq Maternity Hospital 29 #00112,Farooq Maternity Hospital 29,support0112@enxi.pk,Closed,Urgent,2024-09-24
-Pickup Schedule Change - Wapda Teaching Medical Center  #00113,Wapda Teaching Medical Center 51,support0113@enxi.pk,Replied,Medium,2024-09-25
-Waste Container Replacement - Sir Ganga Ram Medical Center 4 #00114,Sir Ganga Ram Medical Center 40,support0114@enxi.pk,Resolved,High,2024-09-28
-Waste Container Replacement - Sheikh Zayed District Hospital #00115,Sheikh Zayed District Hospital 14,support0115@enxi.pk,Closed,Medium,2024-09-29
-Calibration Required - Prime Medical Center 47 #00116,Prime Medical Center 47,support0116@enxi.pk,Closed,Medium,2024-10-01
-Billing Inquiry - CMH Medical Center 39 #00117,CMH Medical Center 39,support0117@enxi.pk,Replied,Low,2024-10-02
-Compliance Query - Agha Khan Lab Medical Center 5 #00118,Agha Khan Lab Medical Center 53,support0118@enxi.pk,Open,Low,2024-10-07
-Calibration Required - Mayo Tertiary Hospital 01 #00119,Mayo Tertiary Hospital 01,support0119@enxi.pk,Closed,Low,2024-10-08
-Installation Support - Lahore Eye Medical Center 32 #00120,Lahore Eye Medical Center 32,support0120@enxi.pk,Replied,Low,2024-10-11
-Waste Container Replacement - National District Hospital 17 #00121,National District Hospital 17,support0121@enxi.pk,Resolved,Urgent,2024-10-12
-Incinerator Issue - Sheikh Zayed Medical Center 37 #00122,Sheikh Zayed Medical Center 37,support0122@enxi.pk,Closed,High,2024-10-16
-Installation Support - Sheikh Zayed District Hospital #00123,Sheikh Zayed District Hospital 14,support0123@enxi.pk,Open,High,2024-10-16
-Installation Support - Sharif Medical Private Hospita #00124,Sharif Medical Private Hospital 23,support0124@enxi.pk,Replied,Low,2024-10-19
-Compliance Query - Jinnah Tertiary Hospital 02 #00125,Jinnah Tertiary Hospital 02,support0125@enxi.pk,Replied,Low,2024-10-20
-Emergency Waste Pickup - Central Park Medical Center 36 #00126,Central Park Medical Center 36,support0126@enxi.pk,Replied,Low,2024-10-20
-Installation Support - Central Park Medical Center 36 #00127,Central Park Medical Center 36,support0127@enxi.pk,Replied,Low,2024-10-22
-Emergency Waste Pickup - Social Security Medical Center #00128,Social Security Medical Center 43,support0128@enxi.pk,Resolved,Low,2024-10-26
-Emergency Waste Pickup - Lady Aitchison Specialist Clin #00129,Lady Aitchison Specialist Clinic 31,support0129@enxi.pk,Replied,Medium,2024-10-26
-Installation Support - Children Maternity Hospital 30 #00130,Children Maternity Hospital 30,support0130@enxi.pk,Replied,Low,2024-10-28
-Emergency Waste Pickup - LifeLine Tertiary Hospital 09 #00131,LifeLine Tertiary Hospital 09,support0131@enxi.pk,Closed,Medium,2024-10-31
-Preventive Maintenance Due - Allied Teaching Hospital 18 #00132,Allied Teaching Hospital 18,support0132@enxi.pk,Resolved,High,2024-11-01
-Calibration Required - Shalimar Tertiary Hospital 04 #00133,Shalimar Tertiary Hospital 04,support0133@enxi.pk,Closed,High,2024-11-02
-Incinerator Issue - CMH Medical Center 39 #00134,CMH Medical Center 39,support0134@enxi.pk,Open,Medium,2024-11-02
-Training Request - Hafeez Diagnostic Laboratory 2 #00135,Hafeez Diagnostic Laboratory 27,support0135@enxi.pk,Open,Low,2024-11-04
-Equipment Malfunction - CMH Medical Center 39 #00136,CMH Medical Center 39,support0136@enxi.pk,Closed,Medium,2024-11-07
-Equipment Malfunction - Punjab District Hospital 12 #00137,Punjab District Hospital 12,support0137@enxi.pk,Closed,Low,2024-11-07
-Preventive Maintenance Due - Medix District Hospital 11 #00138,Medix District Hospital 11,support0138@enxi.pk,Resolved,High,2024-11-08
-Waste Container Replacement - Punjab District Hospital 12 #00139,Punjab District Hospital 12,support0139@enxi.pk,Resolved,Urgent,2024-11-09
-Equipment Malfunction - Shaukat Khanum Medical Center  #00140,Shaukat Khanum Medical Center 50,support0140@enxi.pk,Replied,Medium,2024-11-10
-Preventive Maintenance Due - Sheikh Zayed District Hospital #00141,Sheikh Zayed District Hospital 14,support0141@enxi.pk,Resolved,Urgent,2024-11-10
-Preventive Maintenance Due - Sharif Medical Private Hospita #00142,Sharif Medical Private Hospital 23,support0142@enxi.pk,Closed,High,2024-11-11
-Emergency Waste Pickup - Farooq Maternity Hospital 29 #00143,Farooq Maternity Hospital 29,support0143@enxi.pk,Open,Medium,2024-11-11
-Waste Container Replacement - Medix District Hospital 11 #00144,Medix District Hospital 11,support0144@enxi.pk,Open,Low,2024-11-13
-Billing Inquiry - Wapda Teaching Medical Center  #00145,Wapda Teaching Medical Center 51,support0145@enxi.pk,Open,High,2024-11-16
-Installation Support - Central Park Tertiary Hospital #00146,Central Park Tertiary Hospital 05,support0146@enxi.pk,Resolved,Low,2024-11-17
-Fleet Breakdown - Medix District Hospital 11 #00147,Medix District Hospital 11,support0147@enxi.pk,Resolved,Low,2024-11-20
-Equipment Malfunction - Hameed Latif District Hospital #00148,Hameed Latif District Hospital 15,support0148@enxi.pk,Open,Urgent,2024-11-24
-Incinerator Issue - Sir Ganga Ram Medical Center 3 #00149,Sir Ganga Ram Medical Center 33,support0149@enxi.pk,Closed,Urgent,2024-11-24
-Compliance Query - Ghurki Trust Medical Center 42 #00150,Ghurki Trust Medical Center 42,support0150@enxi.pk,Closed,High,2024-11-25
-Incinerator Issue - Fatima Memorial Private Hospit #00151,Fatima Memorial Private Hospital 22,support0151@enxi.pk,Resolved,Low,2024-11-25
-Compliance Query - Citi Lab Medical Center 38 #00152,Citi Lab Medical Center 38,support0152@enxi.pk,Open,High,2024-11-28
-Equipment Malfunction - Fatima Memorial Private Hospit #00153,Fatima Memorial Private Hospital 22,support0153@enxi.pk,Resolved,Urgent,2024-11-30
-Waste Container Replacement - Punjab District Hospital 12 #00154,Punjab District Hospital 12,support0154@enxi.pk,Closed,Urgent,2024-12-02
-Pickup Schedule Change - Sir Ganga Ram Medical Center 4 #00155,Sir Ganga Ram Medical Center 40,support0155@enxi.pk,Closed,Medium,2024-12-04
-Calibration Required - Farooq Maternity Hospital 29 #00156,Farooq Maternity Hospital 29,support0156@enxi.pk,Closed,High,2024-12-05
-Training Request - Noor Tertiary Hospital 07 #00157,Noor Tertiary Hospital 07,support0157@enxi.pk,Open,High,2024-12-10
-Fleet Breakdown - Shaukat Khanum Medical Center  #00158,Shaukat Khanum Medical Center 50,support0158@enxi.pk,Replied,Low,2024-12-18
-Waste Container Replacement - Gulab Devi Teaching Hospital 2 #00159,Gulab Devi Teaching Hospital 20,support0159@enxi.pk,Resolved,High,2024-12-21
-Incinerator Issue - Services Tertiary Hospital 03 #00160,Services Tertiary Hospital 03,support0160@enxi.pk,Resolved,Urgent,2024-12-21
-Preventive Maintenance Due - Prime Tertiary Hospital 10 #00161,Prime Tertiary Hospital 10,support0161@enxi.pk,Closed,Urgent,2024-12-22
-Incinerator Issue - National District Hospital 17 #00162,National District Hospital 17,support0162@enxi.pk,Replied,High,2024-12-22
-Waste Container Replacement - CMH Medical Center 39 #00163,CMH Medical Center 39,support0163@enxi.pk,Resolved,Low,2024-12-23
-Fleet Breakdown - Aziz Fatimah Diagnostic Labora #00164,Aziz Fatimah Diagnostic Laboratory 28,support0164@enxi.pk,Closed,Urgent,2024-12-23
-Equipment Malfunction - National District Hospital 17 #00165,National District Hospital 17,support0165@enxi.pk,Closed,Urgent,2024-12-24
-Training Request - Sheikh Zayed Medical Center 37 #00166,Sheikh Zayed Medical Center 37,support0166@enxi.pk,Resolved,High,2024-12-25
-Pickup Schedule Change - Farooq Maternity Hospital 29 #00167,Farooq Maternity Hospital 29,support0167@enxi.pk,Open,Low,2024-12-26
-Billing Inquiry - Shalimar Tertiary Hospital 04 #00168,Shalimar Tertiary Hospital 04,support0168@enxi.pk,Closed,Urgent,2025-01-05
-Calibration Required - Ghurki Trust Medical Center 42 #00169,Ghurki Trust Medical Center 42,support0169@enxi.pk,Closed,High,2025-01-07
-Training Request - City Care Tertiary Hospital 06 #00170,City Care Tertiary Hospital 06,support0170@enxi.pk,Closed,Medium,2025-01-07
-Emergency Waste Pickup - Ghurki Trust Medical Center 42 #00171,Ghurki Trust Medical Center 42,support0171@enxi.pk,Closed,High,2025-01-10
-Installation Support - Sheikh Zayed District Hospital #00172,Sheikh Zayed District Hospital 14,support0172@enxi.pk,Closed,Low,2025-01-16
-Calibration Required - Central Park Tertiary Hospital #00173,Central Park Tertiary Hospital 05,support0173@enxi.pk,Resolved,Medium,2025-01-17
-Preventive Maintenance Due - National Medical Center 54 #00174,National Medical Center 54,support0174@enxi.pk,Closed,High,2025-01-18
-Incinerator Issue - Sharif Medical Private Hospita #00175,Sharif Medical Private Hospital 23,support0175@enxi.pk,Replied,High,2025-01-19
-Installation Support - Shaukat Khanum District Hospit #00176,Shaukat Khanum District Hospital 16,support0176@enxi.pk,Open,High,2025-01-19
-Equipment Malfunction - Farooq Maternity Hospital 29 #00177,Farooq Maternity Hospital 29,support0177@enxi.pk,Resolved,Low,2025-01-20
-Incinerator Issue - Lady Aitchison Specialist Clin #00178,Lady Aitchison Specialist Clinic 31,support0178@enxi.pk,Replied,Urgent,2025-01-20
-Preventive Maintenance Due - Sharif Medical Private Hospita #00179,Sharif Medical Private Hospital 23,support0179@enxi.pk,Closed,High,2025-01-22
-Emergency Waste Pickup - Surgimed Diagnostic Laboratory #00180,Surgimed Diagnostic Laboratory 26,support0180@enxi.pk,Replied,Urgent,2025-01-24
-Emergency Waste Pickup - Ghurki Trust Medical Center 45 #00181,Ghurki Trust Medical Center 45,support0181@enxi.pk,Replied,Low,2025-01-25
-Waste Container Replacement - National Medical Center 54 #00182,National Medical Center 54,support0182@enxi.pk,Replied,Urgent,2025-01-27
-Compliance Query - Sheikh Zayed District Hospital #00183,Sheikh Zayed District Hospital 14,support0183@enxi.pk,Closed,Low,2025-01-29
-Compliance Query - Prime Tertiary Hospital 10 #00184,Prime Tertiary Hospital 10,support0184@enxi.pk,Closed,Urgent,2025-01-30
-Preventive Maintenance Due - Punjab District Hospital 12 #00185,Punjab District Hospital 12,support0185@enxi.pk,Replied,Medium,2025-02-01
-Equipment Malfunction - Mayo Tertiary Hospital 01 #00186,Mayo Tertiary Hospital 01,support0186@enxi.pk,Resolved,Urgent,2025-02-01
-Training Request - Social Security Medical Center #00187,Social Security Medical Center 43,support0187@enxi.pk,Resolved,Low,2025-02-02
-Waste Container Replacement - Ittefaq Private Hospital 24 #00188,Ittefaq Private Hospital 24,support0188@enxi.pk,Replied,High,2025-02-02
-Compliance Query - Punjab District Hospital 12 #00189,Punjab District Hospital 12,support0189@enxi.pk,Closed,Urgent,2025-02-08
-Equipment Malfunction - Jinnah Tertiary Hospital 02 #00190,Jinnah Tertiary Hospital 02,support0190@enxi.pk,Open,High,2025-02-08
-Training Request - Lahore Eye Medical Center 32 #00191,Lahore Eye Medical Center 32,support0191@enxi.pk,Replied,Urgent,2025-02-10
-Emergency Waste Pickup - Ghurki Trust Medical Center 42 #00192,Ghurki Trust Medical Center 42,support0192@enxi.pk,Open,Medium,2025-02-14
-Waste Container Replacement - Jinnah Tertiary Hospital 02 #00193,Jinnah Tertiary Hospital 02,support0193@enxi.pk,Resolved,Low,2025-02-15
-Waste Container Replacement - Agha Khan Lab Medical Center 5 #00194,Agha Khan Lab Medical Center 53,support0194@enxi.pk,Closed,High,2025-02-16
-Waste Container Replacement - Ghurki Trust Medical Center 42 #00195,Ghurki Trust Medical Center 42,support0195@enxi.pk,Replied,High,2025-02-17
-Fleet Breakdown - Aziz Fatimah Diagnostic Labora #00196,Aziz Fatimah Diagnostic Laboratory 28,support0196@enxi.pk,Resolved,Urgent,2025-02-18
-Installation Support - Prime Medical Center 47 #00197,Prime Medical Center 47,support0197@enxi.pk,Open,Urgent,2025-02-19
-Equipment Malfunction - Excel Labs Medical Center 52 #00198,Excel Labs Medical Center 52,support0198@enxi.pk,Closed,Low,2025-02-19
-Installation Support - Jinnah Tertiary Hospital 02 #00199,Jinnah Tertiary Hospital 02,support0199@enxi.pk,Resolved,Urgent,2025-02-19
-Pickup Schedule Change - Noor Tertiary Hospital 07 #00200,Noor Tertiary Hospital 07,support0200@enxi.pk,Replied,Medium,2025-02-24
-Equipment Malfunction - Farooq Maternity Hospital 29 #00201,Farooq Maternity Hospital 29,support0201@enxi.pk,Open,High,2025-02-25
-Emergency Waste Pickup - Prime Medical Center 47 #00202,Prime Medical Center 47,support0202@enxi.pk,Open,Urgent,2025-03-01
-Pickup Schedule Change - Gulab Devi Teaching Hospital 2 #00203,Gulab Devi Teaching Hospital 20,support0203@enxi.pk,Replied,Urgent,2025-03-03
-Installation Support - Central Park Medical Center 36 #00204,Central Park Medical Center 36,support0204@enxi.pk,Open,Urgent,2025-03-03
-Training Request - Shaukat Khanum District Hospit #00205,Shaukat Khanum District Hospital 16,support0205@enxi.pk,Closed,Urgent,2025-03-06
-Preventive Maintenance Due - Punjab District Hospital 12 #00206,Punjab District Hospital 12,support0206@enxi.pk,Resolved,Urgent,2025-03-08
-Installation Support - Children Medical Center 46 #00207,Children Medical Center 46,support0207@enxi.pk,Resolved,Low,2025-03-09
-Compliance Query - National Medical Center 48 #00208,National Medical Center 48,support0208@enxi.pk,Resolved,High,2025-03-10
-Training Request - National Medical Center 54 #00209,National Medical Center 54,support0209@enxi.pk,Closed,Urgent,2025-03-11
-Training Request - Al-Rehman Tertiary Hospital 08 #00210,Al-Rehman Tertiary Hospital 08,support0210@enxi.pk,Replied,High,2025-03-12
-Training Request - LifeLine Medical Center 49 #00211,LifeLine Medical Center 49,support0211@enxi.pk,Closed,High,2025-03-14
-Pickup Schedule Change - Central Park Tertiary Hospital #00212,Central Park Tertiary Hospital 05,support0212@enxi.pk,Replied,Urgent,2025-03-14
-Compliance Query - Sir Ganga Ram Medical Center 3 #00213,Sir Ganga Ram Medical Center 33,support0213@enxi.pk,Replied,Low,2025-03-14
-Preventive Maintenance Due - National District Hospital 17 #00214,National District Hospital 17,support0214@enxi.pk,Closed,Medium,2025-03-16
-Waste Container Replacement - Hafeez Diagnostic Laboratory 2 #00215,Hafeez Diagnostic Laboratory 27,support0215@enxi.pk,Resolved,Medium,2025-03-16
-Incinerator Issue - City Care Tertiary Hospital 06 #00216,City Care Tertiary Hospital 06,support0216@enxi.pk,Replied,Medium,2025-03-17
-Fleet Breakdown - Sheikh Zayed District Hospital #00217,Sheikh Zayed District Hospital 14,support0217@enxi.pk,Replied,Medium,2025-03-22
-Compliance Query - Al-Rehman Tertiary Hospital 08 #00218,Al-Rehman Tertiary Hospital 08,support0218@enxi.pk,Open,Low,2025-03-26
-Fleet Breakdown - Children Maternity Hospital 30 #00219,Children Maternity Hospital 30,support0219@enxi.pk,Open,Medium,2025-03-26
-Incinerator Issue - LifeLine Tertiary Hospital 09 #00220,LifeLine Tertiary Hospital 09,support0220@enxi.pk,Open,High,2025-03-28
-Pickup Schedule Change - Children Medical Center 46 #00221,Children Medical Center 46,support0221@enxi.pk,Resolved,High,2025-04-02
-Installation Support - Hafeez Diagnostic Laboratory 2 #00222,Hafeez Diagnostic Laboratory 27,support0222@enxi.pk,Closed,Low,2025-04-16
-Incinerator Issue - Ittefaq Private Hospital 24 #00223,Ittefaq Private Hospital 24,support0223@enxi.pk,Resolved,Low,2025-04-20
-Installation Support - Prime Medical Center 47 #00224,Prime Medical Center 47,support0224@enxi.pk,Closed,Urgent,2025-04-27
-Pickup Schedule Change - Mayo Tertiary Hospital 01 #00225,Mayo Tertiary Hospital 01,support0225@enxi.pk,Resolved,Urgent,2025-04-28
-Emergency Waste Pickup - Central Park Medical Center 36 #00226,Central Park Medical Center 36,support0226@enxi.pk,Replied,Low,2025-04-28
-Billing Inquiry - Noor Tertiary Hospital 07 #00227,Noor Tertiary Hospital 07,support0227@enxi.pk,Resolved,High,2025-05-05
-Incinerator Issue - Farooq Maternity Hospital 29 #00228,Farooq Maternity Hospital 29,support0228@enxi.pk,Closed,Urgent,2025-05-06
-Incinerator Issue - Wapda Teaching Medical Center  #00229,Wapda Teaching Medical Center 51,support0229@enxi.pk,Closed,Urgent,2025-05-06
-Installation Support - Ittefaq Private Hospital 24 #00230,Ittefaq Private Hospital 24,support0230@enxi.pk,Closed,Urgent,2025-05-07
-Pickup Schedule Change - Surgimed Diagnostic Laboratory #00231,Surgimed Diagnostic Laboratory 26,support0231@enxi.pk,Closed,Urgent,2025-05-09
-Training Request - Services Tertiary Hospital 03 #00232,Services Tertiary Hospital 03,support0232@enxi.pk,Resolved,Medium,2025-05-09
-Training Request - Mayo Tertiary Hospital 01 #00233,Mayo Tertiary Hospital 01,support0233@enxi.pk,Resolved,Medium,2025-05-13
-Billing Inquiry - Citi Lab Medical Center 38 #00234,Citi Lab Medical Center 38,support0234@enxi.pk,Resolved,High,2025-05-15
-Calibration Required - Sir Ganga Ram Teaching Hospita #00235,Sir Ganga Ram Teaching Hospital 21,support0235@enxi.pk,Open,Urgent,2025-05-16
-Equipment Malfunction - Ittefaq Private Hospital 24 #00236,Ittefaq Private Hospital 24,support0236@enxi.pk,Resolved,Urgent,2025-05-18
-Calibration Required - Surgimed Medical Center 34 #00237,Surgimed Medical Center 34,support0237@enxi.pk,Closed,Medium,2025-05-19
-Compliance Query - Children Maternity Hospital 30 #00238,Children Maternity Hospital 30,support0238@enxi.pk,Resolved,High,2025-05-19
-Calibration Required - Prime Tertiary Hospital 10 #00239,Prime Tertiary Hospital 10,support0239@enxi.pk,Open,Urgent,2025-05-19
-Incinerator Issue - Central Park Tertiary Hospital #00240,Central Park Tertiary Hospital 05,support0240@enxi.pk,Resolved,Low,2025-05-20
-Emergency Waste Pickup - Hafeez Diagnostic Laboratory 2 #00241,Hafeez Diagnostic Laboratory 27,support0241@enxi.pk,Replied,Urgent,2025-05-25
-Incinerator Issue - Wapda Teaching Medical Center  #00242,Wapda Teaching Medical Center 51,support0242@enxi.pk,Replied,Urgent,2025-05-28
-Incinerator Issue - Wapda Teaching Medical Center  #00243,Wapda Teaching Medical Center 51,support0243@enxi.pk,Resolved,Low,2025-06-03
-Billing Inquiry - Shalimar Tertiary Hospital 04 #00244,Shalimar Tertiary Hospital 04,support0244@enxi.pk,Closed,Medium,2025-06-06
-Billing Inquiry - Gulab Devi Teaching Hospital 2 #00245,Gulab Devi Teaching Hospital 20,support0245@enxi.pk,Closed,Medium,2025-06-06
-Equipment Malfunction - Citi Lab Medical Center 38 #00246,Citi Lab Medical Center 38,support0246@enxi.pk,Replied,Medium,2025-06-08
-Preventive Maintenance Due - Excel Labs Medical Center 52 #00247,Excel Labs Medical Center 52,support0247@enxi.pk,Resolved,Medium,2025-06-11
-Waste Container Replacement - Shalimar Tertiary Hospital 04 #00248,Shalimar Tertiary Hospital 04,support0248@enxi.pk,Open,Medium,2025-06-13
-Waste Container Replacement - Sheikh Zayed Medical Center 37 #00249,Sheikh Zayed Medical Center 37,support0249@enxi.pk,Replied,Low,2025-06-13
-Preventive Maintenance Due - City Care Tertiary Hospital 06 #00250,City Care Tertiary Hospital 06,support0250@enxi.pk,Open,High,2025-06-15
-Equipment Malfunction - Social Security Medical Center #00251,Social Security Medical Center 43,support0251@enxi.pk,Closed,High,2025-06-19
-Training Request - National District Hospital 17 #00252,National District Hospital 17,support0252@enxi.pk,Resolved,High,2025-06-21
-Installation Support - Surgimed Medical Center 34 #00253,Surgimed Medical Center 34,support0253@enxi.pk,Resolved,High,2025-06-21
-Fleet Breakdown - LifeLine Tertiary Hospital 09 #00254,LifeLine Tertiary Hospital 09,support0254@enxi.pk,Resolved,High,2025-06-21
-Emergency Waste Pickup - Prime Tertiary Hospital 10 #00255,Prime Tertiary Hospital 10,support0255@enxi.pk,Closed,Low,2025-06-22
-Preventive Maintenance Due - Fatima Memorial Private Hospit #00256,Fatima Memorial Private Hospital 22,support0256@enxi.pk,Resolved,Medium,2025-06-22
-Emergency Waste Pickup - Hafeez Diagnostic Laboratory 2 #00257,Hafeez Diagnostic Laboratory 27,support0257@enxi.pk,Closed,High,2025-06-22
-Installation Support - Sharif Medical Private Hospita #00258,Sharif Medical Private Hospital 23,support0258@enxi.pk,Replied,High,2025-06-24
-Installation Support - Central Park Tertiary Hospital #00259,Central Park Tertiary Hospital 05,support0259@enxi.pk,Replied,Urgent,2025-06-30
-Preventive Maintenance Due - Children Medical Center 46 #00260,Children Medical Center 46,support0260@enxi.pk,Replied,High,2025-06-30
-Billing Inquiry - Sharif Medical Private Hospita #00261,Sharif Medical Private Hospital 23,support0261@enxi.pk,Closed,Urgent,2025-07-02
-Incinerator Issue - Shaukat Khanum District Hospit #00262,Shaukat Khanum District Hospital 16,support0262@enxi.pk,Replied,High,2025-07-04
-Fleet Breakdown - Children Medical Center 46 #00263,Children Medical Center 46,support0263@enxi.pk,Closed,High,2025-07-04
-Installation Support - Central Park Tertiary Hospital #00264,Central Park Tertiary Hospital 05,support0264@enxi.pk,Replied,High,2025-07-06
-Billing Inquiry - Surgimed Medical Center 44 #00265,Surgimed Medical Center 44,support0265@enxi.pk,Open,Low,2025-07-08
-Emergency Waste Pickup - CMH Medical Center 39 #00266,CMH Medical Center 39,support0266@enxi.pk,Open,Urgent,2025-07-12
-Pickup Schedule Change - LifeLine Tertiary Hospital 09 #00267,LifeLine Tertiary Hospital 09,support0267@enxi.pk,Closed,High,2025-07-12
-Installation Support - Sheikh Zayed Medical Center 41 #00268,Sheikh Zayed Medical Center 41,support0268@enxi.pk,Closed,Medium,2025-07-14
-Waste Container Replacement - Citi Lab Medical Center 38 #00269,Citi Lab Medical Center 38,support0269@enxi.pk,Closed,High,2025-07-16
-Billing Inquiry - LifeLine Tertiary Hospital 09 #00270,LifeLine Tertiary Hospital 09,support0270@enxi.pk,Resolved,Low,2025-07-21
-Emergency Waste Pickup - Lahore Eye Medical Center 32 #00271,Lahore Eye Medical Center 32,support0271@enxi.pk,Closed,Medium,2025-07-23
-Installation Support - Aziz Fatimah Diagnostic Labora #00272,Aziz Fatimah Diagnostic Laboratory 28,support0272@enxi.pk,Open,Low,2025-07-25
-Equipment Malfunction - Agha Khan Lab Medical Center 5 #00273,Agha Khan Lab Medical Center 53,support0273@enxi.pk,Replied,Urgent,2025-07-27
-Preventive Maintenance Due - Agha Khan Lab Medical Center 5 #00274,Agha Khan Lab Medical Center 53,support0274@enxi.pk,Open,High,2025-07-28
-Fleet Breakdown - Wapda Teaching Medical Center  #00275,Wapda Teaching Medical Center 55,support0275@enxi.pk,Replied,Low,2025-08-01
-Training Request - Lahore General District Hospit #00276,Lahore General District Hospital 13,support0276@enxi.pk,Closed,Medium,2025-08-02
-Calibration Required - Noor Tertiary Hospital 07 #00277,Noor Tertiary Hospital 07,support0277@enxi.pk,Open,High,2025-08-02
-Preventive Maintenance Due - Sheikh Zayed Medical Center 41 #00278,Sheikh Zayed Medical Center 41,support0278@enxi.pk,Open,High,2025-08-03
-Fleet Breakdown - Sharif Medical Private Hospita #00279,Sharif Medical Private Hospital 23,support0279@enxi.pk,Closed,Medium,2025-08-03
-Pickup Schedule Change - Agha Khan Lab Medical Center 5 #00280,Agha Khan Lab Medical Center 53,support0280@enxi.pk,Resolved,Urgent,2025-08-04
-Calibration Required - Ghurki Trust Medical Center 45 #00281,Ghurki Trust Medical Center 45,support0281@enxi.pk,Replied,Low,2025-08-06
-Billing Inquiry - Noor Tertiary Hospital 07 #00282,Noor Tertiary Hospital 07,support0282@enxi.pk,Resolved,Urgent,2025-08-06
-Waste Container Replacement - Hafeez Diagnostic Laboratory 2 #00283,Hafeez Diagnostic Laboratory 27,support0283@enxi.pk,Replied,Medium,2025-08-07
-Compliance Query - Surgimed Medical Center 44 #00284,Surgimed Medical Center 44,support0284@enxi.pk,Open,Medium,2025-08-08
-Waste Container Replacement - Combined Military Teaching Hos #00285,Combined Military Teaching Hospital 19,support0285@enxi.pk,Replied,Urgent,2025-08-09
-Compliance Query - LifeLine Tertiary Hospital 09 #00286,LifeLine Tertiary Hospital 09,support0286@enxi.pk,Replied,Low,2025-08-09
-Equipment Malfunction - Allied Teaching Hospital 18 #00287,Allied Teaching Hospital 18,support0287@enxi.pk,Replied,Low,2025-08-12
-Installation Support - Ghurki Trust Medical Center 42 #00288,Ghurki Trust Medical Center 42,support0288@enxi.pk,Resolved,High,2025-08-15
-Emergency Waste Pickup - Wapda Teaching Medical Center  #00289,Wapda Teaching Medical Center 55,support0289@enxi.pk,Resolved,Low,2025-08-16
-Pickup Schedule Change - Surgimed Medical Center 44 #00290,Surgimed Medical Center 44,support0290@enxi.pk,Replied,Low,2025-08-16
-Pickup Schedule Change - Prime Tertiary Hospital 10 #00291,Prime Tertiary Hospital 10,support0291@enxi.pk,Resolved,Medium,2025-08-22
-Compliance Query - LifeLine Medical Center 49 #00292,LifeLine Medical Center 49,support0292@enxi.pk,Open,Urgent,2025-08-22
-Compliance Query - Allied Teaching Hospital 18 #00293,Allied Teaching Hospital 18,support0293@enxi.pk,Open,Medium,2025-08-22
-Waste Container Replacement - National Medical Center 48 #00294,National Medical Center 48,support0294@enxi.pk,Replied,Low,2025-08-24
-Emergency Waste Pickup - Wapda Teaching Medical Center  #00295,Wapda Teaching Medical Center 55,support0295@enxi.pk,Closed,Low,2025-08-29
-Pickup Schedule Change - LifeLine Tertiary Hospital 09 #00296,LifeLine Tertiary Hospital 09,support0296@enxi.pk,Resolved,Low,2025-09-01
-Waste Container Replacement - Gulab Devi Teaching Hospital 2 #00297,Gulab Devi Teaching Hospital 20,support0297@enxi.pk,Open,Low,2025-09-01
-Equipment Malfunction - Sir Ganga Ram Medical Center 4 #00298,Sir Ganga Ram Medical Center 40,support0298@enxi.pk,Closed,Urgent,2025-09-08
-Incinerator Issue - Noor Tertiary Hospital 07 #00299,Noor Tertiary Hospital 07,support0299@enxi.pk,Replied,Medium,2025-09-08
-Compliance Query - Surgimed Medical Center 44 #00300,Surgimed Medical Center 44,support0300@enxi.pk,Replied,Medium,2025-09-08
-Installation Support - LifeLine Medical Center 49 #00301,LifeLine Medical Center 49,support0301@enxi.pk,Closed,Medium,2025-09-10
-Billing Inquiry - Lahore Eye Medical Center 32 #00302,Lahore Eye Medical Center 32,support0302@enxi.pk,Resolved,High,2025-09-12
-Installation Support - National District Hospital 17 #00303,National District Hospital 17,support0303@enxi.pk,Closed,Low,2025-09-13
-Calibration Required - Farooq Maternity Hospital 29 #00304,Farooq Maternity Hospital 29,support0304@enxi.pk,Closed,High,2025-09-14
-Waste Container Replacement - Lady Aitchison Specialist Clin #00305,Lady Aitchison Specialist Clinic 31,support0305@enxi.pk,Resolved,High,2025-09-15
-Training Request - Gulab Devi Teaching Hospital 2 #00306,Gulab Devi Teaching Hospital 20,support0306@enxi.pk,Open,High,2025-09-20
-Preventive Maintenance Due - Children Maternity Hospital 30 #00307,Children Maternity Hospital 30,support0307@enxi.pk,Replied,Urgent,2025-09-21
-Billing Inquiry - Hafeez Diagnostic Laboratory 2 #00308,Hafeez Diagnostic Laboratory 27,support0308@enxi.pk,Open,High,2025-09-22
-Waste Container Replacement - Surgimed Medical Center 44 #00309,Surgimed Medical Center 44,support0309@enxi.pk,Replied,Medium,2025-09-23
-Pickup Schedule Change - CMH Medical Center 39 #00310,CMH Medical Center 39,support0310@enxi.pk,Replied,Urgent,2025-09-26
-Equipment Malfunction - Children Medical Center 46 #00311,Children Medical Center 46,support0311@enxi.pk,Replied,Low,2025-09-28
-Equipment Malfunction - Sharif Medical Private Hospita #00312,Sharif Medical Private Hospital 23,support0312@enxi.pk,Open,Medium,2025-09-30
-Waste Container Replacement - National District Hospital 17 #00313,National District Hospital 17,support0313@enxi.pk,Replied,Low,2025-09-30
-Calibration Required - Aziz Fatimah Diagnostic Labora #00314,Aziz Fatimah Diagnostic Laboratory 28,support0314@enxi.pk,Closed,High,2025-10-01
-Calibration Required - Sir Ganga Ram Medical Center 3 #00315,Sir Ganga Ram Medical Center 33,support0315@enxi.pk,Resolved,Urgent,2025-10-05
-Waste Container Replacement - Lady Aitchison Specialist Clin #00316,Lady Aitchison Specialist Clinic 31,support0316@enxi.pk,Replied,Low,2025-10-05
-Calibration Required - National Medical Center 54 #00317,National Medical Center 54,support0317@enxi.pk,Open,Medium,2025-10-10
-Preventive Maintenance Due - Farooq Maternity Hospital 29 #00318,Farooq Maternity Hospital 29,support0318@enxi.pk,Open,Medium,2025-10-14
-Compliance Query - Farooq Maternity Hospital 29 #00319,Farooq Maternity Hospital 29,support0319@enxi.pk,Replied,High,2025-10-15
-Installation Support - Sir Ganga Ram Teaching Hospita #00320,Sir Ganga Ram Teaching Hospital 21,support0320@enxi.pk,Open,High,2025-10-16
-Calibration Required - Excel Labs Medical Center 52 #00321,Excel Labs Medical Center 52,support0321@enxi.pk,Open,Low,2025-10-17
-Incinerator Issue - Hafeez Diagnostic Laboratory 2 #00322,Hafeez Diagnostic Laboratory 27,support0322@enxi.pk,Replied,Medium,2025-10-20
-Fleet Breakdown - Services Tertiary Hospital 03 #00323,Services Tertiary Hospital 03,support0323@enxi.pk,Closed,High,2025-10-20
-Preventive Maintenance Due - CMH Medical Center 39 #00324,CMH Medical Center 39,support0324@enxi.pk,Open,Low,2025-10-25
-Pickup Schedule Change - Children Medical Center 46 #00325,Children Medical Center 46,support0325@enxi.pk,Resolved,Medium,2025-10-25
-Pickup Schedule Change - Surgimed Diagnostic Laboratory #00326,Surgimed Diagnostic Laboratory 26,support0326@enxi.pk,Replied,Urgent,2025-10-28
-Pickup Schedule Change - Allied Teaching Hospital 18 #00327,Allied Teaching Hospital 18,support0327@enxi.pk,Resolved,Medium,2025-10-28
-Calibration Required - Agha Khan Lab Medical Center 5 #00328,Agha Khan Lab Medical Center 53,support0328@enxi.pk,Closed,Low,2025-10-28
-Calibration Required - National District Hospital 17 #00329,National District Hospital 17,support0329@enxi.pk,Replied,Low,2025-10-29
-Equipment Malfunction - Sheikh Zayed Medical Center 41 #00330,Sheikh Zayed Medical Center 41,support0330@enxi.pk,Closed,Medium,2025-10-29
-Installation Support - Medix District Hospital 11 #00331,Medix District Hospital 11,support0331@enxi.pk,Closed,Medium,2025-10-30
-Calibration Required - Sir Ganga Ram Teaching Hospita #00332,Sir Ganga Ram Teaching Hospital 21,support0332@enxi.pk,Closed,Low,2025-11-03
-Incinerator Issue - Wapda Teaching Medical Center  #00333,Wapda Teaching Medical Center 55,support0333@enxi.pk,Closed,High,2025-11-03
-Installation Support - Social Security Medical Center #00334,Social Security Medical Center 43,support0334@enxi.pk,Open,Low,2025-11-09
-Waste Container Replacement - CMH Medical Center 39 #00335,CMH Medical Center 39,support0335@enxi.pk,Replied,High,2025-11-12
-Equipment Malfunction - Sheikh Zayed District Hospital #00336,Sheikh Zayed District Hospital 14,support0336@enxi.pk,Open,Low,2025-11-13
-Equipment Malfunction - Citi Lab Medical Center 38 #00337,Citi Lab Medical Center 38,support0337@enxi.pk,Open,Urgent,2025-11-16
-Incinerator Issue - Sheikh Zayed District Hospital #00338,Sheikh Zayed District Hospital 14,support0338@enxi.pk,Replied,High,2025-11-17
-Fleet Breakdown - Sir Ganga Ram Medical Center 3 #00339,Sir Ganga Ram Medical Center 33,support0339@enxi.pk,Closed,Urgent,2025-11-21
-Compliance Query - Farooq Maternity Hospital 29 #00340,Farooq Maternity Hospital 29,support0340@enxi.pk,Resolved,Urgent,2025-11-22
-Training Request - Ittefaq Private Hospital 24 #00341,Ittefaq Private Hospital 24,support0341@enxi.pk,Closed,Low,2025-11-23
-Calibration Required - Lady Aitchison Specialist Clin #00342,Lady Aitchison Specialist Clinic 31,support0342@enxi.pk,Resolved,Urgent,2025-11-23
-Equipment Malfunction - Ghurki Trust Medical Center 42 #00343,Ghurki Trust Medical Center 42,support0343@enxi.pk,Replied,High,2025-11-27
-Billing Inquiry - Allied Teaching Hospital 18 #00344,Allied Teaching Hospital 18,support0344@enxi.pk,Replied,Medium,2025-11-29
-Fleet Breakdown - Punjab District Hospital 12 #00345,Punjab District Hospital 12,support0345@enxi.pk,Resolved,Urgent,2025-12-01
-Incinerator Issue - Sharif Medical Private Hospita #00346,Sharif Medical Private Hospital 23,support0346@enxi.pk,Closed,High,2025-12-06
-Preventive Maintenance Due - Agha Khan Lab Medical Center 5 #00347,Agha Khan Lab Medical Center 53,support0347@enxi.pk,Resolved,High,2025-12-09
-Billing Inquiry - National Medical Center 48 #00348,National Medical Center 48,support0348@enxi.pk,Replied,High,2025-12-13
-Installation Support - Al-Rehman Tertiary Hospital 08 #00349,Al-Rehman Tertiary Hospital 08,support0349@enxi.pk,Resolved,Urgent,2025-12-16
-Compliance Query - Sheikh Zayed District Hospital #00350,Sheikh Zayed District Hospital 14,support0350@enxi.pk,Open,High,2025-12-19
-Fleet Breakdown - Noor Tertiary Hospital 07 #00351,Noor Tertiary Hospital 07,support0351@enxi.pk,Closed,Urgent,2025-12-20
-Incinerator Issue - Sheikh Zayed Medical Center 37 #00352,Sheikh Zayed Medical Center 37,support0352@enxi.pk,Closed,High,2025-12-20
-Emergency Waste Pickup - Children Medical Center 46 #00353,Children Medical Center 46,support0353@enxi.pk,Resolved,Urgent,2025-12-21
-Billing Inquiry - Sir Ganga Ram Teaching Hospita #00354,Sir Ganga Ram Teaching Hospital 21,support0354@enxi.pk,Open,Low,2025-12-22
-Incinerator Issue - Wapda Teaching Medical Center  #00355,Wapda Teaching Medical Center 51,support0355@enxi.pk,Replied,Medium,2025-12-23
-Fleet Breakdown - Farooq Maternity Hospital 29 #00356,Farooq Maternity Hospital 29,support0356@enxi.pk,Resolved,Medium,2025-12-24
-Emergency Waste Pickup - Punjab District Hospital 12 #00357,Punjab District Hospital 12,support0357@enxi.pk,Closed,High,2025-12-28
-Pickup Schedule Change - Surgimed Medical Center 34 #00358,Surgimed Medical Center 34,support0358@enxi.pk,Replied,Low,2025-12-30
-Emergency Waste Pickup - Mayo Tertiary Hospital 01 #00359,Mayo Tertiary Hospital 01,support0359@enxi.pk,Replied,Medium,2025-12-31
-Compliance Query - LifeLine Tertiary Hospital 09 #00360,LifeLine Tertiary Hospital 09,support0360@enxi.pk,Open,High,2025-12-31
-Compliance Query - Fatima Memorial Private Hospit #00361,Fatima Memorial Private Hospital 22,support0361@enxi.pk,Closed,High,2026-01-01
-Fleet Breakdown - National Medical Center 54 #00362,National Medical Center 54,support0362@enxi.pk,Replied,Urgent,2026-01-05
-Calibration Required - Ghurki Trust Medical Center 42 #00363,Ghurki Trust Medical Center 42,support0363@enxi.pk,Replied,Urgent,2026-01-10
-Billing Inquiry - Surgimed Diagnostic Laboratory #00364,Surgimed Diagnostic Laboratory 26,support0364@enxi.pk,Open,High,2026-01-13
-Pickup Schedule Change - Central Park Tertiary Hospital #00365,Central Park Tertiary Hospital 05,support0365@enxi.pk,Replied,Urgent,2026-01-13
-Waste Container Replacement - Gulab Devi Teaching Hospital 2 #00366,Gulab Devi Teaching Hospital 20,support0366@enxi.pk,Open,Medium,2026-01-13
-Installation Support - Sir Ganga Ram Medical Center 4 #00367,Sir Ganga Ram Medical Center 40,support0367@enxi.pk,Open,Low,2026-01-14
-Installation Support - Hameed Latif District Hospital #00368,Hameed Latif District Hospital 15,support0368@enxi.pk,Replied,Medium,2026-01-16
-Training Request - Citi Lab Medical Center 38 #00369,Citi Lab Medical Center 38,support0369@enxi.pk,Replied,Low,2026-01-18
-Emergency Waste Pickup - Jinnah Tertiary Hospital 02 #00370,Jinnah Tertiary Hospital 02,support0370@enxi.pk,Replied,High,2026-01-21
-Calibration Required - Sheikh Zayed Medical Center 41 #00371,Sheikh Zayed Medical Center 41,support0371@enxi.pk,Resolved,Medium,2026-01-21
-Calibration Required - CMH Medical Center 39 #00372,CMH Medical Center 39,support0372@enxi.pk,Replied,High,2026-01-23
-Preventive Maintenance Due - Services Tertiary Hospital 03 #00373,Services Tertiary Hospital 03,support0373@enxi.pk,Resolved,Urgent,2026-01-29
-Training Request - LifeLine Tertiary Hospital 09 #00374,LifeLine Tertiary Hospital 09,support0374@enxi.pk,Resolved,Low,2026-01-30
-Billing Inquiry - Children Maternity Hospital 30 #00375,Children Maternity Hospital 30,support0375@enxi.pk,Resolved,Medium,2026-01-30
-Equipment Malfunction - CMH Medical Center 39 #00376,CMH Medical Center 39,support0376@enxi.pk,Closed,Medium,2026-01-31
-Incinerator Issue - Social Security Medical Center #00377,Social Security Medical Center 43,support0377@enxi.pk,Resolved,Urgent,2026-01-31
-Installation Support - Surgimed Diagnostic Laboratory #00378,Surgimed Diagnostic Laboratory 26,support0378@enxi.pk,Open,Low,2026-02-03
-Training Request - Farooq Maternity Hospital 29 #00379,Farooq Maternity Hospital 29,support0379@enxi.pk,Replied,High,2026-02-03
-Billing Inquiry - Gulab Devi Teaching Hospital 2 #00380,Gulab Devi Teaching Hospital 20,support0380@enxi.pk,Closed,Urgent,2026-02-03
-Emergency Waste Pickup - Doctors Private Hospital 25 #00381,Doctors Private Hospital 25,support0381@enxi.pk,Resolved,Medium,2026-02-04
-Incinerator Issue - Aziz Fatimah Diagnostic Labora #00382,Aziz Fatimah Diagnostic Laboratory 28,support0382@enxi.pk,Open,High,2026-02-05
-Training Request - Sheikh Zayed District Hospital #00383,Sheikh Zayed District Hospital 14,support0383@enxi.pk,Closed,Medium,2026-02-05
-Fleet Breakdown - Surgimed Medical Center 44 #00384,Surgimed Medical Center 44,support0384@enxi.pk,Resolved,Low,2026-02-07
-Compliance Query - Surgimed Medical Center 34 #00385,Surgimed Medical Center 34,support0385@enxi.pk,Resolved,Medium,2026-02-08
-Incinerator Issue - Fatima Memorial Private Hospit #00386,Fatima Memorial Private Hospital 22,support0386@enxi.pk,Closed,Medium,2026-02-08
-Installation Support - Sheikh Zayed Medical Center 37 #00387,Sheikh Zayed Medical Center 37,support0387@enxi.pk,Replied,Urgent,2026-02-11
-Emergency Waste Pickup - Doctors Private Hospital 25 #00388,Doctors Private Hospital 25,support0388@enxi.pk,Replied,Medium,2026-02-12
-Calibration Required - Excel Labs Medical Center 52 #00389,Excel Labs Medical Center 52,support0389@enxi.pk,Resolved,Urgent,2026-02-13
-Calibration Required - National Medical Center 48 #00390,National Medical Center 48,support0390@enxi.pk,Closed,Medium,2026-02-15
-Pickup Schedule Change - Sheikh Zayed Medical Center 41 #00391,Sheikh Zayed Medical Center 41,support0391@enxi.pk,Closed,Medium,2026-02-19
-Equipment Malfunction - Lady Aitchison Specialist Clin #00392,Lady Aitchison Specialist Clinic 31,support0392@enxi.pk,Resolved,Urgent,2026-02-25
-Waste Container Replacement - Punjab District Hospital 12 #00393,Punjab District Hospital 12,support0393@enxi.pk,Replied,High,2026-02-28
-Pickup Schedule Change - Sheikh Zayed Medical Center 41 #00394,Sheikh Zayed Medical Center 41,support0394@enxi.pk,Closed,Urgent,2026-03-02
-Preventive Maintenance Due - Surgimed Diagnostic Laboratory #00395,Surgimed Diagnostic Laboratory 26,support0395@enxi.pk,Open,High,2026-03-03
-Pickup Schedule Change - Noor Tertiary Hospital 07 #00396,Noor Tertiary Hospital 07,support0396@enxi.pk,Closed,Low,2026-03-05
-Equipment Malfunction - Allied Medical Center 35 #00397,Allied Medical Center 35,support0397@enxi.pk,Closed,Urgent,2026-03-06
-Training Request - Medix District Hospital 11 #00398,Medix District Hospital 11,support0398@enxi.pk,Closed,Urgent,2026-03-07
-Calibration Required - Sir Ganga Ram Medical Center 4 #00399,Sir Ganga Ram Medical Center 40,support0399@enxi.pk,Resolved,High,2026-03-08
-Pickup Schedule Change - CMH Medical Center 39 #00400,CMH Medical Center 39,support0400@enxi.pk,Open,Medium,2026-03-09
+Staff safety incident - Central Tertiary Hospital 07 #00001,Central Tertiary Hospital 07,ops0001@enxi.pk,Resolved,Medium,2023-03-02
+Container damage reported - Punjab AIDS Control Program #00002,Punjab AIDS Control Program,ops0002@enxi.pk,Closed,Low,2023-03-03
+Expired disposal certificate - Punjab Emergency Service (Resc #00003,Punjab Emergency Service (Rescue 1122),ops0003@enxi.pk,Replied,Medium,2023-03-04
+Incinerator maintenance required - Chughtai Tertiary Hospital 57 #00004,Chughtai Tertiary Hospital 57,ops0004@enxi.pk,Closed,Medium,2023-03-05
+Janitorial service quality issue - Medicare Clinic 110 #00005,Medicare Clinic 110,ops0005@enxi.pk,Closed,High,2023-03-06
+Invoice discrepancy - Qamar Lab 120 #00006,Qamar Lab 120,ops0006@enxi.pk,Closed,High,2023-03-07
+Staff safety incident - National District Hospital 18 #00007,National District Hospital 18,ops0007@enxi.pk,Resolved,Low,2023-03-09
+Janitorial service quality issue - Health First Clinic #00008,Health First Clinic,ops0008@enxi.pk,Replied,Medium,2023-03-10
+Invoice discrepancy - Punjab Environmental Protectio #00009,Punjab Environmental Protection Agency,ops0009@enxi.pk,Closed,Medium,2023-03-11
+Spill incident during collection - Sir Ganga Ram General Hospital #00010,Sir Ganga Ram General Hospital 54,ops0010@enxi.pk,Replied,Low,2023-03-12
+PPE shortage reported - Lady Willingdon Tertiary Hospi #00011,Lady Willingdon Tertiary Hospital 06,ops0011@enxi.pk,Replied,Medium,2023-03-13
+Customer complaint - odor - Punjab General Hospital 59 #00012,Punjab General Hospital 59,ops0012@enxi.pk,Replied,Urgent,2023-03-14
+Spill incident during collection - LifeLine General Hospital 49 #00013,LifeLine General Hospital 49,ops0013@enxi.pk,Closed,High,2023-03-15
+Customer complaint - odor - Ittefaq District Hospital 19 #00014,Ittefaq District Hospital 19,ops0014@enxi.pk,Closed,Urgent,2023-03-16
+Compliance documentation gap - LifeLine Teaching Hospital 74 #00015,LifeLine Teaching Hospital 74,ops0015@enxi.pk,Closed,Low,2023-03-17
+Expired disposal certificate - Gulab Devi Tertiary Hospital 1 #00016,Gulab Devi Tertiary Hospital 13,ops0016@enxi.pk,Replied,Medium,2023-03-20
+Vehicle breakdown on route - Punjab Specialized Hospital 42 #00017,Punjab Specialized Hospital 42,ops0017@enxi.pk,Replied,Urgent,2023-03-20
+Equipment malfunction - Lahore General District Hospit #00018,Lahore General District Hospital 69,ops0018@enxi.pk,Closed,Low,2023-03-23
+Incinerator maintenance required - Sharif Medical District Hospit #00019,Sharif Medical District Hospital 30,ops0019@enxi.pk,Closed,Low,2023-03-23
+Container damage reported - Islamabad Diagnostics 105 #00020,Islamabad Diagnostics 105,ops0020@enxi.pk,Open,Medium,2023-03-24
+Wrong waste segregation at source - Services Specialized Hospital  #00021,Services Specialized Hospital 04,ops0021@enxi.pk,Closed,High,2023-03-25
+PPE shortage reported - Shaukat Khanum Teaching Hospit #00022,Shaukat Khanum Teaching Hospital 72,ops0022@enxi.pk,Closed,Low,2023-03-25
+Janitorial service quality issue - Surgimed General Hospital 58 #00023,Surgimed General Hospital 58,ops0023@enxi.pk,Open,High,2023-03-26
+Incinerator maintenance required - Saleem Lab 119 #00024,Saleem Lab 119,ops0024@enxi.pk,Resolved,Medium,2023-03-31
+Schedule change request - Fatima Memorial District Hospi #00025,Fatima Memorial District Hospital 65,ops0025@enxi.pk,Open,Medium,2023-03-31
+Missed waste pickup - National District Hospital 18 #00026,National District Hospital 18,ops0026@enxi.pk,Open,Low,2023-04-01
+Emergency pickup request - Shaukat Khanum District Hospit #00027,Shaukat Khanum District Hospital 45,ops0027@enxi.pk,Closed,Low,2023-04-02
+Equipment malfunction - Medix Clinic #00028,Medix Clinic,ops0028@enxi.pk,Open,Medium,2023-04-02
+Missed waste pickup - Punjab Emergency Service (Resc #00029,Punjab Emergency Service (Rescue 1122),ops0029@enxi.pk,Resolved,Medium,2023-04-02
+Staff safety incident - Doctors Tertiary Hospital 78 #00030,Doctors Tertiary Hospital 78,ops0030@enxi.pk,Closed,Medium,2023-04-03
+Schedule change request - Sharif Medical District Hospit #00031,Sharif Medical District Hospital 30,ops0031@enxi.pk,Replied,High,2023-04-04
+Incinerator maintenance required - Qamar Lab #00032,Qamar Lab,ops0032@enxi.pk,Resolved,Medium,2023-04-06
+Missed waste pickup - Services Specialized Hospital  #00033,Services Specialized Hospital 77,ops0033@enxi.pk,Resolved,Medium,2023-04-07
+Invoice discrepancy - Ghurki Trust Private Hospital  #00034,Ghurki Trust Private Hospital 61,ops0034@enxi.pk,Resolved,High,2023-04-10
+Spill incident during collection - Gulab Devi Tertiary Hospital 2 #00035,Gulab Devi Tertiary Hospital 28,ops0035@enxi.pk,Replied,High,2023-04-13
+Emergency pickup request - Punjab AIDS Control Program #00036,Punjab AIDS Control Program,ops0036@enxi.pk,Resolved,High,2023-04-13
+Staff safety incident - Punjab Environmental Protectio #00037,Punjab Environmental Protection Agency,ops0037@enxi.pk,Replied,Urgent,2023-04-15
+Emergency pickup request - Excel Labs #00038,Excel Labs,ops0038@enxi.pk,Open,Urgent,2023-04-15
+Incinerator maintenance required - Gulab Devi Tertiary Hospital 2 #00039,Gulab Devi Tertiary Hospital 28,ops0039@enxi.pk,Closed,Low,2023-04-16
+Environmental audit finding - Hameed Latif District Hospital #00040,Hameed Latif District Hospital 26,ops0040@enxi.pk,Open,Low,2023-04-16
+Invoice discrepancy - Central District Hospital 53 #00041,Central District Hospital 53,ops0041@enxi.pk,Closed,Medium,2023-04-17
+Invoice discrepancy - Islamabad Diagnostics 105 #00042,Islamabad Diagnostics 105,ops0042@enxi.pk,Closed,Medium,2023-04-18
+Customer complaint - odor - City Care Tertiary Hospital 02 #00043,City Care Tertiary Hospital 02,ops0043@enxi.pk,Resolved,Low,2023-04-19
+Emergency pickup request - Medix Clinic #00044,Medix Clinic,ops0044@enxi.pk,Closed,Medium,2023-04-23
+Wrong waste segregation at source - Punjab AIDS Control Program #00045,Punjab AIDS Control Program,ops0045@enxi.pk,Closed,Low,2023-04-26
+Vehicle breakdown on route - Shaukat Khanum Teaching Hospit #00046,Shaukat Khanum Teaching Hospital 50,ops0046@enxi.pk,Open,High,2023-04-28
+Delayed collection - route overrun - Doctors Teaching Hospital 36 #00047,Doctors Teaching Hospital 36,ops0047@enxi.pk,Resolved,Urgent,2023-04-29
+GPS tracker malfunction - Punjab Medical Faculty #00048,Punjab Medical Faculty,ops0048@enxi.pk,Closed,Low,2023-04-30
+PPE shortage reported - Noor Specialized Hospital 51 #00049,Noor Specialized Hospital 51,ops0049@enxi.pk,Open,Medium,2023-04-30
+Vehicle breakdown on route - Fatima Memorial District Hospi #00050,Fatima Memorial District Hospital 65,ops0050@enxi.pk,Replied,Urgent,2023-05-02
+Missed waste pickup - National District Hospital 18 #00051,National District Hospital 18,ops0051@enxi.pk,Closed,Urgent,2023-05-02
+Janitorial service quality issue - Services District Hospital 41 #00052,Services District Hospital 41,ops0052@enxi.pk,Resolved,Urgent,2023-05-04
+Delayed collection - route overrun - Punjab Environmental Protectio #00053,Punjab Environmental Protection Agency,ops0053@enxi.pk,Open,Medium,2023-05-05
+Staff safety incident - Punjab Emergency Service (Resc #00054,Punjab Emergency Service (Rescue 1122),ops0054@enxi.pk,Closed,Low,2023-05-06
+Invoice discrepancy - Excel Labs 104 #00055,Excel Labs 104,ops0055@enxi.pk,Closed,High,2023-05-08
+PPE shortage reported - Punjab Health Department #00056,Punjab Health Department,ops0056@enxi.pk,Open,Urgent,2023-05-10
+Compliance documentation gap - Jinnah Tertiary Hospital 32 #00057,Jinnah Tertiary Hospital 32,ops0057@enxi.pk,Open,Medium,2023-05-12
+Vehicle breakdown on route - Al-Razi Clinic 109 #00058,Al-Razi Clinic 109,ops0058@enxi.pk,Replied,Low,2023-05-13
+Staff safety incident - Noor District Hospital 68 #00059,Noor District Hospital 68,ops0059@enxi.pk,Replied,Medium,2023-05-13
+PPE shortage reported - Medicare Clinic #00060,Medicare Clinic,ops0060@enxi.pk,Replied,Medium,2023-05-15
+Invoice discrepancy - Farooq General Hospital 70 #00061,Farooq General Hospital 70,ops0061@enxi.pk,Open,Urgent,2023-05-15
+Equipment malfunction - LifeLine General Hospital 11 #00062,LifeLine General Hospital 11,ops0062@enxi.pk,Closed,Medium,2023-05-15
+Staff safety incident - Metro Diagnostics 108 #00063,Metro Diagnostics 108,ops0063@enxi.pk,Closed,Medium,2023-05-16
+Customer complaint - odor - Shaukat Khanum Specialized Hos #00064,Shaukat Khanum Specialized Hospital 63,ops0064@enxi.pk,Open,Urgent,2023-05-16
+Environmental audit finding - Fatima Memorial Tertiary Hospi #00065,Fatima Memorial Tertiary Hospital 09,ops0065@enxi.pk,Closed,Low,2023-05-19
+Expired disposal certificate - Lahore General Tertiary Hospit #00066,Lahore General Tertiary Hospital 27,ops0066@enxi.pk,Open,Medium,2023-05-20
+Equipment malfunction - LifeLine Tertiary Hospital 64 #00067,LifeLine Tertiary Hospital 64,ops0067@enxi.pk,Open,High,2023-05-20
+Spill incident during collection - Ittefaq General Hospital 25 #00068,Ittefaq General Hospital 25,ops0068@enxi.pk,Closed,Medium,2023-05-20
+Delayed collection - route overrun - Allied Lab 114 #00069,Allied Lab 114,ops0069@enxi.pk,Open,High,2023-05-20
+Staff safety incident - Gulab Devi Tertiary Hospital 1 #00070,Gulab Devi Tertiary Hospital 13,ops0070@enxi.pk,Resolved,Medium,2023-05-22
+Missed waste pickup - Surgimed General Hospital 58 #00071,Surgimed General Hospital 58,ops0071@enxi.pk,Replied,High,2023-05-22
+Customer complaint - odor - Lahore General District Hospit #00072,Lahore General District Hospital 69,ops0072@enxi.pk,Replied,High,2023-05-23
+Customer complaint - odor - Metro Diagnostics #00073,Metro Diagnostics,ops0073@enxi.pk,Open,High,2023-05-25
+Training certificate renewal needed - Gulab Devi Tertiary Hospital 2 #00074,Gulab Devi Tertiary Hospital 28,ops0074@enxi.pk,Open,Medium,2023-05-25
+Training certificate renewal needed - Children District Hospital 55 #00075,Children District Hospital 55,ops0075@enxi.pk,Open,Medium,2023-05-26
+Invoice discrepancy - Specialized Healthcare & Medic #00076,Specialized Healthcare & Medical Education,ops0076@enxi.pk,Replied,High,2023-05-28
+Expired disposal certificate - Central Tertiary Hospital 07 #00077,Central Tertiary Hospital 07,ops0077@enxi.pk,Resolved,Medium,2023-05-29
+Container damage reported - Hameed Latif District Hospital #00078,Hameed Latif District Hospital 26,ops0078@enxi.pk,Closed,High,2023-05-30
+Invoice discrepancy - Chughtai Lab #00079,Chughtai Lab,ops0079@enxi.pk,Closed,Low,2023-05-31
+Customer complaint - odor - Medicare Clinic #00080,Medicare Clinic,ops0080@enxi.pk,Closed,Urgent,2023-06-05
+Incinerator maintenance required - Islamabad Diagnostics #00081,Islamabad Diagnostics,ops0081@enxi.pk,Closed,Medium,2023-06-06
+Customer complaint - odor - Lady Willingdon Tertiary Hospi #00082,Lady Willingdon Tertiary Hospital 60,ops0082@enxi.pk,Open,High,2023-06-09
+Spill incident during collection - Saleem Lab #00083,Saleem Lab,ops0083@enxi.pk,Closed,Medium,2023-06-10
+Wrong waste segregation at source - Al-Rehman Tertiary Hospital 17 #00084,Al-Rehman Tertiary Hospital 17,ops0084@enxi.pk,Closed,Urgent,2023-06-11
+Invoice discrepancy - Punjab Tertiary Hospital 37 #00085,Punjab Tertiary Hospital 37,ops0085@enxi.pk,Closed,Medium,2023-06-11
+Spill incident during collection - Allied Lab 114 #00086,Allied Lab 114,ops0086@enxi.pk,Replied,Low,2023-06-11
+PPE shortage reported - Punjab Tertiary Hospital 37 #00087,Punjab Tertiary Hospital 37,ops0087@enxi.pk,Replied,High,2023-06-11
+Vehicle breakdown on route - Health First Clinic 111 #00088,Health First Clinic 111,ops0088@enxi.pk,Open,Low,2023-06-12
+Emergency pickup request - Rehman Diagnostics 118 #00089,Rehman Diagnostics 118,ops0089@enxi.pk,Open,Urgent,2023-06-13
+Compliance documentation gap - Gulab Devi Tertiary Hospital 1 #00090,Gulab Devi Tertiary Hospital 13,ops0090@enxi.pk,Open,Urgent,2023-06-13
+Customer complaint - odor - Chughtai Private Hospital 56 #00091,Chughtai Private Hospital 56,ops0091@enxi.pk,Resolved,Low,2023-06-19
+Equipment malfunction - Chughtai Lab 101 #00092,Chughtai Lab 101,ops0092@enxi.pk,Closed,High,2023-06-21
+Incinerator maintenance required - Lahore Diagnostics 106 #00093,Lahore Diagnostics 106,ops0093@enxi.pk,Closed,Medium,2023-06-23
+Spill incident during collection - Fatima Memorial Private Hospit #00094,Fatima Memorial Private Hospital 34,ops0094@enxi.pk,Closed,Urgent,2023-06-24
+Container damage reported - Lady Willingdon Tertiary Hospi #00095,Lady Willingdon Tertiary Hospital 60,ops0095@enxi.pk,Resolved,Medium,2023-06-24
+Training certificate renewal needed - Ghurki Trust Specialized Hospi #00096,Ghurki Trust Specialized Hospital 31,ops0096@enxi.pk,Closed,High,2023-06-25
+Missed waste pickup - City Care Teaching Hospital 40 #00097,City Care Teaching Hospital 40,ops0097@enxi.pk,Closed,High,2023-06-26
+Vehicle breakdown on route - Gulab Devi Tertiary Hospital 2 #00098,Gulab Devi Tertiary Hospital 28,ops0098@enxi.pk,Closed,Urgent,2023-06-27
+Spill incident during collection - Gulab Devi Tertiary Hospital 2 #00099,Gulab Devi Tertiary Hospital 28,ops0099@enxi.pk,Replied,High,2023-07-01
+Training certificate renewal needed - Al-Razi Clinic 109 #00100,Al-Razi Clinic 109,ops0100@enxi.pk,Replied,Low,2023-07-01
+Emergency pickup request - Allied Lab 114 #00101,Allied Lab 114,ops0101@enxi.pk,Replied,Medium,2023-07-02
+Compliance documentation gap - Children Teaching Hospital 80 #00102,Children Teaching Hospital 80,ops0102@enxi.pk,Resolved,Low,2023-07-03
+Janitorial service quality issue - Shaukat Khanum Teaching Hospit #00103,Shaukat Khanum Teaching Hospital 50,ops0103@enxi.pk,Resolved,Medium,2023-07-04
+Environmental audit finding - Dr. Essa Lab 116 #00104,Dr. Essa Lab 116,ops0104@enxi.pk,Closed,Medium,2023-07-04
+Delayed collection - route overrun - Mayo Teaching Hospital 05 #00105,Mayo Teaching Hospital 05,ops0105@enxi.pk,Resolved,Urgent,2023-07-07
+Staff safety incident - Noor Teaching Hospital 76 #00106,Noor Teaching Hospital 76,ops0106@enxi.pk,Replied,Low,2023-07-08
+Environmental audit finding - Medix Clinic 112 #00107,Medix Clinic 112,ops0107@enxi.pk,Open,Medium,2023-07-09
+PPE shortage reported - Shalimar General Hospital 47 #00108,Shalimar General Hospital 47,ops0108@enxi.pk,Replied,High,2023-07-10
+Schedule change request - Specialized Healthcare & Medic #00109,Specialized Healthcare & Medical Education,ops0109@enxi.pk,Closed,Medium,2023-07-12
+Container damage reported - Sheikh Zayed General Hospital  #00110,Sheikh Zayed General Hospital 39,ops0110@enxi.pk,Closed,Low,2023-07-12
+Spill incident during collection - Children Teaching Hospital 80 #00111,Children Teaching Hospital 80,ops0111@enxi.pk,Replied,Low,2023-07-13
+Invoice discrepancy - Al-Razi Clinic 109 #00112,Al-Razi Clinic 109,ops0112@enxi.pk,Replied,Medium,2023-07-14
+Environmental audit finding - Fatima Memorial Tertiary Hospi #00113,Fatima Memorial Tertiary Hospital 09,ops0113@enxi.pk,Closed,Low,2023-07-15
+Delayed collection - route overrun - Punjab Medical Faculty #00114,Punjab Medical Faculty,ops0114@enxi.pk,Open,Low,2023-07-15
+PPE shortage reported - Medix Clinic 112 #00115,Medix Clinic 112,ops0115@enxi.pk,Open,Medium,2023-07-15
+Janitorial service quality issue - Mayo District Hospital 01 #00116,Mayo District Hospital 01,ops0116@enxi.pk,Closed,High,2023-07-17
+Equipment malfunction - Surgimed General Hospital 58 #00117,Surgimed General Hospital 58,ops0117@enxi.pk,Resolved,Urgent,2023-07-18
+Schedule change request - Shaukat Khanum Specialized Hos #00118,Shaukat Khanum Specialized Hospital 63,ops0118@enxi.pk,Closed,Urgent,2023-07-19
+PPE shortage reported - Shaukat Khanum Specialized Hos #00119,Shaukat Khanum Specialized Hospital 63,ops0119@enxi.pk,Replied,Medium,2023-07-20
+Schedule change request - Lahore General Tertiary Hospit #00120,Lahore General Tertiary Hospital 27,ops0120@enxi.pk,Closed,Medium,2023-07-23
+Invoice discrepancy - Mayo Teaching Hospital 05 #00121,Mayo Teaching Hospital 05,ops0121@enxi.pk,Replied,Medium,2023-07-23
+Delayed collection - route overrun - Directorate of Health Services #00122,Directorate of Health Services Lahore,ops0122@enxi.pk,Resolved,Low,2023-07-25
+Janitorial service quality issue - Ghurki Trust Specialized Hospi #00123,Ghurki Trust Specialized Hospital 31,ops0123@enxi.pk,Replied,Low,2023-07-27
+Training certificate renewal needed - Sir Ganga Ram District Hospita #00124,Sir Ganga Ram District Hospital 08,ops0124@enxi.pk,Replied,Low,2023-08-01
+Delayed collection - route overrun - Farooq General Hospital 70 #00125,Farooq General Hospital 70,ops0125@enxi.pk,Resolved,High,2023-08-01
+Compliance documentation gap - Fatima Memorial Private Hospit #00126,Fatima Memorial Private Hospital 34,ops0126@enxi.pk,Closed,Medium,2023-08-06
+Invoice discrepancy - Doctors Tertiary Hospital 66 #00127,Doctors Tertiary Hospital 66,ops0127@enxi.pk,Open,Low,2023-08-06
+Janitorial service quality issue - Chughtai Lab 101 #00128,Chughtai Lab 101,ops0128@enxi.pk,Resolved,Low,2023-08-06
+Incinerator maintenance required - Shaukat Khanum District Hospit #00129,Shaukat Khanum District Hospital 45,ops0129@enxi.pk,Resolved,Urgent,2023-08-07
+Wrong waste segregation at source - Medix Clinic 112 #00130,Medix Clinic 112,ops0130@enxi.pk,Open,Urgent,2023-08-08
+Emergency pickup request - LifeLine Tertiary Hospital 64 #00131,LifeLine Tertiary Hospital 64,ops0131@enxi.pk,Resolved,Medium,2023-08-09
+Spill incident during collection - Lahore Diagnostics #00132,Lahore Diagnostics,ops0132@enxi.pk,Closed,Medium,2023-08-10
+Vehicle breakdown on route - Chughtai Tertiary Hospital 57 #00133,Chughtai Tertiary Hospital 57,ops0133@enxi.pk,Open,Medium,2023-08-11
+Environmental audit finding - Punjab Health Department #00134,Punjab Health Department,ops0134@enxi.pk,Replied,Medium,2023-08-12
+GPS tracker malfunction - Medicare Clinic #00135,Medicare Clinic,ops0135@enxi.pk,Closed,Medium,2023-08-18
+Invoice discrepancy - Agha Khan Lab Lahore 115 #00136,Agha Khan Lab Lahore 115,ops0136@enxi.pk,Replied,Low,2023-08-20
+Staff safety incident - Punjab Environmental Protectio #00137,Punjab Environmental Protection Agency,ops0137@enxi.pk,Open,Low,2023-08-21
+Environmental audit finding - Medicare Clinic #00138,Medicare Clinic,ops0138@enxi.pk,Closed,Urgent,2023-08-21
+Expired disposal certificate - Metro Diagnostics 108 #00139,Metro Diagnostics 108,ops0139@enxi.pk,Closed,Medium,2023-08-22
+Compliance documentation gap - Children Teaching Hospital 80 #00140,Children Teaching Hospital 80,ops0140@enxi.pk,Closed,Low,2023-08-26
+PPE shortage reported - Shaukat Khanum Lab 102 #00141,Shaukat Khanum Lab 102,ops0141@enxi.pk,Closed,Medium,2023-08-27
+Emergency pickup request - Punjab Healthcare Commission #00142,Punjab Healthcare Commission,ops0142@enxi.pk,Closed,Medium,2023-08-28
+Expired disposal certificate - Punjab Diagnostic Center #00143,Punjab Diagnostic Center,ops0143@enxi.pk,Resolved,Low,2023-08-28
+Spill incident during collection - Services Teaching Hospital 33 #00144,Services Teaching Hospital 33,ops0144@enxi.pk,Replied,Medium,2023-08-29
+Missed waste pickup - Agha Khan Lab Lahore 115 #00145,Agha Khan Lab Lahore 115,ops0145@enxi.pk,Closed,Urgent,2023-08-29
+Missed waste pickup - Rehman Diagnostics 118 #00146,Rehman Diagnostics 118,ops0146@enxi.pk,Replied,Medium,2023-08-29
+Equipment malfunction - Noor Teaching Hospital 76 #00147,Noor Teaching Hospital 76,ops0147@enxi.pk,Replied,High,2023-08-30
+Delayed collection - route overrun - Al-Rehman Tertiary Hospital 17 #00148,Al-Rehman Tertiary Hospital 17,ops0148@enxi.pk,Closed,High,2023-08-30
+Compliance documentation gap - Islamabad Diagnostics #00149,Islamabad Diagnostics,ops0149@enxi.pk,Resolved,Low,2023-08-30
+Incinerator maintenance required - LifeLine General Hospital 49 #00150,LifeLine General Hospital 49,ops0150@enxi.pk,Closed,Medium,2023-08-31
+Compliance documentation gap - Gulab Devi Tertiary Hospital 1 #00151,Gulab Devi Tertiary Hospital 13,ops0151@enxi.pk,Replied,Medium,2023-08-31
+Spill incident during collection - Excel Labs 104 #00152,Excel Labs 104,ops0152@enxi.pk,Open,Medium,2023-09-01
+Compliance documentation gap - Directorate of Health Services #00153,Directorate of Health Services Lahore,ops0153@enxi.pk,Closed,Medium,2023-09-02
+Compliance documentation gap - City Lab #00154,City Lab,ops0154@enxi.pk,Resolved,Medium,2023-09-03
+Container damage reported - Doctors Tertiary Hospital 66 #00155,Doctors Tertiary Hospital 66,ops0155@enxi.pk,Closed,Medium,2023-09-03
+Equipment malfunction - Sharif Medical District Hospit #00156,Sharif Medical District Hospital 30,ops0156@enxi.pk,Open,Low,2023-09-06
+Missed waste pickup - Specialized Healthcare & Medic #00157,Specialized Healthcare & Medical Education,ops0157@enxi.pk,Open,Low,2023-09-08
+Delayed collection - route overrun - Shaukat Khanum Teaching Hospit #00158,Shaukat Khanum Teaching Hospital 50,ops0158@enxi.pk,Replied,High,2023-09-10
+Janitorial service quality issue - Jinnah Tertiary Hospital 15 #00159,Jinnah Tertiary Hospital 15,ops0159@enxi.pk,Replied,Medium,2023-09-12
+Customer complaint - odor - Jinnah Tertiary Hospital 67 #00160,Jinnah Tertiary Hospital 67,ops0160@enxi.pk,Open,Medium,2023-09-13
+Spill incident during collection - Gulab Devi Specialized Hospita #00161,Gulab Devi Specialized Hospital 22,ops0161@enxi.pk,Resolved,High,2023-09-14
+Equipment malfunction - Al-Razi Clinic 109 #00162,Al-Razi Clinic 109,ops0162@enxi.pk,Replied,Urgent,2023-09-15
+Compliance documentation gap - Chughtai Lab #00163,Chughtai Lab,ops0163@enxi.pk,Open,Urgent,2023-09-18
+Staff safety incident - National Private Hospital 21 #00164,National Private Hospital 21,ops0164@enxi.pk,Closed,Low,2023-09-19
+Missed waste pickup - Medix Clinic 112 #00165,Medix Clinic 112,ops0165@enxi.pk,Closed,Medium,2023-09-20
+Missed waste pickup - City Lab 107 #00166,City Lab 107,ops0166@enxi.pk,Closed,High,2023-09-21
+Customer complaint - odor - Punjab Health Department #00167,Punjab Health Department,ops0167@enxi.pk,Resolved,Urgent,2023-09-22
+Vehicle breakdown on route - Gulab Devi District Hospital 4 #00168,Gulab Devi District Hospital 44,ops0168@enxi.pk,Open,Medium,2023-09-23
+Janitorial service quality issue - Excel Labs 104 #00169,Excel Labs 104,ops0169@enxi.pk,Open,Medium,2023-09-23
+Wrong waste segregation at source - Al-Razi Clinic #00170,Al-Razi Clinic,ops0170@enxi.pk,Resolved,Medium,2023-09-23
+Schedule change request - Ghurki Trust Tertiary Hospital #00171,Ghurki Trust Tertiary Hospital 12,ops0171@enxi.pk,Resolved,Urgent,2023-09-28
+Training certificate renewal needed - Health First Clinic #00172,Health First Clinic,ops0172@enxi.pk,Closed,Urgent,2023-09-29
+Expired disposal certificate - Sharif Medical Tertiary Hospit #00173,Sharif Medical Tertiary Hospital 43,ops0173@enxi.pk,Replied,Medium,2023-10-02
+Spill incident during collection - Lady Willingdon Tertiary Hospi #00174,Lady Willingdon Tertiary Hospital 60,ops0174@enxi.pk,Closed,Medium,2023-10-02
+Missed waste pickup - Shaukat Khanum Teaching Hospit #00175,Shaukat Khanum Teaching Hospital 72,ops0175@enxi.pk,Closed,Medium,2023-10-03
+Expired disposal certificate - Punjab Diagnostic Center #00176,Punjab Diagnostic Center,ops0176@enxi.pk,Open,High,2023-10-07
+Emergency pickup request - Health First Clinic #00177,Health First Clinic,ops0177@enxi.pk,Closed,Medium,2023-10-08
+GPS tracker malfunction - Punjab AIDS Control Program #00178,Punjab AIDS Control Program,ops0178@enxi.pk,Closed,High,2023-10-08
+Schedule change request - Chughtai Tertiary Hospital 57 #00179,Chughtai Tertiary Hospital 57,ops0179@enxi.pk,Closed,Urgent,2023-10-11
+Wrong waste segregation at source - Central District Hospital 53 #00180,Central District Hospital 53,ops0180@enxi.pk,Resolved,Medium,2023-10-12
+Training certificate renewal needed - Gulab Devi District Hospital 4 #00181,Gulab Devi District Hospital 44,ops0181@enxi.pk,Replied,Low,2023-10-12
+Staff safety incident - Punjab Specialized Hospital 42 #00182,Punjab Specialized Hospital 42,ops0182@enxi.pk,Replied,High,2023-10-12
+Missed waste pickup - Qamar Lab 120 #00183,Qamar Lab 120,ops0183@enxi.pk,Open,Medium,2023-10-16
+Container damage reported - Ghurki Trust Tertiary Hospital #00184,Ghurki Trust Tertiary Hospital 12,ops0184@enxi.pk,Open,High,2023-10-16
+Incinerator maintenance required - City Care Teaching Hospital 40 #00185,City Care Teaching Hospital 40,ops0185@enxi.pk,Resolved,Medium,2023-10-16
+PPE shortage reported - Lahore Diagnostics #00186,Lahore Diagnostics,ops0186@enxi.pk,Open,Medium,2023-10-17
+Wrong waste segregation at source - Punjab Diagnostic Center #00187,Punjab Diagnostic Center,ops0187@enxi.pk,Resolved,High,2023-10-19
+Emergency pickup request - Services Specialized Hospital  #00188,Services Specialized Hospital 77,ops0188@enxi.pk,Resolved,Medium,2023-10-20
+Incinerator maintenance required - Sir Ganga Ram Tertiary Hospita #00189,Sir Ganga Ram Tertiary Hospital 75,ops0189@enxi.pk,Replied,Medium,2023-10-21
+Training certificate renewal needed - Punjab AIDS Control Program #00190,Punjab AIDS Control Program,ops0190@enxi.pk,Replied,Medium,2023-10-23
+GPS tracker malfunction - Medix Clinic 112 #00191,Medix Clinic 112,ops0191@enxi.pk,Resolved,Low,2023-10-23
+Container damage reported - Medix Clinic 112 #00192,Medix Clinic 112,ops0192@enxi.pk,Closed,Medium,2023-10-25
+GPS tracker malfunction - Punjab Specialized Hospital 42 #00193,Punjab Specialized Hospital 42,ops0193@enxi.pk,Open,Medium,2023-10-26
+Expired disposal certificate - Mayo Teaching Hospital 05 #00194,Mayo Teaching Hospital 05,ops0194@enxi.pk,Replied,Medium,2023-10-27
+Schedule change request - Noor Teaching Hospital 76 #00195,Noor Teaching Hospital 76,ops0195@enxi.pk,Replied,Low,2023-10-27
+Vehicle breakdown on route - Shalimar District Hospital 52 #00196,Shalimar District Hospital 52,ops0196@enxi.pk,Open,High,2023-10-28
+Equipment malfunction - LifeLine General Hospital 11 #00197,LifeLine General Hospital 11,ops0197@enxi.pk,Replied,High,2023-10-29
+Environmental audit finding - Punjab Diagnostic Center #00198,Punjab Diagnostic Center,ops0198@enxi.pk,Closed,Low,2023-10-29
+Staff safety incident - Sir Ganga Ram General Hospital #00199,Sir Ganga Ram General Hospital 54,ops0199@enxi.pk,Open,Urgent,2023-10-30
+Expired disposal certificate - Central Tertiary Hospital 07 #00200,Central Tertiary Hospital 07,ops0200@enxi.pk,Closed,Medium,2023-10-30
+Training certificate renewal needed - Fatima Memorial Tertiary Hospi #00201,Fatima Memorial Tertiary Hospital 09,ops0201@enxi.pk,Closed,Urgent,2023-10-31
+Staff safety incident - Sharif Medical General Hospita #00202,Sharif Medical General Hospital 03,ops0202@enxi.pk,Closed,Low,2023-11-01
+Incinerator maintenance required - Ghurki Trust Specialized Hospi #00203,Ghurki Trust Specialized Hospital 31,ops0203@enxi.pk,Closed,Low,2023-11-01
+Equipment malfunction - Punjab AIDS Control Program #00204,Punjab AIDS Control Program,ops0204@enxi.pk,Open,High,2023-11-04
+Wrong waste segregation at source - Excel Labs 104 #00205,Excel Labs 104,ops0205@enxi.pk,Open,Urgent,2023-11-04
+Container damage reported - Services Teaching Hospital 33 #00206,Services Teaching Hospital 33,ops0206@enxi.pk,Closed,Medium,2023-11-05
+Invoice discrepancy - Sharif Medical District Hospit #00207,Sharif Medical District Hospital 30,ops0207@enxi.pk,Open,High,2023-11-08
+Spill incident during collection - Lady Willingdon Tertiary Hospi #00208,Lady Willingdon Tertiary Hospital 06,ops0208@enxi.pk,Resolved,Low,2023-11-08
+Equipment malfunction - Sir Ganga Ram Tertiary Hospita #00209,Sir Ganga Ram Tertiary Hospital 46,ops0209@enxi.pk,Replied,Medium,2023-11-09
+Spill incident during collection - One Health Lab 117 #00210,One Health Lab 117,ops0210@enxi.pk,Open,Low,2023-11-09
+Training certificate renewal needed - Gulab Devi Specialized Hospita #00211,Gulab Devi Specialized Hospital 22,ops0211@enxi.pk,Closed,High,2023-11-10
+Vehicle breakdown on route - Sheikh Zayed General Hospital  #00212,Sheikh Zayed General Hospital 39,ops0212@enxi.pk,Closed,Medium,2023-11-11
+Customer complaint - odor - Punjab Health Department #00213,Punjab Health Department,ops0213@enxi.pk,Resolved,Low,2023-11-12
+Janitorial service quality issue - Punjab Health Department #00214,Punjab Health Department,ops0214@enxi.pk,Resolved,High,2023-11-12
+Janitorial service quality issue - Central District Hospital 53 #00215,Central District Hospital 53,ops0215@enxi.pk,Closed,Low,2023-11-14
+Emergency pickup request - Ghurki Trust Private Hospital  #00216,Ghurki Trust Private Hospital 79,ops0216@enxi.pk,Replied,Low,2023-11-15
+Janitorial service quality issue - Sharif Medical Tertiary Hospit #00217,Sharif Medical Tertiary Hospital 43,ops0217@enxi.pk,Replied,Medium,2023-11-17
+Compliance documentation gap - LifeLine General Hospital 49 #00218,LifeLine General Hospital 49,ops0218@enxi.pk,Replied,Medium,2023-11-20
+Expired disposal certificate - Doctors Tertiary Hospital 78 #00219,Doctors Tertiary Hospital 78,ops0219@enxi.pk,Replied,Low,2023-11-21
+Equipment malfunction - Noor Specialized Hospital 51 #00220,Noor Specialized Hospital 51,ops0220@enxi.pk,Closed,Low,2023-11-24
+Vehicle breakdown on route - Fatima Memorial District Hospi #00221,Fatima Memorial District Hospital 65,ops0221@enxi.pk,Closed,Low,2023-11-25
+Schedule change request - Shalimar District Hospital 16 #00222,Shalimar District Hospital 16,ops0222@enxi.pk,Open,High,2023-11-25
+Training certificate renewal needed - Children Teaching Hospital 80 #00223,Children Teaching Hospital 80,ops0223@enxi.pk,Closed,High,2023-11-26
+Wrong waste segregation at source - Mayo Teaching Hospital 05 #00224,Mayo Teaching Hospital 05,ops0224@enxi.pk,Resolved,Medium,2023-11-26
+GPS tracker malfunction - Chughtai Private Hospital 56 #00225,Chughtai Private Hospital 56,ops0225@enxi.pk,Replied,Low,2023-11-27
+Wrong waste segregation at source - Punjab Specialized Hospital 42 #00226,Punjab Specialized Hospital 42,ops0226@enxi.pk,Replied,Medium,2023-11-30
+Vehicle breakdown on route - Lahore General District Hospit #00227,Lahore General District Hospital 69,ops0227@enxi.pk,Closed,Medium,2023-11-30
+Training certificate renewal needed - Gulab Devi Specialized Hospita #00228,Gulab Devi Specialized Hospital 22,ops0228@enxi.pk,Resolved,Urgent,2023-12-01
+Invoice discrepancy - Punjab Environmental Protectio #00229,Punjab Environmental Protection Agency,ops0229@enxi.pk,Resolved,Medium,2023-12-05
+Equipment malfunction - Shaukat Khanum Specialized Hos #00230,Shaukat Khanum Specialized Hospital 63,ops0230@enxi.pk,Replied,Medium,2023-12-06
+Schedule change request - Mayo District Hospital 01 #00231,Mayo District Hospital 01,ops0231@enxi.pk,Closed,High,2023-12-09
+PPE shortage reported - Punjab Health Department #00232,Punjab Health Department,ops0232@enxi.pk,Open,Medium,2023-12-15
+Vehicle breakdown on route - Ghurki Trust Specialized Hospi #00233,Ghurki Trust Specialized Hospital 31,ops0233@enxi.pk,Resolved,Urgent,2023-12-16
+Invoice discrepancy - Prime Teaching Hospital 14 #00234,Prime Teaching Hospital 14,ops0234@enxi.pk,Replied,Medium,2023-12-17
+Invoice discrepancy - Punjab Medical Faculty #00235,Punjab Medical Faculty,ops0235@enxi.pk,Replied,Low,2023-12-19
+Janitorial service quality issue - Agha Khan Lab Lahore 115 #00236,Agha Khan Lab Lahore 115,ops0236@enxi.pk,Open,Urgent,2023-12-21
+Delayed collection - route overrun - Allied Lab 114 #00237,Allied Lab 114,ops0237@enxi.pk,Resolved,Medium,2023-12-24
+Customer complaint - odor - Services Specialized Hospital  #00238,Services Specialized Hospital 77,ops0238@enxi.pk,Closed,Medium,2023-12-24
+Emergency pickup request - Chughtai Lab #00239,Chughtai Lab,ops0239@enxi.pk,Open,Low,2023-12-25
+Spill incident during collection - Lahore Diagnostics 106 #00240,Lahore Diagnostics 106,ops0240@enxi.pk,Open,Medium,2023-12-27
+Environmental audit finding - National District Hospital 18 #00241,National District Hospital 18,ops0241@enxi.pk,Resolved,Medium,2023-12-28
+Missed waste pickup - Fatima Memorial Private Hospit #00242,Fatima Memorial Private Hospital 34,ops0242@enxi.pk,Closed,Medium,2024-01-03
+Emergency pickup request - City Lab #00243,City Lab,ops0243@enxi.pk,Open,Urgent,2024-01-05
+Compliance documentation gap - District Health Authority Laho #00244,District Health Authority Lahore,ops0244@enxi.pk,Closed,Medium,2024-01-05
+Vehicle breakdown on route - Gulab Devi Tertiary Hospital 1 #00245,Gulab Devi Tertiary Hospital 13,ops0245@enxi.pk,Open,Low,2024-01-05
+Compliance documentation gap - Gulab Devi Tertiary Hospital 1 #00246,Gulab Devi Tertiary Hospital 13,ops0246@enxi.pk,Open,Urgent,2024-01-08
+Compliance documentation gap - Sharif Medical Teaching Hospit #00247,Sharif Medical Teaching Hospital 62,ops0247@enxi.pk,Replied,Medium,2024-01-09
+Expired disposal certificate - Ghurki Trust Private Hospital  #00248,Ghurki Trust Private Hospital 79,ops0248@enxi.pk,Replied,Medium,2024-01-09
+Container damage reported - Sharif Medical General Hospita #00249,Sharif Medical General Hospital 03,ops0249@enxi.pk,Open,High,2024-01-11
+Emergency pickup request - Mayo Specialized Hospital 10 #00250,Mayo Specialized Hospital 10,ops0250@enxi.pk,Resolved,Medium,2024-01-13
+PPE shortage reported - Metro Diagnostics 108 #00251,Metro Diagnostics 108,ops0251@enxi.pk,Replied,Medium,2024-01-15
+Schedule change request - Services Teaching Hospital 33 #00252,Services Teaching Hospital 33,ops0252@enxi.pk,Open,Urgent,2024-01-19
+Compliance documentation gap - Farooq General Hospital 70 #00253,Farooq General Hospital 70,ops0253@enxi.pk,Closed,Medium,2024-01-20
+Janitorial service quality issue - Shaukat Khanum Teaching Hospit #00254,Shaukat Khanum Teaching Hospital 50,ops0254@enxi.pk,Replied,Medium,2024-01-22
+Janitorial service quality issue - Gulab Devi District Hospital 4 #00255,Gulab Devi District Hospital 44,ops0255@enxi.pk,Closed,High,2024-01-23
+Janitorial service quality issue - Gulab Devi District Hospital 4 #00256,Gulab Devi District Hospital 44,ops0256@enxi.pk,Open,High,2024-01-23
+Janitorial service quality issue - Saleem Lab #00257,Saleem Lab,ops0257@enxi.pk,Closed,Medium,2024-01-24
+Environmental audit finding - Sharif Medical Tertiary Hospit #00258,Sharif Medical Tertiary Hospital 43,ops0258@enxi.pk,Closed,Medium,2024-01-25
+Delayed collection - route overrun - Specialized Healthcare & Medic #00259,Specialized Healthcare & Medical Education,ops0259@enxi.pk,Resolved,Urgent,2024-01-26
+Missed waste pickup - Saleem Lab 119 #00260,Saleem Lab 119,ops0260@enxi.pk,Replied,Medium,2024-01-26
+Schedule change request - Punjab AIDS Control Program #00261,Punjab AIDS Control Program,ops0261@enxi.pk,Resolved,Medium,2024-01-28
+Wrong waste segregation at source - Sir Ganga Ram General Hospital #00262,Sir Ganga Ram General Hospital 38,ops0262@enxi.pk,Open,Medium,2024-01-28
+PPE shortage reported - Fatima Memorial Tertiary Hospi #00263,Fatima Memorial Tertiary Hospital 09,ops0263@enxi.pk,Open,Medium,2024-01-29
+Staff safety incident - Doctors Tertiary Hospital 78 #00264,Doctors Tertiary Hospital 78,ops0264@enxi.pk,Replied,Urgent,2024-01-30
+Compliance documentation gap - Punjab Emergency Service (Resc #00265,Punjab Emergency Service (Rescue 1122),ops0265@enxi.pk,Closed,Urgent,2024-02-01
+Wrong waste segregation at source - Sharif Medical General Hospita #00266,Sharif Medical General Hospital 03,ops0266@enxi.pk,Closed,Medium,2024-02-01
+Training certificate renewal needed - Ghurki Trust Private Hospital  #00267,Ghurki Trust Private Hospital 61,ops0267@enxi.pk,Closed,High,2024-02-02
+Wrong waste segregation at source - Primary & Secondary Healthcare #00268,Primary & Secondary Healthcare Dept,ops0268@enxi.pk,Closed,High,2024-02-04
+Vehicle breakdown on route - Rehman Diagnostics 118 #00269,Rehman Diagnostics 118,ops0269@enxi.pk,Closed,Medium,2024-02-06
+Delayed collection - route overrun - Al-Razi Clinic #00270,Al-Razi Clinic,ops0270@enxi.pk,Open,High,2024-02-07
+Schedule change request - Prime Tertiary Hospital 24 #00271,Prime Tertiary Hospital 24,ops0271@enxi.pk,Resolved,Low,2024-02-08
+Vehicle breakdown on route - Chughtai Lab #00272,Chughtai Lab,ops0272@enxi.pk,Resolved,High,2024-02-10
+Vehicle breakdown on route - Sir Ganga Ram District Hospita #00273,Sir Ganga Ram District Hospital 08,ops0273@enxi.pk,Resolved,Medium,2024-02-12
+Expired disposal certificate - Punjab AIDS Control Program #00274,Punjab AIDS Control Program,ops0274@enxi.pk,Open,Medium,2024-02-14
+Staff safety incident - Health First Clinic 111 #00275,Health First Clinic 111,ops0275@enxi.pk,Replied,Low,2024-02-16
+Spill incident during collection - Shaukat Khanum District Hospit #00276,Shaukat Khanum District Hospital 45,ops0276@enxi.pk,Closed,Low,2024-02-17
+Schedule change request - Medix Clinic 112 #00277,Medix Clinic 112,ops0277@enxi.pk,Resolved,High,2024-02-21
+Incinerator maintenance required - Chughtai Private Hospital 56 #00278,Chughtai Private Hospital 56,ops0278@enxi.pk,Resolved,Medium,2024-02-23
+Schedule change request - District Health Authority Laho #00279,District Health Authority Lahore,ops0279@enxi.pk,Closed,Urgent,2024-02-23
+Expired disposal certificate - Ghurki Trust Specialized Hospi #00280,Ghurki Trust Specialized Hospital 31,ops0280@enxi.pk,Replied,Medium,2024-02-24
+GPS tracker malfunction - Saleem Lab #00281,Saleem Lab,ops0281@enxi.pk,Resolved,Medium,2024-02-25
+Schedule change request - Qamar Lab #00282,Qamar Lab,ops0282@enxi.pk,Replied,Medium,2024-02-26
+Wrong waste segregation at source - Agha Khan Lab Lahore 115 #00283,Agha Khan Lab Lahore 115,ops0283@enxi.pk,Closed,Medium,2024-02-26
+Compliance documentation gap - National Private Hospital 21 #00284,National Private Hospital 21,ops0284@enxi.pk,Replied,Low,2024-02-29
+Staff safety incident - Lahore Diagnostics 106 #00285,Lahore Diagnostics 106,ops0285@enxi.pk,Replied,High,2024-03-01
+Emergency pickup request - Shalimar District Hospital 16 #00286,Shalimar District Hospital 16,ops0286@enxi.pk,Replied,Low,2024-03-01
+Environmental audit finding - Punjab Environmental Protectio #00287,Punjab Environmental Protection Agency,ops0287@enxi.pk,Resolved,Medium,2024-03-02
+Invoice discrepancy - Metro Diagnostics 108 #00288,Metro Diagnostics 108,ops0288@enxi.pk,Resolved,High,2024-03-03
+Container damage reported - LifeLine General Hospital 11 #00289,LifeLine General Hospital 11,ops0289@enxi.pk,Open,Medium,2024-03-06
+Expired disposal certificate - Services District Hospital 41 #00290,Services District Hospital 41,ops0290@enxi.pk,Resolved,High,2024-03-11
+Delayed collection - route overrun - City Lab #00291,City Lab,ops0291@enxi.pk,Resolved,Urgent,2024-03-15
+Emergency pickup request - Punjab Emergency Service (Resc #00292,Punjab Emergency Service (Rescue 1122),ops0292@enxi.pk,Closed,Medium,2024-03-17
+Vehicle breakdown on route - Mayo Teaching Hospital 05 #00293,Mayo Teaching Hospital 05,ops0293@enxi.pk,Replied,Medium,2024-03-17
+Delayed collection - route overrun - Shaukat Khanum Lab #00294,Shaukat Khanum Lab,ops0294@enxi.pk,Resolved,Low,2024-03-18
+Wrong waste segregation at source - Fatima Memorial District Hospi #00295,Fatima Memorial District Hospital 65,ops0295@enxi.pk,Replied,Urgent,2024-03-26
+Container damage reported - Medicare Clinic 110 #00296,Medicare Clinic 110,ops0296@enxi.pk,Replied,Low,2024-03-26
+Environmental audit finding - Punjab Healthcare Commission #00297,Punjab Healthcare Commission,ops0297@enxi.pk,Open,Medium,2024-03-28
+Emergency pickup request - Al-Rehman Tertiary Hospital 17 #00298,Al-Rehman Tertiary Hospital 17,ops0298@enxi.pk,Replied,Low,2024-03-28
+Wrong waste segregation at source - Chughtai Tertiary Hospital 57 #00299,Chughtai Tertiary Hospital 57,ops0299@enxi.pk,Resolved,High,2024-03-29
+Delayed collection - route overrun - Chughtai Tertiary Hospital 57 #00300,Chughtai Tertiary Hospital 57,ops0300@enxi.pk,Closed,Low,2024-03-30
+Invoice discrepancy - Directorate of Health Services #00301,Directorate of Health Services Lahore,ops0301@enxi.pk,Open,Urgent,2024-04-01
+Emergency pickup request - Sir Ganga Ram District Hospita #00302,Sir Ganga Ram District Hospital 08,ops0302@enxi.pk,Replied,High,2024-04-02
+Equipment malfunction - Al-Razi Clinic #00303,Al-Razi Clinic,ops0303@enxi.pk,Closed,Low,2024-04-02
+Expired disposal certificate - IDC Lab #00304,IDC Lab,ops0304@enxi.pk,Resolved,Medium,2024-04-03
+Expired disposal certificate - Metro Diagnostics 108 #00305,Metro Diagnostics 108,ops0305@enxi.pk,Replied,Urgent,2024-04-04
+Schedule change request - City Lab 107 #00306,City Lab 107,ops0306@enxi.pk,Open,Low,2024-04-07
+Missed waste pickup - Doctors Tertiary Hospital 78 #00307,Doctors Tertiary Hospital 78,ops0307@enxi.pk,Closed,High,2024-04-07
+Staff safety incident - Doctors General Hospital 73 #00308,Doctors General Hospital 73,ops0308@enxi.pk,Replied,Urgent,2024-04-08
+Spill incident during collection - Al-Rehman Tertiary Hospital 17 #00309,Al-Rehman Tertiary Hospital 17,ops0309@enxi.pk,Replied,High,2024-04-08
+Schedule change request - Doctors Teaching Hospital 36 #00310,Doctors Teaching Hospital 36,ops0310@enxi.pk,Closed,High,2024-04-12
+Customer complaint - odor - Medicare Clinic #00311,Medicare Clinic,ops0311@enxi.pk,Closed,Medium,2024-04-13
+Emergency pickup request - Shaukat Khanum District Hospit #00312,Shaukat Khanum District Hospital 45,ops0312@enxi.pk,Closed,High,2024-04-16
+Expired disposal certificate - Punjab Diagnostic Center 113 #00313,Punjab Diagnostic Center 113,ops0313@enxi.pk,Closed,Urgent,2024-04-17
+Compliance documentation gap - Doctors Tertiary Hospital 66 #00314,Doctors Tertiary Hospital 66,ops0314@enxi.pk,Open,Urgent,2024-04-18
+Environmental audit finding - Sheikh Zayed General Hospital  #00315,Sheikh Zayed General Hospital 39,ops0315@enxi.pk,Open,Medium,2024-04-18
+Compliance documentation gap - Ghurki Trust Specialized Hospi #00316,Ghurki Trust Specialized Hospital 48,ops0316@enxi.pk,Closed,High,2024-04-20
+PPE shortage reported - National Private Hospital 21 #00317,National Private Hospital 21,ops0317@enxi.pk,Closed,High,2024-04-27
+Incinerator maintenance required - Ittefaq General Hospital 25 #00318,Ittefaq General Hospital 25,ops0318@enxi.pk,Open,Low,2024-04-27
+Invoice discrepancy - Saleem Lab #00319,Saleem Lab,ops0319@enxi.pk,Replied,Urgent,2024-04-27
+Equipment malfunction - Sharif Medical District Hospit #00320,Sharif Medical District Hospital 30,ops0320@enxi.pk,Open,Low,2024-04-27
+Wrong waste segregation at source - Noor District Hospital 68 #00321,Noor District Hospital 68,ops0321@enxi.pk,Closed,Medium,2024-04-28
+Invoice discrepancy - Punjab AIDS Control Program #00322,Punjab AIDS Control Program,ops0322@enxi.pk,Closed,Medium,2024-05-03
+Vehicle breakdown on route - Surgimed General Hospital 58 #00323,Surgimed General Hospital 58,ops0323@enxi.pk,Closed,Urgent,2024-05-05
+Customer complaint - odor - Chughtai Private Hospital 56 #00324,Chughtai Private Hospital 56,ops0324@enxi.pk,Open,Medium,2024-05-08
+Invoice discrepancy - National District Hospital 18 #00325,National District Hospital 18,ops0325@enxi.pk,Open,High,2024-05-10
+Emergency pickup request - Doctors General Hospital 73 #00326,Doctors General Hospital 73,ops0326@enxi.pk,Closed,Medium,2024-05-10
+Environmental audit finding - Ittefaq District Hospital 19 #00327,Ittefaq District Hospital 19,ops0327@enxi.pk,Open,Medium,2024-05-12
+Wrong waste segregation at source - LifeLine Teaching Hospital 74 #00328,LifeLine Teaching Hospital 74,ops0328@enxi.pk,Resolved,Low,2024-05-12
+Emergency pickup request - Shaukat Khanum Lab #00329,Shaukat Khanum Lab,ops0329@enxi.pk,Closed,Medium,2024-05-12
+Training certificate renewal needed - Allied Lab 114 #00330,Allied Lab 114,ops0330@enxi.pk,Closed,Medium,2024-05-13
+Incinerator maintenance required - Doctors Teaching Hospital 35 #00331,Doctors Teaching Hospital 35,ops0331@enxi.pk,Open,Low,2024-05-13
+Incinerator maintenance required - Ittefaq District Hospital 19 #00332,Ittefaq District Hospital 19,ops0332@enxi.pk,Closed,Low,2024-05-15
+Compliance documentation gap - Sharif Medical Tertiary Hospit #00333,Sharif Medical Tertiary Hospital 43,ops0333@enxi.pk,Resolved,Medium,2024-05-15
+Training certificate renewal needed - Ghurki Trust Specialized Hospi #00334,Ghurki Trust Specialized Hospital 48,ops0334@enxi.pk,Closed,Low,2024-05-16
+Environmental audit finding - LifeLine General Hospital 11 #00335,LifeLine General Hospital 11,ops0335@enxi.pk,Closed,Urgent,2024-05-17
+Wrong waste segregation at source - Allied Lab 114 #00336,Allied Lab 114,ops0336@enxi.pk,Closed,Low,2024-05-19
+Expired disposal certificate - City Lab #00337,City Lab,ops0337@enxi.pk,Resolved,Medium,2024-05-19
+PPE shortage reported - Mayo Specialized Hospital 10 #00338,Mayo Specialized Hospital 10,ops0338@enxi.pk,Closed,Medium,2024-05-21
+Equipment malfunction - Children District Hospital 55 #00339,Children District Hospital 55,ops0339@enxi.pk,Replied,Medium,2024-05-21
+Delayed collection - route overrun - IDC Lab #00340,IDC Lab,ops0340@enxi.pk,Closed,High,2024-05-22
+Vehicle breakdown on route - Punjab Tertiary Hospital 37 #00341,Punjab Tertiary Hospital 37,ops0341@enxi.pk,Closed,Medium,2024-05-24
+Incinerator maintenance required - Chughtai Private Hospital 56 #00342,Chughtai Private Hospital 56,ops0342@enxi.pk,Closed,Low,2024-05-25
+Emergency pickup request - Dr. Essa Lab #00343,Dr. Essa Lab,ops0343@enxi.pk,Replied,High,2024-05-27
+Invoice discrepancy - Shalimar District Hospital 52 #00344,Shalimar District Hospital 52,ops0344@enxi.pk,Resolved,Medium,2024-05-28
+Expired disposal certificate - IDC Lab 103 #00345,IDC Lab 103,ops0345@enxi.pk,Open,Urgent,2024-05-29
+Missed waste pickup - Services District Hospital 41 #00346,Services District Hospital 41,ops0346@enxi.pk,Closed,Low,2024-05-30
+Janitorial service quality issue - Lady Willingdon Tertiary Hospi #00347,Lady Willingdon Tertiary Hospital 06,ops0347@enxi.pk,Resolved,Urgent,2024-06-07
+Compliance documentation gap - One Health Lab #00348,One Health Lab,ops0348@enxi.pk,Closed,Low,2024-06-08
+Expired disposal certificate - Doctors Teaching Hospital 36 #00349,Doctors Teaching Hospital 36,ops0349@enxi.pk,Closed,Medium,2024-06-08
+GPS tracker malfunction - City Care Tertiary Hospital 20 #00350,City Care Tertiary Hospital 20,ops0350@enxi.pk,Closed,Low,2024-06-11
+Training certificate renewal needed - Sir Ganga Ram District Hospita #00351,Sir Ganga Ram District Hospital 08,ops0351@enxi.pk,Open,Low,2024-06-13
+Staff safety incident - Doctors Tertiary Hospital 78 #00352,Doctors Tertiary Hospital 78,ops0352@enxi.pk,Closed,Urgent,2024-06-15
+Invoice discrepancy - City Care Tertiary Hospital 02 #00353,City Care Tertiary Hospital 02,ops0353@enxi.pk,Open,High,2024-06-16
+Missed waste pickup - Noor Teaching Hospital 76 #00354,Noor Teaching Hospital 76,ops0354@enxi.pk,Closed,High,2024-06-19
+Expired disposal certificate - Punjab Diagnostic Center #00355,Punjab Diagnostic Center,ops0355@enxi.pk,Closed,High,2024-06-21
+Expired disposal certificate - Central District Hospital 53 #00356,Central District Hospital 53,ops0356@enxi.pk,Resolved,Low,2024-06-22
+Emergency pickup request - Lahore Diagnostics #00357,Lahore Diagnostics,ops0357@enxi.pk,Open,Medium,2024-06-24
+Equipment malfunction - Surgimed General Hospital 58 #00358,Surgimed General Hospital 58,ops0358@enxi.pk,Replied,Urgent,2024-06-26
+Incinerator maintenance required - Shalimar District Hospital 52 #00359,Shalimar District Hospital 52,ops0359@enxi.pk,Resolved,Urgent,2024-06-26
+PPE shortage reported - Punjab Health Department #00360,Punjab Health Department,ops0360@enxi.pk,Closed,High,2024-06-28
+Incinerator maintenance required - Ghurki Trust Specialized Hospi #00361,Ghurki Trust Specialized Hospital 48,ops0361@enxi.pk,Closed,High,2024-06-29
+GPS tracker malfunction - Metro Diagnostics 108 #00362,Metro Diagnostics 108,ops0362@enxi.pk,Closed,High,2024-06-30
+Training certificate renewal needed - Punjab Health Department #00363,Punjab Health Department,ops0363@enxi.pk,Closed,Medium,2024-06-30
+Incinerator maintenance required - Central Tertiary Hospital 07 #00364,Central Tertiary Hospital 07,ops0364@enxi.pk,Closed,Medium,2024-06-30
+Incinerator maintenance required - Chughtai Private Hospital 56 #00365,Chughtai Private Hospital 56,ops0365@enxi.pk,Resolved,Urgent,2024-07-04
+PPE shortage reported - Jinnah Tertiary Hospital 32 #00366,Jinnah Tertiary Hospital 32,ops0366@enxi.pk,Closed,Medium,2024-07-05
+Missed waste pickup - Doctors Tertiary Hospital 78 #00367,Doctors Tertiary Hospital 78,ops0367@enxi.pk,Open,Low,2024-07-06
+Missed waste pickup - Allied Lab 114 #00368,Allied Lab 114,ops0368@enxi.pk,Resolved,Low,2024-07-07
+Spill incident during collection - Chughtai Lab #00369,Chughtai Lab,ops0369@enxi.pk,Closed,High,2024-07-14
+Compliance documentation gap - LifeLine General Hospital 11 #00370,LifeLine General Hospital 11,ops0370@enxi.pk,Open,Low,2024-07-17
+Training certificate renewal needed - Doctors Teaching Hospital 36 #00371,Doctors Teaching Hospital 36,ops0371@enxi.pk,Closed,Medium,2024-07-20
+Schedule change request - Gulab Devi Tertiary Hospital 1 #00372,Gulab Devi Tertiary Hospital 13,ops0372@enxi.pk,Closed,Urgent,2024-07-21
+Schedule change request - One Health Lab 117 #00373,One Health Lab 117,ops0373@enxi.pk,Replied,Medium,2024-07-21
+Spill incident during collection - Punjab Environmental Protectio #00374,Punjab Environmental Protection Agency,ops0374@enxi.pk,Replied,Low,2024-07-24
+Container damage reported - Lady Willingdon Tertiary Hospi #00375,Lady Willingdon Tertiary Hospital 60,ops0375@enxi.pk,Replied,Medium,2024-07-25
+Wrong waste segregation at source - Sir Ganga Ram General Hospital #00376,Sir Ganga Ram General Hospital 54,ops0376@enxi.pk,Closed,Low,2024-07-26
+Training certificate renewal needed - Punjab Diagnostic Center 113 #00377,Punjab Diagnostic Center 113,ops0377@enxi.pk,Closed,Medium,2024-07-27
+Janitorial service quality issue - Punjab AIDS Control Program #00378,Punjab AIDS Control Program,ops0378@enxi.pk,Resolved,Low,2024-07-30
+Incinerator maintenance required - Al-Rehman Tertiary Hospital 17 #00379,Al-Rehman Tertiary Hospital 17,ops0379@enxi.pk,Replied,Low,2024-07-31
+Training certificate renewal needed - Sharif Medical Tertiary Hospit #00380,Sharif Medical Tertiary Hospital 71,ops0380@enxi.pk,Closed,Urgent,2024-08-02
+Environmental audit finding - Rehman Diagnostics #00381,Rehman Diagnostics,ops0381@enxi.pk,Closed,High,2024-08-03
+Vehicle breakdown on route - Chughtai Private Hospital 56 #00382,Chughtai Private Hospital 56,ops0382@enxi.pk,Closed,Medium,2024-08-05
+Container damage reported - Fatima Memorial District Hospi #00383,Fatima Memorial District Hospital 65,ops0383@enxi.pk,Closed,Urgent,2024-08-07
+Equipment malfunction - Fatima Memorial Private Hospit #00384,Fatima Memorial Private Hospital 34,ops0384@enxi.pk,Replied,Low,2024-08-07
+Spill incident during collection - Doctors Tertiary Hospital 66 #00385,Doctors Tertiary Hospital 66,ops0385@enxi.pk,Resolved,Low,2024-08-08
+Incinerator maintenance required - Primary & Secondary Healthcare #00386,Primary & Secondary Healthcare Dept,ops0386@enxi.pk,Resolved,Medium,2024-08-10
+Equipment malfunction - LifeLine Tertiary Hospital 64 #00387,LifeLine Tertiary Hospital 64,ops0387@enxi.pk,Open,Medium,2024-08-11
+Schedule change request - District Health Authority Laho #00388,District Health Authority Lahore,ops0388@enxi.pk,Resolved,Urgent,2024-08-11
+Spill incident during collection - Sheikh Zayed General Hospital  #00389,Sheikh Zayed General Hospital 39,ops0389@enxi.pk,Resolved,Medium,2024-08-13
+Expired disposal certificate - Sir Ganga Ram District Hospita #00390,Sir Ganga Ram District Hospital 08,ops0390@enxi.pk,Closed,Urgent,2024-08-14
+Emergency pickup request - Doctors General Hospital 73 #00391,Doctors General Hospital 73,ops0391@enxi.pk,Replied,Urgent,2024-08-15
+Vehicle breakdown on route - Chughtai Lab #00392,Chughtai Lab,ops0392@enxi.pk,Open,Medium,2024-08-15
+Spill incident during collection - Medicare Clinic #00393,Medicare Clinic,ops0393@enxi.pk,Closed,Low,2024-08-15
+Emergency pickup request - Services Teaching Hospital 33 #00394,Services Teaching Hospital 33,ops0394@enxi.pk,Resolved,High,2024-08-17
+Incinerator maintenance required - Al-Razi Clinic 109 #00395,Al-Razi Clinic 109,ops0395@enxi.pk,Closed,Medium,2024-08-19
+Wrong waste segregation at source - District Health Authority Laho #00396,District Health Authority Lahore,ops0396@enxi.pk,Open,Low,2024-08-21
+Invoice discrepancy - Metro Diagnostics 108 #00397,Metro Diagnostics 108,ops0397@enxi.pk,Open,High,2024-08-24
+Compliance documentation gap - Punjab Emergency Service (Resc #00398,Punjab Emergency Service (Rescue 1122),ops0398@enxi.pk,Open,High,2024-08-25
+Equipment malfunction - Islamabad Diagnostics 105 #00399,Islamabad Diagnostics 105,ops0399@enxi.pk,Open,Medium,2024-08-25
+Vehicle breakdown on route - Doctors General Hospital 73 #00400,Doctors General Hospital 73,ops0400@enxi.pk,Resolved,Medium,2024-08-26
+Customer complaint - odor - Ghurki Trust Tertiary Hospital #00401,Ghurki Trust Tertiary Hospital 12,ops0401@enxi.pk,Closed,High,2024-08-29
+Environmental audit finding - Ittefaq General Hospital 25 #00402,Ittefaq General Hospital 25,ops0402@enxi.pk,Closed,Urgent,2024-08-31
+Container damage reported - Directorate of Health Services #00403,Directorate of Health Services Lahore,ops0403@enxi.pk,Open,Low,2024-08-31
+Compliance documentation gap - Metro Diagnostics 108 #00404,Metro Diagnostics 108,ops0404@enxi.pk,Open,High,2024-08-31
+Invoice discrepancy - IDC Lab #00405,IDC Lab,ops0405@enxi.pk,Closed,High,2024-08-31
+Delayed collection - route overrun - Rehman Diagnostics 118 #00406,Rehman Diagnostics 118,ops0406@enxi.pk,Replied,High,2024-08-31
+Emergency pickup request - Punjab Medical Faculty #00407,Punjab Medical Faculty,ops0407@enxi.pk,Replied,High,2024-09-02
+Invoice discrepancy - Sharif Medical General Hospita #00408,Sharif Medical General Hospital 03,ops0408@enxi.pk,Replied,Urgent,2024-09-03
+Delayed collection - route overrun - Punjab Healthcare Commission #00409,Punjab Healthcare Commission,ops0409@enxi.pk,Closed,Medium,2024-09-03
+Invoice discrepancy - Sharif Medical Teaching Hospit #00410,Sharif Medical Teaching Hospital 62,ops0410@enxi.pk,Closed,Medium,2024-09-05
+Container damage reported - National District Hospital 18 #00411,National District Hospital 18,ops0411@enxi.pk,Open,Medium,2024-09-08
+Staff safety incident - LifeLine Tertiary Hospital 64 #00412,LifeLine Tertiary Hospital 64,ops0412@enxi.pk,Replied,Medium,2024-09-09
+Missed waste pickup - Sharif Medical Tertiary Hospit #00413,Sharif Medical Tertiary Hospital 43,ops0413@enxi.pk,Closed,Urgent,2024-09-11
+Incinerator maintenance required - Metro Diagnostics 108 #00414,Metro Diagnostics 108,ops0414@enxi.pk,Replied,Urgent,2024-09-12
+Janitorial service quality issue - One Health Lab #00415,One Health Lab,ops0415@enxi.pk,Open,High,2024-09-14
+GPS tracker malfunction - Dr. Essa Lab 116 #00416,Dr. Essa Lab 116,ops0416@enxi.pk,Closed,Low,2024-09-16
+Expired disposal certificate - Chughtai Tertiary Hospital 57 #00417,Chughtai Tertiary Hospital 57,ops0417@enxi.pk,Closed,High,2024-09-19
+Expired disposal certificate - Chughtai Lab #00418,Chughtai Lab,ops0418@enxi.pk,Open,Urgent,2024-09-19
+Spill incident during collection - Health First Clinic #00419,Health First Clinic,ops0419@enxi.pk,Closed,High,2024-09-19
+Schedule change request - Sir Ganga Ram General Hospital #00420,Sir Ganga Ram General Hospital 54,ops0420@enxi.pk,Replied,Medium,2024-09-20
+Emergency pickup request - Medix Clinic #00421,Medix Clinic,ops0421@enxi.pk,Closed,Medium,2024-09-24
+Expired disposal certificate - Sir Ganga Ram General Hospital #00422,Sir Ganga Ram General Hospital 54,ops0422@enxi.pk,Replied,Medium,2024-09-26
+Emergency pickup request - Qamar Lab #00423,Qamar Lab,ops0423@enxi.pk,Closed,Urgent,2024-09-26
+Emergency pickup request - Shalimar District Hospital 52 #00424,Shalimar District Hospital 52,ops0424@enxi.pk,Resolved,Medium,2024-09-26
+Delayed collection - route overrun - Lady Willingdon Tertiary Hospi #00425,Lady Willingdon Tertiary Hospital 06,ops0425@enxi.pk,Replied,High,2024-09-26
+Missed waste pickup - Punjab Specialized Hospital 42 #00426,Punjab Specialized Hospital 42,ops0426@enxi.pk,Resolved,Medium,2024-09-26
+Container damage reported - Excel Labs #00427,Excel Labs,ops0427@enxi.pk,Replied,Medium,2024-09-28
+Delayed collection - route overrun - Medix Clinic 112 #00428,Medix Clinic 112,ops0428@enxi.pk,Resolved,High,2024-09-28
+PPE shortage reported - Punjab Health Department #00429,Punjab Health Department,ops0429@enxi.pk,Resolved,Medium,2024-09-28
+Training certificate renewal needed - Excel Labs #00430,Excel Labs,ops0430@enxi.pk,Open,Medium,2024-09-29
+Compliance documentation gap - Shaukat Khanum Specialized Hos #00431,Shaukat Khanum Specialized Hospital 63,ops0431@enxi.pk,Closed,Medium,2024-09-30
+Equipment malfunction - Chughtai Lab #00432,Chughtai Lab,ops0432@enxi.pk,Replied,Low,2024-10-01
+Emergency pickup request - Sir Ganga Ram General Hospital #00433,Sir Ganga Ram General Hospital 38,ops0433@enxi.pk,Open,High,2024-10-01
+Missed waste pickup - Ghurki Trust Private Hospital  #00434,Ghurki Trust Private Hospital 61,ops0434@enxi.pk,Closed,Medium,2024-10-02
+Schedule change request - Services Teaching Hospital 33 #00435,Services Teaching Hospital 33,ops0435@enxi.pk,Open,Medium,2024-10-04
+Emergency pickup request - Rehman Diagnostics #00436,Rehman Diagnostics,ops0436@enxi.pk,Replied,Medium,2024-10-09
+Delayed collection - route overrun - Sharif Medical Teaching Hospit #00437,Sharif Medical Teaching Hospital 62,ops0437@enxi.pk,Open,Medium,2024-10-11
+Invoice discrepancy - Agha Khan Lab Lahore #00438,Agha Khan Lab Lahore,ops0438@enxi.pk,Resolved,Medium,2024-10-12
+Incinerator maintenance required - Sharif Medical District Hospit #00439,Sharif Medical District Hospital 30,ops0439@enxi.pk,Replied,Low,2024-10-13
+Expired disposal certificate - Mayo Teaching Hospital 05 #00440,Mayo Teaching Hospital 05,ops0440@enxi.pk,Resolved,Low,2024-10-15
+Equipment malfunction - Gulab Devi Tertiary Hospital 2 #00441,Gulab Devi Tertiary Hospital 28,ops0441@enxi.pk,Open,Low,2024-10-16
+PPE shortage reported - Lady Willingdon Tertiary Hospi #00442,Lady Willingdon Tertiary Hospital 06,ops0442@enxi.pk,Replied,Urgent,2024-10-21
+Schedule change request - Shaukat Khanum District Hospit #00443,Shaukat Khanum District Hospital 45,ops0443@enxi.pk,Replied,Medium,2024-10-26
+Training certificate renewal needed - Shalimar District Hospital 52 #00444,Shalimar District Hospital 52,ops0444@enxi.pk,Resolved,Medium,2024-10-27
+Invoice discrepancy - Chughtai Private Hospital 56 #00445,Chughtai Private Hospital 56,ops0445@enxi.pk,Replied,Low,2024-10-29
+Vehicle breakdown on route - Shaukat Khanum Teaching Hospit #00446,Shaukat Khanum Teaching Hospital 50,ops0446@enxi.pk,Open,High,2024-10-29
+Emergency pickup request - Fatima Memorial Private Hospit #00447,Fatima Memorial Private Hospital 34,ops0447@enxi.pk,Replied,High,2024-10-29
+Wrong waste segregation at source - Ghurki Trust Specialized Hospi #00448,Ghurki Trust Specialized Hospital 48,ops0448@enxi.pk,Resolved,Urgent,2024-10-30
+Container damage reported - Punjab AIDS Control Program #00449,Punjab AIDS Control Program,ops0449@enxi.pk,Open,Low,2024-10-30
+Training certificate renewal needed - Doctors Teaching Hospital 36 #00450,Doctors Teaching Hospital 36,ops0450@enxi.pk,Open,Medium,2024-10-30
+Environmental audit finding - City Care Tertiary Hospital 20 #00451,City Care Tertiary Hospital 20,ops0451@enxi.pk,Resolved,High,2024-11-01
+Spill incident during collection - Medix Clinic #00452,Medix Clinic,ops0452@enxi.pk,Closed,Low,2024-11-01
+Vehicle breakdown on route - Punjab AIDS Control Program #00453,Punjab AIDS Control Program,ops0453@enxi.pk,Closed,Urgent,2024-11-02
+Janitorial service quality issue - Shaukat Khanum Lab #00454,Shaukat Khanum Lab,ops0454@enxi.pk,Replied,Medium,2024-11-02
+Equipment malfunction - Ghurki Trust Private Hospital  #00455,Ghurki Trust Private Hospital 79,ops0455@enxi.pk,Closed,Medium,2024-11-03
+GPS tracker malfunction - Shaukat Khanum Teaching Hospit #00456,Shaukat Khanum Teaching Hospital 72,ops0456@enxi.pk,Replied,Urgent,2024-11-06
+Incinerator maintenance required - Ghurki Trust Specialized Hospi #00457,Ghurki Trust Specialized Hospital 31,ops0457@enxi.pk,Open,Medium,2024-11-07
+Equipment malfunction - Services Specialized Hospital  #00458,Services Specialized Hospital 04,ops0458@enxi.pk,Open,High,2024-11-08
+Container damage reported - Services Specialized Hospital  #00459,Services Specialized Hospital 77,ops0459@enxi.pk,Open,Medium,2024-11-09
+Emergency pickup request - Ghurki Trust Tertiary Hospital #00460,Ghurki Trust Tertiary Hospital 12,ops0460@enxi.pk,Closed,Low,2024-11-10
+Spill incident during collection - Children District Hospital 55 #00461,Children District Hospital 55,ops0461@enxi.pk,Open,Urgent,2024-11-15
+Missed waste pickup - National District Hospital 18 #00462,National District Hospital 18,ops0462@enxi.pk,Open,High,2024-11-16
+Invoice discrepancy - Chughtai Tertiary Hospital 57 #00463,Chughtai Tertiary Hospital 57,ops0463@enxi.pk,Resolved,Urgent,2024-11-17
+Wrong waste segregation at source - Gulab Devi Tertiary Hospital 1 #00464,Gulab Devi Tertiary Hospital 13,ops0464@enxi.pk,Resolved,Medium,2024-11-20
+Schedule change request - Metro Diagnostics #00465,Metro Diagnostics,ops0465@enxi.pk,Replied,Medium,2024-11-28
+GPS tracker malfunction - Sir Ganga Ram General Hospital #00466,Sir Ganga Ram General Hospital 38,ops0466@enxi.pk,Resolved,Medium,2024-11-29
+Vehicle breakdown on route - Rehman Diagnostics #00467,Rehman Diagnostics,ops0467@enxi.pk,Resolved,Medium,2024-12-04
+Training certificate renewal needed - Central Tertiary Hospital 07 #00468,Central Tertiary Hospital 07,ops0468@enxi.pk,Resolved,Urgent,2024-12-05
+Invoice discrepancy - Sir Ganga Ram Tertiary Hospita #00469,Sir Ganga Ram Tertiary Hospital 75,ops0469@enxi.pk,Closed,Urgent,2024-12-06
+Delayed collection - route overrun - Sir Ganga Ram Tertiary Hospita #00470,Sir Ganga Ram Tertiary Hospital 46,ops0470@enxi.pk,Replied,High,2024-12-07
+Customer complaint - odor - Gulab Devi Tertiary Hospital 1 #00471,Gulab Devi Tertiary Hospital 13,ops0471@enxi.pk,Closed,Medium,2024-12-10
+Vehicle breakdown on route - Central Tertiary Hospital 07 #00472,Central Tertiary Hospital 07,ops0472@enxi.pk,Resolved,Urgent,2024-12-11
+Spill incident during collection - Ghurki Trust Specialized Hospi #00473,Ghurki Trust Specialized Hospital 48,ops0473@enxi.pk,Open,Urgent,2024-12-13
+Environmental audit finding - Lahore General Tertiary Hospit #00474,Lahore General Tertiary Hospital 27,ops0474@enxi.pk,Open,Low,2024-12-20
+Janitorial service quality issue - Ghurki Trust Private Hospital  #00475,Ghurki Trust Private Hospital 79,ops0475@enxi.pk,Open,Medium,2024-12-20
+Customer complaint - odor - Rehman Diagnostics #00476,Rehman Diagnostics,ops0476@enxi.pk,Closed,Urgent,2024-12-21
+Spill incident during collection - Children Teaching Hospital 80 #00477,Children Teaching Hospital 80,ops0477@enxi.pk,Resolved,Low,2024-12-21
+GPS tracker malfunction - Surgimed District Hospital 23 #00478,Surgimed District Hospital 23,ops0478@enxi.pk,Open,Medium,2024-12-22
+Schedule change request - Qamar Lab #00479,Qamar Lab,ops0479@enxi.pk,Closed,Medium,2024-12-25
+Expired disposal certificate - Punjab Healthcare Commission #00480,Punjab Healthcare Commission,ops0480@enxi.pk,Resolved,Medium,2024-12-25
+Invoice discrepancy - Doctors Tertiary Hospital 78 #00481,Doctors Tertiary Hospital 78,ops0481@enxi.pk,Closed,Medium,2024-12-30
+Customer complaint - odor - Rehman Diagnostics #00482,Rehman Diagnostics,ops0482@enxi.pk,Closed,Low,2024-12-31
+Container damage reported - Punjab AIDS Control Program #00483,Punjab AIDS Control Program,ops0483@enxi.pk,Resolved,Medium,2025-01-01
+Wrong waste segregation at source - Saleem Lab 119 #00484,Saleem Lab 119,ops0484@enxi.pk,Closed,High,2025-01-02
+Equipment malfunction - Chughtai Tertiary Hospital 57 #00485,Chughtai Tertiary Hospital 57,ops0485@enxi.pk,Closed,High,2025-01-09
+Spill incident during collection - Punjab Emergency Service (Resc #00486,Punjab Emergency Service (Rescue 1122),ops0486@enxi.pk,Closed,Medium,2025-01-09
+Incinerator maintenance required - Punjab Diagnostic Center 113 #00487,Punjab Diagnostic Center 113,ops0487@enxi.pk,Closed,Medium,2025-01-09
+Delayed collection - route overrun - Prime Tertiary Hospital 24 #00488,Prime Tertiary Hospital 24,ops0488@enxi.pk,Resolved,Urgent,2025-01-10
+Environmental audit finding - Chughtai Tertiary Hospital 57 #00489,Chughtai Tertiary Hospital 57,ops0489@enxi.pk,Resolved,Urgent,2025-01-11
+Training certificate renewal needed - Saleem Lab 119 #00490,Saleem Lab 119,ops0490@enxi.pk,Closed,Medium,2025-01-14
+Training certificate renewal needed - City Lab 107 #00491,City Lab 107,ops0491@enxi.pk,Replied,Medium,2025-01-14
+Delayed collection - route overrun - Chughtai Lab 101 #00492,Chughtai Lab 101,ops0492@enxi.pk,Replied,Urgent,2025-01-17
+Schedule change request - IDC Lab #00493,IDC Lab,ops0493@enxi.pk,Open,Low,2025-01-20
+Janitorial service quality issue - Sir Ganga Ram General Hospital #00494,Sir Ganga Ram General Hospital 54,ops0494@enxi.pk,Replied,Medium,2025-01-20
+Schedule change request - Hameed Latif District Hospital #00495,Hameed Latif District Hospital 26,ops0495@enxi.pk,Open,High,2025-01-21
+Staff safety incident - City Care Teaching Hospital 40 #00496,City Care Teaching Hospital 40,ops0496@enxi.pk,Open,Medium,2025-01-24
+Container damage reported - Children District Hospital 55 #00497,Children District Hospital 55,ops0497@enxi.pk,Closed,Low,2025-01-24
+Invoice discrepancy - One Health Lab 117 #00498,One Health Lab 117,ops0498@enxi.pk,Closed,Medium,2025-01-25
+Environmental audit finding - Chughtai Private Hospital 56 #00499,Chughtai Private Hospital 56,ops0499@enxi.pk,Closed,Low,2025-01-25
+Expired disposal certificate - Sir Ganga Ram Tertiary Hospita #00500,Sir Ganga Ram Tertiary Hospital 46,ops0500@enxi.pk,Resolved,Low,2025-01-26
+Staff safety incident - One Health Lab #00501,One Health Lab,ops0501@enxi.pk,Resolved,Medium,2025-01-28
+Container damage reported - Services Teaching Hospital 33 #00502,Services Teaching Hospital 33,ops0502@enxi.pk,Replied,Low,2025-01-28
+Emergency pickup request - Qamar Lab #00503,Qamar Lab,ops0503@enxi.pk,Replied,Medium,2025-01-28
+Staff safety incident - Metro Diagnostics #00504,Metro Diagnostics,ops0504@enxi.pk,Closed,Medium,2025-01-29
+Janitorial service quality issue - City Lab 107 #00505,City Lab 107,ops0505@enxi.pk,Closed,Medium,2025-01-29
+Equipment malfunction - LifeLine Tertiary Hospital 64 #00506,LifeLine Tertiary Hospital 64,ops0506@enxi.pk,Closed,High,2025-01-30
+Staff safety incident - Punjab Tertiary Hospital 37 #00507,Punjab Tertiary Hospital 37,ops0507@enxi.pk,Resolved,Medium,2025-01-31
+Vehicle breakdown on route - City Care Teaching Hospital 40 #00508,City Care Teaching Hospital 40,ops0508@enxi.pk,Closed,Urgent,2025-02-01
+Container damage reported - Punjab Medical Faculty #00509,Punjab Medical Faculty,ops0509@enxi.pk,Open,Medium,2025-02-01
+GPS tracker malfunction - Dr. Essa Lab #00510,Dr. Essa Lab,ops0510@enxi.pk,Closed,Urgent,2025-02-02
+Schedule change request - Shaukat Khanum Teaching Hospit #00511,Shaukat Khanum Teaching Hospital 50,ops0511@enxi.pk,Closed,Low,2025-02-04
+Training certificate renewal needed - Doctors Teaching Hospital 35 #00512,Doctors Teaching Hospital 35,ops0512@enxi.pk,Closed,Medium,2025-02-05
+Customer complaint - odor - Shalimar District Hospital 52 #00513,Shalimar District Hospital 52,ops0513@enxi.pk,Closed,Urgent,2025-02-05
+Container damage reported - Medicare Clinic #00514,Medicare Clinic,ops0514@enxi.pk,Closed,Urgent,2025-02-08
+Customer complaint - odor - Fatima Memorial Private Hospit #00515,Fatima Memorial Private Hospital 34,ops0515@enxi.pk,Resolved,Medium,2025-02-08
+Schedule change request - Excel Labs 104 #00516,Excel Labs 104,ops0516@enxi.pk,Open,Medium,2025-02-09
+Spill incident during collection - Ghurki Trust Tertiary Hospital #00517,Ghurki Trust Tertiary Hospital 12,ops0517@enxi.pk,Closed,Medium,2025-02-10
+Emergency pickup request - Saleem Lab 119 #00518,Saleem Lab 119,ops0518@enxi.pk,Resolved,High,2025-02-10
+Vehicle breakdown on route - Health First Clinic 111 #00519,Health First Clinic 111,ops0519@enxi.pk,Closed,Medium,2025-02-12
+Invoice discrepancy - Chughtai Tertiary Hospital 57 #00520,Chughtai Tertiary Hospital 57,ops0520@enxi.pk,Open,Medium,2025-02-14
+PPE shortage reported - Sharif Medical Teaching Hospit #00521,Sharif Medical Teaching Hospital 62,ops0521@enxi.pk,Closed,Low,2025-02-18
+Training certificate renewal needed - Punjab Health Department #00522,Punjab Health Department,ops0522@enxi.pk,Replied,High,2025-02-19
+Compliance documentation gap - LifeLine Tertiary Hospital 64 #00523,LifeLine Tertiary Hospital 64,ops0523@enxi.pk,Closed,Medium,2025-02-20
+Staff safety incident - Chughtai Lab 101 #00524,Chughtai Lab 101,ops0524@enxi.pk,Closed,Medium,2025-02-22
+Janitorial service quality issue - Shaukat Khanum Teaching Hospit #00525,Shaukat Khanum Teaching Hospital 50,ops0525@enxi.pk,Resolved,Medium,2025-02-22
+Customer complaint - odor - Punjab Medical Faculty #00526,Punjab Medical Faculty,ops0526@enxi.pk,Open,High,2025-02-23
+Incinerator maintenance required - Doctors Tertiary Hospital 66 #00527,Doctors Tertiary Hospital 66,ops0527@enxi.pk,Resolved,Medium,2025-02-26
+Emergency pickup request - Gulab Devi District Hospital 4 #00528,Gulab Devi District Hospital 44,ops0528@enxi.pk,Resolved,High,2025-02-28
+Schedule change request - Saleem Lab 119 #00529,Saleem Lab 119,ops0529@enxi.pk,Resolved,Urgent,2025-03-01
+Incinerator maintenance required - Lahore General Tertiary Hospit #00530,Lahore General Tertiary Hospital 27,ops0530@enxi.pk,Replied,Medium,2025-03-03
+PPE shortage reported - Al-Rehman Tertiary Hospital 17 #00531,Al-Rehman Tertiary Hospital 17,ops0531@enxi.pk,Closed,Urgent,2025-03-03
+Incinerator maintenance required - Shaukat Khanum Teaching Hospit #00532,Shaukat Khanum Teaching Hospital 72,ops0532@enxi.pk,Resolved,Low,2025-03-04
+Spill incident during collection - Metro Diagnostics #00533,Metro Diagnostics,ops0533@enxi.pk,Open,Medium,2025-03-06
+Invoice discrepancy - Central Tertiary Hospital 07 #00534,Central Tertiary Hospital 07,ops0534@enxi.pk,Replied,Low,2025-03-06
+Container damage reported - Mayo District Hospital 01 #00535,Mayo District Hospital 01,ops0535@enxi.pk,Resolved,Low,2025-03-07
+Emergency pickup request - District Health Authority Laho #00536,District Health Authority Lahore,ops0536@enxi.pk,Replied,Medium,2025-03-07
+Missed waste pickup - Sir Ganga Ram General Hospital #00537,Sir Ganga Ram General Hospital 38,ops0537@enxi.pk,Open,Medium,2025-03-08
+Training certificate renewal needed - Sir Ganga Ram General Hospital #00538,Sir Ganga Ram General Hospital 54,ops0538@enxi.pk,Closed,Urgent,2025-03-09
+Invoice discrepancy - City Lab #00539,City Lab,ops0539@enxi.pk,Closed,Urgent,2025-03-13
+Incinerator maintenance required - Punjab Diagnostic Center #00540,Punjab Diagnostic Center,ops0540@enxi.pk,Closed,High,2025-03-18
+Vehicle breakdown on route - Ghurki Trust Specialized Hospi #00541,Ghurki Trust Specialized Hospital 48,ops0541@enxi.pk,Open,Medium,2025-03-18
+Missed waste pickup - Medicare Clinic #00542,Medicare Clinic,ops0542@enxi.pk,Resolved,Low,2025-03-18
+Invoice discrepancy - Fatima Memorial Tertiary Hospi #00543,Fatima Memorial Tertiary Hospital 09,ops0543@enxi.pk,Closed,Medium,2025-03-19
+Vehicle breakdown on route - Gulab Devi District Hospital 4 #00544,Gulab Devi District Hospital 44,ops0544@enxi.pk,Closed,High,2025-03-20
+Janitorial service quality issue - Prime Tertiary Hospital 24 #00545,Prime Tertiary Hospital 24,ops0545@enxi.pk,Closed,Medium,2025-03-21
+Compliance documentation gap - Sir Ganga Ram District Hospita #00546,Sir Ganga Ram District Hospital 08,ops0546@enxi.pk,Open,Medium,2025-03-23
+Compliance documentation gap - Agha Khan Lab Lahore #00547,Agha Khan Lab Lahore,ops0547@enxi.pk,Closed,Medium,2025-03-26
+Equipment malfunction - Ghurki Trust Specialized Hospi #00548,Ghurki Trust Specialized Hospital 31,ops0548@enxi.pk,Closed,Medium,2025-03-27
+Janitorial service quality issue - LifeLine Tertiary Hospital 64 #00549,LifeLine Tertiary Hospital 64,ops0549@enxi.pk,Closed,Medium,2025-03-28
+Compliance documentation gap - Dr. Essa Lab 116 #00550,Dr. Essa Lab 116,ops0550@enxi.pk,Replied,Urgent,2025-03-31
+Staff safety incident - Primary & Secondary Healthcare #00551,Primary & Secondary Healthcare Dept,ops0551@enxi.pk,Open,Low,2025-04-03
+Schedule change request - Punjab Diagnostic Center 113 #00552,Punjab Diagnostic Center 113,ops0552@enxi.pk,Replied,Urgent,2025-04-05
+Environmental audit finding - Sir Ganga Ram District Hospita #00553,Sir Ganga Ram District Hospital 08,ops0553@enxi.pk,Replied,Medium,2025-04-05
+Environmental audit finding - Sharif Medical Tertiary Hospit #00554,Sharif Medical Tertiary Hospital 71,ops0554@enxi.pk,Closed,Low,2025-04-07
+Incinerator maintenance required - Medicare Clinic #00555,Medicare Clinic,ops0555@enxi.pk,Closed,Low,2025-04-07
+Vehicle breakdown on route - Surgimed General Hospital 58 #00556,Surgimed General Hospital 58,ops0556@enxi.pk,Resolved,Medium,2025-04-08
+Equipment malfunction - Jinnah Tertiary Hospital 32 #00557,Jinnah Tertiary Hospital 32,ops0557@enxi.pk,Replied,High,2025-04-08
+Wrong waste segregation at source - Central Tertiary Hospital 07 #00558,Central Tertiary Hospital 07,ops0558@enxi.pk,Closed,Medium,2025-04-09
+Container damage reported - Punjab Healthcare Commission #00559,Punjab Healthcare Commission,ops0559@enxi.pk,Closed,Low,2025-04-10
+Incinerator maintenance required - Sir Ganga Ram General Hospital #00560,Sir Ganga Ram General Hospital 54,ops0560@enxi.pk,Replied,Low,2025-04-14
+Missed waste pickup - Fatima Memorial District Hospi #00561,Fatima Memorial District Hospital 65,ops0561@enxi.pk,Open,High,2025-04-16
+Schedule change request - Ittefaq District Hospital 19 #00562,Ittefaq District Hospital 19,ops0562@enxi.pk,Resolved,Urgent,2025-04-18
+Spill incident during collection - Excel Labs 104 #00563,Excel Labs 104,ops0563@enxi.pk,Resolved,Urgent,2025-04-20
+PPE shortage reported - Punjab Health Department #00564,Punjab Health Department,ops0564@enxi.pk,Closed,Low,2025-04-21
+Environmental audit finding - Al-Razi Clinic 109 #00565,Al-Razi Clinic 109,ops0565@enxi.pk,Replied,Medium,2025-04-21
+Equipment malfunction - Gulab Devi District Hospital 4 #00566,Gulab Devi District Hospital 44,ops0566@enxi.pk,Closed,Low,2025-04-22
+Staff safety incident - City Care Tertiary Hospital 02 #00567,City Care Tertiary Hospital 02,ops0567@enxi.pk,Replied,High,2025-04-23
+Expired disposal certificate - Prime Teaching Hospital 14 #00568,Prime Teaching Hospital 14,ops0568@enxi.pk,Open,Low,2025-04-24
+Janitorial service quality issue - Services Specialized Hospital  #00569,Services Specialized Hospital 77,ops0569@enxi.pk,Replied,High,2025-04-25
+Customer complaint - odor - Islamabad Diagnostics #00570,Islamabad Diagnostics,ops0570@enxi.pk,Resolved,Low,2025-04-28
+PPE shortage reported - Children District Hospital 55 #00571,Children District Hospital 55,ops0571@enxi.pk,Replied,High,2025-05-01
+Container damage reported - Directorate of Health Services #00572,Directorate of Health Services Lahore,ops0572@enxi.pk,Resolved,High,2025-05-01
+Incinerator maintenance required - Excel Labs 104 #00573,Excel Labs 104,ops0573@enxi.pk,Closed,High,2025-05-04
+Wrong waste segregation at source - Ghurki Trust Specialized Hospi #00574,Ghurki Trust Specialized Hospital 31,ops0574@enxi.pk,Closed,High,2025-05-06
+Invoice discrepancy - Lahore Diagnostics #00575,Lahore Diagnostics,ops0575@enxi.pk,Replied,Urgent,2025-05-10
+Spill incident during collection - Punjab Emergency Service (Resc #00576,Punjab Emergency Service (Rescue 1122),ops0576@enxi.pk,Resolved,High,2025-05-12
+Customer complaint - odor - Lahore Diagnostics 106 #00577,Lahore Diagnostics 106,ops0577@enxi.pk,Replied,High,2025-05-13
+PPE shortage reported - Medicare Clinic 110 #00578,Medicare Clinic 110,ops0578@enxi.pk,Open,Urgent,2025-05-13
+Customer complaint - odor - Health First Clinic #00579,Health First Clinic,ops0579@enxi.pk,Open,High,2025-05-13
+Compliance documentation gap - Medicare Clinic 110 #00580,Medicare Clinic 110,ops0580@enxi.pk,Replied,Medium,2025-05-14
+GPS tracker malfunction - Sharif Medical District Hospit #00581,Sharif Medical District Hospital 30,ops0581@enxi.pk,Resolved,Low,2025-05-16
+Wrong waste segregation at source - One Health Lab #00582,One Health Lab,ops0582@enxi.pk,Closed,Low,2025-05-18
+Emergency pickup request - Excel Labs #00583,Excel Labs,ops0583@enxi.pk,Closed,Urgent,2025-05-20
+Expired disposal certificate - Mayo Specialized Hospital 10 #00584,Mayo Specialized Hospital 10,ops0584@enxi.pk,Closed,Urgent,2025-05-21
+Equipment malfunction - Noor District Hospital 68 #00585,Noor District Hospital 68,ops0585@enxi.pk,Closed,Low,2025-05-23
+Missed waste pickup - IDC Lab 103 #00586,IDC Lab 103,ops0586@enxi.pk,Resolved,Urgent,2025-05-23
+Schedule change request - Services Specialized Hospital  #00587,Services Specialized Hospital 04,ops0587@enxi.pk,Replied,Low,2025-05-25
+PPE shortage reported - Dr. Essa Lab #00588,Dr. Essa Lab,ops0588@enxi.pk,Replied,Low,2025-05-26
+Compliance documentation gap - One Health Lab 117 #00589,One Health Lab 117,ops0589@enxi.pk,Replied,High,2025-05-27
+Emergency pickup request - IDC Lab 103 #00590,IDC Lab 103,ops0590@enxi.pk,Closed,High,2025-05-27
+GPS tracker malfunction - Dr. Essa Lab #00591,Dr. Essa Lab,ops0591@enxi.pk,Open,Low,2025-05-29
+Spill incident during collection - Medicare Clinic 110 #00592,Medicare Clinic 110,ops0592@enxi.pk,Closed,High,2025-06-02
+Compliance documentation gap - Qamar Lab #00593,Qamar Lab,ops0593@enxi.pk,Closed,Urgent,2025-06-03
+Container damage reported - Punjab Medical Faculty #00594,Punjab Medical Faculty,ops0594@enxi.pk,Closed,Medium,2025-06-03
+Environmental audit finding - Sharif Medical General Hospita #00595,Sharif Medical General Hospital 03,ops0595@enxi.pk,Replied,Urgent,2025-06-06
+Invoice discrepancy - One Health Lab 117 #00596,One Health Lab 117,ops0596@enxi.pk,Closed,Medium,2025-06-07
+Invoice discrepancy - Al-Razi Clinic 109 #00597,Al-Razi Clinic 109,ops0597@enxi.pk,Open,Medium,2025-06-08
+Staff safety incident - Directorate of Health Services #00598,Directorate of Health Services Lahore,ops0598@enxi.pk,Closed,Low,2025-06-08
+Invoice discrepancy - Medicare Clinic 110 #00599,Medicare Clinic 110,ops0599@enxi.pk,Replied,Low,2025-06-11
+Emergency pickup request - LifeLine General Hospital 11 #00600,LifeLine General Hospital 11,ops0600@enxi.pk,Open,Medium,2025-06-12
+Customer complaint - odor - Shaukat Khanum District Hospit #00601,Shaukat Khanum District Hospital 45,ops0601@enxi.pk,Closed,Medium,2025-06-15
+Customer complaint - odor - Sharif Medical Teaching Hospit #00602,Sharif Medical Teaching Hospital 62,ops0602@enxi.pk,Closed,Low,2025-06-18
+GPS tracker malfunction - City Care Tertiary Hospital 20 #00603,City Care Tertiary Hospital 20,ops0603@enxi.pk,Closed,Medium,2025-06-18
+Environmental audit finding - Ghurki Trust Specialized Hospi #00604,Ghurki Trust Specialized Hospital 48,ops0604@enxi.pk,Replied,High,2025-06-20
+Missed waste pickup - Children Teaching Hospital 80 #00605,Children Teaching Hospital 80,ops0605@enxi.pk,Closed,Medium,2025-06-23
+Compliance documentation gap - Doctors Tertiary Hospital 78 #00606,Doctors Tertiary Hospital 78,ops0606@enxi.pk,Resolved,Medium,2025-06-23
+Spill incident during collection - Services Teaching Hospital 33 #00607,Services Teaching Hospital 33,ops0607@enxi.pk,Closed,Medium,2025-06-24
+Container damage reported - Allied Lab #00608,Allied Lab,ops0608@enxi.pk,Open,Urgent,2025-06-25
+Incinerator maintenance required - Services District Hospital 41 #00609,Services District Hospital 41,ops0609@enxi.pk,Closed,Low,2025-06-26
+Wrong waste segregation at source - Ghurki Trust Tertiary Hospital #00610,Ghurki Trust Tertiary Hospital 12,ops0610@enxi.pk,Replied,High,2025-07-02
+Missed waste pickup - Directorate of Health Services #00611,Directorate of Health Services Lahore,ops0611@enxi.pk,Resolved,High,2025-07-02
+Customer complaint - odor - Doctors Tertiary Hospital 78 #00612,Doctors Tertiary Hospital 78,ops0612@enxi.pk,Closed,High,2025-07-02
+Expired disposal certificate - Sir Ganga Ram General Hospital #00613,Sir Ganga Ram General Hospital 38,ops0613@enxi.pk,Closed,Urgent,2025-07-03
+Janitorial service quality issue - Dr. Essa Lab #00614,Dr. Essa Lab,ops0614@enxi.pk,Open,Medium,2025-07-04
+Compliance documentation gap - Punjab Specialized Hospital 42 #00615,Punjab Specialized Hospital 42,ops0615@enxi.pk,Resolved,Medium,2025-07-05
+Emergency pickup request - Medix Clinic 112 #00616,Medix Clinic 112,ops0616@enxi.pk,Open,Medium,2025-07-07
+Container damage reported - Prime Teaching Hospital 14 #00617,Prime Teaching Hospital 14,ops0617@enxi.pk,Open,Urgent,2025-07-09
+Compliance documentation gap - Lahore General District Hospit #00618,Lahore General District Hospital 69,ops0618@enxi.pk,Resolved,Medium,2025-07-11
+Incinerator maintenance required - Metro Diagnostics #00619,Metro Diagnostics,ops0619@enxi.pk,Replied,Medium,2025-07-12
+Invoice discrepancy - Ghurki Trust Specialized Hospi #00620,Ghurki Trust Specialized Hospital 31,ops0620@enxi.pk,Replied,Urgent,2025-07-13
+Wrong waste segregation at source - Excel Labs #00621,Excel Labs,ops0621@enxi.pk,Open,Medium,2025-07-13
+Environmental audit finding - Excel Labs #00622,Excel Labs,ops0622@enxi.pk,Open,High,2025-07-14
+Equipment malfunction - Punjab AIDS Control Program #00623,Punjab AIDS Control Program,ops0623@enxi.pk,Resolved,Medium,2025-07-14
+Delayed collection - route overrun - Gulab Devi District Hospital 4 #00624,Gulab Devi District Hospital 44,ops0624@enxi.pk,Replied,Medium,2025-07-14
+Emergency pickup request - LifeLine Tertiary Hospital 64 #00625,LifeLine Tertiary Hospital 64,ops0625@enxi.pk,Resolved,Low,2025-07-15
+Environmental audit finding - Ghurki Trust Private Hospital  #00626,Ghurki Trust Private Hospital 79,ops0626@enxi.pk,Resolved,Medium,2025-07-15
+Spill incident during collection - Doctors Private Hospital 29 #00627,Doctors Private Hospital 29,ops0627@enxi.pk,Open,Low,2025-07-16
+Equipment malfunction - Saleem Lab #00628,Saleem Lab,ops0628@enxi.pk,Replied,Urgent,2025-07-21
+Compliance documentation gap - Sir Ganga Ram District Hospita #00629,Sir Ganga Ram District Hospital 08,ops0629@enxi.pk,Open,Medium,2025-07-21
+PPE shortage reported - Sheikh Zayed General Hospital  #00630,Sheikh Zayed General Hospital 39,ops0630@enxi.pk,Closed,Medium,2025-07-23
+Incinerator maintenance required - Noor Specialized Hospital 51 #00631,Noor Specialized Hospital 51,ops0631@enxi.pk,Replied,Medium,2025-07-24
+Container damage reported - Shaukat Khanum Specialized Hos #00632,Shaukat Khanum Specialized Hospital 63,ops0632@enxi.pk,Closed,High,2025-07-24
+Wrong waste segregation at source - Doctors Teaching Hospital 35 #00633,Doctors Teaching Hospital 35,ops0633@enxi.pk,Closed,Medium,2025-07-28
+Wrong waste segregation at source - Sharif Medical District Hospit #00634,Sharif Medical District Hospital 30,ops0634@enxi.pk,Resolved,Low,2025-07-29
+Delayed collection - route overrun - Lahore Diagnostics 106 #00635,Lahore Diagnostics 106,ops0635@enxi.pk,Closed,Medium,2025-07-29
+Emergency pickup request - Punjab Health Department #00636,Punjab Health Department,ops0636@enxi.pk,Closed,Medium,2025-07-30
+PPE shortage reported - Central District Hospital 53 #00637,Central District Hospital 53,ops0637@enxi.pk,Closed,Urgent,2025-07-30
+Schedule change request - Mayo Specialized Hospital 10 #00638,Mayo Specialized Hospital 10,ops0638@enxi.pk,Closed,Medium,2025-07-31
+Spill incident during collection - Sir Ganga Ram General Hospital #00639,Sir Ganga Ram General Hospital 54,ops0639@enxi.pk,Open,Medium,2025-08-02
+Environmental audit finding - Lahore Diagnostics 106 #00640,Lahore Diagnostics 106,ops0640@enxi.pk,Open,Medium,2025-08-04
+Emergency pickup request - Chughtai Lab 101 #00641,Chughtai Lab 101,ops0641@enxi.pk,Closed,Medium,2025-08-05
+Equipment malfunction - Primary & Secondary Healthcare #00642,Primary & Secondary Healthcare Dept,ops0642@enxi.pk,Replied,High,2025-08-06
+Equipment malfunction - Agha Khan Lab Lahore #00643,Agha Khan Lab Lahore,ops0643@enxi.pk,Replied,High,2025-08-06
+Compliance documentation gap - Jinnah Tertiary Hospital 15 #00644,Jinnah Tertiary Hospital 15,ops0644@enxi.pk,Replied,Low,2025-08-09
+Invoice discrepancy - Central District Hospital 53 #00645,Central District Hospital 53,ops0645@enxi.pk,Replied,Medium,2025-08-09
+Staff safety incident - Jinnah Tertiary Hospital 15 #00646,Jinnah Tertiary Hospital 15,ops0646@enxi.pk,Open,Urgent,2025-08-10
+Environmental audit finding - Shaukat Khanum Teaching Hospit #00647,Shaukat Khanum Teaching Hospital 72,ops0647@enxi.pk,Open,Low,2025-08-12
+Environmental audit finding - Saleem Lab 119 #00648,Saleem Lab 119,ops0648@enxi.pk,Replied,High,2025-08-13
+Expired disposal certificate - Punjab Healthcare Commission #00649,Punjab Healthcare Commission,ops0649@enxi.pk,Resolved,High,2025-08-14
+Vehicle breakdown on route - Lady Willingdon Tertiary Hospi #00650,Lady Willingdon Tertiary Hospital 06,ops0650@enxi.pk,Resolved,Medium,2025-08-15
+Missed waste pickup - Services Specialized Hospital  #00651,Services Specialized Hospital 04,ops0651@enxi.pk,Replied,Urgent,2025-08-15
+PPE shortage reported - Sir Ganga Ram General Hospital #00652,Sir Ganga Ram General Hospital 38,ops0652@enxi.pk,Replied,Low,2025-08-19
+GPS tracker malfunction - Children Teaching Hospital 80 #00653,Children Teaching Hospital 80,ops0653@enxi.pk,Replied,Medium,2025-08-19
+Staff safety incident - Punjab Emergency Service (Resc #00654,Punjab Emergency Service (Rescue 1122),ops0654@enxi.pk,Resolved,Low,2025-08-20
+Compliance documentation gap - Ghurki Trust Private Hospital  #00655,Ghurki Trust Private Hospital 79,ops0655@enxi.pk,Closed,Medium,2025-08-21
+Training certificate renewal needed - Excel Labs #00656,Excel Labs,ops0656@enxi.pk,Replied,High,2025-08-21
+Expired disposal certificate - One Health Lab 117 #00657,One Health Lab 117,ops0657@enxi.pk,Replied,Medium,2025-08-22
+Delayed collection - route overrun - Punjab Environmental Protectio #00658,Punjab Environmental Protection Agency,ops0658@enxi.pk,Closed,Urgent,2025-08-24
+Container damage reported - Medicare Clinic 110 #00659,Medicare Clinic 110,ops0659@enxi.pk,Replied,Low,2025-08-24
+Vehicle breakdown on route - Children Teaching Hospital 80 #00660,Children Teaching Hospital 80,ops0660@enxi.pk,Closed,Low,2025-08-24
+PPE shortage reported - Directorate of Health Services #00661,Directorate of Health Services Lahore,ops0661@enxi.pk,Resolved,Urgent,2025-08-26
+Schedule change request - LifeLine Tertiary Hospital 64 #00662,LifeLine Tertiary Hospital 64,ops0662@enxi.pk,Resolved,Low,2025-08-26
+Customer complaint - odor - Medix Clinic 112 #00663,Medix Clinic 112,ops0663@enxi.pk,Closed,Medium,2025-08-27
+Vehicle breakdown on route - Farooq General Hospital 70 #00664,Farooq General Hospital 70,ops0664@enxi.pk,Resolved,Low,2025-08-30
+Janitorial service quality issue - Sharif Medical Tertiary Hospit #00665,Sharif Medical Tertiary Hospital 43,ops0665@enxi.pk,Resolved,Medium,2025-09-03
+Missed waste pickup - Sharif Medical District Hospit #00666,Sharif Medical District Hospital 30,ops0666@enxi.pk,Closed,Medium,2025-09-03
+Container damage reported - Punjab Environmental Protectio #00667,Punjab Environmental Protection Agency,ops0667@enxi.pk,Closed,Low,2025-09-05
+Missed waste pickup - Shaukat Khanum Lab #00668,Shaukat Khanum Lab,ops0668@enxi.pk,Closed,Urgent,2025-09-06
+Incinerator maintenance required - Mayo Teaching Hospital 05 #00669,Mayo Teaching Hospital 05,ops0669@enxi.pk,Open,Urgent,2025-09-07
+Staff safety incident - Ittefaq General Hospital 25 #00670,Ittefaq General Hospital 25,ops0670@enxi.pk,Open,Medium,2025-09-07
+PPE shortage reported - Punjab Healthcare Commission #00671,Punjab Healthcare Commission,ops0671@enxi.pk,Replied,Medium,2025-09-07
+Wrong waste segregation at source - Medix Clinic #00672,Medix Clinic,ops0672@enxi.pk,Closed,Low,2025-09-08
+Emergency pickup request - Services Specialized Hospital  #00673,Services Specialized Hospital 04,ops0673@enxi.pk,Replied,High,2025-09-08
+Compliance documentation gap - Qamar Lab #00674,Qamar Lab,ops0674@enxi.pk,Closed,High,2025-09-11
+Equipment malfunction - Allied Lab 114 #00675,Allied Lab 114,ops0675@enxi.pk,Closed,Medium,2025-09-12
+Equipment malfunction - Al-Rehman Tertiary Hospital 17 #00676,Al-Rehman Tertiary Hospital 17,ops0676@enxi.pk,Resolved,Low,2025-09-12
+Expired disposal certificate - Al-Rehman Tertiary Hospital 17 #00677,Al-Rehman Tertiary Hospital 17,ops0677@enxi.pk,Open,High,2025-09-18
+Compliance documentation gap - Gulab Devi District Hospital 4 #00678,Gulab Devi District Hospital 44,ops0678@enxi.pk,Resolved,Low,2025-09-21
+PPE shortage reported - Shaukat Khanum Lab #00679,Shaukat Khanum Lab,ops0679@enxi.pk,Replied,Urgent,2025-09-21
+Janitorial service quality issue - Shaukat Khanum Lab 102 #00680,Shaukat Khanum Lab 102,ops0680@enxi.pk,Closed,Medium,2025-09-21
+Staff safety incident - Allied Lab 114 #00681,Allied Lab 114,ops0681@enxi.pk,Closed,Low,2025-09-26
+PPE shortage reported - Doctors Private Hospital 29 #00682,Doctors Private Hospital 29,ops0682@enxi.pk,Closed,Medium,2025-09-27
+Delayed collection - route overrun - Fatima Memorial Tertiary Hospi #00683,Fatima Memorial Tertiary Hospital 09,ops0683@enxi.pk,Closed,Low,2025-09-29
+Incinerator maintenance required - Islamabad Diagnostics 105 #00684,Islamabad Diagnostics 105,ops0684@enxi.pk,Resolved,Low,2025-09-29
+Delayed collection - route overrun - Gulab Devi District Hospital 4 #00685,Gulab Devi District Hospital 44,ops0685@enxi.pk,Closed,Medium,2025-10-02
+Spill incident during collection - Islamabad Diagnostics 105 #00686,Islamabad Diagnostics 105,ops0686@enxi.pk,Open,Urgent,2025-10-03
+Container damage reported - Chughtai Private Hospital 56 #00687,Chughtai Private Hospital 56,ops0687@enxi.pk,Open,Medium,2025-10-04
+Delayed collection - route overrun - Saleem Lab 119 #00688,Saleem Lab 119,ops0688@enxi.pk,Closed,Medium,2025-10-04
+Equipment malfunction - City Lab #00689,City Lab,ops0689@enxi.pk,Open,High,2025-10-04
+Delayed collection - route overrun - Al-Rehman Tertiary Hospital 17 #00690,Al-Rehman Tertiary Hospital 17,ops0690@enxi.pk,Resolved,Low,2025-10-07
+Equipment malfunction - Ghurki Trust Private Hospital  #00691,Ghurki Trust Private Hospital 61,ops0691@enxi.pk,Resolved,Urgent,2025-10-08
+Expired disposal certificate - Ghurki Trust Private Hospital  #00692,Ghurki Trust Private Hospital 79,ops0692@enxi.pk,Closed,Medium,2025-10-09
+Schedule change request - Lady Willingdon Tertiary Hospi #00693,Lady Willingdon Tertiary Hospital 60,ops0693@enxi.pk,Open,Low,2025-10-09
+Missed waste pickup - Mayo District Hospital 01 #00694,Mayo District Hospital 01,ops0694@enxi.pk,Resolved,Medium,2025-10-13
+Delayed collection - route overrun - Medix Clinic #00695,Medix Clinic,ops0695@enxi.pk,Open,Low,2025-10-14
+Staff safety incident - Qamar Lab #00696,Qamar Lab,ops0696@enxi.pk,Closed,High,2025-10-14
+Staff safety incident - Allied Lab 114 #00697,Allied Lab 114,ops0697@enxi.pk,Closed,Urgent,2025-10-19
+Janitorial service quality issue - Qamar Lab 120 #00698,Qamar Lab 120,ops0698@enxi.pk,Closed,Medium,2025-10-22
+Customer complaint - odor - Health First Clinic #00699,Health First Clinic,ops0699@enxi.pk,Open,Urgent,2025-10-27
+Incinerator maintenance required - Islamabad Diagnostics 105 #00700,Islamabad Diagnostics 105,ops0700@enxi.pk,Open,Urgent,2025-10-28
+Incinerator maintenance required - Punjab Healthcare Commission #00701,Punjab Healthcare Commission,ops0701@enxi.pk,Replied,High,2025-10-28
+Equipment malfunction - Prime Teaching Hospital 14 #00702,Prime Teaching Hospital 14,ops0702@enxi.pk,Resolved,Medium,2025-10-29
+GPS tracker malfunction - Ghurki Trust Tertiary Hospital #00703,Ghurki Trust Tertiary Hospital 12,ops0703@enxi.pk,Replied,High,2025-10-31
+Wrong waste segregation at source - Mayo District Hospital 01 #00704,Mayo District Hospital 01,ops0704@enxi.pk,Closed,Medium,2025-11-01
+Environmental audit finding - City Care Tertiary Hospital 02 #00705,City Care Tertiary Hospital 02,ops0705@enxi.pk,Open,Urgent,2025-11-03
+Wrong waste segregation at source - Lahore General Tertiary Hospit #00706,Lahore General Tertiary Hospital 27,ops0706@enxi.pk,Closed,Medium,2025-11-04
+PPE shortage reported - Medix Clinic 112 #00707,Medix Clinic 112,ops0707@enxi.pk,Open,Medium,2025-11-04
+Schedule change request - Health First Clinic #00708,Health First Clinic,ops0708@enxi.pk,Closed,High,2025-11-06
+Customer complaint - odor - Chughtai Tertiary Hospital 57 #00709,Chughtai Tertiary Hospital 57,ops0709@enxi.pk,Open,High,2025-11-07
+Customer complaint - odor - Medix Clinic 112 #00710,Medix Clinic 112,ops0710@enxi.pk,Resolved,Urgent,2025-11-07
+Compliance documentation gap - Lady Willingdon Tertiary Hospi #00711,Lady Willingdon Tertiary Hospital 06,ops0711@enxi.pk,Closed,Medium,2025-11-08
+Emergency pickup request - Allied Lab #00712,Allied Lab,ops0712@enxi.pk,Replied,Medium,2025-11-10
+Wrong waste segregation at source - LifeLine Teaching Hospital 74 #00713,LifeLine Teaching Hospital 74,ops0713@enxi.pk,Replied,High,2025-11-10
+Emergency pickup request - City Care Tertiary Hospital 02 #00714,City Care Tertiary Hospital 02,ops0714@enxi.pk,Closed,Urgent,2025-11-12
+Equipment malfunction - Lahore Diagnostics 106 #00715,Lahore Diagnostics 106,ops0715@enxi.pk,Closed,Medium,2025-11-15
+Vehicle breakdown on route - Services District Hospital 41 #00716,Services District Hospital 41,ops0716@enxi.pk,Closed,Medium,2025-11-15
+Incinerator maintenance required - Surgimed District Hospital 23 #00717,Surgimed District Hospital 23,ops0717@enxi.pk,Closed,Urgent,2025-11-15
+Staff safety incident - Ittefaq General Hospital 25 #00718,Ittefaq General Hospital 25,ops0718@enxi.pk,Closed,High,2025-11-17
+Compliance documentation gap - Sir Ganga Ram General Hospital #00719,Sir Ganga Ram General Hospital 38,ops0719@enxi.pk,Replied,Medium,2025-11-18
+Spill incident during collection - Shaukat Khanum Specialized Hos #00720,Shaukat Khanum Specialized Hospital 63,ops0720@enxi.pk,Closed,Low,2025-11-19
+Spill incident during collection - Lahore Diagnostics 106 #00721,Lahore Diagnostics 106,ops0721@enxi.pk,Replied,Urgent,2025-11-23
+Environmental audit finding - Sharif Medical Teaching Hospit #00722,Sharif Medical Teaching Hospital 62,ops0722@enxi.pk,Replied,High,2025-11-25
+Container damage reported - Medix Clinic #00723,Medix Clinic,ops0723@enxi.pk,Resolved,Medium,2025-11-25
+Environmental audit finding - Ghurki Trust Specialized Hospi #00724,Ghurki Trust Specialized Hospital 48,ops0724@enxi.pk,Open,Urgent,2025-11-28
+Incinerator maintenance required - Sharif Medical Tertiary Hospit #00725,Sharif Medical Tertiary Hospital 43,ops0725@enxi.pk,Closed,High,2025-11-30
+Training certificate renewal needed - Chughtai Private Hospital 56 #00726,Chughtai Private Hospital 56,ops0726@enxi.pk,Closed,Medium,2025-12-02
+GPS tracker malfunction - Lady Willingdon Tertiary Hospi #00727,Lady Willingdon Tertiary Hospital 60,ops0727@enxi.pk,Resolved,Urgent,2025-12-02
+Expired disposal certificate - Agha Khan Lab Lahore 115 #00728,Agha Khan Lab Lahore 115,ops0728@enxi.pk,Replied,High,2025-12-03
+Compliance documentation gap - Noor Specialized Hospital 51 #00729,Noor Specialized Hospital 51,ops0729@enxi.pk,Resolved,High,2025-12-04
+Janitorial service quality issue - Prime Tertiary Hospital 24 #00730,Prime Tertiary Hospital 24,ops0730@enxi.pk,Closed,Low,2025-12-04
+Container damage reported - Doctors Tertiary Hospital 78 #00731,Doctors Tertiary Hospital 78,ops0731@enxi.pk,Resolved,High,2025-12-05
+Janitorial service quality issue - Punjab Tertiary Hospital 37 #00732,Punjab Tertiary Hospital 37,ops0732@enxi.pk,Open,High,2025-12-06
+Delayed collection - route overrun - City Care Teaching Hospital 40 #00733,City Care Teaching Hospital 40,ops0733@enxi.pk,Open,High,2025-12-07
+Vehicle breakdown on route - Doctors Teaching Hospital 36 #00734,Doctors Teaching Hospital 36,ops0734@enxi.pk,Closed,High,2025-12-13
+Customer complaint - odor - Chughtai Private Hospital 56 #00735,Chughtai Private Hospital 56,ops0735@enxi.pk,Replied,High,2025-12-13
+Container damage reported - LifeLine Teaching Hospital 74 #00736,LifeLine Teaching Hospital 74,ops0736@enxi.pk,Open,Urgent,2025-12-16
+Training certificate renewal needed - Shaukat Khanum Specialized Hos #00737,Shaukat Khanum Specialized Hospital 63,ops0737@enxi.pk,Closed,High,2025-12-18
+Container damage reported - Punjab Healthcare Commission #00738,Punjab Healthcare Commission,ops0738@enxi.pk,Replied,Medium,2025-12-20
+Environmental audit finding - Shaukat Khanum District Hospit #00739,Shaukat Khanum District Hospital 45,ops0739@enxi.pk,Resolved,High,2025-12-21
+Delayed collection - route overrun - National Private Hospital 21 #00740,National Private Hospital 21,ops0740@enxi.pk,Replied,High,2025-12-21
+Missed waste pickup - Services Specialized Hospital  #00741,Services Specialized Hospital 77,ops0741@enxi.pk,Closed,Low,2025-12-23
+Compliance documentation gap - Chughtai Lab #00742,Chughtai Lab,ops0742@enxi.pk,Resolved,High,2025-12-23
+Equipment malfunction - Prime Tertiary Hospital 24 #00743,Prime Tertiary Hospital 24,ops0743@enxi.pk,Resolved,Urgent,2025-12-24
+Janitorial service quality issue - Rehman Diagnostics 118 #00744,Rehman Diagnostics 118,ops0744@enxi.pk,Resolved,Medium,2025-12-24
+Expired disposal certificate - Lahore General District Hospit #00745,Lahore General District Hospital 69,ops0745@enxi.pk,Closed,High,2025-12-25
+Invoice discrepancy - Saleem Lab 119 #00746,Saleem Lab 119,ops0746@enxi.pk,Open,Low,2025-12-27
+PPE shortage reported - Services Specialized Hospital  #00747,Services Specialized Hospital 77,ops0747@enxi.pk,Closed,Medium,2025-12-28
+Staff safety incident - National Private Hospital 21 #00748,National Private Hospital 21,ops0748@enxi.pk,Replied,Medium,2025-12-28
+GPS tracker malfunction - Punjab Medical Faculty #00749,Punjab Medical Faculty,ops0749@enxi.pk,Resolved,Low,2025-12-29
+Incinerator maintenance required - Children Teaching Hospital 80 #00750,Children Teaching Hospital 80,ops0750@enxi.pk,Replied,High,2026-01-03
+Compliance documentation gap - Islamabad Diagnostics 105 #00751,Islamabad Diagnostics 105,ops0751@enxi.pk,Closed,Medium,2026-01-05
+Emergency pickup request - Punjab AIDS Control Program #00752,Punjab AIDS Control Program,ops0752@enxi.pk,Resolved,Urgent,2026-01-05
+Missed waste pickup - Mayo District Hospital 01 #00753,Mayo District Hospital 01,ops0753@enxi.pk,Closed,Medium,2026-01-07
+Spill incident during collection - Mayo District Hospital 01 #00754,Mayo District Hospital 01,ops0754@enxi.pk,Replied,Low,2026-01-08
+Staff safety incident - Dr. Essa Lab 116 #00755,Dr. Essa Lab 116,ops0755@enxi.pk,Open,Medium,2026-01-09
+Vehicle breakdown on route - Medicare Clinic #00756,Medicare Clinic,ops0756@enxi.pk,Open,Low,2026-01-13
+Incinerator maintenance required - Shalimar General Hospital 47 #00757,Shalimar General Hospital 47,ops0757@enxi.pk,Resolved,Medium,2026-01-18
+Delayed collection - route overrun - Shalimar District Hospital 16 #00758,Shalimar District Hospital 16,ops0758@enxi.pk,Resolved,Urgent,2026-01-19
+GPS tracker malfunction - Dr. Essa Lab 116 #00759,Dr. Essa Lab 116,ops0759@enxi.pk,Resolved,High,2026-01-19
+Environmental audit finding - Surgimed General Hospital 58 #00760,Surgimed General Hospital 58,ops0760@enxi.pk,Resolved,Low,2026-01-24
+Schedule change request - LifeLine Tertiary Hospital 64 #00761,LifeLine Tertiary Hospital 64,ops0761@enxi.pk,Closed,Urgent,2026-01-24
+Equipment malfunction - Services Specialized Hospital  #00762,Services Specialized Hospital 77,ops0762@enxi.pk,Replied,Urgent,2026-01-24
+Container damage reported - Directorate of Health Services #00763,Directorate of Health Services Lahore,ops0763@enxi.pk,Replied,Urgent,2026-01-26
+Training certificate renewal needed - Children Teaching Hospital 80 #00764,Children Teaching Hospital 80,ops0764@enxi.pk,Resolved,Low,2026-01-27
+Wrong waste segregation at source - Sharif Medical Teaching Hospit #00765,Sharif Medical Teaching Hospital 62,ops0765@enxi.pk,Closed,Medium,2026-01-28
+Container damage reported - IDC Lab #00766,IDC Lab,ops0766@enxi.pk,Closed,Urgent,2026-01-29
+Delayed collection - route overrun - Al-Razi Clinic 109 #00767,Al-Razi Clinic 109,ops0767@enxi.pk,Replied,Low,2026-01-30
+Invoice discrepancy - Specialized Healthcare & Medic #00768,Specialized Healthcare & Medical Education,ops0768@enxi.pk,Closed,Medium,2026-01-30
+Container damage reported - Dr. Essa Lab 116 #00769,Dr. Essa Lab 116,ops0769@enxi.pk,Replied,Medium,2026-01-30
+Staff safety incident - City Care Tertiary Hospital 02 #00770,City Care Tertiary Hospital 02,ops0770@enxi.pk,Replied,Medium,2026-01-30
+Staff safety incident - Gulab Devi Tertiary Hospital 2 #00771,Gulab Devi Tertiary Hospital 28,ops0771@enxi.pk,Resolved,High,2026-01-31
+Customer complaint - odor - Metro Diagnostics #00772,Metro Diagnostics,ops0772@enxi.pk,Closed,Medium,2026-02-02
+Vehicle breakdown on route - Hameed Latif District Hospital #00773,Hameed Latif District Hospital 26,ops0773@enxi.pk,Replied,High,2026-02-02
+PPE shortage reported - Al-Razi Clinic 109 #00774,Al-Razi Clinic 109,ops0774@enxi.pk,Resolved,Medium,2026-02-03
+Expired disposal certificate - Chughtai Tertiary Hospital 57 #00775,Chughtai Tertiary Hospital 57,ops0775@enxi.pk,Resolved,Medium,2026-02-05
+Emergency pickup request - Al-Razi Clinic 109 #00776,Al-Razi Clinic 109,ops0776@enxi.pk,Resolved,Urgent,2026-02-06
+Vehicle breakdown on route - Sharif Medical Tertiary Hospit #00777,Sharif Medical Tertiary Hospital 71,ops0777@enxi.pk,Resolved,High,2026-02-10
+Container damage reported - Sir Ganga Ram General Hospital #00778,Sir Ganga Ram General Hospital 38,ops0778@enxi.pk,Closed,High,2026-02-12
+Incinerator maintenance required - Punjab General Hospital 59 #00779,Punjab General Hospital 59,ops0779@enxi.pk,Closed,Medium,2026-02-14
+GPS tracker malfunction - Sheikh Zayed General Hospital  #00780,Sheikh Zayed General Hospital 39,ops0780@enxi.pk,Open,Medium,2026-02-16
+Wrong waste segregation at source - Ghurki Trust Private Hospital  #00781,Ghurki Trust Private Hospital 61,ops0781@enxi.pk,Open,High,2026-02-16
+Customer complaint - odor - Shalimar District Hospital 52 #00782,Shalimar District Hospital 52,ops0782@enxi.pk,Resolved,Low,2026-02-18
+Schedule change request - National Private Hospital 21 #00783,National Private Hospital 21,ops0783@enxi.pk,Closed,Medium,2026-02-19
+Missed waste pickup - Al-Razi Clinic 109 #00784,Al-Razi Clinic 109,ops0784@enxi.pk,Resolved,Low,2026-02-21
+Customer complaint - odor - Dr. Essa Lab #00785,Dr. Essa Lab,ops0785@enxi.pk,Resolved,High,2026-02-24
+Environmental audit finding - Punjab General Hospital 59 #00786,Punjab General Hospital 59,ops0786@enxi.pk,Closed,High,2026-02-25
+Training certificate renewal needed - Punjab Emergency Service (Resc #00787,Punjab Emergency Service (Rescue 1122),ops0787@enxi.pk,Replied,High,2026-02-25
+Training certificate renewal needed - Noor Teaching Hospital 76 #00788,Noor Teaching Hospital 76,ops0788@enxi.pk,Resolved,Urgent,2026-02-27
+Equipment malfunction - Doctors Tertiary Hospital 78 #00789,Doctors Tertiary Hospital 78,ops0789@enxi.pk,Closed,High,2026-02-28
+Spill incident during collection - Surgimed District Hospital 23 #00790,Surgimed District Hospital 23,ops0790@enxi.pk,Replied,Urgent,2026-03-01
+Compliance documentation gap - Punjab Environmental Protectio #00791,Punjab Environmental Protection Agency,ops0791@enxi.pk,Resolved,Medium,2026-03-01
+Staff safety incident - Gulab Devi District Hospital 4 #00792,Gulab Devi District Hospital 44,ops0792@enxi.pk,Resolved,Urgent,2026-03-03
+Invoice discrepancy - Doctors Tertiary Hospital 78 #00793,Doctors Tertiary Hospital 78,ops0793@enxi.pk,Open,Medium,2026-03-03
+Expired disposal certificate - Gulab Devi District Hospital 4 #00794,Gulab Devi District Hospital 44,ops0794@enxi.pk,Open,Medium,2026-03-04
+Wrong waste segregation at source - Sir Ganga Ram Tertiary Hospita #00795,Sir Ganga Ram Tertiary Hospital 75,ops0795@enxi.pk,Closed,Medium,2026-03-04
+Janitorial service quality issue - Punjab AIDS Control Program #00796,Punjab AIDS Control Program,ops0796@enxi.pk,Open,High,2026-03-05
+Missed waste pickup - Al-Razi Clinic 109 #00797,Al-Razi Clinic 109,ops0797@enxi.pk,Replied,High,2026-03-07
+Staff safety incident - LifeLine General Hospital 49 #00798,LifeLine General Hospital 49,ops0798@enxi.pk,Open,High,2026-03-09
+Spill incident during collection - Farooq General Hospital 70 #00799,Farooq General Hospital 70,ops0799@enxi.pk,Replied,Low,2026-03-10
+Spill incident during collection - Saleem Lab 119 #00800,Saleem Lab 119,ops0800@enxi.pk,Open,Low,2026-03-11

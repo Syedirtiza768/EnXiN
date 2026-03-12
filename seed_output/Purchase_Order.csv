@@ -1,301 +1,601 @@
 name,naming_series,supplier,transaction_date,schedule_date,company
-PO-DEMO-000001,PO-.YYYY.-,Medical Supplies Punjab,2024-03-12,2024-04-24,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000002,PO-.YYYY.-,Safety First PPE,2024-03-13,2024-04-19,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000003,PO-.YYYY.-,Punjab Insurance Brokers,2024-03-19,2024-04-18,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000004,PO-.YYYY.-,Safety First PPE,2024-03-20,2024-04-11,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000005,PO-.YYYY.-,SafeGuard Uniforms,2024-03-27,2024-04-22,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000006,PO-.YYYY.-,Lahore Container Works,2024-03-29,2024-04-06,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000007,PO-.YYYY.-,National Chemical Corp,2024-03-29,2024-04-13,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000008,PO-.YYYY.-,Pharma Waste Solutions,2024-03-30,2024-05-01,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000009,PO-.YYYY.-,Pharma Waste Solutions,2024-04-04,2024-05-11,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000010,PO-.YYYY.-,Shell Pakistan,2024-04-05,2024-04-16,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000011,PO-.YYYY.-,Metropolitan Steel Works,2024-04-09,2024-05-11,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000012,PO-.YYYY.-,Kohinoor Chemical,2024-04-12,2024-04-22,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000013,PO-.YYYY.-,Punjab Insurance Brokers,2024-04-14,2024-05-01,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000014,PO-.YYYY.-,Draeger Safety Pakistan,2024-04-15,2024-05-08,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000015,PO-.YYYY.-,MedTech Training Institute,2024-04-18,2024-06-01,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000016,PO-.YYYY.-,Punjab Revenue Board Consultants,2024-04-19,2024-04-27,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000017,PO-.YYYY.-,Philips Healthcare PK,2024-04-27,2024-06-09,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000018,PO-.YYYY.-,Punjab Auto Parts,2024-04-29,2024-06-06,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000019,PO-.YYYY.-,Safety First PPE,2024-05-01,2024-05-27,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000020,PO-.YYYY.-,Philips Healthcare PK,2024-05-02,2024-05-23,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000021,PO-.YYYY.-,Digital Tracking Systems,2024-05-12,2024-06-09,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000022,PO-.YYYY.-,GE Health Pakistan,2024-05-19,2024-06-07,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000023,PO-.YYYY.-,Total Parco,2024-05-21,2024-05-28,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000024,PO-.YYYY.-,Digital Tracking Systems,2024-05-23,2024-07-05,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000025,PO-.YYYY.-,Total Parco,2024-05-24,2024-06-01,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000026,PO-.YYYY.-,Calibration Services Pakistan,2024-05-25,2024-06-29,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000027,PO-.YYYY.-,SafeGuard Uniforms,2024-05-26,2024-07-01,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000028,PO-.YYYY.-,Fire Safety Equipment Co,2024-05-26,2024-06-24,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000029,PO-.YYYY.-,Kohinoor Chemical,2024-05-30,2024-06-19,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000030,PO-.YYYY.-,Hino Pakistan Motors,2024-05-31,2024-07-08,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000031,PO-.YYYY.-,Isuzu Pakistan,2024-05-31,2024-06-15,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000032,PO-.YYYY.-,Calibration Services Pakistan,2024-06-01,2024-06-12,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000033,PO-.YYYY.-,Waste Tech Industries,2024-06-08,2024-06-18,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000034,PO-.YYYY.-,Punjab Revenue Board Consultants,2024-06-11,2024-07-17,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000035,PO-.YYYY.-,Punjab Insurance Brokers,2024-06-11,2024-06-24,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000036,PO-.YYYY.-,Punjab Revenue Board Consultants,2024-06-13,2024-07-04,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000037,PO-.YYYY.-,Ravi Engineering Works,2024-06-13,2024-06-24,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000038,PO-.YYYY.-,Safety First PPE,2024-06-18,2024-08-01,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000039,PO-.YYYY.-,Philips Healthcare PK,2024-06-22,2024-07-14,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000040,PO-.YYYY.-,Draeger Safety Pakistan,2024-06-26,2024-07-09,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000041,PO-.YYYY.-,Al-Fatah Safety Products,2024-07-02,2024-08-11,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000042,PO-.YYYY.-,Punjab Insurance Brokers,2024-07-02,2024-07-12,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000043,PO-.YYYY.-,Total Parco,2024-07-08,2024-08-22,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000044,PO-.YYYY.-,Hino Pakistan Motors,2024-07-13,2024-08-11,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000045,PO-.YYYY.-,Lahore Rubber Works,2024-07-14,2024-07-27,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000046,PO-.YYYY.-,Lahore Paper & Packaging,2024-07-17,2024-08-09,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000047,PO-.YYYY.-,Draeger Safety Pakistan,2024-07-21,2024-08-07,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000048,PO-.YYYY.-,Philips Healthcare PK,2024-07-25,2024-08-08,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000049,PO-.YYYY.-,Lahore Paper & Packaging,2024-07-29,2024-08-17,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000050,PO-.YYYY.-,Punjab Revenue Board Consultants,2024-07-30,2024-08-18,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000051,PO-.YYYY.-,MedTech Training Institute,2024-07-30,2024-08-07,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000052,PO-.YYYY.-,Pharma Waste Solutions,2024-08-02,2024-08-09,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000053,PO-.YYYY.-,Lahore Paper & Packaging,2024-08-07,2024-09-15,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000054,PO-.YYYY.-,Lahore Rubber Works,2024-08-08,2024-08-31,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000055,PO-.YYYY.-,Metropolitan Steel Works,2024-08-12,2024-09-14,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000056,PO-.YYYY.-,Lahore Rubber Works,2024-08-20,2024-09-26,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000057,PO-.YYYY.-,Philips Healthcare PK,2024-08-21,2024-08-29,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000058,PO-.YYYY.-,Siemens Pakistan,2024-08-21,2024-08-29,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000059,PO-.YYYY.-,Punjab Insurance Brokers,2024-08-23,2024-09-12,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000060,PO-.YYYY.-,Metropolitan Steel Works,2024-08-24,2024-10-07,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000061,PO-.YYYY.-,Punjab Insurance Brokers,2024-08-27,2024-09-14,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000062,PO-.YYYY.-,Pharma Waste Solutions,2024-08-31,2024-09-23,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000063,PO-.YYYY.-,National Chemical Corp,2024-09-03,2024-09-24,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000064,PO-.YYYY.-,GE Health Pakistan,2024-09-11,2024-09-22,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000065,PO-.YYYY.-,Ravi Engineering Works,2024-09-14,2024-09-28,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000066,PO-.YYYY.-,Digital Tracking Systems,2024-09-17,2024-10-13,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000067,PO-.YYYY.-,Al-Fatah Safety Products,2024-09-17,2024-10-27,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000068,PO-.YYYY.-,Refractory Materials Lahore,2024-09-18,2024-10-03,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000069,PO-.YYYY.-,National Environmental Lab,2024-09-20,2024-10-27,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000070,PO-.YYYY.-,Metropolitan Steel Works,2024-10-01,2024-11-01,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000071,PO-.YYYY.-,Shell Pakistan,2024-10-04,2024-10-29,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000072,PO-.YYYY.-,Eco-Disposal Systems,2024-10-04,2024-10-23,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000073,PO-.YYYY.-,Eco-Disposal Systems,2024-10-05,2024-10-14,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000074,PO-.YYYY.-,Waste Tech Industries,2024-10-08,2024-11-15,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000075,PO-.YYYY.-,Philips Healthcare PK,2024-10-09,2024-11-11,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000076,PO-.YYYY.-,GE Health Pakistan,2024-10-10,2024-11-18,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000077,PO-.YYYY.-,Punjab Insurance Brokers,2024-10-14,2024-10-22,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000078,PO-.YYYY.-,GE Health Pakistan,2024-10-18,2024-11-28,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000079,PO-.YYYY.-,Metropolitan Steel Works,2024-10-21,2024-10-30,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000080,PO-.YYYY.-,Medical Supplies Punjab,2024-10-23,2024-11-21,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000081,PO-.YYYY.-,Lahore Container Works,2024-10-24,2024-11-03,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000082,PO-.YYYY.-,SafeGuard Uniforms,2024-10-26,2024-11-17,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000083,PO-.YYYY.-,Ravi Engineering Works,2024-10-27,2024-11-27,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000084,PO-.YYYY.-,Ravi Engineering Works,2024-10-29,2024-11-26,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000085,PO-.YYYY.-,National Chemical Corp,2024-11-03,2024-11-25,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000086,PO-.YYYY.-,Philips Healthcare PK,2024-11-05,2024-12-14,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000087,PO-.YYYY.-,Philips Healthcare PK,2024-11-07,2024-11-20,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000088,PO-.YYYY.-,National Environmental Lab,2024-11-09,2024-12-16,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000089,PO-.YYYY.-,Lahore Rubber Works,2024-11-15,2024-12-16,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000090,PO-.YYYY.-,Kohinoor Chemical,2024-11-16,2024-12-30,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000091,PO-.YYYY.-,National Environmental Lab,2024-11-17,2024-11-30,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000092,PO-.YYYY.-,MedTech Training Institute,2024-11-17,2024-12-20,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000093,PO-.YYYY.-,Al-Fatah Safety Products,2024-11-20,2024-12-19,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000094,PO-.YYYY.-,Lahore Rubber Works,2024-11-22,2024-12-10,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000095,PO-.YYYY.-,Punjab Revenue Board Consultants,2024-11-26,2024-12-27,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000096,PO-.YYYY.-,National Chemical Corp,2024-11-30,2024-12-15,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000097,PO-.YYYY.-,GE Health Pakistan,2024-11-30,2024-12-28,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000098,PO-.YYYY.-,Medical Supplies Punjab,2024-12-01,2025-01-05,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000099,PO-.YYYY.-,Fire Safety Equipment Co,2024-12-05,2024-12-21,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000100,PO-.YYYY.-,Lahore Rubber Works,2024-12-07,2024-12-15,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000101,PO-.YYYY.-,Clean Environment Services,2024-12-11,2025-01-23,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000102,PO-.YYYY.-,Ravi Engineering Works,2024-12-13,2025-01-08,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000103,PO-.YYYY.-,Waste Tech Industries,2024-12-13,2025-01-18,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000104,PO-.YYYY.-,Lahore Paper & Packaging,2024-12-15,2025-01-09,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000105,PO-.YYYY.-,Ravi Engineering Works,2024-12-15,2025-01-16,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000106,PO-.YYYY.-,Safety First PPE,2024-12-15,2025-01-01,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000107,PO-.YYYY.-,Lahore Container Works,2024-12-19,2024-12-27,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000108,PO-.YYYY.-,Medical Supplies Punjab,2024-12-25,2025-02-05,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000109,PO-.YYYY.-,Punjab Revenue Board Consultants,2024-12-26,2025-02-06,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000110,PO-.YYYY.-,Hino Pakistan Motors,2024-12-27,2025-01-09,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000111,PO-.YYYY.-,Lahore Container Works,2024-12-28,2025-01-04,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000112,PO-.YYYY.-,Lahore Paper & Packaging,2025-01-02,2025-02-03,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000113,PO-.YYYY.-,Clean Environment Services,2025-01-05,2025-01-25,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000114,PO-.YYYY.-,Waste Tech Industries,2025-01-10,2025-01-23,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000115,PO-.YYYY.-,MedTech Training Institute,2025-01-11,2025-02-23,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000116,PO-.YYYY.-,Bio-Equipment International,2025-01-12,2025-01-26,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000117,PO-.YYYY.-,Shell Pakistan,2025-01-18,2025-02-21,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000118,PO-.YYYY.-,Waste Tech Industries,2025-01-19,2025-02-14,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000119,PO-.YYYY.-,Fire Safety Equipment Co,2025-01-20,2025-02-13,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000120,PO-.YYYY.-,Lahore Paper & Packaging,2025-01-20,2025-02-05,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000121,PO-.YYYY.-,SafeGuard Uniforms,2025-01-22,2025-02-28,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000122,PO-.YYYY.-,Draeger Safety Pakistan,2025-01-22,2025-02-09,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000123,PO-.YYYY.-,Atlas Honda Parts,2025-01-22,2025-02-11,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000124,PO-.YYYY.-,Lahore Paper & Packaging,2025-01-22,2025-02-17,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000125,PO-.YYYY.-,GE Health Pakistan,2025-01-27,2025-02-09,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000126,PO-.YYYY.-,Medical Supplies Punjab,2025-01-28,2025-03-07,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000127,PO-.YYYY.-,Clean Environment Services,2025-02-03,2025-02-23,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000128,PO-.YYYY.-,Lahore Container Works,2025-02-03,2025-02-10,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000129,PO-.YYYY.-,Atlas Honda Parts,2025-02-11,2025-02-27,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000130,PO-.YYYY.-,Atlas Honda Parts,2025-02-11,2025-03-12,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000131,PO-.YYYY.-,Refractory Materials Lahore,2025-02-12,2025-03-01,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000132,PO-.YYYY.-,Metropolitan Steel Works,2025-02-13,2025-03-23,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000133,PO-.YYYY.-,Lahore Container Works,2025-02-13,2025-03-25,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000134,PO-.YYYY.-,Isuzu Pakistan,2025-02-17,2025-03-26,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000135,PO-.YYYY.-,Shell Pakistan,2025-02-18,2025-03-19,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000136,PO-.YYYY.-,Waste Tech Industries,2025-02-22,2025-03-08,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000137,PO-.YYYY.-,Calibration Services Pakistan,2025-02-25,2025-03-16,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000138,PO-.YYYY.-,Lahore Rubber Works,2025-03-02,2025-04-10,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000139,PO-.YYYY.-,Pakistan Petroleum Corp,2025-03-04,2025-03-26,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000140,PO-.YYYY.-,Draeger Safety Pakistan,2025-03-04,2025-04-15,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000141,PO-.YYYY.-,Punjab Revenue Board Consultants,2025-03-05,2025-04-11,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000142,PO-.YYYY.-,SafeGuard Uniforms,2025-03-07,2025-03-25,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000143,PO-.YYYY.-,Refractory Materials Lahore,2025-03-07,2025-04-09,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000144,PO-.YYYY.-,Fire Safety Equipment Co,2025-03-08,2025-04-16,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000145,PO-.YYYY.-,National Chemical Corp,2025-03-13,2025-04-11,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000146,PO-.YYYY.-,Lahore Rubber Works,2025-03-13,2025-03-25,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000147,PO-.YYYY.-,Eco-Disposal Systems,2025-03-23,2025-04-18,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000148,PO-.YYYY.-,Hino Pakistan Motors,2025-03-24,2025-04-24,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000149,PO-.YYYY.-,Bio-Equipment International,2025-03-26,2025-04-04,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000150,PO-.YYYY.-,Pharma Waste Solutions,2025-03-31,2025-05-07,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000151,PO-.YYYY.-,Total Parco,2025-04-03,2025-05-01,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000152,PO-.YYYY.-,Punjab Revenue Board Consultants,2025-04-05,2025-05-20,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000153,PO-.YYYY.-,Waste Tech Industries,2025-04-07,2025-05-08,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000154,PO-.YYYY.-,Calibration Services Pakistan,2025-04-10,2025-05-24,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000155,PO-.YYYY.-,Pharma Waste Solutions,2025-04-11,2025-05-24,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000156,PO-.YYYY.-,Lahore Container Works,2025-04-14,2025-05-02,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000157,PO-.YYYY.-,Calibration Services Pakistan,2025-04-18,2025-05-29,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000158,PO-.YYYY.-,Pakistan Petroleum Corp,2025-04-21,2025-06-05,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000159,PO-.YYYY.-,National Environmental Lab,2025-04-21,2025-05-17,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000160,PO-.YYYY.-,SafeGuard Uniforms,2025-04-26,2025-06-03,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000161,PO-.YYYY.-,National Chemical Corp,2025-04-29,2025-05-11,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000162,PO-.YYYY.-,Bio-Equipment International,2025-05-01,2025-05-21,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000163,PO-.YYYY.-,Atlas Honda Parts,2025-05-02,2025-06-09,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000164,PO-.YYYY.-,GE Health Pakistan,2025-05-05,2025-05-18,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000165,PO-.YYYY.-,SafeGuard Uniforms,2025-05-09,2025-06-12,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000166,PO-.YYYY.-,Punjab Revenue Board Consultants,2025-05-09,2025-05-17,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000167,PO-.YYYY.-,Digital Tracking Systems,2025-05-15,2025-05-23,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000168,PO-.YYYY.-,Punjab Revenue Board Consultants,2025-05-16,2025-05-31,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000169,PO-.YYYY.-,Safety First PPE,2025-05-16,2025-06-28,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000170,PO-.YYYY.-,Punjab Revenue Board Consultants,2025-05-16,2025-05-29,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000171,PO-.YYYY.-,Shell Pakistan,2025-05-22,2025-06-27,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000172,PO-.YYYY.-,National Environmental Lab,2025-05-22,2025-06-29,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000173,PO-.YYYY.-,Siemens Pakistan,2025-05-22,2025-06-26,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000174,PO-.YYYY.-,Ravi Engineering Works,2025-05-22,2025-07-06,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000175,PO-.YYYY.-,Lahore Container Works,2025-05-24,2025-05-31,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000176,PO-.YYYY.-,Waste Tech Industries,2025-05-24,2025-06-28,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000177,PO-.YYYY.-,Draeger Safety Pakistan,2025-05-26,2025-06-24,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000178,PO-.YYYY.-,Digital Tracking Systems,2025-05-31,2025-06-09,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000179,PO-.YYYY.-,Punjab Revenue Board Consultants,2025-05-31,2025-07-15,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000180,PO-.YYYY.-,Atlas Honda Parts,2025-05-31,2025-06-25,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000181,PO-.YYYY.-,Hino Pakistan Motors,2025-06-03,2025-06-26,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000182,PO-.YYYY.-,Punjab Insurance Brokers,2025-06-06,2025-06-17,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000183,PO-.YYYY.-,Calibration Services Pakistan,2025-06-13,2025-07-10,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000184,PO-.YYYY.-,Kohinoor Chemical,2025-06-15,2025-06-29,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000185,PO-.YYYY.-,Punjab Revenue Board Consultants,2025-06-16,2025-06-23,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000186,PO-.YYYY.-,Hino Pakistan Motors,2025-06-16,2025-07-02,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000187,PO-.YYYY.-,Hino Pakistan Motors,2025-06-19,2025-07-12,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000188,PO-.YYYY.-,Shell Pakistan,2025-06-22,2025-06-30,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000189,PO-.YYYY.-,Medical Supplies Punjab,2025-06-26,2025-08-08,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000190,PO-.YYYY.-,Isuzu Pakistan,2025-06-28,2025-08-06,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000191,PO-.YYYY.-,Atlas Honda Parts,2025-06-28,2025-07-26,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000192,PO-.YYYY.-,Bio-Equipment International,2025-06-30,2025-08-03,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000193,PO-.YYYY.-,Pakistan Petroleum Corp,2025-06-30,2025-07-26,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000194,PO-.YYYY.-,Eco-Disposal Systems,2025-07-02,2025-08-10,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000195,PO-.YYYY.-,Ravi Engineering Works,2025-07-06,2025-07-27,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000196,PO-.YYYY.-,National Chemical Corp,2025-07-10,2025-07-31,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000197,PO-.YYYY.-,Punjab Insurance Brokers,2025-07-11,2025-07-19,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000198,PO-.YYYY.-,Siemens Pakistan,2025-07-13,2025-08-11,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000199,PO-.YYYY.-,GE Health Pakistan,2025-07-13,2025-08-03,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000200,PO-.YYYY.-,Clean Environment Services,2025-07-16,2025-08-20,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000201,PO-.YYYY.-,Bio-Equipment International,2025-07-20,2025-07-30,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000202,PO-.YYYY.-,GE Health Pakistan,2025-07-22,2025-08-15,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000203,PO-.YYYY.-,Fire Safety Equipment Co,2025-07-27,2025-08-22,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000204,PO-.YYYY.-,Isuzu Pakistan,2025-08-02,2025-09-12,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000205,PO-.YYYY.-,Hino Pakistan Motors,2025-08-02,2025-09-14,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000206,PO-.YYYY.-,Refractory Materials Lahore,2025-08-02,2025-08-18,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000207,PO-.YYYY.-,Shell Pakistan,2025-08-06,2025-08-24,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000208,PO-.YYYY.-,Safety First PPE,2025-08-18,2025-09-06,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000209,PO-.YYYY.-,Shell Pakistan,2025-08-28,2025-09-07,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000210,PO-.YYYY.-,GE Health Pakistan,2025-08-29,2025-09-08,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000211,PO-.YYYY.-,Pharma Waste Solutions,2025-08-31,2025-09-22,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000212,PO-.YYYY.-,Pakistan Petroleum Corp,2025-09-01,2025-10-04,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000213,PO-.YYYY.-,Lahore Container Works,2025-09-04,2025-09-17,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000214,PO-.YYYY.-,Bio-Equipment International,2025-09-06,2025-10-12,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000215,PO-.YYYY.-,Pakistan Petroleum Corp,2025-09-07,2025-09-16,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000216,PO-.YYYY.-,Safety First PPE,2025-09-08,2025-10-17,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000217,PO-.YYYY.-,Draeger Safety Pakistan,2025-09-10,2025-09-24,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000218,PO-.YYYY.-,Isuzu Pakistan,2025-09-20,2025-10-23,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000219,PO-.YYYY.-,GE Health Pakistan,2025-09-20,2025-11-01,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000220,PO-.YYYY.-,Hino Pakistan Motors,2025-09-23,2025-10-19,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000221,PO-.YYYY.-,Total Parco,2025-10-06,2025-11-01,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000222,PO-.YYYY.-,Digital Tracking Systems,2025-10-07,2025-10-14,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000223,PO-.YYYY.-,Isuzu Pakistan,2025-10-07,2025-10-19,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000224,PO-.YYYY.-,Isuzu Pakistan,2025-10-09,2025-11-04,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000225,PO-.YYYY.-,Draeger Safety Pakistan,2025-10-11,2025-11-13,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000226,PO-.YYYY.-,Calibration Services Pakistan,2025-10-12,2025-11-26,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000227,PO-.YYYY.-,Clean Environment Services,2025-10-12,2025-11-10,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000228,PO-.YYYY.-,Al-Fatah Safety Products,2025-10-12,2025-11-08,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000229,PO-.YYYY.-,Waste Tech Industries,2025-10-13,2025-11-27,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000230,PO-.YYYY.-,Punjab Insurance Brokers,2025-10-15,2025-10-30,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000231,PO-.YYYY.-,Medical Supplies Punjab,2025-10-16,2025-11-24,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000232,PO-.YYYY.-,Punjab Auto Parts,2025-10-16,2025-11-28,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000233,PO-.YYYY.-,Waste Tech Industries,2025-10-16,2025-11-28,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000234,PO-.YYYY.-,Safety First PPE,2025-10-18,2025-10-28,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000235,PO-.YYYY.-,Digital Tracking Systems,2025-10-18,2025-12-02,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000236,PO-.YYYY.-,Ravi Engineering Works,2025-10-19,2025-11-22,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000237,PO-.YYYY.-,National Environmental Lab,2025-10-21,2025-11-23,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000238,PO-.YYYY.-,GE Health Pakistan,2025-10-22,2025-11-02,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000239,PO-.YYYY.-,Philips Healthcare PK,2025-10-23,2025-10-30,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000240,PO-.YYYY.-,Medical Supplies Punjab,2025-10-23,2025-11-02,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000241,PO-.YYYY.-,Lahore Paper & Packaging,2025-10-25,2025-11-16,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000242,PO-.YYYY.-,Al-Fatah Safety Products,2025-10-25,2025-11-01,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000243,PO-.YYYY.-,Punjab Auto Parts,2025-10-29,2025-11-12,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000244,PO-.YYYY.-,Lahore Paper & Packaging,2025-11-02,2025-12-15,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000245,PO-.YYYY.-,Punjab Revenue Board Consultants,2025-11-04,2025-12-17,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000246,PO-.YYYY.-,Refractory Materials Lahore,2025-11-05,2025-12-16,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000247,PO-.YYYY.-,Fire Safety Equipment Co,2025-11-07,2025-11-30,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000248,PO-.YYYY.-,Ravi Engineering Works,2025-11-08,2025-12-02,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000249,PO-.YYYY.-,National Environmental Lab,2025-11-09,2025-11-21,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000250,PO-.YYYY.-,Hino Pakistan Motors,2025-11-09,2025-12-07,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000251,PO-.YYYY.-,Hino Pakistan Motors,2025-11-09,2025-11-16,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000252,PO-.YYYY.-,Atlas Honda Parts,2025-11-18,2025-12-12,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000253,PO-.YYYY.-,Hino Pakistan Motors,2025-11-19,2025-12-14,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000254,PO-.YYYY.-,National Chemical Corp,2025-11-19,2025-11-29,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000255,PO-.YYYY.-,Punjab Auto Parts,2025-11-21,2025-12-30,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000256,PO-.YYYY.-,Total Parco,2025-11-24,2026-01-02,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000257,PO-.YYYY.-,Philips Healthcare PK,2025-11-28,2025-12-07,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000258,PO-.YYYY.-,Total Parco,2025-11-28,2025-12-27,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000259,PO-.YYYY.-,Waste Tech Industries,2025-11-30,2025-12-12,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000260,PO-.YYYY.-,Siemens Pakistan,2025-12-03,2026-01-14,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000261,PO-.YYYY.-,Draeger Safety Pakistan,2025-12-07,2026-01-03,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000262,PO-.YYYY.-,Safety First PPE,2025-12-07,2025-12-17,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000263,PO-.YYYY.-,Punjab Insurance Brokers,2025-12-08,2025-12-16,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000264,PO-.YYYY.-,Atlas Honda Parts,2025-12-09,2026-01-18,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000265,PO-.YYYY.-,Punjab Auto Parts,2025-12-17,2026-01-04,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000266,PO-.YYYY.-,SafeGuard Uniforms,2025-12-18,2025-12-29,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000267,PO-.YYYY.-,Kohinoor Chemical,2025-12-22,2025-12-29,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000268,PO-.YYYY.-,Hino Pakistan Motors,2025-12-24,2026-01-19,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000269,PO-.YYYY.-,MedTech Training Institute,2025-12-24,2026-01-26,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000270,PO-.YYYY.-,Lahore Paper & Packaging,2025-12-27,2026-01-04,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000271,PO-.YYYY.-,Atlas Honda Parts,2025-12-29,2026-01-05,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000272,PO-.YYYY.-,Lahore Rubber Works,2026-01-03,2026-01-19,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000273,PO-.YYYY.-,Punjab Insurance Brokers,2026-01-05,2026-02-15,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000274,PO-.YYYY.-,Siemens Pakistan,2026-01-06,2026-02-11,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000275,PO-.YYYY.-,Lahore Paper & Packaging,2026-01-08,2026-02-06,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000276,PO-.YYYY.-,Punjab Insurance Brokers,2026-01-08,2026-02-18,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000277,PO-.YYYY.-,Punjab Auto Parts,2026-01-14,2026-01-31,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000278,PO-.YYYY.-,Refractory Materials Lahore,2026-01-14,2026-02-22,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000279,PO-.YYYY.-,Refractory Materials Lahore,2026-01-18,2026-01-28,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000280,PO-.YYYY.-,Philips Healthcare PK,2026-01-22,2026-02-03,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000281,PO-.YYYY.-,Clean Environment Services,2026-01-23,2026-02-09,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000282,PO-.YYYY.-,Isuzu Pakistan,2026-01-26,2026-02-20,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000283,PO-.YYYY.-,Punjab Revenue Board Consultants,2026-01-27,2026-03-10,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000284,PO-.YYYY.-,Atlas Honda Parts,2026-01-29,2026-02-05,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000285,PO-.YYYY.-,Ravi Engineering Works,2026-01-30,2026-02-17,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000286,PO-.YYYY.-,Digital Tracking Systems,2026-01-31,2026-02-23,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000287,PO-.YYYY.-,Safety First PPE,2026-02-01,2026-02-19,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000288,PO-.YYYY.-,Pakistan Petroleum Corp,2026-02-02,2026-02-26,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000289,PO-.YYYY.-,Atlas Honda Parts,2026-02-11,2026-02-19,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000290,PO-.YYYY.-,Refractory Materials Lahore,2026-02-17,2026-03-29,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000291,PO-.YYYY.-,Ravi Engineering Works,2026-02-19,2026-03-22,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000292,PO-.YYYY.-,Lahore Container Works,2026-02-21,2026-03-12,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000293,PO-.YYYY.-,Lahore Container Works,2026-02-22,2026-03-06,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000294,PO-.YYYY.-,Medical Supplies Punjab,2026-02-22,2026-03-14,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000295,PO-.YYYY.-,Lahore Rubber Works,2026-02-25,2026-03-10,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000296,PO-.YYYY.-,Lahore Paper & Packaging,2026-02-25,2026-03-13,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000297,PO-.YYYY.-,Hino Pakistan Motors,2026-02-26,2026-03-11,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000298,PO-.YYYY.-,Al-Fatah Safety Products,2026-03-04,2026-03-15,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000299,PO-.YYYY.-,Pharma Waste Solutions,2026-03-08,2026-04-17,EnXi Biomedical & Waste Management (Pvt) Ltd
-PO-DEMO-000300,PO-.YYYY.-,Fire Safety Equipment Co,2026-03-10,2026-03-27,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000001,PO-.YYYY.-,Punjab Safety Equipment,2023-03-05,2023-03-22,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000002,PO-.YYYY.-,Refractory Solutions Pvt,2023-03-06,2023-03-27,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000003,PO-.YYYY.-,Pakistan Refinery Fuels,2023-03-08,2023-04-06,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000004,PO-.YYYY.-,Eco Packaging Solutions,2023-03-10,2023-03-25,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000005,PO-.YYYY.-,State Life Insurance,2023-03-10,2023-04-03,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000006,PO-.YYYY.-,Punjab Safety Equipment,2023-03-12,2023-03-30,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000007,PO-.YYYY.-,EFU General Insurance,2023-03-13,2023-03-30,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000008,PO-.YYYY.-,Shell Lubricants Pakistan,2023-03-15,2023-04-06,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000009,PO-.YYYY.-,Lahore Steel Fabricators,2023-03-15,2023-04-12,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000010,PO-.YYYY.-,Bank Alfalah Leasing,2023-03-16,2023-04-08,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000011,PO-.YYYY.-,Lahore Steel Fabricators,2023-03-16,2023-04-06,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000012,PO-.YYYY.-,Siemens Pakistan,2023-03-18,2023-04-11,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000013,PO-.YYYY.-,Punjab IT Solutions,2023-03-20,2023-04-18,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000014,PO-.YYYY.-,Allied Medical Supplies,2023-03-23,2023-04-17,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000015,PO-.YYYY.-,City Diesel Station,2023-03-25,2023-04-16,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000016,PO-.YYYY.-,City Diesel Station,2023-03-25,2023-04-15,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000017,PO-.YYYY.-,Punjab Safety Equipment,2023-03-26,2023-04-06,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000018,PO-.YYYY.-,Ravi Engineering Works,2023-03-26,2023-04-10,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000019,PO-.YYYY.-,National Tire House,2023-03-29,2023-04-15,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000020,PO-.YYYY.-,Sapphire Textiles (Uniforms),2023-03-30,2023-04-17,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000021,PO-.YYYY.-,Ernst & Young Pakistan,2023-04-02,2023-04-16,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000022,PO-.YYYY.-,Sapphire Textiles (Uniforms),2023-04-03,2023-04-29,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000023,PO-.YYYY.-,Punjab IT Solutions,2023-04-03,2023-05-02,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000024,PO-.YYYY.-,Atlas Honda Parts,2023-04-07,2023-04-14,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000025,PO-.YYYY.-,Pakistan Oxygen Ltd,2023-04-08,2023-04-24,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000026,PO-.YYYY.-,UBL Fund Managers,2023-04-17,2023-05-01,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000027,PO-.YYYY.-,National Tire House,2023-04-18,2023-05-17,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000028,PO-.YYYY.-,Sitara Chemical Industries,2023-04-19,2023-05-09,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000029,PO-.YYYY.-,CleanTech Supplies,2023-04-19,2023-05-03,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000030,PO-.YYYY.-,City Diesel Station,2023-04-21,2023-05-11,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000031,PO-.YYYY.-,Atlas Honda Parts,2023-04-22,2023-05-21,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000032,PO-.YYYY.-,Eco Packaging Solutions,2023-04-24,2023-05-09,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000033,PO-.YYYY.-,Adamjee Insurance,2023-04-26,2023-05-08,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000034,PO-.YYYY.-,Punjab Safety Equipment,2023-04-26,2023-05-12,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000035,PO-.YYYY.-,Descon Engineering,2023-04-26,2023-05-09,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000036,PO-.YYYY.-,Punjab IT Solutions,2023-04-26,2023-05-11,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000037,PO-.YYYY.-,Metro Fuel Distributors,2023-05-03,2023-05-30,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000038,PO-.YYYY.-,Punjab Revenue Authority,2023-05-07,2023-05-17,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000039,PO-.YYYY.-,Adamjee Insurance,2023-05-07,2023-05-22,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000040,PO-.YYYY.-,Total Parco,2023-05-08,2023-05-20,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000041,PO-.YYYY.-,SafeHands PPE,2023-05-11,2023-06-07,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000042,PO-.YYYY.-,Pakistan Refinery Fuels,2023-05-20,2023-06-07,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000043,PO-.YYYY.-,UBL Fund Managers,2023-05-23,2023-06-09,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000044,PO-.YYYY.-,Allied Medical Supplies,2023-05-25,2023-06-17,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000045,PO-.YYYY.-,Diamond Tyres Ltd,2023-05-27,2023-06-08,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000046,PO-.YYYY.-,Eco Packaging Solutions,2023-05-28,2023-06-06,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000047,PO-.YYYY.-,National Tire House,2023-05-28,2023-06-12,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000048,PO-.YYYY.-,State Life Insurance,2023-05-29,2023-06-10,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000049,PO-.YYYY.-,Shell Lubricants Pakistan,2023-06-01,2023-06-28,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000050,PO-.YYYY.-,State Life Insurance,2023-06-02,2023-06-12,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000051,PO-.YYYY.-,Meezan Bank Leasing,2023-06-02,2023-06-18,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000052,PO-.YYYY.-,Punjab Safety Equipment,2023-06-03,2023-06-22,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000053,PO-.YYYY.-,Meezan Bank Leasing,2023-06-03,2023-06-12,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000054,PO-.YYYY.-,Ravi Engineering Works,2023-06-04,2023-06-15,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000055,PO-.YYYY.-,Punjab Plastics Industries,2023-06-05,2023-06-27,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000056,PO-.YYYY.-,Adamjee Insurance,2023-06-05,2023-06-28,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000057,PO-.YYYY.-,Punjab Plastics Industries,2023-06-07,2023-06-15,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000058,PO-.YYYY.-,Mobilink Business Solutions,2023-06-10,2023-06-18,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000059,PO-.YYYY.-,Meezan Bank Leasing,2023-06-12,2023-07-05,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000060,PO-.YYYY.-,Total Parco,2023-06-12,2023-06-21,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000061,PO-.YYYY.-,Ernst & Young Pakistan,2023-06-13,2023-06-27,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000062,PO-.YYYY.-,Bank Alfalah Leasing,2023-06-18,2023-06-27,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000063,PO-.YYYY.-,Millat Tractors Parts,2023-06-20,2023-07-19,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000064,PO-.YYYY.-,KPMG Taseer Hadi,2023-06-21,2023-07-20,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000065,PO-.YYYY.-,Diamond Tyres Ltd,2023-06-24,2023-07-16,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000066,PO-.YYYY.-,Ernst & Young Pakistan,2023-06-24,2023-07-10,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000067,PO-.YYYY.-,ICI Pakistan,2023-06-26,2023-07-06,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000068,PO-.YYYY.-,Lahore Steel Fabricators,2023-06-28,2023-07-12,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000069,PO-.YYYY.-,SecureTrack GPS,2023-06-29,2023-07-23,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000070,PO-.YYYY.-,SafeHands PPE,2023-07-01,2023-07-19,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000071,PO-.YYYY.-,KPMG Taseer Hadi,2023-07-03,2023-07-20,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000072,PO-.YYYY.-,Lahore Steel Fabricators,2023-07-06,2023-07-15,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000073,PO-.YYYY.-,Total Parco,2023-07-11,2023-07-21,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000074,PO-.YYYY.-,SecureTrack GPS,2023-07-12,2023-08-07,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000075,PO-.YYYY.-,Siemens Pakistan,2023-07-15,2023-08-06,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000076,PO-.YYYY.-,Meezan Bank Leasing,2023-07-18,2023-08-17,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000077,PO-.YYYY.-,CleanTech Supplies,2023-07-18,2023-08-09,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000078,PO-.YYYY.-,Auto Zone Pakistan,2023-07-20,2023-08-06,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000079,PO-.YYYY.-,Punjab IT Solutions,2023-07-22,2023-08-21,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000080,PO-.YYYY.-,KPMG Taseer Hadi,2023-07-22,2023-08-08,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000081,PO-.YYYY.-,Ernst & Young Pakistan,2023-07-27,2023-08-21,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000082,PO-.YYYY.-,Refractory Solutions Pvt,2023-07-28,2023-08-10,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000083,PO-.YYYY.-,Auto Zone Pakistan,2023-07-31,2023-08-08,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000084,PO-.YYYY.-,Shell Lubricants Pakistan,2023-08-03,2023-08-11,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000085,PO-.YYYY.-,Punjab IT Solutions,2023-08-05,2023-08-30,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000086,PO-.YYYY.-,NHA Maintenance Services,2023-08-06,2023-08-20,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000087,PO-.YYYY.-,Siemens Pakistan,2023-08-06,2023-08-23,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000088,PO-.YYYY.-,Allied Medical Supplies,2023-08-10,2023-08-26,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000089,PO-.YYYY.-,Refractory Solutions Pvt,2023-08-10,2023-08-17,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000090,PO-.YYYY.-,Siemens Pakistan,2023-08-18,2023-08-31,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000091,PO-.YYYY.-,Pakistan Oxygen Ltd,2023-08-18,2023-09-09,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000092,PO-.YYYY.-,Punjab Plastics Industries,2023-08-19,2023-09-15,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000093,PO-.YYYY.-,SafeHands PPE,2023-08-20,2023-09-18,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000094,PO-.YYYY.-,State Life Insurance,2023-08-24,2023-09-01,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000095,PO-.YYYY.-,CleanTech Supplies,2023-08-25,2023-09-02,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000096,PO-.YYYY.-,Adamjee Insurance,2023-08-26,2023-09-22,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000097,PO-.YYYY.-,Millat Tractors Parts,2023-08-26,2023-09-08,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000098,PO-.YYYY.-,Sitara Chemical Industries,2023-08-27,2023-09-20,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000099,PO-.YYYY.-,Allied Medical Supplies,2023-08-28,2023-09-05,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000100,PO-.YYYY.-,UBL Fund Managers,2023-08-28,2023-09-18,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000101,PO-.YYYY.-,Descon Engineering,2023-08-29,2023-09-16,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000102,PO-.YYYY.-,Punjab Revenue Authority,2023-08-31,2023-09-10,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000103,PO-.YYYY.-,City Diesel Station,2023-09-03,2023-09-11,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000104,PO-.YYYY.-,Diamond Tyres Ltd,2023-09-06,2023-09-23,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000105,PO-.YYYY.-,National Tire House,2023-09-07,2023-09-20,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000106,PO-.YYYY.-,Descon Engineering,2023-09-13,2023-10-10,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000107,PO-.YYYY.-,Atlas Honda Parts,2023-09-13,2023-09-20,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000108,PO-.YYYY.-,City Diesel Station,2023-09-14,2023-10-01,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000109,PO-.YYYY.-,Refractory Solutions Pvt,2023-09-16,2023-09-26,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000110,PO-.YYYY.-,National Tire House,2023-09-17,2023-10-08,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000111,PO-.YYYY.-,Bank Alfalah Leasing,2023-09-18,2023-10-13,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000112,PO-.YYYY.-,Punjab Safety Equipment,2023-09-19,2023-10-01,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000113,PO-.YYYY.-,Punjab Revenue Authority,2023-09-20,2023-10-16,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000114,PO-.YYYY.-,Pakistan Refinery Fuels,2023-09-22,2023-10-04,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000115,PO-.YYYY.-,Sitara Chemical Industries,2023-09-24,2023-10-20,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000116,PO-.YYYY.-,General Tyre Pakistan,2023-09-24,2023-10-10,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000117,PO-.YYYY.-,General Tyre Pakistan,2023-10-02,2023-10-17,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000118,PO-.YYYY.-,Atlas Honda Parts,2023-10-02,2023-10-19,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000119,PO-.YYYY.-,National Chemical Corp,2023-10-03,2023-10-18,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000120,PO-.YYYY.-,Auto Zone Pakistan,2023-10-04,2023-11-03,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000121,PO-.YYYY.-,Allied Medical Supplies,2023-10-05,2023-10-28,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000122,PO-.YYYY.-,Descon Engineering,2023-10-08,2023-10-27,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000123,PO-.YYYY.-,CleanTech Supplies,2023-10-11,2023-10-31,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000124,PO-.YYYY.-,National Tire House,2023-10-13,2023-11-05,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000125,PO-.YYYY.-,Punjab Safety Equipment,2023-10-15,2023-11-11,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000126,PO-.YYYY.-,Siemens Pakistan,2023-10-16,2023-10-26,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000127,PO-.YYYY.-,KPMG Taseer Hadi,2023-10-17,2023-11-11,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000128,PO-.YYYY.-,NHA Maintenance Services,2023-10-18,2023-10-30,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000129,PO-.YYYY.-,Eco Packaging Solutions,2023-10-18,2023-10-29,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000130,PO-.YYYY.-,Lahore Steel Fabricators,2023-10-19,2023-11-08,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000131,PO-.YYYY.-,UBL Fund Managers,2023-10-19,2023-10-29,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000132,PO-.YYYY.-,Sitara Chemical Industries,2023-10-20,2023-11-14,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000133,PO-.YYYY.-,State Life Insurance,2023-10-23,2023-11-07,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000134,PO-.YYYY.-,Pakistan Refinery Fuels,2023-11-02,2023-12-01,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000135,PO-.YYYY.-,Adamjee Insurance,2023-11-03,2023-11-16,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000136,PO-.YYYY.-,Mobilink Business Solutions,2023-11-04,2023-11-13,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000137,PO-.YYYY.-,Auto Zone Pakistan,2023-11-05,2023-12-02,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000138,PO-.YYYY.-,State Life Insurance,2023-11-06,2023-12-01,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000139,PO-.YYYY.-,Punjab Revenue Authority,2023-11-16,2023-12-13,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000140,PO-.YYYY.-,Refractory Solutions Pvt,2023-11-17,2023-12-09,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000141,PO-.YYYY.-,SecureTrack GPS,2023-11-17,2023-12-12,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000142,PO-.YYYY.-,Total Parco,2023-11-20,2023-12-09,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000143,PO-.YYYY.-,Millat Tractors Parts,2023-11-23,2023-12-02,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000144,PO-.YYYY.-,Pakistan Oxygen Ltd,2023-11-25,2023-12-13,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000145,PO-.YYYY.-,Eco Packaging Solutions,2023-11-28,2023-12-05,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000146,PO-.YYYY.-,SecureTrack GPS,2023-11-29,2023-12-21,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000147,PO-.YYYY.-,Millat Tractors Parts,2023-12-02,2023-12-25,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000148,PO-.YYYY.-,Ravi Engineering Works,2023-12-03,2024-01-01,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000149,PO-.YYYY.-,Ernst & Young Pakistan,2023-12-10,2023-12-23,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000150,PO-.YYYY.-,Descon Engineering,2023-12-10,2024-01-02,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000151,PO-.YYYY.-,State Life Insurance,2023-12-12,2023-12-25,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000152,PO-.YYYY.-,Adamjee Insurance,2023-12-13,2023-12-22,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000153,PO-.YYYY.-,Auto Zone Pakistan,2023-12-14,2023-12-21,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000154,PO-.YYYY.-,Bank Alfalah Leasing,2023-12-18,2024-01-15,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000155,PO-.YYYY.-,Sitara Chemical Industries,2023-12-18,2024-01-04,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000156,PO-.YYYY.-,Allied Medical Supplies,2023-12-20,2024-01-18,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000157,PO-.YYYY.-,Refractory Solutions Pvt,2023-12-25,2024-01-17,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000158,PO-.YYYY.-,Millat Tractors Parts,2023-12-27,2024-01-03,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000159,PO-.YYYY.-,State Life Insurance,2023-12-28,2024-01-16,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000160,PO-.YYYY.-,Sapphire Textiles (Uniforms),2023-12-29,2024-01-14,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000161,PO-.YYYY.-,Adamjee Insurance,2023-12-30,2024-01-16,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000162,PO-.YYYY.-,Lahore Steel Fabricators,2024-01-02,2024-01-31,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000163,PO-.YYYY.-,Shell Lubricants Pakistan,2024-01-06,2024-01-13,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000164,PO-.YYYY.-,SecureTrack GPS,2024-01-07,2024-02-03,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000165,PO-.YYYY.-,Punjab IT Solutions,2024-01-08,2024-01-19,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000166,PO-.YYYY.-,Punjab IT Solutions,2024-01-09,2024-01-17,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000167,PO-.YYYY.-,Allied Medical Supplies,2024-01-12,2024-01-23,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000168,PO-.YYYY.-,ICI Pakistan,2024-01-14,2024-02-09,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000169,PO-.YYYY.-,Millat Tractors Parts,2024-01-15,2024-02-07,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000170,PO-.YYYY.-,Refractory Solutions Pvt,2024-01-16,2024-01-23,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000171,PO-.YYYY.-,Shell Lubricants Pakistan,2024-01-17,2024-02-11,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000172,PO-.YYYY.-,Metro Fuel Distributors,2024-01-18,2024-02-07,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000173,PO-.YYYY.-,Refractory Solutions Pvt,2024-01-20,2024-01-31,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000174,PO-.YYYY.-,Diamond Tyres Ltd,2024-01-20,2024-02-17,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000175,PO-.YYYY.-,Descon Engineering,2024-01-22,2024-02-15,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000176,PO-.YYYY.-,Atlas Honda Parts,2024-01-22,2024-02-21,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000177,PO-.YYYY.-,EFU General Insurance,2024-01-23,2024-02-01,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000178,PO-.YYYY.-,Punjab Safety Equipment,2024-01-23,2024-02-21,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000179,PO-.YYYY.-,Meezan Bank Leasing,2024-01-30,2024-02-22,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000180,PO-.YYYY.-,Mobilink Business Solutions,2024-01-30,2024-02-24,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000181,PO-.YYYY.-,Pakistan Refinery Fuels,2024-02-02,2024-02-27,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000182,PO-.YYYY.-,State Life Insurance,2024-02-02,2024-02-12,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000183,PO-.YYYY.-,ICI Pakistan,2024-02-03,2024-02-11,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000184,PO-.YYYY.-,CleanTech Supplies,2024-02-03,2024-03-01,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000185,PO-.YYYY.-,Diamond Tyres Ltd,2024-02-03,2024-02-29,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000186,PO-.YYYY.-,National Chemical Corp,2024-02-04,2024-02-17,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000187,PO-.YYYY.-,Adamjee Insurance,2024-02-06,2024-02-28,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000188,PO-.YYYY.-,General Tyre Pakistan,2024-02-07,2024-03-05,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000189,PO-.YYYY.-,Eco Packaging Solutions,2024-02-07,2024-03-03,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000190,PO-.YYYY.-,Meezan Bank Leasing,2024-02-09,2024-02-22,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000191,PO-.YYYY.-,Punjab IT Solutions,2024-02-10,2024-02-25,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000192,PO-.YYYY.-,Lahore Steel Fabricators,2024-02-10,2024-02-28,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000193,PO-.YYYY.-,City Diesel Station,2024-02-13,2024-02-24,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000194,PO-.YYYY.-,Punjab Revenue Authority,2024-02-14,2024-02-22,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000195,PO-.YYYY.-,Total Parco,2024-02-20,2024-03-10,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000196,PO-.YYYY.-,UBL Fund Managers,2024-02-20,2024-03-21,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000197,PO-.YYYY.-,General Tyre Pakistan,2024-02-26,2024-03-25,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000198,PO-.YYYY.-,Pakistan Oxygen Ltd,2024-02-27,2024-03-21,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000199,PO-.YYYY.-,Descon Engineering,2024-02-27,2024-03-28,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000200,PO-.YYYY.-,CleanTech Supplies,2024-02-28,2024-03-24,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000201,PO-.YYYY.-,NHA Maintenance Services,2024-03-01,2024-03-26,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000202,PO-.YYYY.-,Eco Packaging Solutions,2024-03-01,2024-03-08,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000203,PO-.YYYY.-,Atlas Honda Parts,2024-03-02,2024-03-29,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000204,PO-.YYYY.-,Eco Packaging Solutions,2024-03-02,2024-03-20,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000205,PO-.YYYY.-,Allied Medical Supplies,2024-03-03,2024-03-15,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000206,PO-.YYYY.-,General Tyre Pakistan,2024-03-04,2024-03-12,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000207,PO-.YYYY.-,Meezan Bank Leasing,2024-03-05,2024-04-02,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000208,PO-.YYYY.-,State Life Insurance,2024-03-05,2024-03-17,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000209,PO-.YYYY.-,Descon Engineering,2024-03-05,2024-03-12,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000210,PO-.YYYY.-,Total Parco,2024-03-08,2024-03-24,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000211,PO-.YYYY.-,Siemens Pakistan,2024-03-09,2024-03-21,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000212,PO-.YYYY.-,Ravi Engineering Works,2024-03-10,2024-03-22,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000213,PO-.YYYY.-,Ravi Engineering Works,2024-03-11,2024-04-02,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000214,PO-.YYYY.-,Metro Fuel Distributors,2024-03-11,2024-04-04,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000215,PO-.YYYY.-,Ernst & Young Pakistan,2024-03-12,2024-04-04,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000216,PO-.YYYY.-,Meezan Bank Leasing,2024-03-13,2024-04-04,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000217,PO-.YYYY.-,Sitara Chemical Industries,2024-03-16,2024-04-09,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000218,PO-.YYYY.-,NHA Maintenance Services,2024-03-17,2024-04-07,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000219,PO-.YYYY.-,Punjab Plastics Industries,2024-03-17,2024-03-31,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000220,PO-.YYYY.-,Ernst & Young Pakistan,2024-03-18,2024-03-28,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000221,PO-.YYYY.-,NHA Maintenance Services,2024-03-20,2024-04-06,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000222,PO-.YYYY.-,Adamjee Insurance,2024-03-21,2024-04-12,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000223,PO-.YYYY.-,NHA Maintenance Services,2024-03-21,2024-04-04,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000224,PO-.YYYY.-,Descon Engineering,2024-03-23,2024-04-08,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000225,PO-.YYYY.-,Millat Tractors Parts,2024-03-24,2024-04-18,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000226,PO-.YYYY.-,Pakistan Oxygen Ltd,2024-03-25,2024-04-12,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000227,PO-.YYYY.-,Pakistan Refinery Fuels,2024-03-29,2024-04-15,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000228,PO-.YYYY.-,NHA Maintenance Services,2024-04-03,2024-04-24,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000229,PO-.YYYY.-,Mobilink Business Solutions,2024-04-08,2024-04-16,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000230,PO-.YYYY.-,Punjab Revenue Authority,2024-04-09,2024-05-09,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000231,PO-.YYYY.-,Atlas Honda Parts,2024-04-09,2024-04-29,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000232,PO-.YYYY.-,Punjab Revenue Authority,2024-04-14,2024-05-04,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000233,PO-.YYYY.-,SecureTrack GPS,2024-04-15,2024-05-04,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000234,PO-.YYYY.-,SafeHands PPE,2024-04-17,2024-05-11,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000235,PO-.YYYY.-,Meezan Bank Leasing,2024-04-20,2024-04-28,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000236,PO-.YYYY.-,Pakistan Oxygen Ltd,2024-04-21,2024-05-18,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000237,PO-.YYYY.-,ICI Pakistan,2024-04-23,2024-04-30,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000238,PO-.YYYY.-,State Life Insurance,2024-04-29,2024-05-09,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000239,PO-.YYYY.-,State Life Insurance,2024-05-01,2024-05-26,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000240,PO-.YYYY.-,Punjab Plastics Industries,2024-05-04,2024-05-17,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000241,PO-.YYYY.-,Sitara Chemical Industries,2024-05-04,2024-05-25,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000242,PO-.YYYY.-,Sapphire Textiles (Uniforms),2024-05-05,2024-05-16,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000243,PO-.YYYY.-,Shell Lubricants Pakistan,2024-05-07,2024-05-16,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000244,PO-.YYYY.-,EFU General Insurance,2024-05-09,2024-05-21,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000245,PO-.YYYY.-,Punjab Revenue Authority,2024-05-09,2024-05-27,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000246,PO-.YYYY.-,Refractory Solutions Pvt,2024-05-12,2024-05-29,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000247,PO-.YYYY.-,EFU General Insurance,2024-05-13,2024-05-27,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000248,PO-.YYYY.-,Auto Zone Pakistan,2024-05-14,2024-06-03,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000249,PO-.YYYY.-,Descon Engineering,2024-05-14,2024-06-04,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000250,PO-.YYYY.-,Punjab Revenue Authority,2024-05-14,2024-06-08,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000251,PO-.YYYY.-,Mobilink Business Solutions,2024-05-15,2024-05-23,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000252,PO-.YYYY.-,Total Parco,2024-05-16,2024-06-12,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000253,PO-.YYYY.-,Lahore Steel Fabricators,2024-05-17,2024-06-14,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000254,PO-.YYYY.-,Meezan Bank Leasing,2024-05-18,2024-05-30,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000255,PO-.YYYY.-,SafeHands PPE,2024-05-18,2024-05-27,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000256,PO-.YYYY.-,State Life Insurance,2024-05-20,2024-05-28,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000257,PO-.YYYY.-,EFU General Insurance,2024-05-21,2024-06-01,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000258,PO-.YYYY.-,Lahore Steel Fabricators,2024-05-21,2024-06-13,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000259,PO-.YYYY.-,Metro Fuel Distributors,2024-05-22,2024-06-11,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000260,PO-.YYYY.-,CleanTech Supplies,2024-05-25,2024-06-22,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000261,PO-.YYYY.-,City Diesel Station,2024-05-25,2024-06-13,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000262,PO-.YYYY.-,Auto Zone Pakistan,2024-05-25,2024-06-17,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000263,PO-.YYYY.-,Ravi Engineering Works,2024-05-25,2024-06-18,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000264,PO-.YYYY.-,Allied Medical Supplies,2024-05-26,2024-06-05,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000265,PO-.YYYY.-,Adamjee Insurance,2024-05-28,2024-06-27,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000266,PO-.YYYY.-,Lahore Steel Fabricators,2024-05-29,2024-06-10,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000267,PO-.YYYY.-,City Diesel Station,2024-06-04,2024-06-25,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000268,PO-.YYYY.-,Sapphire Textiles (Uniforms),2024-06-08,2024-06-18,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000269,PO-.YYYY.-,KPMG Taseer Hadi,2024-06-09,2024-07-03,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000270,PO-.YYYY.-,Lahore Steel Fabricators,2024-06-11,2024-06-23,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000271,PO-.YYYY.-,Shell Lubricants Pakistan,2024-06-13,2024-07-13,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000272,PO-.YYYY.-,Ravi Engineering Works,2024-06-13,2024-07-11,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000273,PO-.YYYY.-,Refractory Solutions Pvt,2024-06-19,2024-07-03,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000274,PO-.YYYY.-,Meezan Bank Leasing,2024-06-21,2024-07-01,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000275,PO-.YYYY.-,Pakistan Refinery Fuels,2024-06-21,2024-07-13,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000276,PO-.YYYY.-,NHA Maintenance Services,2024-06-24,2024-07-12,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000277,PO-.YYYY.-,Refractory Solutions Pvt,2024-06-25,2024-07-11,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000278,PO-.YYYY.-,SecureTrack GPS,2024-06-29,2024-07-26,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000279,PO-.YYYY.-,SecureTrack GPS,2024-07-01,2024-07-12,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000280,PO-.YYYY.-,EFU General Insurance,2024-07-02,2024-07-26,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000281,PO-.YYYY.-,Millat Tractors Parts,2024-07-05,2024-07-25,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000282,PO-.YYYY.-,NHA Maintenance Services,2024-07-06,2024-07-14,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000283,PO-.YYYY.-,Millat Tractors Parts,2024-07-07,2024-07-16,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000284,PO-.YYYY.-,Lahore Steel Fabricators,2024-07-07,2024-07-21,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000285,PO-.YYYY.-,Millat Tractors Parts,2024-07-09,2024-07-28,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000286,PO-.YYYY.-,CleanTech Supplies,2024-07-09,2024-08-01,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000287,PO-.YYYY.-,EFU General Insurance,2024-07-13,2024-07-31,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000288,PO-.YYYY.-,Sitara Chemical Industries,2024-07-14,2024-08-01,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000289,PO-.YYYY.-,City Diesel Station,2024-07-14,2024-07-30,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000290,PO-.YYYY.-,NHA Maintenance Services,2024-07-16,2024-07-23,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000291,PO-.YYYY.-,KPMG Taseer Hadi,2024-07-18,2024-08-15,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000292,PO-.YYYY.-,NHA Maintenance Services,2024-07-20,2024-07-30,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000293,PO-.YYYY.-,Ernst & Young Pakistan,2024-07-20,2024-08-04,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000294,PO-.YYYY.-,City Diesel Station,2024-07-24,2024-08-22,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000295,PO-.YYYY.-,Atlas Honda Parts,2024-07-26,2024-08-24,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000296,PO-.YYYY.-,Atlas Honda Parts,2024-07-26,2024-08-13,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000297,PO-.YYYY.-,Pakistan Oxygen Ltd,2024-07-27,2024-08-15,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000298,PO-.YYYY.-,Shell Lubricants Pakistan,2024-07-27,2024-08-22,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000299,PO-.YYYY.-,CleanTech Supplies,2024-07-27,2024-08-15,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000300,PO-.YYYY.-,City Diesel Station,2024-07-27,2024-08-07,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000301,PO-.YYYY.-,Ravi Engineering Works,2024-07-30,2024-08-12,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000302,PO-.YYYY.-,SecureTrack GPS,2024-07-31,2024-08-11,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000303,PO-.YYYY.-,Mobilink Business Solutions,2024-08-03,2024-08-13,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000304,PO-.YYYY.-,Punjab IT Solutions,2024-08-03,2024-08-25,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000305,PO-.YYYY.-,Total Parco,2024-08-03,2024-08-27,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000306,PO-.YYYY.-,City Diesel Station,2024-08-06,2024-08-26,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000307,PO-.YYYY.-,Allied Medical Supplies,2024-08-07,2024-08-28,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000308,PO-.YYYY.-,Siemens Pakistan,2024-08-08,2024-08-25,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000309,PO-.YYYY.-,Shell Lubricants Pakistan,2024-08-08,2024-08-20,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000310,PO-.YYYY.-,SecureTrack GPS,2024-08-13,2024-08-27,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000311,PO-.YYYY.-,SecureTrack GPS,2024-08-15,2024-08-28,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000312,PO-.YYYY.-,UBL Fund Managers,2024-08-25,2024-09-08,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000313,PO-.YYYY.-,Millat Tractors Parts,2024-08-25,2024-09-16,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000314,PO-.YYYY.-,Meezan Bank Leasing,2024-08-27,2024-09-17,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000315,PO-.YYYY.-,Sapphire Textiles (Uniforms),2024-08-28,2024-09-05,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000316,PO-.YYYY.-,Punjab IT Solutions,2024-08-30,2024-09-24,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000317,PO-.YYYY.-,Punjab Safety Equipment,2024-09-04,2024-10-02,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000318,PO-.YYYY.-,National Chemical Corp,2024-09-07,2024-09-24,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000319,PO-.YYYY.-,City Diesel Station,2024-09-08,2024-09-16,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000320,PO-.YYYY.-,NHA Maintenance Services,2024-09-09,2024-09-29,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000321,PO-.YYYY.-,Refractory Solutions Pvt,2024-09-10,2024-09-20,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000322,PO-.YYYY.-,Bank Alfalah Leasing,2024-09-10,2024-10-05,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000323,PO-.YYYY.-,Descon Engineering,2024-09-12,2024-09-21,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000324,PO-.YYYY.-,Punjab IT Solutions,2024-09-16,2024-10-07,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000325,PO-.YYYY.-,Refractory Solutions Pvt,2024-09-26,2024-10-20,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000326,PO-.YYYY.-,General Tyre Pakistan,2024-09-30,2024-10-10,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000327,PO-.YYYY.-,Sitara Chemical Industries,2024-09-30,2024-10-26,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000328,PO-.YYYY.-,General Tyre Pakistan,2024-10-01,2024-10-10,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000329,PO-.YYYY.-,Sitara Chemical Industries,2024-10-04,2024-10-21,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000330,PO-.YYYY.-,Shell Lubricants Pakistan,2024-10-04,2024-10-17,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000331,PO-.YYYY.-,Diamond Tyres Ltd,2024-10-04,2024-10-23,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000332,PO-.YYYY.-,Sapphire Textiles (Uniforms),2024-10-08,2024-10-23,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000333,PO-.YYYY.-,Descon Engineering,2024-10-10,2024-10-17,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000334,PO-.YYYY.-,Shell Lubricants Pakistan,2024-10-10,2024-10-18,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000335,PO-.YYYY.-,Pakistan Refinery Fuels,2024-10-11,2024-10-19,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000336,PO-.YYYY.-,General Tyre Pakistan,2024-10-13,2024-11-02,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000337,PO-.YYYY.-,Descon Engineering,2024-10-15,2024-10-26,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000338,PO-.YYYY.-,KPMG Taseer Hadi,2024-10-15,2024-11-09,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000339,PO-.YYYY.-,Millat Tractors Parts,2024-10-17,2024-11-08,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000340,PO-.YYYY.-,Mobilink Business Solutions,2024-10-17,2024-11-09,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000341,PO-.YYYY.-,Ernst & Young Pakistan,2024-10-23,2024-11-01,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000342,PO-.YYYY.-,Eco Packaging Solutions,2024-10-23,2024-11-17,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000343,PO-.YYYY.-,KPMG Taseer Hadi,2024-10-23,2024-11-13,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000344,PO-.YYYY.-,EFU General Insurance,2024-10-28,2024-11-04,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000345,PO-.YYYY.-,Refractory Solutions Pvt,2024-10-31,2024-11-18,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000346,PO-.YYYY.-,City Diesel Station,2024-11-02,2024-11-22,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000347,PO-.YYYY.-,Pakistan Refinery Fuels,2024-11-03,2024-11-14,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000348,PO-.YYYY.-,Meezan Bank Leasing,2024-11-11,2024-12-01,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000349,PO-.YYYY.-,Adamjee Insurance,2024-11-12,2024-11-28,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000350,PO-.YYYY.-,Diamond Tyres Ltd,2024-11-13,2024-12-13,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000351,PO-.YYYY.-,Adamjee Insurance,2024-11-15,2024-12-06,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000352,PO-.YYYY.-,SecureTrack GPS,2024-11-18,2024-12-04,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000353,PO-.YYYY.-,CleanTech Supplies,2024-11-22,2024-12-17,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000354,PO-.YYYY.-,Adamjee Insurance,2024-11-22,2024-12-07,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000355,PO-.YYYY.-,UBL Fund Managers,2024-11-22,2024-12-15,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000356,PO-.YYYY.-,SafeHands PPE,2024-11-23,2024-12-13,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000357,PO-.YYYY.-,Punjab Safety Equipment,2024-11-24,2024-12-22,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000358,PO-.YYYY.-,Atlas Honda Parts,2024-11-26,2024-12-03,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000359,PO-.YYYY.-,Lahore Steel Fabricators,2024-11-27,2024-12-26,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000360,PO-.YYYY.-,Ravi Engineering Works,2024-11-30,2024-12-17,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000361,PO-.YYYY.-,Shell Lubricants Pakistan,2024-11-30,2024-12-12,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000362,PO-.YYYY.-,CleanTech Supplies,2024-12-02,2024-12-31,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000363,PO-.YYYY.-,Allied Medical Supplies,2024-12-04,2024-12-25,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000364,PO-.YYYY.-,Meezan Bank Leasing,2024-12-05,2024-12-19,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000365,PO-.YYYY.-,Meezan Bank Leasing,2024-12-13,2025-01-06,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000366,PO-.YYYY.-,Pakistan Refinery Fuels,2024-12-14,2024-12-31,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000367,PO-.YYYY.-,SecureTrack GPS,2024-12-14,2025-01-11,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000368,PO-.YYYY.-,Mobilink Business Solutions,2024-12-15,2024-12-23,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000369,PO-.YYYY.-,Eco Packaging Solutions,2024-12-15,2025-01-01,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000370,PO-.YYYY.-,Punjab Plastics Industries,2024-12-15,2025-01-01,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000371,PO-.YYYY.-,State Life Insurance,2024-12-16,2025-01-12,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000372,PO-.YYYY.-,Allied Medical Supplies,2024-12-20,2025-01-07,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000373,PO-.YYYY.-,General Tyre Pakistan,2024-12-23,2025-01-13,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000374,PO-.YYYY.-,Punjab IT Solutions,2024-12-26,2025-01-08,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000375,PO-.YYYY.-,Eco Packaging Solutions,2024-12-27,2025-01-11,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000376,PO-.YYYY.-,Allied Medical Supplies,2024-12-29,2025-01-24,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000377,PO-.YYYY.-,Shell Lubricants Pakistan,2024-12-30,2025-01-19,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000378,PO-.YYYY.-,State Life Insurance,2024-12-30,2025-01-08,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000379,PO-.YYYY.-,Siemens Pakistan,2025-01-01,2025-01-12,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000380,PO-.YYYY.-,Atlas Honda Parts,2025-01-01,2025-01-22,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000381,PO-.YYYY.-,City Diesel Station,2025-01-05,2025-01-12,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000382,PO-.YYYY.-,City Diesel Station,2025-01-06,2025-01-18,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000383,PO-.YYYY.-,Sitara Chemical Industries,2025-01-10,2025-02-05,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000384,PO-.YYYY.-,Pakistan Refinery Fuels,2025-01-11,2025-01-22,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000385,PO-.YYYY.-,Ravi Engineering Works,2025-01-13,2025-02-12,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000386,PO-.YYYY.-,Punjab Revenue Authority,2025-01-13,2025-02-06,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000387,PO-.YYYY.-,Pakistan Refinery Fuels,2025-01-15,2025-01-30,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000388,PO-.YYYY.-,National Chemical Corp,2025-01-20,2025-02-06,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000389,PO-.YYYY.-,Lahore Steel Fabricators,2025-01-21,2025-02-07,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000390,PO-.YYYY.-,Bank Alfalah Leasing,2025-01-22,2025-02-16,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000391,PO-.YYYY.-,Adamjee Insurance,2025-01-24,2025-02-18,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000392,PO-.YYYY.-,Refractory Solutions Pvt,2025-01-29,2025-02-14,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000393,PO-.YYYY.-,Pakistan Refinery Fuels,2025-01-30,2025-02-10,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000394,PO-.YYYY.-,Refractory Solutions Pvt,2025-01-30,2025-02-07,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000395,PO-.YYYY.-,Atlas Honda Parts,2025-01-31,2025-02-25,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000396,PO-.YYYY.-,Ravi Engineering Works,2025-02-06,2025-02-20,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000397,PO-.YYYY.-,Atlas Honda Parts,2025-02-07,2025-03-09,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000398,PO-.YYYY.-,Pakistan Refinery Fuels,2025-02-07,2025-02-27,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000399,PO-.YYYY.-,City Diesel Station,2025-02-10,2025-02-23,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000400,PO-.YYYY.-,SecureTrack GPS,2025-02-15,2025-02-23,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000401,PO-.YYYY.-,Total Parco,2025-02-21,2025-03-20,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000402,PO-.YYYY.-,Punjab Safety Equipment,2025-02-21,2025-03-16,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000403,PO-.YYYY.-,National Tire House,2025-02-22,2025-03-05,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000404,PO-.YYYY.-,Shell Lubricants Pakistan,2025-02-24,2025-03-26,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000405,PO-.YYYY.-,Diamond Tyres Ltd,2025-02-27,2025-03-17,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000406,PO-.YYYY.-,Punjab Revenue Authority,2025-03-01,2025-03-31,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000407,PO-.YYYY.-,Punjab Revenue Authority,2025-03-05,2025-03-18,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000408,PO-.YYYY.-,Shell Lubricants Pakistan,2025-03-07,2025-03-18,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000409,PO-.YYYY.-,General Tyre Pakistan,2025-03-09,2025-03-21,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000410,PO-.YYYY.-,Mobilink Business Solutions,2025-03-09,2025-03-28,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000411,PO-.YYYY.-,UBL Fund Managers,2025-03-09,2025-03-29,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000412,PO-.YYYY.-,Punjab IT Solutions,2025-03-10,2025-03-24,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000413,PO-.YYYY.-,SecureTrack GPS,2025-03-12,2025-03-29,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000414,PO-.YYYY.-,National Tire House,2025-03-15,2025-04-07,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000415,PO-.YYYY.-,Metro Fuel Distributors,2025-03-20,2025-04-17,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000416,PO-.YYYY.-,Total Parco,2025-03-21,2025-04-08,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000417,PO-.YYYY.-,Diamond Tyres Ltd,2025-03-24,2025-04-09,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000418,PO-.YYYY.-,Shell Lubricants Pakistan,2025-03-26,2025-04-05,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000419,PO-.YYYY.-,Siemens Pakistan,2025-03-27,2025-04-26,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000420,PO-.YYYY.-,Diamond Tyres Ltd,2025-04-01,2025-04-28,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000421,PO-.YYYY.-,KPMG Taseer Hadi,2025-04-02,2025-05-02,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000422,PO-.YYYY.-,Lahore Steel Fabricators,2025-04-06,2025-05-05,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000423,PO-.YYYY.-,Lahore Steel Fabricators,2025-04-09,2025-04-25,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000424,PO-.YYYY.-,Atlas Honda Parts,2025-04-11,2025-04-25,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000425,PO-.YYYY.-,Meezan Bank Leasing,2025-04-11,2025-05-03,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000426,PO-.YYYY.-,Total Parco,2025-04-14,2025-04-25,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000427,PO-.YYYY.-,CleanTech Supplies,2025-04-14,2025-05-10,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000428,PO-.YYYY.-,Mobilink Business Solutions,2025-04-17,2025-05-09,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000429,PO-.YYYY.-,Mobilink Business Solutions,2025-04-18,2025-05-09,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000430,PO-.YYYY.-,SecureTrack GPS,2025-04-26,2025-05-08,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000431,PO-.YYYY.-,Descon Engineering,2025-04-28,2025-05-18,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000432,PO-.YYYY.-,Eco Packaging Solutions,2025-04-29,2025-05-22,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000433,PO-.YYYY.-,ICI Pakistan,2025-04-30,2025-05-22,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000434,PO-.YYYY.-,Total Parco,2025-04-30,2025-05-21,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000435,PO-.YYYY.-,Siemens Pakistan,2025-04-30,2025-05-18,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000436,PO-.YYYY.-,Siemens Pakistan,2025-05-06,2025-06-03,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000437,PO-.YYYY.-,NHA Maintenance Services,2025-05-10,2025-05-26,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000438,PO-.YYYY.-,Ernst & Young Pakistan,2025-05-12,2025-06-06,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000439,PO-.YYYY.-,Allied Medical Supplies,2025-05-12,2025-06-04,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000440,PO-.YYYY.-,Diamond Tyres Ltd,2025-05-13,2025-05-30,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000441,PO-.YYYY.-,Allied Medical Supplies,2025-05-15,2025-05-25,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000442,PO-.YYYY.-,Lahore Steel Fabricators,2025-05-16,2025-05-25,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000443,PO-.YYYY.-,Eco Packaging Solutions,2025-05-17,2025-06-09,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000444,PO-.YYYY.-,UBL Fund Managers,2025-05-18,2025-06-12,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000445,PO-.YYYY.-,Auto Zone Pakistan,2025-05-18,2025-05-29,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000446,PO-.YYYY.-,Pakistan Refinery Fuels,2025-05-19,2025-05-26,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000447,PO-.YYYY.-,Punjab Plastics Industries,2025-05-19,2025-06-11,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000448,PO-.YYYY.-,NHA Maintenance Services,2025-05-21,2025-05-30,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000449,PO-.YYYY.-,General Tyre Pakistan,2025-05-22,2025-05-30,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000450,PO-.YYYY.-,Ravi Engineering Works,2025-05-23,2025-06-20,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000451,PO-.YYYY.-,Ernst & Young Pakistan,2025-05-23,2025-06-04,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000452,PO-.YYYY.-,Total Parco,2025-05-24,2025-06-23,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000453,PO-.YYYY.-,Pakistan Oxygen Ltd,2025-05-25,2025-06-07,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000454,PO-.YYYY.-,Pakistan Refinery Fuels,2025-05-26,2025-06-20,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000455,PO-.YYYY.-,SafeHands PPE,2025-05-30,2025-06-14,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000456,PO-.YYYY.-,CleanTech Supplies,2025-06-02,2025-06-22,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000457,PO-.YYYY.-,Meezan Bank Leasing,2025-06-03,2025-06-16,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000458,PO-.YYYY.-,ICI Pakistan,2025-06-10,2025-07-02,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000459,PO-.YYYY.-,General Tyre Pakistan,2025-06-14,2025-07-05,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000460,PO-.YYYY.-,Punjab Plastics Industries,2025-06-14,2025-07-07,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000461,PO-.YYYY.-,Diamond Tyres Ltd,2025-06-19,2025-07-15,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000462,PO-.YYYY.-,EFU General Insurance,2025-06-20,2025-07-19,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000463,PO-.YYYY.-,Ernst & Young Pakistan,2025-06-21,2025-07-02,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000464,PO-.YYYY.-,State Life Insurance,2025-06-23,2025-07-13,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000465,PO-.YYYY.-,Eco Packaging Solutions,2025-06-23,2025-07-12,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000466,PO-.YYYY.-,State Life Insurance,2025-06-24,2025-07-16,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000467,PO-.YYYY.-,Ernst & Young Pakistan,2025-06-24,2025-07-18,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000468,PO-.YYYY.-,KPMG Taseer Hadi,2025-06-24,2025-07-06,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000469,PO-.YYYY.-,Adamjee Insurance,2025-06-30,2025-07-30,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000470,PO-.YYYY.-,Millat Tractors Parts,2025-07-02,2025-07-15,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000471,PO-.YYYY.-,Meezan Bank Leasing,2025-07-04,2025-07-21,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000472,PO-.YYYY.-,Punjab Safety Equipment,2025-07-09,2025-08-03,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000473,PO-.YYYY.-,EFU General Insurance,2025-07-10,2025-07-23,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000474,PO-.YYYY.-,Eco Packaging Solutions,2025-07-11,2025-07-30,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000475,PO-.YYYY.-,Lahore Steel Fabricators,2025-07-14,2025-08-01,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000476,PO-.YYYY.-,Lahore Steel Fabricators,2025-07-16,2025-08-01,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000477,PO-.YYYY.-,Ernst & Young Pakistan,2025-07-21,2025-08-20,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000478,PO-.YYYY.-,Refractory Solutions Pvt,2025-07-22,2025-08-17,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000479,PO-.YYYY.-,Ernst & Young Pakistan,2025-07-22,2025-08-20,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000480,PO-.YYYY.-,Pakistan Oxygen Ltd,2025-07-24,2025-08-18,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000481,PO-.YYYY.-,Millat Tractors Parts,2025-07-27,2025-08-15,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000482,PO-.YYYY.-,Ernst & Young Pakistan,2025-07-29,2025-08-05,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000483,PO-.YYYY.-,Siemens Pakistan,2025-07-30,2025-08-12,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000484,PO-.YYYY.-,Atlas Honda Parts,2025-07-31,2025-08-20,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000485,PO-.YYYY.-,Bank Alfalah Leasing,2025-08-02,2025-08-26,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000486,PO-.YYYY.-,Millat Tractors Parts,2025-08-02,2025-08-11,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000487,PO-.YYYY.-,SecureTrack GPS,2025-08-03,2025-08-23,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000488,PO-.YYYY.-,Mobilink Business Solutions,2025-08-08,2025-08-25,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000489,PO-.YYYY.-,ICI Pakistan,2025-08-10,2025-08-27,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000490,PO-.YYYY.-,Auto Zone Pakistan,2025-08-10,2025-09-03,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000491,PO-.YYYY.-,Meezan Bank Leasing,2025-08-11,2025-09-03,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000492,PO-.YYYY.-,Adamjee Insurance,2025-08-11,2025-08-27,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000493,PO-.YYYY.-,KPMG Taseer Hadi,2025-08-13,2025-08-28,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000494,PO-.YYYY.-,Auto Zone Pakistan,2025-08-14,2025-09-06,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000495,PO-.YYYY.-,Pakistan Refinery Fuels,2025-08-19,2025-09-12,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000496,PO-.YYYY.-,ICI Pakistan,2025-08-21,2025-09-12,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000497,PO-.YYYY.-,National Chemical Corp,2025-08-21,2025-09-20,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000498,PO-.YYYY.-,Ravi Engineering Works,2025-08-23,2025-09-16,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000499,PO-.YYYY.-,KPMG Taseer Hadi,2025-08-25,2025-09-14,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000500,PO-.YYYY.-,ICI Pakistan,2025-08-30,2025-09-29,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000501,PO-.YYYY.-,Punjab IT Solutions,2025-08-30,2025-09-13,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000502,PO-.YYYY.-,Meezan Bank Leasing,2025-08-30,2025-09-20,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000503,PO-.YYYY.-,Ernst & Young Pakistan,2025-08-31,2025-09-25,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000504,PO-.YYYY.-,Refractory Solutions Pvt,2025-08-31,2025-09-23,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000505,PO-.YYYY.-,Ravi Engineering Works,2025-09-02,2025-09-14,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000506,PO-.YYYY.-,Sitara Chemical Industries,2025-09-02,2025-09-29,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000507,PO-.YYYY.-,Pakistan Refinery Fuels,2025-09-03,2025-09-29,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000508,PO-.YYYY.-,Ernst & Young Pakistan,2025-09-06,2025-09-17,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000509,PO-.YYYY.-,Bank Alfalah Leasing,2025-09-07,2025-09-19,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000510,PO-.YYYY.-,National Chemical Corp,2025-09-09,2025-10-04,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000511,PO-.YYYY.-,Meezan Bank Leasing,2025-09-11,2025-09-27,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000512,PO-.YYYY.-,Sapphire Textiles (Uniforms),2025-09-12,2025-10-03,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000513,PO-.YYYY.-,Millat Tractors Parts,2025-09-14,2025-10-12,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000514,PO-.YYYY.-,Sapphire Textiles (Uniforms),2025-09-20,2025-10-14,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000515,PO-.YYYY.-,State Life Insurance,2025-09-23,2025-10-02,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000516,PO-.YYYY.-,Atlas Honda Parts,2025-09-29,2025-10-21,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000517,PO-.YYYY.-,Metro Fuel Distributors,2025-10-01,2025-10-12,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000518,PO-.YYYY.-,UBL Fund Managers,2025-10-02,2025-10-23,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000519,PO-.YYYY.-,Sitara Chemical Industries,2025-10-03,2025-10-28,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000520,PO-.YYYY.-,CleanTech Supplies,2025-10-03,2025-10-14,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000521,PO-.YYYY.-,Ravi Engineering Works,2025-10-04,2025-10-21,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000522,PO-.YYYY.-,NHA Maintenance Services,2025-10-05,2025-10-29,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000523,PO-.YYYY.-,Diamond Tyres Ltd,2025-10-08,2025-10-22,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000524,PO-.YYYY.-,Ernst & Young Pakistan,2025-10-09,2025-10-19,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000525,PO-.YYYY.-,Siemens Pakistan,2025-10-13,2025-10-21,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000526,PO-.YYYY.-,Mobilink Business Solutions,2025-10-13,2025-11-08,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000527,PO-.YYYY.-,EFU General Insurance,2025-10-14,2025-10-26,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000528,PO-.YYYY.-,Sitara Chemical Industries,2025-10-14,2025-11-05,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000529,PO-.YYYY.-,Ernst & Young Pakistan,2025-10-14,2025-10-27,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000530,PO-.YYYY.-,Ernst & Young Pakistan,2025-10-15,2025-11-05,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000531,PO-.YYYY.-,Punjab Revenue Authority,2025-10-16,2025-11-15,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000532,PO-.YYYY.-,National Chemical Corp,2025-10-20,2025-11-14,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000533,PO-.YYYY.-,Punjab IT Solutions,2025-10-22,2025-10-29,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000534,PO-.YYYY.-,Shell Lubricants Pakistan,2025-10-23,2025-11-10,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000535,PO-.YYYY.-,National Chemical Corp,2025-10-25,2025-11-22,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000536,PO-.YYYY.-,CleanTech Supplies,2025-10-25,2025-11-23,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000537,PO-.YYYY.-,SecureTrack GPS,2025-10-28,2025-11-08,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000538,PO-.YYYY.-,National Chemical Corp,2025-10-30,2025-11-16,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000539,PO-.YYYY.-,UBL Fund Managers,2025-10-30,2025-11-20,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000540,PO-.YYYY.-,Meezan Bank Leasing,2025-11-01,2025-11-13,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000541,PO-.YYYY.-,General Tyre Pakistan,2025-11-06,2025-11-30,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000542,PO-.YYYY.-,Ravi Engineering Works,2025-11-07,2025-11-29,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000543,PO-.YYYY.-,Ravi Engineering Works,2025-11-10,2025-11-28,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000544,PO-.YYYY.-,Sapphire Textiles (Uniforms),2025-11-12,2025-12-09,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000545,PO-.YYYY.-,Mobilink Business Solutions,2025-11-13,2025-11-21,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000546,PO-.YYYY.-,Eco Packaging Solutions,2025-11-14,2025-11-22,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000547,PO-.YYYY.-,National Tire House,2025-11-16,2025-12-10,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000548,PO-.YYYY.-,Siemens Pakistan,2025-11-16,2025-12-10,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000549,PO-.YYYY.-,Pakistan Oxygen Ltd,2025-11-17,2025-12-04,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000550,PO-.YYYY.-,Sitara Chemical Industries,2025-11-18,2025-11-29,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000551,PO-.YYYY.-,Refractory Solutions Pvt,2025-11-20,2025-12-06,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000552,PO-.YYYY.-,Ernst & Young Pakistan,2025-11-21,2025-12-05,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000553,PO-.YYYY.-,Diamond Tyres Ltd,2025-11-24,2025-12-02,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000554,PO-.YYYY.-,Punjab Revenue Authority,2025-11-26,2025-12-09,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000555,PO-.YYYY.-,Refractory Solutions Pvt,2025-11-27,2025-12-10,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000556,PO-.YYYY.-,Mobilink Business Solutions,2025-11-27,2025-12-15,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000557,PO-.YYYY.-,City Diesel Station,2025-12-02,2025-12-09,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000558,PO-.YYYY.-,National Tire House,2025-12-04,2025-12-22,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000559,PO-.YYYY.-,Punjab IT Solutions,2025-12-06,2026-01-04,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000560,PO-.YYYY.-,ICI Pakistan,2025-12-06,2025-12-23,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000561,PO-.YYYY.-,Punjab Revenue Authority,2025-12-06,2025-12-22,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000562,PO-.YYYY.-,National Chemical Corp,2025-12-08,2025-12-19,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000563,PO-.YYYY.-,Lahore Steel Fabricators,2025-12-11,2026-01-01,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000564,PO-.YYYY.-,Pakistan Refinery Fuels,2025-12-16,2026-01-05,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000565,PO-.YYYY.-,Metro Fuel Distributors,2025-12-18,2026-01-01,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000566,PO-.YYYY.-,Punjab Safety Equipment,2025-12-19,2025-12-27,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000567,PO-.YYYY.-,General Tyre Pakistan,2025-12-21,2026-01-01,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000568,PO-.YYYY.-,EFU General Insurance,2025-12-22,2026-01-16,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000569,PO-.YYYY.-,Siemens Pakistan,2025-12-23,2026-01-09,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000570,PO-.YYYY.-,Punjab Revenue Authority,2025-12-27,2026-01-04,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000571,PO-.YYYY.-,National Tire House,2025-12-27,2026-01-08,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000572,PO-.YYYY.-,KPMG Taseer Hadi,2025-12-30,2026-01-07,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000573,PO-.YYYY.-,Punjab Plastics Industries,2025-12-30,2026-01-14,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000574,PO-.YYYY.-,Adamjee Insurance,2025-12-30,2026-01-18,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000575,PO-.YYYY.-,SecureTrack GPS,2026-01-02,2026-01-15,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000576,PO-.YYYY.-,ICI Pakistan,2026-01-02,2026-02-01,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000577,PO-.YYYY.-,Descon Engineering,2026-01-05,2026-01-12,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000578,PO-.YYYY.-,Meezan Bank Leasing,2026-01-09,2026-01-22,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000579,PO-.YYYY.-,General Tyre Pakistan,2026-01-15,2026-02-07,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000580,PO-.YYYY.-,Sitara Chemical Industries,2026-01-17,2026-01-27,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000581,PO-.YYYY.-,ICI Pakistan,2026-01-18,2026-02-03,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000582,PO-.YYYY.-,Mobilink Business Solutions,2026-01-20,2026-01-28,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000583,PO-.YYYY.-,Atlas Honda Parts,2026-01-24,2026-02-13,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000584,PO-.YYYY.-,SecureTrack GPS,2026-01-28,2026-02-11,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000585,PO-.YYYY.-,Meezan Bank Leasing,2026-01-28,2026-02-16,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000586,PO-.YYYY.-,General Tyre Pakistan,2026-01-29,2026-02-16,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000587,PO-.YYYY.-,Shell Lubricants Pakistan,2026-02-01,2026-02-19,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000588,PO-.YYYY.-,Diamond Tyres Ltd,2026-02-01,2026-02-28,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000589,PO-.YYYY.-,Punjab IT Solutions,2026-02-13,2026-03-07,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000590,PO-.YYYY.-,Shell Lubricants Pakistan,2026-02-15,2026-02-27,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000591,PO-.YYYY.-,Meezan Bank Leasing,2026-02-16,2026-02-25,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000592,PO-.YYYY.-,City Diesel Station,2026-02-17,2026-03-07,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000593,PO-.YYYY.-,SecureTrack GPS,2026-02-17,2026-03-17,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000594,PO-.YYYY.-,Millat Tractors Parts,2026-02-24,2026-03-12,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000595,PO-.YYYY.-,CleanTech Supplies,2026-03-04,2026-04-03,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000596,PO-.YYYY.-,Bank Alfalah Leasing,2026-03-07,2026-03-18,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000597,PO-.YYYY.-,Sitara Chemical Industries,2026-03-10,2026-03-23,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000598,PO-.YYYY.-,Descon Engineering,2026-03-11,2026-03-23,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000599,PO-.YYYY.-,Pakistan Refinery Fuels,2026-03-11,2026-03-27,EnXi Biomedical & Waste Management (Pvt) Ltd
+PO-DEMO-000600,PO-.YYYY.-,Refractory Solutions Pvt,2026-03-11,2026-03-31,EnXi Biomedical & Waste Management (Pvt) Ltd

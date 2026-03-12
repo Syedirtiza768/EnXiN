@@ -1,21 +1,36 @@
 project_name,naming_series,company,status,expected_start_date,expected_end_date,department
-Punjab Tertiary Hospitals Waste Management,PROJ-.YYYY.-,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed,2024-03-17,2024-12-16,Waste Operations
-Lahore District Hospital Waste Contract,PROJ-.YYYY.-,EnXi Biomedical & Waste Management (Pvt) Ltd,Open,2025-11-24,2026-06-18,Waste Operations
-Incinerator Facility Upgrade - Lahore,PROJ-.YYYY.-,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed,2024-03-22,2024-10-02,Incinerator Operations
-Incinerator Facility Setup - Faisalabad,PROJ-.YYYY.-,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed,2024-04-09,2024-09-24,Incinerator Operations
-Fleet Modernization Phase 1,PROJ-.YYYY.-,EnXi Biomedical & Waste Management (Pvt) Ltd,Open,2025-11-04,2026-07-01,Fleet & Transport
-Fleet Modernization Phase 2,PROJ-.YYYY.-,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed,2025-07-04,2025-10-19,Fleet & Transport
-Hospital Waste Training Program 2025,PROJ-.YYYY.-,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed,2024-04-01,2024-12-10,Training & Development
-PPE Distribution Campaign,PROJ-.YYYY.-,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed,2025-04-23,2025-11-10,Waste Operations
-GPS Tracking System Deployment,PROJ-.YYYY.-,EnXi Biomedical & Waste Management (Pvt) Ltd,Open,2025-12-31,2026-06-07,IT & Systems
-Environmental Compliance Audit 2025,PROJ-.YYYY.-,EnXi Biomedical & Waste Management (Pvt) Ltd,Open,2025-12-30,2026-04-11,Compliance & Environment
-Biomedical Equipment Installation - Mayo Hospital,PROJ-.YYYY.-,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed,2025-05-31,2025-10-25,Biomedical Services
-AMC Rollout Q1 2025,PROJ-.YYYY.-,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed,2025-06-05,2025-11-27,Biomedical Services
-Waste Segregation Training - Punjab,PROJ-.YYYY.-,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed,2025-02-18,2025-07-07,Training & Development
-Route Optimization Project,PROJ-.YYYY.-,EnXi Biomedical & Waste Management (Pvt) Ltd,Open,2025-10-18,2026-09-20,Fleet & Transport
-ERP System Implementation,PROJ-.YYYY.-,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed,2024-07-20,2025-02-27,IT & Systems
-Quality Management System Setup,PROJ-.YYYY.-,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed,2025-11-22,2026-02-23,Quality Assurance
-Incinerator Emissions Compliance Project,PROJ-.YYYY.-,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed,2025-02-10,2025-05-14,Compliance & Environment
-New Hospital Onboarding Q2 2025,PROJ-.YYYY.-,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed,2025-08-24,2026-02-25,Sales & Business Development
-Container Distribution Program,PROJ-.YYYY.-,EnXi Biomedical & Waste Management (Pvt) Ltd,Open,2025-10-11,2026-03-30,Waste Operations
-Staff Capacity Building 2025,PROJ-.YYYY.-,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed,2025-01-04,2025-04-19,Human Resources
+Punjab Tertiary Hospitals Waste Management,PROJ-.YYYY.-,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed,2024-11-04,2025-07-21,Waste Operations
+Lahore District Hospital Waste Contract,PROJ-.YYYY.-,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed,2024-10-13,2025-10-27,Waste Operations
+Rawalpindi Healthcare Waste Rollout,PROJ-.YYYY.-,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed,2024-02-07,2024-10-07,Waste Operations
+Faisalabad Hospital Onboarding,PROJ-.YYYY.-,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed,2024-05-02,2025-01-15,Waste Operations
+Multan Regional Waste Services,PROJ-.YYYY.-,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed,2023-08-14,2024-01-04,Waste Operations
+Incinerator Modernization Program,PROJ-.YYYY.-,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed,2024-06-08,2024-09-27,Incinerator Operations
+Fleet GPS Tracking Deployment,PROJ-.YYYY.-,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed,2024-07-20,2025-02-07,Fleet & Transport
+Annual Training Drive 2024,PROJ-.YYYY.-,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed,2023-03-04,2023-09-24,Training & Compliance
+Annual Training Drive 2025,PROJ-.YYYY.-,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed,2025-02-07,2025-09-02,Training & Compliance
+Punjab EPA Compliance Improvement,PROJ-.YYYY.-,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed,2024-06-20,2025-01-05,Training & Compliance
+Janitorial Services Expansion,PROJ-.YYYY.-,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed,2023-10-31,2024-10-01,Janitorial Services
+Biomedical Equipment Distribution,PROJ-.YYYY.-,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed,2025-03-22,2025-12-06,Biomedical Engineering
+New Incinerator Installation - Gujranwala,PROJ-.YYYY.-,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed,2025-03-27,2026-01-03,Incinerator Operations
+Hospital Waste Management IT Platform,PROJ-.YYYY.-,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed,2023-09-27,2024-07-17,IT & Data
+Vehicle Fleet Renewal Program,PROJ-.YYYY.-,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed,2023-09-05,2023-12-07,Fleet & Transport
+Lahore Mega Hospital Complex Project,PROJ-.YYYY.-,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed,2024-03-06,2024-06-09,Waste Operations
+Emergency Response Capacity Building,PROJ-.YYYY.-,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed,2023-05-15,2024-02-12,Training & Compliance
+Punjab Wide Waste Tracking System,PROJ-.YYYY.-,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed,2023-03-31,2024-04-08,IT & Data
+Government Hospital Contract Wave 2,PROJ-.YYYY.-,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed,2023-06-26,2023-12-05,Waste Operations
+ISO 14001 Certification Project,PROJ-.YYYY.-,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed,2023-12-23,2024-11-02,Training & Compliance
+Incinerator Maintenance Campaign Q1 2025,PROJ-.YYYY.-,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed,2023-09-16,2024-10-09,Incinerator Operations
+Incinerator Maintenance Campaign Q3 2025,PROJ-.YYYY.-,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed,2025-04-22,2026-01-21,Incinerator Operations
+Staff Safety Certification Program,PROJ-.YYYY.-,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed,2023-04-14,2023-07-28,Training & Compliance
+Route Optimization Phase 1,PROJ-.YYYY.-,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed,2023-09-20,2024-03-29,Fleet & Transport
+Route Optimization Phase 2,PROJ-.YYYY.-,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed,2023-12-16,2024-06-12,Fleet & Transport
+New Hospital Onboarding Wave 3,PROJ-.YYYY.-,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed,2023-10-11,2024-05-22,Waste Operations
+Janitorial QA Enhancement,PROJ-.YYYY.-,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed,2025-03-06,2025-09-01,Janitorial Services
+Environmental Monitoring Expansion,PROJ-.YYYY.-,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed,2024-02-11,2025-02-18,Training & Compliance
+PPE Distribution Drive,PROJ-.YYYY.-,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed,2023-11-07,2024-05-06,Waste Operations
+Waste Segregation Audit Program,PROJ-.YYYY.-,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed,2023-09-17,2023-12-27,Training & Compliance
+Regional Hub - Sargodha Setup,PROJ-.YYYY.-,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed,2023-08-28,2024-04-08,Waste Operations
+Regional Hub - Bahawalpur Setup,PROJ-.YYYY.-,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed,2023-06-12,2023-09-20,Waste Operations
+Biomedical Maintenance Contract Rollout,PROJ-.YYYY.-,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed,2025-01-22,2025-07-01,Biomedical Engineering
+Customer Portal Development,PROJ-.YYYY.-,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed,2024-03-23,2024-08-16,IT & Data
+Annual Compliance Reporting Automation,PROJ-.YYYY.-,EnXi Biomedical & Waste Management (Pvt) Ltd,Completed,2024-02-10,2024-08-25,IT & Data

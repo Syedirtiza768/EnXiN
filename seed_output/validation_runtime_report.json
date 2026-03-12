@@ -1,18 +1,29 @@
 {
   "valid": true,
   "counts": {
-    "customers": 40,
-    "items": 386,
-    "sales_orders": 1200,
-    "sales_order_items": 2115,
-    "issues": 260,
-    "waste_events": 3200
+    "Customer.csv": 130,
+    "Supplier.csv": 40,
+    "Item.csv": 462,
+    "Employee.csv": 341,
+    "Vehicle.csv": 50,
+    "Driver.csv": 45,
+    "Sales_Order.csv": 2500,
+    "Purchase_Order.csv": 600,
+    "Sales_Invoice.csv": 2000,
+    "Purchase_Invoice.csv": 500,
+    "Delivery_Note.csv": 1200,
+    "Delivery_Trip.csv": 2500,
+    "Issue.csv": 800,
+    "Project.csv": 35,
+    "Maintenance_Visit.csv": 400,
+    "Maintenance_Schedule.csv": 200,
+    "Stock_Entry.csv": 600,
+    "Sales_Order_Item.csv": 3496,
+    "Delivery_Stop.csv": 13789,
+    "waste_events": 8000,
+    "transport_logs": 3000,
+    "fuel_logs": 2000
   },
-  "errors": {
-    "sales_orders_missing_customer": [],
-    "sales_order_items_missing_parent": [],
-    "sales_order_items_missing_item": [],
-    "issues_missing_customer": [],
-    "waste_events_missing_customer": []
-  }
+  "error_count": 0,
+  "errors": {}
 }

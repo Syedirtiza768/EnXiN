@@ -1,56 +1,171 @@
 first_name,last_name,email_id,phone,mobile_no,company_name,link_doctype,link_name
-Amina,Hassan,contact001@hospital.pk,+92422678477,+923282171198,Mayo Tertiary Hospital 01,Customer,Mayo Tertiary Hospital 01
-Amir,Hassan,contact002@hospital.pk,+92426331563,+923418560584,Jinnah Tertiary Hospital 02,Customer,Jinnah Tertiary Hospital 02
-Saad,Mirza,contact003@hospital.pk,+92426128383,+923473556763,Services Tertiary Hospital 03,Customer,Services Tertiary Hospital 03
-Sara,Mirza,contact004@hospital.pk,+92427115185,+923308185805,Shalimar Tertiary Hospital 04,Customer,Shalimar Tertiary Hospital 04
-Bilal,Khan,contact005@hospital.pk,+92426254872,+923254716584,Central Park Tertiary Hospital 05,Customer,Central Park Tertiary Hospital 05
-Nadia,Raza,contact006@hospital.pk,+92428316947,+923277031174,City Care Tertiary Hospital 06,Customer,City Care Tertiary Hospital 06
-Usman,Siddiqui,contact007@hospital.pk,+92426562703,+923408765307,Noor Tertiary Hospital 07,Customer,Noor Tertiary Hospital 07
-Tanveer,Qureshi,contact008@hospital.pk,+92426124966,+923412825908,Al-Rehman Tertiary Hospital 08,Customer,Al-Rehman Tertiary Hospital 08
-Bilal,Siddiqui,contact009@hospital.pk,+92422375290,+923273348838,LifeLine Tertiary Hospital 09,Customer,LifeLine Tertiary Hospital 09
-Amir,Rana,contact010@hospital.pk,+92424295580,+923262282825,Prime Tertiary Hospital 10,Customer,Prime Tertiary Hospital 10
-Sadia,Malik,contact011@hospital.pk,+92421312564,+923421523352,Medix District Hospital 11,Customer,Medix District Hospital 11
-Naveed,Mirza,contact012@hospital.pk,+92427797028,+923474569531,Punjab District Hospital 12,Customer,Punjab District Hospital 12
-Waqas,Khan,contact013@hospital.pk,+92425372416,+923448920589,Lahore General District Hospital 13,Customer,Lahore General District Hospital 13
-Amina,Iqbal,contact014@hospital.pk,+92423493647,+923337585029,Sheikh Zayed District Hospital 14,Customer,Sheikh Zayed District Hospital 14
-Zain,Shah,contact015@hospital.pk,+92425882155,+923188796391,Hameed Latif District Hospital 15,Customer,Hameed Latif District Hospital 15
-Ayesha,Rana,contact016@hospital.pk,+92422519244,+923357104651,Shaukat Khanum District Hospital 16,Customer,Shaukat Khanum District Hospital 16
-Ayesha,Khan,contact017@hospital.pk,+92425007754,+923493782393,National District Hospital 17,Customer,National District Hospital 17
-Bushra,Rana,contact018@hospital.pk,+92423355029,+923383671308,Allied Teaching Hospital 18,Customer,Allied Teaching Hospital 18
-Bilal,Mirza,contact019@hospital.pk,+92423452813,+923407019590,Combined Military Teaching Hospital 19,Customer,Combined Military Teaching Hospital 19
-Muhammad,Hassan,contact020@hospital.pk,+92429181277,+923242054635,Gulab Devi Teaching Hospital 20,Customer,Gulab Devi Teaching Hospital 20
-Hamza,Qureshi,contact021@hospital.pk,+92424926181,+923124469093,Sir Ganga Ram Teaching Hospital 21,Customer,Sir Ganga Ram Teaching Hospital 21
-Ayesha,Shah,contact022@hospital.pk,+92427060792,+923348879825,Fatima Memorial Private Hospital 22,Customer,Fatima Memorial Private Hospital 22
-Waqas,Chaudhry,contact023@hospital.pk,+92421779091,+923126437011,Sharif Medical Private Hospital 23,Customer,Sharif Medical Private Hospital 23
-Hassan,Raza,contact024@hospital.pk,+92429747185,+923275417710,Ittefaq Private Hospital 24,Customer,Ittefaq Private Hospital 24
-Sara,Rana,contact025@hospital.pk,+92423916715,+923347350486,Doctors Private Hospital 25,Customer,Doctors Private Hospital 25
-Faisal,Mirza,contact026@hospital.pk,+92422305896,+923435220919,Surgimed Diagnostic Laboratory 26,Customer,Surgimed Diagnostic Laboratory 26
-Kashif,Shah,contact027@hospital.pk,+92424739628,+923437808902,Hafeez Diagnostic Laboratory 27,Customer,Hafeez Diagnostic Laboratory 27
-Faisal,Aslam,contact028@hospital.pk,+92426788681,+923419088465,Aziz Fatimah Diagnostic Laboratory 28,Customer,Aziz Fatimah Diagnostic Laboratory 28
-Amir,Mirza,contact029@hospital.pk,+92421110690,+923423331501,Farooq Maternity Hospital 29,Customer,Farooq Maternity Hospital 29
-Tanveer,Ahmed,contact030@hospital.pk,+92424858604,+923149632570,Children Maternity Hospital 30,Customer,Children Maternity Hospital 30
-Amina,Sheikh,contact031@hospital.pk,+92424548668,+923194135756,Lady Aitchison Specialist Clinic 31,Customer,Lady Aitchison Specialist Clinic 31
-Bilal,Qureshi,contact032@hospital.pk,+92422985251,+923247956063,Lahore Eye Medical Center 32,Customer,Lahore Eye Medical Center 32
-Tahir,Qureshi,contact033@hospital.pk,+92422901507,+923409033176,Sir Ganga Ram Medical Center 33,Customer,Sir Ganga Ram Medical Center 33
-Fatima,Hassan,contact034@hospital.pk,+92423705263,+923361376582,Surgimed Medical Center 34,Customer,Surgimed Medical Center 34
-Zain,Khan,contact035@hospital.pk,+92423145556,+923463703298,Allied Medical Center 35,Customer,Allied Medical Center 35
-Usman,Siddiqui,contact036@hospital.pk,+92429600719,+923123463987,Central Park Medical Center 36,Customer,Central Park Medical Center 36
-Muhammad,Ahmed,contact037@hospital.pk,+92425332877,+923219667792,Sheikh Zayed Medical Center 37,Customer,Sheikh Zayed Medical Center 37
-Kashif,Mirza,contact038@hospital.pk,+92421312392,+923282438621,Citi Lab Medical Center 38,Customer,Citi Lab Medical Center 38
-Asad,Chaudhry,contact039@hospital.pk,+92428909005,+923403861635,CMH Medical Center 39,Customer,CMH Medical Center 39
-Zain,Aslam,contact040@hospital.pk,+92427891524,+923483394312,Sir Ganga Ram Medical Center 40,Customer,Sir Ganga Ram Medical Center 40
-Tahir,Mirza,contact041@hospital.pk,+92424051509,+923499569884,Sheikh Zayed Medical Center 41,Customer,Sheikh Zayed Medical Center 41
-Hamza,Ahmed,contact042@hospital.pk,+92426749069,+923392154992,Ghurki Trust Medical Center 42,Customer,Ghurki Trust Medical Center 42
-Zain,Butt,contact043@hospital.pk,+92427466977,+923182821504,Social Security Medical Center 43,Customer,Social Security Medical Center 43
-Ahmed,Hassan,contact044@hospital.pk,+92429769641,+923428042991,Surgimed Medical Center 44,Customer,Surgimed Medical Center 44
-Naveed,Ahmed,contact045@hospital.pk,+92422615622,+923218983760,Ghurki Trust Medical Center 45,Customer,Ghurki Trust Medical Center 45
-Amir,Mirza,contact046@hospital.pk,+92421654924,+923449444462,Children Medical Center 46,Customer,Children Medical Center 46
-Bushra,Malik,contact047@hospital.pk,+92422563468,+923403186555,Prime Medical Center 47,Customer,Prime Medical Center 47
-Amir,Mirza,contact048@hospital.pk,+92421020136,+923379758448,National Medical Center 48,Customer,National Medical Center 48
-Imran,Qureshi,contact049@hospital.pk,+92421728773,+923438196691,LifeLine Medical Center 49,Customer,LifeLine Medical Center 49
-Zain,Iqbal,contact050@hospital.pk,+92429088689,+923346880713,Shaukat Khanum Medical Center 50,Customer,Shaukat Khanum Medical Center 50
-Sara,Iqbal,contact051@hospital.pk,+92422639417,+923373246185,Wapda Teaching Medical Center 51,Customer,Wapda Teaching Medical Center 51
-Hamza,Chaudhry,contact052@hospital.pk,+92424900918,+923155752426,Excel Labs Medical Center 52,Customer,Excel Labs Medical Center 52
-Hina,Shah,contact053@hospital.pk,+92427855954,+923264171246,Agha Khan Lab Medical Center 53,Customer,Agha Khan Lab Medical Center 53
-Ahmed,Raza,contact054@hospital.pk,+92421119354,+923469766777,National Medical Center 54,Customer,National Medical Center 54
-Hassan,Rana,contact055@hospital.pk,+92421120696,+923344446353,Wapda Teaching Medical Center 55,Customer,Wapda Teaching Medical Center 55
+Fahad,Dar,contact001@hospital.pk,+92426581020,+923132243742,Mayo District Hospital 01,Customer,Mayo District Hospital 01
+Naveed,Rana,contact002@hospital.pk,+92423985161,+923336531814,City Care Tertiary Hospital 02,Customer,City Care Tertiary Hospital 02
+Usman,Sharif,contact003@hospital.pk,+92424366669,+923427653331,Sharif Medical General Hospital 03,Customer,Sharif Medical General Hospital 03
+Arslan,Qureshi,contact004@hospital.pk,+92429255351,+923158213167,Services Specialized Hospital 04,Customer,Services Specialized Hospital 04
+Omar,Hussain,contact005@hospital.pk,+92428235234,+923217245358,Mayo Teaching Hospital 05,Customer,Mayo Teaching Hospital 05
+Nadia,Hassan,contact006@hospital.pk,+92428408511,+923484077622,Lady Willingdon Tertiary Hospital 06,Customer,Lady Willingdon Tertiary Hospital 06
+Naveed,Hassan,contact007@hospital.pk,+92421584868,+923139148361,Central Tertiary Hospital 07,Customer,Central Tertiary Hospital 07
+Usman,Raza,contact008@hospital.pk,+92425204309,+923339381107,Sir Ganga Ram District Hospital 08,Customer,Sir Ganga Ram District Hospital 08
+Muhammad,Sharif,contact009@hospital.pk,+92423497360,+923450504404,Fatima Memorial Tertiary Hospital 09,Customer,Fatima Memorial Tertiary Hospital 09
+Samina,Khan,contact010@hospital.pk,+92421634776,+923456807540,Mayo Specialized Hospital 10,Customer,Mayo Specialized Hospital 10
+Fahad,Rana,contact011@hospital.pk,+92423543551,+923475839272,LifeLine General Hospital 11,Customer,LifeLine General Hospital 11
+Kamran,Dar,contact012@hospital.pk,+92421062138,+923376694143,Ghurki Trust Tertiary Hospital 12,Customer,Ghurki Trust Tertiary Hospital 12
+Saima,Sharif,contact013@hospital.pk,+92429021848,+923334106676,Gulab Devi Tertiary Hospital 13,Customer,Gulab Devi Tertiary Hospital 13
+Arslan,Ahmed,contact014@hospital.pk,+92424789081,+923101775624,Prime Teaching Hospital 14,Customer,Prime Teaching Hospital 14
+Fahad,Sharif,contact015@hospital.pk,+92423033459,+923404536742,Jinnah Tertiary Hospital 15,Customer,Jinnah Tertiary Hospital 15
+Hina,Mughal,contact016@hospital.pk,+92426594190,+923466057775,Shalimar District Hospital 16,Customer,Shalimar District Hospital 16
+Waqar,Dar,contact017@hospital.pk,+92421926012,+923439448725,Al-Rehman Tertiary Hospital 17,Customer,Al-Rehman Tertiary Hospital 17
+Farah,Ahmed,contact018@hospital.pk,+92427129645,+923387025305,National District Hospital 18,Customer,National District Hospital 18
+Kamran,Ahmed,contact019@hospital.pk,+92428711468,+923255670375,Ittefaq District Hospital 19,Customer,Ittefaq District Hospital 19
+Farah,Butt,contact020@hospital.pk,+92423963163,+923397681754,City Care Tertiary Hospital 20,Customer,City Care Tertiary Hospital 20
+Ali,Dar,contact021@hospital.pk,+92424204501,+923260454792,National Private Hospital 21,Customer,National Private Hospital 21
+Uzma,Dar,contact022@hospital.pk,+92422791270,+923438559953,Gulab Devi Specialized Hospital 22,Customer,Gulab Devi Specialized Hospital 22
+Uzma,Mughal,contact023@hospital.pk,+92429162175,+923145560196,Surgimed District Hospital 23,Customer,Surgimed District Hospital 23
+Samina,Siddiqui,contact024@hospital.pk,+92424178686,+923175131300,Prime Tertiary Hospital 24,Customer,Prime Tertiary Hospital 24
+Ali,Butt,contact025@hospital.pk,+92421425547,+923486406950,Ittefaq General Hospital 25,Customer,Ittefaq General Hospital 25
+Bushra,Chaudhry,contact026@hospital.pk,+92429207960,+923308717980,Hameed Latif District Hospital 26,Customer,Hameed Latif District Hospital 26
+Usman,Hussain,contact027@hospital.pk,+92426162867,+923368265886,Lahore General Tertiary Hospital 27,Customer,Lahore General Tertiary Hospital 27
+Hina,Siddiqui,contact028@hospital.pk,+92421275453,+923119887139,Gulab Devi Tertiary Hospital 28,Customer,Gulab Devi Tertiary Hospital 28
+Kamran,Malik,contact029@hospital.pk,+92426665977,+923487090367,Doctors Private Hospital 29,Customer,Doctors Private Hospital 29
+Ali,Dar,contact030@hospital.pk,+92422982850,+923213643852,Sharif Medical District Hospital 30,Customer,Sharif Medical District Hospital 30
+Farah,Akhtar,contact031@hospital.pk,+92428690178,+923464040258,Ghurki Trust Specialized Hospital 31,Customer,Ghurki Trust Specialized Hospital 31
+Hina,Sheikh,contact032@hospital.pk,+92424908850,+923138672678,Jinnah Tertiary Hospital 32,Customer,Jinnah Tertiary Hospital 32
+Ali,Sheikh,contact033@hospital.pk,+92429202292,+923451023128,Services Teaching Hospital 33,Customer,Services Teaching Hospital 33
+Muhammad,Sharif,contact034@hospital.pk,+92421768424,+923230289201,Fatima Memorial Private Hospital 34,Customer,Fatima Memorial Private Hospital 34
+Uzma,Sheikh,contact035@hospital.pk,+92421241008,+923192475481,Doctors Teaching Hospital 35,Customer,Doctors Teaching Hospital 35
+Samina,Malik,contact036@hospital.pk,+92426156264,+923152233373,Doctors Teaching Hospital 36,Customer,Doctors Teaching Hospital 36
+Irfan,Javed,contact037@hospital.pk,+92423863692,+923417313520,Punjab Tertiary Hospital 37,Customer,Punjab Tertiary Hospital 37
+Usman,Hassan,contact038@hospital.pk,+92422915617,+923366901881,Sir Ganga Ram General Hospital 38,Customer,Sir Ganga Ram General Hospital 38
+Rabia,Javed,contact039@hospital.pk,+92424700592,+923133881982,Sheikh Zayed General Hospital 39,Customer,Sheikh Zayed General Hospital 39
+Faisal,Gill,contact040@hospital.pk,+92426659678,+923496172294,City Care Teaching Hospital 40,Customer,City Care Teaching Hospital 40
+Kiran,Dar,contact041@hospital.pk,+92426439759,+923164855314,Services District Hospital 41,Customer,Services District Hospital 41
+Kiran,Raza,contact042@hospital.pk,+92423304005,+923272652254,Punjab Specialized Hospital 42,Customer,Punjab Specialized Hospital 42
+Tariq,Malik,contact043@hospital.pk,+92423909968,+923280122194,Sharif Medical Tertiary Hospital 43,Customer,Sharif Medical Tertiary Hospital 43
+Usman,Hassan,contact044@hospital.pk,+92425595168,+923175825931,Gulab Devi District Hospital 44,Customer,Gulab Devi District Hospital 44
+Alina,Gill,contact045@hospital.pk,+92423819425,+923473820953,Shaukat Khanum District Hospital 45,Customer,Shaukat Khanum District Hospital 45
+Junaid,Hussain,contact046@hospital.pk,+92423768343,+923335504444,Sir Ganga Ram Tertiary Hospital 46,Customer,Sir Ganga Ram Tertiary Hospital 46
+Atif,Raza,contact047@hospital.pk,+92421682814,+923171602946,Shalimar General Hospital 47,Customer,Shalimar General Hospital 47
+Asad,Javed,contact048@hospital.pk,+92427310431,+923184693353,Ghurki Trust Specialized Hospital 48,Customer,Ghurki Trust Specialized Hospital 48
+Muhammad,Sharif,contact049@hospital.pk,+92422354300,+923103408904,LifeLine General Hospital 49,Customer,LifeLine General Hospital 49
+Ahmed,Qureshi,contact050@hospital.pk,+92422495541,+923479428817,Shaukat Khanum Teaching Hospital 50,Customer,Shaukat Khanum Teaching Hospital 50
+Farah,Raza,contact051@hospital.pk,+92425760225,+923323457614,Noor Specialized Hospital 51,Customer,Noor Specialized Hospital 51
+Uzma,Sharif,contact052@hospital.pk,+92423128901,+923210681427,Shalimar District Hospital 52,Customer,Shalimar District Hospital 52
+Omar,Rana,contact053@hospital.pk,+92429775941,+923341816930,Central District Hospital 53,Customer,Central District Hospital 53
+Amir,Chaudhry,contact054@hospital.pk,+92423928445,+923427780086,Sir Ganga Ram General Hospital 54,Customer,Sir Ganga Ram General Hospital 54
+Uzma,Malik,contact055@hospital.pk,+92424019906,+923485043149,Children District Hospital 55,Customer,Children District Hospital 55
+Ayesha,Javed,contact056@hospital.pk,+92422476750,+923436720952,Chughtai Private Hospital 56,Customer,Chughtai Private Hospital 56
+Waqar,Mughal,contact057@hospital.pk,+92428026061,+923102453523,Chughtai Tertiary Hospital 57,Customer,Chughtai Tertiary Hospital 57
+Maryam,Chaudhry,contact058@hospital.pk,+92424219595,+923163086528,Surgimed General Hospital 58,Customer,Surgimed General Hospital 58
+Sara,Hassan,contact059@hospital.pk,+92427071696,+923389761485,Punjab General Hospital 59,Customer,Punjab General Hospital 59
+Sana,Chaudhry,contact060@hospital.pk,+92428788252,+923436330428,Lady Willingdon Tertiary Hospital 60,Customer,Lady Willingdon Tertiary Hospital 60
+Noor,Butt,contact061@hospital.pk,+92425637668,+923128491214,Ghurki Trust Private Hospital 61,Customer,Ghurki Trust Private Hospital 61
+Faisal,Hassan,contact062@hospital.pk,+92423503452,+923467887439,Sharif Medical Teaching Hospital 62,Customer,Sharif Medical Teaching Hospital 62
+Fatima,Sharif,contact063@hospital.pk,+92423958222,+923185770278,Shaukat Khanum Specialized Hospital 63,Customer,Shaukat Khanum Specialized Hospital 63
+Noor,Malik,contact064@hospital.pk,+92421906432,+923446207024,LifeLine Tertiary Hospital 64,Customer,LifeLine Tertiary Hospital 64
+Junaid,Mirza,contact065@hospital.pk,+92424516332,+923333362563,Fatima Memorial District Hospital 65,Customer,Fatima Memorial District Hospital 65
+Naveed,Aslam,contact066@hospital.pk,+92428602555,+923123255896,Doctors Tertiary Hospital 66,Customer,Doctors Tertiary Hospital 66
+Asad,Malik,contact067@hospital.pk,+92423950904,+923184850091,Jinnah Tertiary Hospital 67,Customer,Jinnah Tertiary Hospital 67
+Muhammad,Sharif,contact068@hospital.pk,+92429638650,+923162311968,Noor District Hospital 68,Customer,Noor District Hospital 68
+Usman,Chaudhry,contact069@hospital.pk,+92428462856,+923418206967,Lahore General District Hospital 69,Customer,Lahore General District Hospital 69
+Bushra,Aslam,contact070@hospital.pk,+92428030765,+923206703842,Farooq General Hospital 70,Customer,Farooq General Hospital 70
+Mehreen,Aslam,contact071@hospital.pk,+92424859820,+923159127134,Sharif Medical Tertiary Hospital 71,Customer,Sharif Medical Tertiary Hospital 71
+Sohail,Chaudhry,contact072@hospital.pk,+92422645243,+923227301951,Shaukat Khanum Teaching Hospital 72,Customer,Shaukat Khanum Teaching Hospital 72
+Mehreen,Gill,contact073@hospital.pk,+92424354702,+923301612415,Doctors General Hospital 73,Customer,Doctors General Hospital 73
+Kashif,Ahmed,contact074@hospital.pk,+92428901905,+923414119013,LifeLine Teaching Hospital 74,Customer,LifeLine Teaching Hospital 74
+Ayesha,Malik,contact075@hospital.pk,+92428312602,+923177814753,Sir Ganga Ram Tertiary Hospital 75,Customer,Sir Ganga Ram Tertiary Hospital 75
+Tariq,Javed,contact076@hospital.pk,+92428633480,+923195595645,Noor Teaching Hospital 76,Customer,Noor Teaching Hospital 76
+Fahad,Mughal,contact077@hospital.pk,+92423288489,+923345747394,Services Specialized Hospital 77,Customer,Services Specialized Hospital 77
+Zara,Butt,contact078@hospital.pk,+92427016144,+923244791149,Doctors Tertiary Hospital 78,Customer,Doctors Tertiary Hospital 78
+Faisal,Aslam,contact079@hospital.pk,+92423134259,+923117230655,Ghurki Trust Private Hospital 79,Customer,Ghurki Trust Private Hospital 79
+Uzma,Raza,contact080@hospital.pk,+92422000789,+923250648210,Children Teaching Hospital 80,Customer,Children Teaching Hospital 80
+Hamza,Hassan,contact081@hospital.pk,+92428810369,+923346197685,Chughtai Lab,Customer,Chughtai Lab
+Amir,Qureshi,contact082@hospital.pk,+92426764248,+923218032982,Shaukat Khanum Lab,Customer,Shaukat Khanum Lab
+Rizwan,Javed,contact083@hospital.pk,+92423630468,+923442523219,IDC Lab,Customer,IDC Lab
+Nadia,Qureshi,contact084@hospital.pk,+92424853765,+923146425552,Excel Labs,Customer,Excel Labs
+Amir,Akhtar,contact085@hospital.pk,+92429207638,+923216201739,Islamabad Diagnostics,Customer,Islamabad Diagnostics
+Bushra,Sharif,contact086@hospital.pk,+92428763873,+923249878724,Lahore Diagnostics,Customer,Lahore Diagnostics
+Ahmed,Gill,contact087@hospital.pk,+92425138170,+923233053493,City Lab,Customer,City Lab
+Sohail,Gill,contact088@hospital.pk,+92424731363,+923417704974,Metro Diagnostics,Customer,Metro Diagnostics
+Omar,Raza,contact089@hospital.pk,+92421085187,+923324289555,Al-Razi Clinic,Customer,Al-Razi Clinic
+Ali,Malik,contact090@hospital.pk,+92428896240,+923493782090,Medicare Clinic,Customer,Medicare Clinic
+Sadia,Akhtar,contact091@hospital.pk,+92421564059,+923328544683,Health First Clinic,Customer,Health First Clinic
+Sara,Dar,contact092@hospital.pk,+92429040805,+923474013002,Medix Clinic,Customer,Medix Clinic
+Asad,Siddiqui,contact093@hospital.pk,+92429309504,+923229123626,Punjab Diagnostic Center,Customer,Punjab Diagnostic Center
+Bilal,Hussain,contact094@hospital.pk,+92421208423,+923472137354,Allied Lab,Customer,Allied Lab
+Zara,Gill,contact095@hospital.pk,+92424657541,+923171249213,Agha Khan Lab Lahore,Customer,Agha Khan Lab Lahore
+Adnan,Mirza,contact096@hospital.pk,+92425010801,+923447699181,Dr. Essa Lab,Customer,Dr. Essa Lab
+Bilal,Khan,contact097@hospital.pk,+92429049422,+923459185758,One Health Lab,Customer,One Health Lab
+Waqar,Qureshi,contact098@hospital.pk,+92428705487,+923406220857,Rehman Diagnostics,Customer,Rehman Diagnostics
+Mehreen,Raza,contact099@hospital.pk,+92421409590,+923344190793,Saleem Lab,Customer,Saleem Lab
+Irfan,Sheikh,contact100@hospital.pk,+92427800818,+923199291984,Qamar Lab,Customer,Qamar Lab
+Junaid,Siddiqui,contact101@hospital.pk,+92421022878,+923436781822,Chughtai Lab 101,Customer,Chughtai Lab 101
+Usman,Dar,contact102@hospital.pk,+92426585238,+923385035683,Shaukat Khanum Lab 102,Customer,Shaukat Khanum Lab 102
+Ali,Mirza,contact103@hospital.pk,+92428145454,+923244842069,IDC Lab 103,Customer,IDC Lab 103
+Uzma,Javed,contact104@hospital.pk,+92424475340,+923467576822,Excel Labs 104,Customer,Excel Labs 104
+Bilal,Javed,contact105@hospital.pk,+92426632022,+923495008562,Islamabad Diagnostics 105,Customer,Islamabad Diagnostics 105
+Hassan,Akhtar,contact106@hospital.pk,+92427106747,+923127682450,Lahore Diagnostics 106,Customer,Lahore Diagnostics 106
+Zain,Dar,contact107@hospital.pk,+92427133596,+923349834421,City Lab 107,Customer,City Lab 107
+Nadia,Malik,contact108@hospital.pk,+92427133266,+923296727219,Metro Diagnostics 108,Customer,Metro Diagnostics 108
+Imran,Hussain,contact109@hospital.pk,+92422124172,+923401054770,Al-Razi Clinic 109,Customer,Al-Razi Clinic 109
+Saima,Butt,contact110@hospital.pk,+92423322064,+923279814003,Medicare Clinic 110,Customer,Medicare Clinic 110
+Atif,Hussain,contact111@hospital.pk,+92422905181,+923448449836,Health First Clinic 111,Customer,Health First Clinic 111
+Fatima,Raza,contact112@hospital.pk,+92424519758,+923499977801,Medix Clinic 112,Customer,Medix Clinic 112
+Alina,Chaudhry,contact113@hospital.pk,+92426376490,+923289360635,Punjab Diagnostic Center 113,Customer,Punjab Diagnostic Center 113
+Shahid,Akhtar,contact114@hospital.pk,+92428095573,+923248791271,Allied Lab 114,Customer,Allied Lab 114
+Hassan,Ahmed,contact115@hospital.pk,+92427254777,+923285342110,Agha Khan Lab Lahore 115,Customer,Agha Khan Lab Lahore 115
+Naeem,Sharif,contact116@hospital.pk,+92429412936,+923382760565,Dr. Essa Lab 116,Customer,Dr. Essa Lab 116
+Zain,Sharif,contact117@hospital.pk,+92429923876,+923464163990,One Health Lab 117,Customer,One Health Lab 117
+Hina,Mirza,contact118@hospital.pk,+92428582938,+923433370675,Rehman Diagnostics 118,Customer,Rehman Diagnostics 118
+Junaid,Ahmed,contact119@hospital.pk,+92424160048,+923345819298,Saleem Lab 119,Customer,Saleem Lab 119
+Bilal,Ahmed,contact120@hospital.pk,+92427554564,+923195998866,Qamar Lab 120,Customer,Qamar Lab 120
+Rizwan,Ahmed,contact121@hospital.pk,+92422834838,+923188458189,Punjab Health Department,Customer,Punjab Health Department
+Shahid,Hassan,contact122@hospital.pk,+92423482256,+923366464460,Directorate of Health Services Lahore,Customer,Directorate of Health Services Lahore
+Omar,Butt,contact123@hospital.pk,+92429735688,+923436766345,Punjab Environmental Protection Agency,Customer,Punjab Environmental Protection Agency
+Muhammad,Mirza,contact124@hospital.pk,+92427988325,+923466362522,Primary & Secondary Healthcare Dept,Customer,Primary & Secondary Healthcare Dept
+Hina,Sheikh,contact125@hospital.pk,+92428950805,+923286133276,District Health Authority Lahore,Customer,District Health Authority Lahore
+Amir,Siddiqui,contact126@hospital.pk,+92421360413,+923256506888,Punjab Medical Faculty,Customer,Punjab Medical Faculty
+Faisal,Ahmed,contact127@hospital.pk,+92421369713,+923224730179,Punjab Healthcare Commission,Customer,Punjab Healthcare Commission
+Sara,Aslam,contact128@hospital.pk,+92427907041,+923410689671,Specialized Healthcare & Medical Education,Customer,Specialized Healthcare & Medical Education
+Kamran,Aslam,contact129@hospital.pk,+92429156216,+923418556250,Punjab Emergency Service (Rescue 1122),Customer,Punjab Emergency Service (Rescue 1122)
+Noor,Akhtar,contact130@hospital.pk,+92428470161,+923345890684,Punjab AIDS Control Program,Customer,Punjab AIDS Control Program
+Waqar,Raza,supplier131@vendor.pk,+92423213824,+923264548253,Ravi Engineering Works,Supplier,Ravi Engineering Works
+Saad,Rana,supplier132@vendor.pk,+92424804769,+923359976042,National Chemical Corp,Supplier,National Chemical Corp
+Junaid,Mirza,supplier133@vendor.pk,+92421793880,+923179638536,Punjab Safety Equipment,Supplier,Punjab Safety Equipment
+Adnan,Mirza,supplier134@vendor.pk,+92428649177,+923189315492,Lahore Steel Fabricators,Supplier,Lahore Steel Fabricators
+Nadia,Qureshi,supplier135@vendor.pk,+92429981123,+923253140594,Allied Medical Supplies,Supplier,Allied Medical Supplies
+Imran,Qureshi,supplier136@vendor.pk,+92423575047,+923186572964,Metro Fuel Distributors,Supplier,Metro Fuel Distributors
+Atif,Hassan,supplier137@vendor.pk,+92421690406,+923269987203,City Diesel Station,Supplier,City Diesel Station
+Amina,Sheikh,supplier138@vendor.pk,+92428396883,+923239805048,Pakistan Refinery Fuels,Supplier,Pakistan Refinery Fuels
+Junaid,Qureshi,supplier139@vendor.pk,+92424441935,+923401983038,National Tire House,Supplier,National Tire House
+Saima,Malik,supplier140@vendor.pk,+92426317433,+923284601461,Auto Zone Pakistan,Supplier,Auto Zone Pakistan
+Omar,Mughal,supplier141@vendor.pk,+92428523391,+923389838669,Refractory Solutions Pvt,Supplier,Refractory Solutions Pvt
+Saad,Hussain,supplier142@vendor.pk,+92426059333,+923165224459,Punjab Plastics Industries,Supplier,Punjab Plastics Industries
+Muhammad,Dar,supplier143@vendor.pk,+92429378825,+923178052378,Eco Packaging Solutions,Supplier,Eco Packaging Solutions
+Irfan,Aslam,supplier144@vendor.pk,+92423618139,+923102305485,SafeHands PPE,Supplier,SafeHands PPE
+Mehreen,Hussain,supplier145@vendor.pk,+92429512910,+923277854940,CleanTech Supplies,Supplier,CleanTech Supplies
+Farah,Mirza,supplier146@vendor.pk,+92428950901,+923255599781,Siemens Pakistan,Supplier,Siemens Pakistan
+Alina,Raza,supplier147@vendor.pk,+92423467651,+923403456357,Atlas Honda Parts,Supplier,Atlas Honda Parts
+Zara,Siddiqui,supplier148@vendor.pk,+92426682181,+923469982969,Shell Lubricants Pakistan,Supplier,Shell Lubricants Pakistan
+Zain,Sharif,supplier149@vendor.pk,+92421672446,+923174852311,Total Parco,Supplier,Total Parco
+Kiran,Hussain,supplier150@vendor.pk,+92422960855,+923265400374,Descon Engineering,Supplier,Descon Engineering
+Muhammad,Dar,supplier151@vendor.pk,+92424697107,+923339429767,NHA Maintenance Services,Supplier,NHA Maintenance Services
+Adnan,Ahmed,supplier152@vendor.pk,+92426475520,+923129545959,Punjab IT Solutions,Supplier,Punjab IT Solutions
+Rabia,Butt,supplier153@vendor.pk,+92429832094,+923219262573,SecureTrack GPS,Supplier,SecureTrack GPS
+Sadia,Rana,supplier154@vendor.pk,+92424283564,+923112105713,Mobilink Business Solutions,Supplier,Mobilink Business Solutions
+Bilal,Hussain,supplier155@vendor.pk,+92428473546,+923463495639,State Life Insurance,Supplier,State Life Insurance
+Noor,Ahmed,supplier156@vendor.pk,+92429586369,+923311754564,EFU General Insurance,Supplier,EFU General Insurance
+Faisal,Sharif,supplier157@vendor.pk,+92426331091,+923423825433,Adamjee Insurance,Supplier,Adamjee Insurance
+Rabia,Akhtar,supplier158@vendor.pk,+92421940322,+923457967479,Bank Alfalah Leasing,Supplier,Bank Alfalah Leasing
+Junaid,Dar,supplier159@vendor.pk,+92423482120,+923484380121,Meezan Bank Leasing,Supplier,Meezan Bank Leasing
+Salman,Mughal,supplier160@vendor.pk,+92427477894,+923300162200,UBL Fund Managers,Supplier,UBL Fund Managers
+Ahmed,Mirza,supplier161@vendor.pk,+92426786800,+923288632297,Ernst & Young Pakistan,Supplier,Ernst & Young Pakistan
+Waqar,Siddiqui,supplier162@vendor.pk,+92422469661,+923215800455,KPMG Taseer Hadi,Supplier,KPMG Taseer Hadi
+Zara,Siddiqui,supplier163@vendor.pk,+92427972774,+923337567723,Punjab Revenue Authority,Supplier,Punjab Revenue Authority
+Rizwan,Qureshi,supplier164@vendor.pk,+92428110724,+923491167104,Pakistan Oxygen Ltd,Supplier,Pakistan Oxygen Ltd
+Amir,Sheikh,supplier165@vendor.pk,+92422444148,+923177115752,ICI Pakistan,Supplier,ICI Pakistan
+Tariq,Mirza,supplier166@vendor.pk,+92428962686,+923382018851,Sitara Chemical Industries,Supplier,Sitara Chemical Industries
+Kamran,Ahmed,supplier167@vendor.pk,+92427304414,+923147485311,Diamond Tyres Ltd,Supplier,Diamond Tyres Ltd
+Ahmed,Gill,supplier168@vendor.pk,+92425585697,+923322540518,General Tyre Pakistan,Supplier,General Tyre Pakistan
+Imran,Hussain,supplier169@vendor.pk,+92428753086,+923481310959,Millat Tractors Parts,Supplier,Millat Tractors Parts
+Amina,Sheikh,supplier170@vendor.pk,+92424342987,+923199861435,Sapphire Textiles (Uniforms),Supplier,Sapphire Textiles (Uniforms)

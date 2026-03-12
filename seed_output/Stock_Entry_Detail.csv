@@ -1,401 +1,601 @@
 parent,parenttype,parentfield,item_code,qty,uom,t_warehouse,s_warehouse,basic_rate
-STE-DEMO-000001,Stock Entry,items,BIO-00348,17,Nos,Central Warehouse - ENXI,,2483732
-STE-DEMO-000002,Stock Entry,items,BIO-00441,1,Nos,Central Warehouse - ENXI,,1832071
-STE-DEMO-000003,Stock Entry,items,BIO-00346,12,Nos,Central Warehouse - ENXI,,2053087
-STE-DEMO-000004,Stock Entry,items,BIO-00021,20,Nos,Spare Parts Store - ENXI,Central Warehouse - ENXI,1948172
-STE-DEMO-000005,Stock Entry,items,BIO-00493,18,Nos,Central Warehouse - ENXI,,72615
-STE-DEMO-000006,Stock Entry,items,BIO-00013,10,Nos,,Central Warehouse - ENXI,429689
-STE-DEMO-000007,Stock Entry,items,BIO-00484,11,Nos,Container Store - ENXI,Central Warehouse - ENXI,1017974
-STE-DEMO-000008,Stock Entry,items,BIO-00171,5,Nos,Central Warehouse - ENXI,,2141854
-STE-DEMO-000009,Stock Entry,items,BIO-00049,9,Nos,Vehicle Parts Store - ENXI,Central Warehouse - ENXI,1208087
-STE-DEMO-000010,Stock Entry,items,BIO-00428,15,Nos,Spare Parts Store - ENXI,Central Warehouse - ENXI,1207776
-STE-DEMO-000011,Stock Entry,items,BIO-00090,3,Nos,Spare Parts Store - ENXI,Central Warehouse - ENXI,2691395
-STE-DEMO-000012,Stock Entry,items,BIO-00114,12,Nos,Central Warehouse - ENXI,,2088096
-STE-DEMO-000013,Stock Entry,items,BIO-00305,1,Nos,,Central Warehouse - ENXI,2826154
-STE-DEMO-000014,Stock Entry,items,VPT-OIL-ENG,18,Nos,,Central Warehouse - ENXI,2454934
-STE-DEMO-000015,Stock Entry,items,BIO-00360,5,Nos,Spare Parts Store - ENXI,Central Warehouse - ENXI,408802
-STE-DEMO-000016,Stock Entry,items,BIO-00336,15,Nos,,Central Warehouse - ENXI,1051512
-STE-DEMO-000017,Stock Entry,items,BIO-00481,8,Nos,,Central Warehouse - ENXI,1688696
-STE-DEMO-000018,Stock Entry,items,BIO-00008,11,Nos,Container Store - ENXI,Central Warehouse - ENXI,1392730
-STE-DEMO-000019,Stock Entry,items,BIO-00487,16,Nos,,Central Warehouse - ENXI,1561122
-STE-DEMO-000020,Stock Entry,items,BIO-00157,1,Nos,Container Store - ENXI,Central Warehouse - ENXI,2285268
-STE-DEMO-000021,Stock Entry,items,BIO-00477,1,Nos,Central Warehouse - ENXI,,1758340
-STE-DEMO-000022,Stock Entry,items,WC-LNR-RED,19,Nos,PPE Store - ENXI,Central Warehouse - ENXI,2674925
-STE-DEMO-000023,Stock Entry,items,BIO-00184,5,Nos,Vehicle Parts Store - ENXI,Central Warehouse - ENXI,2180791
-STE-DEMO-000024,Stock Entry,items,BIO-00035,2,Nos,Central Warehouse - ENXI,,1630017
-STE-DEMO-000025,Stock Entry,items,INC-BAG-ASH,8,Nos,Central Warehouse - ENXI,,979988
-STE-DEMO-000026,Stock Entry,items,BIO-00140,12,Nos,Central Warehouse - ENXI,,1862989
-STE-DEMO-000027,Stock Entry,items,BIO-00043,13,Nos,,Central Warehouse - ENXI,1335745
-STE-DEMO-000028,Stock Entry,items,WC-YEL-060,3,Nos,Central Warehouse - ENXI,,934448
-STE-DEMO-000029,Stock Entry,items,BIO-00305,3,Nos,Central Warehouse - ENXI,,1253929
-STE-DEMO-000030,Stock Entry,items,BIO-00301,2,Nos,Container Store - ENXI,Central Warehouse - ENXI,587758
-STE-DEMO-000031,Stock Entry,items,BIO-00011,17,Nos,Central Warehouse - ENXI,,1176385
-STE-DEMO-000032,Stock Entry,items,BIO-00389,13,Nos,Central Warehouse - ENXI,,2584045
-STE-DEMO-000033,Stock Entry,items,BIO-00346,20,Nos,Container Store - ENXI,Central Warehouse - ENXI,1668866
-STE-DEMO-000034,Stock Entry,items,INC-BAG-ASH,16,Nos,Central Warehouse - ENXI,,756942
-STE-DEMO-000035,Stock Entry,items,BIO-00467,1,Nos,Central Warehouse - ENXI,,2229788
-STE-DEMO-000036,Stock Entry,items,BIO-00095,8,Nos,Central Warehouse - ENXI,,591219
-STE-DEMO-000037,Stock Entry,items,BIO-00090,7,Nos,,Central Warehouse - ENXI,1265005
-STE-DEMO-000038,Stock Entry,items,BIO-00411,2,Nos,PPE Store - ENXI,Central Warehouse - ENXI,1149347
-STE-DEMO-000039,Stock Entry,items,BIO-00065,10,Nos,Central Warehouse - ENXI,,464435
-STE-DEMO-000040,Stock Entry,items,BIO-00176,8,Nos,PPE Store - ENXI,Central Warehouse - ENXI,1671176
-STE-DEMO-000041,Stock Entry,items,BIO-00174,11,Nos,Central Warehouse - ENXI,,1923738
-STE-DEMO-000042,Stock Entry,items,BIO-00318,1,Nos,Central Warehouse - ENXI,,1611837
-STE-DEMO-000043,Stock Entry,items,BIO-00274,19,Nos,Central Warehouse - ENXI,,1589401
-STE-DEMO-000044,Stock Entry,items,BIO-00143,6,Nos,Central Warehouse - ENXI,,1547873
-STE-DEMO-000045,Stock Entry,items,BIO-00123,7,Nos,Central Warehouse - ENXI,,930055
-STE-DEMO-000046,Stock Entry,items,BIO-00336,11,Nos,Container Store - ENXI,Central Warehouse - ENXI,2834408
-STE-DEMO-000047,Stock Entry,items,BIO-00495,8,Nos,Central Warehouse - ENXI,,346810
-STE-DEMO-000048,Stock Entry,items,BIO-00294,5,Nos,Central Warehouse - ENXI,,2204022
-STE-DEMO-000049,Stock Entry,items,BIO-00024,9,Nos,Central Warehouse - ENXI,,85458
-STE-DEMO-000050,Stock Entry,items,BIO-00072,20,Nos,,Central Warehouse - ENXI,1825371
-STE-DEMO-000051,Stock Entry,items,BIO-00482,20,Nos,Central Warehouse - ENXI,,2517477
-STE-DEMO-000052,Stock Entry,items,BIO-00081,4,Nos,Central Warehouse - ENXI,,2036301
-STE-DEMO-000053,Stock Entry,items,BIO-00081,20,Nos,Central Warehouse - ENXI,,582814
-STE-DEMO-000054,Stock Entry,items,BIO-00014,10,Nos,,Central Warehouse - ENXI,365458
-STE-DEMO-000055,Stock Entry,items,BIO-00296,6,Nos,Central Warehouse - ENXI,,500559
-STE-DEMO-000056,Stock Entry,items,BIO-00124,19,Nos,Central Warehouse - ENXI,,739087
-STE-DEMO-000057,Stock Entry,items,BIO-00196,20,Nos,,Central Warehouse - ENXI,880951
-STE-DEMO-000058,Stock Entry,items,BIO-00446,1,Nos,Central Warehouse - ENXI,,1662346
-STE-DEMO-000059,Stock Entry,items,BIO-00065,12,Nos,Central Warehouse - ENXI,,138983
-STE-DEMO-000060,Stock Entry,items,BIO-00063,8,Nos,,Central Warehouse - ENXI,2459911
-STE-DEMO-000061,Stock Entry,items,BIO-00024,10,Nos,Central Warehouse - ENXI,,2230354
-STE-DEMO-000062,Stock Entry,items,BIO-00439,12,Nos,Spare Parts Store - ENXI,Central Warehouse - ENXI,32334
-STE-DEMO-000063,Stock Entry,items,WC-RED-060,4,Nos,Central Warehouse - ENXI,,2816658
-STE-DEMO-000064,Stock Entry,items,BIO-00055,19,Nos,Spare Parts Store - ENXI,Central Warehouse - ENXI,1004446
-STE-DEMO-000065,Stock Entry,items,BIO-00335,8,Nos,Central Warehouse - ENXI,,2053230
-STE-DEMO-000066,Stock Entry,items,BIO-00044,20,Nos,PPE Store - ENXI,Central Warehouse - ENXI,259683
-STE-DEMO-000067,Stock Entry,items,BIO-00012,6,Nos,Central Warehouse - ENXI,,2973142
-STE-DEMO-000068,Stock Entry,items,BIO-00175,14,Nos,Vehicle Parts Store - ENXI,Central Warehouse - ENXI,417623
-STE-DEMO-000069,Stock Entry,items,BIO-00449,11,Nos,Central Warehouse - ENXI,,1579961
-STE-DEMO-000070,Stock Entry,items,BIO-00365,9,Nos,Vehicle Parts Store - ENXI,Central Warehouse - ENXI,2936570
-STE-DEMO-000071,Stock Entry,items,BIO-00397,12,Nos,Central Warehouse - ENXI,,1484853
-STE-DEMO-000072,Stock Entry,items,BIO-00159,1,Nos,,Central Warehouse - ENXI,1885827
-STE-DEMO-000073,Stock Entry,items,BIO-00337,5,Nos,PPE Store - ENXI,Central Warehouse - ENXI,952206
-STE-DEMO-000074,Stock Entry,items,BIO-00418,12,Nos,Central Warehouse - ENXI,,911482
-STE-DEMO-000075,Stock Entry,items,BIO-00120,3,Nos,Central Warehouse - ENXI,,1615603
-STE-DEMO-000076,Stock Entry,items,VPT-BRK-PAD,15,Set,PPE Store - ENXI,Central Warehouse - ENXI,2242249
-STE-DEMO-000077,Stock Entry,items,BIO-00193,10,Nos,Central Warehouse - ENXI,,1850574
-STE-DEMO-000078,Stock Entry,items,BIO-00447,8,Nos,PPE Store - ENXI,Central Warehouse - ENXI,1862510
-STE-DEMO-000079,Stock Entry,items,BIO-00061,20,Nos,Container Store - ENXI,Central Warehouse - ENXI,1240790
-STE-DEMO-000080,Stock Entry,items,BIO-00333,4,Nos,Central Warehouse - ENXI,,337216
-STE-DEMO-000081,Stock Entry,items,BIO-00274,14,Nos,Vehicle Parts Store - ENXI,Central Warehouse - ENXI,1765128
-STE-DEMO-000082,Stock Entry,items,BIO-00177,6,Nos,Central Warehouse - ENXI,,2763847
-STE-DEMO-000083,Stock Entry,items,BIO-00477,14,Nos,Central Warehouse - ENXI,,281084
-STE-DEMO-000084,Stock Entry,items,BIO-00420,19,Nos,Central Warehouse - ENXI,,672096
-STE-DEMO-000085,Stock Entry,items,BIO-00439,11,Nos,PPE Store - ENXI,Central Warehouse - ENXI,2000302
-STE-DEMO-000086,Stock Entry,items,BIO-00038,20,Nos,Central Warehouse - ENXI,,251630
-STE-DEMO-000087,Stock Entry,items,BIO-00126,3,Nos,Central Warehouse - ENXI,,2832378
-STE-DEMO-000088,Stock Entry,items,VPT-TRN-FLD,18,Nos,Central Warehouse - ENXI,,2851589
-STE-DEMO-000089,Stock Entry,items,BIO-00013,13,Nos,,Central Warehouse - ENXI,2639554
-STE-DEMO-000090,Stock Entry,items,BIO-00342,14,Nos,,Central Warehouse - ENXI,858225
-STE-DEMO-000091,Stock Entry,items,BIO-00070,5,Nos,Central Warehouse - ENXI,,832744
-STE-DEMO-000092,Stock Entry,items,BIO-00064,18,Nos,Spare Parts Store - ENXI,Central Warehouse - ENXI,1492563
-STE-DEMO-000093,Stock Entry,items,BIO-00071,13,Nos,Central Warehouse - ENXI,,2667066
-STE-DEMO-000094,Stock Entry,items,BIO-00146,17,Nos,Vehicle Parts Store - ENXI,Central Warehouse - ENXI,1542469
-STE-DEMO-000095,Stock Entry,items,BIO-00273,3,Nos,Central Warehouse - ENXI,,349157
-STE-DEMO-000096,Stock Entry,items,BIO-00078,20,Nos,Central Warehouse - ENXI,,1307315
-STE-DEMO-000097,Stock Entry,items,BIO-00021,1,Nos,Central Warehouse - ENXI,,1027438
-STE-DEMO-000098,Stock Entry,items,BIO-00173,8,Nos,Central Warehouse - ENXI,,2390404
-STE-DEMO-000099,Stock Entry,items,BIO-00308,5,Nos,PPE Store - ENXI,Central Warehouse - ENXI,1020931
-STE-DEMO-000100,Stock Entry,items,BIO-00133,14,Nos,Central Warehouse - ENXI,,1445771
-STE-DEMO-000101,Stock Entry,items,BIO-00339,17,Nos,Vehicle Parts Store - ENXI,Central Warehouse - ENXI,1594749
-STE-DEMO-000102,Stock Entry,items,BIO-00065,16,Nos,Container Store - ENXI,Central Warehouse - ENXI,2246015
-STE-DEMO-000103,Stock Entry,items,BIO-00356,18,Nos,Central Warehouse - ENXI,,846513
-STE-DEMO-000104,Stock Entry,items,BIO-00273,14,Nos,,Central Warehouse - ENXI,1437042
-STE-DEMO-000105,Stock Entry,items,BIO-00470,11,Nos,Spare Parts Store - ENXI,Central Warehouse - ENXI,882601
-STE-DEMO-000106,Stock Entry,items,BIO-00051,9,Nos,Central Warehouse - ENXI,,2799354
-STE-DEMO-000107,Stock Entry,items,BIO-00436,13,Nos,,Central Warehouse - ENXI,1481505
-STE-DEMO-000108,Stock Entry,items,WC-LNR-YEL,13,Nos,Central Warehouse - ENXI,,1228747
-STE-DEMO-000109,Stock Entry,items,PPE-GWN-DIS,8,Nos,Central Warehouse - ENXI,,1547360
-STE-DEMO-000110,Stock Entry,items,BIO-00074,16,Nos,Central Warehouse - ENXI,,768387
-STE-DEMO-000111,Stock Entry,items,BIO-00162,12,Nos,,Central Warehouse - ENXI,925794
-STE-DEMO-000112,Stock Entry,items,BIO-00484,8,Nos,,Central Warehouse - ENXI,2051552
-STE-DEMO-000113,Stock Entry,items,BIO-00188,13,Nos,,Central Warehouse - ENXI,1317575
-STE-DEMO-000114,Stock Entry,items,BIO-00198,20,Nos,,Central Warehouse - ENXI,1968726
-STE-DEMO-000115,Stock Entry,items,BIO-00134,17,Nos,,Central Warehouse - ENXI,1851391
-STE-DEMO-000116,Stock Entry,items,BIO-00320,14,Nos,Spare Parts Store - ENXI,Central Warehouse - ENXI,670509
-STE-DEMO-000117,Stock Entry,items,BIO-00429,19,Nos,Central Warehouse - ENXI,,1208371
-STE-DEMO-000118,Stock Entry,items,BIO-00444,4,Nos,Container Store - ENXI,Central Warehouse - ENXI,91433
-STE-DEMO-000119,Stock Entry,items,BIO-00071,11,Nos,Central Warehouse - ENXI,,24883
-STE-DEMO-000120,Stock Entry,items,BIO-00315,5,Nos,,Central Warehouse - ENXI,2380694
-STE-DEMO-000121,Stock Entry,items,BIO-00197,18,Nos,Central Warehouse - ENXI,,1400570
-STE-DEMO-000122,Stock Entry,items,BIO-00074,2,Nos,,Central Warehouse - ENXI,1769243
-STE-DEMO-000123,Stock Entry,items,BIO-00403,15,Nos,Vehicle Parts Store - ENXI,Central Warehouse - ENXI,1753260
-STE-DEMO-000124,Stock Entry,items,BIO-00119,11,Nos,Central Warehouse - ENXI,,2945544
-STE-DEMO-000125,Stock Entry,items,PPE-SHD-001,19,Nos,Central Warehouse - ENXI,,904418
-STE-DEMO-000126,Stock Entry,items,BIO-00468,9,Nos,Central Warehouse - ENXI,,581339
-STE-DEMO-000127,Stock Entry,items,BIO-00313,4,Nos,Central Warehouse - ENXI,,1263664
-STE-DEMO-000128,Stock Entry,items,BIO-00419,12,Nos,Central Warehouse - ENXI,,18830
-STE-DEMO-000129,Stock Entry,items,BIO-00422,7,Nos,Central Warehouse - ENXI,,1228203
-STE-DEMO-000130,Stock Entry,items,INC-ELC-IGN,18,Nos,,Central Warehouse - ENXI,2892780
-STE-DEMO-000131,Stock Entry,items,BIO-00377,1,Nos,,Central Warehouse - ENXI,1203738
-STE-DEMO-000132,Stock Entry,items,BIO-00271,19,Nos,,Central Warehouse - ENXI,1945151
-STE-DEMO-000133,Stock Entry,items,BIO-00071,12,Nos,,Central Warehouse - ENXI,487951
-STE-DEMO-000134,Stock Entry,items,BIO-00150,2,Nos,,Central Warehouse - ENXI,1925498
-STE-DEMO-000135,Stock Entry,items,BIO-00118,20,Nos,Central Warehouse - ENXI,,2222221
-STE-DEMO-000136,Stock Entry,items,BIO-00150,15,Nos,Central Warehouse - ENXI,,2330438
-STE-DEMO-000137,Stock Entry,items,BIO-00074,8,Nos,Vehicle Parts Store - ENXI,Central Warehouse - ENXI,810285
-STE-DEMO-000138,Stock Entry,items,BIO-00469,5,Nos,PPE Store - ENXI,Central Warehouse - ENXI,2908895
-STE-DEMO-000139,Stock Entry,items,BIO-00376,9,Nos,,Central Warehouse - ENXI,1328652
-STE-DEMO-000140,Stock Entry,items,BIO-00491,13,Nos,Central Warehouse - ENXI,,2048317
-STE-DEMO-000141,Stock Entry,items,BIO-00392,15,Nos,Central Warehouse - ENXI,,49786
-STE-DEMO-000142,Stock Entry,items,SPR-00009,8,Nos,Central Warehouse - ENXI,,2814468
-STE-DEMO-000143,Stock Entry,items,BIO-00460,17,Nos,Central Warehouse - ENXI,,1788693
-STE-DEMO-000144,Stock Entry,items,BIO-00058,3,Nos,Central Warehouse - ENXI,,580648
-STE-DEMO-000145,Stock Entry,items,BIO-00441,5,Nos,,Central Warehouse - ENXI,114025
-STE-DEMO-000146,Stock Entry,items,BIO-00449,2,Nos,,Central Warehouse - ENXI,2835384
-STE-DEMO-000147,Stock Entry,items,BIO-00276,9,Nos,Vehicle Parts Store - ENXI,Central Warehouse - ENXI,531080
-STE-DEMO-000148,Stock Entry,items,BIO-00414,18,Nos,,Central Warehouse - ENXI,854209
-STE-DEMO-000149,Stock Entry,items,BIO-00404,7,Nos,Central Warehouse - ENXI,,1774101
-STE-DEMO-000150,Stock Entry,items,BIO-00364,19,Nos,,Central Warehouse - ENXI,1598637
-STE-DEMO-000151,Stock Entry,items,BIO-00423,17,Nos,Central Warehouse - ENXI,,698371
-STE-DEMO-000152,Stock Entry,items,BIO-00372,18,Nos,,Central Warehouse - ENXI,2539110
-STE-DEMO-000153,Stock Entry,items,BIO-00389,3,Nos,Central Warehouse - ENXI,,2925237
-STE-DEMO-000154,Stock Entry,items,BIO-00005,11,Nos,Central Warehouse - ENXI,,2685336
-STE-DEMO-000155,Stock Entry,items,BIO-00329,10,Nos,Spare Parts Store - ENXI,Central Warehouse - ENXI,1824459
-STE-DEMO-000156,Stock Entry,items,BIO-00190,14,Nos,Central Warehouse - ENXI,,1174618
-STE-DEMO-000157,Stock Entry,items,BIO-00445,2,Nos,Spare Parts Store - ENXI,Central Warehouse - ENXI,477495
-STE-DEMO-000158,Stock Entry,items,BIO-00337,12,Nos,Central Warehouse - ENXI,,393010
-STE-DEMO-000159,Stock Entry,items,BIO-00495,7,Nos,,Central Warehouse - ENXI,1570010
-STE-DEMO-000160,Stock Entry,items,BIO-00353,1,Nos,Central Warehouse - ENXI,,325329
-STE-DEMO-000161,Stock Entry,items,BIO-00170,10,Nos,Central Warehouse - ENXI,,1642588
-STE-DEMO-000162,Stock Entry,items,BIO-00177,17,Nos,Central Warehouse - ENXI,,2898441
-STE-DEMO-000163,Stock Entry,items,BIO-00347,2,Nos,,Central Warehouse - ENXI,2269171
-STE-DEMO-000164,Stock Entry,items,BIO-00111,17,Nos,,Central Warehouse - ENXI,2137796
-STE-DEMO-000165,Stock Entry,items,BIO-00406,2,Nos,Container Store - ENXI,Central Warehouse - ENXI,1199405
-STE-DEMO-000166,Stock Entry,items,BIO-00032,10,Nos,Container Store - ENXI,Central Warehouse - ENXI,258180
-STE-DEMO-000167,Stock Entry,items,BIO-00179,13,Nos,Central Warehouse - ENXI,,1615147
-STE-DEMO-000168,Stock Entry,items,BIO-00175,3,Nos,,Central Warehouse - ENXI,2882421
-STE-DEMO-000169,Stock Entry,items,BIO-00170,7,Nos,Central Warehouse - ENXI,,2191775
-STE-DEMO-000170,Stock Entry,items,BIO-00053,9,Nos,Spare Parts Store - ENXI,Central Warehouse - ENXI,2160782
-STE-DEMO-000171,Stock Entry,items,INC-SNS-TMP,11,Nos,Central Warehouse - ENXI,,1478000
-STE-DEMO-000172,Stock Entry,items,BIO-00101,2,Nos,PPE Store - ENXI,Central Warehouse - ENXI,2619697
-STE-DEMO-000173,Stock Entry,items,SPR-00007,17,Nos,Central Warehouse - ENXI,,1333286
-STE-DEMO-000174,Stock Entry,items,PPE-BOT-001,4,Pair,Central Warehouse - ENXI,,2043370
-STE-DEMO-000175,Stock Entry,items,PPE-GLV-CHM,18,Pair,,Central Warehouse - ENXI,1100515
-STE-DEMO-000176,Stock Entry,items,BIO-00493,20,Nos,Central Warehouse - ENXI,,156535
-STE-DEMO-000177,Stock Entry,items,INC-ELC-IGN,4,Nos,Central Warehouse - ENXI,,1698347
-STE-DEMO-000178,Stock Entry,items,BIO-00288,18,Nos,,Central Warehouse - ENXI,2709341
-STE-DEMO-000179,Stock Entry,items,CLN-SPL-KIT,4,Nos,PPE Store - ENXI,Central Warehouse - ENXI,1828929
-STE-DEMO-000180,Stock Entry,items,BIO-00283,13,Nos,Central Warehouse - ENXI,,1780114
-STE-DEMO-000181,Stock Entry,items,BIO-00283,14,Nos,,Central Warehouse - ENXI,473712
-STE-DEMO-000182,Stock Entry,items,BIO-00311,16,Nos,Central Warehouse - ENXI,,1616901
-STE-DEMO-000183,Stock Entry,items,BIO-00315,17,Nos,Central Warehouse - ENXI,,847601
-STE-DEMO-000184,Stock Entry,items,BIO-00082,14,Nos,Vehicle Parts Store - ENXI,Central Warehouse - ENXI,275952
-STE-DEMO-000185,Stock Entry,items,BIO-00387,11,Nos,,Central Warehouse - ENXI,118292
-STE-DEMO-000186,Stock Entry,items,BIO-00293,7,Nos,Central Warehouse - ENXI,,1573045
-STE-DEMO-000187,Stock Entry,items,BIO-00183,18,Nos,Central Warehouse - ENXI,,281408
-STE-DEMO-000188,Stock Entry,items,WC-SHP-010,11,Nos,Spare Parts Store - ENXI,Central Warehouse - ENXI,1844868
-STE-DEMO-000189,Stock Entry,items,BIO-00127,12,Nos,Spare Parts Store - ENXI,Central Warehouse - ENXI,1004681
-STE-DEMO-000190,Stock Entry,items,BIO-00322,17,Nos,Container Store - ENXI,Central Warehouse - ENXI,684567
-STE-DEMO-000191,Stock Entry,items,SPR-00005,5,Nos,Central Warehouse - ENXI,,395873
-STE-DEMO-000192,Stock Entry,items,BIO-00416,16,Nos,Central Warehouse - ENXI,,1406225
-STE-DEMO-000193,Stock Entry,items,BIO-00035,11,Nos,Container Store - ENXI,Central Warehouse - ENXI,2263016
-STE-DEMO-000194,Stock Entry,items,WC-LNR-YEL,18,Nos,,Central Warehouse - ENXI,2034223
-STE-DEMO-000195,Stock Entry,items,BIO-00107,1,Nos,PPE Store - ENXI,Central Warehouse - ENXI,849400
-STE-DEMO-000196,Stock Entry,items,BIO-00282,11,Nos,Central Warehouse - ENXI,,858271
-STE-DEMO-000197,Stock Entry,items,BIO-00441,15,Nos,Central Warehouse - ENXI,,750313
-STE-DEMO-000198,Stock Entry,items,BIO-00197,14,Nos,Central Warehouse - ENXI,,2485738
-STE-DEMO-000199,Stock Entry,items,BIO-00350,8,Nos,Container Store - ENXI,Central Warehouse - ENXI,1070241
-STE-DEMO-000200,Stock Entry,items,BIO-00190,2,Nos,Central Warehouse - ENXI,,690909
-STE-DEMO-000201,Stock Entry,items,BIO-00466,17,Nos,Central Warehouse - ENXI,,1554979
-STE-DEMO-000202,Stock Entry,items,WC-BAG-050,4,Nos,,Central Warehouse - ENXI,1001064
-STE-DEMO-000203,Stock Entry,items,BIO-00297,15,Nos,Central Warehouse - ENXI,,799277
-STE-DEMO-000204,Stock Entry,items,BIO-00004,18,Nos,,Central Warehouse - ENXI,2367357
-STE-DEMO-000205,Stock Entry,items,BIO-00065,1,Nos,,Central Warehouse - ENXI,2680276
-STE-DEMO-000206,Stock Entry,items,BIO-00443,8,Nos,Central Warehouse - ENXI,,2330728
-STE-DEMO-000207,Stock Entry,items,BIO-00451,6,Nos,,Central Warehouse - ENXI,2029621
-STE-DEMO-000208,Stock Entry,items,VPT-TYR-195,15,Nos,PPE Store - ENXI,Central Warehouse - ENXI,486844
-STE-DEMO-000209,Stock Entry,items,BIO-00275,10,Nos,,Central Warehouse - ENXI,588577
-STE-DEMO-000210,Stock Entry,items,BIO-00373,16,Nos,Central Warehouse - ENXI,,2737171
-STE-DEMO-000211,Stock Entry,items,BIO-00200,7,Nos,PPE Store - ENXI,Central Warehouse - ENXI,5099
-STE-DEMO-000212,Stock Entry,items,BIO-00483,3,Nos,Central Warehouse - ENXI,,614658
-STE-DEMO-000213,Stock Entry,items,BIO-00442,5,Nos,Central Warehouse - ENXI,,1169276
-STE-DEMO-000214,Stock Entry,items,BIO-00152,10,Nos,Central Warehouse - ENXI,,2050926
-STE-DEMO-000215,Stock Entry,items,BIO-00366,2,Nos,Central Warehouse - ENXI,,1463468
-STE-DEMO-000216,Stock Entry,items,CLN-SPL-KIT,15,Nos,PPE Store - ENXI,Central Warehouse - ENXI,1970359
-STE-DEMO-000217,Stock Entry,items,BIO-00446,14,Nos,Vehicle Parts Store - ENXI,Central Warehouse - ENXI,505114
-STE-DEMO-000218,Stock Entry,items,BIO-00187,20,Nos,Central Warehouse - ENXI,,1822935
-STE-DEMO-000219,Stock Entry,items,SPR-00005,13,Nos,Central Warehouse - ENXI,,1909994
-STE-DEMO-000220,Stock Entry,items,BIO-00021,20,Nos,Central Warehouse - ENXI,,2556508
-STE-DEMO-000221,Stock Entry,items,BIO-00194,17,Nos,Spare Parts Store - ENXI,Central Warehouse - ENXI,984184
-STE-DEMO-000222,Stock Entry,items,BIO-00137,1,Nos,Central Warehouse - ENXI,,73755
-STE-DEMO-000223,Stock Entry,items,BIO-00188,5,Nos,Container Store - ENXI,Central Warehouse - ENXI,677783
-STE-DEMO-000224,Stock Entry,items,BIO-00364,13,Nos,,Central Warehouse - ENXI,2861647
-STE-DEMO-000225,Stock Entry,items,BIO-00101,15,Nos,Spare Parts Store - ENXI,Central Warehouse - ENXI,2618345
-STE-DEMO-000226,Stock Entry,items,BIO-00094,5,Nos,,Central Warehouse - ENXI,370620
-STE-DEMO-000227,Stock Entry,items,BIO-00408,9,Nos,PPE Store - ENXI,Central Warehouse - ENXI,1023395
-STE-DEMO-000228,Stock Entry,items,BIO-00186,10,Nos,Central Warehouse - ENXI,,2006387
-STE-DEMO-000229,Stock Entry,items,WC-SHP-005,2,Nos,Container Store - ENXI,Central Warehouse - ENXI,478724
-STE-DEMO-000230,Stock Entry,items,BIO-00346,19,Nos,Central Warehouse - ENXI,,479864
-STE-DEMO-000231,Stock Entry,items,BIO-00169,2,Nos,Central Warehouse - ENXI,,2945316
-STE-DEMO-000232,Stock Entry,items,BIO-00036,13,Nos,Central Warehouse - ENXI,,2973587
-STE-DEMO-000233,Stock Entry,items,BIO-00078,14,Nos,,Central Warehouse - ENXI,37885
-STE-DEMO-000234,Stock Entry,items,BIO-00017,5,Nos,Central Warehouse - ENXI,,1683782
-STE-DEMO-000235,Stock Entry,items,BIO-00311,7,Nos,Central Warehouse - ENXI,,2808270
-STE-DEMO-000236,Stock Entry,items,VPT-BRK-PAD,11,Set,Central Warehouse - ENXI,,2508162
-STE-DEMO-000237,Stock Entry,items,BIO-00303,7,Nos,Central Warehouse - ENXI,,926002
-STE-DEMO-000238,Stock Entry,items,BIO-00278,17,Nos,Central Warehouse - ENXI,,2994100
-STE-DEMO-000239,Stock Entry,items,BIO-00270,3,Nos,Central Warehouse - ENXI,,2517598
-STE-DEMO-000240,Stock Entry,items,BIO-00146,19,Nos,Central Warehouse - ENXI,,1690467
-STE-DEMO-000241,Stock Entry,items,BIO-00047,9,Nos,Central Warehouse - ENXI,,1612806
-STE-DEMO-000242,Stock Entry,items,BIO-00477,17,Nos,Central Warehouse - ENXI,,1733450
-STE-DEMO-000243,Stock Entry,items,BIO-00199,10,Nos,,Central Warehouse - ENXI,2847504
-STE-DEMO-000244,Stock Entry,items,BIO-00434,5,Nos,,Central Warehouse - ENXI,96741
-STE-DEMO-000245,Stock Entry,items,BIO-00047,16,Nos,,Central Warehouse - ENXI,2905782
-STE-DEMO-000246,Stock Entry,items,BIO-00355,14,Nos,Central Warehouse - ENXI,,1775875
-STE-DEMO-000247,Stock Entry,items,BIO-00417,17,Nos,Central Warehouse - ENXI,,596036
-STE-DEMO-000248,Stock Entry,items,BIO-00294,11,Nos,Central Warehouse - ENXI,,1107249
-STE-DEMO-000249,Stock Entry,items,BIO-00322,6,Nos,,Central Warehouse - ENXI,2089514
-STE-DEMO-000250,Stock Entry,items,BIO-00149,1,Nos,PPE Store - ENXI,Central Warehouse - ENXI,165745
-STE-DEMO-000251,Stock Entry,items,BIO-00395,5,Nos,Vehicle Parts Store - ENXI,Central Warehouse - ENXI,87704
-STE-DEMO-000252,Stock Entry,items,BIO-00045,10,Nos,Vehicle Parts Store - ENXI,Central Warehouse - ENXI,2796170
-STE-DEMO-000253,Stock Entry,items,BIO-00164,3,Nos,PPE Store - ENXI,Central Warehouse - ENXI,2471902
-STE-DEMO-000254,Stock Entry,items,BIO-00174,9,Nos,Spare Parts Store - ENXI,Central Warehouse - ENXI,874892
-STE-DEMO-000255,Stock Entry,items,BIO-00059,13,Nos,Central Warehouse - ENXI,,2733938
-STE-DEMO-000256,Stock Entry,items,BIO-00030,7,Nos,Central Warehouse - ENXI,,983945
-STE-DEMO-000257,Stock Entry,items,WC-SHP-005,7,Nos,Central Warehouse - ENXI,,1600163
-STE-DEMO-000258,Stock Entry,items,BIO-00409,7,Nos,PPE Store - ENXI,Central Warehouse - ENXI,54453
-STE-DEMO-000259,Stock Entry,items,BIO-00030,2,Nos,,Central Warehouse - ENXI,2472341
-STE-DEMO-000260,Stock Entry,items,BIO-00439,20,Nos,Central Warehouse - ENXI,,2469453
-STE-DEMO-000261,Stock Entry,items,BIO-00302,15,Nos,Central Warehouse - ENXI,,2185904
-STE-DEMO-000262,Stock Entry,items,BIO-00002,10,Nos,Central Warehouse - ENXI,,2230588
-STE-DEMO-000263,Stock Entry,items,BIO-00089,17,Nos,,Central Warehouse - ENXI,2700361
-STE-DEMO-000264,Stock Entry,items,BIO-00119,11,Nos,,Central Warehouse - ENXI,2932403
-STE-DEMO-000265,Stock Entry,items,BIO-00034,11,Nos,,Central Warehouse - ENXI,2281174
-STE-DEMO-000266,Stock Entry,items,BIO-00326,6,Nos,,Central Warehouse - ENXI,2621911
-STE-DEMO-000267,Stock Entry,items,BIO-00337,8,Nos,Container Store - ENXI,Central Warehouse - ENXI,207568
-STE-DEMO-000268,Stock Entry,items,BIO-00343,15,Nos,Vehicle Parts Store - ENXI,Central Warehouse - ENXI,1750191
-STE-DEMO-000269,Stock Entry,items,BIO-00413,14,Nos,Central Warehouse - ENXI,,1652670
-STE-DEMO-000270,Stock Entry,items,BIO-00488,1,Nos,Central Warehouse - ENXI,,2147333
-STE-DEMO-000271,Stock Entry,items,BIO-00043,5,Nos,Vehicle Parts Store - ENXI,Central Warehouse - ENXI,575561
-STE-DEMO-000272,Stock Entry,items,BIO-00179,19,Nos,Vehicle Parts Store - ENXI,Central Warehouse - ENXI,1271792
-STE-DEMO-000273,Stock Entry,items,BIO-00132,15,Nos,,Central Warehouse - ENXI,16211
-STE-DEMO-000274,Stock Entry,items,BIO-00485,8,Nos,,Central Warehouse - ENXI,309411
-STE-DEMO-000275,Stock Entry,items,BIO-00460,3,Nos,,Central Warehouse - ENXI,152903
-STE-DEMO-000276,Stock Entry,items,BIO-00367,18,Nos,,Central Warehouse - ENXI,890073
-STE-DEMO-000277,Stock Entry,items,BIO-00398,8,Nos,Vehicle Parts Store - ENXI,Central Warehouse - ENXI,35593
-STE-DEMO-000278,Stock Entry,items,BIO-00104,20,Nos,Central Warehouse - ENXI,,1878980
-STE-DEMO-000279,Stock Entry,items,BIO-00149,5,Nos,PPE Store - ENXI,Central Warehouse - ENXI,397551
-STE-DEMO-000280,Stock Entry,items,BIO-00072,14,Nos,Spare Parts Store - ENXI,Central Warehouse - ENXI,2543943
-STE-DEMO-000281,Stock Entry,items,SPR-00009,12,Nos,Central Warehouse - ENXI,,2716894
-STE-DEMO-000282,Stock Entry,items,BIO-00391,4,Nos,Central Warehouse - ENXI,,1701441
-STE-DEMO-000283,Stock Entry,items,WC-BAG-050,16,Nos,,Central Warehouse - ENXI,2894901
-STE-DEMO-000284,Stock Entry,items,BIO-00279,16,Nos,,Central Warehouse - ENXI,2008381
-STE-DEMO-000285,Stock Entry,items,BIO-00478,5,Nos,Central Warehouse - ENXI,,2761199
-STE-DEMO-000286,Stock Entry,items,BIO-00433,7,Nos,Spare Parts Store - ENXI,Central Warehouse - ENXI,1716670
-STE-DEMO-000287,Stock Entry,items,BIO-00288,12,Nos,Central Warehouse - ENXI,,103574
-STE-DEMO-000288,Stock Entry,items,BIO-00354,13,Nos,Central Warehouse - ENXI,,2684352
-STE-DEMO-000289,Stock Entry,items,BIO-00492,13,Nos,Central Warehouse - ENXI,,721490
-STE-DEMO-000290,Stock Entry,items,BIO-00095,14,Nos,Vehicle Parts Store - ENXI,Central Warehouse - ENXI,1813510
-STE-DEMO-000291,Stock Entry,items,BIO-00444,17,Nos,Central Warehouse - ENXI,,47447
-STE-DEMO-000292,Stock Entry,items,BIO-00371,7,Nos,Vehicle Parts Store - ENXI,Central Warehouse - ENXI,1877645
-STE-DEMO-000293,Stock Entry,items,SPR-00003,11,Nos,Central Warehouse - ENXI,,709371
-STE-DEMO-000294,Stock Entry,items,BIO-00488,20,Nos,Central Warehouse - ENXI,,2835758
-STE-DEMO-000295,Stock Entry,items,BIO-00294,20,Nos,,Central Warehouse - ENXI,3334
-STE-DEMO-000296,Stock Entry,items,BIO-00316,19,Nos,Central Warehouse - ENXI,,1014839
-STE-DEMO-000297,Stock Entry,items,BIO-00308,18,Nos,,Central Warehouse - ENXI,445819
-STE-DEMO-000298,Stock Entry,items,BIO-00175,20,Nos,Central Warehouse - ENXI,,1999594
-STE-DEMO-000299,Stock Entry,items,BIO-00078,14,Nos,Central Warehouse - ENXI,,1354069
-STE-DEMO-000300,Stock Entry,items,BIO-00447,16,Nos,,Central Warehouse - ENXI,1595098
-STE-DEMO-000301,Stock Entry,items,BIO-00300,7,Nos,Central Warehouse - ENXI,,2336910
-STE-DEMO-000302,Stock Entry,items,BIO-00398,18,Nos,Central Warehouse - ENXI,,103833
-STE-DEMO-000303,Stock Entry,items,BIO-00492,3,Nos,Central Warehouse - ENXI,,2980898
-STE-DEMO-000304,Stock Entry,items,BIO-00149,4,Nos,,Central Warehouse - ENXI,1849419
-STE-DEMO-000305,Stock Entry,items,BIO-00418,13,Nos,Central Warehouse - ENXI,,1383200
-STE-DEMO-000306,Stock Entry,items,BIO-00317,7,Nos,Central Warehouse - ENXI,,2398203
-STE-DEMO-000307,Stock Entry,items,BIO-00440,5,Nos,Central Warehouse - ENXI,,2476109
-STE-DEMO-000308,Stock Entry,items,BIO-00460,12,Nos,,Central Warehouse - ENXI,1663464
-STE-DEMO-000309,Stock Entry,items,BIO-00048,18,Nos,Central Warehouse - ENXI,,2235547
-STE-DEMO-000310,Stock Entry,items,BIO-00350,4,Nos,Central Warehouse - ENXI,,1293896
-STE-DEMO-000311,Stock Entry,items,BIO-00021,2,Nos,Container Store - ENXI,Central Warehouse - ENXI,2733039
-STE-DEMO-000312,Stock Entry,items,BIO-00003,20,Nos,Container Store - ENXI,Central Warehouse - ENXI,770723
-STE-DEMO-000313,Stock Entry,items,BIO-00379,6,Nos,Central Warehouse - ENXI,,2193504
-STE-DEMO-000314,Stock Entry,items,BIO-00306,16,Nos,,Central Warehouse - ENXI,1466748
-STE-DEMO-000315,Stock Entry,items,BIO-00026,8,Nos,PPE Store - ENXI,Central Warehouse - ENXI,2695593
-STE-DEMO-000316,Stock Entry,items,BIO-00320,7,Nos,PPE Store - ENXI,Central Warehouse - ENXI,76072
-STE-DEMO-000317,Stock Entry,items,BIO-00468,5,Nos,Central Warehouse - ENXI,,1426124
-STE-DEMO-000318,Stock Entry,items,BIO-00033,17,Nos,PPE Store - ENXI,Central Warehouse - ENXI,1642255
-STE-DEMO-000319,Stock Entry,items,BIO-00088,19,Nos,Central Warehouse - ENXI,,96791
-STE-DEMO-000320,Stock Entry,items,BIO-00348,20,Nos,Central Warehouse - ENXI,,1445981
-STE-DEMO-000321,Stock Entry,items,BIO-00093,6,Nos,Central Warehouse - ENXI,,952866
-STE-DEMO-000322,Stock Entry,items,SPR-00009,20,Nos,,Central Warehouse - ENXI,884745
-STE-DEMO-000323,Stock Entry,items,BIO-00343,18,Nos,,Central Warehouse - ENXI,66255
-STE-DEMO-000324,Stock Entry,items,BIO-00472,2,Nos,Central Warehouse - ENXI,,57710
-STE-DEMO-000325,Stock Entry,items,BIO-00274,7,Nos,Spare Parts Store - ENXI,Central Warehouse - ENXI,83601
-STE-DEMO-000326,Stock Entry,items,BIO-00421,6,Nos,,Central Warehouse - ENXI,1614865
-STE-DEMO-000327,Stock Entry,items,WC-SHP-010,5,Nos,Vehicle Parts Store - ENXI,Central Warehouse - ENXI,1089183
-STE-DEMO-000328,Stock Entry,items,VPT-TYR-195,10,Nos,Central Warehouse - ENXI,,104865
-STE-DEMO-000329,Stock Entry,items,BIO-00168,16,Nos,PPE Store - ENXI,Central Warehouse - ENXI,2896161
-STE-DEMO-000330,Stock Entry,items,BIO-00409,9,Nos,,Central Warehouse - ENXI,1280079
-STE-DEMO-000331,Stock Entry,items,BIO-00358,20,Nos,Central Warehouse - ENXI,,1541816
-STE-DEMO-000332,Stock Entry,items,BIO-00366,16,Nos,,Central Warehouse - ENXI,1073034
-STE-DEMO-000333,Stock Entry,items,BIO-00195,18,Nos,Central Warehouse - ENXI,,2068068
-STE-DEMO-000334,Stock Entry,items,BIO-00186,10,Nos,Container Store - ENXI,Central Warehouse - ENXI,1062296
-STE-DEMO-000335,Stock Entry,items,BIO-00170,3,Nos,Central Warehouse - ENXI,,1177788
-STE-DEMO-000336,Stock Entry,items,WC-LNR-YEL,18,Nos,Central Warehouse - ENXI,,2250572
-STE-DEMO-000337,Stock Entry,items,WC-RED-060,12,Nos,Spare Parts Store - ENXI,Central Warehouse - ENXI,2156847
-STE-DEMO-000338,Stock Entry,items,BIO-00465,9,Nos,Spare Parts Store - ENXI,Central Warehouse - ENXI,2125655
-STE-DEMO-000339,Stock Entry,items,BIO-00306,8,Nos,Container Store - ENXI,Central Warehouse - ENXI,2774404
-STE-DEMO-000340,Stock Entry,items,WC-LNR-YEL,6,Nos,Vehicle Parts Store - ENXI,Central Warehouse - ENXI,1747389
-STE-DEMO-000341,Stock Entry,items,SPR-00001,10,Nos,Central Warehouse - ENXI,,2171409
-STE-DEMO-000342,Stock Entry,items,BIO-00079,1,Nos,Central Warehouse - ENXI,,2781304
-STE-DEMO-000343,Stock Entry,items,VPT-COL-005,12,Nos,,Central Warehouse - ENXI,2200516
-STE-DEMO-000344,Stock Entry,items,BIO-00492,17,Nos,Central Warehouse - ENXI,,2554612
-STE-DEMO-000345,Stock Entry,items,BIO-00082,14,Nos,Central Warehouse - ENXI,,2559377
-STE-DEMO-000346,Stock Entry,items,BIO-00355,9,Nos,Spare Parts Store - ENXI,Central Warehouse - ENXI,1262004
-STE-DEMO-000347,Stock Entry,items,BIO-00392,14,Nos,,Central Warehouse - ENXI,2504763
-STE-DEMO-000348,Stock Entry,items,BIO-00462,18,Nos,Container Store - ENXI,Central Warehouse - ENXI,133349
-STE-DEMO-000349,Stock Entry,items,BIO-00389,10,Nos,Central Warehouse - ENXI,,1339016
-STE-DEMO-000350,Stock Entry,items,BIO-00185,2,Nos,Spare Parts Store - ENXI,Central Warehouse - ENXI,2499804
-STE-DEMO-000351,Stock Entry,items,SPR-00006,15,Nos,PPE Store - ENXI,Central Warehouse - ENXI,693335
-STE-DEMO-000352,Stock Entry,items,BIO-00101,9,Nos,Central Warehouse - ENXI,,722823
-STE-DEMO-000353,Stock Entry,items,BIO-00407,20,Nos,,Central Warehouse - ENXI,823217
-STE-DEMO-000354,Stock Entry,items,BIO-00375,15,Nos,Spare Parts Store - ENXI,Central Warehouse - ENXI,1874668
-STE-DEMO-000355,Stock Entry,items,BIO-00269,5,Nos,,Central Warehouse - ENXI,2476357
-STE-DEMO-000356,Stock Entry,items,BIO-00344,12,Nos,Central Warehouse - ENXI,,2797909
-STE-DEMO-000357,Stock Entry,items,BIO-00370,1,Nos,PPE Store - ENXI,Central Warehouse - ENXI,1014217
-STE-DEMO-000358,Stock Entry,items,BIO-00071,11,Nos,Central Warehouse - ENXI,,2345512
-STE-DEMO-000359,Stock Entry,items,BIO-00057,12,Nos,,Central Warehouse - ENXI,161777
-STE-DEMO-000360,Stock Entry,items,BIO-00371,1,Nos,Container Store - ENXI,Central Warehouse - ENXI,1258360
-STE-DEMO-000361,Stock Entry,items,BIO-00095,18,Nos,Central Warehouse - ENXI,,395659
-STE-DEMO-000362,Stock Entry,items,BIO-00176,8,Nos,Central Warehouse - ENXI,,271998
-STE-DEMO-000363,Stock Entry,items,VPT-OIL-ENG,20,Nos,Central Warehouse - ENXI,,1111249
-STE-DEMO-000364,Stock Entry,items,BIO-00370,8,Nos,Vehicle Parts Store - ENXI,Central Warehouse - ENXI,939172
-STE-DEMO-000365,Stock Entry,items,BIO-00445,11,Nos,PPE Store - ENXI,Central Warehouse - ENXI,789409
-STE-DEMO-000366,Stock Entry,items,BIO-00390,4,Nos,Spare Parts Store - ENXI,Central Warehouse - ENXI,468900
-STE-DEMO-000367,Stock Entry,items,BIO-00181,19,Nos,Central Warehouse - ENXI,,122942
-STE-DEMO-000368,Stock Entry,items,BIO-00463,6,Nos,Central Warehouse - ENXI,,1682856
-STE-DEMO-000369,Stock Entry,items,BIO-00472,15,Nos,Central Warehouse - ENXI,,1108603
-STE-DEMO-000370,Stock Entry,items,PPE-GLV-LAT,13,Box,Central Warehouse - ENXI,,768806
-STE-DEMO-000371,Stock Entry,items,BIO-00177,4,Nos,,Central Warehouse - ENXI,2902541
-STE-DEMO-000372,Stock Entry,items,BIO-00187,16,Nos,Central Warehouse - ENXI,,937693
-STE-DEMO-000373,Stock Entry,items,BIO-00302,12,Nos,Container Store - ENXI,Central Warehouse - ENXI,1462473
-STE-DEMO-000374,Stock Entry,items,BIO-00042,9,Nos,Central Warehouse - ENXI,,2650967
-STE-DEMO-000375,Stock Entry,items,BIO-00021,20,Nos,PPE Store - ENXI,Central Warehouse - ENXI,2625335
-STE-DEMO-000376,Stock Entry,items,BIO-00166,4,Nos,Vehicle Parts Store - ENXI,Central Warehouse - ENXI,329301
-STE-DEMO-000377,Stock Entry,items,BIO-00491,10,Nos,Container Store - ENXI,Central Warehouse - ENXI,1443424
-STE-DEMO-000378,Stock Entry,items,BIO-00369,8,Nos,Central Warehouse - ENXI,,2888856
-STE-DEMO-000379,Stock Entry,items,BIO-00017,14,Nos,Central Warehouse - ENXI,,569719
-STE-DEMO-000380,Stock Entry,items,BIO-00297,4,Nos,Central Warehouse - ENXI,,1744211
-STE-DEMO-000381,Stock Entry,items,BIO-00127,15,Nos,Central Warehouse - ENXI,,1049830
-STE-DEMO-000382,Stock Entry,items,BIO-00450,5,Nos,Central Warehouse - ENXI,,364854
-STE-DEMO-000383,Stock Entry,items,BIO-00444,16,Nos,Vehicle Parts Store - ENXI,Central Warehouse - ENXI,1571484
-STE-DEMO-000384,Stock Entry,items,BIO-00409,6,Nos,Container Store - ENXI,Central Warehouse - ENXI,1784765
-STE-DEMO-000385,Stock Entry,items,BIO-00089,14,Nos,,Central Warehouse - ENXI,121075
-STE-DEMO-000386,Stock Entry,items,BIO-00288,4,Nos,Vehicle Parts Store - ENXI,Central Warehouse - ENXI,2144477
-STE-DEMO-000387,Stock Entry,items,BIO-00008,19,Nos,Central Warehouse - ENXI,,2606992
-STE-DEMO-000388,Stock Entry,items,WC-CHM-050,19,Nos,,Central Warehouse - ENXI,982140
-STE-DEMO-000389,Stock Entry,items,BIO-00445,14,Nos,Central Warehouse - ENXI,,1009225
-STE-DEMO-000390,Stock Entry,items,BIO-00451,8,Nos,Central Warehouse - ENXI,,2594536
-STE-DEMO-000391,Stock Entry,items,BIO-00038,14,Nos,PPE Store - ENXI,Central Warehouse - ENXI,2072787
-STE-DEMO-000392,Stock Entry,items,BIO-00017,11,Nos,Central Warehouse - ENXI,,2582284
-STE-DEMO-000393,Stock Entry,items,BIO-00295,5,Nos,,Central Warehouse - ENXI,524967
-STE-DEMO-000394,Stock Entry,items,BIO-00379,14,Nos,,Central Warehouse - ENXI,1848985
-STE-DEMO-000395,Stock Entry,items,BIO-00430,4,Nos,Central Warehouse - ENXI,,727135
-STE-DEMO-000396,Stock Entry,items,BIO-00111,9,Nos,,Central Warehouse - ENXI,961632
-STE-DEMO-000397,Stock Entry,items,BIO-00290,18,Nos,,Central Warehouse - ENXI,2225966
-STE-DEMO-000398,Stock Entry,items,BIO-00158,17,Nos,,Central Warehouse - ENXI,1443996
-STE-DEMO-000399,Stock Entry,items,BIO-00047,10,Nos,,Central Warehouse - ENXI,2727690
-STE-DEMO-000400,Stock Entry,items,BIO-00075,12,Nos,Central Warehouse - ENXI,,2549826
+STE-DEMO-000001,Stock Entry,items,BIO-00336,29,Nos,Central Warehouse - ENXI,,17657
+STE-DEMO-000002,Stock Entry,items,BIO-00280,24,Nos,Central Warehouse - ENXI,,39137
+STE-DEMO-000003,Stock Entry,items,BIO-00206,1,Nos,Central Warehouse - ENXI,,409760
+STE-DEMO-000004,Stock Entry,items,BIO-00210,8,Nos,,Central Warehouse - ENXI,435576
+STE-DEMO-000005,Stock Entry,items,BIO-00152,7,Nos,Central Warehouse - ENXI,,109056
+STE-DEMO-000006,Stock Entry,items,BIO-00360,14,Nos,Central Warehouse - ENXI,,1279
+STE-DEMO-000007,Stock Entry,items,BIO-00344,29,Nos,Central Warehouse - ENXI,,392005
+STE-DEMO-000008,Stock Entry,items,BIO-00118,8,Nos,,Central Warehouse - ENXI,380078
+STE-DEMO-000009,Stock Entry,items,BIO-00215,9,Nos,Central Warehouse - ENXI,,38911
+STE-DEMO-000010,Stock Entry,items,BIO-00338,6,Nos,,Central Warehouse - ENXI,310797
+STE-DEMO-000011,Stock Entry,items,BIO-00351,16,Nos,PPE Store - ENXI,Central Warehouse - ENXI,19981
+STE-DEMO-000012,Stock Entry,items,BIO-00089,4,Nos,Central Warehouse - ENXI,,188936
+STE-DEMO-000013,Stock Entry,items,BIO-00149,22,Nos,Central Warehouse - ENXI,,335654
+STE-DEMO-000014,Stock Entry,items,BIO-00191,28,Nos,Central Warehouse - ENXI,,457635
+STE-DEMO-000015,Stock Entry,items,BIO-00255,5,Nos,Central Warehouse - ENXI,,340788
+STE-DEMO-000016,Stock Entry,items,BIO-00354,13,Nos,Central Warehouse - ENXI,,484111
+STE-DEMO-000017,Stock Entry,items,BIO-00199,2,Nos,Cleaning Supplies Store - ENXI,Central Warehouse - ENXI,138212
+STE-DEMO-000018,Stock Entry,items,BIO-00286,12,Nos,Central Warehouse - ENXI,,89052
+STE-DEMO-000019,Stock Entry,items,SPR-038,21,Nos,,Central Warehouse - ENXI,463473
+STE-DEMO-000020,Stock Entry,items,BIO-00432,24,Nos,Central Warehouse - ENXI,,129077
+STE-DEMO-000021,Stock Entry,items,BIO-00159,21,Nos,Central Warehouse - ENXI,,246920
+STE-DEMO-000022,Stock Entry,items,BIO-00098,9,Nos,Central Warehouse - ENXI,,18828
+STE-DEMO-000023,Stock Entry,items,BIO-00382,30,Nos,Central Warehouse - ENXI,,189045
+STE-DEMO-000024,Stock Entry,items,CLN-035,25,Nos,Central Warehouse - ENXI,,212854
+STE-DEMO-000025,Stock Entry,items,BIO-00071,8,Nos,Central Warehouse - ENXI,,321487
+STE-DEMO-000026,Stock Entry,items,CNT-014,9,Nos,Central Warehouse - ENXI,,191864
+STE-DEMO-000027,Stock Entry,items,BIO-00321,5,Nos,Spare Parts Warehouse - ENXI,Central Warehouse - ENXI,248330
+STE-DEMO-000028,Stock Entry,items,BIO-00112,9,Nos,Central Warehouse - ENXI,,27202
+STE-DEMO-000029,Stock Entry,items,BIO-00263,2,Nos,Spare Parts Warehouse - ENXI,Central Warehouse - ENXI,394469
+STE-DEMO-000030,Stock Entry,items,BIO-00299,26,Nos,,Central Warehouse - ENXI,473410
+STE-DEMO-000031,Stock Entry,items,BIO-00124,11,Nos,Central Warehouse - ENXI,,192080
+STE-DEMO-000032,Stock Entry,items,BIO-00217,8,Nos,Central Warehouse - ENXI,,267124
+STE-DEMO-000033,Stock Entry,items,BIO-00314,18,Nos,Central Warehouse - ENXI,,33390
+STE-DEMO-000034,Stock Entry,items,BIO-00406,5,Nos,Spare Parts Warehouse - ENXI,Central Warehouse - ENXI,291989
+STE-DEMO-000035,Stock Entry,items,BIO-00325,19,Nos,Central Warehouse - ENXI,,408049
+STE-DEMO-000036,Stock Entry,items,BIO-00164,17,Nos,,Central Warehouse - ENXI,414496
+STE-DEMO-000037,Stock Entry,items,BIO-00308,18,Nos,,Central Warehouse - ENXI,22399
+STE-DEMO-000038,Stock Entry,items,BIO-00188,23,Nos,Central Warehouse - ENXI,,188719
+STE-DEMO-000039,Stock Entry,items,BIO-00376,7,Nos,,Central Warehouse - ENXI,433060
+STE-DEMO-000040,Stock Entry,items,BIO-00280,1,Nos,Central Warehouse - ENXI,,241817
+STE-DEMO-000041,Stock Entry,items,BIO-00388,5,Nos,Cleaning Supplies Store - ENXI,Central Warehouse - ENXI,213090
+STE-DEMO-000042,Stock Entry,items,CNT-012,19,Nos,,Central Warehouse - ENXI,353463
+STE-DEMO-000043,Stock Entry,items,CNT-017,10,Nos,Central Warehouse - ENXI,,132251
+STE-DEMO-000044,Stock Entry,items,BIO-00201,1,Nos,,Central Warehouse - ENXI,53986
+STE-DEMO-000045,Stock Entry,items,BIO-00425,11,Nos,,Central Warehouse - ENXI,8336
+STE-DEMO-000046,Stock Entry,items,BIO-00223,22,Nos,Central Warehouse - ENXI,,439959
+STE-DEMO-000047,Stock Entry,items,BIO-00189,26,Nos,,Central Warehouse - ENXI,169671
+STE-DEMO-000048,Stock Entry,items,BIO-00316,25,Nos,Cleaning Supplies Store - ENXI,Central Warehouse - ENXI,321035
+STE-DEMO-000049,Stock Entry,items,BIO-00342,13,Nos,Central Warehouse - ENXI,,169584
+STE-DEMO-000050,Stock Entry,items,BIO-00215,28,Nos,Spare Parts Warehouse - ENXI,Central Warehouse - ENXI,309923
+STE-DEMO-000051,Stock Entry,items,BIO-00095,7,Nos,Central Warehouse - ENXI,,88930
+STE-DEMO-000052,Stock Entry,items,BIO-00105,2,Nos,Central Warehouse - ENXI,,132350
+STE-DEMO-000053,Stock Entry,items,PPE-021,2,Box,Central Warehouse - ENXI,,209546
+STE-DEMO-000054,Stock Entry,items,BIO-00365,3,Nos,Central Warehouse - ENXI,,301221
+STE-DEMO-000055,Stock Entry,items,CLN-031,27,Nos,Central Warehouse - ENXI,,225426
+STE-DEMO-000056,Stock Entry,items,BIO-00252,27,Nos,PPE Store - ENXI,Central Warehouse - ENXI,443644
+STE-DEMO-000057,Stock Entry,items,BIO-00207,25,Nos,Central Warehouse - ENXI,,127171
+STE-DEMO-000058,Stock Entry,items,BIO-00314,3,Nos,Central Warehouse - ENXI,,399589
+STE-DEMO-000059,Stock Entry,items,BIO-00444,10,Nos,Central Warehouse - ENXI,,377027
+STE-DEMO-000060,Stock Entry,items,BIO-00438,2,Nos,Central Warehouse - ENXI,,438681
+STE-DEMO-000061,Stock Entry,items,BIO-00292,13,Nos,Central Warehouse - ENXI,,57248
+STE-DEMO-000062,Stock Entry,items,BIO-00429,5,Nos,Central Warehouse - ENXI,,113602
+STE-DEMO-000063,Stock Entry,items,BIO-00295,14,Nos,Central Warehouse - ENXI,,356362
+STE-DEMO-000064,Stock Entry,items,BIO-00150,1,Nos,Central Warehouse - ENXI,,375470
+STE-DEMO-000065,Stock Entry,items,BIO-00337,10,Nos,Central Warehouse - ENXI,,487731
+STE-DEMO-000066,Stock Entry,items,BIO-00164,5,Nos,Central Warehouse - ENXI,,76558
+STE-DEMO-000067,Stock Entry,items,BIO-00389,20,Nos,Central Warehouse - ENXI,,82093
+STE-DEMO-000068,Stock Entry,items,BIO-00159,8,Nos,Central Warehouse - ENXI,,11922
+STE-DEMO-000069,Stock Entry,items,BIO-00130,23,Nos,Central Warehouse - ENXI,,69144
+STE-DEMO-000070,Stock Entry,items,CNT-019,1,Nos,Central Warehouse - ENXI,,50798
+STE-DEMO-000071,Stock Entry,items,BIO-00078,15,Nos,Central Warehouse - ENXI,,276199
+STE-DEMO-000072,Stock Entry,items,BIO-00099,18,Nos,Cleaning Supplies Store - ENXI,Central Warehouse - ENXI,345859
+STE-DEMO-000073,Stock Entry,items,BIO-00147,22,Nos,Central Warehouse - ENXI,,123824
+STE-DEMO-000074,Stock Entry,items,SPR-043,21,Nos,Central Warehouse - ENXI,,307459
+STE-DEMO-000075,Stock Entry,items,BIO-00302,4,Nos,,Central Warehouse - ENXI,374618
+STE-DEMO-000076,Stock Entry,items,BIO-00183,8,Nos,Central Warehouse - ENXI,,398099
+STE-DEMO-000077,Stock Entry,items,BIO-00321,11,Nos,Central Warehouse - ENXI,,199761
+STE-DEMO-000078,Stock Entry,items,BIO-00337,16,Nos,Central Warehouse - ENXI,,215600
+STE-DEMO-000079,Stock Entry,items,BIO-00313,9,Nos,Central Warehouse - ENXI,,469055
+STE-DEMO-000080,Stock Entry,items,BIO-00152,14,Nos,Spare Parts Warehouse - ENXI,Central Warehouse - ENXI,385684
+STE-DEMO-000081,Stock Entry,items,BIO-00158,2,Nos,,Central Warehouse - ENXI,471855
+STE-DEMO-000082,Stock Entry,items,BIO-00397,29,Nos,Cleaning Supplies Store - ENXI,Central Warehouse - ENXI,451310
+STE-DEMO-000083,Stock Entry,items,BIO-00246,19,Nos,,Central Warehouse - ENXI,489853
+STE-DEMO-000084,Stock Entry,items,BIO-00122,13,Nos,Central Warehouse - ENXI,,36436
+STE-DEMO-000085,Stock Entry,items,CNT-013,18,Nos,Central Warehouse - ENXI,,99405
+STE-DEMO-000086,Stock Entry,items,BIO-00340,15,Nos,Central Warehouse - ENXI,,21036
+STE-DEMO-000087,Stock Entry,items,SPR-039,13,Set,PPE Store - ENXI,Central Warehouse - ENXI,129166
+STE-DEMO-000088,Stock Entry,items,SPR-040,5,Nos,,Central Warehouse - ENXI,254560
+STE-DEMO-000089,Stock Entry,items,BIO-00074,24,Nos,Central Warehouse - ENXI,,175500
+STE-DEMO-000090,Stock Entry,items,BIO-00252,27,Nos,,Central Warehouse - ENXI,379802
+STE-DEMO-000091,Stock Entry,items,BIO-00227,3,Nos,Central Warehouse - ENXI,,257039
+STE-DEMO-000092,Stock Entry,items,BIO-00231,6,Nos,Central Warehouse - ENXI,,308324
+STE-DEMO-000093,Stock Entry,items,BIO-00161,11,Nos,Central Warehouse - ENXI,,425739
+STE-DEMO-000094,Stock Entry,items,BIO-00354,18,Nos,Spare Parts Warehouse - ENXI,Central Warehouse - ENXI,300191
+STE-DEMO-000095,Stock Entry,items,BIO-00454,15,Nos,,Central Warehouse - ENXI,102689
+STE-DEMO-000096,Stock Entry,items,BIO-00383,24,Nos,Cleaning Supplies Store - ENXI,Central Warehouse - ENXI,95780
+STE-DEMO-000097,Stock Entry,items,BIO-00111,17,Nos,Central Warehouse - ENXI,,82093
+STE-DEMO-000098,Stock Entry,items,BIO-00155,14,Nos,Central Warehouse - ENXI,,87324
+STE-DEMO-000099,Stock Entry,items,BIO-00093,6,Nos,PPE Store - ENXI,Central Warehouse - ENXI,97755
+STE-DEMO-000100,Stock Entry,items,BIO-00449,8,Nos,Cleaning Supplies Store - ENXI,Central Warehouse - ENXI,103376
+STE-DEMO-000101,Stock Entry,items,BIO-00112,17,Nos,Central Warehouse - ENXI,,492407
+STE-DEMO-000102,Stock Entry,items,BIO-00102,24,Nos,Central Warehouse - ENXI,,85836
+STE-DEMO-000103,Stock Entry,items,BIO-00184,20,Nos,Central Warehouse - ENXI,,14852
+STE-DEMO-000104,Stock Entry,items,BIO-00086,16,Nos,,Central Warehouse - ENXI,357572
+STE-DEMO-000105,Stock Entry,items,BIO-00406,19,Nos,Central Warehouse - ENXI,,452030
+STE-DEMO-000106,Stock Entry,items,BIO-00430,28,Nos,Central Warehouse - ENXI,,22412
+STE-DEMO-000107,Stock Entry,items,BIO-00154,10,Nos,Central Warehouse - ENXI,,39212
+STE-DEMO-000108,Stock Entry,items,BIO-00171,11,Nos,Central Warehouse - ENXI,,484873
+STE-DEMO-000109,Stock Entry,items,BIO-00106,19,Nos,Central Warehouse - ENXI,,81383
+STE-DEMO-000110,Stock Entry,items,BIO-00427,12,Nos,Central Warehouse - ENXI,,203555
+STE-DEMO-000111,Stock Entry,items,BIO-00357,1,Nos,,Central Warehouse - ENXI,274089
+STE-DEMO-000112,Stock Entry,items,BIO-00124,19,Nos,PPE Store - ENXI,Central Warehouse - ENXI,370469
+STE-DEMO-000113,Stock Entry,items,PPE-029,9,Nos,Central Warehouse - ENXI,,217770
+STE-DEMO-000114,Stock Entry,items,BIO-00367,20,Nos,Central Warehouse - ENXI,,362780
+STE-DEMO-000115,Stock Entry,items,BIO-00112,21,Nos,Central Warehouse - ENXI,,240890
+STE-DEMO-000116,Stock Entry,items,BIO-00069,12,Nos,Central Warehouse - ENXI,,484193
+STE-DEMO-000117,Stock Entry,items,BIO-00451,11,Nos,Central Warehouse - ENXI,,290035
+STE-DEMO-000118,Stock Entry,items,BIO-00118,23,Nos,Central Warehouse - ENXI,,274029
+STE-DEMO-000119,Stock Entry,items,BIO-00272,21,Nos,,Central Warehouse - ENXI,494747
+STE-DEMO-000120,Stock Entry,items,BIO-00198,26,Nos,PPE Store - ENXI,Central Warehouse - ENXI,327428
+STE-DEMO-000121,Stock Entry,items,PPE-023,11,Nos,PPE Store - ENXI,Central Warehouse - ENXI,127239
+STE-DEMO-000122,Stock Entry,items,BIO-00339,24,Nos,Spare Parts Warehouse - ENXI,Central Warehouse - ENXI,140691
+STE-DEMO-000123,Stock Entry,items,BIO-00258,12,Nos,Spare Parts Warehouse - ENXI,Central Warehouse - ENXI,299244
+STE-DEMO-000124,Stock Entry,items,BIO-00272,23,Nos,Central Warehouse - ENXI,,97280
+STE-DEMO-000125,Stock Entry,items,BIO-00426,30,Nos,Central Warehouse - ENXI,,250285
+STE-DEMO-000126,Stock Entry,items,BIO-00127,6,Nos,Central Warehouse - ENXI,,388727
+STE-DEMO-000127,Stock Entry,items,CNT-019,1,Nos,Central Warehouse - ENXI,,252935
+STE-DEMO-000128,Stock Entry,items,BIO-00298,14,Nos,Central Warehouse - ENXI,,458415
+STE-DEMO-000129,Stock Entry,items,BIO-00297,14,Nos,Central Warehouse - ENXI,,316347
+STE-DEMO-000130,Stock Entry,items,BIO-00269,27,Nos,Central Warehouse - ENXI,,156425
+STE-DEMO-000131,Stock Entry,items,BIO-00360,15,Nos,,Central Warehouse - ENXI,149689
+STE-DEMO-000132,Stock Entry,items,BIO-00380,21,Nos,,Central Warehouse - ENXI,395109
+STE-DEMO-000133,Stock Entry,items,BIO-00098,24,Nos,Central Warehouse - ENXI,,325138
+STE-DEMO-000134,Stock Entry,items,BIO-00149,18,Nos,Central Warehouse - ENXI,,131068
+STE-DEMO-000135,Stock Entry,items,BIO-00342,13,Nos,Central Warehouse - ENXI,,456036
+STE-DEMO-000136,Stock Entry,items,CLN-033,18,Nos,Central Warehouse - ENXI,,334708
+STE-DEMO-000137,Stock Entry,items,BIO-00304,5,Nos,,Central Warehouse - ENXI,348627
+STE-DEMO-000138,Stock Entry,items,BIO-00246,28,Nos,Central Warehouse - ENXI,,492356
+STE-DEMO-000139,Stock Entry,items,BIO-00394,6,Nos,Central Warehouse - ENXI,,174756
+STE-DEMO-000140,Stock Entry,items,BIO-00358,22,Nos,Central Warehouse - ENXI,,193653
+STE-DEMO-000141,Stock Entry,items,BIO-00332,4,Nos,Central Warehouse - ENXI,,417523
+STE-DEMO-000142,Stock Entry,items,BIO-00393,22,Nos,Central Warehouse - ENXI,,32758
+STE-DEMO-000143,Stock Entry,items,BIO-00193,24,Nos,Central Warehouse - ENXI,,215409
+STE-DEMO-000144,Stock Entry,items,BIO-00346,10,Nos,Central Warehouse - ENXI,,37795
+STE-DEMO-000145,Stock Entry,items,BIO-00228,22,Nos,Central Warehouse - ENXI,,214191
+STE-DEMO-000146,Stock Entry,items,BIO-00227,29,Nos,,Central Warehouse - ENXI,338288
+STE-DEMO-000147,Stock Entry,items,PPE-025,26,Nos,Cleaning Supplies Store - ENXI,Central Warehouse - ENXI,339604
+STE-DEMO-000148,Stock Entry,items,CLN-037,24,Nos,Central Warehouse - ENXI,,164341
+STE-DEMO-000149,Stock Entry,items,BIO-00217,10,Nos,PPE Store - ENXI,Central Warehouse - ENXI,253888
+STE-DEMO-000150,Stock Entry,items,BIO-00114,14,Nos,Central Warehouse - ENXI,,430899
+STE-DEMO-000151,Stock Entry,items,BIO-00099,27,Nos,Central Warehouse - ENXI,,151751
+STE-DEMO-000152,Stock Entry,items,BIO-00400,7,Nos,Central Warehouse - ENXI,,375143
+STE-DEMO-000153,Stock Entry,items,PPE-024,14,Nos,Central Warehouse - ENXI,,168060
+STE-DEMO-000154,Stock Entry,items,BIO-00447,24,Nos,Central Warehouse - ENXI,,384242
+STE-DEMO-000155,Stock Entry,items,BIO-00083,14,Nos,Central Warehouse - ENXI,,332557
+STE-DEMO-000156,Stock Entry,items,BIO-00163,8,Nos,Central Warehouse - ENXI,,156632
+STE-DEMO-000157,Stock Entry,items,BIO-00368,22,Nos,Central Warehouse - ENXI,,475039
+STE-DEMO-000158,Stock Entry,items,BIO-00256,3,Nos,Central Warehouse - ENXI,,181199
+STE-DEMO-000159,Stock Entry,items,BIO-00443,23,Nos,Central Warehouse - ENXI,,139918
+STE-DEMO-000160,Stock Entry,items,BIO-00418,4,Nos,Central Warehouse - ENXI,,22749
+STE-DEMO-000161,Stock Entry,items,SPR-045,11,Nos,Spare Parts Warehouse - ENXI,Central Warehouse - ENXI,354525
+STE-DEMO-000162,Stock Entry,items,BIO-00138,21,Nos,PPE Store - ENXI,Central Warehouse - ENXI,477485
+STE-DEMO-000163,Stock Entry,items,BIO-00389,12,Nos,Cleaning Supplies Store - ENXI,Central Warehouse - ENXI,126432
+STE-DEMO-000164,Stock Entry,items,BIO-00394,6,Nos,Central Warehouse - ENXI,,85938
+STE-DEMO-000165,Stock Entry,items,BIO-00095,24,Nos,Central Warehouse - ENXI,,451040
+STE-DEMO-000166,Stock Entry,items,BIO-00153,19,Nos,,Central Warehouse - ENXI,233097
+STE-DEMO-000167,Stock Entry,items,BIO-00236,18,Nos,Central Warehouse - ENXI,,243229
+STE-DEMO-000168,Stock Entry,items,BIO-00234,15,Nos,Central Warehouse - ENXI,,341262
+STE-DEMO-000169,Stock Entry,items,BIO-00160,10,Nos,,Central Warehouse - ENXI,85829
+STE-DEMO-000170,Stock Entry,items,BIO-00223,21,Nos,PPE Store - ENXI,Central Warehouse - ENXI,491179
+STE-DEMO-000171,Stock Entry,items,BIO-00250,22,Nos,Central Warehouse - ENXI,,386627
+STE-DEMO-000172,Stock Entry,items,BIO-00247,17,Nos,Central Warehouse - ENXI,,41792
+STE-DEMO-000173,Stock Entry,items,BIO-00386,3,Nos,Central Warehouse - ENXI,,384588
+STE-DEMO-000174,Stock Entry,items,BIO-00067,5,Nos,Central Warehouse - ENXI,,154511
+STE-DEMO-000175,Stock Entry,items,BIO-00280,25,Nos,Central Warehouse - ENXI,,5059
+STE-DEMO-000176,Stock Entry,items,BIO-00212,20,Nos,Central Warehouse - ENXI,,335833
+STE-DEMO-000177,Stock Entry,items,BIO-00077,4,Nos,Central Warehouse - ENXI,,59166
+STE-DEMO-000178,Stock Entry,items,BIO-00258,10,Nos,Cleaning Supplies Store - ENXI,Central Warehouse - ENXI,375830
+STE-DEMO-000179,Stock Entry,items,PPE-025,9,Nos,Central Warehouse - ENXI,,134510
+STE-DEMO-000180,Stock Entry,items,SPR-047,27,Nos,Cleaning Supplies Store - ENXI,Central Warehouse - ENXI,28849
+STE-DEMO-000181,Stock Entry,items,BIO-00236,6,Nos,Central Warehouse - ENXI,,366484
+STE-DEMO-000182,Stock Entry,items,BIO-00364,3,Nos,Central Warehouse - ENXI,,383960
+STE-DEMO-000183,Stock Entry,items,BIO-00303,6,Nos,Central Warehouse - ENXI,,16330
+STE-DEMO-000184,Stock Entry,items,BIO-00303,20,Nos,Central Warehouse - ENXI,,109252
+STE-DEMO-000185,Stock Entry,items,BIO-00377,14,Nos,Central Warehouse - ENXI,,151804
+STE-DEMO-000186,Stock Entry,items,BIO-00147,3,Nos,Central Warehouse - ENXI,,68405
+STE-DEMO-000187,Stock Entry,items,SPR-042,15,Nos,Central Warehouse - ENXI,,21224
+STE-DEMO-000188,Stock Entry,items,BIO-00362,7,Nos,Central Warehouse - ENXI,,39542
+STE-DEMO-000189,Stock Entry,items,BIO-00421,12,Nos,Central Warehouse - ENXI,,194432
+STE-DEMO-000190,Stock Entry,items,BIO-00123,3,Nos,Central Warehouse - ENXI,,191267
+STE-DEMO-000191,Stock Entry,items,BIO-00274,15,Nos,Spare Parts Warehouse - ENXI,Central Warehouse - ENXI,288366
+STE-DEMO-000192,Stock Entry,items,BIO-00210,14,Nos,Central Warehouse - ENXI,,8284
+STE-DEMO-000193,Stock Entry,items,BIO-00239,26,Nos,,Central Warehouse - ENXI,187750
+STE-DEMO-000194,Stock Entry,items,BIO-00148,4,Nos,Central Warehouse - ENXI,,139072
+STE-DEMO-000195,Stock Entry,items,BIO-00128,12,Nos,PPE Store - ENXI,Central Warehouse - ENXI,491580
+STE-DEMO-000196,Stock Entry,items,BIO-00218,1,Nos,Central Warehouse - ENXI,,297370
+STE-DEMO-000197,Stock Entry,items,BIO-00073,9,Nos,Central Warehouse - ENXI,,377360
+STE-DEMO-000198,Stock Entry,items,BIO-00246,16,Nos,Central Warehouse - ENXI,,27332
+STE-DEMO-000199,Stock Entry,items,SPR-045,11,Nos,Central Warehouse - ENXI,,408325
+STE-DEMO-000200,Stock Entry,items,BIO-00288,13,Nos,Central Warehouse - ENXI,,60418
+STE-DEMO-000201,Stock Entry,items,BIO-00183,4,Nos,Central Warehouse - ENXI,,61794
+STE-DEMO-000202,Stock Entry,items,BIO-00375,14,Nos,Central Warehouse - ENXI,,91513
+STE-DEMO-000203,Stock Entry,items,BIO-00445,4,Nos,,Central Warehouse - ENXI,134446
+STE-DEMO-000204,Stock Entry,items,BIO-00396,12,Nos,Central Warehouse - ENXI,,323338
+STE-DEMO-000205,Stock Entry,items,BIO-00146,4,Nos,Central Warehouse - ENXI,,18949
+STE-DEMO-000206,Stock Entry,items,BIO-00065,21,Nos,,Central Warehouse - ENXI,449518
+STE-DEMO-000207,Stock Entry,items,BIO-00178,1,Nos,,Central Warehouse - ENXI,331447
+STE-DEMO-000208,Stock Entry,items,BIO-00369,28,Nos,Central Warehouse - ENXI,,261771
+STE-DEMO-000209,Stock Entry,items,BIO-00174,12,Nos,Central Warehouse - ENXI,,113158
+STE-DEMO-000210,Stock Entry,items,BIO-00446,23,Nos,Central Warehouse - ENXI,,19091
+STE-DEMO-000211,Stock Entry,items,BIO-00114,16,Nos,,Central Warehouse - ENXI,470323
+STE-DEMO-000212,Stock Entry,items,BIO-00107,5,Nos,Central Warehouse - ENXI,,3815
+STE-DEMO-000213,Stock Entry,items,BIO-00086,11,Nos,,Central Warehouse - ENXI,384850
+STE-DEMO-000214,Stock Entry,items,BIO-00291,21,Nos,Central Warehouse - ENXI,,160727
+STE-DEMO-000215,Stock Entry,items,BIO-00428,24,Nos,Central Warehouse - ENXI,,392165
+STE-DEMO-000216,Stock Entry,items,BIO-00165,30,Nos,Central Warehouse - ENXI,,10686
+STE-DEMO-000217,Stock Entry,items,BIO-00276,14,Nos,PPE Store - ENXI,Central Warehouse - ENXI,377273
+STE-DEMO-000218,Stock Entry,items,BIO-00231,22,Nos,PPE Store - ENXI,Central Warehouse - ENXI,311092
+STE-DEMO-000219,Stock Entry,items,BIO-00404,8,Nos,Central Warehouse - ENXI,,426218
+STE-DEMO-000220,Stock Entry,items,BIO-00220,2,Nos,Central Warehouse - ENXI,,52175
+STE-DEMO-000221,Stock Entry,items,BIO-00310,24,Nos,Central Warehouse - ENXI,,343549
+STE-DEMO-000222,Stock Entry,items,BIO-00306,8,Nos,PPE Store - ENXI,Central Warehouse - ENXI,410266
+STE-DEMO-000223,Stock Entry,items,BIO-00062,25,Nos,Spare Parts Warehouse - ENXI,Central Warehouse - ENXI,369917
+STE-DEMO-000224,Stock Entry,items,PPE-025,26,Nos,Central Warehouse - ENXI,,312194
+STE-DEMO-000225,Stock Entry,items,BIO-00361,17,Nos,PPE Store - ENXI,Central Warehouse - ENXI,60107
+STE-DEMO-000226,Stock Entry,items,BIO-00243,23,Nos,Cleaning Supplies Store - ENXI,Central Warehouse - ENXI,58184
+STE-DEMO-000227,Stock Entry,items,BIO-00350,23,Nos,Central Warehouse - ENXI,,443383
+STE-DEMO-000228,Stock Entry,items,BIO-00276,17,Nos,Central Warehouse - ENXI,,234800
+STE-DEMO-000229,Stock Entry,items,BIO-00387,3,Nos,Central Warehouse - ENXI,,176062
+STE-DEMO-000230,Stock Entry,items,BIO-00454,29,Nos,Cleaning Supplies Store - ENXI,Central Warehouse - ENXI,134886
+STE-DEMO-000231,Stock Entry,items,BIO-00421,12,Nos,Central Warehouse - ENXI,,138972
+STE-DEMO-000232,Stock Entry,items,BIO-00164,23,Nos,Central Warehouse - ENXI,,173622
+STE-DEMO-000233,Stock Entry,items,BIO-00088,13,Nos,Central Warehouse - ENXI,,223742
+STE-DEMO-000234,Stock Entry,items,BIO-00342,6,Nos,Central Warehouse - ENXI,,251440
+STE-DEMO-000235,Stock Entry,items,BIO-00284,30,Nos,Central Warehouse - ENXI,,372356
+STE-DEMO-000236,Stock Entry,items,BIO-00332,20,Nos,,Central Warehouse - ENXI,448063
+STE-DEMO-000237,Stock Entry,items,BIO-00442,14,Nos,,Central Warehouse - ENXI,469036
+STE-DEMO-000238,Stock Entry,items,BIO-00292,3,Nos,Central Warehouse - ENXI,,460905
+STE-DEMO-000239,Stock Entry,items,CLN-031,11,Nos,Central Warehouse - ENXI,,36936
+STE-DEMO-000240,Stock Entry,items,BIO-00301,21,Nos,Central Warehouse - ENXI,,382715
+STE-DEMO-000241,Stock Entry,items,BIO-00369,29,Nos,Central Warehouse - ENXI,,245738
+STE-DEMO-000242,Stock Entry,items,BIO-00431,9,Nos,Central Warehouse - ENXI,,99303
+STE-DEMO-000243,Stock Entry,items,BIO-00388,14,Nos,Central Warehouse - ENXI,,258521
+STE-DEMO-000244,Stock Entry,items,BIO-00266,20,Nos,,Central Warehouse - ENXI,271075
+STE-DEMO-000245,Stock Entry,items,BIO-00351,13,Nos,Central Warehouse - ENXI,,239021
+STE-DEMO-000246,Stock Entry,items,BIO-00271,3,Nos,,Central Warehouse - ENXI,6267
+STE-DEMO-000247,Stock Entry,items,CNT-013,17,Nos,,Central Warehouse - ENXI,362569
+STE-DEMO-000248,Stock Entry,items,BIO-00140,2,Nos,Central Warehouse - ENXI,,264083
+STE-DEMO-000249,Stock Entry,items,BIO-00417,8,Nos,Spare Parts Warehouse - ENXI,Central Warehouse - ENXI,332102
+STE-DEMO-000250,Stock Entry,items,BIO-00378,23,Nos,Central Warehouse - ENXI,,451736
+STE-DEMO-000251,Stock Entry,items,BIO-00109,24,Nos,Central Warehouse - ENXI,,399693
+STE-DEMO-000252,Stock Entry,items,BIO-00193,15,Nos,Central Warehouse - ENXI,,302364
+STE-DEMO-000253,Stock Entry,items,SPR-040,18,Nos,Central Warehouse - ENXI,,94724
+STE-DEMO-000254,Stock Entry,items,BIO-00417,14,Nos,Central Warehouse - ENXI,,202231
+STE-DEMO-000255,Stock Entry,items,BIO-00436,23,Nos,Central Warehouse - ENXI,,203296
+STE-DEMO-000256,Stock Entry,items,CNT-020,3,Nos,Central Warehouse - ENXI,,234146
+STE-DEMO-000257,Stock Entry,items,BIO-00313,26,Nos,Central Warehouse - ENXI,,170799
+STE-DEMO-000258,Stock Entry,items,BIO-00359,5,Nos,Central Warehouse - ENXI,,200140
+STE-DEMO-000259,Stock Entry,items,SPR-041,29,Nos,,Central Warehouse - ENXI,357753
+STE-DEMO-000260,Stock Entry,items,BIO-00454,14,Nos,Cleaning Supplies Store - ENXI,Central Warehouse - ENXI,498853
+STE-DEMO-000261,Stock Entry,items,BIO-00409,4,Nos,,Central Warehouse - ENXI,46041
+STE-DEMO-000262,Stock Entry,items,BIO-00295,9,Nos,Central Warehouse - ENXI,,1062
+STE-DEMO-000263,Stock Entry,items,BIO-00331,1,Nos,Central Warehouse - ENXI,,389370
+STE-DEMO-000264,Stock Entry,items,BIO-00104,22,Nos,Cleaning Supplies Store - ENXI,Central Warehouse - ENXI,343714
+STE-DEMO-000265,Stock Entry,items,BIO-00212,29,Nos,,Central Warehouse - ENXI,253644
+STE-DEMO-000266,Stock Entry,items,BIO-00399,14,Nos,Central Warehouse - ENXI,,11020
+STE-DEMO-000267,Stock Entry,items,BIO-00225,8,Nos,PPE Store - ENXI,Central Warehouse - ENXI,465760
+STE-DEMO-000268,Stock Entry,items,BIO-00429,19,Nos,Central Warehouse - ENXI,,312427
+STE-DEMO-000269,Stock Entry,items,CLN-034,13,Nos,Central Warehouse - ENXI,,205219
+STE-DEMO-000270,Stock Entry,items,BIO-00341,16,Nos,,Central Warehouse - ENXI,224704
+STE-DEMO-000271,Stock Entry,items,BIO-00417,23,Nos,Central Warehouse - ENXI,,178651
+STE-DEMO-000272,Stock Entry,items,PPE-022,17,Pair,Central Warehouse - ENXI,,338675
+STE-DEMO-000273,Stock Entry,items,BIO-00344,2,Nos,Central Warehouse - ENXI,,178331
+STE-DEMO-000274,Stock Entry,items,BIO-00359,20,Nos,Central Warehouse - ENXI,,28165
+STE-DEMO-000275,Stock Entry,items,BIO-00123,2,Nos,Cleaning Supplies Store - ENXI,Central Warehouse - ENXI,218350
+STE-DEMO-000276,Stock Entry,items,BIO-00107,12,Nos,Cleaning Supplies Store - ENXI,Central Warehouse - ENXI,25342
+STE-DEMO-000277,Stock Entry,items,BIO-00401,17,Nos,PPE Store - ENXI,Central Warehouse - ENXI,435071
+STE-DEMO-000278,Stock Entry,items,BIO-00201,29,Nos,Central Warehouse - ENXI,,226210
+STE-DEMO-000279,Stock Entry,items,BIO-00171,26,Nos,Central Warehouse - ENXI,,41006
+STE-DEMO-000280,Stock Entry,items,BIO-00305,24,Nos,PPE Store - ENXI,Central Warehouse - ENXI,151154
+STE-DEMO-000281,Stock Entry,items,BIO-00145,7,Nos,Central Warehouse - ENXI,,219237
+STE-DEMO-000282,Stock Entry,items,BIO-00212,2,Nos,Central Warehouse - ENXI,,195131
+STE-DEMO-000283,Stock Entry,items,BIO-00369,6,Nos,Central Warehouse - ENXI,,312794
+STE-DEMO-000284,Stock Entry,items,BIO-00324,2,Nos,Spare Parts Warehouse - ENXI,Central Warehouse - ENXI,231000
+STE-DEMO-000285,Stock Entry,items,BIO-00309,4,Nos,Central Warehouse - ENXI,,399876
+STE-DEMO-000286,Stock Entry,items,BIO-00068,24,Nos,Spare Parts Warehouse - ENXI,Central Warehouse - ENXI,471144
+STE-DEMO-000287,Stock Entry,items,BIO-00286,7,Nos,Spare Parts Warehouse - ENXI,Central Warehouse - ENXI,216760
+STE-DEMO-000288,Stock Entry,items,BIO-00146,20,Nos,PPE Store - ENXI,Central Warehouse - ENXI,7722
+STE-DEMO-000289,Stock Entry,items,BIO-00440,3,Nos,Central Warehouse - ENXI,,236086
+STE-DEMO-000290,Stock Entry,items,BIO-00154,19,Nos,,Central Warehouse - ENXI,437206
+STE-DEMO-000291,Stock Entry,items,BIO-00072,25,Nos,Central Warehouse - ENXI,,250933
+STE-DEMO-000292,Stock Entry,items,BIO-00236,11,Nos,,Central Warehouse - ENXI,194894
+STE-DEMO-000293,Stock Entry,items,BIO-00366,22,Nos,Central Warehouse - ENXI,,414498
+STE-DEMO-000294,Stock Entry,items,BIO-00154,7,Nos,Central Warehouse - ENXI,,433119
+STE-DEMO-000295,Stock Entry,items,BIO-00185,21,Nos,,Central Warehouse - ENXI,456749
+STE-DEMO-000296,Stock Entry,items,BIO-00389,28,Nos,Central Warehouse - ENXI,,55363
+STE-DEMO-000297,Stock Entry,items,BIO-00431,15,Nos,Central Warehouse - ENXI,,186015
+STE-DEMO-000298,Stock Entry,items,BIO-00102,20,Nos,Central Warehouse - ENXI,,169147
+STE-DEMO-000299,Stock Entry,items,BIO-00378,18,Nos,Central Warehouse - ENXI,,130113
+STE-DEMO-000300,Stock Entry,items,BIO-00213,2,Nos,PPE Store - ENXI,Central Warehouse - ENXI,475830
+STE-DEMO-000301,Stock Entry,items,SPR-042,7,Nos,Spare Parts Warehouse - ENXI,Central Warehouse - ENXI,222760
+STE-DEMO-000302,Stock Entry,items,BIO-00296,14,Nos,Central Warehouse - ENXI,,231989
+STE-DEMO-000303,Stock Entry,items,BIO-00214,16,Nos,Central Warehouse - ENXI,,499068
+STE-DEMO-000304,Stock Entry,items,BIO-00448,7,Nos,Central Warehouse - ENXI,,404961
+STE-DEMO-000305,Stock Entry,items,SPR-050,29,Nos,Central Warehouse - ENXI,,165601
+STE-DEMO-000306,Stock Entry,items,BIO-00144,22,Nos,Central Warehouse - ENXI,,366531
+STE-DEMO-000307,Stock Entry,items,BIO-00157,7,Nos,,Central Warehouse - ENXI,313963
+STE-DEMO-000308,Stock Entry,items,BIO-00266,1,Nos,Central Warehouse - ENXI,,271844
+STE-DEMO-000309,Stock Entry,items,BIO-00099,2,Nos,Central Warehouse - ENXI,,240425
+STE-DEMO-000310,Stock Entry,items,CLN-034,25,Nos,Cleaning Supplies Store - ENXI,Central Warehouse - ENXI,433502
+STE-DEMO-000311,Stock Entry,items,BIO-00118,16,Nos,Central Warehouse - ENXI,,283196
+STE-DEMO-000312,Stock Entry,items,BIO-00450,1,Nos,Central Warehouse - ENXI,,60847
+STE-DEMO-000313,Stock Entry,items,BIO-00139,21,Nos,Central Warehouse - ENXI,,75334
+STE-DEMO-000314,Stock Entry,items,BIO-00269,5,Nos,Central Warehouse - ENXI,,444311
+STE-DEMO-000315,Stock Entry,items,BIO-00143,30,Nos,Central Warehouse - ENXI,,50970
+STE-DEMO-000316,Stock Entry,items,CNT-016,20,Nos,,Central Warehouse - ENXI,359525
+STE-DEMO-000317,Stock Entry,items,PPE-024,19,Nos,Spare Parts Warehouse - ENXI,Central Warehouse - ENXI,243489
+STE-DEMO-000318,Stock Entry,items,BIO-00372,17,Nos,,Central Warehouse - ENXI,280572
+STE-DEMO-000319,Stock Entry,items,BIO-00070,29,Nos,Central Warehouse - ENXI,,210203
+STE-DEMO-000320,Stock Entry,items,FUEL-055,19,Nos,,Central Warehouse - ENXI,9886
+STE-DEMO-000321,Stock Entry,items,BIO-00214,9,Nos,,Central Warehouse - ENXI,164003
+STE-DEMO-000322,Stock Entry,items,BIO-00318,2,Nos,Central Warehouse - ENXI,,147365
+STE-DEMO-000323,Stock Entry,items,BIO-00413,19,Nos,Central Warehouse - ENXI,,151682
+STE-DEMO-000324,Stock Entry,items,BIO-00379,3,Nos,,Central Warehouse - ENXI,227830
+STE-DEMO-000325,Stock Entry,items,BIO-00076,23,Nos,Central Warehouse - ENXI,,88753
+STE-DEMO-000326,Stock Entry,items,BIO-00365,27,Nos,,Central Warehouse - ENXI,462383
+STE-DEMO-000327,Stock Entry,items,BIO-00079,14,Nos,,Central Warehouse - ENXI,55069
+STE-DEMO-000328,Stock Entry,items,BIO-00186,9,Nos,Central Warehouse - ENXI,,409418
+STE-DEMO-000329,Stock Entry,items,BIO-00098,24,Nos,Central Warehouse - ENXI,,200249
+STE-DEMO-000330,Stock Entry,items,BIO-00393,28,Nos,Central Warehouse - ENXI,,94613
+STE-DEMO-000331,Stock Entry,items,BIO-00344,10,Nos,Spare Parts Warehouse - ENXI,Central Warehouse - ENXI,446592
+STE-DEMO-000332,Stock Entry,items,BIO-00381,11,Nos,Central Warehouse - ENXI,,306764
+STE-DEMO-000333,Stock Entry,items,BIO-00058,23,Nos,Central Warehouse - ENXI,,278283
+STE-DEMO-000334,Stock Entry,items,BIO-00174,13,Nos,Cleaning Supplies Store - ENXI,Central Warehouse - ENXI,283802
+STE-DEMO-000335,Stock Entry,items,BIO-00140,28,Nos,,Central Warehouse - ENXI,327754
+STE-DEMO-000336,Stock Entry,items,BIO-00123,28,Nos,Cleaning Supplies Store - ENXI,Central Warehouse - ENXI,100850
+STE-DEMO-000337,Stock Entry,items,BIO-00242,9,Nos,PPE Store - ENXI,Central Warehouse - ENXI,184894
+STE-DEMO-000338,Stock Entry,items,SPR-044,18,Nos,PPE Store - ENXI,Central Warehouse - ENXI,22560
+STE-DEMO-000339,Stock Entry,items,BIO-00289,10,Nos,Central Warehouse - ENXI,,291944
+STE-DEMO-000340,Stock Entry,items,BIO-00222,3,Nos,,Central Warehouse - ENXI,411711
+STE-DEMO-000341,Stock Entry,items,BIO-00167,9,Nos,Central Warehouse - ENXI,,117565
+STE-DEMO-000342,Stock Entry,items,BIO-00354,22,Nos,Central Warehouse - ENXI,,402984
+STE-DEMO-000343,Stock Entry,items,BIO-00130,13,Nos,,Central Warehouse - ENXI,404497
+STE-DEMO-000344,Stock Entry,items,BIO-00329,28,Nos,Central Warehouse - ENXI,,32672
+STE-DEMO-000345,Stock Entry,items,BIO-00180,15,Nos,PPE Store - ENXI,Central Warehouse - ENXI,178169
+STE-DEMO-000346,Stock Entry,items,BIO-00320,10,Nos,,Central Warehouse - ENXI,232348
+STE-DEMO-000347,Stock Entry,items,BIO-00397,7,Nos,,Central Warehouse - ENXI,55086
+STE-DEMO-000348,Stock Entry,items,BIO-00378,7,Nos,Spare Parts Warehouse - ENXI,Central Warehouse - ENXI,343044
+STE-DEMO-000349,Stock Entry,items,BIO-00375,19,Nos,Central Warehouse - ENXI,,8608
+STE-DEMO-000350,Stock Entry,items,BIO-00093,10,Nos,Central Warehouse - ENXI,,489091
+STE-DEMO-000351,Stock Entry,items,BIO-00096,21,Nos,Cleaning Supplies Store - ENXI,Central Warehouse - ENXI,255634
+STE-DEMO-000352,Stock Entry,items,BIO-00092,28,Nos,Central Warehouse - ENXI,,106453
+STE-DEMO-000353,Stock Entry,items,BIO-00216,24,Nos,Central Warehouse - ENXI,,498539
+STE-DEMO-000354,Stock Entry,items,BIO-00174,3,Nos,Central Warehouse - ENXI,,414121
+STE-DEMO-000355,Stock Entry,items,BIO-00069,25,Nos,Central Warehouse - ENXI,,427104
+STE-DEMO-000356,Stock Entry,items,BIO-00263,13,Nos,,Central Warehouse - ENXI,385629
+STE-DEMO-000357,Stock Entry,items,BIO-00432,17,Nos,Central Warehouse - ENXI,,488511
+STE-DEMO-000358,Stock Entry,items,BIO-00221,2,Nos,PPE Store - ENXI,Central Warehouse - ENXI,46664
+STE-DEMO-000359,Stock Entry,items,BIO-00230,28,Nos,,Central Warehouse - ENXI,166578
+STE-DEMO-000360,Stock Entry,items,BIO-00330,15,Nos,Cleaning Supplies Store - ENXI,Central Warehouse - ENXI,263412
+STE-DEMO-000361,Stock Entry,items,BIO-00373,10,Nos,Central Warehouse - ENXI,,68061
+STE-DEMO-000362,Stock Entry,items,BIO-00445,14,Nos,Central Warehouse - ENXI,,189223
+STE-DEMO-000363,Stock Entry,items,BIO-00078,25,Nos,PPE Store - ENXI,Central Warehouse - ENXI,302522
+STE-DEMO-000364,Stock Entry,items,BIO-00430,11,Nos,Cleaning Supplies Store - ENXI,Central Warehouse - ENXI,131556
+STE-DEMO-000365,Stock Entry,items,BIO-00333,22,Nos,Central Warehouse - ENXI,,157771
+STE-DEMO-000366,Stock Entry,items,BIO-00332,11,Nos,Central Warehouse - ENXI,,9512
+STE-DEMO-000367,Stock Entry,items,BIO-00306,18,Nos,Central Warehouse - ENXI,,209601
+STE-DEMO-000368,Stock Entry,items,BIO-00281,29,Nos,Central Warehouse - ENXI,,474766
+STE-DEMO-000369,Stock Entry,items,BIO-00394,9,Nos,Central Warehouse - ENXI,,197862
+STE-DEMO-000370,Stock Entry,items,BIO-00320,25,Nos,,Central Warehouse - ENXI,12082
+STE-DEMO-000371,Stock Entry,items,BIO-00073,9,Nos,Cleaning Supplies Store - ENXI,Central Warehouse - ENXI,154452
+STE-DEMO-000372,Stock Entry,items,BIO-00212,2,Nos,Cleaning Supplies Store - ENXI,Central Warehouse - ENXI,72261
+STE-DEMO-000373,Stock Entry,items,BIO-00418,11,Nos,,Central Warehouse - ENXI,118232
+STE-DEMO-000374,Stock Entry,items,BIO-00363,18,Nos,Central Warehouse - ENXI,,372274
+STE-DEMO-000375,Stock Entry,items,BIO-00455,3,Nos,Central Warehouse - ENXI,,180845
+STE-DEMO-000376,Stock Entry,items,PPE-023,16,Nos,Central Warehouse - ENXI,,8931
+STE-DEMO-000377,Stock Entry,items,BIO-00319,26,Nos,,Central Warehouse - ENXI,54938
+STE-DEMO-000378,Stock Entry,items,CLN-033,26,Nos,Cleaning Supplies Store - ENXI,Central Warehouse - ENXI,153023
+STE-DEMO-000379,Stock Entry,items,BIO-00368,16,Nos,Spare Parts Warehouse - ENXI,Central Warehouse - ENXI,270934
+STE-DEMO-000380,Stock Entry,items,SPR-050,12,Nos,Central Warehouse - ENXI,,32766
+STE-DEMO-000381,Stock Entry,items,BIO-00375,25,Nos,PPE Store - ENXI,Central Warehouse - ENXI,334316
+STE-DEMO-000382,Stock Entry,items,BIO-00153,26,Nos,Central Warehouse - ENXI,,167305
+STE-DEMO-000383,Stock Entry,items,BIO-00103,20,Nos,Central Warehouse - ENXI,,276926
+STE-DEMO-000384,Stock Entry,items,BIO-00320,21,Nos,Central Warehouse - ENXI,,390200
+STE-DEMO-000385,Stock Entry,items,BIO-00189,9,Nos,Central Warehouse - ENXI,,395288
+STE-DEMO-000386,Stock Entry,items,BIO-00272,7,Nos,Central Warehouse - ENXI,,104691
+STE-DEMO-000387,Stock Entry,items,BIO-00298,17,Nos,,Central Warehouse - ENXI,56849
+STE-DEMO-000388,Stock Entry,items,BIO-00345,16,Nos,Central Warehouse - ENXI,,394864
+STE-DEMO-000389,Stock Entry,items,BIO-00086,29,Nos,Central Warehouse - ENXI,,183731
+STE-DEMO-000390,Stock Entry,items,BIO-00246,26,Nos,Central Warehouse - ENXI,,479860
+STE-DEMO-000391,Stock Entry,items,BIO-00125,17,Nos,Central Warehouse - ENXI,,442782
+STE-DEMO-000392,Stock Entry,items,CLN-035,27,Nos,Central Warehouse - ENXI,,105057
+STE-DEMO-000393,Stock Entry,items,BIO-00194,27,Nos,PPE Store - ENXI,Central Warehouse - ENXI,353212
+STE-DEMO-000394,Stock Entry,items,BIO-00238,17,Nos,Central Warehouse - ENXI,,224492
+STE-DEMO-000395,Stock Entry,items,BIO-00240,28,Nos,,Central Warehouse - ENXI,174757
+STE-DEMO-000396,Stock Entry,items,CNT-012,2,Nos,Central Warehouse - ENXI,,407729
+STE-DEMO-000397,Stock Entry,items,BIO-00109,24,Nos,Central Warehouse - ENXI,,167282
+STE-DEMO-000398,Stock Entry,items,BIO-00419,30,Nos,,Central Warehouse - ENXI,445999
+STE-DEMO-000399,Stock Entry,items,BIO-00377,2,Nos,,Central Warehouse - ENXI,342198
+STE-DEMO-000400,Stock Entry,items,BIO-00212,28,Nos,Central Warehouse - ENXI,,237356
+STE-DEMO-000401,Stock Entry,items,BIO-00123,13,Nos,Central Warehouse - ENXI,,35831
+STE-DEMO-000402,Stock Entry,items,BIO-00104,9,Nos,Central Warehouse - ENXI,,247539
+STE-DEMO-000403,Stock Entry,items,FUEL-055,12,Nos,Central Warehouse - ENXI,,401008
+STE-DEMO-000404,Stock Entry,items,BIO-00437,14,Nos,Central Warehouse - ENXI,,385333
+STE-DEMO-000405,Stock Entry,items,BIO-00088,20,Nos,Central Warehouse - ENXI,,165868
+STE-DEMO-000406,Stock Entry,items,BIO-00224,23,Nos,,Central Warehouse - ENXI,33958
+STE-DEMO-000407,Stock Entry,items,BIO-00272,29,Nos,Central Warehouse - ENXI,,403557
+STE-DEMO-000408,Stock Entry,items,BIO-00370,9,Nos,Central Warehouse - ENXI,,342341
+STE-DEMO-000409,Stock Entry,items,BIO-00225,10,Nos,Central Warehouse - ENXI,,286291
+STE-DEMO-000410,Stock Entry,items,SPR-050,15,Nos,Central Warehouse - ENXI,,276758
+STE-DEMO-000411,Stock Entry,items,BIO-00368,15,Nos,Central Warehouse - ENXI,,357339
+STE-DEMO-000412,Stock Entry,items,BIO-00393,16,Nos,Central Warehouse - ENXI,,248750
+STE-DEMO-000413,Stock Entry,items,SPR-042,25,Nos,Central Warehouse - ENXI,,203006
+STE-DEMO-000414,Stock Entry,items,BIO-00145,28,Nos,Central Warehouse - ENXI,,478566
+STE-DEMO-000415,Stock Entry,items,PPE-027,3,Nos,,Central Warehouse - ENXI,258464
+STE-DEMO-000416,Stock Entry,items,BIO-00404,3,Nos,Central Warehouse - ENXI,,312395
+STE-DEMO-000417,Stock Entry,items,BIO-00168,1,Nos,,Central Warehouse - ENXI,471091
+STE-DEMO-000418,Stock Entry,items,SPR-043,27,Nos,Central Warehouse - ENXI,,382096
+STE-DEMO-000419,Stock Entry,items,BIO-00091,11,Nos,Cleaning Supplies Store - ENXI,Central Warehouse - ENXI,216373
+STE-DEMO-000420,Stock Entry,items,BIO-00416,7,Nos,Cleaning Supplies Store - ENXI,Central Warehouse - ENXI,474641
+STE-DEMO-000421,Stock Entry,items,BIO-00319,21,Nos,Central Warehouse - ENXI,,482976
+STE-DEMO-000422,Stock Entry,items,BIO-00436,5,Nos,,Central Warehouse - ENXI,234089
+STE-DEMO-000423,Stock Entry,items,BIO-00139,21,Nos,Cleaning Supplies Store - ENXI,Central Warehouse - ENXI,423388
+STE-DEMO-000424,Stock Entry,items,BIO-00256,16,Nos,,Central Warehouse - ENXI,200701
+STE-DEMO-000425,Stock Entry,items,BIO-00145,1,Nos,Central Warehouse - ENXI,,70489
+STE-DEMO-000426,Stock Entry,items,BIO-00164,16,Nos,Central Warehouse - ENXI,,399658
+STE-DEMO-000427,Stock Entry,items,BIO-00156,12,Nos,Central Warehouse - ENXI,,60220
+STE-DEMO-000428,Stock Entry,items,BIO-00243,9,Nos,Central Warehouse - ENXI,,345544
+STE-DEMO-000429,Stock Entry,items,BIO-00411,5,Nos,Central Warehouse - ENXI,,278965
+STE-DEMO-000430,Stock Entry,items,BIO-00226,27,Nos,Central Warehouse - ENXI,,186887
+STE-DEMO-000431,Stock Entry,items,BIO-00187,6,Nos,,Central Warehouse - ENXI,299080
+STE-DEMO-000432,Stock Entry,items,BIO-00353,13,Nos,Central Warehouse - ENXI,,251165
+STE-DEMO-000433,Stock Entry,items,BIO-00210,6,Nos,Central Warehouse - ENXI,,238371
+STE-DEMO-000434,Stock Entry,items,BIO-00401,9,Nos,Central Warehouse - ENXI,,179008
+STE-DEMO-000435,Stock Entry,items,CNT-019,8,Nos,Central Warehouse - ENXI,,408662
+STE-DEMO-000436,Stock Entry,items,BIO-00311,21,Nos,Central Warehouse - ENXI,,267674
+STE-DEMO-000437,Stock Entry,items,BIO-00138,20,Nos,Spare Parts Warehouse - ENXI,Central Warehouse - ENXI,235574
+STE-DEMO-000438,Stock Entry,items,BIO-00195,11,Nos,Spare Parts Warehouse - ENXI,Central Warehouse - ENXI,124384
+STE-DEMO-000439,Stock Entry,items,BIO-00333,6,Nos,Central Warehouse - ENXI,,95202
+STE-DEMO-000440,Stock Entry,items,BIO-00450,19,Nos,Central Warehouse - ENXI,,137565
+STE-DEMO-000441,Stock Entry,items,PPE-029,11,Nos,,Central Warehouse - ENXI,134962
+STE-DEMO-000442,Stock Entry,items,BIO-00265,28,Nos,Central Warehouse - ENXI,,208719
+STE-DEMO-000443,Stock Entry,items,BIO-00270,29,Nos,Central Warehouse - ENXI,,371764
+STE-DEMO-000444,Stock Entry,items,BIO-00324,22,Nos,Central Warehouse - ENXI,,402426
+STE-DEMO-000445,Stock Entry,items,SPR-046,18,Nos,Central Warehouse - ENXI,,382172
+STE-DEMO-000446,Stock Entry,items,BIO-00209,25,Nos,,Central Warehouse - ENXI,362605
+STE-DEMO-000447,Stock Entry,items,BIO-00096,27,Nos,PPE Store - ENXI,Central Warehouse - ENXI,234176
+STE-DEMO-000448,Stock Entry,items,BIO-00451,8,Nos,Central Warehouse - ENXI,,268343
+STE-DEMO-000449,Stock Entry,items,BIO-00181,29,Nos,PPE Store - ENXI,Central Warehouse - ENXI,379099
+STE-DEMO-000450,Stock Entry,items,BIO-00242,3,Nos,Spare Parts Warehouse - ENXI,Central Warehouse - ENXI,446520
+STE-DEMO-000451,Stock Entry,items,BIO-00131,9,Nos,Cleaning Supplies Store - ENXI,Central Warehouse - ENXI,341741
+STE-DEMO-000452,Stock Entry,items,BIO-00127,1,Nos,Central Warehouse - ENXI,,69119
+STE-DEMO-000453,Stock Entry,items,BIO-00329,23,Nos,Spare Parts Warehouse - ENXI,Central Warehouse - ENXI,347411
+STE-DEMO-000454,Stock Entry,items,BIO-00293,11,Nos,Central Warehouse - ENXI,,163113
+STE-DEMO-000455,Stock Entry,items,BIO-00445,6,Nos,Central Warehouse - ENXI,,421268
+STE-DEMO-000456,Stock Entry,items,SPR-043,5,Nos,Central Warehouse - ENXI,,322789
+STE-DEMO-000457,Stock Entry,items,BIO-00431,29,Nos,Central Warehouse - ENXI,,281017
+STE-DEMO-000458,Stock Entry,items,BIO-00166,23,Nos,Central Warehouse - ENXI,,222661
+STE-DEMO-000459,Stock Entry,items,BIO-00280,13,Nos,Cleaning Supplies Store - ENXI,Central Warehouse - ENXI,368568
+STE-DEMO-000460,Stock Entry,items,BIO-00376,18,Nos,Cleaning Supplies Store - ENXI,Central Warehouse - ENXI,333789
+STE-DEMO-000461,Stock Entry,items,BIO-00288,23,Nos,Central Warehouse - ENXI,,236852
+STE-DEMO-000462,Stock Entry,items,BIO-00114,29,Nos,,Central Warehouse - ENXI,470566
+STE-DEMO-000463,Stock Entry,items,BIO-00348,6,Nos,Central Warehouse - ENXI,,255863
+STE-DEMO-000464,Stock Entry,items,BIO-00169,15,Nos,Central Warehouse - ENXI,,422365
+STE-DEMO-000465,Stock Entry,items,BIO-00065,4,Nos,,Central Warehouse - ENXI,184200
+STE-DEMO-000466,Stock Entry,items,BIO-00293,15,Nos,,Central Warehouse - ENXI,101664
+STE-DEMO-000467,Stock Entry,items,BIO-00412,18,Nos,,Central Warehouse - ENXI,44804
+STE-DEMO-000468,Stock Entry,items,BIO-00220,4,Nos,Central Warehouse - ENXI,,440023
+STE-DEMO-000469,Stock Entry,items,BIO-00092,3,Nos,,Central Warehouse - ENXI,388463
+STE-DEMO-000470,Stock Entry,items,BIO-00120,13,Nos,,Central Warehouse - ENXI,489049
+STE-DEMO-000471,Stock Entry,items,BIO-00444,3,Nos,,Central Warehouse - ENXI,123170
+STE-DEMO-000472,Stock Entry,items,BIO-00381,16,Nos,PPE Store - ENXI,Central Warehouse - ENXI,103740
+STE-DEMO-000473,Stock Entry,items,PPE-022,23,Pair,Central Warehouse - ENXI,,335643
+STE-DEMO-000474,Stock Entry,items,SPR-050,19,Nos,Central Warehouse - ENXI,,362398
+STE-DEMO-000475,Stock Entry,items,BIO-00215,14,Nos,Central Warehouse - ENXI,,217984
+STE-DEMO-000476,Stock Entry,items,BIO-00229,6,Nos,Central Warehouse - ENXI,,163104
+STE-DEMO-000477,Stock Entry,items,BIO-00328,24,Nos,,Central Warehouse - ENXI,286220
+STE-DEMO-000478,Stock Entry,items,BIO-00382,19,Nos,Cleaning Supplies Store - ENXI,Central Warehouse - ENXI,337342
+STE-DEMO-000479,Stock Entry,items,BIO-00257,29,Nos,,Central Warehouse - ENXI,483873
+STE-DEMO-000480,Stock Entry,items,BIO-00100,30,Nos,,Central Warehouse - ENXI,386364
+STE-DEMO-000481,Stock Entry,items,BIO-00269,5,Nos,Central Warehouse - ENXI,,94654
+STE-DEMO-000482,Stock Entry,items,BIO-00249,19,Nos,Central Warehouse - ENXI,,330066
+STE-DEMO-000483,Stock Entry,items,BIO-00076,9,Nos,Central Warehouse - ENXI,,259216
+STE-DEMO-000484,Stock Entry,items,BIO-00345,29,Nos,,Central Warehouse - ENXI,486946
+STE-DEMO-000485,Stock Entry,items,BIO-00228,15,Nos,Cleaning Supplies Store - ENXI,Central Warehouse - ENXI,22437
+STE-DEMO-000486,Stock Entry,items,BIO-00064,13,Nos,,Central Warehouse - ENXI,441704
+STE-DEMO-000487,Stock Entry,items,BIO-00059,21,Nos,,Central Warehouse - ENXI,140536
+STE-DEMO-000488,Stock Entry,items,BIO-00352,19,Nos,Spare Parts Warehouse - ENXI,Central Warehouse - ENXI,188580
+STE-DEMO-000489,Stock Entry,items,BIO-00084,11,Nos,Cleaning Supplies Store - ENXI,Central Warehouse - ENXI,239329
+STE-DEMO-000490,Stock Entry,items,BIO-00366,6,Nos,Central Warehouse - ENXI,,101010
+STE-DEMO-000491,Stock Entry,items,BIO-00089,20,Nos,Central Warehouse - ENXI,,263788
+STE-DEMO-000492,Stock Entry,items,PPE-025,26,Nos,Central Warehouse - ENXI,,325378
+STE-DEMO-000493,Stock Entry,items,BIO-00161,25,Nos,Central Warehouse - ENXI,,36995
+STE-DEMO-000494,Stock Entry,items,BIO-00409,15,Nos,Central Warehouse - ENXI,,125597
+STE-DEMO-000495,Stock Entry,items,BIO-00186,9,Nos,Central Warehouse - ENXI,,67611
+STE-DEMO-000496,Stock Entry,items,BIO-00256,27,Nos,Central Warehouse - ENXI,,457364
+STE-DEMO-000497,Stock Entry,items,SPR-045,12,Nos,Central Warehouse - ENXI,,459375
+STE-DEMO-000498,Stock Entry,items,BIO-00277,6,Nos,Central Warehouse - ENXI,,449774
+STE-DEMO-000499,Stock Entry,items,SPR-045,18,Nos,Central Warehouse - ENXI,,59588
+STE-DEMO-000500,Stock Entry,items,BIO-00182,3,Nos,PPE Store - ENXI,Central Warehouse - ENXI,233306
+STE-DEMO-000501,Stock Entry,items,CNT-012,15,Nos,PPE Store - ENXI,Central Warehouse - ENXI,431603
+STE-DEMO-000502,Stock Entry,items,BIO-00245,16,Nos,,Central Warehouse - ENXI,342643
+STE-DEMO-000503,Stock Entry,items,BIO-00353,20,Nos,,Central Warehouse - ENXI,103704
+STE-DEMO-000504,Stock Entry,items,BIO-00119,4,Nos,Central Warehouse - ENXI,,416144
+STE-DEMO-000505,Stock Entry,items,BIO-00454,10,Nos,,Central Warehouse - ENXI,164152
+STE-DEMO-000506,Stock Entry,items,BIO-00295,7,Nos,Central Warehouse - ENXI,,101473
+STE-DEMO-000507,Stock Entry,items,BIO-00163,6,Nos,,Central Warehouse - ENXI,183061
+STE-DEMO-000508,Stock Entry,items,CNT-016,28,Nos,Central Warehouse - ENXI,,117065
+STE-DEMO-000509,Stock Entry,items,BIO-00137,8,Nos,Central Warehouse - ENXI,,364247
+STE-DEMO-000510,Stock Entry,items,BIO-00429,24,Nos,Central Warehouse - ENXI,,46623
+STE-DEMO-000511,Stock Entry,items,BIO-00063,6,Nos,Central Warehouse - ENXI,,177041
+STE-DEMO-000512,Stock Entry,items,BIO-00369,13,Nos,Central Warehouse - ENXI,,236734
+STE-DEMO-000513,Stock Entry,items,BIO-00405,28,Nos,Central Warehouse - ENXI,,312551
+STE-DEMO-000514,Stock Entry,items,BIO-00161,19,Nos,Central Warehouse - ENXI,,308881
+STE-DEMO-000515,Stock Entry,items,BIO-00195,28,Nos,Spare Parts Warehouse - ENXI,Central Warehouse - ENXI,299485
+STE-DEMO-000516,Stock Entry,items,CLN-033,8,Nos,,Central Warehouse - ENXI,50160
+STE-DEMO-000517,Stock Entry,items,CNT-012,12,Nos,,Central Warehouse - ENXI,224907
+STE-DEMO-000518,Stock Entry,items,BIO-00348,24,Nos,Spare Parts Warehouse - ENXI,Central Warehouse - ENXI,66232
+STE-DEMO-000519,Stock Entry,items,BIO-00112,6,Nos,PPE Store - ENXI,Central Warehouse - ENXI,21754
+STE-DEMO-000520,Stock Entry,items,BIO-00422,30,Nos,Central Warehouse - ENXI,,113657
+STE-DEMO-000521,Stock Entry,items,BIO-00168,12,Nos,Central Warehouse - ENXI,,203808
+STE-DEMO-000522,Stock Entry,items,BIO-00414,13,Nos,Central Warehouse - ENXI,,458842
+STE-DEMO-000523,Stock Entry,items,BIO-00327,17,Nos,,Central Warehouse - ENXI,270531
+STE-DEMO-000524,Stock Entry,items,BIO-00235,17,Nos,Central Warehouse - ENXI,,227521
+STE-DEMO-000525,Stock Entry,items,BIO-00226,21,Nos,Central Warehouse - ENXI,,446746
+STE-DEMO-000526,Stock Entry,items,BIO-00354,10,Nos,Central Warehouse - ENXI,,377349
+STE-DEMO-000527,Stock Entry,items,BIO-00308,17,Nos,Central Warehouse - ENXI,,459663
+STE-DEMO-000528,Stock Entry,items,PPE-027,22,Nos,Central Warehouse - ENXI,,211910
+STE-DEMO-000529,Stock Entry,items,BIO-00396,5,Nos,Central Warehouse - ENXI,,411233
+STE-DEMO-000530,Stock Entry,items,BIO-00452,15,Nos,,Central Warehouse - ENXI,399370
+STE-DEMO-000531,Stock Entry,items,BIO-00301,5,Nos,Central Warehouse - ENXI,,332472
+STE-DEMO-000532,Stock Entry,items,BIO-00205,27,Nos,Central Warehouse - ENXI,,372287
+STE-DEMO-000533,Stock Entry,items,BIO-00152,5,Nos,Central Warehouse - ENXI,,455045
+STE-DEMO-000534,Stock Entry,items,BIO-00162,5,Nos,Cleaning Supplies Store - ENXI,Central Warehouse - ENXI,323156
+STE-DEMO-000535,Stock Entry,items,BIO-00399,3,Nos,Central Warehouse - ENXI,,47165
+STE-DEMO-000536,Stock Entry,items,BIO-00436,6,Nos,Spare Parts Warehouse - ENXI,Central Warehouse - ENXI,139847
+STE-DEMO-000537,Stock Entry,items,BIO-00120,21,Nos,Central Warehouse - ENXI,,399294
+STE-DEMO-000538,Stock Entry,items,CLN-037,14,Nos,Central Warehouse - ENXI,,315848
+STE-DEMO-000539,Stock Entry,items,BIO-00289,29,Nos,,Central Warehouse - ENXI,89058
+STE-DEMO-000540,Stock Entry,items,BIO-00306,19,Nos,Central Warehouse - ENXI,,387052
+STE-DEMO-000541,Stock Entry,items,BIO-00269,16,Nos,Central Warehouse - ENXI,,70659
+STE-DEMO-000542,Stock Entry,items,BIO-00060,5,Nos,Central Warehouse - ENXI,,488339
+STE-DEMO-000543,Stock Entry,items,BIO-00122,17,Nos,Central Warehouse - ENXI,,79380
+STE-DEMO-000544,Stock Entry,items,BIO-00326,17,Nos,Cleaning Supplies Store - ENXI,Central Warehouse - ENXI,100847
+STE-DEMO-000545,Stock Entry,items,BIO-00439,30,Nos,PPE Store - ENXI,Central Warehouse - ENXI,21663
+STE-DEMO-000546,Stock Entry,items,CNT-013,25,Nos,Central Warehouse - ENXI,,349623
+STE-DEMO-000547,Stock Entry,items,BIO-00330,12,Nos,Central Warehouse - ENXI,,493152
+STE-DEMO-000548,Stock Entry,items,BIO-00262,14,Nos,Central Warehouse - ENXI,,41422
+STE-DEMO-000549,Stock Entry,items,BIO-00298,25,Nos,,Central Warehouse - ENXI,32134
+STE-DEMO-000550,Stock Entry,items,BIO-00274,2,Nos,,Central Warehouse - ENXI,498284
+STE-DEMO-000551,Stock Entry,items,CLN-031,10,Nos,Central Warehouse - ENXI,,381563
+STE-DEMO-000552,Stock Entry,items,CNT-015,28,Nos,Central Warehouse - ENXI,,171500
+STE-DEMO-000553,Stock Entry,items,BIO-00227,17,Nos,Central Warehouse - ENXI,,9084
+STE-DEMO-000554,Stock Entry,items,BIO-00423,23,Nos,Central Warehouse - ENXI,,403267
+STE-DEMO-000555,Stock Entry,items,BIO-00072,27,Nos,Central Warehouse - ENXI,,455901
+STE-DEMO-000556,Stock Entry,items,BIO-00120,30,Nos,Central Warehouse - ENXI,,126159
+STE-DEMO-000557,Stock Entry,items,CNT-012,30,Nos,,Central Warehouse - ENXI,187751
+STE-DEMO-000558,Stock Entry,items,BIO-00146,7,Nos,,Central Warehouse - ENXI,97594
+STE-DEMO-000559,Stock Entry,items,BIO-00388,29,Nos,Central Warehouse - ENXI,,56677
+STE-DEMO-000560,Stock Entry,items,BIO-00188,9,Nos,Central Warehouse - ENXI,,301307
+STE-DEMO-000561,Stock Entry,items,BIO-00329,21,Nos,Central Warehouse - ENXI,,387723
+STE-DEMO-000562,Stock Entry,items,BIO-00078,19,Nos,Cleaning Supplies Store - ENXI,Central Warehouse - ENXI,43192
+STE-DEMO-000563,Stock Entry,items,BIO-00316,24,Nos,,Central Warehouse - ENXI,56698
+STE-DEMO-000564,Stock Entry,items,BIO-00206,27,Nos,Cleaning Supplies Store - ENXI,Central Warehouse - ENXI,464288
+STE-DEMO-000565,Stock Entry,items,BIO-00320,28,Nos,Central Warehouse - ENXI,,35044
+STE-DEMO-000566,Stock Entry,items,BIO-00206,10,Nos,Central Warehouse - ENXI,,34679
+STE-DEMO-000567,Stock Entry,items,BIO-00341,14,Nos,,Central Warehouse - ENXI,166396
+STE-DEMO-000568,Stock Entry,items,BIO-00077,1,Nos,Spare Parts Warehouse - ENXI,Central Warehouse - ENXI,476656
+STE-DEMO-000569,Stock Entry,items,BIO-00166,18,Nos,PPE Store - ENXI,Central Warehouse - ENXI,332849
+STE-DEMO-000570,Stock Entry,items,PPE-024,29,Nos,,Central Warehouse - ENXI,299055
+STE-DEMO-000571,Stock Entry,items,SPR-050,14,Nos,Central Warehouse - ENXI,,432474
+STE-DEMO-000572,Stock Entry,items,CNT-018,4,Nos,PPE Store - ENXI,Central Warehouse - ENXI,396730
+STE-DEMO-000573,Stock Entry,items,BIO-00433,22,Nos,Central Warehouse - ENXI,,113807
+STE-DEMO-000574,Stock Entry,items,PPE-021,20,Box,,Central Warehouse - ENXI,202051
+STE-DEMO-000575,Stock Entry,items,BIO-00119,20,Nos,Central Warehouse - ENXI,,157163
+STE-DEMO-000576,Stock Entry,items,BIO-00335,28,Nos,Central Warehouse - ENXI,,102756
+STE-DEMO-000577,Stock Entry,items,BIO-00323,16,Nos,Central Warehouse - ENXI,,109028
+STE-DEMO-000578,Stock Entry,items,SPR-042,1,Nos,Central Warehouse - ENXI,,445977
+STE-DEMO-000579,Stock Entry,items,BIO-00223,2,Nos,PPE Store - ENXI,Central Warehouse - ENXI,496134
+STE-DEMO-000580,Stock Entry,items,BIO-00112,11,Nos,Central Warehouse - ENXI,,105823
+STE-DEMO-000581,Stock Entry,items,BIO-00195,8,Nos,Central Warehouse - ENXI,,94082
+STE-DEMO-000582,Stock Entry,items,BIO-00233,24,Nos,Central Warehouse - ENXI,,90791
+STE-DEMO-000583,Stock Entry,items,BIO-00358,18,Nos,Central Warehouse - ENXI,,286875
+STE-DEMO-000584,Stock Entry,items,BIO-00343,23,Nos,Cleaning Supplies Store - ENXI,Central Warehouse - ENXI,430199
+STE-DEMO-000585,Stock Entry,items,BIO-00454,26,Nos,Central Warehouse - ENXI,,157712
+STE-DEMO-000586,Stock Entry,items,BIO-00265,2,Nos,Spare Parts Warehouse - ENXI,Central Warehouse - ENXI,138994
+STE-DEMO-000587,Stock Entry,items,BIO-00294,29,Nos,Central Warehouse - ENXI,,367718
+STE-DEMO-000588,Stock Entry,items,BIO-00177,12,Nos,Central Warehouse - ENXI,,51196
+STE-DEMO-000589,Stock Entry,items,BIO-00303,24,Nos,,Central Warehouse - ENXI,110467
+STE-DEMO-000590,Stock Entry,items,BIO-00379,10,Nos,Central Warehouse - ENXI,,16762
+STE-DEMO-000591,Stock Entry,items,BIO-00403,21,Nos,Central Warehouse - ENXI,,468196
+STE-DEMO-000592,Stock Entry,items,BIO-00399,26,Nos,,Central Warehouse - ENXI,352635
+STE-DEMO-000593,Stock Entry,items,BIO-00063,3,Nos,Central Warehouse - ENXI,,478172
+STE-DEMO-000594,Stock Entry,items,BIO-00116,12,Nos,Cleaning Supplies Store - ENXI,Central Warehouse - ENXI,104546
+STE-DEMO-000595,Stock Entry,items,BIO-00332,1,Nos,Central Warehouse - ENXI,,123117
+STE-DEMO-000596,Stock Entry,items,BIO-00341,25,Nos,PPE Store - ENXI,Central Warehouse - ENXI,303846
+STE-DEMO-000597,Stock Entry,items,BIO-00428,25,Nos,,Central Warehouse - ENXI,210112
+STE-DEMO-000598,Stock Entry,items,BIO-00237,22,Nos,,Central Warehouse - ENXI,14122
+STE-DEMO-000599,Stock Entry,items,BIO-00359,12,Nos,PPE Store - ENXI,Central Warehouse - ENXI,81555
+STE-DEMO-000600,Stock Entry,items,BIO-00438,11,Nos,Cleaning Supplies Store - ENXI,Central Warehouse - ENXI,354855

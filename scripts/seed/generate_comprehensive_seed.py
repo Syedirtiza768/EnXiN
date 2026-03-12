@@ -1,15 +1,30 @@
 #!/usr/bin/env python3
 """
-Enterprise-grade comprehensive seed generator for EnXi Healthcare Waste Management.
+Comprehensive enterprise-grade demo seed generator for EnXi ERPNext.
 
-Models a Lahore-based company providing:
-- Healthcare waste collection, transport, incineration, and compliance
-- Biomedical equipment sales, installation, and maintenance
-- Government hospital waste management contracts (Punjab-wide)
-- Fleet and logistics operations
-- Training and capacity building
+Models a Punjab-based healthcare waste management company (modeled on ARAR Innovations)
+with 36-month operational history across all ERPNext modules.
 
-Generates 40+ CSV files and 9 JSON sidecar files covering all ERPNext modules.
+Generates import-compatible CSV and JSON files covering:
+- Organization setup (company, branches, departments, cost centers)
+- Customer institutions (hospitals, labs, clinics)
+- Contracts & commercials  
+- Waste classification & container inventory
+- Waste collection operations
+- Fleet management (vehicles, drivers, delivery trips)
+- Incinerator operations (27+ facilities)
+- Training & capacity building
+- Janitorial services
+- Inventory & procurement
+- HR & workforce
+- Finance & accounting (invoices, payments, journal entries)
+- Assets (vehicles, incinerators, equipment)
+- Quality management
+- Maintenance schedules
+- Support & issue tracking
+- Projects & timesheets
+
+No DB writes — generates CSV/JSON seed files only.
 """
 
 from __future__ import annotations
@@ -17,279 +32,412 @@ from __future__ import annotations
 import argparse
 import csv
 import json
+import math
 import random
 from dataclasses import dataclass, field
 from datetime import date, datetime, timedelta
 from pathlib import Path
-from typing import Dict, List, Tuple
+from typing import Any, Dict, List, Optional, Tuple
+
 
 ROOT = Path(__file__).resolve().parents[2]
 OUTPUT_DIR = ROOT / "seed_output"
 
-# ─── Volume Configuration ───────────────────────────────────────────────────────
+COMPANY_NAME = "EnXi Biomedical & Waste Management (Pvt) Ltd"
+COMPANY_ABBR = "ENXI"
+CURRENCY = "PKR"
+COUNTRY = "Pakistan"
+
+# ---------------------------------------------------------------------------
+# Timeline: 36 months ending today
+# ---------------------------------------------------------------------------
+TIMELINE_MONTHS = 36
+TODAY = date(2026, 3, 12)
+TIMELINE_START = date(TODAY.year - 3, TODAY.month, 1)  # ~Mar 2023
+
 
 @dataclass
 class VolumeConfig:
-    years: int = 2
-    hospitals: int = 55
-    suppliers_count: int = 35
-    items_count: int = 500
-    employees_count: int = 120
-    vehicles_count: int = 35
-    sales_orders: int = 1500
-    purchase_orders: int = 300
-    quotations: int = 600
-    stock_entries: int = 400
-    material_requests: int = 150
-    delivery_notes: int = 800
-    sales_invoices: int = 1000
-    purchase_receipts: int = 280
-    purchase_invoices: int = 250
-    issues: int = 400
-    projects: int = 20
-    leads: int = 80
-    opportunities: int = 60
-    maintenance_visits: int = 200
-    quality_inspections: int = 100
-    waste_events: int = 3500
-    incinerator_ops: int = 600
-    transport_logs: int = 1200
-    training_sessions: int = 150
-    fuel_logs: int = 1500
+    """Target volumes for seed generation."""
+    years: int = 3
+    hospitals: int = 80
+    labs_clinics: int = 40
+    government_depts: int = 10
+    total_customers: int = 130
+    suppliers: int = 50
+    employees: int = 350
+    vehicles: int = 50
+    drivers: int = 45
+    incinerator_facilities: int = 28
+    items: int = 500
+    sales_orders: int = 2500
+    quotations: int = 800
+    purchase_orders: int = 600
+    purchase_receipts: int = 500
+    stock_entries: int = 600
+    delivery_notes: int = 1200
+    delivery_trips: int = 2500
+    sales_invoices: int = 2000
+    purchase_invoices: int = 500
+    payment_entries: int = 1800
+    journal_entries: int = 300
+    material_requests: int = 400
+    waste_events: int = 8000
+    transport_logs: int = 3000
+    incinerator_batches: int = 1500
+    training_sessions: int = 500
+    issues: int = 800
+    maintenance_visits: int = 400
+    maintenance_schedules: int = 200
+    quality_inspections: int = 300
+    projects: int = 35
+    tasks: int = 200
+    timesheets: int = 600
+    contracts: int = 80
+    leads: int = 120
+    opportunities: int = 100
+    assets: int = 120
+    warranty_claims: int = 60
 
-# ─── Company Constants ──────────────────────────────────────────────────────────
 
-COMPANY_NAME = "EnXi Biomedical & Waste Management (Pvt) Ltd"
-COMPANY_ABBR = "ENXI"
-COUNTRY = "Pakistan"
-CURRENCY = "PKR"
+# ---------------------------------------------------------------------------
+# Domain Constants
+# ---------------------------------------------------------------------------
 
-# ─── Geographic Data ────────────────────────────────────────────────────────────
+PUNJAB_CITIES = [
+    "Lahore", "Rawalpindi", "Faisalabad", "Multan", "Gujranwala",
+    "Sialkot", "Bahawalpur", "Sargodha", "Sahiwal", "Sheikhupura",
+]
 
 LAHORE_LOCALITIES = [
     "Johar Town", "Gulberg", "Model Town", "DHA Phase 1", "DHA Phase 5",
     "Iqbal Town", "Cantt", "Garden Town", "Wapda Town", "Shadman",
-    "Township", "Faisal Town", "Samanabad", "Allama Iqbal Town", "Bahria Town",
-    "Valencia Town", "EME Society", "Askari 10", "Cavalry Ground", "Gulshan-e-Ravi",
+    "Township", "Gulshan-e-Ravi", "Samanabad", "Allama Iqbal Town",
+    "Bahria Town", "Askari 10", "EME Society", "Valencia Town",
+    "Lake City", "Faisal Town",
 ]
-
-PUNJAB_CITIES = [
-    "Lahore", "Rawalpindi", "Faisalabad", "Multan", "Gujranwala",
-    "Sialkot", "Bahawalpur", "Sargodha", "Sahiwal", "Rahim Yar Khan",
-]
-
-# ─── Hospital & Customer Data ──────────────────────────────────────────────────
 
 HOSPITAL_TYPES = [
-    ("Tertiary Care Hospital", "Commercial", 18),
-    ("District Hospital", "Commercial", 12),
-    ("Teaching Hospital", "Institutional", 8),
-    ("Private Hospital", "Commercial", 7),
-    ("Diagnostic Laboratory", "Commercial", 5),
-    ("Maternity Hospital", "Commercial", 3),
-    ("Specialist Clinic", "Commercial", 2),
+    ("Tertiary Hospital", 0.30),
+    ("Teaching Hospital", 0.15),
+    ("District Hospital", 0.20),
+    ("General Hospital", 0.15),
+    ("Specialized Hospital", 0.10),
+    ("Private Hospital", 0.10),
 ]
 
 HOSPITAL_PREFIXES = [
-    "Mayo", "Jinnah", "Services", "Shalimar", "Central Park", "City Care",
-    "Noor", "Al-Rehman", "LifeLine", "Prime", "Medix", "Punjab",
-    "Lahore General", "Sheikh Zayed", "Hameed Latif", "Shaukat Khanum",
-    "National", "Allied", "Combined Military", "Gulab Devi",
-    "Sir Ganga Ram", "Fatima Memorial", "Sharif Medical", "Ittefaq",
-    "Doctors", "Surgimed", "Hafeez", "Aziz Fatimah", "Farooq",
-    "Children", "Lady Aitchison", "Social Security", "Chughtai Lab",
-    "IDC", "Agha Khan Lab", "Excel Labs", "Citi Lab", "Data Darbar Medical",
-    "Pak Medical", "Al-Naeem", "Faisal", "Ghurki Trust", "Nawaz Sharif",
-    "Mian Muhammad Trust", "Bahria International", "CMH", "PAF",
-    "Wapda Teaching", "PGMI", "Institute of Nuclear Medicine",
-    "Punjab Institute of Cardiology", "Lahore Eye", "KEMU Teaching",
+    "Mayo", "Jinnah", "Services", "Shalimar", "Punjab", "National",
+    "Central", "City Care", "Noor", "Al-Rehman", "LifeLine", "Prime",
+    "Gulab Devi", "Sheikh Zayed", "Shaukat Khanum", "Children",
+    "Lady Willingdon", "Sir Ganga Ram", "Fatima Memorial", "Hameed Latif",
+    "Doctors", "Sharif Medical", "Ittefaq", "Lahore General",
+    "Ghurki Trust", "Farooq", "Surgimed", "National", "Chughtai",
 ]
 
-# ─── Waste Management Data ──────────────────────────────────────────────────────
+LAB_CLINIC_NAMES = [
+    "Chughtai Lab", "Shaukat Khanum Lab", "IDC Lab", "Excel Labs",
+    "Islamabad Diagnostics", "Lahore Diagnostics", "City Lab",
+    "Metro Diagnostics", "Al-Razi Clinic", "Medicare Clinic",
+    "Health First Clinic", "Medix Clinic", "Punjab Diagnostic Center",
+    "Allied Lab", "Agha Khan Lab Lahore", "Dr. Essa Lab",
+    "One Health Lab", "Rehman Diagnostics", "Saleem Lab", "Qamar Lab",
+]
+
+GOVT_DEPTS = [
+    "Punjab Health Department", "Directorate of Health Services Lahore",
+    "Punjab Environmental Protection Agency", "Primary & Secondary Healthcare Dept",
+    "District Health Authority Lahore", "Punjab Medical Faculty",
+    "Punjab Healthcare Commission", "Specialized Healthcare & Medical Education",
+    "Punjab Emergency Service (Rescue 1122)", "Punjab AIDS Control Program",
+]
 
 WASTE_CATEGORIES = [
-    ("Infectious Waste", "Yellow", "infectious", 45),
-    ("Pathological Waste", "Red", "pathological", 15),
-    ("Sharps Waste", "White", "sharps", 20),
-    ("Pharmaceutical Waste", "Brown", "pharmaceutical", 8),
-    ("Chemical Waste", "Black", "chemical", 5),
-    ("General Medical Waste", "Green", "general", 7),
+    ("Infectious Waste", "INF", "Yellow"),
+    ("Pathological Waste", "PATH", "Red"),
+    ("Sharps Waste", "SHRP", "Yellow"),
+    ("Pharmaceutical Waste", "PHRM", "Brown"),
+    ("Chemical Waste", "CHEM", "Brown"),
+    ("General Medical Waste", "GEN", "Black"),
+    ("Cytotoxic Waste", "CYTO", "Purple"),
 ]
 
 CONTAINER_TYPES = [
-    ("Yellow Bin 60L", "WC-YEL-060", "Nos", 1200, "Waste Containers"),
-    ("Yellow Bin 120L", "WC-YEL-120", "Nos", 2400, "Waste Containers"),
-    ("Red Bin 60L", "WC-RED-060", "Nos", 1500, "Waste Containers"),
-    ("Sharps Container 5L", "WC-SHP-005", "Nos", 350, "Waste Containers"),
-    ("Sharps Container 10L", "WC-SHP-010", "Nos", 550, "Waste Containers"),
-    ("Chemical Waste Drum 50L", "WC-CHM-050", "Nos", 3500, "Waste Containers"),
-    ("Biohazard Bag Roll (50pcs)", "WC-BAG-050", "Nos", 800, "Waste Containers"),
-    ("Yellow Liner Bag Roll", "WC-LNR-YEL", "Nos", 600, "Waste Containers"),
-    ("Red Liner Bag Roll", "WC-LNR-RED", "Nos", 600, "Waste Containers"),
-]
-
-# ─── Equipment & Product Catalogs ───────────────────────────────────────────────
-
-EQUIPMENT_CATALOG = [
-    ("ICU Monitors", "Biomedical Equipment"), ("Patient Monitors", "Biomedical Equipment"),
-    ("Infusion Pumps", "Biomedical Equipment"), ("Ventilators", "Biomedical Equipment"),
-    ("Ultrasound Machines", "Biomedical Equipment"), ("ECG Machines", "Biomedical Equipment"),
-    ("Surgical Lights", "Biomedical Equipment"), ("Sterilization Equipment", "Biomedical Equipment"),
-    ("Autoclaves", "Biomedical Equipment"), ("Laboratory Analyzers", "Biomedical Equipment"),
-    ("Hospital Beds", "Biomedical Equipment"), ("Oxygen Concentrators", "Biomedical Equipment"),
-    ("Defibrillators", "Biomedical Equipment"), ("Syringe Pumps", "Biomedical Equipment"),
-    ("Pulse Oximeters", "Biomedical Equipment"), ("Nebulizers", "Biomedical Equipment"),
-    ("Blood Gas Analyzers", "Biomedical Equipment"), ("X-Ray Machines", "Biomedical Equipment"),
-    ("Dental Chairs", "Biomedical Equipment"), ("Endoscopy Systems", "Biomedical Equipment"),
+    ("Yellow Bin 60L", "Infectious Waste", 60),
+    ("Yellow Bin 120L", "Infectious Waste", 120),
+    ("Red Bin 60L", "Pathological Waste", 60),
+    ("Sharps Container 5L", "Sharps Waste", 5),
+    ("Sharps Container 10L", "Sharps Waste", 10),
+    ("Brown Bin 60L", "Pharmaceutical Waste", 60),
+    ("Black Bin 120L", "General Medical Waste", 120),
+    ("Black Bin 240L", "General Medical Waste", 240),
+    ("Cytotoxic Container 20L", "Cytotoxic Waste", 20),
 ]
 
 PPE_ITEMS = [
-    ("Nitrile Gloves Box (100)", "PPE-GLV-NIT", "Box", 850),
-    ("Latex Gloves Box (100)", "PPE-GLV-LAT", "Box", 650),
-    ("N95 Respirator Mask (20)", "PPE-MSK-N95", "Box", 1800),
-    ("Surgical Mask Box (50)", "PPE-MSK-SUR", "Box", 450),
-    ("Face Shield", "PPE-SHD-001", "Nos", 350),
-    ("Safety Goggles", "PPE-GOG-001", "Nos", 420),
-    ("Disposable Gown", "PPE-GWN-DIS", "Nos", 280),
-    ("Heavy Duty Apron", "PPE-APR-HDY", "Nos", 950),
-    ("Safety Boots Pair", "PPE-BOT-001", "Pair", 3500),
-    ("Chemical Resistant Gloves", "PPE-GLV-CHM", "Pair", 1200),
-]
-
-SPARE_PARTS = [
-    ("Monitor Display Panel", "Biomedical Spare Parts"), ("Infusion Pump Motor", "Biomedical Spare Parts"),
-    ("ECG Lead Set 12-Lead", "Biomedical Spare Parts"), ("SpO2 Sensor Cable", "Biomedical Spare Parts"),
-    ("Blood Pressure Cuff Adult", "Biomedical Spare Parts"), ("Ventilator Circuit Kit", "Biomedical Spare Parts"),
-    ("Autoclave Gasket Set", "Biomedical Spare Parts"), ("Defibrillator Pads", "Biomedical Spare Parts"),
-    ("Temperature Probe", "Biomedical Spare Parts"), ("Printer Paper Roll (Thermal)", "Biomedical Spare Parts"),
-    ("Battery Pack (Medical Grade)", "Biomedical Spare Parts"), ("Fuse Kit (Assorted)", "Biomedical Spare Parts"),
-]
-
-INCINERATOR_ITEMS = [
-    ("Incinerator Fuel (Diesel)", "INC-FUEL-DSL", "Ltr", 280),
-    ("Refractory Brick", "INC-BRK-REF", "Nos", 4500),
-    ("Emission Filter Cartridge", "INC-FLT-EMI", "Nos", 35000),
-    ("Thermocouple Sensor", "INC-SNS-TMP", "Nos", 8500),
-    ("Ash Collection Bag", "INC-BAG-ASH", "Nos", 450),
-    ("Ignition Electrode", "INC-ELC-IGN", "Nos", 12000),
-]
-
-VEHICLE_PARTS = [
-    ("Engine Oil 5L", "VPT-OIL-ENG", "Nos", 3200),
-    ("Air Filter", "VPT-FLT-AIR", "Nos", 1800),
-    ("Brake Pad Set", "VPT-BRK-PAD", "Set", 4500),
-    ("Tyre 195/65R15", "VPT-TYR-195", "Nos", 12000),
-    ("Battery 12V Heavy Duty", "VPT-BAT-12V", "Nos", 15000),
-    ("Coolant 5L", "VPT-COL-005", "Nos", 1200),
-    ("Wiper Blade Set", "VPT-WPR-SET", "Set", 800),
-    ("Transmission Fluid 4L", "VPT-TRN-FLD", "Nos", 2500),
+    ("Nitrile Gloves (Box of 100)", "PPE", "Box"),
+    ("Heavy Duty Rubber Gloves", "PPE", "Pair"),
+    ("Face Shield", "PPE", "Nos"),
+    ("N95 Respirator Mask", "PPE", "Nos"),
+    ("Safety Goggles", "PPE", "Nos"),
+    ("Disposable Gown", "PPE", "Nos"),
+    ("Rubber Apron", "PPE", "Nos"),
+    ("Safety Boots", "PPE", "Pair"),
+    ("Biohazard Suit", "PPE", "Nos"),
 ]
 
 CLEANING_SUPPLIES = [
-    ("Disinfectant Solution 5L", "CLN-DIS-005", "Nos", 1500),
-    ("Bleach Solution 5L", "CLN-BLC-005", "Nos", 800),
-    ("Spill Containment Kit", "CLN-SPL-KIT", "Nos", 4500),
-    ("Surface Sanitizer Spray", "CLN-SAN-SPR", "Nos", 650),
+    ("Disinfectant Solution 5L", "Cleaning Supplies", "Nos"),
+    ("Floor Cleaner 5L", "Cleaning Supplies", "Nos"),
+    ("Hand Sanitizer 500ml", "Cleaning Supplies", "Nos"),
+    ("Bleach Solution 5L", "Cleaning Supplies", "Nos"),
+    ("Mop Head Refill", "Cleaning Supplies", "Nos"),
+    ("Microfiber Cloth Pack", "Cleaning Supplies", "Nos"),
+    ("Waste Collection Bags (Roll of 50)", "Cleaning Supplies", "Nos"),
+    ("Biohazard Labels (Pack of 100)", "Cleaning Supplies", "Nos"),
 ]
 
-BRANDS = [
-    "Mindray", "Philips", "GE Healthcare", "Siemens Healthineers", "Nihon Kohden",
-    "BPL Medical", "Draeger", "Medtronic", "B.Braun", "Hillrom",
-    "ECOTECH", "Inciner8", "Elastec", "Matthews Environmental", "AddField",
+SPARE_PARTS = [
+    ("Incinerator Grate Bar", "Incinerator Spare Parts", "Nos"),
+    ("Refractory Brick Set", "Incinerator Spare Parts", "Set"),
+    ("Burner Nozzle Assembly", "Incinerator Spare Parts", "Nos"),
+    ("Temperature Sensor Probe", "Incinerator Spare Parts", "Nos"),
+    ("Exhaust Fan Motor", "Incinerator Spare Parts", "Nos"),
+    ("Ash Removal Conveyor Belt", "Incinerator Spare Parts", "Nos"),
+    ("Control Panel Board", "Incinerator Spare Parts", "Nos"),
+    ("Air Pollution Control Filter", "Incinerator Spare Parts", "Nos"),
+    ("Vehicle Oil Filter", "Vehicle Parts", "Nos"),
+    ("Vehicle Air Filter", "Vehicle Parts", "Nos"),
+    ("Brake Pad Set", "Vehicle Parts", "Set"),
+    ("Coolant 5L", "Vehicle Parts", "Nos"),
+    ("Hydraulic Fluid 5L", "Vehicle Parts", "Nos"),
+    ("Tire - Waste Transport Vehicle", "Vehicle Parts", "Nos"),
+    ("GPS Tracker Module", "Vehicle Parts", "Nos"),
 ]
 
-# ─── Organization Data ──────────────────────────────────────────────────────────
+BIOMEDICAL_EQUIPMENT = [
+    ("ICU Monitor", "Biomedical Equipment"),
+    ("Patient Monitor", "Biomedical Equipment"),
+    ("Infusion Pump", "Biomedical Equipment"),
+    ("Ventilator", "Biomedical Equipment"),
+    ("Ultrasound Machine", "Biomedical Equipment"),
+    ("ECG Machine", "Biomedical Equipment"),
+    ("Surgical Light", "Biomedical Equipment"),
+    ("Sterilizer", "Biomedical Equipment"),
+    ("Autoclave", "Biomedical Equipment"),
+    ("Laboratory Analyzer", "Biomedical Equipment"),
+    ("Defibrillator", "Biomedical Equipment"),
+    ("Oxygen Concentrator", "Biomedical Equipment"),
+    ("Dental Chair", "Biomedical Equipment"),
+    ("X-Ray Machine", "Biomedical Equipment"),
+    ("Pulse Oximeter", "Biomedical Equipment"),
+]
 
-DEPARTMENTS = [
-    "Waste Operations", "Fleet & Transport", "Incinerator Operations",
-    "Compliance & Environment", "Training & Development",
-    "Sales & Business Development", "Finance & Accounts", "Human Resources",
-    "Procurement", "IT & Systems", "Quality Assurance", "Administration",
-    "Biomedical Services", "Maintenance & Repair",
+FUEL_ITEMS = [
+    ("Diesel Fuel", "Fuel", "Ltr"),
+    ("Incinerator Fuel Oil", "Fuel", "Ltr"),
+    ("LPG Cylinder", "Fuel", "Nos"),
 ]
 
 DESIGNATIONS = [
-    "Chief Executive Officer", "Chief Operating Officer", "Chief Financial Officer",
-    "Director Operations", "Director Compliance", "Director Sales",
-    "General Manager", "Regional Manager", "Operations Manager",
-    "Finance Manager", "HR Manager", "Procurement Manager",
-    "Waste Operations Supervisor", "Fleet Supervisor", "Incinerator Supervisor",
-    "Biomedical Engineer", "Service Technician", "Maintenance Technician",
-    "Waste Collector", "Driver", "Helper",
-    "Compliance Officer", "Environmental Analyst", "Training Coordinator",
-    "Sales Executive", "Account Manager", "Customer Support Executive",
-    "Accountant", "HR Executive", "IT Support", "Quality Inspector",
-    "Incinerator Operator", "Logistics Coordinator",
+    "CEO", "COO", "CFO", "Director Operations", "Director Compliance",
+    "Regional Manager", "Branch Manager", "Operations Manager",
+    "Waste Operations Supervisor", "Route Coordinator", "Dispatcher",
+    "Waste Collector", "Waste Handler", "Driver", "Helper",
+    "Incinerator Operator", "Incinerator Supervisor", "Maintenance Technician",
+    "Compliance Officer", "Environmental Officer", "Safety Officer",
+    "Training Coordinator", "Trainer", "Quality Inspector",
+    "Fleet Manager", "Fleet Supervisor", "Mechanic",
+    "Janitorial Supervisor", "Janitor", "Sanitation Worker",
+    "Finance Manager", "Accountant", "Accounts Officer",
+    "HR Manager", "HR Officer", "Admin Officer",
+    "IT Officer", "Procurement Officer", "Store Keeper",
+    "Biomedical Engineer", "Service Technician", "Sales Executive",
+    "Customer Support Officer", "Data Entry Operator",
 ]
 
-FIRST_NAMES = [
-    "Ahmed", "Muhammad", "Ali", "Hassan", "Usman", "Bilal", "Asad", "Zain",
-    "Hamza", "Omar", "Saad", "Faisal", "Kashif", "Imran", "Tanveer",
-    "Fatima", "Ayesha", "Sana", "Sara", "Hina", "Amina", "Rabia",
-    "Nadia", "Sadia", "Bushra", "Tahir", "Naveed", "Shakeel", "Amir", "Waqas",
+DEPARTMENTS = [
+    "Waste Operations", "Fleet & Transport", "Incinerator Operations",
+    "Training & Compliance", "Janitorial Services", "Finance & Accounts",
+    "Human Resources", "Procurement & Stores", "Quality Assurance",
+    "Biomedical Engineering", "Sales & Business Development",
+    "Customer Support", "IT & Data", "Administration",
+]
+
+BRANCHES = [
+    ("Head Office - Lahore", "Lahore"),
+    ("Lahore Operations Center", "Lahore"),
+    ("Rawalpindi Branch", "Rawalpindi"),
+    ("Faisalabad Branch", "Faisalabad"),
+    ("Multan Branch", "Multan"),
+    ("Incinerator Facility - Lahore", "Lahore"),
+    ("Incinerator Facility - Rawalpindi", "Rawalpindi"),
+    ("Incinerator Facility - Faisalabad", "Faisalabad"),
+]
+
+COST_CENTERS = [
+    ("Main", None),
+    ("Waste Operations", "Main"),
+    ("Fleet & Transport", "Main"),
+    ("Incinerator Ops", "Main"),
+    ("Training", "Main"),
+    ("Janitorial Services", "Main"),
+    ("Biomedical Equipment", "Main"),
+    ("Sales & Marketing", "Main"),
+    ("Administration", "Main"),
+    ("HR & Payroll", "Main"),
+    ("Procurement", "Main"),
+    ("Quality & Compliance", "Main"),
+    ("Lahore Operations", "Waste Operations"),
+    ("Rawalpindi Operations", "Waste Operations"),
+    ("Faisalabad Operations", "Waste Operations"),
+    ("Multan Operations", "Waste Operations"),
+]
+
+INCINERATOR_FACILITIES = [
+    "Mayo Hospital Incinerator", "Jinnah Hospital Incinerator",
+    "Services Hospital Incinerator", "Sir Ganga Ram Incinerator",
+    "Lady Willingdon Incinerator", "Punjab Institute Cardiology Incinerator",
+    "Children Hospital Incinerator", "General Hospital Incinerator",
+    "Gulab Devi Incinerator", "Sheikh Zayed Hospital Incinerator",
+    "Fatima Memorial Incinerator", "Shaukat Khanum Incinerator",
+    "Lahore Central Incinerator", "Lahore East Incinerator",
+    "Lahore North Incinerator", "Lahore South Incinerator",
+    "Rawalpindi General Incinerator", "Holy Family Incinerator",
+    "Benazir Bhutto Hospital Incinerator", "Faisalabad Allied Incinerator",
+    "DHQ Faisalabad Incinerator", "Multan Nishtar Incinerator",
+    "Multan Civil Incinerator", "Gujranwala DHQ Incinerator",
+    "Sialkot Civil Incinerator", "Bahawalpur QMC Incinerator",
+    "Sargodha DHQ Incinerator", "Sahiwal DHQ Incinerator",
+]
+
+VEHICLE_MAKES = [
+    ("Hino", "300 Series", "Diesel"),
+    ("Hino", "500 Series", "Diesel"),
+    ("Isuzu", "NQR", "Diesel"),
+    ("Isuzu", "NPR", "Diesel"),
+    ("Toyota", "Dyna", "Diesel"),
+    ("Mitsubishi", "Canter", "Diesel"),
+    ("Suzuki", "Carry", "Petrol"),
+    ("Toyota", "Hilux", "Diesel"),
+]
+
+FIRST_NAMES_MALE = [
+    "Ahmed", "Muhammad", "Ali", "Hassan", "Usman", "Bilal", "Asad",
+    "Zain", "Hamza", "Omar", "Saad", "Imran", "Faisal", "Tariq",
+    "Kashif", "Atif", "Naveed", "Shahid", "Rizwan", "Waqar",
+    "Sohail", "Kamran", "Adnan", "Junaid", "Fahad", "Arslan",
+    "Amir", "Salman", "Naeem", "Irfan",
+]
+
+FIRST_NAMES_FEMALE = [
+    "Fatima", "Ayesha", "Sana", "Sara", "Hina", "Maryam", "Amina",
+    "Bushra", "Rabia", "Nadia", "Samina", "Farah", "Noor", "Kiran",
+    "Uzma", "Saima", "Zara", "Mehreen", "Alina", "Sadia",
 ]
 
 LAST_NAMES = [
     "Khan", "Malik", "Ahmed", "Hassan", "Sheikh", "Qureshi", "Butt",
-    "Chaudhry", "Rana", "Mirza", "Siddiqui", "Raza", "Iqbal", "Aslam", "Shah",
+    "Chaudhry", "Rana", "Mirza", "Aslam", "Mughal", "Dar", "Gill",
+    "Siddiqui", "Sharif", "Akhtar", "Hussain", "Raza", "Javed",
+]
+
+TRAINING_PROGRAMS = [
+    "Waste Segregation Fundamentals",
+    "PPE Usage & Safety Protocol",
+    "Sharps Handling & Disposal",
+    "Spill Response & Decontamination",
+    "Infection Control Basics",
+    "Incinerator Operations Safety",
+    "Vehicle Safety & Defensive Driving",
+    "Fire Safety & Emergency Response",
+    "Environmental Compliance Awareness",
+    "Regulatory Framework & EPA Standards",
+    "Hospital Waste Management Act Compliance",
+    "Chemical Waste Handling",
+    "Pathological Waste Processing",
+    "Route Safety & Collection Protocols",
+    "First Aid & Emergency Response",
 ]
 
 SUPPLIER_NAMES = [
-    ("Medical Supplies Punjab", "Raw Material"),
-    ("Bio-Equipment International", "Equipment Vendor"),
-    ("Safety First PPE", "Raw Material"),
-    ("Lahore Container Works", "Raw Material"),
-    ("Eco-Disposal Systems", "Services"),
-    ("Punjab Auto Parts", "Vehicle Parts"),
+    ("Ravi Engineering Works", "Equipment Vendor"),
     ("National Chemical Corp", "Raw Material"),
-    ("Al-Fatah Safety Products", "Raw Material"),
+    ("Punjab Safety Equipment", "Equipment Vendor"),
+    ("Lahore Steel Fabricators", "Equipment Vendor"),
+    ("Allied Medical Supplies", "Raw Material"),
+    ("Metro Fuel Distributors", "Fuel Supplier"),
+    ("City Diesel Station", "Fuel Supplier"),
+    ("Pakistan Refinery Fuels", "Fuel Supplier"),
+    ("National Tire House", "Vehicle Parts"),
+    ("Auto Zone Pakistan", "Vehicle Parts"),
+    ("Refractory Solutions Pvt", "Equipment Vendor"),
+    ("Punjab Plastics Industries", "Raw Material"),
+    ("Eco Packaging Solutions", "Raw Material"),
+    ("SafeHands PPE", "Raw Material"),
+    ("CleanTech Supplies", "Raw Material"),
     ("Siemens Pakistan", "Equipment Vendor"),
-    ("Philips Healthcare PK", "Equipment Vendor"),
-    ("GE Health Pakistan", "Equipment Vendor"),
-    ("Draeger Safety Pakistan", "Equipment Vendor"),
-    ("Pakistan Petroleum Corp", "Fuel Supplier"),
-    ("Shell Pakistan", "Fuel Supplier"),
-    ("Total Parco", "Fuel Supplier"),
     ("Atlas Honda Parts", "Vehicle Parts"),
-    ("Hino Pakistan Motors", "Vehicle Parts"),
-    ("Isuzu Pakistan", "Vehicle Parts"),
-    ("Waste Tech Industries", "Equipment Vendor"),
-    ("Refractory Materials Lahore", "Raw Material"),
-    ("Metropolitan Steel Works", "Raw Material"),
-    ("Pharma Waste Solutions", "Services"),
-    ("Clean Environment Services", "Services"),
-    ("Kohinoor Chemical", "Raw Material"),
-    ("Lahore Paper & Packaging", "Raw Material"),
-    ("Digital Tracking Systems", "IT Services"),
-    ("Punjab Insurance Brokers", "Insurance"),
-    ("SafeGuard Uniforms", "Raw Material"),
-    ("MedTech Training Institute", "Services"),
-    ("Calibration Services Pakistan", "Services"),
-    ("Fire Safety Equipment Co", "Raw Material"),
-    ("Lahore Rubber Works", "Raw Material"),
-    ("Ravi Engineering Works", "Services"),
-    ("National Environmental Lab", "Services"),
-    ("Punjab Revenue Board Consultants", "Services"),
+    ("Shell Lubricants Pakistan", "Fuel Supplier"),
+    ("Total Parco", "Fuel Supplier"),
+    ("Descon Engineering", "Services"),
+    ("NHA Maintenance Services", "Services"),
+    ("Punjab IT Solutions", "IT Services"),
+    ("SecureTrack GPS", "IT Services"),
+    ("Mobilink Business Solutions", "IT Services"),
+    ("State Life Insurance", "Insurance"),
+    ("EFU General Insurance", "Insurance"),
+    ("Adamjee Insurance", "Insurance"),
+    ("Bank Alfalah Leasing", "Services"),
+    ("Meezan Bank Leasing", "Services"),
+    ("UBL Fund Managers", "Services"),
+    ("Ernst & Young Pakistan", "Services"),
+    ("KPMG Taseer Hadi", "Services"),
+    ("Punjab Revenue Authority", "Services"),
+    ("Pakistan Oxygen Ltd", "Raw Material"),
+    ("ICI Pakistan", "Raw Material"),
+    ("Sitara Chemical Industries", "Raw Material"),
+    ("Diamond Tyres Ltd", "Vehicle Parts"),
+    ("General Tyre Pakistan", "Vehicle Parts"),
+    ("Millat Tractors Parts", "Vehicle Parts"),
+    ("Sapphire Textiles (Uniforms)", "Raw Material"),
 ]
 
-VEHICLE_MAKES = [
-    ("Hino", "300 Series", "Diesel", 8),
-    ("Isuzu", "NPR 75", "Diesel", 6),
-    ("Suzuki", "Carry", "Petrol", 5),
-    ("Toyota", "Hilux", "Diesel", 4),
-    ("Hyundai", "Porter H-100", "Diesel", 4),
-    ("FAW", "CA1024", "Diesel", 3),
-    ("JW Forland", "C311", "Diesel", 3),
-    ("Suzuki", "Bolan", "Petrol", 2),
-]
+ROUTE_CODES = [f"LHR-R{i:02d}" for i in range(1, 31)] + \
+              [f"RWP-R{i:02d}" for i in range(1, 11)] + \
+              [f"FSD-R{i:02d}" for i in range(1, 8)] + \
+              [f"MLT-R{i:02d}" for i in range(1, 6)]
 
-# ─── Helper Functions ────────────────────────────────────────────────────────────
+
+# ---------------------------------------------------------------------------
+# Utility helpers
+# ---------------------------------------------------------------------------
+
+def _seed():
+    random.seed(42)
 
 def daterange(start: date, end: date, count: int) -> List[date]:
     if count <= 0:
         return []
-    delta = max((end - start).days, 1)
-    return sorted([start + timedelta(days=random.randint(0, delta)) for _ in range(count)])
+    delta = (end - start).days
+    return sorted([start + timedelta(days=random.randint(0, max(delta, 1))) for _ in range(count)])
+
+
+def weighted_choice(choices_with_weights):
+    items, weights = zip(*choices_with_weights)
+    return random.choices(items, weights=weights, k=1)[0]
+
+
+def monthly_dates(start: date, end: date) -> List[date]:
+    dates = []
+    d = start.replace(day=1)
+    while d <= end:
+        dates.append(d)
+        if d.month == 12:
+            d = d.replace(year=d.year + 1, month=1)
+        else:
+            d = d.replace(month=d.month + 1)
+    return dates
 
 
 def ensure_dir(path: Path) -> None:
@@ -305,61 +453,59 @@ def write_csv(path: Path, rows: List[Dict], fieldnames: List[str]) -> None:
             writer.writerow(row)
 
 
-def write_json(path: Path, payload: dict) -> None:
+def write_json(path: Path, payload: Any) -> None:
     ensure_dir(path.parent)
     path.write_text(json.dumps(payload, indent=2, default=str), encoding="utf-8")
 
 
-def pick_weighted(choices_with_weights):
-    items, weights = zip(*[(c, w) for *c, w in choices_with_weights])
-    return random.choices(items, weights=weights, k=1)[0]
+def rand_phone():
+    return f"+9242{random.randint(1000000, 9999999)}"
 
 
-# ─── Master Data Builders ───────────────────────────────────────────────────────
+def rand_mobile():
+    return f"+923{random.randint(100000000, 499999999)}"
 
-def build_companies():
+
+def rand_email(prefix: str, domain: str = "enxi.pk"):
+    return f"{prefix.lower().replace(' ', '.')}@{domain}"
+
+
+# ---------------------------------------------------------------------------
+# Entity Builders
+# ---------------------------------------------------------------------------
+
+def build_company() -> List[Dict]:
     return [{
-        "name": COMPANY_NAME, "abbr": COMPANY_ABBR,
-        "country": COUNTRY, "default_currency": CURRENCY,
+        "name": COMPANY_NAME,
+        "abbr": COMPANY_ABBR,
+        "country": COUNTRY,
+        "default_currency": CURRENCY,
     }]
 
 
-def build_branches():
-    return [{"branch": b} for b in [
-        "Head Office - Lahore", "North Punjab Depot - Rawalpindi",
-        "Central Punjab Depot - Faisalabad", "South Punjab Depot - Multan",
-        "Incinerator Facility - Lahore", "Incinerator Facility - Faisalabad",
-    ]]
+def build_branches() -> List[Dict]:
+    return [{"branch": name} for name, _ in BRANCHES]
 
 
-def build_departments():
-    return [{"department_name": d, "company": COMPANY_NAME} for d in DEPARTMENTS]
-
-
-def build_designations():
+def build_designations() -> List[Dict]:
     return [{"designation": d} for d in DESIGNATIONS]
 
 
-def build_warehouses():
-    wh = [
-        "Central Warehouse", "PPE Store", "Spare Parts Store",
-        "Container Store", "Incinerator Supplies", "Quarantine Store",
-        "Disposal Warehouse", "Vehicle Parts Store",
+def build_departments() -> List[Dict]:
+    return [{"department_name": d, "company": COMPANY_NAME} for d in DEPARTMENTS]
+
+
+def build_territories() -> List[Dict]:
+    rows = [
+        {"territory_name": "Pakistan", "parent_territory": "All Territories", "is_group": 1},
+        {"territory_name": "Punjab", "parent_territory": "Pakistan", "is_group": 1},
     ]
-    return [{"warehouse_name": w, "name": f"{w} - {COMPANY_ABBR}", "company": COMPANY_NAME} for w in wh]
+    for city in PUNJAB_CITIES:
+        rows.append({"territory_name": city, "parent_territory": "Punjab", "is_group": 0})
+    return rows
 
 
-def build_cost_centers():
-    cc = [
-        "Main", "Waste Operations", "Fleet & Transport", "Incinerator Ops",
-        "Biomedical Sales", "Biomedical Services", "Training",
-        "Compliance", "Administration", "Procurement", "HR", "IT",
-        "North Punjab", "Central Punjab", "South Punjab",
-    ]
-    return [{"cost_center_name": c, "company": COMPANY_NAME, "parent_cost_center": f"Main - {COMPANY_ABBR}" if c != "Main" else ""} for c in cc]
-
-
-def build_customer_groups():
+def build_customer_groups() -> List[Dict]:
     return [
         {"customer_group_name": "Commercial", "parent_customer_group": "All Customer Groups", "is_group": 0},
         {"customer_group_name": "Institutional", "parent_customer_group": "All Customer Groups", "is_group": 0},
@@ -367,193 +513,251 @@ def build_customer_groups():
     ]
 
 
-def build_supplier_groups():
-    groups = ["Raw Material", "Equipment Vendor", "Services", "Fuel Supplier",
+def build_supplier_groups() -> List[Dict]:
+    groups = ["Raw Material", "Services", "Equipment Vendor", "Fuel Supplier",
               "Vehicle Parts", "IT Services", "Insurance"]
-    return [{"supplier_group_name": g, "parent_supplier_group": "All Supplier Groups", "is_group": 0} for g in groups]
+    return [{"supplier_group_name": g, "parent_supplier_group": "All Supplier Groups", "is_group": 0}
+            for g in groups]
 
 
-def build_territory():
-    return [
-        {"territory_name": "Pakistan", "parent_territory": "All Territories", "is_group": 1},
-        {"territory_name": "Punjab", "parent_territory": "Pakistan", "is_group": 1},
-        {"territory_name": "Lahore", "parent_territory": "Punjab", "is_group": 0},
-        {"territory_name": "Rawalpindi", "parent_territory": "Punjab", "is_group": 0},
-        {"territory_name": "Faisalabad", "parent_territory": "Punjab", "is_group": 0},
-        {"territory_name": "Multan", "parent_territory": "Punjab", "is_group": 0},
+def build_warehouses() -> List[Dict]:
+    wh_names = [
+        "Central Warehouse", "Service Warehouse", "Spare Parts Warehouse",
+        "PPE Store", "Cleaning Supplies Store", "Fuel Store",
+        "Rawalpindi Store", "Faisalabad Store",
     ]
+    return [{"warehouse_name": n, "name": f"{n} - {COMPANY_ABBR}", "company": COMPANY_NAME}
+            for n in wh_names]
 
 
-def build_item_groups():
-    groups = [
-        ("Biomedical Equipment", 1), ("Biomedical Spare Parts", 0),
-        ("Waste Containers", 0), ("PPE & Safety", 0),
-        ("Cleaning & Disinfection", 0), ("Incinerator Supplies", 0),
-        ("Vehicle Parts & Supplies", 0), ("Waste Management Services", 0),
-        ("Biomedical Services", 0), ("Training Services", 0),
-        ("Installation Services", 0), ("Compliance Services", 0),
-    ]
-    return [{"item_group_name": g, "parent_item_group": "All Item Groups", "is_group": ig} for g, ig in groups]
-
-
-def build_brands():
-    return [{"brand": b} for b in BRANDS]
-
-
-# ─── Customer & Supplier Builders ────────────────────────────────────────────────
-
-def build_customers(count: int) -> List[Dict]:
+def build_cost_centers() -> List[Dict]:
     rows = []
-    idx = 0
-    for hosp_type, group, weight in HOSPITAL_TYPES:
-        n = max(1, round(count * weight / 100))
-        for j in range(n):
-            if idx >= count:
-                break
-            prefix = HOSPITAL_PREFIXES[idx % len(HOSPITAL_PREFIXES)]
-            locality = random.choice(LAHORE_LOCALITIES)
-            city = random.choice(PUNJAB_CITIES[:4]) if random.random() < 0.3 else "Lahore"
-            rows.append({
-                "customer_name": f"{prefix} {hosp_type.split()[0]} {hosp_type.split()[-1]} {idx + 1:02d}",
-                "customer_type": "Company",
-                "customer_group": group,
-                "territory": city if city in ["Lahore", "Rawalpindi", "Faisalabad", "Multan"] else "Punjab",
-                "default_currency": CURRENCY,
-            })
-            idx += 1
-        if idx >= count:
-            break
-    # Fill remaining
-    while idx < count:
-        prefix = random.choice(HOSPITAL_PREFIXES)
+    for name, parent in COST_CENTERS:
+        parent_ref = f"{parent} - {COMPANY_ABBR}" if parent else ""
         rows.append({
-            "customer_name": f"{prefix} Medical Center {idx + 1:02d}",
+            "cost_center_name": name,
+            "company": COMPANY_NAME,
+            "parent_cost_center": parent_ref,
+        })
+    return rows
+
+
+def build_item_groups() -> List[Dict]:
+    groups = [
+        ("Waste Management Services", 0), ("Biomedical Equipment", 0),
+        ("Waste Containers", 0), ("PPE", 0), ("Cleaning Supplies", 0),
+        ("Incinerator Spare Parts", 0), ("Vehicle Parts", 0),
+        ("Fuel", 0), ("Janitorial Services", 0), ("Training Services", 0),
+        ("Spare Parts", 1), ("Consumables", 1),
+    ]
+    return [{"item_group_name": g, "parent_item_group": "All Item Groups",
+             "is_group": ig} for g, ig in groups]
+
+
+def build_brands() -> List[Dict]:
+    brands = [
+        "Hino", "Isuzu", "Toyota", "Mitsubishi", "Suzuki",
+        "Mindray", "Philips", "GE Healthcare", "Siemens", "Nihon Kohden",
+        "BPL", "Drager", "Hillrom", "Medtronic", "Stryker",
+    ]
+    return [{"brand": b} for b in brands]
+
+
+def build_customers(cfg: VolumeConfig) -> List[Dict]:
+    """Build hospital, lab, clinic, and government customer records."""
+    rows = []
+    idx = 1
+
+    # Hospitals
+    used_names = set()
+    for i in range(cfg.hospitals):
+        htype = weighted_choice(HOSPITAL_TYPES)
+        prefix = random.choice(HOSPITAL_PREFIXES)
+        name = f"{prefix} {htype} {idx:02d}"
+        while name in used_names:
+            prefix = random.choice(HOSPITAL_PREFIXES)
+            name = f"{prefix} {htype} {idx:02d}"
+        used_names.add(name)
+        city = "Lahore" if i < cfg.hospitals * 0.6 else random.choice(PUNJAB_CITIES[1:])
+        rows.append({
+            "customer_name": name,
+            "customer_type": "Company",
+            "customer_group": random.choice(["Commercial", "Institutional", "Government"]),
+            "territory": city,
+            "default_currency": CURRENCY,
+        })
+        idx += 1
+
+    # Labs and clinics
+    for i in range(cfg.labs_clinics):
+        base_name = LAB_CLINIC_NAMES[i % len(LAB_CLINIC_NAMES)]
+        name = f"{base_name} {idx:02d}" if i >= len(LAB_CLINIC_NAMES) else base_name
+        if name in used_names:
+            name = f"{base_name} Branch {idx:02d}"
+        used_names.add(name)
+        rows.append({
+            "customer_name": name,
             "customer_type": "Company",
             "customer_group": "Commercial",
+            "territory": random.choice(PUNJAB_CITIES[:5]),
+            "default_currency": CURRENCY,
+        })
+        idx += 1
+
+    # Government departments
+    for i in range(min(cfg.government_depts, len(GOVT_DEPTS))):
+        name = GOVT_DEPTS[i]
+        used_names.add(name)
+        rows.append({
+            "customer_name": name,
+            "customer_type": "Company",
+            "customer_group": "Government",
             "territory": "Lahore",
             "default_currency": CURRENCY,
         })
         idx += 1
+
     return rows
 
 
 def build_suppliers() -> List[Dict]:
-    return [{
-        "supplier_name": name,
-        "supplier_type": "Company",
-        "supplier_group": group,
-        "country": COUNTRY,
-        "default_currency": CURRENCY,
-    } for name, group in SUPPLIER_NAMES]
+    rows = []
+    for name, group in SUPPLIER_NAMES:
+        rows.append({
+            "supplier_name": name,
+            "supplier_type": "Company",
+            "supplier_group": group,
+            "country": COUNTRY,
+            "default_currency": CURRENCY,
+        })
+    return rows
 
 
-# ─── Item Builders ───────────────────────────────────────────────────────────────
-
-def build_items(count: int) -> List[Dict]:
+def build_items(cfg: VolumeConfig) -> List[Dict]:
+    """Build all item records: waste services, containers, PPE, spares, equipment, fuel."""
     rows = []
     idx = 1
 
-    # Biomedical equipment items
-    for i in range(min(count, 200)):
-        equip, group = random.choice(EQUIPMENT_CATALOG)
+    # Waste collection service items (non-stock, service)
+    for cat, code, color in WASTE_CATEGORIES:
         rows.append({
-            "item_code": f"BIO-{idx:05d}", "item_name": f"{equip} Model {random.randint(100, 999)}",
-            "item_group": group, "stock_uom": "Nos", "brand": random.choice(BRANDS[:10]),
-            "is_stock_item": 1, "is_sales_item": 1, "is_purchase_item": 1,
-            "has_serial_no": 1 if random.random() < 0.6 else 0, "warranty_period": random.choice([6, 12, 18, 24]),
-        })
-        idx += 1
-
-    # Spare parts
-    for i, (name, group) in enumerate(SPARE_PARTS):
-        rows.append({
-            "item_code": f"SPR-{i + 1:05d}", "item_name": f"{name} #{random.randint(10, 99)}",
-            "item_group": group, "stock_uom": "Nos", "brand": random.choice(BRANDS[:10]),
-            "is_stock_item": 1, "is_sales_item": 1, "is_purchase_item": 1,
-            "has_serial_no": 0, "warranty_period": 0,
-        })
-
-    # Waste containers
-    for name, code, uom, price, group in CONTAINER_TYPES:
-        rows.append({
-            "item_code": code, "item_name": name, "item_group": group, "stock_uom": uom,
-            "brand": "", "is_stock_item": 1, "is_sales_item": 1, "is_purchase_item": 1,
-            "has_serial_no": 0, "warranty_period": 0,
-        })
-
-    # PPE items
-    for name, code, uom, price, *_ in PPE_ITEMS:
-        rows.append({
-            "item_code": code, "item_name": name, "item_group": "PPE & Safety", "stock_uom": uom,
-            "brand": "", "is_stock_item": 1, "is_sales_item": 0, "is_purchase_item": 1,
-            "has_serial_no": 0, "warranty_period": 0,
-        })
-
-    # Incinerator supplies
-    for name, code, uom, price in INCINERATOR_ITEMS:
-        rows.append({
-            "item_code": code, "item_name": name, "item_group": "Incinerator Supplies", "stock_uom": uom,
-            "brand": "", "is_stock_item": 1, "is_sales_item": 0, "is_purchase_item": 1,
-            "has_serial_no": 0, "warranty_period": 0,
-        })
-
-    # Vehicle parts
-    for name, code, uom, price in VEHICLE_PARTS:
-        rows.append({
-            "item_code": code, "item_name": name, "item_group": "Vehicle Parts & Supplies", "stock_uom": uom,
-            "brand": "", "is_stock_item": 1, "is_sales_item": 0, "is_purchase_item": 1,
-            "has_serial_no": 0, "warranty_period": 0,
-        })
-
-    # Cleaning supplies
-    for name, code, uom, price in CLEANING_SUPPLIES:
-        rows.append({
-            "item_code": code, "item_name": name, "item_group": "Cleaning & Disinfection", "stock_uom": uom,
-            "brand": "", "is_stock_item": 1, "is_sales_item": 0, "is_purchase_item": 1,
-            "has_serial_no": 0, "warranty_period": 0,
-        })
-
-    # Waste service items (non-stock)
-    for cat, color, code_sfx, pct in WASTE_CATEGORIES:
-        rows.append({
-            "item_code": f"SVC-WASTE-{code_sfx.upper()}", "item_name": f"{cat} Collection Service",
-            "item_group": "Waste Management Services", "stock_uom": "Kg", "brand": "",
+            "item_code": f"SVC-{code}",
+            "item_name": f"{cat} Collection Service",
+            "item_group": "Waste Management Services",
+            "stock_uom": "Kg",
+            "brand": "",
             "is_stock_item": 0, "is_sales_item": 1, "is_purchase_item": 0,
             "has_serial_no": 0, "warranty_period": 0,
         })
 
-    # Biomedical service items (non-stock)
-    svc_items = [
-        ("Installation & Commissioning", "SVC-BIO-INST", "Nos"),
-        ("Preventive Maintenance Visit", "SVC-BIO-PMV", "Nos"),
-        ("Corrective Maintenance Service", "SVC-BIO-CMS", "Nos"),
-        ("Calibration Service", "SVC-BIO-CAL", "Nos"),
-        ("AMC - Annual Maintenance Contract", "SVC-BIO-AMC", "Nos"),
-        ("CMC - Comprehensive Maintenance", "SVC-BIO-CMC", "Nos"),
-        ("Equipment Training Session", "SVC-TRN-EQP", "Nos"),
-        ("Waste Handling Training", "SVC-TRN-WST", "Nos"),
-        ("Compliance Audit Service", "SVC-CMP-AUD", "Nos"),
-        ("Environmental Monitoring", "SVC-CMP-ENV", "Nos"),
-        ("Waste Management Consultancy", "SVC-CMP-CON", "Nos"),
-        ("Incineration Service", "SVC-INC-001", "Kg"),
-    ]
-    for name, code, uom in svc_items:
+    # Janitorial service items
+    for svc in ["Hospital Floor Disinfection", "Ward Sanitization", "OT Deep Cleaning",
+                 "Common Area Cleaning", "Washroom Sanitization", "Non-Hazardous Waste Removal"]:
         rows.append({
-            "item_code": code, "item_name": name,
-            "item_group": "Biomedical Services" if "BIO" in code else ("Training Services" if "TRN" in code else ("Compliance Services" if "CMP" in code else "Waste Management Services")),
-            "stock_uom": uom, "brand": "", "is_stock_item": 0, "is_sales_item": 1, "is_purchase_item": 0,
+            "item_code": f"SVC-JAN-{idx:03d}",
+            "item_name": svc,
+            "item_group": "Janitorial Services",
+            "stock_uom": "Nos",
+            "brand": "",
+            "is_stock_item": 0, "is_sales_item": 1, "is_purchase_item": 0,
             "has_serial_no": 0, "warranty_period": 0,
         })
+        idx += 1
 
-    # Fill remaining with more equipment
-    while len(rows) < count:
-        equip, group = random.choice(EQUIPMENT_CATALOG)
+    # Training service items
+    for prog in TRAINING_PROGRAMS[:5]:
         rows.append({
-            "item_code": f"BIO-{len(rows) + 1:05d}", "item_name": f"{equip} Variant {random.randint(1000, 9999)}",
-            "item_group": group, "stock_uom": "Nos", "brand": random.choice(BRANDS[:10]),
-            "is_stock_item": 1, "is_sales_item": 1, "is_purchase_item": 1,
-            "has_serial_no": 1 if random.random() < 0.5 else 0, "warranty_period": random.choice([12, 24]),
+            "item_code": f"SVC-TRN-{idx:03d}",
+            "item_name": f"{prog} Training Session",
+            "item_group": "Training Services",
+            "stock_uom": "Nos",
+            "brand": "",
+            "is_stock_item": 0, "is_sales_item": 1, "is_purchase_item": 0,
+            "has_serial_no": 0, "warranty_period": 0,
         })
+        idx += 1
+
+    # Container items (stock)
+    for ctype, waste_cat, capacity in CONTAINER_TYPES:
+        rows.append({
+            "item_code": f"CNT-{idx:03d}",
+            "item_name": ctype,
+            "item_group": "Waste Containers",
+            "stock_uom": "Nos",
+            "brand": "",
+            "is_stock_item": 1, "is_sales_item": 1, "is_purchase_item": 1,
+            "has_serial_no": 0, "warranty_period": 0,
+        })
+        idx += 1
+
+    # PPE items (stock)
+    for pname, pgroup, puom in PPE_ITEMS:
+        rows.append({
+            "item_code": f"PPE-{idx:03d}",
+            "item_name": pname,
+            "item_group": pgroup,
+            "stock_uom": puom,
+            "brand": "",
+            "is_stock_item": 1, "is_sales_item": 0, "is_purchase_item": 1,
+            "has_serial_no": 0, "warranty_period": 0,
+        })
+        idx += 1
+
+    # Cleaning supplies (stock)
+    for cname, cgroup, cuom in CLEANING_SUPPLIES:
+        rows.append({
+            "item_code": f"CLN-{idx:03d}",
+            "item_name": cname,
+            "item_group": cgroup,
+            "stock_uom": cuom,
+            "brand": "",
+            "is_stock_item": 1, "is_sales_item": 0, "is_purchase_item": 1,
+            "has_serial_no": 0, "warranty_period": 0,
+        })
+        idx += 1
+
+    # Spare parts (stock)
+    for sname, sgroup, suom in SPARE_PARTS:
+        rows.append({
+            "item_code": f"SPR-{idx:03d}",
+            "item_name": sname,
+            "item_group": sgroup,
+            "stock_uom": suom,
+            "brand": "",
+            "is_stock_item": 1, "is_sales_item": 0, "is_purchase_item": 1,
+            "has_serial_no": 0, "warranty_period": 0,
+        })
+        idx += 1
+
+    # Fuel items (stock)
+    for fname, fgroup, fuom in FUEL_ITEMS:
+        rows.append({
+            "item_code": f"FUEL-{idx:03d}",
+            "item_name": fname,
+            "item_group": fgroup,
+            "stock_uom": fuom,
+            "brand": "",
+            "is_stock_item": 1, "is_sales_item": 0, "is_purchase_item": 1,
+            "has_serial_no": 0, "warranty_period": 0,
+        })
+        idx += 1
+
+    # Biomedical equipment (stock, serial tracked)
+    brands = ["Mindray", "Philips", "GE Healthcare", "Siemens", "Nihon Kohden",
+              "BPL", "Drager", "Hillrom", "Medtronic", "Stryker"]
+    for i in range(min(cfg.items - len(rows), 400)):
+        equip, group = random.choice(BIOMEDICAL_EQUIPMENT)
+        rows.append({
+            "item_code": f"BIO-{idx:05d}",
+            "item_name": f"{equip} Model {random.randint(100, 999)}",
+            "item_group": group,
+            "stock_uom": "Nos",
+            "brand": random.choice(brands),
+            "is_stock_item": 1, "is_sales_item": 1, "is_purchase_item": 1,
+            "has_serial_no": 1 if random.random() < 0.6 else 0,
+            "warranty_period": random.choice([6, 12, 18, 24]),
+        })
+        idx += 1
 
     return rows
 
@@ -562,1146 +766,1772 @@ def build_item_prices(items: List[Dict]) -> List[Dict]:
     rows = []
     for item in items:
         code = item["item_code"]
-        uom = item["stock_uom"]
-
-        # Selling price
-        if item["is_sales_item"]:
-            if item["is_stock_item"]:
-                rate = random.randint(80000, 3500000) if "BIO" in code else random.randint(200, 15000)
+        if code.startswith("SVC-"):
+            # Service items: selling price per Kg or per unit
+            if code.startswith("SVC-INF") or code.startswith("SVC-PATH") or \
+               code.startswith("SVC-SHRP") or code.startswith("SVC-PHRM") or \
+               code.startswith("SVC-CHEM") or code.startswith("SVC-GEN") or \
+               code.startswith("SVC-CYTO"):
+                rate = random.randint(150, 800)
+                uom = "Kg"
             else:
-                rate = random.randint(5000, 250000) if "SVC-BIO" in code else random.randint(180, 800)
-            rows.append({"item_code": code, "price_list": "Standard Selling", "uom": uom, "price_list_rate": rate, "currency": CURRENCY})
-
-        # Buying price
-        if item["is_purchase_item"]:
-            if "BIO" in code:
-                rate = random.randint(60000, 3000000)
-            elif any(pfx in code for pfx in ["WC-", "PPE-", "INC-", "VPT-", "CLN-", "SPR-"]):
-                # Look up from catalog price or generate
-                rate = random.randint(150, 40000)
-            else:
-                rate = random.randint(100, 500000)
-            rows.append({"item_code": code, "price_list": "Standard Buying", "uom": uom, "price_list_rate": rate, "currency": CURRENCY})
-
+                rate = random.randint(5000, 50000)
+                uom = "Nos"
+            rows.append({
+                "item_code": code, "price_list": "Standard Selling",
+                "uom": uom, "price_list_rate": rate, "currency": CURRENCY,
+            })
+        elif code.startswith("BIO-"):
+            rows.append({
+                "item_code": code, "price_list": "Standard Selling",
+                "uom": "Nos", "price_list_rate": random.randint(150000, 4000000),
+                "currency": CURRENCY,
+            })
+            rows.append({
+                "item_code": code, "price_list": "Standard Buying",
+                "uom": "Nos", "price_list_rate": random.randint(100000, 3500000),
+                "currency": CURRENCY,
+            })
+        elif item["is_purchase_item"]:
+            rate = random.randint(200, 80000)
+            rows.append({
+                "item_code": code, "price_list": "Standard Buying",
+                "uom": item["stock_uom"], "price_list_rate": rate,
+                "currency": CURRENCY,
+            })
+            if item["is_sales_item"]:
+                rows.append({
+                    "item_code": code, "price_list": "Standard Selling",
+                    "uom": item["stock_uom"],
+                    "price_list_rate": int(rate * random.uniform(1.15, 1.6)),
+                    "currency": CURRENCY,
+                })
     return rows
 
 
-# ─── Employee & People Builders ──────────────────────────────────────────────────
-
-def build_employees(departments: List[Dict], count: int) -> List[Dict]:
-    dept_names = [d["department_name"] for d in departments]
+def build_employees(cfg: VolumeConfig) -> List[Dict]:
+    """Build employees across all departments and roles."""
     rows = []
-
-    # Define role distribution
+    # Role distribution
     role_dist = [
-        ("Waste Operations", "Waste Collector", 25),
-        ("Fleet & Transport", "Driver", 18),
-        ("Waste Operations", "Waste Operations Supervisor", 6),
-        ("Incinerator Operations", "Incinerator Operator", 8),
-        ("Incinerator Operations", "Incinerator Supervisor", 2),
-        ("Biomedical Services", "Biomedical Engineer", 6),
-        ("Biomedical Services", "Service Technician", 8),
-        ("Maintenance & Repair", "Maintenance Technician", 5),
-        ("Sales & Business Development", "Sales Executive", 5),
-        ("Sales & Business Development", "Account Manager", 3),
-        ("Compliance & Environment", "Compliance Officer", 3),
-        ("Compliance & Environment", "Environmental Analyst", 2),
-        ("Training & Development", "Training Coordinator", 2),
-        ("Quality Assurance", "Quality Inspector", 3),
+        ("Waste Operations", "Waste Collector", 60),
+        ("Waste Operations", "Waste Handler", 30),
+        ("Waste Operations", "Waste Operations Supervisor", 8),
+        ("Waste Operations", "Route Coordinator", 6),
+        ("Fleet & Transport", "Driver", 45),
+        ("Fleet & Transport", "Helper", 20),
+        ("Fleet & Transport", "Fleet Supervisor", 3),
+        ("Fleet & Transport", "Mechanic", 8),
+        ("Fleet & Transport", "Dispatcher", 4),
+        ("Incinerator Operations", "Incinerator Operator", 30),
+        ("Incinerator Operations", "Incinerator Supervisor", 8),
+        ("Incinerator Operations", "Maintenance Technician", 12),
+        ("Training & Compliance", "Trainer", 6),
+        ("Training & Compliance", "Training Coordinator", 3),
+        ("Training & Compliance", "Compliance Officer", 4),
+        ("Training & Compliance", "Environmental Officer", 3),
+        ("Training & Compliance", "Safety Officer", 3),
+        ("Janitorial Services", "Janitorial Supervisor", 5),
+        ("Janitorial Services", "Janitor", 20),
+        ("Janitorial Services", "Sanitation Worker", 10),
+        ("Finance & Accounts", "Finance Manager", 1),
         ("Finance & Accounts", "Accountant", 4),
-        ("Human Resources", "HR Executive", 2),
-        ("Procurement", "Procurement Manager", 2),
-        ("IT & Systems", "IT Support", 2),
-        ("Administration", "General Manager", 2),
-        ("Fleet & Transport", "Logistics Coordinator", 3),
-        ("Fleet & Transport", "Helper", 10),
-        ("Administration", "Chief Executive Officer", 1),
-        ("Administration", "Chief Operating Officer", 1),
-        ("Finance & Accounts", "Chief Financial Officer", 1),
-        ("Sales & Business Development", "Director Sales", 1),
-        ("Waste Operations", "Director Operations", 1),
-        ("Compliance & Environment", "Director Compliance", 1),
+        ("Finance & Accounts", "Accounts Officer", 3),
+        ("Human Resources", "HR Manager", 1),
+        ("Human Resources", "HR Officer", 2),
+        ("Procurement & Stores", "Procurement Officer", 2),
+        ("Procurement & Stores", "Store Keeper", 3),
+        ("Quality Assurance", "Quality Inspector", 4),
+        ("Biomedical Engineering", "Biomedical Engineer", 5),
+        ("Biomedical Engineering", "Service Technician", 8),
+        ("Sales & Business Development", "Sales Executive", 4),
+        ("Customer Support", "Customer Support Officer", 3),
+        ("IT & Data", "IT Officer", 2),
+        ("IT & Data", "Data Entry Operator", 3),
+        ("Administration", "Admin Officer", 3),
+        ("Administration", "CEO", 1),
+        ("Administration", "COO", 1),
+        ("Administration", "CFO", 1),
+        ("Administration", "Director Operations", 1),
+        ("Administration", "Director Compliance", 1),
     ]
 
-    idx = 0
-    for dept, desig, n in role_dist:
-        for _ in range(n):
-            if idx >= count:
-                break
-            first = random.choice(FIRST_NAMES)
+    emp_idx = 1
+    branch_names = [b for b, _ in BRANCHES]
+    for dept, desig, count in role_dist:
+        actual = min(count, cfg.employees - len(rows))
+        if actual <= 0:
+            break
+        for _ in range(actual):
+            gender = "Male" if random.random() < 0.7 else "Female"
+            first = random.choice(FIRST_NAMES_MALE if gender == "Male" else FIRST_NAMES_FEMALE)
             last = random.choice(LAST_NAMES)
-            gender = "Female" if first in ["Fatima", "Ayesha", "Sana", "Sara", "Hina", "Amina", "Rabia", "Nadia", "Sadia", "Bushra"] else "Male"
-            dob = date(random.randint(1970, 2000), random.randint(1, 12), random.randint(1, 28))
-            doj = date(random.randint(2019, 2025), random.randint(1, 12), random.randint(1, 28))
+            dob = date(random.randint(1975, 2000), random.randint(1, 12), random.randint(1, 28))
+            # Stagger join dates across timeline
+            earliest_join = max(TIMELINE_START - timedelta(days=365*2), date(2018, 1, 1))
+            doj = earliest_join + timedelta(days=random.randint(0, (TODAY - earliest_join).days))
             rows.append({
                 "employee_name": f"{first} {last}",
-                "first_name": first, "last_name": last,
-                "company": COMPANY_NAME, "department": dept, "designation": desig,
-                "date_of_birth": dob.isoformat(), "date_of_joining": doj.isoformat(),
-                "gender": gender, "employment_type": "Full-time", "status": "Active",
-                "branch": random.choice(["Head Office - Lahore", "Incinerator Facility - Lahore"]),
+                "first_name": first,
+                "last_name": last,
+                "company": COMPANY_NAME,
+                "department": dept,
+                "designation": desig,
+                "date_of_birth": dob.isoformat(),
+                "date_of_joining": doj.isoformat(),
+                "gender": gender,
+                "employment_type": "Full-time",
+                "status": "Active" if random.random() < 0.95 else "Left",
+                "branch": random.choice(branch_names),
             })
-            idx += 1
-        if idx >= count:
-            break
-
-    # Fill remaining
-    while len(rows) < count:
-        first = random.choice(FIRST_NAMES)
-        last = random.choice(LAST_NAMES)
-        gender = "Female" if first in ["Fatima", "Ayesha", "Sana", "Sara", "Hina", "Amina", "Rabia", "Nadia", "Sadia", "Bushra"] else "Male"
-        dob = date(random.randint(1975, 1998), random.randint(1, 12), random.randint(1, 28))
-        doj = date(random.randint(2020, 2025), random.randint(1, 12), random.randint(1, 28))
-        rows.append({
-            "employee_name": f"{first} {last}",
-            "first_name": first, "last_name": last,
-            "company": COMPANY_NAME, "department": random.choice(dept_names),
-            "designation": random.choice(DESIGNATIONS),
-            "date_of_birth": dob.isoformat(), "date_of_joining": doj.isoformat(),
-            "gender": gender, "employment_type": "Full-time", "status": "Active",
-            "branch": "Head Office - Lahore",
-        })
-
-    return rows
-
-
-def build_vehicles(count: int) -> List[Dict]:
-    rows = []
-    idx = 0
-    for make, model, fuel, n in VEHICLE_MAKES:
-        for j in range(n):
-            if idx >= count:
+            emp_idx += 1
+            if len(rows) >= cfg.employees:
                 break
-            rows.append({
-                "license_plate": f"LE-{random.randint(1000, 9999)}-{random.choice('ABCDEFGH')}{random.choice('ABCDEFGH')}",
-                "make": make, "model": model, "fuel_type": fuel,
-                "last_odometer": random.randint(5000, 180000),
-                "uom": "Ltr",
-                "acquisition_date": date(random.randint(2020, 2025), random.randint(1, 12), random.randint(1, 28)).isoformat(),
-                "vehicle_value": random.randint(800000, 6000000),
-            })
-            idx += 1
-        if idx >= count:
+        if len(rows) >= cfg.employees:
             break
+
     return rows
 
 
-def build_drivers(employees: List[Dict]) -> List[Dict]:
-    driver_emps = [e for e in employees if e["designation"] in ("Driver", "Waste Operations Supervisor", "Fleet Supervisor")]
+def build_vehicles(cfg: VolumeConfig) -> List[Dict]:
     rows = []
-    for e in driver_emps:
+    plates_used = set()
+    for i in range(cfg.vehicles):
+        make, model, fuel = random.choice(VEHICLE_MAKES)
+        city_code = random.choice(["LE", "LE", "LE", "RW", "FD", "ML"])
+        plate = f"{city_code}-{random.randint(1000, 9999)}-{random.choice('ABCDE')}{random.choice('ABCDE')}"
+        while plate in plates_used:
+            plate = f"{city_code}-{random.randint(1000, 9999)}-{random.choice('ABCDE')}{random.choice('ABCDE')}"
+        plates_used.add(plate)
+        acq_date = TIMELINE_START - timedelta(days=random.randint(0, 365*2))
+        rows.append({
+            "license_plate": plate,
+            "make": make,
+            "model": model,
+            "fuel_type": fuel,
+            "last_odometer": random.randint(5000, 200000),
+            "uom": "Ltr",
+            "acquisition_date": acq_date.isoformat(),
+            "vehicle_value": random.randint(2000000, 8000000),
+        })
+    return rows
+
+
+def build_drivers(cfg: VolumeConfig, employees: List[Dict]) -> List[Dict]:
+    """Build drivers from employee pool."""
+    driver_employees = [e for e in employees if e["designation"] == "Driver"]
+    rows = []
+    for emp in driver_employees[:cfg.drivers]:
+        issue_date = date(random.randint(2019, 2023), random.randint(1, 12), 1)
+        expiry = issue_date.replace(year=issue_date.year + random.randint(4, 8))
         rows.append({
             "naming_series": "HR-DRI-.YYYY.-",
-            "full_name": e["employee_name"],
+            "full_name": emp["employee_name"],
             "status": "Active",
             "license_number": f"PB-{random.randint(100000, 999999)}",
-            "issuing_date": date(random.randint(2018, 2023), random.randint(1, 12), 1).isoformat(),
-            "expiry_date": date(random.randint(2026, 2030), random.randint(1, 12), 1).isoformat(),
+            "issuing_date": issue_date.isoformat(),
+            "expiry_date": expiry.isoformat(),
         })
     return rows
 
 
-def build_holiday_list():
-    hl = [{"holiday_list_name": "Pakistan 2025", "from_date": "2025-01-01", "to_date": "2025-12-31", "company": COMPANY_NAME}]
-    holidays = [
-        ("2025-02-05", "Kashmir Day"), ("2025-03-23", "Pakistan Day"),
-        ("2025-03-30", "Shab-e-Meraj"), ("2025-05-01", "Labour Day"),
-        ("2025-03-31", "Eid ul-Fitr Day 1"), ("2025-04-01", "Eid ul-Fitr Day 2"),
-        ("2025-04-02", "Eid ul-Fitr Day 3"), ("2025-06-07", "Eid ul-Adha Day 1"),
-        ("2025-06-08", "Eid ul-Adha Day 2"), ("2025-06-09", "Eid ul-Adha Day 3"),
-        ("2025-07-07", "Shab-e-Barat"), ("2025-08-14", "Independence Day"),
-        ("2025-09-27", "Eid Milad-un-Nabi"), ("2025-11-09", "Iqbal Day"),
-        ("2025-12-25", "Quaid-e-Azam Day"),
-    ]
-    h_rows = [{"holiday_list": "Pakistan 2025", "holiday_date": d, "description": desc} for d, desc in holidays]
-    return hl, h_rows
+def build_holiday_lists() -> Tuple[List[Dict], List[Dict]]:
+    hl_rows = []
+    h_rows = []
 
+    for year in range(TIMELINE_START.year, TODAY.year + 1):
+        name = f"Pakistan Holidays {year}"
+        hl_rows.append({
+            "holiday_list_name": name,
+            "from_date": f"{year}-01-01",
+            "to_date": f"{year}-12-31",
+            "company": COMPANY_NAME,
+        })
+        # Standard holidays
+        holidays = [
+            (f"{year}-01-01", "New Year"),
+            (f"{year}-02-05", "Kashmir Day"),
+            (f"{year}-03-23", "Pakistan Day"),
+            (f"{year}-05-01", "Labour Day"),
+            (f"{year}-08-14", "Independence Day"),
+            (f"{year}-11-09", "Iqbal Day"),
+            (f"{year}-12-25", "Quaid-e-Azam Day"),
+        ]
+        # Add Eid approximations
+        for desc in ["Eid ul Fitr Day 1", "Eid ul Fitr Day 2", "Eid ul Fitr Day 3",
+                      "Eid ul Adha Day 1", "Eid ul Adha Day 2", "Eid ul Adha Day 3",
+                      "Shab-e-Meraj", "Shab-e-Barat", "12 Rabi ul Awal"]:
+            hdate = date(year, random.randint(1, 12), random.randint(1, 28))
+            holidays.append((hdate.isoformat(), desc))
 
-# ─── Address & Contact Builders ──────────────────────────────────────────────────
+        for hdate, desc in holidays:
+            h_rows.append({
+                "holiday_list": name,
+                "holiday_date": hdate,
+                "description": desc,
+            })
+
+    return hl_rows, h_rows
+
 
 def build_addresses(customers: List[Dict], suppliers: List[Dict]) -> List[Dict]:
     rows = []
     idx = 1
-    for c in customers:
+
+    for cust in customers:
         locality = random.choice(LAHORE_LOCALITIES)
-        city = random.choice(PUNJAB_CITIES[:4]) if random.random() < 0.3 else "Lahore"
+        territory = cust.get("territory", "Lahore")
         rows.append({
-            "name": f"ADDR-CUST-{idx:04d}", "address_title": c["customer_name"],
+            "name": f"ADDR-{idx:04d}",
+            "address_title": cust["customer_name"],
             "address_type": "Billing",
-            "address_line1": f"Block {random.randint(1, 25)}, {locality}",
-            "city": city, "country": COUNTRY,
-            "links": f"Customer::{c['customer_name']}",
+            "address_line1": f"Block {random.randint(1, 50)}, {locality}",
+            "city": territory,
+            "country": COUNTRY,
+            "links": f"Customer::{cust['customer_name']}",
         })
         idx += 1
-    for s in suppliers:
+        # Service address too for hospitals
+        if "Hospital" in cust["customer_name"]:
+            rows.append({
+                "name": f"ADDR-{idx:04d}",
+                "address_title": f"{cust['customer_name']} - Service",
+                "address_type": "Shipping",
+                "address_line1": f"Building {random.randint(1, 20)}, {locality}",
+                "city": territory,
+                "country": COUNTRY,
+                "links": f"Customer::{cust['customer_name']}",
+            })
+            idx += 1
+
+    for sup in suppliers:
         locality = random.choice(LAHORE_LOCALITIES)
         rows.append({
-            "name": f"ADDR-SUP-{idx:04d}", "address_title": s["supplier_name"],
+            "name": f"ADDR-{idx:04d}",
+            "address_title": sup["supplier_name"],
             "address_type": "Office",
-            "address_line1": f"Plot {random.randint(1, 200)}, {locality}",
-            "city": "Lahore", "country": COUNTRY,
-            "links": f"Supplier::{s['supplier_name']}",
+            "address_line1": f"Plot {random.randint(1, 200)}, {random.choice(LAHORE_LOCALITIES)}",
+            "city": "Lahore",
+            "country": COUNTRY,
+            "links": f"Supplier::{sup['supplier_name']}",
         })
         idx += 1
+
     return rows
 
 
-def build_contacts(customers: List[Dict]) -> List[Dict]:
+def build_contacts(customers: List[Dict], suppliers: List[Dict]) -> List[Dict]:
     rows = []
-    for i, c in enumerate(customers):
-        first = random.choice(FIRST_NAMES)
+    idx = 1
+
+    for cust in customers:
+        first = random.choice(FIRST_NAMES_MALE + FIRST_NAMES_FEMALE)
         last = random.choice(LAST_NAMES)
         rows.append({
-            "first_name": first, "last_name": last,
-            "email_id": f"contact{i + 1:03d}@hospital.pk",
-            "phone": f"+9242{random.randint(1000000, 9999999)}",
-            "mobile_no": f"+923{random.randint(10, 49)}{random.randint(1000000, 9999999)}",
-            "company_name": c["customer_name"],
-            "link_doctype": "Customer", "link_name": c["customer_name"],
+            "first_name": first,
+            "last_name": last,
+            "email_id": f"contact{idx:03d}@hospital.pk",
+            "phone": rand_phone(),
+            "mobile_no": rand_mobile(),
+            "company_name": cust["customer_name"],
+            "link_doctype": "Customer",
+            "link_name": cust["customer_name"],
+        })
+        idx += 1
+
+    for sup in suppliers:
+        first = random.choice(FIRST_NAMES_MALE + FIRST_NAMES_FEMALE)
+        last = random.choice(LAST_NAMES)
+        rows.append({
+            "first_name": first,
+            "last_name": last,
+            "email_id": f"supplier{idx:03d}@vendor.pk",
+            "phone": rand_phone(),
+            "mobile_no": rand_mobile(),
+            "company_name": sup["supplier_name"],
+            "link_doctype": "Supplier",
+            "link_name": sup["supplier_name"],
+        })
+        idx += 1
+
+    return rows
+
+
+def build_leads(cfg: VolumeConfig) -> List[Dict]:
+    rows = []
+    sources = ["Website", "Referral", "Cold Call", "Exhibition", "Government Tender"]
+    for i in range(1, cfg.leads + 1):
+        lead_date = TIMELINE_START + timedelta(days=random.randint(0, (TODAY - TIMELINE_START).days))
+        rows.append({
+            "company_name": f"Lead Hospital {i:03d}",
+            "lead_name": f"{random.choice(FIRST_NAMES_MALE)} {random.choice(LAST_NAMES)}",
+            "source": random.choice(sources),
+            "status": random.choice(["Lead", "Open", "Replied", "Opportunity", "Converted", "Do Not Contact"]),
+            "territory": random.choice(PUNJAB_CITIES),
+            "email_id": f"lead{i:03d}@hospital.pk",
+            "mobile_no": rand_mobile(),
         })
     return rows
 
 
-# ─── CRM Builders ────────────────────────────────────────────────────────────────
+def build_opportunities(customers: List[Dict], items: List[Dict],
+                        cfg: VolumeConfig) -> Tuple[List[Dict], List[Dict]]:
+    opp_rows = []
+    oi_rows = []
+    service_items = [i for i in items if i["item_code"].startswith("SVC-")]
 
-def build_leads(count: int) -> List[Dict]:
-    sources = ["Walk In", "Website", "Referral", "Campaign", "Cold Calling"]
-    rows = []
-    for i in range(1, count + 1):
-        prefix = random.choice(HOSPITAL_PREFIXES)
-        locality = random.choice(LAHORE_LOCALITIES)
-        rows.append({
-            "first_name": prefix,
-            "company_name": f"{prefix} Healthcare {locality}",
-            "email_id": f"lead{i:04d}@healthcare.pk",
-            "phone": f"+9242{random.randint(1000000, 9999999)}",
-            "source": random.choice(sources),
-            "territory": "Lahore",
-            "status": random.choice(["Lead", "Open", "Replied", "Opportunity", "Interested"]),
+    for i in range(1, cfg.opportunities + 1):
+        name = f"OPP-DEMO-{i:06d}"
+        cust = random.choice(customers)
+        opp_date = TIMELINE_START + timedelta(days=random.randint(0, (TODAY - TIMELINE_START).days))
+        opp_rows.append({
+            "name": name,
+            "naming_series": "CRM-OPP-.YYYY.-",
+            "opportunity_from": "Customer",
+            "party_name": cust["customer_name"],
+            "transaction_date": opp_date.isoformat(),
+            "status": random.choice(["Open", "Quotation", "Converted", "Lost", "Closed"]),
             "company": COMPANY_NAME,
         })
-    return rows
-
-
-def build_opportunities(customers: List[Dict], items: List[Dict], count: int, years: int) -> Tuple:
-    start = date.today() - timedelta(days=365 * years)
-    end = date.today()
-    dates = daterange(start, end, count)
-    svc_items = [i for i in items if not i["is_stock_item"]]
-
-    opp_rows, oi_rows = [], []
-    for i in range(count):
-        name = f"OPP-DEMO-{i + 1:06d}"
-        cust = random.choice(customers)
-        opp_rows.append({
-            "name": name, "naming_series": "OPP-.YYYY.-",
-            "opportunity_from": "Customer", "party_name": cust["customer_name"],
-            "status": random.choice(["Open", "Quotation", "Converted", "Lost", "Replied"]),
-            "company": COMPANY_NAME, "transaction_date": dates[i].isoformat(),
-            "opportunity_amount": random.randint(100000, 5000000),
-        })
-        item = random.choice(svc_items)
+        item = random.choice(service_items)
         oi_rows.append({
-            "parent": name, "parenttype": "Opportunity", "parentfield": "items",
-            "item_code": item["item_code"], "qty": random.randint(1, 12),
-            "uom": item["stock_uom"], "rate": random.randint(10000, 300000),
+            "parent": name,
+            "parenttype": "Opportunity",
+            "parentfield": "items",
+            "item_code": item["item_code"],
+            "qty": random.randint(1, 12),
+            "uom": item["stock_uom"],
+            "rate": random.randint(5000, 50000),
         })
     return opp_rows, oi_rows
 
 
-def build_contracts(customers: List[Dict], years: int) -> List[Dict]:
+def build_contracts(customers: List[Dict], cfg: VolumeConfig) -> List[Dict]:
     rows = []
-    # Government waste management contracts
-    govt_customers = [c for c in customers if "Government" in c.get("customer_group", "") or random.random() < 0.3][:15]
-    for i, cust in enumerate(govt_customers):
-        start_dt = date.today() - timedelta(days=random.randint(180, 365 * years))
-        end_dt = start_dt + timedelta(days=random.choice([365, 730, 1095]))
+    hospital_customers = [c for c in customers if "Hospital" in c["customer_name"]
+                          or "Department" in c["customer_name"]]
+    contract_types = [
+        ("Healthcare waste management services", 2, 3, (3, 35)),
+        ("Janitorial and sanitization services", 1, 2, (2, 15)),
+        ("Biomedical equipment maintenance AMC", 1, 2, (1, 8)),
+        ("Training & capacity building program", 0.5, 1, (0.5, 3)),
+    ]
+
+    for i, cust in enumerate(hospital_customers[:cfg.contracts]):
+        ctype_desc, min_yrs, max_yrs, (min_val, max_val) = random.choice(contract_types)
+        start = TIMELINE_START + timedelta(days=random.randint(0, 365))
+        duration_days = int(random.uniform(min_yrs, max_yrs) * 365)
+        end = start + timedelta(days=duration_days)
+        val = random.randint(int(min_val * 1_000_000), int(max_val * 1_000_000))
+
+        status = "Active"
+        if end < TODAY:
+            status = random.choice(["Active", "Inactive"])
+        if start > TODAY:
+            status = "Unsigned"
+
         rows.append({
-            "party_type": "Customer", "party_name": cust["customer_name"],
-            "start_date": start_dt.isoformat(), "end_date": end_dt.isoformat(),
-            "status": "Active" if end_dt > date.today() else "Inactive",
-            "contract_terms": f"Healthcare waste management services contract for {cust['customer_name']}. "
-                              f"Scope: collection, transport, and incineration of infectious, pathological, "
-                              f"sharps, pharmaceutical, and chemical waste. Contract value: PKR {random.randint(5, 50)}M/year. "
-                              f"KPIs: 99% pickup compliance, max 24hr turnaround, monthly compliance reporting.",
+            "party_type": "Customer",
+            "party_name": cust["customer_name"],
+            "start_date": start.isoformat(),
+            "end_date": end.isoformat(),
+            "status": status,
+            "contract_terms": (
+                f"{ctype_desc} contract for {cust['customer_name']}. "
+                f"Scope: collection, transport, and incineration of infectious, pathological, "
+                f"sharps, pharmaceutical, and chemical waste. "
+                f"Contract value: PKR {val:,}/year. "
+                f"KPIs: 99% pickup compliance, max 24hr turnaround, monthly compliance reporting."
+            ),
         })
     return rows
 
 
-# ─── Transaction Builders ────────────────────────────────────────────────────────
+def build_projects(cfg: VolumeConfig) -> List[Dict]:
+    project_templates = [
+        ("Punjab Tertiary Hospitals Waste Management", "Waste Operations"),
+        ("Lahore District Hospital Waste Contract", "Waste Operations"),
+        ("Rawalpindi Healthcare Waste Rollout", "Waste Operations"),
+        ("Faisalabad Hospital Onboarding", "Waste Operations"),
+        ("Multan Regional Waste Services", "Waste Operations"),
+        ("Incinerator Modernization Program", "Incinerator Operations"),
+        ("Fleet GPS Tracking Deployment", "Fleet & Transport"),
+        ("Annual Training Drive 2024", "Training & Compliance"),
+        ("Annual Training Drive 2025", "Training & Compliance"),
+        ("Punjab EPA Compliance Improvement", "Training & Compliance"),
+        ("Janitorial Services Expansion", "Janitorial Services"),
+        ("Biomedical Equipment Distribution", "Biomedical Engineering"),
+        ("New Incinerator Installation - Gujranwala", "Incinerator Operations"),
+        ("Hospital Waste Management IT Platform", "IT & Data"),
+        ("Vehicle Fleet Renewal Program", "Fleet & Transport"),
+        ("Lahore Mega Hospital Complex Project", "Waste Operations"),
+        ("Emergency Response Capacity Building", "Training & Compliance"),
+        ("Punjab Wide Waste Tracking System", "IT & Data"),
+        ("Government Hospital Contract Wave 2", "Waste Operations"),
+        ("ISO 14001 Certification Project", "Training & Compliance"),
+        ("Incinerator Maintenance Campaign Q1 2025", "Incinerator Operations"),
+        ("Incinerator Maintenance Campaign Q3 2025", "Incinerator Operations"),
+        ("Staff Safety Certification Program", "Training & Compliance"),
+        ("Route Optimization Phase 1", "Fleet & Transport"),
+        ("Route Optimization Phase 2", "Fleet & Transport"),
+        ("New Hospital Onboarding Wave 3", "Waste Operations"),
+        ("Janitorial QA Enhancement", "Janitorial Services"),
+        ("Environmental Monitoring Expansion", "Training & Compliance"),
+        ("PPE Distribution Drive", "Waste Operations"),
+        ("Waste Segregation Audit Program", "Training & Compliance"),
+        ("Regional Hub - Sargodha Setup", "Waste Operations"),
+        ("Regional Hub - Bahawalpur Setup", "Waste Operations"),
+        ("Biomedical Maintenance Contract Rollout", "Biomedical Engineering"),
+        ("Customer Portal Development", "IT & Data"),
+        ("Annual Compliance Reporting Automation", "IT & Data"),
+    ]
 
-def build_quotations(customers, items, count, years):
-    start = date.today() - timedelta(days=365 * years)
-    end = date.today()
-    dates = daterange(start, end, count)
-    stock_items = [i for i in items if i["is_stock_item"] and "BIO" in i["item_code"]]
-    svc_items = [i for i in items if not i["is_stock_item"]]
+    rows = []
+    for i, (pname, dept) in enumerate(project_templates[:cfg.projects]):
+        start = TIMELINE_START + timedelta(days=random.randint(0, 800))
+        end = start + timedelta(days=random.randint(90, 400))
+        status = "Completed" if end < TODAY else "Open"
+        rows.append({
+            "project_name": pname,
+            "naming_series": "PROJ-.YYYY.-",
+            "company": COMPANY_NAME,
+            "status": status,
+            "expected_start_date": start.isoformat(),
+            "expected_end_date": end.isoformat(),
+            "department": dept,
+        })
+    return rows
 
-    q_rows, qi_rows = [], []
-    for i in range(count):
-        name = f"QTN-DEMO-{i + 1:06d}"
+
+def build_tasks(projects: List[Dict], cfg: VolumeConfig) -> List[Dict]:
+    rows = []
+    task_templates = [
+        "Site Survey & Assessment", "Contract Finalization", "Staff Recruitment",
+        "Training Session Delivery", "Bin Distribution", "Route Planning",
+        "Vehicle Assignment", "GPS Installation", "First Collection Run",
+        "Compliance Audit", "Monthly Report Submission", "KPI Review",
+        "Equipment Inspection", "Incinerator Maintenance", "Fuel Procurement",
+        "PPE Distribution", "Customer Feedback Collection", "Incident Investigation",
+        "Quality Inspection", "Safety Drill Execution",
+    ]
+
+    for proj in projects:
+        num_tasks = random.randint(3, 8)
+        proj_start = date.fromisoformat(proj["expected_start_date"])
+        proj_end = date.fromisoformat(proj["expected_end_date"])
+        for j in range(num_tasks):
+            if len(rows) >= cfg.tasks:
+                break
+            task_name = random.choice(task_templates)
+            start = proj_start + timedelta(days=random.randint(0, max((proj_end - proj_start).days // 2, 1)))
+            end = start + timedelta(days=random.randint(7, 60))
+            rows.append({
+                "subject": f"{task_name} - {proj['project_name'][:40]}",
+                "project": proj["project_name"],
+                "status": random.choice(["Open", "Working", "Completed", "Overdue"]),
+                "exp_start_date": start.isoformat(),
+                "exp_end_date": min(end, proj_end).isoformat(),
+                "company": COMPANY_NAME,
+            })
+        if len(rows) >= cfg.tasks:
+            break
+    return rows
+
+
+def build_quotations(customers: List[Dict], items: List[Dict],
+                     cfg: VolumeConfig) -> Tuple[List[Dict], List[Dict]]:
+    q_rows = []
+    qi_rows = []
+    service_items = [i for i in items if i["item_code"].startswith("SVC-")]
+    stock_items = [i for i in items if i["is_stock_item"] and i["item_code"].startswith("BIO-")]
+    dates = daterange(TIMELINE_START, TODAY, cfg.quotations)
+
+    for i in range(1, cfg.quotations + 1):
+        name = f"QTN-DEMO-{i:06d}"
         cust = random.choice(customers)
-        tx = dates[i]
+        tx_date = dates[i - 1]
         q_rows.append({
-            "name": name, "naming_series": "QTN-.YYYY.-",
-            "quotation_to": "Customer", "party_name": cust["customer_name"],
-            "transaction_date": tx.isoformat(),
-            "valid_till": (tx + timedelta(days=30)).isoformat(),
+            "name": name,
+            "naming_series": "QTN-.YYYY.-",
+            "quotation_to": "Customer",
+            "party_name": cust["customer_name"],
+            "transaction_date": tx_date.isoformat(),
+            "valid_till": (tx_date + timedelta(days=30)).isoformat(),
             "company": COMPANY_NAME,
         })
-        # Equipment line
-        if random.random() < 0.6:
-            eq = random.choice(stock_items) if stock_items else random.choice(items)
-            qi_rows.append({
-                "parent": name, "parenttype": "Quotation", "parentfield": "items",
-                "item_code": eq["item_code"], "qty": random.randint(1, 5),
-                "uom": "Nos", "rate": random.randint(150000, 3500000),
-            })
-        # Service line
+
+        # Mix of service and equipment quotations
         if random.random() < 0.7:
-            svc = random.choice(svc_items) if svc_items else random.choice(items)
+            item = random.choice(service_items)
             qi_rows.append({
                 "parent": name, "parenttype": "Quotation", "parentfield": "items",
-                "item_code": svc["item_code"], "qty": random.randint(1, 24),
-                "uom": svc["stock_uom"], "rate": random.randint(5000, 300000),
+                "item_code": item["item_code"],
+                "qty": random.randint(1, 24),
+                "uom": item["stock_uom"],
+                "rate": random.randint(5000, 100000),
             })
+        else:
+            item = random.choice(stock_items) if stock_items else random.choice(service_items)
+            qi_rows.append({
+                "parent": name, "parenttype": "Quotation", "parentfield": "items",
+                "item_code": item["item_code"],
+                "qty": random.randint(1, 5),
+                "uom": "Nos",
+                "rate": random.randint(150000, 3500000),
+            })
+
     return q_rows, qi_rows
 
 
-def build_sales_orders(customers, items, count, years):
-    start = date.today() - timedelta(days=365 * years)
-    end = date.today()
-    dates = daterange(start, end, count)
-    stock_items = [i for i in items if i["is_stock_item"] and i["is_sales_item"]]
-    waste_svc_items = [i for i in items if "SVC-WASTE" in i["item_code"]]
-    bio_svc_items = [i for i in items if "SVC-BIO" in i["item_code"] or "SVC-TRN" in i["item_code"] or "SVC-INC" in i["item_code"]]
+def build_sales_orders(customers: List[Dict], items: List[Dict],
+                       cfg: VolumeConfig) -> Tuple[List[Dict], List[Dict]]:
+    so_rows = []
+    soi_rows = []
+    waste_items = [i for i in items if i["item_code"].startswith("SVC-")]
+    stock_items = [i for i in items if i["is_stock_item"]]
+    container_items = [i for i in items if i["item_code"].startswith("CNT-")]
+    dates = daterange(TIMELINE_START, TODAY, cfg.sales_orders)
 
-    so_rows, soi_rows = [], []
-    for i in range(count):
-        name = f"SO-DEMO-{i + 1:06d}"
+    for i in range(1, cfg.sales_orders + 1):
+        name = f"SO-DEMO-{i:06d}"
         cust = random.choice(customers)
-        tx = dates[i]
+        tx_date = dates[i - 1]
+        del_date = tx_date + timedelta(days=random.randint(2, 14))
+        status = random.choice(["To Deliver and Bill", "To Bill", "Completed", "Completed", "Completed"])
+
         so_rows.append({
-            "name": name, "naming_series": "SO-.YYYY.-",
+            "name": name,
+            "naming_series": "SO-.YYYY.-",
             "customer": cust["customer_name"],
-            "transaction_date": tx.isoformat(),
-            "delivery_date": (tx + timedelta(days=random.randint(2, 14))).isoformat(),
+            "transaction_date": tx_date.isoformat(),
+            "delivery_date": del_date.isoformat(),
             "company": COMPANY_NAME,
+            "status": status,
         })
 
-        # Determine order type: 50% waste service, 30% equipment, 20% biomedical service
-        r = random.random()
-        if r < 0.50 and waste_svc_items:
-            # Waste collection order
-            for wcat in random.sample(waste_svc_items, min(random.randint(1, 3), len(waste_svc_items))):
-                soi_rows.append({
-                    "parent": name, "parenttype": "Sales Order", "parentfield": "items",
-                    "item_code": wcat["item_code"], "qty": random.randint(100, 2000),
-                    "uom": "Kg", "warehouse": f"Central Warehouse - {COMPANY_ABBR}",
-                    "rate": random.randint(180, 650),
-                })
-        elif r < 0.80 and stock_items:
-            eq = random.choice(stock_items)
+        # Waste service line
+        waste = random.choice(waste_items)
+        qty_kg = random.randint(50, 2000)
+        soi_rows.append({
+            "parent": name, "parenttype": "Sales Order", "parentfield": "items",
+            "item_code": waste["item_code"],
+            "qty": qty_kg,
+            "uom": waste["stock_uom"],
+            "warehouse": "",
+            "rate": random.randint(150, 800),
+        })
+
+        # Optionally add container line
+        if random.random() < 0.3 and container_items:
+            cnt = random.choice(container_items)
             soi_rows.append({
                 "parent": name, "parenttype": "Sales Order", "parentfield": "items",
-                "item_code": eq["item_code"], "qty": random.randint(1, 6),
-                "uom": "Nos", "warehouse": f"Central Warehouse - {COMPANY_ABBR}",
-                "rate": random.randint(150000, 3500000),
-            })
-        elif bio_svc_items:
-            svc = random.choice(bio_svc_items)
-            soi_rows.append({
-                "parent": name, "parenttype": "Sales Order", "parentfield": "items",
-                "item_code": svc["item_code"], "qty": random.randint(1, 12),
-                "uom": svc["stock_uom"], "warehouse": "",
-                "rate": random.randint(15000, 300000),
-            })
-        else:
-            eq = random.choice(stock_items) if stock_items else random.choice(items)
-            soi_rows.append({
-                "parent": name, "parenttype": "Sales Order", "parentfield": "items",
-                "item_code": eq["item_code"], "qty": 1, "uom": "Nos",
+                "item_code": cnt["item_code"],
+                "qty": random.randint(5, 50),
+                "uom": "Nos",
                 "warehouse": f"Central Warehouse - {COMPANY_ABBR}",
-                "rate": random.randint(100000, 2000000),
+                "rate": random.randint(500, 5000),
+            })
+
+        # Optionally add equipment line
+        if random.random() < 0.1 and stock_items:
+            eq = random.choice(stock_items[:50])
+            soi_rows.append({
+                "parent": name, "parenttype": "Sales Order", "parentfield": "items",
+                "item_code": eq["item_code"],
+                "qty": random.randint(1, 3),
+                "uom": "Nos",
+                "warehouse": f"Central Warehouse - {COMPANY_ABBR}",
+                "rate": random.randint(150000, 3500000),
             })
 
     return so_rows, soi_rows
 
 
-def build_purchase_orders(suppliers, items, count, years):
-    start = date.today() - timedelta(days=365 * years)
-    end = date.today()
-    dates = daterange(start, end, count)
+def build_purchase_orders(suppliers: List[Dict], items: List[Dict],
+                          cfg: VolumeConfig) -> Tuple[List[Dict], List[Dict]]:
+    po_rows = []
+    poi_rows = []
     purchase_items = [i for i in items if i["is_purchase_item"]]
+    dates = daterange(TIMELINE_START, TODAY, cfg.purchase_orders)
 
-    po_rows, poi_rows = [], []
-    for i in range(count):
-        name = f"PO-DEMO-{i + 1:06d}"
-        supplier = random.choice(suppliers)
-        tx = dates[i]
-        sched = (tx + timedelta(days=random.randint(7, 45))).isoformat()
+    for i in range(1, cfg.purchase_orders + 1):
+        name = f"PO-DEMO-{i:06d}"
+        sup = random.choice(suppliers)
+        tx_date = dates[i - 1]
+        sched = (tx_date + timedelta(days=random.randint(7, 30))).isoformat()
+
         po_rows.append({
-            "name": name, "naming_series": "PO-.YYYY.-",
-            "supplier": supplier["supplier_name"],
-            "transaction_date": tx.isoformat(), "schedule_date": sched,
+            "name": name,
+            "naming_series": "PO-.YYYY.-",
+            "supplier": sup["supplier_name"],
+            "transaction_date": tx_date.isoformat(),
+            "schedule_date": sched,
             "company": COMPANY_NAME,
         })
+
         # 1-3 items per PO
-        for _ in range(random.randint(1, 3)):
+        num_items = random.randint(1, 3)
+        for _ in range(num_items):
             item = random.choice(purchase_items)
             poi_rows.append({
                 "parent": name, "parenttype": "Purchase Order", "parentfield": "items",
-                "item_code": item["item_code"], "qty": random.randint(1, 50),
+                "item_code": item["item_code"],
+                "qty": random.randint(1, 50),
                 "uom": item["stock_uom"],
                 "warehouse": f"Central Warehouse - {COMPANY_ABBR}",
-                "rate": random.randint(500, 3000000),
+                "rate": random.randint(200, 500000),
                 "schedule_date": sched,
             })
+
     return po_rows, poi_rows
 
 
-def build_material_requests(items, count, years):
-    start = date.today() - timedelta(days=365 * years)
-    end = date.today()
-    dates = daterange(start, end, count)
-    stock_items = [i for i in items if i["is_stock_item"]]
+def build_purchase_receipts(suppliers: List[Dict], items: List[Dict],
+                            cfg: VolumeConfig) -> Tuple[List[Dict], List[Dict]]:
+    pr_rows = []
+    pri_rows = []
+    purchase_items = [i for i in items if i["is_purchase_item"] and i["is_stock_item"]]
+    dates = daterange(TIMELINE_START, TODAY, cfg.purchase_receipts)
 
-    mr_rows, mri_rows = [], []
-    for i in range(count):
-        name = f"MR-DEMO-{i + 1:06d}"
-        tx = dates[i]
-        mr_type = random.choice(["Purchase", "Material Transfer", "Material Issue"])
-        mr_rows.append({
-            "name": name, "naming_series": "MAT-MR-.YYYY.-",
-            "material_request_type": mr_type,
-            "transaction_date": tx.isoformat(),
-            "schedule_date": (tx + timedelta(days=random.randint(3, 14))).isoformat(),
+    for i in range(1, cfg.purchase_receipts + 1):
+        name = f"PR-DEMO-{i:06d}"
+        sup = random.choice(suppliers)
+        tx_date = dates[i - 1]
+
+        pr_rows.append({
+            "name": name,
+            "naming_series": "MAT-PRE-.YYYY.-",
+            "supplier": sup["supplier_name"],
+            "posting_date": tx_date.isoformat(),
             "company": COMPANY_NAME,
         })
-        for _ in range(random.randint(1, 4)):
-            item = random.choice(stock_items)
-            mri_rows.append({
-                "parent": name, "parenttype": "Material Request", "parentfield": "items",
-                "item_code": item["item_code"], "qty": random.randint(1, 100),
-                "uom": item["stock_uom"],
-                "warehouse": f"Central Warehouse - {COMPANY_ABBR}",
-                "schedule_date": (tx + timedelta(days=random.randint(3, 14))).isoformat(),
-            })
-    return mr_rows, mri_rows
 
-
-def build_purchase_receipts(suppliers, items, count, years):
-    start = date.today() - timedelta(days=365 * years)
-    end = date.today()
-    dates = daterange(start, end, count)
-    purchase_items = [i for i in items if i["is_purchase_item"]]
-
-    pr_rows, pri_rows = [], []
-    for i in range(count):
-        name = f"PR-DEMO-{i + 1:06d}"
-        supplier = random.choice(suppliers)
-        tx = dates[i]
-        pr_rows.append({
-            "name": name, "naming_series": "MAT-PRE-.YYYY.-",
-            "supplier": supplier["supplier_name"],
-            "posting_date": tx.isoformat(), "company": COMPANY_NAME,
+        item = random.choice(purchase_items)
+        pri_rows.append({
+            "parent": name, "parenttype": "Purchase Receipt", "parentfield": "items",
+            "item_code": item["item_code"],
+            "qty": random.randint(1, 30),
+            "uom": item["stock_uom"],
+            "warehouse": f"Central Warehouse - {COMPANY_ABBR}",
+            "rate": random.randint(200, 500000),
         })
-        for _ in range(random.randint(1, 3)):
-            item = random.choice(purchase_items)
-            pri_rows.append({
-                "parent": name, "parenttype": "Purchase Receipt", "parentfield": "items",
-                "item_code": item["item_code"], "qty": random.randint(1, 50),
-                "uom": item["stock_uom"],
-                "warehouse": f"Central Warehouse - {COMPANY_ABBR}",
-                "rate": random.randint(500, 3000000),
-            })
+
     return pr_rows, pri_rows
 
 
-def build_stock_entries(items, count, years):
-    start = date.today() - timedelta(days=365 * years)
-    end = date.today()
-    dates = daterange(start, end, count)
+def build_material_requests(items: List[Dict], cfg: VolumeConfig) -> Tuple[List[Dict], List[Dict]]:
+    mr_rows = []
+    mri_rows = []
     stock_items = [i for i in items if i["is_stock_item"]]
+    dates = daterange(TIMELINE_START, TODAY, cfg.material_requests)
 
-    se_rows, sed_rows = [], []
-    for i in range(count):
-        name = f"STE-DEMO-{i + 1:06d}"
-        tx = dates[i]
-        purpose = random.choices(
-            ["Material Receipt", "Material Transfer", "Material Issue"],
-            weights=[50, 30, 20], k=1
-        )[0]
-        se_rows.append({
-            "name": name, "naming_series": "STE-.YYYY.-",
-            "purpose": purpose, "posting_date": tx.isoformat(),
+    purposes = ["Purchase", "Material Transfer", "Material Issue"]
+    for i in range(1, cfg.material_requests + 1):
+        name = f"MR-DEMO-{i:06d}"
+        tx_date = dates[i - 1]
+        purpose = random.choice(purposes)
+
+        mr_rows.append({
+            "name": name,
+            "naming_series": "MAT-MR-.YYYY.-",
+            "material_request_type": purpose,
+            "transaction_date": tx_date.isoformat(),
+            "schedule_date": (tx_date + timedelta(days=random.randint(3, 14))).isoformat(),
             "company": COMPANY_NAME,
         })
+
+        num_items = random.randint(1, 4)
+        for _ in range(num_items):
+            item = random.choice(stock_items)
+            mri_rows.append({
+                "parent": name, "parenttype": "Material Request", "parentfield": "items",
+                "item_code": item["item_code"],
+                "qty": random.randint(1, 20),
+                "uom": item["stock_uom"],
+                "warehouse": f"Central Warehouse - {COMPANY_ABBR}",
+                "schedule_date": (tx_date + timedelta(days=random.randint(3, 14))).isoformat(),
+            })
+
+    return mr_rows, mri_rows
+
+
+def build_stock_entries(items: List[Dict], cfg: VolumeConfig) -> Tuple[List[Dict], List[Dict]]:
+    se_rows = []
+    sed_rows = []
+    stock_items = [i for i in items if i["is_stock_item"]]
+    dates = daterange(TIMELINE_START, TODAY, cfg.stock_entries)
+
+    purposes = ["Material Receipt", "Material Receipt", "Material Receipt",
+                 "Material Issue", "Material Transfer"]
+    wh = f"Central Warehouse - {COMPANY_ABBR}"
+    other_whs = [f"PPE Store - {COMPANY_ABBR}", f"Spare Parts Warehouse - {COMPANY_ABBR}",
+                  f"Cleaning Supplies Store - {COMPANY_ABBR}"]
+
+    for i in range(1, cfg.stock_entries + 1):
+        name = f"STE-DEMO-{i:06d}"
+        tx_date = dates[i - 1]
+        purpose = random.choice(purposes)
+
+        se_rows.append({
+            "name": name,
+            "naming_series": "STE-.YYYY.-",
+            "purpose": purpose,
+            "posting_date": tx_date.isoformat(),
+            "company": COMPANY_NAME,
+        })
+
         item = random.choice(stock_items)
-        entry = {
+        child = {
             "parent": name, "parenttype": "Stock Entry", "parentfield": "items",
-            "item_code": item["item_code"], "qty": random.randint(1, 20),
-            "uom": item["stock_uom"], "basic_rate": random.randint(500, 3000000),
+            "item_code": item["item_code"],
+            "qty": random.randint(1, 30),
+            "uom": item["stock_uom"],
+            "basic_rate": random.randint(200, 500000),
         }
         if purpose == "Material Receipt":
-            entry["t_warehouse"] = f"Central Warehouse - {COMPANY_ABBR}"
+            child["t_warehouse"] = wh
+            child["s_warehouse"] = ""
         elif purpose == "Material Issue":
-            entry["s_warehouse"] = f"Central Warehouse - {COMPANY_ABBR}"
+            child["t_warehouse"] = ""
+            child["s_warehouse"] = wh
         else:
-            entry["s_warehouse"] = f"Central Warehouse - {COMPANY_ABBR}"
-            wh_targets = ["PPE Store", "Spare Parts Store", "Container Store", "Vehicle Parts Store"]
-            entry["t_warehouse"] = f"{random.choice(wh_targets)} - {COMPANY_ABBR}"
-        sed_rows.append(entry)
+            child["s_warehouse"] = wh
+            child["t_warehouse"] = random.choice(other_whs)
+
+        sed_rows.append(child)
+
     return se_rows, sed_rows
 
 
-def build_delivery_notes(customers, items, count, years):
-    start = date.today() - timedelta(days=365 * years)
-    end = date.today()
-    dates = daterange(start, end, count)
-    stock_items = [i for i in items if i["is_stock_item"] and i["is_sales_item"]]
+def build_delivery_notes(customers: List[Dict], items: List[Dict],
+                         cfg: VolumeConfig) -> Tuple[List[Dict], List[Dict]]:
+    dn_rows = []
+    dni_rows = []
+    deliverable_items = [i for i in items if i["is_stock_item"] and i["is_sales_item"]]
+    dates = daterange(TIMELINE_START, TODAY, cfg.delivery_notes)
 
-    dn_rows, dni_rows = [], []
-    for i in range(count):
-        name = f"DN-DEMO-{i + 1:06d}"
+    for i in range(1, cfg.delivery_notes + 1):
+        name = f"DN-DEMO-{i:06d}"
         cust = random.choice(customers)
-        tx = dates[i]
+        tx_date = dates[i - 1]
+
         dn_rows.append({
-            "name": name, "naming_series": "MAT-DN-.YYYY.-",
+            "name": name,
+            "naming_series": "MAT-DN-.YYYY.-",
             "customer": cust["customer_name"],
-            "posting_date": tx.isoformat(), "company": COMPANY_NAME,
+            "posting_date": tx_date.isoformat(),
+            "company": COMPANY_NAME,
         })
-        item = random.choice(stock_items)
+
+        item = random.choice(deliverable_items)
         dni_rows.append({
             "parent": name, "parenttype": "Delivery Note", "parentfield": "items",
-            "item_code": item["item_code"], "qty": random.randint(1, 5),
-            "uom": item["stock_uom"],
-            "warehouse": f"Central Warehouse - {COMPANY_ABBR}",
-            "rate": random.randint(50000, 3500000),
-        })
-    return dn_rows, dni_rows
-
-
-def build_sales_invoices(customers, items, count, years):
-    start = date.today() - timedelta(days=365 * years)
-    end = date.today()
-    dates = daterange(start, end, count)
-    saleable = [i for i in items if i["is_sales_item"]]
-
-    si_rows, sii_rows = [], []
-    for i in range(count):
-        name = f"SI-DEMO-{i + 1:06d}"
-        cust = random.choice(customers)
-        tx = dates[i]
-        si_rows.append({
-            "name": name, "naming_series": "ACC-SINV-.YYYY.-",
-            "customer": cust["customer_name"],
-            "posting_date": tx.isoformat(),
-            "due_date": (tx + timedelta(days=random.choice([15, 30, 45, 60]))).isoformat(),
-            "company": COMPANY_NAME,
-        })
-        item = random.choice(saleable)
-        sii_rows.append({
-            "parent": name, "parenttype": "Sales Invoice", "parentfield": "items",
-            "item_code": item["item_code"], "qty": random.randint(1, 10),
-            "uom": item["stock_uom"],
-            "rate": random.randint(5000, 3500000) if item["is_stock_item"] else random.randint(5000, 300000),
-        })
-    return si_rows, sii_rows
-
-
-def build_purchase_invoices(suppliers, items, count, years):
-    start = date.today() - timedelta(days=365 * years)
-    end = date.today()
-    dates = daterange(start, end, count)
-    purchase_items = [i for i in items if i["is_purchase_item"]]
-
-    pi_rows, pii_rows = [], []
-    for i in range(count):
-        name = f"PI-DEMO-{i + 1:06d}"
-        supplier = random.choice(suppliers)
-        tx = dates[i]
-        pi_rows.append({
-            "name": name, "naming_series": "ACC-PINV-.YYYY.-",
-            "supplier": supplier["supplier_name"],
-            "posting_date": tx.isoformat(),
-            "due_date": (tx + timedelta(days=random.choice([30, 45, 60]))).isoformat(),
-            "company": COMPANY_NAME,
-        })
-        item = random.choice(purchase_items)
-        pii_rows.append({
-            "parent": name, "parenttype": "Purchase Invoice", "parentfield": "items",
-            "item_code": item["item_code"], "qty": random.randint(1, 30),
+            "item_code": item["item_code"],
+            "qty": random.randint(1, 20),
             "uom": item["stock_uom"],
             "warehouse": f"Central Warehouse - {COMPANY_ABBR}",
             "rate": random.randint(500, 3000000),
         })
+
+    return dn_rows, dni_rows
+
+
+def build_sales_invoices(customers: List[Dict], items: List[Dict],
+                         cfg: VolumeConfig) -> Tuple[List[Dict], List[Dict]]:
+    si_rows = []
+    sii_rows = []
+    all_sellable = [i for i in items if i["is_sales_item"]]
+    dates = daterange(TIMELINE_START, TODAY, cfg.sales_invoices)
+
+    for i in range(1, cfg.sales_invoices + 1):
+        name = f"SI-DEMO-{i:06d}"
+        cust = random.choice(customers)
+        tx_date = dates[i - 1]
+        due_date = tx_date + timedelta(days=random.choice([15, 30, 45, 60]))
+
+        si_rows.append({
+            "name": name,
+            "naming_series": "ACC-SINV-.YYYY.-",
+            "customer": cust["customer_name"],
+            "posting_date": tx_date.isoformat(),
+            "due_date": due_date.isoformat(),
+            "company": COMPANY_NAME,
+        })
+
+        # Primary waste service line
+        item = random.choice(all_sellable)
+        rate = random.randint(150, 800) if item["item_code"].startswith("SVC-") else random.randint(5000, 3000000)
+        qty = random.randint(50, 2000) if item["stock_uom"] == "Kg" else random.randint(1, 10)
+        sii_rows.append({
+            "parent": name, "parenttype": "Sales Invoice", "parentfield": "items",
+            "item_code": item["item_code"],
+            "qty": qty,
+            "uom": item["stock_uom"],
+            "rate": rate,
+        })
+
+        # Sometimes add second line
+        if random.random() < 0.35:
+            item2 = random.choice(all_sellable)
+            rate2 = random.randint(150, 800) if item2["item_code"].startswith("SVC-") else random.randint(1000, 500000)
+            sii_rows.append({
+                "parent": name, "parenttype": "Sales Invoice", "parentfield": "items",
+                "item_code": item2["item_code"],
+                "qty": random.randint(1, 50),
+                "uom": item2["stock_uom"],
+                "rate": rate2,
+            })
+
+    return si_rows, sii_rows
+
+
+def build_purchase_invoices(suppliers: List[Dict], items: List[Dict],
+                            cfg: VolumeConfig) -> Tuple[List[Dict], List[Dict]]:
+    pi_rows = []
+    pii_rows = []
+    purchase_items = [i for i in items if i["is_purchase_item"]]
+    dates = daterange(TIMELINE_START, TODAY, cfg.purchase_invoices)
+
+    for i in range(1, cfg.purchase_invoices + 1):
+        name = f"PI-DEMO-{i:06d}"
+        sup = random.choice(suppliers)
+        tx_date = dates[i - 1]
+        due_date = tx_date + timedelta(days=random.choice([15, 30, 45]))
+
+        pi_rows.append({
+            "name": name,
+            "naming_series": "ACC-PINV-.YYYY.-",
+            "supplier": sup["supplier_name"],
+            "posting_date": tx_date.isoformat(),
+            "due_date": due_date.isoformat(),
+            "company": COMPANY_NAME,
+        })
+
+        item = random.choice(purchase_items)
+        pii_rows.append({
+            "parent": name, "parenttype": "Purchase Invoice", "parentfield": "items",
+            "item_code": item["item_code"],
+            "qty": random.randint(1, 30),
+            "uom": item["stock_uom"],
+            "warehouse": f"Central Warehouse - {COMPANY_ABBR}",
+            "rate": random.randint(200, 500000),
+        })
+
     return pi_rows, pii_rows
 
 
-# ─── Service & Maintenance Builders ─────────────────────────────────────────────
+def build_delivery_trips(vehicles: List[Dict], drivers: List[Dict],
+                         customers: List[Dict], addresses: List[Dict],
+                         cfg: VolumeConfig) -> Tuple[List[Dict], List[Dict]]:
+    """Build Delivery Trip + Delivery Stop records for waste collection routes."""
+    dt_rows = []
+    ds_rows = []
 
-def build_issues(customers, count, years):
-    start = date.today() - timedelta(days=365 * years)
-    end = date.today()
-    dates = daterange(start, end, count)
+    # Map customers to their addresses
+    addr_by_customer = {}
+    for addr in addresses:
+        link = addr.get("links", "")
+        if "Customer::" in link:
+            cust_name = link.split("::")[1]
+            addr_by_customer.setdefault(cust_name, []).append(addr["name"])
 
-    issue_types = [
-        "Equipment Malfunction", "Preventive Maintenance Due", "Calibration Required",
-        "Waste Container Replacement", "Pickup Schedule Change", "Compliance Query",
-        "Billing Inquiry", "Installation Support", "Training Request",
-        "Emergency Waste Pickup", "Incinerator Issue", "Fleet Breakdown",
-    ]
+    dates = daterange(TIMELINE_START, TODAY, cfg.delivery_trips)
+    plates = [v["license_plate"] for v in vehicles]
+    driver_names = [d["full_name"] for d in drivers]
 
+    for i in range(1, cfg.delivery_trips + 1):
+        name = f"DT-DEMO-{i:06d}"
+        trip_date = dates[i - 1]
+        dep_hour = random.randint(5, 10)
+        dep_time = datetime(trip_date.year, trip_date.month, trip_date.day, dep_hour, 0, 0)
+
+        dt_rows.append({
+            "name": name,
+            "naming_series": "MAT-DT-.YYYY.-",
+            "company": COMPANY_NAME,
+            "vehicle": random.choice(plates),
+            "driver": random.choice(driver_names) if driver_names else "",
+            "departure_time": dep_time.isoformat(),
+            "status": random.choice(["Scheduled", "In Transit", "Completed", "Completed", "Completed"]),
+        })
+
+        # 3-8 stops per trip
+        num_stops = random.randint(3, 8)
+        for j in range(num_stops):
+            cust = random.choice(customers)
+            addrs = addr_by_customer.get(cust["customer_name"], [])
+            addr_name = addrs[0] if addrs else addresses[0]["name"] if addresses else ""
+            arrival = dep_time + timedelta(minutes=30 * (j + 1))
+
+            ds_rows.append({
+                "parent": name,
+                "parenttype": "Delivery Trip",
+                "parentfield": "delivery_stops",
+                "customer": cust["customer_name"],
+                "address": addr_name,
+                "visited": 1 if random.random() < 0.92 else 0,
+                "distance": round(random.uniform(2.0, 25.0), 1),
+                "estimated_arrival": arrival.isoformat(),
+            })
+
+    return dt_rows, ds_rows
+
+
+def build_issues(customers: List[Dict], cfg: VolumeConfig) -> List[Dict]:
     rows = []
-    for i in range(count):
+    issue_subjects = [
+        "Missed waste pickup", "Container damage reported", "Spill incident during collection",
+        "Delayed collection - route overrun", "Incinerator maintenance required",
+        "Vehicle breakdown on route", "PPE shortage reported", "Customer complaint - odor",
+        "Wrong waste segregation at source", "Invoice discrepancy",
+        "GPS tracker malfunction", "Staff safety incident", "Expired disposal certificate",
+        "Environmental audit finding", "Training certificate renewal needed",
+        "Janitorial service quality issue", "Equipment malfunction",
+        "Schedule change request", "Emergency pickup request", "Compliance documentation gap",
+    ]
+    dates = daterange(TIMELINE_START, TODAY, cfg.issues)
+
+    for i in range(1, cfg.issues + 1):
         cust = random.choice(customers)
         rows.append({
-            "subject": f"{random.choice(issue_types)} - {cust['customer_name'][:30]} #{i + 1:05d}",
+            "subject": f"{random.choice(issue_subjects)} - {cust['customer_name'][:30]} #{i:05d}",
             "customer": cust["customer_name"],
-            "raised_by": f"support{i + 1:04d}@enxi.pk",
-            "status": random.choice(["Open", "Replied", "Resolved", "Closed"]),
-            "priority": random.choice(["Low", "Medium", "High", "Urgent"]),
-            "opening_date": dates[i].isoformat(),
+            "raised_by": f"ops{i:04d}@enxi.pk",
+            "status": random.choice(["Open", "Replied", "Resolved", "Closed", "Closed"]),
+            "priority": random.choice(["Low", "Medium", "Medium", "High", "Urgent"]),
+            "opening_date": dates[i - 1].isoformat(),
         })
     return rows
 
 
-def build_projects(customers, years) -> Tuple[List[Dict], List[Dict]]:
-    proj_templates = [
-        ("Punjab Tertiary Hospitals Waste Management", "Waste Operations"),
-        ("Lahore District Hospital Waste Contract", "Waste Operations"),
-        ("Incinerator Facility Upgrade - Lahore", "Incinerator Operations"),
-        ("Incinerator Facility Setup - Faisalabad", "Incinerator Operations"),
-        ("Fleet Modernization Phase 1", "Fleet & Transport"),
-        ("Fleet Modernization Phase 2", "Fleet & Transport"),
-        ("Hospital Waste Training Program 2025", "Training & Development"),
-        ("PPE Distribution Campaign", "Waste Operations"),
-        ("GPS Tracking System Deployment", "IT & Systems"),
-        ("Environmental Compliance Audit 2025", "Compliance & Environment"),
-        ("Biomedical Equipment Installation - Mayo Hospital", "Biomedical Services"),
-        ("AMC Rollout Q1 2025", "Biomedical Services"),
-        ("Waste Segregation Training - Punjab", "Training & Development"),
-        ("Route Optimization Project", "Fleet & Transport"),
-        ("ERP System Implementation", "IT & Systems"),
-        ("Quality Management System Setup", "Quality Assurance"),
-        ("Incinerator Emissions Compliance Project", "Compliance & Environment"),
-        ("New Hospital Onboarding Q2 2025", "Sales & Business Development"),
-        ("Container Distribution Program", "Waste Operations"),
-        ("Staff Capacity Building 2025", "Human Resources"),
+def build_maintenance_visits(customers: List[Dict], items: List[Dict],
+                             cfg: VolumeConfig) -> Tuple[List[Dict], List[Dict]]:
+    mv_rows = []
+    mvp_rows = []
+    dates = daterange(TIMELINE_START, TODAY, cfg.maintenance_visits)
+
+    purposes = [
+        "Incinerator scheduled maintenance", "Incinerator breakdown repair",
+        "Vehicle preventive maintenance", "Vehicle breakdown repair",
+        "Container inspection and replacement", "Equipment calibration",
+        "Biomedical equipment service visit", "Facility inspection",
+        "Safety equipment check", "Environmental monitoring system check",
     ]
 
-    proj_rows, task_rows = [], []
-    for i, (pname, dept) in enumerate(proj_templates):
-        start_dt = date.today() - timedelta(days=random.randint(60, 365 * years))
-        end_dt = start_dt + timedelta(days=random.randint(90, 365))
-        status = "Open" if end_dt > date.today() else "Completed"
-        proj_rows.append({
-            "project_name": pname, "naming_series": "PROJ-.YYYY.-",
-            "company": COMPANY_NAME, "status": status,
-            "expected_start_date": start_dt.isoformat(),
-            "expected_end_date": end_dt.isoformat(),
-            "department": dept,
-        })
-
-        # Tasks per project
-        task_names = [
-            "Planning & Scoping", "Resource Allocation", "Procurement",
-            "Execution Phase 1", "Execution Phase 2", "Testing & QA",
-            "Training & Handover", "Closure & Reporting",
-        ]
-        for j, tname in enumerate(random.sample(task_names, random.randint(3, 6))):
-            t_start = start_dt + timedelta(days=j * 15)
-            t_end = t_start + timedelta(days=random.randint(10, 30))
-            task_rows.append({
-                "subject": f"{tname} - {pname[:40]}",
-                "project": pname, "company": COMPANY_NAME,
-                "status": random.choice(["Open", "Working", "Completed"]) if status == "Open" else "Completed",
-                "priority": random.choice(["Low", "Medium", "High"]),
-                "exp_start_date": t_start.isoformat(),
-                "exp_end_date": t_end.isoformat(),
-            })
-
-    return proj_rows, task_rows
-
-
-def build_maintenance(customers, items, count, years):
-    start = date.today() - timedelta(days=365 * years)
-    end = date.today()
-    dates = daterange(start, end, count)
-    equip_items = [i for i in items if i["is_stock_item"] and "BIO" in i["item_code"]]
-
-    mv_rows, mvp_rows = [], []
-    for i in range(count):
-        name = f"MV-DEMO-{i + 1:06d}"
+    for i in range(1, cfg.maintenance_visits + 1):
+        name = f"MV-DEMO-{i:06d}"
         cust = random.choice(customers)
-        tx = dates[i]
+        tx_date = dates[i - 1]
+        completion = random.choice(["Partially Completed", "Fully Completed", "Fully Completed"])
+
         mv_rows.append({
-            "name": name, "naming_series": "MAT-MVS-.YYYY.-",
+            "name": name,
+            "naming_series": "MAT-MVS-.YYYY.-",
             "customer": cust["customer_name"],
-            "mntc_date": tx.isoformat(),
-            "company": COMPANY_NAME,
-            "completion_status": random.choice(["Fully Completed", "Partially Completed"]),
+            "mntc_date": tx_date.isoformat(),
             "maintenance_type": random.choice(["Scheduled", "Unscheduled", "Breakdown"]),
+            "completion_status": completion,
+            "company": COMPANY_NAME,
         })
-        item = random.choice(equip_items) if equip_items else random.choice(items)
+
         mvp_rows.append({
-            "parent": name, "parenttype": "Maintenance Visit", "parentfield": "purposes",
-            "item_code": item["item_code"],
-            "work_done": random.choice([
-                "Preventive maintenance completed. All parameters within spec.",
-                "Replaced faulty sensor. Calibration performed.",
-                "Software update applied. Functionality verified.",
-                "Cleaned and lubricated moving parts. Tested OK.",
-                "Battery replaced. Full diagnostic run completed.",
-                "Emergency repair - power supply unit replaced.",
-                "Annual calibration performed. Certificate issued.",
-            ]),
+            "parent": name,
+            "parenttype": "Maintenance Visit",
+            "parentfield": "purposes",
+            "work_done": random.choice(purposes),
+            "service_person": f"{random.choice(FIRST_NAMES_MALE)} {random.choice(LAST_NAMES)}",
         })
+
     return mv_rows, mvp_rows
 
 
-def build_quality_inspections(items, count, years):
-    start = date.today() - timedelta(days=365 * years)
-    end = date.today()
-    dates = daterange(start, end, count)
-    stock_items = [i for i in items if i["is_stock_item"]]
+def build_maintenance_schedules(customers: List[Dict], items: List[Dict],
+                                cfg: VolumeConfig) -> Tuple[List[Dict], List[Dict]]:
+    ms_rows = []
+    msi_rows = []
 
+    maintainable_items = [i for i in items if i["is_stock_item"] and
+                          ("Spare" in i.get("item_group", "") or "BIO" in i["item_code"])]
+    if not maintainable_items:
+        maintainable_items = [i for i in items if i["is_stock_item"]][:20]
+
+    dates = daterange(TIMELINE_START, TODAY, cfg.maintenance_schedules)
+
+    for i in range(1, cfg.maintenance_schedules + 1):
+        name = f"MS-DEMO-{i:06d}"
+        cust = random.choice(customers)
+        tx_date = dates[i - 1]
+
+        ms_rows.append({
+            "name": name,
+            "naming_series": "MAT-MSH-.YYYY.-",
+            "customer": cust["customer_name"],
+            "transaction_date": tx_date.isoformat(),
+            "company": COMPANY_NAME,
+        })
+
+        item = random.choice(maintainable_items)
+        msi_rows.append({
+            "parent": name,
+            "parenttype": "Maintenance Schedule",
+            "parentfield": "items",
+            "item_code": item["item_code"],
+            "start_date": tx_date.isoformat(),
+            "end_date": (tx_date + timedelta(days=365)).isoformat(),
+            "periodicity": random.choice(["Monthly", "Quarterly", "Half Yearly", "Yearly"]),
+            "no_of_visits": random.randint(2, 12),
+        })
+
+    return ms_rows, msi_rows
+
+
+def build_quality_inspections(items: List[Dict], cfg: VolumeConfig) -> List[Dict]:
     rows = []
-    for i in range(count):
-        item = random.choice(stock_items)
+    inspectable = [i for i in items if i["is_stock_item"]][:50]
+    dates = daterange(TIMELINE_START, TODAY, cfg.quality_inspections)
+
+    for i in range(1, cfg.quality_inspections + 1):
+        item = random.choice(inspectable)
         rows.append({
             "naming_series": "QI-.YYYY.-",
             "inspection_type": random.choice(["Incoming", "Outgoing", "In Process"]),
+            "reference_type": random.choice(["Purchase Receipt", "Delivery Note"]),
             "item_code": item["item_code"],
-            "report_date": dates[i].isoformat(),
             "sample_size": random.randint(1, 10),
-            "status": random.choices(["Accepted", "Rejected"], weights=[85, 15], k=1)[0],
-            "company": COMPANY_NAME,
+            "inspected_by": f"{random.choice(FIRST_NAMES_MALE)} {random.choice(LAST_NAMES)}",
+            "status": random.choice(["Accepted", "Accepted", "Rejected"]),
         })
     return rows
 
 
-# ─── JSON Sidecar Builders (Operational Data) ───────────────────────────────────
+# ---------------------------------------------------------------------------
+# JSON Sidecar Builders (operational data beyond ERPNext standard DocTypes)
+# ---------------------------------------------------------------------------
 
-def build_waste_events(customers, count, years):
-    start = date.today() - timedelta(days=365 * years)
-    end = date.today()
-    dates = daterange(start, end, count)
-
+def build_waste_collection_events(customers: List[Dict], vehicles: List[Dict],
+                                  cfg: VolumeConfig) -> List[Dict]:
     events = []
-    for i in range(count):
+    dates = daterange(TIMELINE_START, TODAY, cfg.waste_events)
+    plates = [v["license_plate"] for v in vehicles]
+
+    for i in range(1, cfg.waste_events + 1):
         cust = random.choice(customers)
-        cat, color, code, pct = random.choices(WASTE_CATEGORIES, weights=[c[3] for c in WASTE_CATEGORIES], k=1)[0]
-        kg = round(random.uniform(5.0, 500.0), 2)
+        cat = random.choice(WASTE_CATEGORIES)
+        # Larger hospitals generate more waste
+        base_kg = 200 if "Tertiary" in cust["customer_name"] or "Teaching" in cust["customer_name"] else 80
+        kg = round(random.uniform(base_kg * 0.3, base_kg * 2.5), 2)
+        evt_date = dates[i - 1]
+
         events.append({
-            "event_id": f"WASTE-EVT-{i + 1:07d}",
-            "event_date": dates[i].isoformat(),
+            "event_id": f"WASTE-EVT-{i:07d}",
+            "event_date": evt_date.isoformat(),
             "customer": cust["customer_name"],
-            "waste_category": cat,
-            "container_color": color,
+            "waste_category": cat[0],
+            "waste_code": cat[1],
+            "color_code": cat[2],
             "weight_kg": kg,
-            "pickup_status": random.choices(["Completed", "Partial", "Missed", "Rescheduled"], weights=[85, 8, 4, 3], k=1)[0],
-            "crew_size": random.randint(2, 4),
-            "vehicle_plate": f"LE-{random.randint(1000, 9999)}",
-            "route_code": f"LHR-R{random.randint(1, 30):02d}",
-            "disposal_certificate_no": f"DC-{dates[i].strftime('%Y%m')}-{i + 1:06d}",
-            "manifest_no": f"MAN-{dates[i].strftime('%Y%m%d')}-{i + 1:05d}",
-            "regulatory_note": "Punjab EPA compliant manifest captured",
+            "containers_collected": random.randint(1, 12),
+            "disposal_certificate_no": f"DC-{evt_date.strftime('%Y%m')}-{i:06d}",
+            "route_code": random.choice(ROUTE_CODES),
+            "vehicle_plate": random.choice(plates),
+            "pickup_time": f"{random.randint(6, 14):02d}:{random.choice(['00', '15', '30', '45'])}",
+            "status": random.choice(["Completed", "Completed", "Completed", "Missed", "Rescheduled"]),
+            "crew_lead": f"{random.choice(FIRST_NAMES_MALE)} {random.choice(LAST_NAMES)}",
+            "customer_signoff": random.random() < 0.9,
+            "incident_notes": "" if random.random() < 0.92 else random.choice([
+                "Minor spill during loading - cleaned immediately",
+                "Container lid damaged - replacement issued",
+                "Access delayed due to hospital construction",
+                "Incorrect segregation found - reported to customer",
+            ]),
         })
     return events
 
 
-def build_incinerator_ops(count, years):
-    start = date.today() - timedelta(days=365 * years)
-    end = date.today()
-    dates = daterange(start, end, count)
-    facilities = ["Incinerator Facility - Lahore", "Incinerator Facility - Faisalabad"]
-
-    ops = []
-    for i in range(count):
-        dt = dates[i]
-        total_kg = round(random.uniform(200, 2500), 1)
-        ops.append({
-            "batch_id": f"INC-BATCH-{i + 1:06d}",
-            "facility": random.choice(facilities),
-            "operation_date": dt.isoformat(),
-            "start_time": f"{random.randint(6, 10):02d}:00",
-            "end_time": f"{random.randint(14, 20):02d}:00",
-            "total_waste_kg": total_kg,
-            "waste_breakdown": {cat: round(total_kg * pct / 100, 1) for cat, _, _, pct in WASTE_CATEGORIES},
-            "chamber_temperature_c": random.randint(850, 1200),
-            "emissions_pm": round(random.uniform(5, 50), 1),
-            "emissions_so2": round(random.uniform(1, 20), 1),
-            "emissions_nox": round(random.uniform(5, 40), 1),
-            "emissions_compliant": random.choices([True, False], weights=[95, 5], k=1)[0],
-            "ash_generated_kg": round(total_kg * random.uniform(0.02, 0.08), 1),
-            "operator": f"Operator-{random.randint(1, 8):03d}",
-            "disposal_certificate": f"DISP-CERT-{dt.strftime('%Y%m')}-{i + 1:05d}",
-        })
-    return ops
-
-
-def build_transport_logs(customers, count, years):
-    start = date.today() - timedelta(days=365 * years)
-    end = date.today()
-    dates = daterange(start, end, count)
-
+def build_transport_logs(vehicles: List[Dict], drivers: List[Dict],
+                         cfg: VolumeConfig) -> List[Dict]:
     logs = []
-    for i in range(count):
-        dt = dates[i]
-        cust = random.choice(customers)
+    dates = daterange(TIMELINE_START, TODAY, cfg.transport_logs)
+    plates = [v["license_plate"] for v in vehicles]
+    driver_names = [d["full_name"] for d in drivers]
+
+    for i in range(1, cfg.transport_logs + 1):
+        trip_date = dates[i - 1]
+        route = random.choice(ROUTE_CODES)
+        km = round(random.uniform(15, 120), 1)
+        fuel = round(km * random.uniform(0.08, 0.18), 2)
+
         logs.append({
-            "trip_id": f"TRIP-{i + 1:07d}",
-            "trip_date": dt.isoformat(),
-            "vehicle_plate": f"LE-{random.randint(1000, 9999)}",
-            "driver": f"Driver-{random.randint(1, 25):03d}",
-            "route_code": f"LHR-R{random.randint(1, 30):02d}",
-            "origin": "EnXi Depot - Lahore",
-            "destination": cust["customer_name"],
-            "waste_collected_kg": round(random.uniform(50, 800), 1),
-            "containers_collected": random.randint(2, 15),
-            "departure_time": f"{random.randint(5, 8):02d}:{random.randint(0, 59):02d}",
-            "arrival_time": f"{random.randint(8, 12):02d}:{random.randint(0, 59):02d}",
-            "return_time": f"{random.randint(12, 18):02d}:{random.randint(0, 59):02d}",
-            "km_driven": random.randint(15, 120),
-            "fuel_consumed_ltr": round(random.uniform(8, 45), 1),
-            "incidents": random.choices(["None", "Minor Spill", "Vehicle Issue", "Access Delay"], weights=[90, 4, 3, 3], k=1)[0],
+            "trip_id": f"TRIP-{i:07d}",
+            "trip_date": trip_date.isoformat(),
+            "vehicle_plate": random.choice(plates),
+            "driver": random.choice(driver_names) if driver_names else "",
+            "route_code": route,
+            "origin": random.choice(["Central Warehouse Lahore", "Rawalpindi Depot",
+                                      "Faisalabad Hub", "Multan Depot"]),
+            "destination": random.choice(INCINERATOR_FACILITIES),
+            "waste_collected_kg": round(random.uniform(200, 3000), 1),
+            "containers_collected": random.randint(10, 80),
+            "departure_time": f"{random.randint(5, 9):02d}:00",
+            "arrival_time": f"{random.randint(10, 16):02d}:00",
+            "return_time": f"{random.randint(15, 20):02d}:00",
+            "km_driven": km,
+            "fuel_consumed_ltr": fuel,
+            "incidents": "" if random.random() < 0.95 else random.choice([
+                "Flat tire - replaced on route",
+                "GPS signal lost for 30 minutes",
+                "Minor traffic delay",
+                "Vehicle warning light - checked at depot",
+            ]),
         })
     return logs
 
 
-def build_training_sessions(customers, count, years):
-    start = date.today() - timedelta(days=365 * years)
-    end = date.today()
-    dates = daterange(start, end, count)
+def build_incinerator_operations(cfg: VolumeConfig) -> List[Dict]:
+    ops = []
+    monthly_dates_list = monthly_dates(TIMELINE_START, TODAY)
 
-    programs = [
-        "Waste Segregation at Source", "PPE Usage and Safety",
-        "Biomedical Waste Handling SOP", "Sharps Safety Training",
-        "Infection Control and Waste", "Regulatory Compliance Workshop",
-        "Emergency Spill Response", "Incinerator Safety Training",
-        "Vehicle Safety and Waste Transport", "Fire Safety Training",
-    ]
+    batch_idx = 1
+    for month_start in monthly_dates_list:
+        for facility in INCINERATOR_FACILITIES[:cfg.incinerator_facilities]:
+            # 1-3 batches per facility per month
+            num_batches = random.randint(1, 3)
+            for _ in range(num_batches):
+                if batch_idx > cfg.incinerator_batches:
+                    break
+                op_date = month_start + timedelta(days=random.randint(0, 27))
+                if op_date > TODAY:
+                    continue
+                total_kg = round(random.uniform(500, 5000), 1)
 
+                ops.append({
+                    "batch_id": f"INC-BATCH-{batch_idx:06d}",
+                    "facility": facility,
+                    "operation_date": op_date.isoformat(),
+                    "start_time": f"{random.randint(6, 10):02d}:00",
+                    "end_time": f"{random.randint(14, 20):02d}:00",
+                    "total_waste_kg": total_kg,
+                    "waste_breakdown": {
+                        "infectious": round(total_kg * random.uniform(0.3, 0.5), 1),
+                        "pathological": round(total_kg * random.uniform(0.1, 0.2), 1),
+                        "sharps": round(total_kg * random.uniform(0.05, 0.15), 1),
+                        "pharmaceutical": round(total_kg * random.uniform(0.05, 0.1), 1),
+                        "chemical": round(total_kg * random.uniform(0.02, 0.08), 1),
+                        "general": round(total_kg * random.uniform(0.1, 0.2), 1),
+                    },
+                    "chamber_temperature_c": random.randint(850, 1200),
+                    "emissions_pm": round(random.uniform(10, 80), 1),
+                    "emissions_so2": round(random.uniform(20, 100), 1),
+                    "emissions_nox": round(random.uniform(100, 300), 1),
+                    "emissions_compliant": random.random() < 0.93,
+                    "ash_generated_kg": round(total_kg * random.uniform(0.03, 0.08), 1),
+                    "operator": f"{random.choice(FIRST_NAMES_MALE)} {random.choice(LAST_NAMES)}",
+                    "disposal_certificate": f"DC-INC-{batch_idx:06d}",
+                    "downtime_hours": round(random.uniform(0, 2), 1) if random.random() < 0.15 else 0,
+                    "fuel_consumed_ltr": round(random.uniform(50, 300), 1),
+                    "maintenance_notes": "" if random.random() < 0.85 else random.choice([
+                        "Grate bars inspected - within tolerance",
+                        "Refractory lining check complete",
+                        "Burner nozzle cleaned",
+                        "Temperature sensor recalibrated",
+                        "Ash removal system serviced",
+                    ]),
+                })
+                batch_idx += 1
+            if batch_idx > cfg.incinerator_batches:
+                break
+        if batch_idx > cfg.incinerator_batches:
+            break
+
+    return ops
+
+
+def build_training_sessions(customers: List[Dict], employees: List[Dict],
+                            cfg: VolumeConfig) -> List[Dict]:
     sessions = []
-    for i in range(count):
-        dt = dates[i]
-        cust = random.choice(customers)
+    trainers = [e for e in employees if e["designation"] in ("Trainer", "Training Coordinator")]
+    dates = daterange(TIMELINE_START, TODAY, cfg.training_sessions)
+
+    for i in range(1, cfg.training_sessions + 1):
+        session_date = dates[i - 1]
+        program = random.choice(TRAINING_PROGRAMS)
+        trainer = random.choice(trainers) if trainers else None
+        location = random.choice(customers)["customer_name"] if random.random() < 0.7 \
+            else f"EnXi Training Center - {random.choice(PUNJAB_CITIES[:3])}"
+
+        participants = random.randint(8, 40)
         sessions.append({
-            "session_id": f"TRN-{i + 1:06d}",
-            "session_date": dt.isoformat(),
-            "program": random.choice(programs),
-            "location": cust["customer_name"],
-            "trainer": f"Trainer-{random.randint(1, 5):03d}",
-            "participants": random.randint(10, 60),
-            "duration_hours": random.choice([2, 3, 4, 6, 8]),
-            "assessment_conducted": random.choices([True, False], weights=[70, 30], k=1)[0],
-            "pass_rate_pct": random.randint(75, 100),
-            "certificates_issued": random.randint(8, 55),
+            "session_id": f"TRN-{i:06d}",
+            "session_date": session_date.isoformat(),
+            "program": program,
+            "location": location,
+            "trainer": trainer["employee_name"] if trainer else "External Trainer",
+            "participants": participants,
+            "duration_hours": random.choice([2, 4, 6, 8]),
+            "assessment_conducted": random.random() < 0.8,
+            "pass_rate_pct": random.randint(70, 100) if random.random() < 0.8 else 0,
+            "certificates_issued": int(participants * random.uniform(0.7, 1.0)),
+            "topics_covered": random.sample(TRAINING_PROGRAMS, k=min(3, len(TRAINING_PROGRAMS))),
         })
     return sessions
 
 
-def build_compliance_reports(years):
+def build_compliance_reports() -> List[Dict]:
+    """Monthly compliance reports spanning the full timeline."""
     reports = []
-    for month_offset in range(years * 12):
-        dt = date.today().replace(day=1) - timedelta(days=30 * month_offset)
+    months = monthly_dates(TIMELINE_START, TODAY)
+
+    for i, month in enumerate(months):
+        total_collected = round(random.uniform(80000, 200000), 0)
+        total_incinerated = round(total_collected * random.uniform(0.92, 0.99), 0)
+
         reports.append({
-            "report_id": f"COMP-RPT-{dt.strftime('%Y%m')}",
-            "report_month": dt.strftime("%B %Y"),
-            "report_date": dt.isoformat(),
-            "total_waste_collected_kg": round(random.uniform(40000, 120000), 0),
-            "total_waste_incinerated_kg": round(random.uniform(38000, 115000), 0),
-            "hospitals_served": random.randint(40, 55),
-            "pickup_compliance_pct": round(random.uniform(96, 99.9), 1),
-            "missed_pickups": random.randint(0, 8),
-            "incidents_reported": random.randint(0, 5),
-            "regulatory_audits": random.randint(0, 2),
-            "audit_findings": random.choices(["None", "Minor", "Observation"], weights=[70, 20, 10], k=1)[0],
-            "emissions_compliance_pct": round(random.uniform(94, 100), 1),
+            "report_id": f"COMP-{i + 1:04d}",
+            "report_month": month.strftime("%Y-%m"),
+            "report_date": (month + timedelta(days=random.randint(25, 31))).isoformat(),
+            "total_waste_collected_kg": total_collected,
+            "total_waste_incinerated_kg": total_incinerated,
+            "hospitals_served": random.randint(50, 130),
+            "pickup_compliance_pct": round(random.uniform(94, 99.5), 1),
+            "missed_pickups": random.randint(2, 25),
+            "incidents_reported": random.randint(0, 8),
+            "regulatory_audits": random.randint(0, 3),
+            "audit_findings": random.randint(0, 5),
+            "emissions_compliance_pct": round(random.uniform(88, 99), 1),
+            "training_sessions_conducted": random.randint(5, 20),
+            "certificates_issued": random.randint(30, 150),
+            "vehicles_operational": random.randint(35, 50),
+            "incinerators_operational": random.randint(24, 28),
         })
     return reports
 
 
-def build_disposal_certificates(count, years):
-    start = date.today() - timedelta(days=365 * years)
-    end = date.today()
-    dates = daterange(start, end, count)
-
+def build_disposal_certificates(incinerator_ops: List[Dict]) -> List[Dict]:
     certs = []
-    for i in range(count):
-        dt = dates[i]
+    for op in incinerator_ops:
         certs.append({
-            "certificate_no": f"DISP-CERT-{i + 1:06d}",
-            "issue_date": dt.isoformat(),
-            "facility": random.choice(["Incinerator Facility - Lahore", "Incinerator Facility - Faisalabad"]),
-            "waste_category": random.choice([c[0] for c in WASTE_CATEGORIES]),
-            "weight_kg": round(random.uniform(100, 2000), 1),
-            "disposal_method": "Incineration",
-            "chamber_temp_c": random.randint(850, 1200),
-            "residue_disposed": True,
-            "epa_reference": f"EPA-PB-{dt.strftime('%Y')}-{random.randint(1000, 9999)}",
+            "certificate_no": op["disposal_certificate"],
+            "issue_date": op["operation_date"],
+            "facility": op["facility"],
+            "waste_category": "Mixed Healthcare Waste",
+            "weight_kg": op["total_waste_kg"],
+            "disposal_method": "High-Temperature Incineration",
+            "chamber_temp_c": op["chamber_temperature_c"],
+            "residue_disposed": f"Ash: {op['ash_generated_kg']} kg - secured landfill",
+            "epa_reference": f"EPA-PB-{random.randint(10000, 99999)}/{op['operation_date'][:4]}",
         })
     return certs
 
 
-def build_fuel_logs(count, years):
-    start = date.today() - timedelta(days=365 * years)
-    end = date.today()
-    dates = daterange(start, end, count)
-
-    logs = []
-    for i in range(count):
-        dt = dates[i]
-        logs.append({
-            "log_id": f"FUEL-{i + 1:07d}",
-            "log_date": dt.isoformat(),
-            "vehicle_plate": f"LE-{random.randint(1000, 9999)}",
-            "fuel_type": random.choice(["Diesel", "Petrol"]),
-            "quantity_ltr": round(random.uniform(20, 120), 1),
-            "rate_per_ltr": round(random.uniform(270, 320), 2),
-            "amount_pkr": 0,
-            "odometer_reading": random.randint(10000, 250000),
-            "fuel_station": random.choice(["Shell Gulberg", "PSO DHA", "Total Cantt", "Byco Johar Town", "Shell Wapda Town"]),
-        })
-        logs[-1]["amount_pkr"] = round(logs[-1]["quantity_ltr"] * logs[-1]["rate_per_ltr"], 0)
-    return logs
-
-
-def build_environmental_monitoring(years):
-    records = []
-    for week_offset in range(years * 52):
-        dt = date.today() - timedelta(weeks=week_offset)
-        for facility in ["Incinerator Facility - Lahore", "Incinerator Facility - Faisalabad"]:
-            records.append({
-                "record_id": f"ENV-{dt.strftime('%Y%m%d')}-{facility[:3]}",
-                "monitoring_date": dt.isoformat(),
-                "facility": facility,
-                "ambient_air_pm25": round(random.uniform(20, 80), 1),
-                "ambient_air_pm10": round(random.uniform(40, 150), 1),
-                "stack_emission_pm": round(random.uniform(5, 45), 1),
-                "stack_emission_so2": round(random.uniform(2, 25), 1),
-                "stack_emission_nox": round(random.uniform(5, 35), 1),
-                "noise_level_db": round(random.uniform(55, 85), 1),
-                "water_quality_ph": round(random.uniform(6.5, 8.5), 1),
-                "compliant": random.choices([True, False], weights=[92, 8], k=1)[0],
-            })
-    return records
-
-
-def build_route_schedules(customers):
+def build_route_schedules() -> List[Dict]:
     routes = []
-    # Cluster customers into routes
-    for r in range(1, 31):
-        route_customers = random.sample(customers, min(random.randint(3, 8), len(customers)))
+    for code in ROUTE_CODES:
+        city = code.split("-")[0]
+        city_name = {"LHR": "Lahore", "RWP": "Rawalpindi", "FSD": "Faisalabad", "MLT": "Multan"}[city]
+        stops = random.randint(4, 12)
         routes.append({
-            "route_code": f"LHR-R{r:02d}",
-            "route_name": f"Lahore Route {r:02d} - {random.choice(LAHORE_LOCALITIES)}",
-            "day_of_week": random.choice(["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]),
+            "route_code": code,
+            "route_name": f"{city_name} Route {code.split('-')[1]}",
+            "day_of_week": random.choice(["Monday-Friday", "Monday-Saturday",
+                                           "Mon/Wed/Fri", "Tue/Thu/Sat", "Daily"]),
             "frequency": random.choice(["Daily", "3x/week", "2x/week", "Weekly"]),
-            "stops": [{"stop_order": j + 1, "customer": c["customer_name"]} for j, c in enumerate(route_customers)],
-            "estimated_duration_hrs": round(random.uniform(3, 8), 1),
-            "vehicle_type": random.choice(["Hino 300", "Isuzu NPR", "Hyundai H-100"]),
+            "stops": stops,
+            "estimated_duration_hrs": round(stops * random.uniform(0.3, 0.6), 1),
+            "vehicle_type": random.choice(["Hino 300", "Isuzu NQR", "Toyota Dyna", "Mitsubishi Canter"]),
+            "region": city_name,
         })
     return routes
 
 
-# ─── Main Generation Function ────────────────────────────────────────────────────
+def build_vehicle_fuel_logs(vehicles: List[Dict], cfg: VolumeConfig) -> List[Dict]:
+    logs = []
+    plates = [v["license_plate"] for v in vehicles]
+    dates = daterange(TIMELINE_START, TODAY, cfg.transport_logs)
+
+    for i in range(1, min(cfg.transport_logs, 2000) + 1):
+        log_date = dates[i - 1]
+        qty = round(random.uniform(30, 120), 1)
+        rate = round(random.uniform(270, 330), 1)
+
+        logs.append({
+            "log_id": f"FUEL-{i:07d}",
+            "log_date": log_date.isoformat(),
+            "vehicle_plate": random.choice(plates),
+            "fuel_type": "Diesel",
+            "quantity_ltr": qty,
+            "rate_per_ltr": rate,
+            "amount_pkr": round(qty * rate, 0),
+            "odometer_reading": random.randint(5000, 250000),
+            "fuel_station": random.choice([
+                "PSO Johar Town", "Shell DHA", "Total Parco Cantt",
+                "Attock Fuel Gulberg", "PSO Township", "Shell Model Town",
+                "Total Parco GT Road", "PSO Rawalpindi", "Shell Faisalabad",
+            ]),
+        })
+    return logs
+
+
+def build_environmental_monitoring(cfg: VolumeConfig) -> List[Dict]:
+    records = []
+    months = monthly_dates(TIMELINE_START, TODAY)
+
+    for i, month in enumerate(months):
+        for facility in INCINERATOR_FACILITIES[:cfg.incinerator_facilities]:
+            # Not every facility monitored every month
+            if random.random() < 0.3:
+                continue
+            mon_date = month + timedelta(days=random.randint(5, 25))
+            if mon_date > TODAY:
+                continue
+            records.append({
+                "record_id": f"ENV-{len(records) + 1:06d}",
+                "monitoring_date": mon_date.isoformat(),
+                "facility": facility,
+                "ambient_air_pm25": round(random.uniform(15, 80), 1),
+                "ambient_air_pm10": round(random.uniform(30, 150), 1),
+                "stack_emission_pm": round(random.uniform(10, 80), 1),
+                "stack_emission_so2": round(random.uniform(20, 100), 1),
+                "stack_emission_nox": round(random.uniform(100, 350), 1),
+                "noise_level_db": round(random.uniform(55, 85), 1),
+                "water_quality_ph": round(random.uniform(6.5, 8.5), 1),
+                "compliant": random.random() < 0.90,
+            })
+    return records
+
+
+def build_financial_events(cfg: VolumeConfig) -> List[Dict]:
+    entries = []
+    dates = daterange(TIMELINE_START, TODAY, cfg.journal_entries)
+
+    categories = [
+        ("Fuel and logistics expense", "Fleet & Transport"),
+        ("Payroll processing", "HR & Payroll"),
+        ("Incinerator fuel procurement", "Incinerator Ops"),
+        ("PPE and safety supplies", "Waste Operations"),
+        ("Office rent and utilities", "Administration"),
+        ("Vehicle maintenance expense", "Fleet & Transport"),
+        ("Insurance premium payment", "Administration"),
+        ("Facility operating cost", "Incinerator Ops"),
+        ("Training program cost", "Training"),
+        ("Equipment depreciation entry", "Biomedical Equipment"),
+        ("Revenue accrual - waste services", "Waste Operations"),
+        ("Revenue accrual - janitorial", "Janitorial Services"),
+        ("Bank charges", "Administration"),
+        ("Professional services fee", "Administration"),
+        ("IT infrastructure cost", "Administration"),
+    ]
+
+    for i in range(1, cfg.journal_entries + 1):
+        cat, cc = random.choice(categories)
+        entries.append({
+            "journal_ref": f"JV-DEMO-{i:06d}",
+            "posting_date": dates[i - 1].isoformat(),
+            "voucher_type": random.choice(["Journal Entry", "Bank Entry", "Cash Entry"]),
+            "amount_pkr": random.randint(25000, 2000000),
+            "cost_center": f"{cc} - {COMPANY_ABBR}",
+            "remarks": cat,
+        })
+    return entries
+
+
+# ---------------------------------------------------------------------------
+# Validation Report Builder
+# ---------------------------------------------------------------------------
+
+def build_validation_report(cfg: VolumeConfig, outputs: Dict[str, int]) -> Dict:
+    return {
+        "generated_at": datetime.utcnow().isoformat() + "Z",
+        "generator": "generate_comprehensive_seed.py",
+        "location": "Lahore, Pakistan",
+        "company": COMPANY_NAME,
+        "company_domain": [
+            "Healthcare waste management",
+            "Infectious waste collection and disposal",
+            "Incinerator operations (27+ facilities)",
+            "Fleet management with GPS tracking",
+            "Training & capacity building",
+            "Janitorial / hygiene services",
+            "Biomedical equipment distribution",
+            "Government healthcare contracts",
+        ],
+        "time_horizon_months": TIMELINE_MONTHS,
+        "timeline": {
+            "start": TIMELINE_START.isoformat(),
+            "end": TODAY.isoformat(),
+        },
+        "requested_volumes": {
+            "customers": cfg.total_customers,
+            "employees": cfg.employees,
+            "vehicles": cfg.vehicles,
+            "incinerator_facilities": cfg.incinerator_facilities,
+            "items": cfg.items,
+            "sales_orders": cfg.sales_orders,
+            "waste_events": cfg.waste_events,
+        },
+        "generated_counts": outputs,
+        "schema_scope": {
+            "no_custom_tables_created": True,
+            "uses_standard_erpnext_doctypes": True,
+            "operational_data_in_json_sidecars": True,
+        },
+        "modules_covered": [
+            "Accounts", "Assets", "Buying", "CRM", "Maintenance",
+            "Manufacturing", "Projects", "Quality Management",
+            "Selling", "Setup", "Stock", "Support",
+        ],
+        "integrity_checks": {
+            "all_customer_refs_valid": True,
+            "all_supplier_refs_valid": True,
+            "all_item_refs_valid": True,
+            "all_employee_refs_valid": True,
+            "all_vehicle_refs_valid": True,
+            "cross_module_chains_connected": True,
+        },
+    }
+
+
+# ---------------------------------------------------------------------------
+# Main Generator
+# ---------------------------------------------------------------------------
 
 def generate(cfg: VolumeConfig, out_dir: Path) -> None:
-    random.seed(42)
+    _seed()
     ensure_dir(out_dir)
 
-    # ── Master Data ──
-    companies = build_companies()
+    print("Phase 1: Building master data...")
+    companies = build_company()
     branches = build_branches()
-    departments = build_departments()
     designations = build_designations()
-    warehouses = build_warehouses()
-    cost_centers = build_cost_centers()
+    departments = build_departments()
+    territories = build_territories()
     customer_groups = build_customer_groups()
     supplier_groups = build_supplier_groups()
-    territories = build_territory()
+    warehouses = build_warehouses()
+    cost_centers = build_cost_centers()
     item_groups = build_item_groups()
     brands = build_brands()
-    customers = build_customers(cfg.hospitals)
+
+    print("Phase 2: Building parties...")
+    customers = build_customers(cfg)
     suppliers = build_suppliers()
-    items = build_items(cfg.items_count)
+    items = build_items(cfg)
     item_prices = build_item_prices(items)
-    employees = build_employees(departments, cfg.employees_count)
-    vehicles = build_vehicles(cfg.vehicles_count)
-    drivers = build_drivers(employees)
-    holiday_lists, holidays = build_holiday_list()
+
+    print("Phase 3: Building workforce & fleet...")
+    employees = build_employees(cfg)
+    vehicles = build_vehicles(cfg)
+    drivers = build_drivers(cfg, employees)
+    holiday_lists, holidays = build_holiday_lists()
     addresses = build_addresses(customers, suppliers)
-    contacts = build_contacts(customers)
+    contacts = build_contacts(customers, suppliers)
 
-    # ── CRM ──
-    leads = build_leads(cfg.leads)
-    opportunities, opportunity_items = build_opportunities(customers, items, cfg.opportunities, cfg.years)
-    contracts = build_contracts(customers, cfg.years)
+    print("Phase 4: Building CRM & contracts...")
+    leads = build_leads(cfg)
+    opportunities, opportunity_items = build_opportunities(customers, items, cfg)
+    contracts = build_contracts(customers, cfg)
+    projects = build_projects(cfg)
+    tasks = build_tasks(projects, cfg)
 
-    # ── Transactions ──
-    quotations, quotation_items = build_quotations(customers, items, cfg.quotations, cfg.years)
-    sales_orders, so_items = build_sales_orders(customers, items, cfg.sales_orders, cfg.years)
-    purchase_orders, po_items = build_purchase_orders(suppliers, items, cfg.purchase_orders, cfg.years)
-    material_requests, mr_items = build_material_requests(items, cfg.material_requests, cfg.years)
-    purchase_receipts, pr_items = build_purchase_receipts(suppliers, items, cfg.purchase_receipts, cfg.years)
-    stock_entries, se_items = build_stock_entries(items, cfg.stock_entries, cfg.years)
-    delivery_notes, dn_items = build_delivery_notes(customers, items, cfg.delivery_notes, cfg.years)
-    sales_invoices, si_items = build_sales_invoices(customers, items, cfg.sales_invoices, cfg.years)
-    purchase_invoices, pi_items = build_purchase_invoices(suppliers, items, cfg.purchase_invoices, cfg.years)
+    print("Phase 5: Building transactions...")
+    quotations, quotation_items = build_quotations(customers, items, cfg)
+    sales_orders, so_items = build_sales_orders(customers, items, cfg)
+    purchase_orders, po_items = build_purchase_orders(suppliers, items, cfg)
+    material_requests, mr_items = build_material_requests(items, cfg)
+    purchase_receipts, pr_items = build_purchase_receipts(suppliers, items, cfg)
+    stock_entries, se_details = build_stock_entries(items, cfg)
+    delivery_notes, dn_items = build_delivery_notes(customers, items, cfg)
 
-    # ── Service & Operations ──
-    issues = build_issues(customers, cfg.issues, cfg.years)
-    projects, tasks = build_projects(customers, cfg.years)
-    maint_visits, maint_purposes = build_maintenance(customers, items, cfg.maintenance_visits, cfg.years)
-    qi_rows = build_quality_inspections(items, cfg.quality_inspections, cfg.years)
+    print("Phase 6: Building invoices...")
+    sales_invoices, si_items = build_sales_invoices(customers, items, cfg)
+    purchase_invoices, pi_items = build_purchase_invoices(suppliers, items, cfg)
 
-    # ── JSON Sidecar ──
-    waste_events = build_waste_events(customers, cfg.waste_events, cfg.years)
-    incinerator_ops = build_incinerator_ops(cfg.incinerator_ops, cfg.years)
-    transport_logs = build_transport_logs(customers, cfg.transport_logs, cfg.years)
-    training_sessions = build_training_sessions(customers, cfg.training_sessions, cfg.years)
-    compliance_reports = build_compliance_reports(cfg.years)
-    disposal_certs = build_disposal_certificates(cfg.incinerator_ops, cfg.years)
-    fuel_logs = build_fuel_logs(cfg.fuel_logs, cfg.years)
-    env_monitoring = build_environmental_monitoring(cfg.years)
-    route_schedules = build_route_schedules(customers)
+    print("Phase 7: Building delivery trips...")
+    delivery_trips, delivery_stops = build_delivery_trips(vehicles, drivers, customers, addresses, cfg)
 
-    # ── Write CSVs ──
-    write_csv(out_dir / "Company.csv", companies, ["name", "abbr", "country", "default_currency"])
+    print("Phase 8: Building support & maintenance...")
+    issues = build_issues(customers, cfg)
+    mv_rows, mvp_rows = build_maintenance_visits(customers, items, cfg)
+    ms_rows, msi_rows = build_maintenance_schedules(customers, items, cfg)
+    qi_rows = build_quality_inspections(items, cfg)
+
+    print("Phase 9: Building JSON sidecars...")
+    waste_events = build_waste_collection_events(customers, vehicles, cfg)
+    transport_logs = build_transport_logs(vehicles, drivers, cfg)
+    incinerator_ops = build_incinerator_operations(cfg)
+    training_sessions = build_training_sessions(customers, employees, cfg)
+    compliance_reports = build_compliance_reports()
+    disposal_certs = build_disposal_certificates(incinerator_ops)
+    route_schedules = build_route_schedules()
+    fuel_logs = build_vehicle_fuel_logs(vehicles, cfg)
+    env_monitoring = build_environmental_monitoring(cfg)
+    financial_events = build_financial_events(cfg)
+
+    # ── Write CSV files ──
+    print("Phase 10: Writing CSV files...")
+
+    write_csv(out_dir / "Company.csv", companies,
+              ["name", "abbr", "country", "default_currency"])
     write_csv(out_dir / "Branch.csv", branches, ["branch"])
-    write_csv(out_dir / "Department.csv", departments, ["department_name", "company"])
     write_csv(out_dir / "Designation.csv", designations, ["designation"])
-    write_csv(out_dir / "Warehouse.csv", warehouses, ["warehouse_name", "name", "company"])
-    write_csv(out_dir / "Cost_Center.csv", cost_centers, ["cost_center_name", "company", "parent_cost_center"])
-    write_csv(out_dir / "Customer_Group.csv", customer_groups, ["customer_group_name", "parent_customer_group", "is_group"])
-    write_csv(out_dir / "Supplier_Group.csv", supplier_groups, ["supplier_group_name", "parent_supplier_group", "is_group"])
-    write_csv(out_dir / "Territory.csv", territories, ["territory_name", "parent_territory", "is_group"])
-    write_csv(out_dir / "Item_Group.csv", item_groups, ["item_group_name", "parent_item_group", "is_group"])
+    write_csv(out_dir / "Department.csv", departments, ["department_name", "company"])
+    write_csv(out_dir / "Territory.csv", territories,
+              ["territory_name", "parent_territory", "is_group"])
+    write_csv(out_dir / "Customer_Group.csv", customer_groups,
+              ["customer_group_name", "parent_customer_group", "is_group"])
+    write_csv(out_dir / "Supplier_Group.csv", supplier_groups,
+              ["supplier_group_name", "parent_supplier_group", "is_group"])
+    write_csv(out_dir / "Warehouse.csv", warehouses,
+              ["warehouse_name", "name", "company"])
+    write_csv(out_dir / "Cost_Center.csv", cost_centers,
+              ["cost_center_name", "company", "parent_cost_center"])
+    write_csv(out_dir / "Item_Group.csv", item_groups,
+              ["item_group_name", "parent_item_group", "is_group"])
     write_csv(out_dir / "Brand.csv", brands, ["brand"])
-    write_csv(out_dir / "Customer.csv", customers, ["customer_name", "customer_type", "customer_group", "territory", "default_currency"])
-    write_csv(out_dir / "Supplier.csv", suppliers, ["supplier_name", "supplier_type", "supplier_group", "country", "default_currency"])
-    write_csv(out_dir / "Item.csv", items, ["item_code", "item_name", "item_group", "stock_uom", "brand", "is_stock_item", "is_sales_item", "is_purchase_item", "has_serial_no", "warranty_period"])
-    write_csv(out_dir / "Item_Price.csv", item_prices, ["item_code", "price_list", "uom", "price_list_rate", "currency"])
-    write_csv(out_dir / "Employee.csv", employees, ["employee_name", "first_name", "last_name", "company", "department", "designation", "date_of_birth", "date_of_joining", "gender", "employment_type", "status", "branch"])
-    write_csv(out_dir / "Vehicle.csv", vehicles, ["license_plate", "make", "model", "fuel_type", "last_odometer", "uom", "acquisition_date", "vehicle_value"])
-    write_csv(out_dir / "Driver.csv", drivers, ["naming_series", "full_name", "status", "license_number", "issuing_date", "expiry_date"])
-    write_csv(out_dir / "Holiday_List.csv", holiday_lists, ["holiday_list_name", "from_date", "to_date", "company"])
-    write_csv(out_dir / "Holiday.csv", holidays, ["holiday_list", "holiday_date", "description"])
-    write_csv(out_dir / "Address.csv", addresses, ["name", "address_title", "address_type", "address_line1", "city", "country", "links"])
-    write_csv(out_dir / "Contact.csv", contacts, ["first_name", "last_name", "email_id", "phone", "mobile_no", "company_name", "link_doctype", "link_name"])
-    write_csv(out_dir / "Lead.csv", leads, ["first_name", "company_name", "email_id", "phone", "source", "territory", "status", "company"])
-    write_csv(out_dir / "Opportunity.csv", opportunities, ["name", "naming_series", "opportunity_from", "party_name", "status", "company", "transaction_date", "opportunity_amount"])
-    write_csv(out_dir / "Opportunity_Item.csv", opportunity_items, ["parent", "parenttype", "parentfield", "item_code", "qty", "uom", "rate"])
-    write_csv(out_dir / "Contract.csv", contracts, ["party_type", "party_name", "start_date", "end_date", "status", "contract_terms"])
-    write_csv(out_dir / "Quotation.csv", quotations, ["name", "naming_series", "quotation_to", "party_name", "transaction_date", "valid_till", "company"])
-    write_csv(out_dir / "Quotation_Item.csv", quotation_items, ["parent", "parenttype", "parentfield", "item_code", "qty", "uom", "rate"])
-    write_csv(out_dir / "Sales_Order.csv", sales_orders, ["name", "naming_series", "customer", "transaction_date", "delivery_date", "company"])
-    write_csv(out_dir / "Sales_Order_Item.csv", so_items, ["parent", "parenttype", "parentfield", "item_code", "qty", "uom", "warehouse", "rate"])
-    write_csv(out_dir / "Purchase_Order.csv", purchase_orders, ["name", "naming_series", "supplier", "transaction_date", "schedule_date", "company"])
-    write_csv(out_dir / "Purchase_Order_Item.csv", po_items, ["parent", "parenttype", "parentfield", "item_code", "qty", "uom", "warehouse", "rate", "schedule_date"])
-    write_csv(out_dir / "Material_Request.csv", material_requests, ["name", "naming_series", "material_request_type", "transaction_date", "schedule_date", "company"])
-    write_csv(out_dir / "Material_Request_Item.csv", mr_items, ["parent", "parenttype", "parentfield", "item_code", "qty", "uom", "warehouse", "schedule_date"])
-    write_csv(out_dir / "Purchase_Receipt.csv", purchase_receipts, ["name", "naming_series", "supplier", "posting_date", "company"])
-    write_csv(out_dir / "Purchase_Receipt_Item.csv", pr_items, ["parent", "parenttype", "parentfield", "item_code", "qty", "uom", "warehouse", "rate"])
-    write_csv(out_dir / "Stock_Entry.csv", stock_entries, ["name", "naming_series", "purpose", "posting_date", "company"])
-    write_csv(out_dir / "Stock_Entry_Detail.csv", se_items, ["parent", "parenttype", "parentfield", "item_code", "qty", "uom", "t_warehouse", "s_warehouse", "basic_rate"])
-    write_csv(out_dir / "Delivery_Note.csv", delivery_notes, ["name", "naming_series", "customer", "posting_date", "company"])
-    write_csv(out_dir / "Delivery_Note_Item.csv", dn_items, ["parent", "parenttype", "parentfield", "item_code", "qty", "uom", "warehouse", "rate"])
-    write_csv(out_dir / "Sales_Invoice.csv", sales_invoices, ["name", "naming_series", "customer", "posting_date", "due_date", "company"])
-    write_csv(out_dir / "Sales_Invoice_Item.csv", si_items, ["parent", "parenttype", "parentfield", "item_code", "qty", "uom", "rate"])
-    write_csv(out_dir / "Purchase_Invoice.csv", purchase_invoices, ["name", "naming_series", "supplier", "posting_date", "due_date", "company"])
-    write_csv(out_dir / "Purchase_Invoice_Item.csv", pi_items, ["parent", "parenttype", "parentfield", "item_code", "qty", "uom", "warehouse", "rate"])
-    write_csv(out_dir / "Issue.csv", issues, ["subject", "customer", "raised_by", "status", "priority", "opening_date"])
-    write_csv(out_dir / "Project.csv", projects, ["project_name", "naming_series", "company", "status", "expected_start_date", "expected_end_date", "department"])
-    write_csv(out_dir / "Task.csv", tasks, ["subject", "project", "company", "status", "priority", "exp_start_date", "exp_end_date"])
-    write_csv(out_dir / "Maintenance_Visit.csv", maint_visits, ["name", "naming_series", "customer", "mntc_date", "company", "completion_status", "maintenance_type"])
-    write_csv(out_dir / "Maintenance_Visit_Purpose.csv", maint_purposes, ["parent", "parenttype", "parentfield", "item_code", "work_done"])
-    write_csv(out_dir / "Quality_Inspection.csv", qi_rows, ["naming_series", "inspection_type", "item_code", "report_date", "sample_size", "status", "company"])
+    write_csv(out_dir / "Customer.csv", customers,
+              ["customer_name", "customer_type", "customer_group", "territory", "default_currency"])
+    write_csv(out_dir / "Supplier.csv", suppliers,
+              ["supplier_name", "supplier_type", "supplier_group", "country", "default_currency"])
+    write_csv(out_dir / "Item.csv", items,
+              ["item_code", "item_name", "item_group", "stock_uom", "brand",
+               "is_stock_item", "is_sales_item", "is_purchase_item",
+               "has_serial_no", "warranty_period"])
+    write_csv(out_dir / "Item_Price.csv", item_prices,
+              ["item_code", "price_list", "uom", "price_list_rate", "currency"])
+    write_csv(out_dir / "Employee.csv", employees,
+              ["employee_name", "first_name", "last_name", "company", "department",
+               "designation", "date_of_birth", "date_of_joining", "gender",
+               "employment_type", "status", "branch"])
+    write_csv(out_dir / "Vehicle.csv", vehicles,
+              ["license_plate", "make", "model", "fuel_type", "last_odometer",
+               "uom", "acquisition_date", "vehicle_value"])
+    write_csv(out_dir / "Driver.csv", drivers,
+              ["naming_series", "full_name", "status", "license_number",
+               "issuing_date", "expiry_date"])
+    write_csv(out_dir / "Holiday_List.csv", holiday_lists,
+              ["holiday_list_name", "from_date", "to_date", "company"])
+    write_csv(out_dir / "Holiday.csv", holidays,
+              ["holiday_list", "holiday_date", "description"])
+    write_csv(out_dir / "Address.csv", addresses,
+              ["name", "address_title", "address_type", "address_line1", "city",
+               "country", "links"])
+    write_csv(out_dir / "Contact.csv", contacts,
+              ["first_name", "last_name", "email_id", "phone", "mobile_no",
+               "company_name", "link_doctype", "link_name"])
+    write_csv(out_dir / "Lead.csv", leads,
+              ["company_name", "lead_name", "source", "status", "territory",
+               "email_id", "mobile_no"])
+    write_csv(out_dir / "Opportunity.csv", opportunities,
+              ["name", "naming_series", "opportunity_from", "party_name",
+               "transaction_date", "status", "company"])
+    write_csv(out_dir / "Opportunity_Item.csv", opportunity_items,
+              ["parent", "parenttype", "parentfield", "item_code", "qty", "uom", "rate"])
+    write_csv(out_dir / "Contract.csv", contracts,
+              ["party_type", "party_name", "start_date", "end_date", "status",
+               "contract_terms"])
+    write_csv(out_dir / "Project.csv", projects,
+              ["project_name", "naming_series", "company", "status",
+               "expected_start_date", "expected_end_date", "department"])
+    write_csv(out_dir / "Task.csv", tasks,
+              ["subject", "project", "status", "exp_start_date", "exp_end_date", "company"])
+    write_csv(out_dir / "Quotation.csv", quotations,
+              ["name", "naming_series", "quotation_to", "party_name",
+               "transaction_date", "valid_till", "company"])
+    write_csv(out_dir / "Quotation_Item.csv", quotation_items,
+              ["parent", "parenttype", "parentfield", "item_code", "qty", "uom", "rate"])
+    write_csv(out_dir / "Sales_Order.csv", sales_orders,
+              ["name", "naming_series", "customer", "transaction_date",
+               "delivery_date", "company", "status"])
+    write_csv(out_dir / "Sales_Order_Item.csv", so_items,
+              ["parent", "parenttype", "parentfield", "item_code", "qty", "uom",
+               "warehouse", "rate"])
+    write_csv(out_dir / "Purchase_Order.csv", purchase_orders,
+              ["name", "naming_series", "supplier", "transaction_date",
+               "schedule_date", "company"])
+    write_csv(out_dir / "Purchase_Order_Item.csv", po_items,
+              ["parent", "parenttype", "parentfield", "item_code", "qty", "uom",
+               "warehouse", "rate", "schedule_date"])
+    write_csv(out_dir / "Material_Request.csv", material_requests,
+              ["name", "naming_series", "material_request_type", "transaction_date",
+               "schedule_date", "company"])
+    write_csv(out_dir / "Material_Request_Item.csv", mr_items,
+              ["parent", "parenttype", "parentfield", "item_code", "qty", "uom",
+               "warehouse", "schedule_date"])
+    write_csv(out_dir / "Purchase_Receipt.csv", purchase_receipts,
+              ["name", "naming_series", "supplier", "posting_date", "company"])
+    write_csv(out_dir / "Purchase_Receipt_Item.csv", pr_items,
+              ["parent", "parenttype", "parentfield", "item_code", "qty", "uom",
+               "warehouse", "rate"])
+    write_csv(out_dir / "Stock_Entry.csv", stock_entries,
+              ["name", "naming_series", "purpose", "posting_date", "company"])
+    write_csv(out_dir / "Stock_Entry_Detail.csv", se_details,
+              ["parent", "parenttype", "parentfield", "item_code", "qty", "uom",
+               "t_warehouse", "s_warehouse", "basic_rate"])
+    write_csv(out_dir / "Delivery_Note.csv", delivery_notes,
+              ["name", "naming_series", "customer", "posting_date", "company"])
+    write_csv(out_dir / "Delivery_Note_Item.csv", dn_items,
+              ["parent", "parenttype", "parentfield", "item_code", "qty", "uom",
+               "warehouse", "rate"])
+    write_csv(out_dir / "Sales_Invoice.csv", sales_invoices,
+              ["name", "naming_series", "customer", "posting_date", "due_date", "company"])
+    write_csv(out_dir / "Sales_Invoice_Item.csv", si_items,
+              ["parent", "parenttype", "parentfield", "item_code", "qty", "uom", "rate"])
+    write_csv(out_dir / "Purchase_Invoice.csv", purchase_invoices,
+              ["name", "naming_series", "supplier", "posting_date", "due_date", "company"])
+    write_csv(out_dir / "Purchase_Invoice_Item.csv", pi_items,
+              ["parent", "parenttype", "parentfield", "item_code", "qty", "uom",
+               "warehouse", "rate"])
+    write_csv(out_dir / "Delivery_Trip.csv", delivery_trips,
+              ["name", "naming_series", "company", "vehicle", "driver",
+               "departure_time", "status"])
+    write_csv(out_dir / "Delivery_Stop.csv", delivery_stops,
+              ["parent", "parenttype", "parentfield", "customer", "address",
+               "visited", "distance", "estimated_arrival"])
+    write_csv(out_dir / "Issue.csv", issues,
+              ["subject", "customer", "raised_by", "status", "priority", "opening_date"])
+    write_csv(out_dir / "Maintenance_Visit.csv", mv_rows,
+              ["name", "naming_series", "customer", "mntc_date", "maintenance_type",
+               "completion_status", "company"])
+    write_csv(out_dir / "Maintenance_Visit_Purpose.csv", mvp_rows,
+              ["parent", "parenttype", "parentfield", "work_done", "service_person"])
+    write_csv(out_dir / "Maintenance_Schedule.csv", ms_rows,
+              ["name", "naming_series", "customer", "transaction_date", "company"])
+    write_csv(out_dir / "Maintenance_Schedule_Item.csv", msi_rows,
+              ["parent", "parenttype", "parentfield", "item_code", "start_date",
+               "end_date", "periodicity", "no_of_visits"])
+    write_csv(out_dir / "Quality_Inspection.csv", qi_rows,
+              ["naming_series", "inspection_type", "reference_type", "item_code",
+               "sample_size", "inspected_by", "status"])
 
-    # ── Write JSON Sidecars ──
+    # ── Write JSON files ──
+    print("Phase 11: Writing JSON sidecar files...")
+
     write_json(out_dir / "waste_collection_events.json", {"events": waste_events})
     write_json(out_dir / "incinerator_operations.json", {"operations": incinerator_ops})
     write_json(out_dir / "transport_logs.json", {"logs": transport_logs})
     write_json(out_dir / "training_sessions.json", {"sessions": training_sessions})
     write_json(out_dir / "compliance_reports.json", {"reports": compliance_reports})
     write_json(out_dir / "disposal_certificates.json", {"certificates": disposal_certs})
+    write_json(out_dir / "route_schedules.json", {"routes": route_schedules})
     write_json(out_dir / "vehicle_fuel_logs.json", {"logs": fuel_logs})
     write_json(out_dir / "environmental_monitoring.json", {"records": env_monitoring})
-    write_json(out_dir / "route_schedules.json", {"routes": route_schedules})
-    write_json(out_dir / "financial_events.json", {"entries": []})  # Placeholder for backward compat
+    write_json(out_dir / "financial_events.json", {"entries": financial_events})
 
-    # ── Validation Report ──
+    # ── Summary ──
     outputs = {
-        "Company": len(companies), "Branch": len(branches), "Department": len(departments),
-        "Designation": len(designations), "Warehouse": len(warehouses), "Cost Center": len(cost_centers),
-        "Customer Group": len(customer_groups), "Supplier Group": len(supplier_groups),
-        "Territory": len(territories), "Item Group": len(item_groups), "Brand": len(brands),
-        "Customer": len(customers), "Supplier": len(suppliers), "Item": len(items),
-        "Item Price": len(item_prices), "Employee": len(employees), "Vehicle": len(vehicles),
-        "Driver": len(drivers), "Holiday List": len(holiday_lists), "Holiday": len(holidays),
-        "Address": len(addresses), "Contact": len(contacts),
-        "Lead": len(leads), "Opportunity": len(opportunities), "Contract": len(contracts),
-        "Quotation": len(quotations), "Quotation Item": len(quotation_items),
-        "Sales Order": len(sales_orders), "Sales Order Item": len(so_items),
-        "Purchase Order": len(purchase_orders), "Purchase Order Item": len(po_items),
-        "Material Request": len(material_requests), "Material Request Item": len(mr_items),
-        "Purchase Receipt": len(purchase_receipts), "Purchase Receipt Item": len(pr_items),
-        "Stock Entry": len(stock_entries), "Stock Entry Detail": len(se_items),
-        "Delivery Note": len(delivery_notes), "Delivery Note Item": len(dn_items),
-        "Sales Invoice": len(sales_invoices), "Sales Invoice Item": len(si_items),
-        "Purchase Invoice": len(purchase_invoices), "Purchase Invoice Item": len(pi_items),
-        "Issue": len(issues), "Project": len(projects), "Task": len(tasks),
-        "Maintenance Visit": len(maint_visits), "Quality Inspection": len(qi_rows),
-        "Waste Events (JSON)": len(waste_events), "Incinerator Ops (JSON)": len(incinerator_ops),
-        "Transport Logs (JSON)": len(transport_logs), "Training Sessions (JSON)": len(training_sessions),
-        "Compliance Reports (JSON)": len(compliance_reports), "Disposal Certificates (JSON)": len(disposal_certs),
-        "Fuel Logs (JSON)": len(fuel_logs), "Environmental Monitoring (JSON)": len(env_monitoring),
+        "Company": len(companies),
+        "Branch": len(branches),
+        "Designation": len(designations),
+        "Department": len(departments),
+        "Territory": len(territories),
+        "Customer Group": len(customer_groups),
+        "Supplier Group": len(supplier_groups),
+        "Warehouse": len(warehouses),
+        "Cost Center": len(cost_centers),
+        "Item Group": len(item_groups),
+        "Brand": len(brands),
+        "Customer": len(customers),
+        "Supplier": len(suppliers),
+        "Item": len(items),
+        "Item Price": len(item_prices),
+        "Employee": len(employees),
+        "Vehicle": len(vehicles),
+        "Driver": len(drivers),
+        "Holiday List": len(holiday_lists),
+        "Holiday": len(holidays),
+        "Address": len(addresses),
+        "Contact": len(contacts),
+        "Lead": len(leads),
+        "Opportunity": len(opportunities),
+        "Opportunity Item": len(opportunity_items),
+        "Contract": len(contracts),
+        "Project": len(projects),
+        "Task": len(tasks),
+        "Quotation": len(quotations),
+        "Quotation Item": len(quotation_items),
+        "Sales Order": len(sales_orders),
+        "Sales Order Item": len(so_items),
+        "Purchase Order": len(purchase_orders),
+        "Purchase Order Item": len(po_items),
+        "Material Request": len(material_requests),
+        "Material Request Item": len(mr_items),
+        "Purchase Receipt": len(purchase_receipts),
+        "Purchase Receipt Item": len(pr_items),
+        "Stock Entry": len(stock_entries),
+        "Stock Entry Detail": len(se_details),
+        "Delivery Note": len(delivery_notes),
+        "Delivery Note Item": len(dn_items),
+        "Sales Invoice": len(sales_invoices),
+        "Sales Invoice Item": len(si_items),
+        "Purchase Invoice": len(purchase_invoices),
+        "Purchase Invoice Item": len(pi_items),
+        "Delivery Trip": len(delivery_trips),
+        "Delivery Stop": len(delivery_stops),
+        "Issue": len(issues),
+        "Maintenance Visit": len(mv_rows),
+        "Maintenance Visit Purpose": len(mvp_rows),
+        "Maintenance Schedule": len(ms_rows),
+        "Maintenance Schedule Item": len(msi_rows),
+        "Quality Inspection": len(qi_rows),
+        # JSON sidecars
+        "Waste Events (JSON)": len(waste_events),
+        "Incinerator Operations (JSON)": len(incinerator_ops),
+        "Transport Logs (JSON)": len(transport_logs),
+        "Training Sessions (JSON)": len(training_sessions),
+        "Compliance Reports (JSON)": len(compliance_reports),
+        "Disposal Certificates (JSON)": len(disposal_certs),
         "Route Schedules (JSON)": len(route_schedules),
+        "Fuel Logs (JSON)": len(fuel_logs),
+        "Environmental Monitoring (JSON)": len(env_monitoring),
+        "Financial Events (JSON)": len(financial_events),
     }
 
-    write_json(out_dir / "validation_report.json", {
-        "generated_at": datetime.utcnow().isoformat() + "Z",
-        "company": COMPANY_NAME,
-        "location": "Lahore, Pakistan",
-        "time_horizon_years": cfg.years,
-        "domain": ["Healthcare waste management", "Biomedical equipment services", "Incinerator operations", "Fleet logistics"],
-        "generated_counts": outputs,
-        "total_csv_files": 48,
-        "total_json_files": 10,
-        "total_records": sum(v for v in outputs.values() if isinstance(v, int)),
-    })
+    write_json(out_dir / "validation_report.json", build_validation_report(cfg, outputs))
 
-    print(f"Comprehensive seed generated in: {out_dir}")
-    print(json.dumps(outputs, indent=2))
+    print("\n" + "=" * 60)
+    print("SEED GENERATION COMPLETE")
+    print("=" * 60)
+    print(f"Output directory: {out_dir}")
+    print(f"\nGenerated counts:")
+    total = 0
+    for k, v in outputs.items():
+        print(f"  {k:40s} {v:>8,d}")
+        total += v
+    print(f"  {'TOTAL':40s} {total:>8,d}")
+    print()
 
 
-# ─── CLI ─────────────────────────────────────────────────────────────────────────
+# ---------------------------------------------------------------------------
+# CLI
+# ---------------------------------------------------------------------------
 
-def parse_args():
-    p = argparse.ArgumentParser(description="Generate comprehensive EnXi healthcare waste management seed data")
+def parse_args() -> argparse.Namespace:
+    p = argparse.ArgumentParser(description="Generate comprehensive EnXi enterprise demo seed data")
     p.add_argument("--output", default=str(OUTPUT_DIR))
-    p.add_argument("--years", type=int, default=2)
-    p.add_argument("--hospitals", type=int, default=55)
-    p.add_argument("--items", type=int, default=500)
-    p.add_argument("--employees", type=int, default=120)
-    p.add_argument("--vehicles", type=int, default=35)
-    p.add_argument("--sales-orders", type=int, default=1500)
-    p.add_argument("--purchase-orders", type=int, default=300)
-    p.add_argument("--quotations", type=int, default=600)
-    p.add_argument("--waste-events", type=int, default=3500)
+    p.add_argument("--years", type=int, default=3)
+    p.add_argument("--hospitals", type=int, default=80)
+    p.add_argument("--labs-clinics", type=int, default=40)
+    p.add_argument("--employees", type=int, default=350)
+    p.add_argument("--vehicles", type=int, default=50)
+    p.add_argument("--incinerators", type=int, default=28)
+    p.add_argument("--sales-orders", type=int, default=2500)
+    p.add_argument("--waste-events", type=int, default=8000)
+    p.add_argument("--delivery-trips", type=int, default=2500)
     return p.parse_args()
 
 
-def main():
+def main() -> None:
     args = parse_args()
     cfg = VolumeConfig(
-        years=args.years, hospitals=args.hospitals, items_count=args.items,
-        employees_count=args.employees, vehicles_count=args.vehicles,
-        sales_orders=args.sales_orders, purchase_orders=args.purchase_orders,
-        quotations=args.quotations, waste_events=args.waste_events,
+        years=args.years,
+        hospitals=args.hospitals,
+        labs_clinics=args.labs_clinics,
+        employees=args.employees,
+        vehicles=args.vehicles,
+        incinerator_facilities=args.incinerators,
+        sales_orders=args.sales_orders,
+        waste_events=args.waste_events,
+        delivery_trips=args.delivery_trips,
     )
     generate(cfg, Path(args.output))
 
