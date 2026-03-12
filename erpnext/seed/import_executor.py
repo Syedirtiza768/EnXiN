@@ -2,10 +2,16 @@ from __future__ import annotations
 
 import csv
 import json
+import time
 from collections import defaultdict
 from pathlib import Path
 
 import frappe
+
+
+def _log(msg: str):
+	"""Print progress and flush immediately so Docker logs show it in real time."""
+	print(msg, flush=True)
 
 
 def _read_csv(path: Path):
@@ -648,6 +654,7 @@ def import_seed(seed_dir: str = "seed_output", company_override: str | None = No
 	}
 
 	# ── Pre-create baseline references ──
+	_log("  Pre-creating baseline references ...")
 	for cg in ("Commercial", "Institutional", "Government"):
 		_ensure_exists("Customer Group", cg)
 	for sg in ("Services", "Raw Material", "Equipment Vendor", "Fuel Supplier", "Vehicle Parts", "IT Services", "Insurance"):
@@ -656,6 +663,8 @@ def import_seed(seed_dir: str = "seed_output", company_override: str | None = No
 	for uom_name in ("Nos", "Kg", "Unit", "Pair", "Box", "Set", "Ltr"):
 		if not frappe.db.exists("UOM", uom_name):
 			frappe.get_doc({"doctype": "UOM", "uom_name": uom_name}).insert(ignore_permissions=True)
+	frappe.db.commit()
+	_log("  ✓ Baseline references ready")
 
 	target_currency = frappe.db.get_value("Company", target_company, "default_currency") or "PKR"
 
@@ -663,47 +672,62 @@ def import_seed(seed_dir: str = "seed_output", company_override: str | None = No
 		doc.currency = target_currency
 		doc.conversion_rate = 1.0
 
-	# ── Import in dependency order ──
+	# ── Import in dependency order (commit after each step to release DB locks) ──
+	def _step(label, fn, *args, **kwargs):
+		_log(f"  Importing {label} ...")
+		t0 = time.time()
+		result = fn(*args, **kwargs)
+		frappe.db.commit()
+		dt = time.time() - t0
+		ins = result.get('inserted', 0)
+		skp = result.get('skipped', 0)
+		err = len(result.get('errors', []))
+		_log(f"  ✓ {label}: {ins} inserted, {skp} skipped, {err} errors  ({dt:.1f}s)")
+		report[label] = result
+
+	_log("\n═══ Starting seed import ═══")
+	_log(f"  Target company: {target_company} ({target_abbr})")
+
 	report["Company"] = {"inserted": 0, "skipped": len(company_rows), "errors": []}
-	report["Branch"] = _upsert_simple("Branch", branch_rows, "branch")
-	report["Designation"] = _upsert_simple("Designation", designation_rows, "designation")
-	report["Department"] = _upsert_simple("Department", department_rows, "department_name")
-	report["Warehouse"] = _upsert_simple("Warehouse", warehouse_rows, "name")
-	report["Cost Center"] = _upsert_simple("Cost Center", cost_center_rows, "cost_center_name")
-	report["Customer Group"] = _upsert_simple("Customer Group", customer_group_rows, "customer_group_name")
-	report["Supplier Group"] = _upsert_simple("Supplier Group", supplier_group_rows, "supplier_group_name")
-	report["Territory"] = _upsert_simple("Territory", territory_rows, "territory_name")
-	report["Item Group"] = _upsert_simple("Item Group", item_group_rows, "item_group_name")
-	report["Brand"] = _upsert_simple("Brand", brand_rows, "brand")
-	report["Customer"] = _upsert_simple("Customer", customer_rows, "customer_name")
-	report["Supplier"] = _upsert_simple("Supplier", supplier_rows, "supplier_name")
-	report["Item"] = _upsert_simple("Item", item_rows, "item_code")
-	report["Item Price"] = _import_item_prices(item_price_rows)
-	report["Employee"] = _upsert_simple("Employee", employee_rows, "employee_name")
-	report["Vehicle"] = _upsert_simple("Vehicle", vehicle_rows, "license_plate")
-	report["Driver"] = _upsert_simple("Driver", driver_rows, "full_name")
-	report["Holiday List"] = _import_holiday_lists(holiday_list_rows, holiday_rows)
-	report["Address"] = _import_addresses(address_rows)
-	report["Contact"] = _import_contacts(contact_rows)
-	report["Lead"] = _upsert_simple("Lead", lead_rows, "company_name")
-	report["Opportunity"] = _import_with_children("Opportunity", opportunity_rows, opportunity_item_rows, "items", _set_currency)
-	report["Contract"] = _upsert_simple("Contract", contract_rows, "party_name")
-	report["Project"] = _upsert_simple("Project", project_rows, "project_name")
-	report["Task"] = _upsert_simple("Task", task_rows, "subject")
-	report["Quotation"] = _import_quotations(quotation_rows, quotation_item_rows, company_currency=target_currency)
-	report["Sales Order"] = _import_sales_orders(so_rows, soi_rows, company_currency=target_currency)
-	report["Purchase Order"] = _import_purchase_orders(po_rows, poi_rows, company_currency=target_currency)
-	report["Material Request"] = _import_with_children("Material Request", mr_rows, mri_rows, "items")
-	report["Purchase Receipt"] = _import_with_children("Purchase Receipt", pr_rows, pri_rows, "items", _set_currency)
-	report["Stock Entry"] = _import_stock_entries(stock_entry_rows, stock_entry_detail_rows)
-	report["Delivery Note"] = _import_with_children("Delivery Note", dn_rows, dni_rows, "items", _set_currency)
-	report["Sales Invoice"] = _import_with_children("Sales Invoice", si_rows, sii_rows, "items", _set_currency)
-	report["Purchase Invoice"] = _import_with_children("Purchase Invoice", pi_rows, pii_rows, "items", _set_currency)
-	report["Issue"] = _upsert_simple("Issue", issue_rows, "subject")
-	report["Maintenance Visit"] = _import_with_children("Maintenance Visit", mv_rows, mvp_rows, "purposes")
-	report["Delivery Trip"] = _import_with_children("Delivery Trip", dt_rows, ds_rows, "delivery_stops")
-	report["Maintenance Schedule"] = _import_with_children("Maintenance Schedule", ms_rows, msi_rows, "items")
-	report["Quality Inspection"] = _import_bulk("Quality Inspection", qi_rows)
+	_step("Branch", _upsert_simple, "Branch", branch_rows, "branch")
+	_step("Designation", _upsert_simple, "Designation", designation_rows, "designation")
+	_step("Department", _upsert_simple, "Department", department_rows, "department_name")
+	_step("Warehouse", _upsert_simple, "Warehouse", warehouse_rows, "name")
+	_step("Cost Center", _upsert_simple, "Cost Center", cost_center_rows, "cost_center_name")
+	_step("Customer Group", _upsert_simple, "Customer Group", customer_group_rows, "customer_group_name")
+	_step("Supplier Group", _upsert_simple, "Supplier Group", supplier_group_rows, "supplier_group_name")
+	_step("Territory", _upsert_simple, "Territory", territory_rows, "territory_name")
+	_step("Item Group", _upsert_simple, "Item Group", item_group_rows, "item_group_name")
+	_step("Brand", _upsert_simple, "Brand", brand_rows, "brand")
+	_step("Customer", _upsert_simple, "Customer", customer_rows, "customer_name")
+	_step("Supplier", _upsert_simple, "Supplier", supplier_rows, "supplier_name")
+	_step("Item", _upsert_simple, "Item", item_rows, "item_code")
+	_step("Item Price", _import_item_prices, item_price_rows)
+	_step("Employee", _upsert_simple, "Employee", employee_rows, "employee_name")
+	_step("Vehicle", _upsert_simple, "Vehicle", vehicle_rows, "license_plate")
+	_step("Driver", _upsert_simple, "Driver", driver_rows, "full_name")
+	_step("Holiday List", _import_holiday_lists, holiday_list_rows, holiday_rows)
+	_step("Address", _import_addresses, address_rows)
+	_step("Contact", _import_contacts, contact_rows)
+	_step("Lead", _upsert_simple, "Lead", lead_rows, "company_name")
+	_step("Opportunity", _import_with_children, "Opportunity", opportunity_rows, opportunity_item_rows, "items", _set_currency)
+	_step("Contract", _upsert_simple, "Contract", contract_rows, "party_name")
+	_step("Project", _upsert_simple, "Project", project_rows, "project_name")
+	_step("Task", _upsert_simple, "Task", task_rows, "subject")
+	_step("Quotation", _import_quotations, quotation_rows, quotation_item_rows, company_currency=target_currency)
+	_step("Sales Order", _import_sales_orders, so_rows, soi_rows, company_currency=target_currency)
+	_step("Purchase Order", _import_purchase_orders, po_rows, poi_rows, company_currency=target_currency)
+	_step("Material Request", _import_with_children, "Material Request", mr_rows, mri_rows, "items")
+	_step("Purchase Receipt", _import_with_children, "Purchase Receipt", pr_rows, pri_rows, "items", _set_currency)
+	_step("Stock Entry", _import_stock_entries, stock_entry_rows, stock_entry_detail_rows)
+	_step("Delivery Note", _import_with_children, "Delivery Note", dn_rows, dni_rows, "items", _set_currency)
+	_step("Sales Invoice", _import_with_children, "Sales Invoice", si_rows, sii_rows, "items", _set_currency)
+	_step("Purchase Invoice", _import_with_children, "Purchase Invoice", pi_rows, pii_rows, "items", _set_currency)
+	_step("Issue", _upsert_simple, "Issue", issue_rows, "subject")
+	_step("Maintenance Visit", _import_with_children, "Maintenance Visit", mv_rows, mvp_rows, "purposes")
+	_step("Delivery Trip", _import_with_children, "Delivery Trip", dt_rows, ds_rows, "delivery_stops")
+	_step("Maintenance Schedule", _import_with_children, "Maintenance Schedule", ms_rows, msi_rows, "items")
+	_step("Quality Inspection", _import_bulk, "Quality Inspection", qi_rows)
 
 	# ── JSON sidecars (for audit/analytics) ──
 	json_sidecars = [
