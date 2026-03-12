@@ -1,17 +1,17 @@
-cost_center_name,company,parent_cost_center
-Main,EnXi Biomedical & Waste Management (Pvt) Ltd,
-Waste Operations,EnXi Biomedical & Waste Management (Pvt) Ltd,Main - ENXI
-Fleet & Transport,EnXi Biomedical & Waste Management (Pvt) Ltd,Main - ENXI
-Incinerator Ops,EnXi Biomedical & Waste Management (Pvt) Ltd,Main - ENXI
-Training,EnXi Biomedical & Waste Management (Pvt) Ltd,Main - ENXI
-Janitorial Services,EnXi Biomedical & Waste Management (Pvt) Ltd,Main - ENXI
-Biomedical Equipment,EnXi Biomedical & Waste Management (Pvt) Ltd,Main - ENXI
-Sales & Marketing,EnXi Biomedical & Waste Management (Pvt) Ltd,Main - ENXI
-Administration,EnXi Biomedical & Waste Management (Pvt) Ltd,Main - ENXI
-HR & Payroll,EnXi Biomedical & Waste Management (Pvt) Ltd,Main - ENXI
-Procurement,EnXi Biomedical & Waste Management (Pvt) Ltd,Main - ENXI
-Quality & Compliance,EnXi Biomedical & Waste Management (Pvt) Ltd,Main - ENXI
-Lahore Operations,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations - ENXI
-Rawalpindi Operations,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations - ENXI
-Faisalabad Operations,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations - ENXI
-Multan Operations,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations - ENXI
+cost_center_name,company,parent_cost_center,is_group
+Main,EnXi Biomedical & Waste Management (Pvt) Ltd,,1
+Waste Operations,EnXi Biomedical & Waste Management (Pvt) Ltd,Main - ENXI,1
+Fleet & Transport,EnXi Biomedical & Waste Management (Pvt) Ltd,Main - ENXI,0
+Incinerator Ops,EnXi Biomedical & Waste Management (Pvt) Ltd,Main - ENXI,0
+Training,EnXi Biomedical & Waste Management (Pvt) Ltd,Main - ENXI,0
+Janitorial Services,EnXi Biomedical & Waste Management (Pvt) Ltd,Main - ENXI,0
+Biomedical Equipment,EnXi Biomedical & Waste Management (Pvt) Ltd,Main - ENXI,0
+Sales & Marketing,EnXi Biomedical & Waste Management (Pvt) Ltd,Main - ENXI,0
+Administration,EnXi Biomedical & Waste Management (Pvt) Ltd,Main - ENXI,0
+HR & Payroll,EnXi Biomedical & Waste Management (Pvt) Ltd,Main - ENXI,0
+Procurement,EnXi Biomedical & Waste Management (Pvt) Ltd,Main - ENXI,0
+Quality & Compliance,EnXi Biomedical & Waste Management (Pvt) Ltd,Main - ENXI,0
+Lahore Operations,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations - ENXI,0
+Rawalpindi Operations,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations - ENXI,0
+Faisalabad Operations,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations - ENXI,0
+Multan Operations,EnXi Biomedical & Waste Management (Pvt) Ltd,Waste Operations - ENXI,0

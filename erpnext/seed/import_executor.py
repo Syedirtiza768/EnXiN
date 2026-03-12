@@ -64,22 +64,39 @@ def _ensure_exists(doctype: str, value: str):
 		doc.insert(ignore_permissions=True)
 
 
-def _safe_insert(doc):
+def _safe_insert(doc, skip_validation=False):
 	try:
+		if skip_validation:
+			doc.flags.ignore_validate = True
+			doc.flags.ignore_links = True
 		doc.insert(ignore_permissions=True)
 		return True, None
 	except Exception:
 		return False, frappe.get_traceback()
 
 
-def _import_cost_centers(rows):
+def _import_cost_centers(rows, target_company=None, target_abbr=None):
 	"""Tree-aware Cost Center importer — creates parents before children."""
 	inserted = 0
 	skipped = 0
 	errors = []
+
+	# Find existing company root cost center (created by Company.on_update)
+	company_root = None
+	if target_company:
+		company_root = frappe.db.get_value(
+			"Cost Center",
+			{"company": target_company, "is_group": 1, "parent_cost_center": ("in", ["", None])},
+			"name",
+		) or frappe.db.get_value(
+			"Cost Center",
+			{"company": target_company, "is_group": 1},
+			"name",
+		)
+
 	for row in rows:
 		name = row.get("cost_center_name")
-		company = row.get("company")
+		company = row.get("company") or target_company
 		if not name:
 			skipped += 1
 			continue
@@ -93,7 +110,14 @@ def _import_cost_centers(rows):
 			doc.company = company
 			parent = row.get("parent_cost_center", "")
 			if parent:
-				doc.parent_cost_center = parent
+				# Check if the referenced parent exists; if not, use company root
+				if frappe.db.exists("Cost Center", parent):
+					doc.parent_cost_center = parent
+				elif company_root:
+					doc.parent_cost_center = company_root
+			elif company_root:
+				# No parent specified — nest under existing company root
+				doc.parent_cost_center = company_root
 			doc.is_group = row.get("is_group", 0)
 			doc.insert(ignore_permissions=True)
 			inserted += 1
@@ -102,7 +126,8 @@ def _import_cost_centers(rows):
 	return {"inserted": inserted, "skipped": skipped, "errors": errors}
 
 
-def _upsert_simple(doctype: str, rows, key_field: str, field_map: dict[str, str] | None = None):
+def _upsert_simple(doctype: str, rows, key_field: str, field_map: dict[str, str] | None = None,
+				   skip_validation: bool = False):
 	inserted = 0
 	skipped = 0
 	errors = []
@@ -114,7 +139,10 @@ def _upsert_simple(doctype: str, rows, key_field: str, field_map: dict[str, str]
 			skipped += 1
 			continue
 
-		if frappe.db.exists(doctype, {key_field: key}):
+		# Check by field filter first, then fallback to name-based lookup.
+		# This handles doctypes where existing records have name set but the
+		# title field is empty (e.g. Designation created by setup wizard).
+		if frappe.db.exists(doctype, {key_field: key}) or frappe.db.exists(doctype, key):
 			skipped += 1
 			continue
 
@@ -130,7 +158,7 @@ def _upsert_simple(doctype: str, rows, key_field: str, field_map: dict[str, str]
 			if src in doc.meta.get_valid_columns() and val != "":
 				doc.set(src, val)
 
-		ok, err = _safe_insert(doc)
+		ok, err = _safe_insert(doc, skip_validation=skip_validation)
 		if ok:
 			inserted += 1
 		else:
@@ -151,6 +179,10 @@ def _import_addresses(rows):
 			continue
 
 		doc = frappe.new_doc("Address")
+		# Force the explicit name from CSV so that other doctypes (Delivery Stop)
+		# can reference the address by this deterministic name.
+		if name:
+			doc.name = name
 		doc.address_title = row.get("address_title")
 		doc.address_type = row.get("address_type")
 		doc.address_line1 = row.get("address_line1")
@@ -369,7 +401,6 @@ def _import_stock_entries(se_rows, sed_rows):
 		doc = frappe.new_doc("Stock Entry")
 		doc.naming_series = row.get("naming_series") or "STE-.YYYY.-"
 		doc.stock_entry_type = row.get("stock_entry_type") or row.get("purpose") or "Material Receipt"
-		doc.purpose = row.get("purpose") or "Material Receipt"
 		doc.posting_date = row.get("posting_date")
 		doc.company = row.get("company")
 
@@ -387,7 +418,7 @@ def _import_stock_entries(se_rows, sed_rows):
 				child["s_warehouse"] = item["s_warehouse"]
 			doc.append("items", child)
 
-		ok, err = _safe_insert(doc)
+		ok, err = _safe_insert(doc, skip_validation=True)
 		if ok:
 			inserted += 1
 		else:
@@ -397,7 +428,7 @@ def _import_stock_entries(se_rows, sed_rows):
 
 
 def _import_with_children(doctype, parent_rows, child_rows, child_fieldname,
-						  extra_parent_cb=None):
+						  extra_parent_cb=None, skip_validation=False):
 	"""Generic importer for parent-child doctypes."""
 	items_by_parent = defaultdict(list)
 	for row in child_rows:
@@ -429,7 +460,7 @@ def _import_with_children(doctype, parent_rows, child_rows, child_fieldname,
 						  if k not in ("parent", "parenttype", "parentfield", "") and v}
 			doc.append(child_fieldname, child_dict)
 
-		ok, err = _safe_insert(doc)
+		ok, err = _safe_insert(doc, skip_validation=skip_validation)
 		if ok:
 			inserted += 1
 		else:
@@ -492,7 +523,7 @@ def _import_holiday_lists(hl_rows, h_rows):
 	return {"inserted": inserted, "skipped": skipped, "errors": errors}
 
 
-def _import_bulk(doctype, rows):
+def _import_bulk(doctype, rows, skip_validation=False):
 	"""Import rows without dedup - for doctypes without natural unique keys."""
 	inserted = 0
 	errors = []
@@ -504,7 +535,7 @@ def _import_bulk(doctype, rows):
 				continue
 			if k in valid_cols:
 				doc.set(k, v)
-		ok, err = _safe_insert(doc)
+		ok, err = _safe_insert(doc, skip_validation=skip_validation)
 		if ok:
 			inserted += 1
 		else:
@@ -686,6 +717,7 @@ def import_seed(seed_dir: str = "seed_output", company_override: str | None = No
 
 	# ── Pre-create baseline references ──
 	_log("  Pre-creating baseline references ...")
+	target_currency = frappe.db.get_value("Company", target_company, "default_currency") or "PKR"
 	for cg in ("Commercial", "Institutional", "Government"):
 		_ensure_exists("Customer Group", cg)
 	for sg in ("Services", "Raw Material", "Equipment Vendor", "Fuel Supplier", "Vehicle Parts", "IT Services", "Insurance"):
@@ -703,10 +735,31 @@ def import_seed(seed_dir: str = "seed_output", company_override: str | None = No
 			frappe.get_doc({"doctype": "Price List", "price_list_name": pl_name,
 				"selling": 1 if "Selling" in pl_name else 0,
 				"buying": 1 if "Buying" in pl_name else 0,
-				"currency": target_currency}).insert(ignore_permissions=True)	frappe.db.commit()
+				"currency": target_currency}).insert(ignore_permissions=True)
+	# Pre-create Sales Person records needed by Maintenance Visit Purposes
+	sp_root = "Sales Team"
+	if not frappe.db.exists("Sales Person", sp_root):
+		try:
+			frappe.get_doc({"doctype": "Sales Person", "sales_person_name": sp_root, "is_group": 1}).insert(ignore_permissions=True)
+		except Exception:
+			pass
+	sp_names = set()
+	for row in mvp_rows:
+		sp = row.get("service_person")
+		if sp:
+			sp_names.add(sp)
+	for sp in sp_names:
+		if not frappe.db.exists("Sales Person", sp) and not frappe.db.exists("Sales Person", {"sales_person_name": sp}):
+			try:
+				doc = frappe.new_doc("Sales Person")
+				doc.sales_person_name = sp
+				doc.parent_sales_person = sp_root
+				doc.is_group = 0
+				doc.insert(ignore_permissions=True)
+			except Exception:
+				pass
+	frappe.db.commit()
 	_log("  ✓ Baseline references ready")
-
-	target_currency = frappe.db.get_value("Company", target_company, "default_currency") or "PKR"
 
 	def _set_currency(doc, row):
 		doc.currency = target_currency
@@ -743,8 +796,14 @@ def import_seed(seed_dir: str = "seed_output", company_override: str | None = No
 		dt = time.time() - t0
 		ins = result.get('inserted', 0)
 		skp = result.get('skipped', 0)
-		err = len(result.get('errors', []))
-		_log(f"  ✓ {label}: {ins} inserted, {skp} skipped, {err} errors  ({dt:.1f}s)")
+		errs = result.get('errors', [])
+		err_count = len(errs)
+		_log(f"  ✓ {label}: {ins} inserted, {skp} skipped, {err_count} errors  ({dt:.1f}s)")
+		if errs:
+			first = errs[0]
+			tb = first.get("error", "")
+			last_line = tb.strip().split('\n')[-1] if tb else "unknown"
+			_log(f"    ⚠ First error [{first.get('key', '?')}]: {last_line[:200]}")
 		report[label] = result
 
 	_log("\n═══ Starting seed import ═══")
@@ -755,7 +814,7 @@ def import_seed(seed_dir: str = "seed_output", company_override: str | None = No
 	_step("Designation", _upsert_simple, "Designation", designation_rows, "designation_name")
 	_step("Department", _upsert_simple, "Department", department_rows, "department_name")
 	_step("Warehouse", _upsert_simple, "Warehouse", warehouse_rows, "name")
-	_step("Cost Center", _import_cost_centers, cost_center_rows)
+	_step("Cost Center", _import_cost_centers, cost_center_rows, target_company, target_abbr)
 	_step("Customer Group", _upsert_simple, "Customer Group", customer_group_rows, "customer_group_name")
 	_step("Supplier Group", _upsert_simple, "Supplier Group", supplier_group_rows, "supplier_group_name")
 	_step("Territory", _upsert_simple, "Territory", territory_rows, "territory_name")
@@ -775,21 +834,21 @@ def import_seed(seed_dir: str = "seed_output", company_override: str | None = No
 	_step("Opportunity", _import_with_children, "Opportunity", opportunity_rows, opportunity_item_rows, "items", _set_currency)
 	_step("Contract", _upsert_simple, "Contract", contract_rows, "party_name")
 	_step("Project", _upsert_simple, "Project", project_rows, "project_name")
-	_step("Task", _upsert_simple, "Task", task_rows, "subject")
+	_step("Task", _upsert_simple, "Task", task_rows, "subject", skip_validation=True)
 	_step("Quotation", _import_quotations, quotation_rows, quotation_item_rows, company_currency=target_currency)
 	_step("Sales Order", _import_sales_orders, so_rows, soi_rows, company_currency=target_currency)
 	_step("Purchase Order", _import_purchase_orders, po_rows, poi_rows, company_currency=target_currency)
 	_step("Material Request", _import_with_children, "Material Request", mr_rows, mri_rows, "items")
-	_step("Purchase Receipt", _import_with_children, "Purchase Receipt", pr_rows, pri_rows, "items", _set_currency)
+	_step("Purchase Receipt", _import_with_children, "Purchase Receipt", pr_rows, pri_rows, "items", _set_currency, skip_validation=True)
 	_step("Stock Entry", _import_stock_entries, stock_entry_rows, stock_entry_detail_rows)
-	_step("Delivery Note", _import_with_children, "Delivery Note", dn_rows, dni_rows, "items", _set_currency)
-	_step("Sales Invoice", _import_with_children, "Sales Invoice", si_rows, sii_rows, "items", _set_si_defaults)
-	_step("Purchase Invoice", _import_with_children, "Purchase Invoice", pi_rows, pii_rows, "items", _set_pi_defaults)
-	_step("Issue", _upsert_simple, "Issue", issue_rows, "subject")
-	_step("Maintenance Visit", _import_with_children, "Maintenance Visit", mv_rows, mvp_rows, "purposes")
-	_step("Delivery Trip", _import_with_children, "Delivery Trip", dt_rows, ds_rows, "delivery_stops")
-	_step("Maintenance Schedule", _import_with_children, "Maintenance Schedule", ms_rows, msi_rows, "items")
-	_step("Quality Inspection", _import_bulk, "Quality Inspection", qi_rows)
+	_step("Delivery Note", _import_with_children, "Delivery Note", dn_rows, dni_rows, "items", _set_currency, skip_validation=True)
+	_step("Sales Invoice", _import_with_children, "Sales Invoice", si_rows, sii_rows, "items", _set_si_defaults, skip_validation=True)
+	_step("Purchase Invoice", _import_with_children, "Purchase Invoice", pi_rows, pii_rows, "items", _set_pi_defaults, skip_validation=True)
+	_step("Issue", _upsert_simple, "Issue", issue_rows, "subject", skip_validation=True)
+	_step("Maintenance Visit", _import_with_children, "Maintenance Visit", mv_rows, mvp_rows, "purposes", skip_validation=True)
+	_step("Delivery Trip", _import_with_children, "Delivery Trip", dt_rows, ds_rows, "delivery_stops", skip_validation=True)
+	_step("Maintenance Schedule", _import_with_children, "Maintenance Schedule", ms_rows, msi_rows, "items", skip_validation=True)
+	_step("Quality Inspection", _import_bulk, "Quality Inspection", qi_rows, skip_validation=True)
 
 	# ── JSON sidecars (for audit/analytics) ──
 	json_sidecars = [

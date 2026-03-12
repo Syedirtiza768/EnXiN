@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-12T07:03:27.360811Z",
+  "generated_at": "2026-03-12T07:42:06.206434Z",
   "generator": "generate_comprehensive_seed.py",
   "location": "Lahore, Pakistan",
   "company": "EnXi Biomedical & Waste Management (Pvt) Ltd",
@@ -90,7 +90,7 @@
     "Disposal Certificates (JSON)": 1500,
     "Route Schedules (JSON)": 52,
     "Fuel Logs (JSON)": 2000,
-    "Environmental Monitoring (JSON)": 737,
+    "Environmental Monitoring (JSON)": 732,
     "Financial Events (JSON)": 300
   },
   "schema_scope": {

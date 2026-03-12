@@ -532,12 +532,15 @@ def build_warehouses() -> List[Dict]:
 
 def build_cost_centers() -> List[Dict]:
     rows = []
+    # Determine which cost centers are parents (need is_group = 1)
+    parent_names = {parent for _, parent in COST_CENTERS if parent}
     for name, parent in COST_CENTERS:
         parent_ref = f"{parent} - {COMPANY_ABBR}" if parent else ""
         rows.append({
             "cost_center_name": name,
             "company": COMPANY_NAME,
             "parent_cost_center": parent_ref,
+            "is_group": 1 if name in parent_names or parent is None else 0,
         })
     return rows
 
@@ -1230,8 +1233,8 @@ def build_tasks(projects: List[Dict], cfg: VolumeConfig) -> List[Dict]:
                 "subject": f"{task_name} - {proj['project_name'][:40]}",
                 "project": proj["project_name"],
                 "status": random.choice(["Open", "Working", "Completed", "Overdue"]),
-                "exp_start_date": start.isoformat(),
-                "exp_end_date": min(end, proj_end).isoformat(),
+                "exp_start_date": f"{start.isoformat()} 08:00:00",
+                "exp_end_date": f"{min(end, proj_end).isoformat()} 17:00:00",
                 "company": COMPANY_NAME,
             })
         if len(rows) >= cfg.tasks:
@@ -1817,7 +1820,7 @@ def build_quality_inspections(items: List[Dict], purchase_receipts: List[Dict],
             "reference_name": ref_name,
             "item_code": item["item_code"],
             "sample_size": random.randint(1, 10),
-            "inspected_by": f"{random.choice(FIRST_NAMES_MALE)} {random.choice(LAST_NAMES)}",
+            "inspected_by": "Administrator",
             "status": random.choice(["Accepted", "Accepted", "Rejected"]),
         })
     return rows
@@ -2302,7 +2305,7 @@ def generate(cfg: VolumeConfig, out_dir: Path) -> None:
     write_csv(out_dir / "Warehouse.csv", warehouses,
               ["warehouse_name", "name", "company"])
     write_csv(out_dir / "Cost_Center.csv", cost_centers,
-              ["cost_center_name", "company", "parent_cost_center"])
+              ["cost_center_name", "company", "parent_cost_center", "is_group"])
     write_csv(out_dir / "Item_Group.csv", item_groups,
               ["item_group_name", "parent_item_group", "is_group"])
     write_csv(out_dir / "Brand.csv", brands, ["brand"])
