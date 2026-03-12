@@ -69,6 +69,7 @@ def _safe_insert(doc, skip_validation=False):
 		if skip_validation:
 			doc.flags.ignore_validate = True
 			doc.flags.ignore_links = True
+			doc.flags.ignore_mandatory = True
 		doc.insert(ignore_permissions=True)
 		return True, None
 	except Exception:
@@ -84,6 +85,7 @@ def _import_cost_centers(rows, target_company=None, target_abbr=None):
 	# Find existing company root cost center (created by Company.on_update)
 	company_root = None
 	if target_company:
+		# First try to find an existing group root
 		company_root = frappe.db.get_value(
 			"Cost Center",
 			{"company": target_company, "is_group": 1, "parent_cost_center": ("in", ["", None])},
@@ -93,6 +95,20 @@ def _import_cost_centers(rows, target_company=None, target_abbr=None):
 			{"company": target_company, "is_group": 1},
 			"name",
 		)
+		# If no group root, find any root and force it to be a group
+		if not company_root:
+			any_root = frappe.db.get_value(
+				"Cost Center",
+				{"company": target_company, "parent_cost_center": ("in", ["", None])},
+				"name",
+			) or frappe.db.get_value(
+				"Cost Center",
+				{"company": target_company},
+				"name",
+			)
+			if any_root:
+				frappe.db.set_value("Cost Center", any_root, "is_group", 1)
+				company_root = any_root
 
 	for row in rows:
 		name = row.get("cost_center_name")
@@ -246,7 +262,7 @@ def _import_sales_orders(so_rows, soi_rows, company_currency: str = "PKR"):
 				},
 			)
 
-		ok, err = _safe_insert(doc)
+		ok, err = _safe_insert(doc, skip_validation=True)
 		if ok:
 			inserted += 1
 		else:
@@ -328,7 +344,7 @@ def _import_quotations(q_rows, qi_rows, company_currency: str = "PKR"):
 				},
 			)
 
-		ok, err = _safe_insert(doc)
+		ok, err = _safe_insert(doc, skip_validation=True)
 		if ok:
 			inserted += 1
 		else:
@@ -374,7 +390,7 @@ def _import_purchase_orders(po_rows, poi_rows, company_currency: str = "PKR"):
 				},
 			)
 
-		ok, err = _safe_insert(doc)
+		ok, err = _safe_insert(doc, skip_validation=True)
 		if ok:
 			inserted += 1
 		else:
@@ -700,14 +716,8 @@ def import_seed(seed_dir: str = "seed_output", company_override: str | None = No
 	for row in cost_center_rows:
 		row["parent_cost_center"] = _remap_wh(row.get("parent_cost_center", ""))
 
-	# Department names in ERPNext include company abbreviation (e.g. "Waste Operations - GBC").
-	# The seed CSVs store plain names. Append target abbreviation to department references.
-	if target_abbr:
-		for rows_list in [employee_rows, project_rows, task_rows]:
-			for row in rows_list:
-				dept = row.get("department", "")
-				if dept and " - " not in dept:
-					row["department"] = f"{dept} - {target_abbr}"
+	# Department names in ERPNext include company abbreviation (e.g. "Waste Operations - GBCD").
+	# We resolve these dynamically from the DB after department import (see below).
 
 	report = {}
 	report["Company Mapping"] = {
@@ -813,6 +823,28 @@ def import_seed(seed_dir: str = "seed_output", company_override: str | None = No
 	_step("Branch", _upsert_simple, "Branch", branch_rows, "branch")
 	_step("Designation", _upsert_simple, "Designation", designation_rows, "designation_name")
 	_step("Department", _upsert_simple, "Department", department_rows, "department_name")
+
+	# ── Resolve department references from DB (name includes company abbr) ──
+	_log("  Resolving department references ...")
+	dept_lookup = {}
+	for d in frappe.get_all("Department", filters={"company": target_company}, fields=["name", "department_name"]):
+		dept_lookup[d.department_name] = d.name
+		dept_lookup[d.name] = d.name
+	for d in frappe.get_all("Department", filters={"company": ["in", ["", None]]}, fields=["name", "department_name"]):
+		if d.department_name not in dept_lookup:
+			dept_lookup[d.department_name] = d.name
+			dept_lookup[d.name] = d.name
+	for rows_list in [employee_rows, project_rows, task_rows]:
+		for row in rows_list:
+			dept = row.get("department", "")
+			if not dept:
+				continue
+			if dept in dept_lookup:
+				row["department"] = dept_lookup[dept]
+			elif f"{dept} - {target_abbr}" in dept_lookup:
+				row["department"] = dept_lookup[f"{dept} - {target_abbr}"]
+	_log(f"  ✓ Resolved {len(dept_lookup)} department mappings")
+
 	_step("Warehouse", _upsert_simple, "Warehouse", warehouse_rows, "name")
 	_step("Cost Center", _import_cost_centers, cost_center_rows, target_company, target_abbr)
 	_step("Customer Group", _upsert_simple, "Customer Group", customer_group_rows, "customer_group_name")
@@ -824,21 +856,38 @@ def import_seed(seed_dir: str = "seed_output", company_override: str | None = No
 	_step("Supplier", _upsert_simple, "Supplier", supplier_rows, "supplier_name")
 	_step("Item", _upsert_simple, "Item", item_rows, "item_code")
 	_step("Item Price", _import_item_prices, item_price_rows)
-	_step("Employee", _upsert_simple, "Employee", employee_rows, "employee_name")
+	_step("Employee", _upsert_simple, "Employee", employee_rows, "employee_name", skip_validation=True)
 	_step("Vehicle", _upsert_simple, "Vehicle", vehicle_rows, "license_plate")
 	_step("Driver", _upsert_simple, "Driver", driver_rows, "full_name")
 	_step("Holiday List", _import_holiday_lists, holiday_list_rows, holiday_rows)
 	_step("Address", _import_addresses, address_rows)
 	_step("Contact", _import_contacts, contact_rows)
 	_step("Lead", _upsert_simple, "Lead", lead_rows, "company_name")
-	_step("Opportunity", _import_with_children, "Opportunity", opportunity_rows, opportunity_item_rows, "items", _set_currency)
+	_step("Opportunity", _import_with_children, "Opportunity", opportunity_rows, opportunity_item_rows, "items", _set_currency, skip_validation=True)
 	_step("Contract", _upsert_simple, "Contract", contract_rows, "party_name")
 	_step("Project", _upsert_simple, "Project", project_rows, "project_name")
+
+	# ── Resolve project references (Project name includes naming series) ──
+	_log("  Resolving project references ...")
+	proj_lookup = {}
+	for p in frappe.get_all("Project", filters={"company": target_company}, fields=["name", "project_name"]):
+		proj_lookup[p.project_name] = p.name
+		proj_lookup[p.name] = p.name
+	for row in task_rows:
+		proj = row.get("project", "")
+		if not proj:
+			continue
+		if proj in proj_lookup:
+			row["project"] = proj_lookup[proj]
+		else:
+			row["project"] = ""  # clear invalid ref to avoid DoesNotExistError
+	_log(f"  ✓ Resolved {len(proj_lookup)} project mappings")
+
 	_step("Task", _upsert_simple, "Task", task_rows, "subject", skip_validation=True)
 	_step("Quotation", _import_quotations, quotation_rows, quotation_item_rows, company_currency=target_currency)
 	_step("Sales Order", _import_sales_orders, so_rows, soi_rows, company_currency=target_currency)
 	_step("Purchase Order", _import_purchase_orders, po_rows, poi_rows, company_currency=target_currency)
-	_step("Material Request", _import_with_children, "Material Request", mr_rows, mri_rows, "items")
+	_step("Material Request", _import_with_children, "Material Request", mr_rows, mri_rows, "items", skip_validation=True)
 	_step("Purchase Receipt", _import_with_children, "Purchase Receipt", pr_rows, pri_rows, "items", _set_currency, skip_validation=True)
 	_step("Stock Entry", _import_stock_entries, stock_entry_rows, stock_entry_detail_rows)
 	_step("Delivery Note", _import_with_children, "Delivery Note", dn_rows, dni_rows, "items", _set_currency, skip_validation=True)

@@ -961,11 +961,16 @@ def build_holiday_lists() -> Tuple[List[Dict], List[Dict]]:
             (f"{year}-11-09", "Iqbal Day"),
             (f"{year}-12-25", "Quaid-e-Azam Day"),
         ]
-        # Add Eid approximations
+        # Add Eid approximations (avoid dates already used by fixed holidays)
+        used_dates = {h[0] for h in holidays}
         for desc in ["Eid ul Fitr Day 1", "Eid ul Fitr Day 2", "Eid ul Fitr Day 3",
                       "Eid ul Adha Day 1", "Eid ul Adha Day 2", "Eid ul Adha Day 3",
                       "Shab-e-Meraj", "Shab-e-Barat", "12 Rabi ul Awal"]:
-            hdate = date(year, random.randint(1, 12), random.randint(1, 28))
+            for _attempt in range(50):
+                hdate = date(year, random.randint(1, 12), random.randint(1, 28))
+                if hdate.isoformat() not in used_dates:
+                    break
+            used_dates.add(hdate.isoformat())
             holidays.append((hdate.isoformat(), desc))
 
         for hdate, desc in holidays:

@@ -1,28 +1,28 @@
 name,address_title,address_type,address_line1,city,country,links
-ADDR-0001,Mayo District Hospital 01,Billing,"Block 21, Valencia Town",Lahore,Pakistan,Customer::Mayo District Hospital 01
-ADDR-0002,Mayo District Hospital 01 - Service,Shipping,"Building 15, Valencia Town",Lahore,Pakistan,Customer::Mayo District Hospital 01
-ADDR-0003,City Care Tertiary Hospital 02,Billing,"Block 18, DHA Phase 1",Lahore,Pakistan,Customer::City Care Tertiary Hospital 02
-ADDR-0004,City Care Tertiary Hospital 02 - Service,Shipping,"Building 5, DHA Phase 1",Lahore,Pakistan,Customer::City Care Tertiary Hospital 02
-ADDR-0005,Sharif Medical General Hospital 03,Billing,"Block 18, Iqbal Town",Lahore,Pakistan,Customer::Sharif Medical General Hospital 03
-ADDR-0006,Sharif Medical General Hospital 03 - Service,Shipping,"Building 4, Iqbal Town",Lahore,Pakistan,Customer::Sharif Medical General Hospital 03
-ADDR-0007,Services Specialized Hospital 04,Billing,"Block 40, Johar Town",Lahore,Pakistan,Customer::Services Specialized Hospital 04
-ADDR-0008,Services Specialized Hospital 04 - Service,Shipping,"Building 18, Johar Town",Lahore,Pakistan,Customer::Services Specialized Hospital 04
-ADDR-0009,Mayo Teaching Hospital 05,Billing,"Block 7, EME Society",Lahore,Pakistan,Customer::Mayo Teaching Hospital 05
-ADDR-0010,Mayo Teaching Hospital 05 - Service,Shipping,"Building 7, EME Society",Lahore,Pakistan,Customer::Mayo Teaching Hospital 05
-ADDR-0011,Lady Willingdon Tertiary Hospital 06,Billing,"Block 23, Valencia Town",Lahore,Pakistan,Customer::Lady Willingdon Tertiary Hospital 06
-ADDR-0012,Lady Willingdon Tertiary Hospital 06 - Service,Shipping,"Building 18, Valencia Town",Lahore,Pakistan,Customer::Lady Willingdon Tertiary Hospital 06
-ADDR-0013,Central Tertiary Hospital 07,Billing,"Block 18, Township",Lahore,Pakistan,Customer::Central Tertiary Hospital 07
-ADDR-0014,Central Tertiary Hospital 07 - Service,Shipping,"Building 5, Township",Lahore,Pakistan,Customer::Central Tertiary Hospital 07
-ADDR-0015,Sir Ganga Ram District Hospital 08,Billing,"Block 37, Shadman",Lahore,Pakistan,Customer::Sir Ganga Ram District Hospital 08
-ADDR-0016,Sir Ganga Ram District Hospital 08 - Service,Shipping,"Building 8, Shadman",Lahore,Pakistan,Customer::Sir Ganga Ram District Hospital 08
-ADDR-0017,Fatima Memorial Tertiary Hospital 09,Billing,"Block 5, Iqbal Town",Lahore,Pakistan,Customer::Fatima Memorial Tertiary Hospital 09
-ADDR-0018,Fatima Memorial Tertiary Hospital 09 - Service,Shipping,"Building 10, Iqbal Town",Lahore,Pakistan,Customer::Fatima Memorial Tertiary Hospital 09
-ADDR-0019,Mayo Specialized Hospital 10,Billing,"Block 22, Faisal Town",Lahore,Pakistan,Customer::Mayo Specialized Hospital 10
-ADDR-0020,Mayo Specialized Hospital 10 - Service,Shipping,"Building 18, Faisal Town",Lahore,Pakistan,Customer::Mayo Specialized Hospital 10
-ADDR-0021,LifeLine General Hospital 11,Billing,"Block 4, Bahria Town",Lahore,Pakistan,Customer::LifeLine General Hospital 11
-ADDR-0022,LifeLine General Hospital 11 - Service,Shipping,"Building 5, Bahria Town",Lahore,Pakistan,Customer::LifeLine General Hospital 11
-ADDR-0023,Ghurki Trust Tertiary Hospital 12,Billing,"Block 31, Johar Town",Lahore,Pakistan,Customer::Ghurki Trust Tertiary Hospital 12
-ADDR-0024,Ghurki Trust Tertiary Hospital 12 - Service,Shipping,"Building 2, Johar Town",Lahore,Pakistan,Customer::Ghurki Trust Tertiary Hospital 12
+ADDR-0001,Mayo District Hospital 01,Billing,"Block 43, Bahria Town",Lahore,Pakistan,Customer::Mayo District Hospital 01
+ADDR-0002,Mayo District Hospital 01 - Service,Shipping,"Building 4, Bahria Town",Lahore,Pakistan,Customer::Mayo District Hospital 01
+ADDR-0003,City Care Tertiary Hospital 02,Billing,"Block 10, Wapda Town",Lahore,Pakistan,Customer::City Care Tertiary Hospital 02
+ADDR-0004,City Care Tertiary Hospital 02 - Service,Shipping,"Building 6, Wapda Town",Lahore,Pakistan,Customer::City Care Tertiary Hospital 02
+ADDR-0005,Sharif Medical General Hospital 03,Billing,"Block 8, Wapda Town",Lahore,Pakistan,Customer::Sharif Medical General Hospital 03
+ADDR-0006,Sharif Medical General Hospital 03 - Service,Shipping,"Building 1, Wapda Town",Lahore,Pakistan,Customer::Sharif Medical General Hospital 03
+ADDR-0007,Services Specialized Hospital 04,Billing,"Block 36, Faisal Town",Lahore,Pakistan,Customer::Services Specialized Hospital 04
+ADDR-0008,Services Specialized Hospital 04 - Service,Shipping,"Building 17, Faisal Town",Lahore,Pakistan,Customer::Services Specialized Hospital 04
+ADDR-0009,Mayo Teaching Hospital 05,Billing,"Block 14, DHA Phase 1",Lahore,Pakistan,Customer::Mayo Teaching Hospital 05
+ADDR-0010,Mayo Teaching Hospital 05 - Service,Shipping,"Building 18, DHA Phase 1",Lahore,Pakistan,Customer::Mayo Teaching Hospital 05
+ADDR-0011,Lady Willingdon Tertiary Hospital 06,Billing,"Block 36, Gulshan-e-Ravi",Lahore,Pakistan,Customer::Lady Willingdon Tertiary Hospital 06
+ADDR-0012,Lady Willingdon Tertiary Hospital 06 - Service,Shipping,"Building 11, Gulshan-e-Ravi",Lahore,Pakistan,Customer::Lady Willingdon Tertiary Hospital 06
+ADDR-0013,Central Tertiary Hospital 07,Billing,"Block 10, Wapda Town",Lahore,Pakistan,Customer::Central Tertiary Hospital 07
+ADDR-0014,Central Tertiary Hospital 07 - Service,Shipping,"Building 10, Wapda Town",Lahore,Pakistan,Customer::Central Tertiary Hospital 07
+ADDR-0015,Sir Ganga Ram District Hospital 08,Billing,"Block 16, Lake City",Lahore,Pakistan,Customer::Sir Ganga Ram District Hospital 08
+ADDR-0016,Sir Ganga Ram District Hospital 08 - Service,Shipping,"Building 6, Lake City",Lahore,Pakistan,Customer::Sir Ganga Ram District Hospital 08
+ADDR-0017,Fatima Memorial Tertiary Hospital 09,Billing,"Block 20, Model Town",Lahore,Pakistan,Customer::Fatima Memorial Tertiary Hospital 09
+ADDR-0018,Fatima Memorial Tertiary Hospital 09 - Service,Shipping,"Building 20, Model Town",Lahore,Pakistan,Customer::Fatima Memorial Tertiary Hospital 09
+ADDR-0019,Mayo Specialized Hospital 10,Billing,"Block 35, Township",Lahore,Pakistan,Customer::Mayo Specialized Hospital 10
+ADDR-0020,Mayo Specialized Hospital 10 - Service,Shipping,"Building 15, Township",Lahore,Pakistan,Customer::Mayo Specialized Hospital 10
+ADDR-0021,LifeLine General Hospital 11,Billing,"Block 9, Gulberg",Lahore,Pakistan,Customer::LifeLine General Hospital 11
+ADDR-0022,LifeLine General Hospital 11 - Service,Shipping,"Building 1, Gulberg",Lahore,Pakistan,Customer::LifeLine General Hospital 11
+ADDR-0023,Ghurki Trust Tertiary Hospital 12,Billing,"Block 44, Askari 10",Lahore,Pakistan,Customer::Ghurki Trust Tertiary Hospital 12
+ADDR-0024,Ghurki Trust Tertiary Hospital 12 - Service,Shipping,"Building 2, Askari 10",Lahore,Pakistan,Customer::Ghurki Trust Tertiary Hospital 12
 ADDR-0025,Gulab Devi Tertiary Hospital 13,Billing,"Block 25, DHA Phase 1",Lahore,Pakistan,Customer::Gulab Devi Tertiary Hospital 13
 ADDR-0026,Gulab Devi Tertiary Hospital 13 - Service,Shipping,"Building 2, DHA Phase 1",Lahore,Pakistan,Customer::Gulab Devi Tertiary Hospital 13
 ADDR-0027,Prime Teaching Hospital 14,Billing,"Block 28, Model Town",Lahore,Pakistan,Customer::Prime Teaching Hospital 14
